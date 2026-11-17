@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/best-split-each-node-s-side.js"
+  },
+  "transformation/data-child": ["data/id", "c1e91f57-ef13-5d03-be51-3356991dcecf"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "js-web-worker",
+  "transformation/id": "69195d64-ab44-5d79-bb2d-cf54f374ddd7",
+  "transformation/inputs": [],
+  "transformation/language": "javascript",
+  "transformation/name": "Best split: each node's side",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "5d96d4b6-5205-557d-b13c-7da502ca7afb"],
+  "transformation/units": "{}"
+}

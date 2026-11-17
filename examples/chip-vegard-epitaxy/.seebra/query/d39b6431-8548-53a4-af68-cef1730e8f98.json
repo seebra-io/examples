@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "0670b187-8ed7-5b32-855d-dc72bb21335f"],
+  "query/datasource": ["datasource/id", "d5a9dede-364d-5eda-bab7-e7b894198d30"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "d39b6431-8548-53a4-af68-cef1730e8f98",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "COD entries for AlAs (measured)",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 1040
+  },
+  "query/params": "{\"format\":\"json\",\"formula\":\"Al As\"}",
+  "query/path": "/result",
+  "query/request-body": "",
+  "query/units": "{}"
+}

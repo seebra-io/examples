@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/daily-envelope.polars.py"
+  },
+  "transformation/data-child": ["data/id", "a64c21fc-18d0-5c18-bdd6-78efea0c1785"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "6bb3308c-31a2-5dae-b6c5-3a6bc2635caf",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Daily envelope",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 800
+  },
+  "transformation/parent": ["data/id", "db471de8-4203-5cef-bf4b-e21489e39cdf"],
+  "transformation/units": "{}"
+}

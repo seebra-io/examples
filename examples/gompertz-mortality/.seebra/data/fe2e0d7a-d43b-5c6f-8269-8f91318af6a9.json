@@ -1,0 +1,10 @@
+{
+  "data/id": "fe2e0d7a-d43b-5c6f-8269-8f91318af6a9",
+  "data/name": "Death rate by age data",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "40a6e54c-e155-5142-a334-91eeeb5a9d58"],
+  "data/type": "json"
+}

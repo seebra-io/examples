@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/parse-transistors-thousands.polars.py"
+  },
+  "transformation/data-child": ["data/id", "fac31129-7fea-5c27-b542-c3938347052c"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "0f5e04dd-c8c7-5b2a-b28c-761df7a1710d",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Parse transistors (thousands)",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "9cefe24e-ebbd-52a7-974b-84ea362c1948"],
+  "transformation/units": "{}"
+}

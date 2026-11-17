@@ -1,0 +1,41 @@
+{
+  "dashboard/id": "24d5099e-c205-5330-abbb-ec7b9ef2b792",
+  "datas": [
+    ["data/id", "8678bee2-487a-5d07-bccd-4f5e73735b81"],
+    ["data/id", "720d1e0f-d7a0-552b-96c8-ab744b23aef7"],
+    ["data/id", "71a0a7cf-9c44-5363-a836-38ab17042c43"],
+    ["data/id", "8d82bb4e-c7aa-5033-b656-30e8d6cb3e17"],
+    ["data/id", "8134e6d4-086b-5583-8e5f-dde534c937ff"],
+    ["data/id", "58de972f-9ba1-5023-9386-be0b7e4a298c"],
+    ["data/id", "a27ce431-d01e-5772-972f-e65bdf52c818"]
+  ],
+  "datasources": [
+    ["datasource/id", "31e3570c-edbb-5891-a39c-f502e2679762"]
+  ],
+  "description": "Question: why does one α emitter live a microsecond and a near neighbour billions of years, when their decay energies differ by only a few MeV? Idea: quantum tunnelling (Gamow 1928). The α particle rattles inside the nucleus and leaks through the Coulomb barrier with probability exp(−2G); G grows like Z/√Q, so a small drop in energy Q makes the barrier exponentially harder to cross. The IAEA LiveChart of Nuclides gives every known ground state (ENSDF: half-life, decay mode, Q_α); Polars and SQL compute the WKB exponent G = 2η[arccos√x − √(x(1−x))] from Z, A and Q alone (nuclear radius 1.2 A^⅓ fm). Against it, the 142 even–even α emitters, from ⁸Be (10⁻¹⁶ s) to ¹⁸⁰W (10¹⁸ years), 42 decades, fall on one straight line of slope 0.99 (the bare WKB prediction is 1; r = 0.9986, scatter 0.39 dex), and its intercept, −20.4, says the α particle knocks on the barrier about 10²⁰ to 10²¹ times a second. The empirical Geiger–Nuttall law (1911), which needs one line per element, becomes one law. Caveats: a sharp-edged nuclear radius (1.2 A^⅓ fm) and no preformation factor or centrifugal barrier (angular momentum) are assumed, so those sit in the intercept and the scatter; odd-A and odd–odd nuclei are hindered (they scatter above the line); only nuclides whose main decay (≥50%) is α are used; some half-lives of very long-lived nuclides are single measurements. Next: the decay chain of ²³⁸U, the binding energy (field binding) that makes Q_α positive above A ≈ 150, or proton emission, which tunnels the same way.",
+  "graphs": [
+    ["graph/id", "f3d6fa68-5a3b-5a68-b024-c4b772073137"],
+    ["graph/id", "17278057-434b-5434-bead-1a072f1b4727"]
+  ],
+  "grids": [],
+  "name": "Alpha decay: tunnelling explains 40 decades of half-life",
+  "ontology": {
+    "$file": ".seebra/dashboard/24d5099e-c205-5330-abbb-ec7b9ef2b792.ontology.json",
+    "$json": true
+  },
+  "queries": [
+    ["query/id", "f659c753-bd36-59f2-b23f-b3b86f8ef68e"]
+  ],
+  "studies": [],
+  "tables": [],
+  "texts": [],
+  "timers": [],
+  "transformations": [
+    ["transformation/id", "034b1b50-be2b-579b-87f8-75008996c8f4"],
+    ["transformation/id", "9391dc8f-6a1c-57ba-95ef-a068407bf3c6"],
+    ["transformation/id", "478073f4-3352-5ece-bf44-7cb21efe3e36"],
+    ["transformation/id", "47356001-c788-5294-8a36-78f970501adc"],
+    ["transformation/id", "a8766f50-645b-5f0b-90df-963361e1276d"],
+    ["transformation/id", "5b50fcb3-70b6-58f8-826d-aba64062dc6e"]
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/weekly-means-three-years.polars.py"
+  },
+  "transformation/data-child": ["data/id", "cd5f9a08-45b1-5915-a671-ad0ab99046f6"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "c03ec395-10fc-5e08-9f5f-13ac1e7fe3cb",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Weekly means, three years",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1920,
+    "node/y": 560
+  },
+  "transformation/parent": ["data/id", "c0c5c9d2-3add-5bbd-a93d-043b1f7d8a30"],
+  "transformation/units": "{}"
+}

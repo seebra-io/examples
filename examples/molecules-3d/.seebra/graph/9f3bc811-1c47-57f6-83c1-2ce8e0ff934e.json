@@ -1,0 +1,16 @@
+{
+  "graph/content": {
+    "$file": "graphs/bond-lengths-cluster-by-kind-a-distribution-per.js"
+  },
+  "graph/id": "9f3bc811-1c47-57f6-83c1-2ce8e0ff934e",
+  "graph/inputs": [
+    ["data/id", "98e5398b-4dde-520d-9623-1d08484ec4ec"]
+  ],
+  "graph/language": "javascript",
+  "graph/name": "Bond lengths cluster by kind (a distribution per bond type)",
+  "graph/node": {
+    "node/x": 1460,
+    "node/y": 560
+  },
+  "graph/parent": ["data/id", "a8a4e4d5-7c9d-5b43-ae2a-087b4fe91ade"]
+}

@@ -1,0 +1,10 @@
+{
+  "data/id": "75ae6a48-13c1-5331-9b8c-460ddd0f3478",
+  "data/name": "Genotype counts, five variants data",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "d6c1a681-dd22-518a-8739-07c2ad3d3837"],
+  "data/type": "json"
+}

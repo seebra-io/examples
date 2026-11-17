@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/glycine-proline-and-the-rest.sql"
+  },
+  "transformation/data-child": ["data/id", "c2fa2960-3889-5eb1-9192-691ef554cdad"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "9db7bece-9757-5087-8bcf-9d75fcbc1c5f",
+  "transformation/inputs": [],
+  "transformation/language": "sql",
+  "transformation/name": "Glycine, proline and the rest",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 2380,
+    "node/y": 560
+  },
+  "transformation/parent": ["data/id", "bd209231-a9c6-5fbf-abd6-e51a7130c060"],
+  "transformation/units": "{}"
+}

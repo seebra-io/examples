@@ -1,0 +1,16 @@
+{
+  "datasource/api-key-key": "api_key",
+  "datasource/auth-type": "none",
+  "datasource/headers": "{}",
+  "datasource/id": "7b2cdefc-274b-5b4b-9bb4-70bb3ad2ef26",
+  "datasource/name": "World Bank",
+  "datasource/node": {
+    "inputs": 1,
+    "node/x": 80,
+    "node/y": 80,
+    "outputs": 1
+  },
+  "datasource/params": "{}",
+  "datasource/type": "openapi",
+  "datasource/url": "https://api.worldbank.org/v2"
+}

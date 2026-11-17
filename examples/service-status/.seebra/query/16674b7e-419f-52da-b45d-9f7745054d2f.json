@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "5f3b8179-374e-5caf-a6fa-c7216535102b"],
+  "query/datasource": ["datasource/id", "2404fa55-6c8d-5e80-8267-818c1256845d"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "16674b7e-419f-52da-b45d-9f7745054d2f",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "GitHub summary",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 80
+  },
+  "query/params": "{}",
+  "query/path": "/summary.json",
+  "query/request-body": "",
+  "query/units": "{}"
+}

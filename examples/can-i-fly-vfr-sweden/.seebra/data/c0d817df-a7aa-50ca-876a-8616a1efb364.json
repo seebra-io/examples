@@ -1,0 +1,10 @@
+{
+  "data/id": "c0d817df-a7aa-50ca-876a-8616a1efb364",
+  "data/name": "Prevailing forecast per airport and hour data",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "13f6c816-3a02-5dc3-9f7d-6460d83facae"],
+  "data/type": "json"
+}

@@ -1,0 +1,7 @@
+data.filter(col("first_published").is_not_null())
+    .with_columns(years_in_print = 2026 - col("first_published"))
+    .with_columns(editions_per_year = (col("editions") / col("years_in_print")).round(2))
+    .sort("editions", descending=True)
+    .with_row_index("rank_by_editions", offset=1)
+    .sort("editions_per_year", descending=True)
+    .with_row_index("rank_by_rate", offset=1)

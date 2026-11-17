@@ -1,0 +1,16 @@
+{
+  "graph/content": {
+    "$file": "graphs/bin-packing-cpu-against-memory-per-node.js"
+  },
+  "graph/id": "23aa2ada-86a8-54f9-b729-611109ff3497",
+  "graph/inputs": [
+    ["data/id", "7e118221-b1e1-54da-88bc-9af3e888163d"]
+  ],
+  "graph/language": "javascript",
+  "graph/name": "Bin-packing: CPU against memory per node",
+  "graph/node": {
+    "node/x": 1920,
+    "node/y": 320
+  },
+  "graph/parent": ["data/id", "83c77950-1d25-5623-adb6-87b1daa6d2c6"]
+}

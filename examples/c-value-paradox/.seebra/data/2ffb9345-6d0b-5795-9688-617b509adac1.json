@@ -1,0 +1,10 @@
+{
+  "data/id": "2ffb9345-6d0b-5795-9688-617b509adac1",
+  "data/name": "Plants (Viridiplantae): annotated reference genomes data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 800
+  },
+  "data/parent": ["query/id", "8284e352-1037-5845-8256-091dc34f1273"],
+  "data/type": "json"
+}

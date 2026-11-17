@@ -1,0 +1,8 @@
+{
+  "file": {
+    "file/example": "soil-heat-lowpass"
+  },
+  "format": 2,
+  "root": ["dashboard/id", "06e7ab5b-f236-5622-b777-b329006fa7a4"],
+  "seebra": "board"
+}

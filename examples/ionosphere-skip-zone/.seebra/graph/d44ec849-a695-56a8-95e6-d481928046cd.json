@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/m-3000-f2-measured-vs-mirror-model.js"
+  },
+  "graph/id": "d44ec849-a695-56a8-95e6-d481928046cd",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "M(3000)F2: measured vs mirror model",
+  "graph/node": {
+    "node/x": 1920,
+    "node/y": 560
+  },
+  "graph/parent": ["data/id", "813bc449-4ebd-5a05-bdfa-74669e707a67"]
+}

@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "e04635d5-e406-5c77-8f7b-60349f40b852"],
+  "query/datasource": ["datasource/id", "8bc12484-a3c5-5d4e-b673-7df7ba3d1541"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "a460b25a-3046-516e-893b-db1412d2913d",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Close approaches, next 30 days (JPL CAD)",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 320
+  },
+  "query/params": "{\"date-min\":\"now\",\"date-max\":\"+30\",\"dist-max\":\"0.05\",\"fullname\":\"true\",\"diameter\":\"true\"}",
+  "query/path": "/cad.api",
+  "query/request-body": "",
+  "query/units": "{}"
+}

@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/tropopause-per-column-lapse-rate-below-2-k-km.polars.py"
+  },
+  "transformation/data-child": ["data/id", "323d8d15-7501-57e1-83da-b37fb06909ef"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "a57f3c37-d4fe-5253-be71-b363d99b3f9b",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Tropopause per column (lapse rate below 2 K/km)",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 2380,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "4f13634b-86d6-5051-ba6e-7f6c2fee5c01"],
+  "transformation/units": "{}"
+}

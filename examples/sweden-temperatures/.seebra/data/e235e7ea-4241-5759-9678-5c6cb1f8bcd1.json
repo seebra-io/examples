@@ -1,0 +1,11 @@
+{
+  "data/id": "e235e7ea-4241-5759-9678-5c6cb1f8bcd1",
+  "data/name": "Stations, warmest first",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "5e76c9e5-9b18-59b3-aebe-64d45c8a0ad0"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

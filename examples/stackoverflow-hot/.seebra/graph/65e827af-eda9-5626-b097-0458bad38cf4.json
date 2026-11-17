@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/views-against-age-click-a-dot-to-open-the.js"
+  },
+  "graph/id": "65e827af-eda9-5626-b097-0458bad38cf4",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Views against age (click a dot to open the question)",
+  "graph/node": {
+    "node/x": 1460,
+    "node/y": 560
+  },
+  "graph/parent": ["data/id", "da17c55b-e0a1-5daa-9102-d722229fd1b2"]
+}

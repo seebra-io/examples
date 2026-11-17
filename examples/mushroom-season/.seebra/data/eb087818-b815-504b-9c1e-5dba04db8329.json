@@ -1,0 +1,10 @@
+{
+  "data/id": "eb087818-b815-504b-9c1e-5dba04db8329",
+  "data/name": "Chanterelle names and how sure the community is data",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "dfee98aa-d7cc-54de-8d77-50a386a62afe"],
+  "data/type": "json"
+}

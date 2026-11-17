@@ -1,0 +1,161 @@
+{
+  "title": "Codon usage bias in E. coli",
+  "summary": "Synonymous codons are used unequally, and most unequally in highly expressed genes: translational selection on top of mutation bias.",
+  "concepts": [
+    {
+      "cid": "c1",
+      "label": "Genetic code",
+      "kind": "concept",
+      "description": "The mapping of 64 codons onto 20 amino acids and stop, read here from DNA and protein side by side.",
+      "fields": [
+        "code.codon",
+        "code.aa"
+      ],
+      "in_data": true,
+      "wikidata": "Q207102",
+      "facts": [
+        {
+          "text": "61 sense codons code for 20 amino acids; 3 are stops.",
+          "source": "https://en.wikipedia.org/wiki/DNA_and_RNA_codon_tables"
+        }
+      ],
+      "children": [
+        {
+          "cid": "c2",
+          "label": "Codon",
+          "kind": "entity",
+          "as": "part",
+          "description": "Three bases of a coding sequence.",
+          "fields": [
+            "codons.codon"
+          ],
+          "in_data": true,
+          "wikidata": "Q189128"
+        },
+        {
+          "cid": "c3",
+          "label": "Synonymous codon",
+          "kind": "category",
+          "as": "subtype",
+          "description": "Codons that code for the same amino acid; how many there are is the degeneracy.",
+          "fields": [
+            "code.degeneracy"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c4",
+          "label": "Amino acid",
+          "kind": "entity",
+          "as": "part",
+          "description": "What a sense codon codes for.",
+          "fields": [
+            "codons.aa"
+          ],
+          "in_data": true,
+          "wikidata": "Q8066"
+        }
+      ]
+    },
+    {
+      "cid": "c5",
+      "label": "Codon usage bias",
+      "kind": "measure",
+      "description": "Unequal use of synonymous codons.",
+      "in_data": true,
+      "wikidata": "Q1106040",
+      "facts": [
+        {
+          "text": "Highly expressed E. coli genes prefer codons read by abundant tRNAs (Ikemura 1981).",
+          "source": "https://doi.org/10.1016/0022-2836(81)90363-6"
+        }
+      ],
+      "children": [
+        {
+          "cid": "c6",
+          "label": "Relative synonymous codon usage (RSCU)",
+          "kind": "measure",
+          "as": "property",
+          "description": "A codon's count over its count if all synonyms were used equally.",
+          "fields": [
+            "usage.rscu_rp",
+            "usage.rscu_tf"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c7",
+          "label": "Effective number of codons (Nc)",
+          "kind": "measure",
+          "as": "property",
+          "description": "Wright's Nc, from 20 (one codon per amino acid) to 61 (no bias).",
+          "fields": [
+            "enc.nc"
+          ],
+          "in_data": true,
+          "facts": [
+            {
+              "text": "Nc and its expected value under GC3 bias alone: Wright 1990.",
+              "source": "https://doi.org/10.1016/0378-1119(90)90491-9"
+            }
+          ]
+        },
+        {
+          "cid": "c8",
+          "label": "GC3s",
+          "kind": "measure",
+          "as": "property",
+          "description": "G+C share at synonymous third positions: the mark of mutation bias.",
+          "fields": [
+            "enc.gc3s"
+          ],
+          "in_data": true
+        }
+      ]
+    },
+    {
+      "cid": "c9",
+      "label": "Gene expression level",
+      "kind": "measure",
+      "description": "How much protein a gene makes. Here only a proxy: ribosomal proteins (high) against transcription regulators (low).",
+      "fields": [
+        "genes.gene_set"
+      ],
+      "in_data": false,
+      "children": [
+        {
+          "cid": "c10",
+          "label": "Protein abundance",
+          "kind": "measure",
+          "as": "property",
+          "description": "Measured copies per cell (PaxDb, proteomics): would replace the proxy.",
+          "in_data": false
+        }
+      ]
+    },
+    {
+      "cid": "c11",
+      "label": "Translational selection",
+      "kind": "process",
+      "description": "Selection for codons that are translated fast and accurately, strongest in the most-made proteins.",
+      "in_data": false,
+      "children": [
+        {
+          "cid": "c12",
+          "label": "tRNA gene copy number",
+          "kind": "measure",
+          "as": "property",
+          "description": "How many tRNA genes read each codon: the supply side of codon preference.",
+          "in_data": false
+        }
+      ]
+    },
+    {
+      "cid": "c13",
+      "label": "Mutation bias",
+      "kind": "process",
+      "description": "Unequal mutation rates toward G+C or A+T: sets codon usage where selection is weak.",
+      "in_data": false
+    }
+  ]
+}

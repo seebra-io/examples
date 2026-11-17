@@ -1,0 +1,21 @@
+{
+  "transformation/content": {
+    "$file": "transforms/the-route-hour-by-hour-airports-meeting-vmc.polars.py"
+  },
+  "transformation/data-child": ["data/id", "53fb0caf-bddb-53cb-99a2-28ab6121a389"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "5df3641e-ec62-50e0-89c5-900ead29df09",
+  "transformation/inputs": [
+    ["data/id", "7cef94af-4deb-5afd-818e-752ef8355b4c"]
+  ],
+  "transformation/language": "polars",
+  "transformation/name": "The route hour by hour: airports meeting VMC minima",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1920,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "945f4dd4-e6c2-5362-b744-6cbf09f41052"],
+  "transformation/units": "{}"
+}

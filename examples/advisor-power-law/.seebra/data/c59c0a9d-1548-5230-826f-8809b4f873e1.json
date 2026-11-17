@@ -1,0 +1,10 @@
+{
+  "data/id": "c59c0a9d-1548-5230-826f-8809b4f873e1",
+  "data/name": "The 30 advisors with the most doctoral students data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 560
+  },
+  "data/parent": ["query/id", "a7e3804a-2b5f-5375-a58f-12918bed4388"],
+  "data/type": "json"
+}

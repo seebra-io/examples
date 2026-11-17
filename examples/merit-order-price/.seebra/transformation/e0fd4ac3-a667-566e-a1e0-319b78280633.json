@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/sources-to-rows.polars.py"
+  },
+  "transformation/data-child": ["data/id", "960d7d8b-d2e8-52ba-a789-7860de402d74"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "e0fd4ac3-a667-566e-a1e0-319b78280633",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Sources to rows",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "43e4dfb0-3be6-5dad-81ee-eb04bbc91735"],
+  "transformation/units": "{}"
+}

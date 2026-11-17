@@ -1,0 +1,8 @@
+{
+  "file": {
+    "file/example": "advisor-power-law"
+  },
+  "format": 2,
+  "root": ["dashboard/id", "e53b9d2a-2d0a-5ca9-8dbf-2fad6a712ed4"],
+  "seebra": "board"
+}

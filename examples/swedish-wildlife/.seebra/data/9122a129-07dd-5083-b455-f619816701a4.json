@@ -1,0 +1,10 @@
+{
+  "data/id": "9122a129-07dd-5083-b455-f619816701a4",
+  "data/name": "All photographed records per province (effort) data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 320
+  },
+  "data/parent": ["query/id", "fee71895-d7c2-5fed-9690-7e907a9bd608"],
+  "data/type": "json"
+}

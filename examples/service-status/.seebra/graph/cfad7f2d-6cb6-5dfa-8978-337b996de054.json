@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/components-by-status-per-service.js"
+  },
+  "graph/id": "cfad7f2d-6cb6-5dfa-8978-337b996de054",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Components by status, per service",
+  "graph/node": {
+    "node/x": 2380,
+    "node/y": 80
+  },
+  "graph/parent": ["data/id", "df942181-6cdb-5662-ab22-a264c24d9ce2"]
+}

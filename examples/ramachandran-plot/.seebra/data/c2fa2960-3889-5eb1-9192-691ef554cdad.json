@@ -1,0 +1,11 @@
+{
+  "data/id": "c2fa2960-3889-5eb1-9192-691ef554cdad",
+  "data/name": "Glycine, proline and the rest",
+  "data/node": {
+    "node/x": 2530,
+    "node/y": 560
+  },
+  "data/parent": ["transformation/id", "9db7bece-9757-5087-8bcf-9d75fcbc1c5f"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

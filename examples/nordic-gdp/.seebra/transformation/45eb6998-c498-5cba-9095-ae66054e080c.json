@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/pca-each-year-on-the-components.polars.py"
+  },
+  "transformation/data-child": ["data/id", "8ef02bbf-2b6b-5bd5-b576-5bcb4c86cd09"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "45eb6998-c498-5cba-9095-ae66054e080c",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "PCA: each year on the components",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 2380,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "67e8a804-646d-5672-bc2e-48285b0ff62f"],
+  "transformation/units": "{}"
+}

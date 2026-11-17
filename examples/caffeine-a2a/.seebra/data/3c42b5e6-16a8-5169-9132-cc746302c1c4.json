@@ -1,0 +1,10 @@
+{
+  "data/id": "3c42b5e6-16a8-5169-9132-cc746302c1c4",
+  "data/name": "Pocket Cα pairs for the fit of 2YDO onto 5MZP data",
+  "data/node": {
+    "node/x": 2070,
+    "node/y": 800
+  },
+  "data/parent": ["transformation/id", "c44d4790-850a-5c41-9e76-8d424e37dbb2"],
+  "data/type": "json"
+}

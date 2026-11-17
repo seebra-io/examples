@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/per-station-larger-horizontal.polars.py"
+  },
+  "transformation/data-child": ["data/id", "2a657db1-f1f6-5471-850d-fbff1eaae0e2"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "4ce784f0-e6a7-5fed-a011-d6e824f20e75",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Per station: larger horizontal",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "0340e0ad-13eb-5dfc-826c-6e94efa31c1c"],
+  "transformation/units": "{}"
+}

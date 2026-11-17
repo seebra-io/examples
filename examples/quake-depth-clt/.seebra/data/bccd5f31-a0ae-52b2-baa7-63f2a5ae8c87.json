@@ -1,0 +1,10 @@
+{
+  "data/id": "bccd5f31-a0ae-52b2-baa7-63f2a5ae8c87",
+  "data/name": "500 random samples of n = 1, 5, 30, 100: their mean depth data",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "212d01a0-ba41-595b-90bf-b635522ed374"],
+  "data/type": "json"
+}

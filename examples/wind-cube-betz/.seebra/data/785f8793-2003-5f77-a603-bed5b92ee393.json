@@ -1,0 +1,10 @@
+{
+  "data/id": "785f8793-2003-5f77-a603-bed5b92ee393",
+  "data/name": "Hourly wind and air density data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "d343af8f-b314-5f3a-a14a-e711cf83901e"],
+  "data/type": "json"
+}

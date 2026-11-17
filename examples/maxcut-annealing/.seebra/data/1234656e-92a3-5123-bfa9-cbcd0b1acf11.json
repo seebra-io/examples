@@ -1,0 +1,10 @@
+{
+  "data/id": "1234656e-92a3-5123-bfa9-cbcd0b1acf11",
+  "data/name": "Annealing runs: 50 per schedule, and random splits data",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 560
+  },
+  "data/parent": ["transformation/id", "75b81f0a-dd6e-5e9b-b41b-4a0fa3078c1c"],
+  "data/type": "json"
+}

@@ -1,0 +1,10 @@
+{
+  "data/id": "2c707d1c-26c6-5bb1-8154-9b20932a069b",
+  "data/name": "Premature ventricular beats: coupling interval and compensatory pause data",
+  "data/node": {
+    "node/x": 2070,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "535232dd-1fa1-57bf-962f-83b2c3f0120a"],
+  "data/type": "json"
+}

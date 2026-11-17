@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "b95f7044-06ed-5cae-bb89-22126c2d71e9"],
+  "query/datasource": ["datasource/id", "46968e62-93f5-59df-8ceb-e1d6f86b1ef7"],
+  "query/dynamic?": false,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "bc7f5721-9aac-5798-a2e5-3ced73c6640c",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Sample: Spotify extended streaming history (made up)",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 320
+  },
+  "query/params": "{}",
+  "query/path": "/personal/Streaming_History_Audio_sample.json",
+  "query/request-body": "",
+  "query/units": "{}"
+}

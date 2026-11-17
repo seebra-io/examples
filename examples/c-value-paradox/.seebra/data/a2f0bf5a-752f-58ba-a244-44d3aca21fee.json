@@ -1,0 +1,10 @@
+{
+  "data/id": "a2f0bf5a-752f-58ba-a244-44d3aca21fee",
+  "data/name": "Fungi: size and genes data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 560
+  },
+  "data/parent": ["transformation/id", "9791676d-a34c-5332-a421-e6e6181dca01"],
+  "data/type": "json"
+}

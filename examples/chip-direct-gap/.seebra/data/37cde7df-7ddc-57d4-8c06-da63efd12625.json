@@ -1,0 +1,11 @@
+{
+  "data/id": "37cde7df-7ddc-57d4-8c06-da63efd12625",
+  "data/name": "H1: z-test",
+  "data/node": {
+    "node/x": 2530,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "b2b29664-3b86-5d19-b577-3688e71e64ba"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

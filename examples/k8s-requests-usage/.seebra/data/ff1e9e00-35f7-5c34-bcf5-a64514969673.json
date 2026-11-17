@@ -1,0 +1,10 @@
+{
+  "data/id": "ff1e9e00-35f7-5c34-bcf5-a64514969673",
+  "data/name": "Usage per container data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "a4dabe56-05cc-527b-a1dc-abacaf4aa07d"],
+  "data/type": "json"
+}

@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "7dbe09ee-75e0-50c0-8d08-67cab2eba6b1"],
+  "query/datasource": ["datasource/id", "3dacb18d-f4b9-5ba0-bc95-dbae79d2f5d3"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "7aaf522f-65a4-5af3-8a2b-3d45809a2327",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "GDP (current US$), latest",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 560
+  },
+  "query/params": "{\"format\":\"json\",\"mrnev\":\"1\",\"per_page\":\"400\"}",
+  "query/path": "/country/all/indicator/NY.GDP.MKTP.CD",
+  "query/request-body": "",
+  "query/units": "{}"
+}

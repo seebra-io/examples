@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/plants-viridiplantae-size-and-genes.polars.py"
+  },
+  "transformation/data-child": ["data/id", "6ae0ed64-cc06-5a73-b543-344b5bc344d5"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "b89f61e9-b58a-54ca-b9db-3950d6e72488",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Plants (Viridiplantae): size and genes",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 800
+  },
+  "transformation/parent": ["data/id", "2ffb9345-6d0b-5795-9688-617b509adac1"],
+  "transformation/units": "{}"
+}

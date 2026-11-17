@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/quakes-with-depth.polars.py"
+  },
+  "transformation/data-child": ["data/id", "c15a5a4a-f72f-5da6-bd6b-7934a7fae6b4"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "db1dc525-6cb6-5116-bcdb-5c5efaee733b",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Quakes with depth",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "d8958a5c-8849-5113-9aa4-8ee473b441d4"],
+  "transformation/units": "{}"
+}

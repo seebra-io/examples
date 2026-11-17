@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/if-nothing-were-replaced-poor-bridges-in-2035.polars.py"
+  },
+  "transformation/data-child": ["data/id", "ab007573-a27d-5e84-91c0-6f7a9cf34bcf"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "8d7dc8ae-f912-5350-8168-2f028740758a",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "If nothing were replaced: poor bridges in 2035 and 2045 from today's age-specific poor shares",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1920,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "75fdc520-1367-5935-9145-542b8a6fb8d8"],
+  "transformation/units": "{}"
+}

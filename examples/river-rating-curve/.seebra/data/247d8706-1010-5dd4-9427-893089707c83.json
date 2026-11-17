@@ -1,0 +1,11 @@
+{
+  "data/id": "247d8706-1010-5dd4-9427-893089707c83",
+  "data/name": "Extrapolation at the record flood",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 800
+  },
+  "data/parent": ["transformation/id", "e73b4ef2-1871-5f48-ac7a-f372dc8837a8"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

@@ -1,0 +1,10 @@
+{
+  "data/id": "7872d118-1f2b-51dd-9bcf-a766b215f230",
+  "data/name": "clock frequency (MHz), per processor (50yrs/frequency.dat) data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 320
+  },
+  "data/parent": ["query/id", "92992c32-a644-5574-88d7-f35c9dc9689a"],
+  "data/type": "json"
+}

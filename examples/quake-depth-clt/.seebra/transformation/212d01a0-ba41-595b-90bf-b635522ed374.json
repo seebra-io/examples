@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/500-random-samples-of-n-1-5-30-100-their-mean.polars.py"
+  },
+  "transformation/data-child": ["data/id", "bccd5f31-a0ae-52b2-baa7-63f2a5ae8c87"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "212d01a0-ba41-595b-90bf-b635522ed374",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "500 random samples of n = 1, 5, 30, 100: their mean depth",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "c15a5a4a-f72f-5da6-bd6b-7934a7fae6b4"],
+  "transformation/units": "{}"
+}

@@ -1,0 +1,65 @@
+{
+  "dashboard/id": "e5a24450-666a-5015-9248-c87fbb39b51d",
+  "datas": [
+    ["data/id", "19f5b6e5-6e01-539d-8c92-b51b9062f20a"],
+    ["data/id", "790a3b40-d963-5b17-aba6-d30639b413c2"],
+    ["data/id", "443620d9-aff8-5c53-9c53-6c56e87e6324"],
+    ["data/id", "262f7c78-85c5-5439-9348-c394a6195706"],
+    ["data/id", "5a1f9a0c-c76f-55ef-9853-4b7dfabd21c1"],
+    ["data/id", "9472be3c-6c3e-5205-afda-af3501d891d0"],
+    ["data/id", "1cfa24fe-3f34-51fe-9965-bac3bbb5023f"],
+    ["data/id", "e21c684a-016d-54e7-a704-6d89d74b46ef"],
+    ["data/id", "ed4bed98-eac0-5d8a-bf64-10eb6477bfe5"],
+    ["data/id", "1246d7c5-459c-5b3e-a109-c4ce0c4f5ff8"],
+    ["data/id", "2f227567-943f-5ea8-a070-5291f7a296a2"],
+    ["data/id", "e911ce6a-c753-5001-8a30-7449a527653c"],
+    ["data/id", "a9a43260-d320-5fd6-ad44-e7ab86ac0814"],
+    ["data/id", "fbeb5f1a-bd7a-5672-aa00-c767540b1553"],
+    ["data/id", "43b661f6-3b54-5fee-8bf5-701d9a4a9d57"],
+    ["data/id", "0ab5d00a-cb50-5ad1-9f40-c64a4525e3d9"],
+    ["data/id", "a19a3eb0-0555-5e2a-9178-aeb07bd4a186"],
+    ["data/id", "6ea9c1d8-8d06-5c45-90fd-d6e6a1a1ee3a"],
+    ["data/id", "eb087818-b815-504b-9c1e-5dba04db8329"]
+  ],
+  "datasources": [
+    ["datasource/id", "0ad2947c-0e41-5bf4-bf2c-3dedb20e3b4e"],
+    ["datasource/id", "754ad5a5-dcea-59bb-8384-ac42f14e9516"]
+  ],
+  "description": "When do mushrooms fruit in Sweden? GBIF records per month (2000–2025) for the chanterelle, funnel chanterelle, porcini, fly agaric and false morel, against all fungi. Statistics idea: months are circular, so the season's centre is a circular mean (each month an angle on the year's clock) and its length R says how concentrated the season is; records follow effort (people search in autumn), so a second mean weights each month by the species' share over all fungi's share. Beside it, Mushroom Observer's 2025 chanterelle photos with the community's identification votes: in North America the 'chanterelle' is many species. Caveats: records are presence-only and follow observers; GBIF mixes citizen science and collections; Mushroom Observer is mostly North American. Next: hover the clock for dates, click an arrow for GBIF's map, swap a taxonKey (any species from GBIF's species search) or country.",
+  "graphs": [
+    ["graph/id", "b2fb6807-d4a1-5d2f-9406-d64ddeb37b51"],
+    ["graph/id", "f45a67fb-dd9a-5242-bdd2-66b146716cac"],
+    ["graph/id", "e9851ba9-9a7e-5ca8-bd7d-14ed5b702d5a"]
+  ],
+  "grids": [
+    ["grid/id", "850da0f7-d1d6-5ec6-a7fc-7adc704fc1aa"]
+  ],
+  "name": "Mushroom season in Sweden",
+  "queries": [
+    ["query/id", "1c964ed5-ffcd-5b18-a397-7478b79a5de2"],
+    ["query/id", "34bd0b90-f537-5512-bec6-8e904619cfde"],
+    ["query/id", "3692248c-6593-554b-b359-dbc30ec2bac3"],
+    ["query/id", "3d66c81f-c02b-5480-8da6-96d8b046b435"],
+    ["query/id", "df07fa4e-4150-56ca-8531-e7e5d7c2e646"],
+    ["query/id", "4930465b-771d-5ba2-882e-3ae61ae4e8a6"],
+    ["query/id", "c7b7ac9f-10fc-5966-bc3d-b2db53974e6c"]
+  ],
+  "studies": [],
+  "tables": [],
+  "texts": [],
+  "timers": [],
+  "transformations": [
+    ["transformation/id", "34224ad3-d525-53f1-8eaa-0cc65e4d75a8"],
+    ["transformation/id", "e9fa4aad-60f8-5eae-a110-8b5d5984db84"],
+    ["transformation/id", "559716d3-a7e9-5391-a10f-6e0307b963c5"],
+    ["transformation/id", "7ae1e7dc-6ce0-5d5b-8cdb-c59cbc341e1f"],
+    ["transformation/id", "0719952a-3f9d-58cb-bb8e-fdef20411f8f"],
+    ["transformation/id", "a58855a6-41a3-5ff8-9961-d7d15992b03e"],
+    ["transformation/id", "6a9c4580-1b52-540c-8883-fe005c068d64"],
+    ["transformation/id", "b7de0f30-0be4-59e9-afbb-c298636a27e6"],
+    ["transformation/id", "2a60b879-0070-5ab5-850d-6a38c989c725"],
+    ["transformation/id", "15e64df2-3d8b-5043-bdd2-5b20fdd57c2b"],
+    ["transformation/id", "da1509b5-d3c5-55a4-91ad-85ec8041b015"],
+    ["transformation/id", "dfee98aa-d7cc-54de-8d77-50a386a62afe"]
+  ]
+}

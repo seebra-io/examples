@@ -1,0 +1,16 @@
+{
+  "graph/content": {
+    "$file": "graphs/pods-that-need-a-hand-hover-for-the-parameters.js"
+  },
+  "graph/id": "e11be99c-f9b6-5299-9442-a6cebe5f22d1",
+  "graph/inputs": [
+    ["data/id", "2afeb017-7123-57ff-a6a5-1125aa72264a"]
+  ],
+  "graph/language": "javascript",
+  "graph/name": "Pods that need a hand: hover for the parameters",
+  "graph/node": {
+    "node/x": 1460,
+    "node/y": 80
+  },
+  "graph/parent": ["data/id", "6525ebd1-5159-5e5e-b6d5-9d422a96945c"]
+}

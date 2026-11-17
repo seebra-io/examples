@@ -1,0 +1,10 @@
+{
+  "data/id": "323d8d15-7501-57e1-83da-b37fb06909ef",
+  "data/name": "Tropopause per column (lapse rate below 2 K/km) data",
+  "data/node": {
+    "node/x": 2530,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "a57f3c37-d4fe-5253-be71-b363d99b3f9b"],
+  "data/type": "json"
+}

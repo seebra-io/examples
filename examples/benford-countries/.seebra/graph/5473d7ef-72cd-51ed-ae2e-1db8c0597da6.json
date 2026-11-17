@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/population-against-area-coloured-by-first-digit.js"
+  },
+  "graph/id": "5473d7ef-72cd-51ed-ae2e-1db8c0597da6",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Population against area, coloured by first digit",
+  "graph/node": {
+    "node/x": 1460,
+    "node/y": 320
+  },
+  "graph/parent": ["data/id", "1b8262e1-4d53-57b8-865c-cae22210fabd"]
+}

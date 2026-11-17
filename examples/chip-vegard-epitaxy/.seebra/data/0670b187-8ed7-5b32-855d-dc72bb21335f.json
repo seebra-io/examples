@@ -1,0 +1,10 @@
+{
+  "data/id": "0670b187-8ed7-5b32-855d-dc72bb21335f",
+  "data/name": "COD entries for AlAs (measured) data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 1040
+  },
+  "data/parent": ["query/id", "d39b6431-8548-53a4-af68-cef1730e8f98"],
+  "data/type": "json"
+}

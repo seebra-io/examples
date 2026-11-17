@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "caa982b2-e189-53bd-b996-1aab4dae2ba2"],
+  "query/datasource": ["datasource/id", "48ddc727-9d21-5c6e-a3e3-6744c037459f"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "b4f26ecb-9db0-56d4-82d0-54742ce9e791",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Deployments (all namespaces)",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 80
+  },
+  "query/params": "{\"limit\":\"500\"}",
+  "query/path": "/apis/apps/v1/deployments",
+  "query/request-body": "",
+  "query/units": "{}"
+}

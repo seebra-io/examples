@@ -1,0 +1,21 @@
+{
+  "transformation/content": {
+    "$file": "transforms/the-beats-in-the-trace-at-their-r-peaks-with-rr.polars.py"
+  },
+  "transformation/data-child": ["data/id", "009377de-f1d8-5086-8684-49d05cdcce01"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "71eb2712-0ca8-5264-aef3-154150891d39",
+  "transformation/inputs": [
+    ["data/id", "1e4e3c3d-5bc5-58a1-b2f1-8fa53ad336b7"]
+  ],
+  "transformation/language": "polars",
+  "transformation/name": "The beats in the trace, at their R peaks, with RR intervals",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 1040
+  },
+  "transformation/parent": ["data/id", "e1187608-802d-5792-8864-fa2305fbe212"],
+  "transformation/units": "{}"
+}

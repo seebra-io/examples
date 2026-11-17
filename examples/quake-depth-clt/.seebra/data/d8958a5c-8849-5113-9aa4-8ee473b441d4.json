@@ -1,0 +1,10 @@
+{
+  "data/id": "d8958a5c-8849-5113-9aa4-8ee473b441d4",
+  "data/name": "M2.5+ past 30 days data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 80
+  },
+  "data/parent": ["query/id", "0bbf3463-6997-5212-8c3e-c88785a9aaf4"],
+  "data/type": "json"
+}

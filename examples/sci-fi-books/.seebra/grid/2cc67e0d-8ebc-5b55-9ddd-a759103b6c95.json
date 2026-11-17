@@ -1,0 +1,10 @@
+{
+  "grid/cols": 8,
+  "grid/id": "2cc67e0d-8ebc-5b55-9ddd-a759103b6c95",
+  "grid/node": {
+    "node/x": 1460,
+    "node/y": 80
+  },
+  "grid/parent": ["data/id", "c8516f8d-83e7-5986-9095-cbca16e6c110"],
+  "grid/title": "Covers"
+}

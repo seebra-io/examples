@@ -1,0 +1,51 @@
+{
+  "dashboard/id": "86fdca6c-ea0e-5235-b275-c3ccd5f8fe2d",
+  "datas": [
+    ["data/id", "fd182042-96cf-5f85-b226-a71c3a3578a7"],
+    ["data/id", "db471de8-4203-5cef-bf4b-e21489e39cdf"],
+    ["data/id", "8c523981-fdc3-5c3e-9ebe-df298d579ec9"],
+    ["data/id", "3c157256-5296-5792-9005-286779065d51"],
+    ["data/id", "c1077a10-ff4c-5482-b111-355ec6761b4b"],
+    ["data/id", "1c446e43-ed1c-525d-97ac-dbe9f4a2429c"],
+    ["data/id", "2df0f30a-2dcf-5736-9d36-8ee71052b3ee"],
+    ["data/id", "6cf23427-01cd-5903-b4ac-a6d864f4e421"],
+    ["data/id", "ef7c52b0-9a0e-5f3d-ae9f-1a54f2b3c05d"],
+    ["data/id", "a64c21fc-18d0-5c18-bdd6-78efea0c1785"],
+    ["data/id", "3ae41b96-3e0d-5ee7-8418-5eabb709def0"]
+  ],
+  "datasources": [
+    ["datasource/id", "7fd68328-c4b9-5c4d-835f-c3ba22a504d3"]
+  ],
+  "description": "Question: the spectrum of Germany's electricity demand has a line at 6/7 and at 8/7 cycles per day, periods of 28 and 21 hours. Nothing in society runs on a 21-hour cycle, so where do they come from? Data: 8 whole weeks (Monday 24 August to Sunday 18 October 2026, all in summer time) of Germany's quarter-hourly load from Energy-Charts (Fraunhofer ISE, ENTSO-E data, CC BY 4.0), as hourly means. Idea: the modulation (convolution) theorem. The load is close to a daily waveform multiplied by a weekly envelope (weekdays high, Saturday lower, Sunday lowest). A product in time is a convolution in frequency, so every daily harmonic k (1, 2, 3, 4 per day) carries a copy of the weekly spectrum around it: sidebands at k ± j/7, exactly as an AM radio carrier carries its audio. And resolution and windowing: a record of length T smears every line into a sinc about 1/T wide, so lines 1/7 per day apart need well over a week of data; a Hann window lowers the floor between the lines at the cost of wider lines. Steps: rows to hourly load (Polars); three variants (8 weeks rectangular, 8 weeks Hann, the first week alone, SQL); a discrete Fourier transform on a half-bin grid (SQL); the theory lines k ± j/7; the strongest peaks matched to them; the share of power between lines; whether each record resolves the 6/7 sideband from the daily line; the daily envelope. The aha: beside the daily line (7.0 GW amplitude) sit lines at 6/7 per day (1.29 GW, a 28-hour period) and 8/7 (0.60 GW, 21 hours), and the same pattern around 2 per day: not cycles anyone keeps, but the weekend (weekday mean 53.8 GW and daily swing 19.7 GW, Sunday 43.6 and 13.7 GW) seen in the frequency domain. A single week of data cannot show them: its resolution is 1/7 per day, and the sideband and the daily line melt into one hump. Caveats: holidays (none nationwide in this window; 3 October, German Unity Day, a Saturday in 2026) and weather add a slow drift that leaks near 0; the hourly mean is itself a low-pass filter (no aliasing up to 12 per day); amplitude is in GW of the centred load. Next: compare a winter window (lighting peaks change the daily waveform: stronger harmonics), another country (country=fr), or the solar output's spectrum (no weekly modulation, so no sidebands).",
+  "graphs": [
+    ["graph/id", "8be14c5a-c945-5fd6-9027-4b6f1ec07ac0"],
+    ["graph/id", "67527db6-9239-5ccf-bfa7-0b968cd9355d"],
+    ["graph/id", "e91f2ac2-d14d-5dd1-b2d9-8574001a036c"],
+    ["graph/id", "d47c1693-7eb0-59df-9832-138d6d12d05d"]
+  ],
+  "grids": [],
+  "name": "Sidebands in the power demand: the modulation theorem",
+  "ontology": {
+    "$file": ".seebra/dashboard/86fdca6c-ea0e-5235-b275-c3ccd5f8fe2d.ontology.json",
+    "$json": true
+  },
+  "queries": [
+    ["query/id", "36e86d3f-0b60-5b1b-8db5-c5ba418d2a4c"]
+  ],
+  "studies": [],
+  "tables": [],
+  "texts": [],
+  "timers": [],
+  "transformations": [
+    ["transformation/id", "4151690a-d296-5422-9305-8befcaa23139"],
+    ["transformation/id", "a103efb9-c942-516e-a1b2-7a9e6ae5a0f8"],
+    ["transformation/id", "0e7836a2-511a-511e-82a5-aa0f246ca0f9"],
+    ["transformation/id", "8ea63af6-5c1e-5ac1-8a67-954b7a620675"],
+    ["transformation/id", "0698d3e6-7417-56c9-88e9-62afe9ce4ef0"],
+    ["transformation/id", "31d24115-75f3-5f21-8348-2848bff210b1"],
+    ["transformation/id", "607a5814-d63c-516e-b330-05c81b57d92a"],
+    ["transformation/id", "def249d3-016a-5b1b-8982-3f1049b9dc57"],
+    ["transformation/id", "6bb3308c-31a2-5dae-b6c5-3a6bc2635caf"],
+    ["transformation/id", "5a778f10-b14d-5237-a122-0d656dd48422"]
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/curiosity-photos-the-newest-24-image-links-for.polars.py"
+  },
+  "transformation/data-child": ["data/id", "9be9f771-6c85-553e-80ff-339e874c7ad9"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "1ac7b631-6cb5-51fe-bd44-2f6b3c2af831",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Curiosity photos (the newest 24, image links for the grid)",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "17f931df-dedf-53be-a0b6-7a393f55dd94"],
+  "transformation/units": "{}"
+}

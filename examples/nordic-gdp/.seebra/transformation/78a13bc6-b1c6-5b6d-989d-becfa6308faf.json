@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/pca-variance-explained.polars.py"
+  },
+  "transformation/data-child": ["data/id", "67c082eb-8f22-59d7-a077-8d33e86b95eb"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "78a13bc6-b1c6-5b6d-989d-becfa6308faf",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "PCA: variance explained",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 2380,
+    "node/y": 560
+  },
+  "transformation/parent": ["data/id", "67e8a804-646d-5672-bc2e-48285b0ff62f"],
+  "transformation/units": "{}"
+}

@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/daily-means.sql"
+  },
+  "transformation/data-child": ["data/id", "f15fedcd-5fca-5554-8c38-5bd5346d10b4"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "c39fcd40-a7e1-5b64-8486-06abe903acf4",
+  "transformation/inputs": [],
+  "transformation/language": "sql",
+  "transformation/name": "Daily means",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "744c1f80-1f7f-5bbf-9614-cf17fa05a3ee"],
+  "transformation/units": "{}"
+}

@@ -1,0 +1,11 @@
+{
+  "data/id": "e088db56-5f46-5651-bbe5-6d86eba5f20a",
+  "data/name": "Sites",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "ead5c316-33d2-5811-8cd3-16d2df901d1e"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

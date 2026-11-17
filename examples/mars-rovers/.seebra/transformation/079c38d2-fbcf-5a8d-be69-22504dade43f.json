@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/perseverance-images-camera-sol.polars.py"
+  },
+  "transformation/data-child": ["data/id", "37e83cf1-5cd5-5623-8c8d-b6e899f54259"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "079c38d2-fbcf-5a8d-be69-22504dade43f",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Perseverance images (camera, sol)",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 560
+  },
+  "transformation/parent": ["data/id", "eb99bdcf-f713-50ad-ac2a-fd9ac432264e"],
+  "transformation/units": "{}"
+}

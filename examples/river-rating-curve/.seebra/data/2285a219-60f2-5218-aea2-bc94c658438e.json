@@ -1,0 +1,10 @@
+{
+  "data/id": "2285a219-60f2-5218-aea2-bc94c658438e",
+  "data/name": "Annual peaks against the curve data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "28abc620-f14f-572f-ab47-78db509e251e"],
+  "data/type": "json"
+}

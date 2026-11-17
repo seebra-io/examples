@@ -1,0 +1,128 @@
+{
+  "title": "Jank during canvas moves",
+  "question": "Long frames per second, moving against still (jank), and the party of the scripts in the moving frames (frames, scripts).",
+  "review": {
+    "well_formed": true,
+    "issues": [
+      {
+        "kind": "grain",
+        "text": "One session is a handful of minutes and a few moves; long frames cluster at load.",
+        "fix": "Leave out the first 10 s (load) and compare rates over several sessions."
+      },
+      {
+        "kind": "causal",
+        "text": "A long frame during a move may be caused by work the move didn't start (a timer, a query answer).",
+        "fix": "Read the frame's span and script: a pan's own work is the canvas transform and the graphs it redraws."
+      }
+    ],
+    "alternatives": [
+      {
+        "question": "Which graph's draws (spans) cost the most frames?",
+        "why": "Drills into Seebra's own components.",
+        "ready": true
+      },
+      {
+        "question": "Is the same dashboard smooth on another machine or browser?",
+        "why": "Expands to the hardware and browser the numbers depend on.",
+        "ready": false
+      }
+    ]
+  },
+  "hypotheses": [
+    {
+      "id": "H1",
+      "statement": "Long frames come more often per second while the canvas moves than while it stands still.",
+      "null": "The rate of long frames is the same moving and still.",
+      "outcome": {
+        "concept": "Long animation frame",
+        "field": "long_frames"
+      },
+      "predictor": {
+        "concept": "Canvas interaction",
+        "field": "phase"
+      },
+      "direction": "increase",
+      "test": {
+        "method": "rates",
+        "link": null,
+        "outcome_mode": "count",
+        "outcome_field": "long_frames",
+        "predictor_field": "phase",
+        "exposure_field": "moving_s",
+        "versus": "while it stood still"
+      }
+    }
+  ],
+  "concepts": [
+    {
+      "label": "Long animation frame",
+      "kind": "event",
+      "description": "A frame of 50 ms or more.",
+      "why": "The outcome counted.",
+      "have": true,
+      "categories": [],
+      "field": "long_frames",
+      "strategy": null
+    },
+    {
+      "label": "Canvas interaction",
+      "kind": "event",
+      "description": "Moving or still, from the canvas's pans, zooms and drags.",
+      "why": "The exposure.",
+      "have": true,
+      "categories": [
+        "while the canvas moved",
+        "while it stood still"
+      ],
+      "field": "phase",
+      "strategy": null
+    },
+    {
+      "label": "Script attribution",
+      "kind": "entity",
+      "description": "The party of a frame's scripts.",
+      "why": "Who to fix.",
+      "have": true,
+      "categories": [
+        "this page (Seebra)",
+        "third party",
+        "no source URL"
+      ],
+      "field": "party",
+      "strategy": null
+    }
+  ],
+  "data": [],
+  "links": [],
+  "method": {
+    "id": "rates",
+    "summary": "Long frames per second of moving time against per second of still time (Poisson rates)."
+  },
+  "steps": [
+    {
+      "kind": "data",
+      "title": "The profile",
+      "detail": "window.__seebraPerf, re-read by the timer (perf)."
+    },
+    {
+      "kind": "categorise",
+      "title": "Moving or still",
+      "detail": "moving per entry, from the canvas move intervals (jank)."
+    },
+    {
+      "kind": "method",
+      "title": "Rates",
+      "detail": "long_frames over moving_s and over the still seconds (session length minus moving_s)."
+    },
+    {
+      "kind": "decide",
+      "title": "Who to fix",
+      "detail": "If moving frames are long, read their span and scripts (frames, scripts)."
+    }
+  ],
+  "caveats": [
+    "Chrome/Edge only for LoAF scripts and Event Timing.",
+    "The machine, other tabs and extensions change every number.",
+    "The profiler's own redraws are in the data."
+  ]
+}

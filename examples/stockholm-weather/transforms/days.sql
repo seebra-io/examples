@@ -1,0 +1,1 @@
+SELECT day, min(temp) AS low, max(temp) AS high, ROUND(avg(temp), 1) AS mean, sum(rain) AS rain_mm FROM data GROUP BY day ORDER BY day

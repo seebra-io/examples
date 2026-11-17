@@ -1,0 +1,10 @@
+{
+  "data/id": "fc913db3-ad6a-5ca1-a82a-e6ef2e9ba53b",
+  "data/name": "Quakes with magnitude bin, magnitude family, depth class and energy data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "d8338985-f571-5c34-b6b5-5f6ea1675524"],
+  "data/type": "json"
+}

@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/reported-advances-per-week-and-side.polars.py"
+  },
+  "transformation/data-child": ["data/id", "2a364e71-350c-59fb-a44b-5d024e81d2db"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "288b21ee-3768-5a9b-8ce3-02971e839b71",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Reported advances per week and side",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "df2e4791-2070-50a3-9c50-6c21c3ec865a"],
+  "transformation/units": "{}"
+}

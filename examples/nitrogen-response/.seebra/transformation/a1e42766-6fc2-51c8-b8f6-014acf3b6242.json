@@ -1,0 +1,21 @@
+{
+  "transformation/content": {
+    "$file": "transforms/best-curve-its-interval-and-the-straight-line-it.polars.py"
+  },
+  "transformation/data-child": ["data/id", "dfe14c8f-9d13-5a2f-a532-b473371e98f9"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "a1e42766-6fc2-51c8-b8f6-014acf3b6242",
+  "transformation/inputs": [
+    ["data/id", "a1ae715b-5ca8-5128-9495-e885c82a51a3"]
+  ],
+  "transformation/language": "polars",
+  "transformation/name": "Best curve, its interval, and the straight line it beats",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1920,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "a094913e-5735-5dc9-be9b-93c8bd0e52f6"],
+  "transformation/units": "{}"
+}

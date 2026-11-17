@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/kepler-s-third-law-dividing-by-the-star-s-mass.js"
+  },
+  "graph/id": "0edf55ba-ca1f-51f3-a973-f637c3a7b3b1",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Kepler's third law: dividing by the star's mass collapses every orbit onto one line",
+  "graph/node": {
+    "node/x": 1920,
+    "node/y": 80
+  },
+  "graph/parent": ["data/id", "64cb09ae-674b-504f-9412-67e37f71b667"]
+}

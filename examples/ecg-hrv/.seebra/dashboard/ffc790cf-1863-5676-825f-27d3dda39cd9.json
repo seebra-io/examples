@@ -1,0 +1,62 @@
+{
+  "dashboard/id": "ffc790cf-1863-5676-825f-27d3dda39cd9",
+  "datas": [
+    ["data/id", "f220f2fa-cc0f-53ae-b7c7-873ade035564"],
+    ["data/id", "c3f76ea4-b003-5871-926c-bbb52770456f"],
+    ["data/id", "59b206ce-5b4b-549d-96d5-bc4976b25aaf"],
+    ["data/id", "e1187608-802d-5792-8864-fa2305fbe212"],
+    ["data/id", "ff0c8e0a-00a8-5059-a856-a572d74198e7"],
+    ["data/id", "fbefdf22-8b55-53af-ae13-11deac0f6544"],
+    ["data/id", "b737724a-72ef-5630-878b-459854dcb14d"],
+    ["data/id", "467a44c2-a8f6-5fe4-837e-545a685c1953"],
+    ["data/id", "5d8dbce1-1030-5a2a-ba30-8b52427a1af4"],
+    ["data/id", "81ef6cb4-4187-5f70-a33b-d2d530e8ab4f"],
+    ["data/id", "2c707d1c-26c6-5bb1-8154-9b20932a069b"],
+    ["data/id", "6e770667-9ba8-5359-ba6e-109e3336169c"],
+    ["data/id", "1e4e3c3d-5bc5-58a1-b2f1-8fa53ad336b7"],
+    ["data/id", "009377de-f1d8-5086-8684-49d05cdcce01"],
+    ["data/id", "42634723-dff5-5b94-bf36-eb95162f9620"]
+  ],
+  "datasources": [
+    ["datasource/id", "be68ed22-c521-59a9-9ecf-b5e15828dd8f"]
+  ],
+  "description": "Question: what does \"heart-rate variability\" measure, and why does every HRV standard insist on normal-to-normal (NN) intervals? Idea: HRV is computed from beat times alone. PhysioNet's LightWAVE server gives the cardiologists' beat annotations of three Holter records (first 15 minutes each, so the windows are alike): a healthy 32-year-old (NSR database 16265, 128 Hz), MIT-BIH 100 (sinus rhythm with a few premature atrial beats) and MIT-BIH 119 (ventricular bigeminy, 360 Hz). Polars turns them into RR intervals, marks the NN ones (both beats normal, 300–2000 ms) and computes the time-domain measures of the 1996 ESC/NASPE Task Force: SDNN, RMSSD, pNN50, and the Poincaré plot's SD1 (beat-to-beat, = RMSSD/√2, checked in the table) and SD2 (slow). Aha: the healthy heart is irregular in a structured way (SD1 21 ms across a long comet of SD2 121 ms, SD1/SD2 = 0.18), while ectopic beats fake variability: in 119 the 197 premature ventricular beats make RMSSD 437 ms from every beat against 36 ms from NN intervals (12×, pNN50 62% against 17%); and even in the healthy record one 6.6-second stretch the annotators marked as noise becomes a single 6,617 ms \"interval\" that multiplies RMSSD by 7.7. The PVCs also show the full compensatory pause: coupling 536 ms + pause 1,311 ms ≈ 2 × the 900 ms NN interval (median ratio 1.03), because the early ventricular beat doesn't reset the sinus node. A 12-second ECG trace of 119 (lead MLII; LightWAVE sends samples delta-coded, so a cumulative sum and (adu − 1024)/200 give mV) shows where each interval comes from. Caveats: three people, 15-minute windows (SDNN grows with window length; compare like with like), different sampling rates (128 Hz gives ±8 ms beat-time resolution, which inflates RMSSD a little), annotations by cardiologists rather than a beat detector, HRV depends strongly on age, heart rate, posture and breathing, and no frequency-domain HRV (LF/HF needs a spectrum of the resampled tachogram, which Polars can't do). Data: PhysioNet (Goldberger et al. 2000), MIT-BIH Arrhythmia and Normal Sinus Rhythm databases, Open Data Commons Attribution 1.0. Next: the other 46 MIT-BIH records, the full 24 h of nsrdb in 15-minute windows (circadian HRV), detrended fluctuation or sample entropy, and the spectrum with a Python step.",
+  "graphs": [
+    ["graph/id", "a7ebf857-4371-5c18-be7b-03c6be00a0f6"],
+    ["graph/id", "920e1d36-a84f-5aeb-b68a-599fc28ba00d"],
+    ["graph/id", "f63cc7db-9c59-5dac-bb6e-ef4f1da50ec9"],
+    ["graph/id", "1c824936-9cea-5354-9c21-9405f498f4ef"],
+    ["graph/id", "2ee142a5-bc37-5f11-adf6-8bf70fcfe1ba"]
+  ],
+  "grids": [],
+  "name": "Heart-rate variability from ECG beats",
+  "ontology": {
+    "$file": ".seebra/dashboard/ffc790cf-1863-5676-825f-27d3dda39cd9.ontology.json",
+    "$json": true
+  },
+  "queries": [
+    ["query/id", "e706f87a-71ae-5e3c-a302-f7f4b8f18597"],
+    ["query/id", "828259a0-7199-585a-bf2b-2f6c8f56efd9"],
+    ["query/id", "781f1aff-4f86-5871-8e6c-339802b8a3cd"],
+    ["query/id", "fd751130-0445-5ddb-846a-03f1d18688f4"]
+  ],
+  "studies": [
+    ["study/id", "41e2dfcc-019b-5bfe-879d-8c428980c7cf"]
+  ],
+  "tables": [],
+  "texts": [],
+  "timers": [],
+  "transformations": [
+    ["transformation/id", "c4b157d4-a26b-51c1-8f31-3b1924be8c71"],
+    ["transformation/id", "b7974256-5435-54e7-b0de-667bfba2751a"],
+    ["transformation/id", "6ea3bb2c-5a54-59f7-9c8a-623ef70fe370"],
+    ["transformation/id", "a5907521-b94e-53cb-91bd-296330370bae"],
+    ["transformation/id", "30cdedf2-a7d1-5872-85a2-f8b1fe5283ac"],
+    ["transformation/id", "f65c9fdd-1f48-5bb1-a496-941191523985"],
+    ["transformation/id", "535232dd-1fa1-57bf-962f-83b2c3f0120a"],
+    ["transformation/id", "2d4e1ee7-3ff3-50c3-af35-2a83f5533541"],
+    ["transformation/id", "0ad2ef7d-ef55-5ae5-a57c-7926a6bddcf1"],
+    ["transformation/id", "71eb2712-0ca8-5264-aef3-154150891d39"],
+    ["transformation/id", "c5f41843-777a-5c7e-bb71-65725ed927ce"]
+  ]
+}

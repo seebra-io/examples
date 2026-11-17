@@ -1,0 +1,11 @@
+{
+  "data/id": "4ff3acbb-8d1b-5919-9664-dcc8abc718a4",
+  "data/name": "Return levels per period",
+  "data/node": {
+    "node/x": 2990,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "966161e5-6888-51d5-b3ed-41741cf43bb7"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

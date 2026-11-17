@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/prizes.polars.py"
+  },
+  "transformation/data-child": ["data/id", "9b540a8b-d766-5714-82e6-f73cefdd2ad6"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "6eed7961-e912-561f-bd07-600a1d7a63d9",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Prizes",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "c802dcdd-1f95-519b-aa0a-a3a48f63803e"],
+  "transformation/units": "{}"
+}

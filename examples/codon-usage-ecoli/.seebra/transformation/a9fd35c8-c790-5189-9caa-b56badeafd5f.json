@@ -1,0 +1,22 @@
+{
+  "transformation/content": {
+    "$file": "transforms/effective-number-of-codons-nc-per-gene.polars.py"
+  },
+  "transformation/data-child": ["data/id", "34978a38-6f9b-5c64-8ba3-ca2f23e54623"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "a9fd35c8-c790-5189-9caa-b56badeafd5f",
+  "transformation/inputs": [
+    ["data/id", "796ad969-aa5d-5129-a293-c427aa1d6ba2"],
+    ["data/id", "fc593c1e-43ff-587d-8c66-905062d2c4cd"]
+  ],
+  "transformation/language": "polars",
+  "transformation/name": "Effective number of codons (Nc) per gene",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 2380,
+    "node/y": 560
+  },
+  "transformation/parent": ["data/id", "013347ed-d64f-5f64-88f7-03889c34c912"],
+  "transformation/units": "{}"
+}

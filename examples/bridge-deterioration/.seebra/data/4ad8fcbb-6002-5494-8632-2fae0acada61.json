@@ -1,0 +1,10 @@
+{
+  "data/id": "4ad8fcbb-6002-5494-8632-2fae0acada61",
+  "data/name": "Bridges per main-span material and lowest rating data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 560
+  },
+  "data/parent": ["query/id", "8c2df971-a767-52a6-b8b6-0a4741d7849e"],
+  "data/type": "json"
+}

@@ -1,0 +1,10 @@
+{
+  "data/id": "27d26520-d071-59b6-a7fd-c19755565b34",
+  "data/name": "A2A residues: segments and generic numbers data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 560
+  },
+  "data/parent": ["query/id", "612333ea-84fb-5e11-884c-8e56cc3bcc1f"],
+  "data/type": "json"
+}

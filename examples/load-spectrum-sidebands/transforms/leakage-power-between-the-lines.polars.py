@@ -1,0 +1,13 @@
+# leakage, measured: how much of the spectrum lies between the lines (more than 2 bins of 1/112 from any theory line)
+data.with_columns(bin = (col("f_cpd") * 112).round(0).cast(Int64))
+    .join(data1.select(lbin = col("bin")), how="cross")
+    .with_columns(dist = (col("bin") - col("lbin")).abs())
+    .group_by("variant", "f_cpd", "amplitude_gw")
+    .agg(dist = col("dist").min())
+    .with_columns(p = col("amplitude_gw") * col("amplitude_gw"), between = col("dist") > 2)
+    .group_by("variant")
+    .agg(power_total = col("p").sum(), power_between = when(col("between")).then(col("p")).otherwise(0.0).sum(),
+         median_between_db = when(col("between")).then(20 * (col("amplitude_gw").clip(0.0001, 1000)).log(10)).otherwise(None).median())
+    .with_columns(share_between_pct = (col("power_between") / col("power_total") * 100).round(2), median_between_db = col("median_between_db").round(1))
+    .select("variant", "share_between_pct", "median_between_db")
+    .sort("variant")

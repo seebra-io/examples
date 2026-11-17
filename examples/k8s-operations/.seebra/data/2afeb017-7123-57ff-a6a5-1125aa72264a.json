@@ -1,0 +1,11 @@
+{
+  "data/id": "2afeb017-7123-57ff-a6a5-1125aa72264a",
+  "data/name": "Disruption budgets",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "83e72475-d1d6-5e25-96a0-0004ca680a75"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

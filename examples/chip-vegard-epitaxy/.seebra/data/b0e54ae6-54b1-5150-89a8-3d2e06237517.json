@@ -1,0 +1,10 @@
+{
+  "data/id": "b0e54ae6-54b1-5150-89a8-3d2e06237517",
+  "data/name": "Binaries: lattice constant (Å) and band gap (eV, PBE) data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "ec292bf2-d4b8-506e-a5b2-efbcd6d966a1"],
+  "data/type": "json"
+}

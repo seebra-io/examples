@@ -1,0 +1,1 @@
+data.sort(["currency", "date"]).with_columns(index = (col("rate") / col("rate").first().over("currency") * 100).round(2))

@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "6ec3293b-e9b2-57a0-90de-6111562a545b"],
+  "query/datasource": ["datasource/id", "4b22823d-a42a-54af-819e-0f3ac326b688"],
+  "query/dynamic?": false,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "9399f611-9520-5256-a0db-4d8bba6f1228",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "All 82 characters: height, mass, species, homeworld, films",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 80
+  },
+  "query/params": "{}",
+  "query/path": "/people",
+  "query/request-body": "",
+  "query/units": "{}"
+}

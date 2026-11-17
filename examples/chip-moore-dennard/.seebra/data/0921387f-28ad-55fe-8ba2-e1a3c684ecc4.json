@@ -1,0 +1,11 @@
+{
+  "data/id": "0921387f-28ad-55fe-8ba2-e1a3c684ecc4",
+  "data/name": "Dennard's budget per era",
+  "data/node": {
+    "node/x": 2530,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "a255fbcd-7459-5252-b320-d4a0a10e59ba"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

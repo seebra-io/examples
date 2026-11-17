@@ -1,0 +1,10 @@
+{
+  "data/id": "921447c6-beee-5fde-b793-ae26522e07eb",
+  "data/name": "rs671 ALDH2 genotypes per population data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 560
+  },
+  "data/parent": ["query/id", "30b2fd4b-0f8c-5a2f-bd29-42bd64a6eddb"],
+  "data/type": "json"
+}

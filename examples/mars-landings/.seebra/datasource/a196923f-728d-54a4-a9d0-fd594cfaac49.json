@@ -1,0 +1,16 @@
+{
+  "datasource/api-key-key": "api_key",
+  "datasource/auth-type": "none",
+  "datasource/headers": "{}",
+  "datasource/id": "a196923f-728d-54a4-a9d0-fd594cfaac49",
+  "datasource/name": "NASA 3D Resources (GitHub)",
+  "datasource/node": {
+    "inputs": 1,
+    "node/x": 80,
+    "node/y": 320,
+    "outputs": 1
+  },
+  "datasource/params": "{}",
+  "datasource/type": "openapi",
+  "datasource/url": "https://raw.githubusercontent.com/nasa/NASA-3D-Resources/master"
+}

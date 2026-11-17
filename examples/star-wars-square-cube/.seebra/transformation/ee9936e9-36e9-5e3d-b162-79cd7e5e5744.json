@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/starships-in-numbers-cost-length-crew-hyperdrive.polars.py"
+  },
+  "transformation/data-child": ["data/id", "89eb4ed4-cb2f-5045-9f64-a0d54744874e"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "ee9936e9-36e9-5e3d-b162-79cd7e5e5744",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Starships in numbers: cost, length, crew, hyperdrive",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "c2aa48c4-dbf3-51d1-8346-b9619e3c7c1f"],
+  "transformation/units": "{}"
+}

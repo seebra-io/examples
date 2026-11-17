@@ -1,0 +1,11 @@
+{
+  "data/id": "111fdc1b-b926-56a0-9508-fe9667c15f9c",
+  "data/name": "Response per layer and cycle",
+  "data/node": {
+    "node/x": 2990,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "16b3dd88-b7a3-52ac-b6b8-0fda1a0d7bee"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "1d30c932-f53a-5279-aada-930efd7702eb"],
+  "query/datasource": ["datasource/id", "4cdbcf20-8660-555a-8ab4-7415f9a0f5fc"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "7337c92d-37d2-5797-8f5e-da1cb5748e14",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "logical cores, per processor (50yrs/cores.dat)",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 1040
+  },
+  "query/params": "{}",
+  "query/path": "/50yrs/cores.dat",
+  "query/request-body": "",
+  "query/units": "{}"
+}

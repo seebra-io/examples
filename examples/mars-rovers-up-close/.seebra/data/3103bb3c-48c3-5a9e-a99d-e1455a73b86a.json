@@ -1,0 +1,13 @@
+{
+  "data/file": {
+    "$file": "data/mars-rover-parts-curated-with-sources-data.json"
+  },
+  "data/id": "3103bb3c-48c3-5a9e-a99d-e1455a73b86a",
+  "data/name": "Mars rover parts (curated, with sources) data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 80
+  },
+  "data/parent": ["query/id", "fb427df6-c701-5995-8ec9-d7aacdf4200b"],
+  "data/type": "json"
+}

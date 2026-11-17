@@ -1,0 +1,46 @@
+{
+  "dashboard/id": "3ec2799f-a1d7-5493-8664-3b8a2971ffad",
+  "datas": [
+    ["data/id", "6eac3e31-1dd1-5d51-afd2-494c496f89b6"],
+    ["data/id", "d7714d78-bc3e-59da-b83b-73f1498b73ae"],
+    ["data/id", "ae1213d2-fe2f-57c0-88d3-6a0f4cd6eae0"],
+    ["data/id", "c1fca5ee-1de6-5c9b-8e00-d4474d0d42dd"],
+    ["data/id", "39980c9c-006d-5a30-a608-a1594c9588ae"],
+    ["data/id", "e04635d5-e406-5c77-8f7b-60349f40b852"],
+    ["data/id", "a7fe7235-df29-5ea4-9134-1ef8a0438b8f"],
+    ["data/id", "a29cf280-5f5d-5304-9de0-8328f094acff"],
+    ["data/id", "4a36c705-0db0-5dd1-b218-aea9b25cc6d6"],
+    ["data/id", "69321c51-8d44-56f6-aed9-53e8bf48aa73"]
+  ],
+  "datasources": [
+    ["datasource/id", "ca73fa36-92d8-5854-9079-96cb16304524"],
+    ["datasource/id", "8bc12484-a3c5-5d4e-b673-7df7ba3d1541"]
+  ],
+  "description": "The asteroids passing Earth in the coming week (NASA NeoWs), around Earth in 3D: each at its real miss distance on a log scale with the Moon's orbit for reference, sized by estimated diameter, red when potentially hazardous (hover for the record, click for its JPL page). NeoWs gives no approach direction, so directions are illustrative. Statistics: the empirical cumulative distribution (ECDF) of miss distance on a log axis, so you can read off the median and the share within the Moon's distance, 10× and 100× it. A week is a few dozen objects, and the feed only lists approaches within about 0.5 au (195 lunar distances), so the curve reaching 100% there is the list's cut-off. DEMO_KEY allows 30 requests an hour. Trajectories: JPL's close approaches of the coming month (within 0.05 au, 19.5 LD) joined to their orbits from JPL's small-body database, each flyby estimated by two-body Kepler motion of the object and Earth, 4 days either side, as paths past Earth in 3D and as distance curves. The check step compares each estimate with JPL's integrated distance (most agree within a few percent) and distrusts slow flybys, which Earth's own pull bends and the estimate leaves out. The orbit query reads about 23,000 near-Earth orbits (1.8 MB) to find the month's few dozen.",
+  "graphs": [
+    ["graph/id", "07820cd8-c44f-58a8-86d4-66f200fb9609"],
+    ["graph/id", "1cb8500c-765a-5078-8623-fd3b626032b5"],
+    ["graph/id", "6e6da256-d569-5bc4-a7d8-5d6866e89273"],
+    ["graph/id", "2d54e034-0928-552c-bc6d-1c6936749ebe"]
+  ],
+  "grids": [],
+  "name": "Near-Earth objects in 3D",
+  "queries": [
+    ["query/id", "85f9e3b4-7bf6-549e-8281-237c7b5e1c49"],
+    ["query/id", "a460b25a-3046-516e-893b-db1412d2913d"],
+    ["query/id", "da934f9d-baf8-50ca-a929-96240bd9f53f"]
+  ],
+  "studies": [],
+  "tables": [],
+  "texts": [],
+  "timers": [],
+  "transformations": [
+    ["transformation/id", "75d3f628-a64a-5292-996d-f34a0f794bd2"],
+    ["transformation/id", "b8bdd9e3-043e-5d94-b9ac-05b0a62dbaea"],
+    ["transformation/id", "0703aa37-7517-5b87-8b7e-6c34758a658c"],
+    ["transformation/id", "231b276f-c38e-5144-aa9a-ecf12a3b5cee"],
+    ["transformation/id", "1e987227-a63a-5837-823e-ad8b7cb793b7"],
+    ["transformation/id", "ad6ebed8-91a1-58ad-8305-8bc41d38b163"],
+    ["transformation/id", "cb1f80ad-2fda-5e42-b0a1-13779283fb6f"]
+  ]
+}

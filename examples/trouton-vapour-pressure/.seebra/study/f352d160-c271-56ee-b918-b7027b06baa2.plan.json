@@ -1,0 +1,218 @@
+{
+  "title": "Hydrogen bonds and Trouton's rule",
+  "question": "Per pure liquid (one reading nearest 25 °C, plausible ΔS only): is the mean of ds_implied higher for hbond = O–H donor than for hbond = no H-bond donor?",
+  "review": {
+    "well_formed": false,
+    "issues": [
+      {
+        "kind": "unmeasured",
+        "text": "Whether a liquid hydrogen-bonds is not a field: it is read from the SMILES with a pattern for O–H and N–H groups.",
+        "fix": "The hbond category in compounds; check the O–H list by hand (it holds water-free acids, glycols, phenols)."
+      },
+      {
+        "kind": "causal",
+        "text": "Donors also differ in size and polarity, and acids dimerise in the vapour, which lowers ΔS.",
+        "fix": "Compare at similar boiling points (tb_k) and report carboxylic acids apart."
+      },
+      {
+        "kind": "concept",
+        "text": "ΔS from one reading far below Tb mixes Trouton's constant with the temperature dependence of ΔH_vap.",
+        "fix": "Compare classes at the same x = Tb/T − 1, or add a second reading per liquid."
+      }
+    ],
+    "alternatives": [
+      {
+        "question": "Is ds_implied higher for N–H donors (amines) than for liquids with no donor?",
+        "why": "Drills into the weaker donor class (27 liquids).",
+        "ready": true
+      },
+      {
+        "question": "Does ds_implied rise with x = Tb/T − 1 among non-donors, as Watson's correlation predicts?",
+        "why": "Separates the temperature dependence of ΔH_vap from hydrogen bonding.",
+        "ready": true
+      },
+      {
+        "question": "Do donor/non-donor pairs form azeotropes more often than non-donor pairs?",
+        "why": "Expands to mixtures, the distillation consequence.",
+        "ready": false
+      }
+    ]
+  },
+  "hypotheses": [
+    {
+      "id": "H1",
+      "statement": "Liquids with an O–H donor have a higher implied entropy of vaporisation than liquids with no hydrogen-bond donor.",
+      "null": "The mean ds_implied is the same for both classes.",
+      "outcome": {
+        "concept": "Entropy of vaporisation",
+        "field": "ds_implied"
+      },
+      "predictor": {
+        "concept": "Hydrogen-bond donor",
+        "field": "hbond"
+      },
+      "subgroup": {
+        "concept": "Hydrogen-bond donor",
+        "category": "O–H donor (alcohols, acids, water)"
+      },
+      "direction": "increase",
+      "test": {
+        "method": "means",
+        "link": null,
+        "outcome_mode": "mean",
+        "outcome_field": "ds_implied",
+        "predictor_field": "hbond",
+        "exposure_field": null,
+        "versus": "no H-bond donor"
+      }
+    },
+    {
+      "id": "H2",
+      "statement": "The boiling point predicts the vapour pressure less well for O–H donors: their log₁₀(reported/predicted) is below zero.",
+      "null": "log_ratio_fit has the same mean for donors and non-donors.",
+      "outcome": {
+        "concept": "Vapour pressure against the boiling-point prediction",
+        "field": "log_ratio_fit"
+      },
+      "predictor": {
+        "concept": "Hydrogen-bond donor",
+        "field": "hbond"
+      },
+      "subgroup": {
+        "concept": "Hydrogen-bond donor",
+        "category": "O–H donor (alcohols, acids, water)"
+      },
+      "direction": "decrease",
+      "test": {
+        "method": "means",
+        "link": null,
+        "outcome_mode": "mean",
+        "outcome_field": "log_ratio_fit",
+        "predictor_field": "hbond",
+        "exposure_field": null,
+        "versus": "no H-bond donor"
+      }
+    }
+  ],
+  "concepts": [
+    {
+      "label": "Pure substance",
+      "kind": "entity",
+      "description": "A Wikidata item with a SMILES, a vapour pressure at a stated temperature and a normal boiling point.",
+      "why": "The unit of the study.",
+      "have": true,
+      "categories": [],
+      "field": "qid",
+      "strategy": null
+    },
+    {
+      "label": "Entropy of vaporisation",
+      "kind": "measure",
+      "description": "R ln(P0/P)/(Tb/T − 1) from one reading, J/(mol·K).",
+      "why": "The outcome.",
+      "have": true,
+      "categories": [],
+      "field": "ds_implied",
+      "strategy": null
+    },
+    {
+      "label": "Hydrogen-bond donor",
+      "kind": "category",
+      "description": "O–H donor, N–H donor or none, from SMILES patterns.",
+      "why": "The predictor.",
+      "have": true,
+      "categories": [
+        "O–H donor (alcohols, acids, water)",
+        "N–H donor (amines, amides)",
+        "no H-bond donor"
+      ],
+      "field": "hbond",
+      "strategy": null
+    },
+    {
+      "label": "Distance below the boiling point",
+      "kind": "measure",
+      "description": "x = Tb/T − 1.",
+      "why": "A confounder: ΔH_vap changes with temperature.",
+      "have": true,
+      "categories": [],
+      "field": "x",
+      "strategy": null
+    },
+    {
+      "label": "Carboxylic acid",
+      "kind": "category",
+      "description": "Acids dimerise in the vapour, lowering ΔS_vap.",
+      "why": "A subgroup that behaves against the hypothesis.",
+      "have": false,
+      "categories": [
+        "carboxylic acid",
+        "other"
+      ],
+      "field": "smiles",
+      "strategy": {
+        "how": "categorise",
+        "detail": "SMILES containing C(=O)O with a terminal O"
+      }
+    },
+    {
+      "label": "Measured heat of vaporisation",
+      "kind": "measure",
+      "description": "Calorimetric ΔH_vap at Tb, to test Trouton without the temperature extrapolation.",
+      "why": "Removes the Watson effect.",
+      "have": false,
+      "categories": [],
+      "field": null,
+      "strategy": {
+        "how": "fetch",
+        "detail": "NIST Chemistry WebBook or Wikidata P2116, matched on PubChem CID"
+      }
+    }
+  ],
+  "data": [
+    {
+      "concept": "Measured heat of vaporisation",
+      "request": "Enthalpy of vaporisation at the normal boiling point for the same compounds",
+      "source": "NIST Chemistry WebBook (by CAS/CID); Wikidata P2116 holds only about 24",
+      "why": "Tests Trouton's rule at Tb directly."
+    }
+  ],
+  "links": [],
+  "method": {
+    "id": "means",
+    "summary": "Mean ds_implied of O–H donors against non-donors, Welch-style with unequal variances; the board's welch step gives the classical t as a check."
+  },
+  "steps": [
+    {
+      "kind": "data",
+      "title": "Readings from Wikidata",
+      "detail": "Vapour pressure with temperature and boiling point with pressure, units as entered (vp)."
+    },
+    {
+      "kind": "concept",
+      "title": "Derive the implied ΔS_vap",
+      "detail": "ds_implied = R ln(101325/p_pa)/(tb_k/t_k − 1) per liquid (compounds)."
+    },
+    {
+      "kind": "categorise",
+      "title": "Hydrogen-bond donors",
+      "detail": "hbond from SMILES patterns for O–H and N–H."
+    },
+    {
+      "kind": "method",
+      "title": "Compare the means",
+      "detail": "ds_implied by hbond, plausible readings only (welch, by_group)."
+    },
+    {
+      "kind": "decide",
+      "title": "Donors against non-donors",
+      "detail": "Interval of the difference above 5 J/(mol·K)?"
+    }
+  ],
+  "caveats": [
+    "Wikidata readings are rounded safety-sheet values; 11 imply impossible ΔS and are excluded.",
+    "A single constant ΔH between T and Tb is an approximation; the class difference is partly a difference in x.",
+    "Acids dimerise in the vapour and pull the O–H class down.",
+    "The donor class is a SMILES pattern; a few groups (oximes, thiols) are not handled."
+  ]
+}

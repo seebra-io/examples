@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "f4bf5f28-4649-5cdb-bd0b-35197b89b686"],
+  "query/datasource": ["datasource/id", "d5a9dede-364d-5eda-bab7-e7b894198d30"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "48e4f38f-61ad-56cb-a2b5-c9e310c1a7e3",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "COD entries for InAs (measured)",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 800
+  },
+  "query/params": "{\"format\":\"json\",\"formula\":\"As In\"}",
+  "query/path": "/result",
+  "query/request-body": "",
+  "query/units": "{}"
+}

@@ -1,0 +1,21 @@
+{
+  "transformation/content": {
+    "$file": "transforms/bird-share-per-province-a-rate-needs-an-exposure.polars.py"
+  },
+  "transformation/data-child": ["data/id", "854a28d4-5b97-54cb-8f90-7c27536c40ee"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "b6121291-a6b7-5876-80ac-3f385f471458",
+  "transformation/inputs": [
+    ["data/id", "9122a129-07dd-5083-b455-f619816701a4"]
+  ],
+  "transformation/language": "polars",
+  "transformation/name": "Bird share per province (a rate needs an exposure)",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 560
+  },
+  "transformation/parent": ["data/id", "1637da99-5af1-506f-80f9-9e9fb9160bd8"],
+  "transformation/units": "{}"
+}

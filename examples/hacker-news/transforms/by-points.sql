@@ -1,0 +1,1 @@
+SELECT title, points, comments, site, hours_before_newest, author, url, link FROM data ORDER BY points DESC

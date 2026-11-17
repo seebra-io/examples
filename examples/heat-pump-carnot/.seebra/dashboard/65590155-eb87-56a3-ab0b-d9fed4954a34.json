@@ -1,0 +1,56 @@
+{
+  "dashboard/id": "65590155-eb87-56a3-ab0b-d9fed4954a34",
+  "datas": [
+    ["data/id", "bd4b312d-e435-5e63-a944-1e08fc510644"],
+    ["data/id", "f886244a-b41e-507e-a232-f00798df2e2c"],
+    ["data/id", "f40ea04b-d15a-5b8c-ac92-1fb7fe0533a0"],
+    ["data/id", "fd561c75-e391-5f57-9d20-10901dc07a22"],
+    ["data/id", "805b87ff-8541-5bb0-9364-56336342d2f3"],
+    ["data/id", "a5c7878e-b76b-534a-8439-fa92428245ef"],
+    ["data/id", "83c22050-b27c-52c3-a0b6-3edabe802ff4"],
+    ["data/id", "233d4b88-d447-544a-b30d-00204b805109"],
+    ["data/id", "b9a5e1a2-3f25-53ed-8582-0228fb139519"],
+    ["data/id", "58d76c0e-3a9e-5821-9e8f-c9c7d6c0f018"],
+    ["data/id", "e1a93826-2642-5142-9c01-3354e9a7a772"],
+    ["data/id", "e103d2fa-1a2e-5f74-bf8c-b78f9f428793"],
+    ["data/id", "341424d4-5fc3-5a3f-b0d0-6ac8ef31247d"]
+  ],
+  "datasources": [
+    ["datasource/id", "512f9cda-87ff-56fd-861f-4c419dc6b5ad"]
+  ],
+  "description": "Question: four houses in Britain run the same model of air-source heat pump (Vaillant aroTHERM plus) through the same winter. Why does one get almost twice as much heat per kWh of electricity as another? Data: a year (November 2025 to October 2026) of daily, metered space-heating statistics per house from HeatpumpMonitor.org, OpenEnergyMonitor's open-data project (heat and electricity in kWh from heat and electricity meters, mean flow, return, outdoor and room temperatures): systems 802 (Cheshire, 10 kW, underfloor heating and radiators), 254 (Angus, 7 kW), 357 (Newcastle upon Tyne, 7 kW) and 700 (London, 7 kW), the last three with radiators; heating-season days (daily mean outdoor temperature up to 15 °C). Idea: the Carnot limit of a heat pump. Moving heat from cold air at T_cold to water at T_hot costs at least the work W = Q (1 − T_cold/T_hot), so the coefficient of performance COP = Q/W can never exceed T_hot/(T_hot − T_cold), in kelvin. It depends only on the lift T_hot − T_cold; a real machine reaches a roughly fixed share of it. Steps: each house's CSV to days (Polars); the four together with COP, lift and Carnot COP (SQL); COP per 2 K band of outdoor temperature; the year per house (seasonal COP, heat-weighted flow temperature and lift); least squares of COP on the Carnot COP and on the lift; the Carnot curves for 25–45 °C water. The aha: the four houses' days fall on one line, COP ≈ η × Carnot, and what separates them is the flow temperature, not the climate: the house with underfloor heating heats with water at 29 °C (heat-weighted) and reaches a seasonal COP of 5.66; the London house needs 38.5 °C and gets 3.92, though its winter is milder. Across all 1,039 heating days the COP is about 0.35 × Carnot (r = 0.77), and each kelvin of lift costs 0.16 in COP: 5 K lower flow temperature is worth about 17%. Bigger radiators, underfloor heating and weather compensation are thermodynamics, not marketing. Caveats: four self-selected, carefully run systems; space heating only (hot water runs at 45–55 °C and a lower COP); outdoor temperature from each unit's sensor; the 'Carnot' here uses the mean flow temperature and outdoor air, while the refrigerant runs a few kelvin hotter and colder (heatpumpmonitor.org's own %Carnot uses those offsets, so its numbers are higher); days with less than 0.5 kWh of electricity are dropped. HeatpumpMonitor.org publishes the data as open data for others to learn from; cite the site and the system ids. Next: open other systems by id (the public list holds hundreds with model, emitters and heat loss), or join Open-Meteo's archive at each house's location to check the outdoor sensor.",
+  "graphs": [
+    ["graph/id", "a5c4bf09-3744-5745-8917-0aaff9355ac0"],
+    ["graph/id", "da6f6d82-c051-5e96-acb7-ec39700b795a"],
+    ["graph/id", "fac971ad-b301-550c-901b-c999756180c8"]
+  ],
+  "grids": [],
+  "name": "Heat pumps and the Carnot limit: why flow temperature matters",
+  "ontology": {
+    "$file": ".seebra/dashboard/65590155-eb87-56a3-ab0b-d9fed4954a34.ontology.json",
+    "$json": true
+  },
+  "queries": [
+    ["query/id", "1c137472-8dc0-53eb-baf6-0414bd5f8788"],
+    ["query/id", "00658aad-16f5-52b4-a0e0-a7f75b37df0b"],
+    ["query/id", "688de3c0-476f-5528-9b51-9b61a93feea7"],
+    ["query/id", "3834fb55-22db-59ff-a235-a9d8b9f5078e"]
+  ],
+  "studies": [
+    ["study/id", "a267a05e-1309-5bf0-99d7-cc982aca6338"]
+  ],
+  "tables": [],
+  "texts": [],
+  "timers": [],
+  "transformations": [
+    ["transformation/id", "9484c787-e24d-5a67-9c28-b9be45bb19ac"],
+    ["transformation/id", "df8bb237-daf0-591f-bee1-49431d29c45f"],
+    ["transformation/id", "75dacb65-e4a2-5d9e-be21-3561983d1e39"],
+    ["transformation/id", "2a765ed7-e11b-592e-ba22-793b61262aad"],
+    ["transformation/id", "961ba2d5-8774-5ef4-af20-aae1e37bd2c1"],
+    ["transformation/id", "5fbd17f4-b8c7-55ce-b9c1-de3b5bccbae0"],
+    ["transformation/id", "4561bdde-7b9e-5798-93f2-72dae857a579"],
+    ["transformation/id", "670b4af9-e009-5062-af1d-5c2a2033383b"],
+    ["transformation/id", "e28426ce-590e-556c-86da-33fad7f8c086"]
+  ]
+}

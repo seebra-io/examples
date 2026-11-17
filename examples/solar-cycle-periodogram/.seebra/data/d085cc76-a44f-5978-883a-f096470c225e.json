@@ -1,0 +1,10 @@
+{
+  "data/id": "d085cc76-a44f-5978-883a-f096470c225e",
+  "data/name": "Trial periods, 3 to 150 years data",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 560
+  },
+  "data/parent": ["transformation/id", "bfad728c-47e7-5f0d-bb1d-14ae0191d4c6"],
+  "data/type": "json"
+}

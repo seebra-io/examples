@@ -1,0 +1,1 @@
+SELECT city, day, ROUND(AVG(pm2_5), 1) AS pm2_5, ROUND(MAX(pm2_5), 1) AS pm2_5_peak, ROUND(AVG(pm10), 1) AS pm10, ROUND(AVG(no2), 1) AS no2, ROUND(AVG(o3), 1) AS o3 FROM data GROUP BY city, day ORDER BY city, day

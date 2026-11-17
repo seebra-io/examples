@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/users.polars.py"
+  },
+  "transformation/data-child": ["data/id", "167f320a-78a7-5368-93b4-993cdaf33166"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "8fc95a6a-2f8c-5800-8d6c-d6190dbc366a",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Users",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 560
+  },
+  "transformation/parent": ["data/id", "0155e03c-843c-5c43-b783-ba5b762d2559"],
+  "transformation/units": "{}"
+}

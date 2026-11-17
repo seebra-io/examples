@@ -1,0 +1,11 @@
+{
+  "data/id": "f15fedcd-5fca-5554-8c38-5bd5346d10b4",
+  "data/name": "Daily means (µg/m³)",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "c39fcd40-a7e1-5b64-8486-06abe903acf4"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

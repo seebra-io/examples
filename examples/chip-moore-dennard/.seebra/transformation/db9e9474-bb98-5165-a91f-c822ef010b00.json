@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/parse-clock-frequency-mhz.polars.py"
+  },
+  "transformation/data-child": ["data/id", "33bfd6ad-bd1c-51b6-8fb3-1c7ecc4cd56d"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "db9e9474-bb98-5165-a91f-c822ef010b00",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Parse clock frequency (MHz)",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "7872d118-1f2b-51dd-9bcf-a766b215f230"],
+  "transformation/units": "{}"
+}

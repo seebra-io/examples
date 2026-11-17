@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "eb99bdcf-f713-50ad-ac2a-fd9ac432264e"],
+  "query/datasource": ["datasource/id", "da0d6c24-7504-53aa-bf5c-f1bcf41e02d9"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "fed2ad4c-4d72-5689-8443-620617b206b7",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Perseverance",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 80
+  },
+  "query/params": "{\"feed\":\"raw_images\",\"category\":\"mars2020\",\"feedtype\":\"json\",\"num\":\"100\",\"page\":\"0\",\"order\":\"sol desc\"}",
+  "query/path": "/rss/api/",
+  "query/request-body": "",
+  "query/units": "{}"
+}

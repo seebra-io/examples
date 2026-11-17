@@ -1,0 +1,10 @@
+{
+  "data/id": "b9a5e1a2-3f25-53ed-8582-0228fb139519",
+  "data/name": "All days, with the Carnot COP data",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "961ba2d5-8774-5ef4-af20-aae1e37bd2c1"],
+  "data/type": "json"
+}

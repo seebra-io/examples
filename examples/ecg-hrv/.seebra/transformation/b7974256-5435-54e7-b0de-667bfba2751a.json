@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/rr-intervals-mit-bih-100.polars.py"
+  },
+  "transformation/data-child": ["data/id", "fbefdf22-8b55-53af-ae13-11deac0f6544"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "b7974256-5435-54e7-b0de-667bfba2751a",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "RR intervals: MIT-BIH 100",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "c3f76ea4-b003-5871-926c-bbb52770456f"],
+  "transformation/units": "{}"
+}

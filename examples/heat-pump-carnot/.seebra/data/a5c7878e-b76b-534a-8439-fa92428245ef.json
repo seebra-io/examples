@@ -1,0 +1,10 @@
+{
+  "data/id": "a5c7878e-b76b-534a-8439-fa92428245ef",
+  "data/name": "Days: Angus (radiators) data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "df8bb237-daf0-591f-bee1-49431d29c45f"],
+  "data/type": "json"
+}

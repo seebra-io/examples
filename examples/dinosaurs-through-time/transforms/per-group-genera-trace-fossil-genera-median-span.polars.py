@@ -1,0 +1,1 @@
+data.group_by("clade").agg(genera = (~col("trace_fossil")).sum(), trace_fossil_genera = col("trace_fossil").sum(), median_span_myr = col("span_myr").median(), single_find_genera = (col("finds") == 1).sum()).sort("genera", descending = True)

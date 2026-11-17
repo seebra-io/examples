@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/body-length-a-distribution-and-its-quantiles.js"
+  },
+  "graph/id": "2d7f250d-a05a-51c1-a611-1ad0d8b722ef",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Body length: a distribution and its quantiles",
+  "graph/node": {
+    "node/x": 1460,
+    "node/y": 80
+  },
+  "graph/parent": ["data/id", "b75e8534-8566-56f9-a3ab-0a37b0117d4b"]
+}

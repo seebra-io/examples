@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/reference-cell-per-material-the-most-precise.polars.py"
+  },
+  "transformation/data-child": ["data/id", "6c626d44-2db1-5859-b2d8-033cfc58c2ce"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "4ce60f0d-41bd-50ec-90bb-e85aaf40f3c6",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Reference cell per material (the most precise cubic entry near the median)",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "2aabb9b8-1743-5c0a-a03f-29f0455be53d"],
+  "transformation/units": "{}"
+}

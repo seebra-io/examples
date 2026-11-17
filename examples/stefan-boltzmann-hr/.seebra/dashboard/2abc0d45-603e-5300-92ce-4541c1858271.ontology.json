@@ -1,0 +1,155 @@
+{
+  "title": "Stars on the Hertzsprung–Russell diagram",
+  "summary": "A star's luminosity is its area times σT⁴; distance and brightness give luminosity, so temperature then gives size. Mass orders the main sequence.",
+  "concepts": [
+    {
+      "cid": "c1",
+      "label": "Star",
+      "kind": "entity",
+      "description": "A Gaia DR3 source with astrophysical parameters.",
+      "fields": [
+        "star",
+        "source_id"
+      ],
+      "in_data": true,
+      "wikidata": "Q523",
+      "children": [
+        {
+          "cid": "c2",
+          "label": "Effective temperature",
+          "kind": "measure",
+          "as": "property",
+          "description": "Teff from Gaia's BP/RP spectrum (GSP-Phot), K.",
+          "fields": [
+            "teff"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c3",
+          "label": "Luminosity",
+          "kind": "measure",
+          "as": "property",
+          "description": "Total radiated power, L☉; from apparent G, parallax, extinction and BC_G.",
+          "fields": [
+            "lum",
+            "lum_flame"
+          ],
+          "in_data": true,
+          "wikidata": "Q105902"
+        },
+        {
+          "cid": "c4",
+          "label": "Stellar radius",
+          "kind": "measure",
+          "as": "property",
+          "description": "R☉, from Stefan–Boltzmann (radius_sb) or Gaia's spectral fit.",
+          "fields": [
+            "radius_sb",
+            "radius_gspphot"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c5",
+          "label": "Stellar mass",
+          "kind": "measure",
+          "as": "property",
+          "description": "FLAME's model mass, M☉.",
+          "fields": [
+            "mass_flame"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c6",
+          "label": "Distance",
+          "kind": "measure",
+          "as": "property",
+          "description": "1/parallax, parsecs.",
+          "fields": [
+            "dist_pc"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c7",
+          "label": "Evolutionary stage",
+          "kind": "category",
+          "as": "property",
+          "description": "Main sequence, subgiant, giant.",
+          "fields": [
+            "stage",
+            "evolstage_flame"
+          ],
+          "in_data": true,
+          "children": [
+            {
+              "cid": "c8",
+              "label": "White dwarf",
+              "kind": "category",
+              "as": "subtype",
+              "description": "Hot and tiny (about 0.01 R☉): left out by the 3,300–8,000 K cut.",
+              "fields": [],
+              "in_data": false
+            }
+          ]
+        },
+        {
+          "cid": "c9",
+          "label": "Binary star",
+          "kind": "entity",
+          "as": "subtype",
+          "description": "Two stars in orbit: the source of dynamical masses.",
+          "fields": [],
+          "in_data": false
+        }
+      ]
+    },
+    {
+      "cid": "c10",
+      "label": "Stefan–Boltzmann law",
+      "kind": "event",
+      "description": "L = 4πR²σT⁴.",
+      "fields": [
+        "radius_sb"
+      ],
+      "in_data": true,
+      "wikidata": "Q181889",
+      "facts": [
+        {
+          "text": "σ = 5.670374419 × 10⁻⁸ W m⁻² K⁻⁴ (exact in the 2019 SI).",
+          "source": "https://physics.nist.gov/cgi-bin/cuu/Value?sigma"
+        }
+      ]
+    },
+    {
+      "cid": "c11",
+      "label": "Bolometric correction",
+      "kind": "measure",
+      "description": "Magnitudes from the G band to all wavelengths, BC_G(Teff).",
+      "fields": [
+        "bc_g"
+      ],
+      "in_data": true,
+      "facts": [
+        {
+          "text": "Polynomial in Teff − 5772 K, valid 3,300–8,000 K (Andrae et al. 2018).",
+          "source": "https://doi.org/10.1051/0004-6361/201732516"
+        }
+      ]
+    },
+    {
+      "cid": "c12",
+      "label": "Mass–luminosity relation",
+      "kind": "event",
+      "description": "L ∝ M^α on the main sequence.",
+      "fields": [
+        "log_l",
+        "log_m"
+      ],
+      "in_data": true,
+      "wikidata": "Q1550695"
+    }
+  ]
+}

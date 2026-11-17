@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/mass-from-the-orbit-against-the-catalogue-mass.polars.py"
+  },
+  "transformation/data-child": ["data/id", "d7759813-e572-5667-9367-8b26b930d73a"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "f8b5fe70-3802-5acc-adc3-0fe215bcb93f",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Mass from the orbit against the catalogue mass, per discovery method",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "da03da8d-2739-5ed3-9c84-3508becb4858"],
+  "transformation/units": "{}"
+}

@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "1b613d4f-d4d9-5857-a8a3-e5a61fa7f06c"],
+  "query/datasource": ["datasource/id", "48e40754-5006-5582-bf1d-604b33728d13"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "174e31fb-31d6-519e-bb31-80b850648d38",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "1A6M helices and strands",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 320
+  },
+  "query/params": "{}",
+  "query/path": "/pdb/entry/secondary_structure/1a6m",
+  "query/request-body": "",
+  "query/units": "{}"
+}

@@ -1,0 +1,10 @@
+{
+  "data/id": "8d2d055a-4c19-59b3-8691-a18134a13477",
+  "data/name": "Distribution of Δf (5 mHz bins) data",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 560
+  },
+  "data/parent": ["transformation/id", "821bbe97-68e7-5137-ba66-c35e99d63c9f"],
+  "data/type": "json"
+}

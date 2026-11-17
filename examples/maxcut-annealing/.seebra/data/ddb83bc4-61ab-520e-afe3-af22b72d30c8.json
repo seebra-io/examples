@@ -1,0 +1,11 @@
+{
+  "data/id": "ddb83bc4-61ab-520e-afe3-af22b72d30c8",
+  "data/name": "Per schedule",
+  "data/node": {
+    "node/x": 2070,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "cdb80075-49d9-5d74-bfb8-487bdd774b45"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

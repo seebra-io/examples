@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/compensatory-pause-per-record.polars.py"
+  },
+  "transformation/data-child": ["data/id", "6e770667-9ba8-5359-ba6e-109e3336169c"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "2d4e1ee7-3ff3-50c3-af35-2a83f5533541",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Compensatory pause per record",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 2380,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "2c707d1c-26c6-5bb1-8154-9b20932a069b"],
+  "transformation/units": "{}"
+}

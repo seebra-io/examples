@@ -1,0 +1,18 @@
+{
+  "study/hypothesis": "The pooled heterozygote deficit F equals F_ST computed from the populations' allele frequencies; within populations F is near 0, except rs334 (HbS), which has too many heterozygotes in African populations.",
+  "study/id": "d1fb4dd4-12cf-5726-8d9b-ad82fe352a65",
+  "study/name": "Study: is pooling the reason for the heterozygote deficit?",
+  "study/node": {
+    "node/x": 540,
+    "node/y": 1520
+  },
+  "study/plan": {
+    "$file": ".seebra/study/d1fb4dd4-12cf-5726-8d9b-ad82fe352a65.plan.json",
+    "$json": true
+  },
+  "study/question": "When the 26 populations of 1000 Genomes are pooled, do the variants depart from Hardy–Weinberg by as much as the spread of their allele frequencies between populations predicts (the Wahlund effect), and does any variant depart within populations?",
+  "study/state": {
+    "$file": ".seebra/study/d1fb4dd4-12cf-5726-8d9b-ad82fe352a65.state.json",
+    "$json": true
+  }
+}

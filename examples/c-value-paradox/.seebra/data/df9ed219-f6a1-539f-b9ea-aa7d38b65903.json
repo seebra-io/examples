@@ -1,0 +1,11 @@
+{
+  "data/id": "df9ed219-f6a1-539f-b9ea-aa7d38b65903",
+  "data/name": "Scaling per group",
+  "data/node": {
+    "node/x": 2530,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "b04421aa-d184-5efc-959f-8935d5de88f8"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

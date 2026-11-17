@@ -1,0 +1,10 @@
+{
+  "data/id": "1f0cd937-2c98-5be2-b35f-7c8882096e7c",
+  "data/name": "Season means per year data",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "47ab23c9-8cdb-5213-a874-c7df26751d66"],
+  "data/type": "json"
+}

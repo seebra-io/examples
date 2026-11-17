@@ -1,0 +1,11 @@
+{
+  "data/id": "dfe14c8f-9d13-5a2f-a532-b473371e98f9",
+  "data/name": "The fitted curve",
+  "data/node": {
+    "node/x": 2070,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "a1e42766-6fc2-51c8-b8f6-014acf3b6242"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

@@ -1,0 +1,22 @@
+{
+  "transformation/content": {
+    "$file": "transforms/uniqueness-v1-distinct-rarity-with-k-3-5-10-and.polars.py"
+  },
+  "transformation/data-child": ["data/id", "58436b7c-a62e-5afd-9806-7c0b3efb05b1"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "002a0d66-d048-56b6-80ee-55d7f3d8f7eb",
+  "transformation/inputs": [
+    ["data/id", "30c4b510-b5db-5d5e-bd44-465c6d6bc1b3"],
+    ["data/id", "050559e5-e9d3-5e51-8ef9-1602366bb30b"]
+  ],
+  "transformation/language": "polars",
+  "transformation/name": "Uniqueness v1: distinct × rarity, with k = 3, 5, 10 and with place names kept",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "52643f1d-d9e6-5a6b-8a78-b76a0b0a97f8"],
+  "transformation/units": "{}"
+}

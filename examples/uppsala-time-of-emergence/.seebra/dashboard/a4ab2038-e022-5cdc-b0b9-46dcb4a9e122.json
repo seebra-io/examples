@@ -1,0 +1,44 @@
+{
+  "dashboard/id": "a4ab2038-e022-5cdc-b0b9-46dcb4a9e122",
+  "datas": [
+    ["data/id", "0e017c59-0e1f-5f0d-8d70-b8494cc2e390"],
+    ["data/id", "be5f2358-6c7f-5867-926a-f90755ee7a30"],
+    ["data/id", "1f0cd937-2c98-5be2-b35f-7c8882096e7c"],
+    ["data/id", "f62047c7-9c9c-5cd6-bfdc-e429ba0ed7ea"],
+    ["data/id", "2a23eceb-2571-5d7f-b534-d41cf430c83b"],
+    ["data/id", "77b4014b-5f4b-58b6-8d77-9acfa1a5d71c"],
+    ["data/id", "15dde0c8-72d0-5164-8b2a-6a530b0ed22f"]
+  ],
+  "datasources": [
+    ["datasource/id", "97f0c666-f949-5f45-9a99-e79db05caf1d"]
+  ],
+  "description": "Question: Uppsala's thermometer has read the night-time minimum almost every day since 1840, one of the longest daily records anywhere. Has every season warmed alike, and why does the warming of summer stand out while winter's, as large, hides? Data: the station's whole GHCN-Daily record, one 6 MB CSV object read straight from NOAA's public S3 bucket (noaa-ghcn-pds, AWS Open Data Registry) with no keys: an S3 datasource without secrets reads the object unsigned, and the bucket allows CORS from any site. Idea: signal-to-noise and the time of emergence. A change is visible when it is large against the year-to-year spread (σ) of the climate it changes: S/N = warming / σ, measured here per season against the IPCC's 1850–1900 pre-industrial baseline. Every season has warmed by about 3 °C (winter 3.3, summer 3.1), but winters swing by ±2.35 °C and summers by ±0.88 °C, so S/N is 1.4 in winter and 3.5 in summer: 28 of the last 30 summers were warmer than any summer of 1850–1900, against 14 of 30 winters. Summer nights have left their old climate; half of recent winters would not look out of place in the 1800s. The same warming shows on the ground: the frost-free season has grown from 118 to 151 days (1840–1900 vs 1996–2025) and frost nights fell from 170 to 119 a year. Next steps: hover any dot or tick for its year and values; the station page at NCEI has the raw record; the registry page lists the other 100,000 stations (change the query's path to another station's csv/by_station/<ID>.csv to compare, e.g. a rural one). Caveats: GHCN-Daily is quality-controlled but not homogenised: station moves, new screens and thermometers, and Uppsala's growth (an urban heat island, which warms nights most) are all in the trend, so part of the 3 °C is local, not global (the global land warming since 1850–1900 is about 1.6 °C). The record has gaps (1868–83, 1922–30, 1945–58). Seasons with fewer than 80 days are left out; day of year ignores leap days. Daily minima are not daily means: nights have warmed faster than days in much of the world.",
+  "graphs": [
+    ["graph/id", "004d3839-961b-5009-9298-62874fa0ae75"],
+    ["graph/id", "473cfdfa-6f32-505d-9c26-9f032a7e2cca"],
+    ["graph/id", "db4e1ea1-cb62-54de-9b2c-c32ad7955eca"]
+  ],
+  "grids": [],
+  "name": "Uppsala since 1840: when warming leaves the noise (NOAA GHCN-D from S3)",
+  "ontology": {
+    "$file": ".seebra/dashboard/a4ab2038-e022-5cdc-b0b9-46dcb4a9e122.ontology.json",
+    "$json": true
+  },
+  "queries": [
+    ["query/id", "664c57cf-2e66-5363-a56b-482bf16783cb"]
+  ],
+  "studies": [
+    ["study/id", "a9a5b1a9-7a85-5a12-a61b-2ff15840b5db"]
+  ],
+  "tables": [],
+  "texts": [],
+  "timers": [],
+  "transformations": [
+    ["transformation/id", "7f2f3b7b-f03f-566f-8811-08f766490c37"],
+    ["transformation/id", "47ab23c9-8cdb-5213-a874-c7df26751d66"],
+    ["transformation/id", "f17911e7-0ec2-58c7-bb41-f881829e0086"],
+    ["transformation/id", "a8b11bd2-888b-53d6-9e6b-fd1d6e362d21"],
+    ["transformation/id", "dc089b25-75df-5be8-9f0d-cd77d8b36fc7"],
+    ["transformation/id", "fc66e0d6-716f-5dc4-b4aa-f8556a488fad"]
+  ]
+}

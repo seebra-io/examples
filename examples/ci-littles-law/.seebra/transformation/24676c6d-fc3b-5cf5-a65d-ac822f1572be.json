@@ -1,0 +1,21 @@
+{
+  "transformation/content": {
+    "$file": "transforms/little-s-law-for-the-day-l-against-w.polars.py"
+  },
+  "transformation/data-child": ["data/id", "ac9fea92-c7ef-5517-aee4-53011d3a445c"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "24676c6d-fc3b-5cf5-a65d-ac822f1572be",
+  "transformation/inputs": [
+    ["data/id", "33d82a54-f88c-5ecb-8ba2-11a1f00eb84d"]
+  ],
+  "transformation/language": "polars",
+  "transformation/name": "Little's law for the day: L against λW",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 2380,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "369cbb37-92fe-5f29-8542-4059685b66d6"],
+  "transformation/units": "{}"
+}

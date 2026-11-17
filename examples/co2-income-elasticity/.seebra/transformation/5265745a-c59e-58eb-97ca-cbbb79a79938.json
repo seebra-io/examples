@@ -1,0 +1,21 @@
+{
+  "transformation/content": {
+    "$file": "transforms/six-countries-since-1990.polars.py"
+  },
+  "transformation/data-child": ["data/id", "3abf8019-6730-5d30-b975-437423846072"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "5265745a-c59e-58eb-97ca-cbbb79a79938",
+  "transformation/inputs": [
+    ["data/id", "281bc1ba-e03b-5809-bb13-93146219812c"]
+  ],
+  "transformation/language": "polars",
+  "transformation/name": "Six countries since 1990",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "c7048e21-ff21-5aba-9a44-87434fd7b302"],
+  "transformation/units": "{}"
+}

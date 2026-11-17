@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/similarity-network-each-api-s-3-nearest-places.polars.py"
+  },
+  "transformation/data-child": ["data/id", "8e650332-26de-5c8e-bdb6-51f93e4d3477"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "0d1b6541-7a52-57c8-bc42-e35e5fc522b3",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Similarity network: each API's 3 nearest (places removed)",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "52643f1d-d9e6-5a6b-8a78-b76a0b0a97f8"],
+  "transformation/units": "{}"
+}

@@ -1,0 +1,8 @@
+{
+  "file": {
+    "file/example": "holidays-this-week"
+  },
+  "format": 2,
+  "root": ["dashboard/id", "d28ad56b-8502-5dcf-9ac8-4c7478e45237"],
+  "seebra": "board"
+}

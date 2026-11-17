@@ -1,0 +1,21 @@
+{
+  "transformation/content": {
+    "$file": "transforms/finds-today-s-and-palaeo-positions.js"
+  },
+  "transformation/data-child": ["data/id", "4394c235-d66c-564e-90cb-dd78d809252b"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "js-web-worker",
+  "transformation/id": "7944eceb-a304-5348-a7f6-f6da86555202",
+  "transformation/inputs": [
+    ["data/id", "ff3e16ab-1ff7-5912-a980-bd0a37f37763"]
+  ],
+  "transformation/language": "javascript",
+  "transformation/name": "Finds: today's and palaeo-positions",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 560
+  },
+  "transformation/parent": ["data/id", "ce51928e-0661-5ba3-9ef3-945f3b69402a"],
+  "transformation/units": "{}"
+}

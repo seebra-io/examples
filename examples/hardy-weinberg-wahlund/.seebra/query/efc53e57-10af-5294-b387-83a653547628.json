@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "b22f719c-426a-52ea-a5bc-cd9d4f4a0276"],
+  "query/datasource": ["datasource/id", "4e69ca60-8c96-5566-ab6d-335f41d46497"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "efc53e57-10af-5294-b387-83a653547628",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "rs1815739 ACTN3 genotypes per population",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 800
+  },
+  "query/params": "{\"content-type\":\"application/json\",\"population_genotypes\":\"1\"}",
+  "query/path": "/variation/human/rs1815739",
+  "query/request-body": "",
+  "query/units": "{}"
+}

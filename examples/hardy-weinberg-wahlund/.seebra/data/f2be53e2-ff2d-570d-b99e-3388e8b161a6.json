@@ -1,0 +1,10 @@
+{
+  "data/id": "f2be53e2-ff2d-570d-b99e-3388e8b161a6",
+  "data/name": "rs334 HBB genotypes per population data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 1040
+  },
+  "data/parent": ["query/id", "62bb3774-51ec-5b14-b15a-32d65a240170"],
+  "data/type": "json"
+}

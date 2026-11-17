@@ -1,0 +1,160 @@
+{
+  "title": "Lift and heat pump efficiency",
+  "question": "Does the daily COP fall with the temperature lift?",
+  "review": {
+    "well_formed": true,
+    "issues": [
+      {
+        "kind": "causal",
+        "text": "Cold days have both a larger lift and more defrost cycles; the house sets the flow temperature through its emitters.",
+        "fix": "Compare within houses (bins step) as well as across them, and read the Carnot fraction for what the lift alone does not explain."
+      },
+      {
+        "kind": "grain",
+        "text": "Days of one house are not independent (same installation, same controls).",
+        "fix": "Read the across-house difference (season step) as four cases, not a sample."
+      }
+    ],
+    "alternatives": [
+      {
+        "question": "Within one house, is COP lower on days with a higher flow temperature at the same outdoor temperature?",
+        "why": "Drill down: separates weather compensation from the weather.",
+        "ready": true
+      },
+      {
+        "question": "Do houses with underfloor heating have a higher SCOP across all of heatpumpmonitor.org?",
+        "why": "Expand: the public list (system/list/public.json) and yearly stats of hundreds of systems.",
+        "ready": false
+      }
+    ]
+  },
+  "hypotheses": [
+    {
+      "id": "H1",
+      "statement": "The daily COP decreases as the lift (flow − outdoor temperature) grows.",
+      "null": "COP does not change with the lift.",
+      "outcome": {
+        "concept": "Coefficient of performance",
+        "field": "cop"
+      },
+      "predictor": {
+        "concept": "Temperature lift",
+        "field": "lift_k"
+      },
+      "subgroup": null,
+      "direction": "decrease",
+      "test": {
+        "method": "regression",
+        "link": null,
+        "outcome_mode": "mean",
+        "outcome_field": "cop",
+        "predictor_field": "lift_k",
+        "exposure_field": null,
+        "versus": null
+      }
+    },
+    {
+      "id": "H2",
+      "statement": "The daily COP increases in proportion to the Carnot COP.",
+      "null": "COP does not change with the Carnot COP.",
+      "outcome": {
+        "concept": "Coefficient of performance",
+        "field": "cop"
+      },
+      "predictor": {
+        "concept": "Carnot limit",
+        "field": "cop_carnot"
+      },
+      "subgroup": null,
+      "direction": "increase",
+      "test": {
+        "method": "regression",
+        "link": null,
+        "outcome_mode": "mean",
+        "outcome_field": "cop",
+        "predictor_field": "cop_carnot",
+        "exposure_field": null,
+        "versus": null
+      }
+    }
+  ],
+  "concepts": [
+    {
+      "label": "Coefficient of performance",
+      "kind": "measure",
+      "description": "Daily heat delivered / electricity used for space heating.",
+      "why": "The outcome.",
+      "have": true,
+      "categories": [],
+      "field": "cop",
+      "strategy": null
+    },
+    {
+      "label": "Temperature lift",
+      "kind": "measure",
+      "description": "Mean flow temperature minus mean outdoor temperature, K.",
+      "why": "The predictor thermodynamics names.",
+      "have": true,
+      "categories": [],
+      "field": "lift_k",
+      "strategy": null
+    },
+    {
+      "label": "Carnot limit",
+      "kind": "measure",
+      "description": "T_flow/(T_flow − T_outdoor) in kelvin.",
+      "why": "The ideal against which the share is read.",
+      "have": true,
+      "categories": [],
+      "field": "cop_carnot",
+      "strategy": null
+    },
+    {
+      "label": "Emitter type",
+      "kind": "category",
+      "description": "Underfloor heating or radiators.",
+      "why": "Sets the flow temperature a house needs.",
+      "have": true,
+      "categories": [
+        "underfloor",
+        "radiators"
+      ],
+      "field": "system",
+      "strategy": null
+    }
+  ],
+  "data": [],
+  "links": [],
+  "method": {
+    "id": "regression",
+    "summary": "Regress daily cop on lift_k (H1) and on cop_carnot (H2) over the four houses' days; the fit step gives the least-squares slopes and correlations."
+  },
+  "steps": [
+    {
+      "kind": "data",
+      "title": "Fetch a year of daily stats per house",
+      "detail": "heatpumpmonitor.org /system/stats/daily for systems 802, 254, 357, 700."
+    },
+    {
+      "kind": "method",
+      "title": "COP, lift and Carnot per day",
+      "detail": "days step: cop, lift_k, cop_carnot, carnot_fraction."
+    },
+    {
+      "kind": "method",
+      "title": "Fit",
+      "detail": "fit step: cop_per_kelvin_lift, eta_through_origin, r_lift, r_carnot."
+    },
+    {
+      "kind": "decide",
+      "title": "Accept or reject H1 and H2",
+      "detail": "Then repeat with more houses from the public list."
+    }
+  ],
+  "caveats": [
+    "Four self-selected, well-monitored houses (owners who publish data tend to optimise).",
+    "Space heating only; hot water (higher lift) is left out.",
+    "Outdoor temperature is the house's own sensor, often in the sun or near the unit.",
+    "Low-load days cycle more; defrost is not separated."
+  ]
+}

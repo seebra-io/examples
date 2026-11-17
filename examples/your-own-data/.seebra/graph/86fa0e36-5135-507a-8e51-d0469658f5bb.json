@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/netflix-every-day-you-watched.js"
+  },
+  "graph/id": "86fa0e36-5135-507a-8e51-d0469658f5bb",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Netflix: every day you watched",
+  "graph/node": {
+    "node/x": 1460,
+    "node/y": 1520
+  },
+  "graph/parent": ["data/id", "93948712-f47c-5f84-b700-7147e0ede5d5"]
+}

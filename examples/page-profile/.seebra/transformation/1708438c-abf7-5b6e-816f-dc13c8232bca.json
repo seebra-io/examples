@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/load-milestones-and-blocking-time.sql"
+  },
+  "transformation/data-child": ["data/id", "c6cbd2f0-b13e-5ed1-a97f-eacadfccd58d"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "1708438c-abf7-5b6e-816f-dc13c8232bca",
+  "transformation/inputs": [],
+  "transformation/language": "sql",
+  "transformation/name": "Load milestones and blocking time",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "ef5542e6-4f2c-59fa-ba45-375fd0199e08"],
+  "transformation/units": "{}"
+}

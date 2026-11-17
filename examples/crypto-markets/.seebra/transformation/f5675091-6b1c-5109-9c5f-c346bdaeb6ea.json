@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/coins.polars.py"
+  },
+  "transformation/data-child": ["data/id", "23ba4f46-7b88-5ee3-8c98-3468a8209b8a"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "f5675091-6b1c-5109-9c5f-c346bdaeb6ea",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Coins",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "7947c4b2-936f-5146-96dc-a47338a9b6e8"],
+  "transformation/units": "{}"
+}

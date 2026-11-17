@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/measured-e-against-e-from-k-and-g.js"
+  },
+  "graph/id": "e3e8a39a-b3c3-5ef0-a175-f3c157aa02e6",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Measured E against E from K and G",
+  "graph/node": {
+    "node/x": 1920,
+    "node/y": 560
+  },
+  "graph/parent": ["data/id", "48f52844-24f8-5f63-afe8-96cfb7e1589f"]
+}

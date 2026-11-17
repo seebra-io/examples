@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "f27c1ebb-b141-57b1-b2d1-3ed5490cf66f"],
+  "query/datasource": ["datasource/id", "8b592d42-80ac-5879-aada-ce1baf73a724"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "bb1ca356-b1dd-59ae-8b78-1ffb14e4ea5c",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Open Ukraine markets, by volume",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 1040
+  },
+  "query/params": "{\"tag_slug\":\"ukraine\",\"closed\":\"false\",\"limit\":\"30\",\"order\":\"volume\",\"ascending\":\"false\"}",
+  "query/path": "/events",
+  "query/request-body": "",
+  "query/units": "{}"
+}

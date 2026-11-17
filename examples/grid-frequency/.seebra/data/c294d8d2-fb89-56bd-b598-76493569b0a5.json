@@ -1,0 +1,10 @@
+{
+  "data/id": "c294d8d2-fb89-56bd-b598-76493569b0a5",
+  "data/name": "Per minute: mean, range, fastest change data",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "a116818f-ad77-54dc-958d-d8ff1f1af378"],
+  "data/type": "json"
+}

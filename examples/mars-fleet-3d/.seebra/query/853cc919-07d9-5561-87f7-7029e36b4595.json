@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "b00ccd2d-fb4e-59d1-8ca3-78ca8a035226"],
+  "query/datasource": ["datasource/id", "c448180a-597e-5dde-ac17-7626318a9f5e"],
+  "query/dynamic?": false,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "853cc919-07d9-5561-87f7-7029e36b4595",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Opportunity (MER-B), NASA's 3D model",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 560
+  },
+  "query/params": "{}",
+  "query/path": "/cds/3d/resources/model/mars-exploration-rover---opportunity-(mer-b)/Mars%20Exploration%20Rover%20-%20Opportunity%20(MER-B).glb",
+  "query/request-body": "",
+  "query/units": "{}"
+}

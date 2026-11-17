@@ -1,0 +1,10 @@
+{
+  "data/id": "ca5ea23d-0ec0-5f1d-bb7d-501810f392a1",
+  "data/name": "rs1815739 (ACTN3) genotype counts data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 800
+  },
+  "data/parent": ["transformation/id", "f1810338-dc5d-57c5-8537-c7149e3ffb69"],
+  "data/type": "json"
+}

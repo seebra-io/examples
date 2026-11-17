@@ -1,0 +1,10 @@
+{
+  "data/id": "ea38e379-ba40-51d5-a918-d313da186165",
+  "data/name": "Death rates, 2003 and 2023 data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "8297000d-3155-5c58-9866-84cfb96b6ad8"],
+  "data/type": "json"
+}

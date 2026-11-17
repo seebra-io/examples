@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/stations-by-temperature-c.js"
+  },
+  "graph/id": "92b45de8-3ed7-566a-8ccc-5727408f120d",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Stations by temperature (°C)",
+  "graph/node": {
+    "node/x": 1460,
+    "node/y": 560
+  },
+  "graph/parent": ["data/id", "58ae7275-070a-5c63-af91-0b199fa55a56"]
+}

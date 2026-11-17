@@ -1,0 +1,16 @@
+{
+  "graph/content": {
+    "$file": "graphs/the-wettest-day-of-each-year.js"
+  },
+  "graph/id": "51f6faff-d9f3-5c2f-8e95-ca87f414fb1f",
+  "graph/inputs": [
+    ["data/id", "4ff3acbb-8d1b-5919-9664-dcc8abc718a4"]
+  ],
+  "graph/language": "javascript",
+  "graph/name": "The wettest day of each year",
+  "graph/node": {
+    "node/x": 1920,
+    "node/y": 320
+  },
+  "graph/parent": ["data/id", "8d631dcf-8f6a-59bf-872d-1eb0d1fcf14d"]
+}

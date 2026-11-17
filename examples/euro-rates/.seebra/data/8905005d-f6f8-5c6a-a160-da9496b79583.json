@@ -1,0 +1,10 @@
+{
+  "data/id": "8905005d-f6f8-5c6a-a160-da9496b79583",
+  "data/name": "Log returns per day data",
+  "data/node": {
+    "node/x": 2070,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "a2a58746-421b-5d54-87a1-4ee49a4a937f"],
+  "data/type": "json"
+}

@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/values.polars.py"
+  },
+  "transformation/data-child": ["data/id", "30b643b0-2d73-5c68-af08-eee62ba7b173"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "c975646c-d921-5604-8935-ce70ade93600",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Values",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "7260ea52-577c-525f-8ce6-fb8621470383"],
+  "transformation/units": "{}"
+}

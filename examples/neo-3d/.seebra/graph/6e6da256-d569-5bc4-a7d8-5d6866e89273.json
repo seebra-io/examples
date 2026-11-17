@@ -1,0 +1,17 @@
+{
+  "graph/content": {
+    "$file": "graphs/flyby-trajectories-past-earth-3d-estimated.js"
+  },
+  "graph/id": "6e6da256-d569-5bc4-a7d8-5d6866e89273",
+  "graph/inputs": [
+    ["data/id", "a29cf280-5f5d-5304-9de0-8328f094acff"],
+    ["data/id", "69321c51-8d44-56f6-aed9-53e8bf48aa73"]
+  ],
+  "graph/language": "javascript",
+  "graph/name": "Flyby trajectories past Earth (3D, estimated)",
+  "graph/node": {
+    "node/x": 1920,
+    "node/y": 1040
+  },
+  "graph/parent": ["data/id", "4a36c705-0db0-5dd1-b218-aea9b25cc6d6"]
+}

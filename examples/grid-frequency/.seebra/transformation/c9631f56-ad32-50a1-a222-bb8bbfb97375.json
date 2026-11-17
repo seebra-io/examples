@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/paired-t-test-over-the-96-quarter-hours.polars.py"
+  },
+  "transformation/data-child": ["data/id", "c9452a9e-5cbc-56f9-b71d-1ebad2760f42"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "c9631f56-ad32-50a1-a222-bb8bbfb97375",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Paired t-test over the 96 quarter-hours",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 2380,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "10c14aec-bd1e-5bcd-9700-8d53e5c9f883"],
+  "transformation/units": "{}"
+}

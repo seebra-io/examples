@@ -1,0 +1,16 @@
+{
+  "graph/content": {
+    "$file": "graphs/gutenberg-richter-ten-times-rarer-per-magnitude.js"
+  },
+  "graph/id": "a901d965-796f-53b8-b90d-8cd4721ec702",
+  "graph/inputs": [
+    ["data/id", "6ce23e72-a4ba-5820-aba7-17eeb714fe60"]
+  ],
+  "graph/language": "javascript",
+  "graph/name": "Gutenberg–Richter: ten times rarer per magnitude unit",
+  "graph/node": {
+    "node/x": 1920,
+    "node/y": 320
+  },
+  "graph/parent": ["data/id", "4dcd81dd-0807-5ce3-bdfd-47372e7376be"]
+}

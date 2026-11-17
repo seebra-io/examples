@@ -1,0 +1,10 @@
+{
+  "data/id": "a094913e-5735-5dc9-be9b-93c8bd0e52f6",
+  "data/name": "Mitscherlich fit for 150 values of c (least squares A, Y0) data",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "e12e734b-49f2-5c27-ae75-f4bd0208f6b7"],
+  "data/type": "json"
+}

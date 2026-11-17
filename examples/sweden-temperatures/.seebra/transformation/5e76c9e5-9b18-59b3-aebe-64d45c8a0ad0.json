@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/warmest-to-coldest.sql"
+  },
+  "transformation/data-child": ["data/id", "e235e7ea-4241-5759-9678-5c6cb1f8bcd1"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "5e76c9e5-9b18-59b3-aebe-64d45c8a0ad0",
+  "transformation/inputs": [],
+  "transformation/language": "sql",
+  "transformation/name": "Warmest to coldest",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "58ae7275-070a-5c63-af91-0b199fa55a56"],
+  "transformation/units": "{}"
+}

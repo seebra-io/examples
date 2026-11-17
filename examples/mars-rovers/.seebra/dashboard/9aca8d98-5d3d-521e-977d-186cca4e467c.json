@@ -1,0 +1,44 @@
+{
+  "dashboard/id": "9aca8d98-5d3d-521e-977d-186cca4e467c",
+  "datas": [
+    ["data/id", "eb99bdcf-f713-50ad-ac2a-fd9ac432264e"],
+    ["data/id", "3776c031-212d-5683-b082-2d3bca77c891"],
+    ["data/id", "17f931df-dedf-53be-a0b6-7a393f55dd94"],
+    ["data/id", "9be9f771-6c85-553e-80ff-339e874c7ad9"],
+    ["data/id", "37e83cf1-5cd5-5623-8c8d-b6e899f54259"],
+    ["data/id", "9e2435d7-5c47-5703-afd4-192c71f7b3e6"],
+    ["data/id", "199470ff-5a4a-536f-9ce0-2070b2a2d7f1"],
+    ["data/id", "2b3ce49d-5876-5c12-96f0-654a704c6780"],
+    ["data/id", "1e4a3fc0-ba19-5a1b-b481-4d86e9b73725"]
+  ],
+  "datasources": [
+    ["datasource/id", "da0d6c24-7504-53aa-bf5c-f1bcf41e02d9"]
+  ],
+  "description": "Perseverance and Curiosity's newest raw images from NASA: the latest 24 of each as image grids, and of the newest 100 which cameras took them and on which sol (a Mars day). Statistics: a rate needs an exposure. The same 100 images can cover one sol or many, so images per sol divides by the sols the window spans, including sols with none, with a Poisson 95% interval; per sol with images it would be a different number. Caveats: the window is cut by count, so its first sol is partly missing and its newest sols are still being downlinked; images come in bursts (mosaics, drives), so the Poisson interval is too narrow.",
+  "graphs": [
+    ["graph/id", "e64640e6-91bb-5630-a39a-cb547776bd0d"],
+    ["graph/id", "0bd7b304-7bab-55da-a9d0-ea425fa5c5d5"]
+  ],
+  "grids": [
+    ["grid/id", "926bb432-d1af-5970-a882-48eab834cefe"],
+    ["grid/id", "a1d0076a-ed3d-5677-9a49-746a93bb7b05"]
+  ],
+  "name": "Mars rovers: the latest raw images",
+  "queries": [
+    ["query/id", "fed2ad4c-4d72-5689-8443-620617b206b7"],
+    ["query/id", "3a09f65a-5f65-5155-b1a4-d169a5c57d1d"]
+  ],
+  "studies": [],
+  "tables": [],
+  "texts": [],
+  "timers": [],
+  "transformations": [
+    ["transformation/id", "6660e55c-ff83-5a09-925c-3642678db414"],
+    ["transformation/id", "1ac7b631-6cb5-51fe-bd44-2f6b3c2af831"],
+    ["transformation/id", "079c38d2-fbcf-5a8d-be69-22504dade43f"],
+    ["transformation/id", "8ce5203a-cc8b-5bbd-b3d5-6fa35b8af361"],
+    ["transformation/id", "a8fa1034-d93e-5c00-9c2b-3ec4765b376c"],
+    ["transformation/id", "084cf39b-6a6a-5441-8415-2caf01def09f"],
+    ["transformation/id", "dc53b35f-f40a-5d18-96d7-e5ade6aa73e5"]
+  ]
+}

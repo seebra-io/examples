@@ -1,0 +1,10 @@
+{
+  "data/id": "81938dd7-e081-5c04-8601-355a2bd72352",
+  "data/name": "Countries (region, income) data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 1040
+  },
+  "data/parent": ["query/id", "46beb997-93f6-5806-9efb-83335779679d"],
+  "data/type": "json"
+}

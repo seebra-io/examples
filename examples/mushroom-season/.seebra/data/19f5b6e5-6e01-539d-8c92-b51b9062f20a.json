@@ -1,0 +1,10 @@
+{
+  "data/id": "19f5b6e5-6e01-539d-8c92-b51b9062f20a",
+  "data/name": "All fungi (Fungi): Swedish records per month, 2000–2025 data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 80
+  },
+  "data/parent": ["query/id", "1c964ed5-ffcd-5b18-a397-7478b79a5de2"],
+  "data/type": "json"
+}

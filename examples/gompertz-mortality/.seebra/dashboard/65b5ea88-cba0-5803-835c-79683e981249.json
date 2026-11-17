@@ -1,0 +1,41 @@
+{
+  "dashboard/id": "65b5ea88-cba0-5803-835c-79683e981249",
+  "datas": [
+    ["data/id", "b599221c-126a-509b-ba21-31444c4fcd9e"],
+    ["data/id", "b4a70c56-828c-5737-8dc6-d28372b3fc08"],
+    ["data/id", "ea38e379-ba40-51d5-a918-d313da186165"],
+    ["data/id", "fe2e0d7a-d43b-5c6f-8269-8f91318af6a9"],
+    ["data/id", "e0a17910-7baf-5320-8812-0e4b94aac343"],
+    ["data/id", "f7754424-ceb4-54c7-980c-755e76e3c9d9"],
+    ["data/id", "c0c907c7-5a4e-5ae1-bdde-13e1b05c0fdd"]
+  ],
+  "datasources": [
+    ["datasource/id", "3d457c84-7ec8-57f7-875c-00eccee0ff0e"]
+  ],
+  "description": "Question: how does the risk of dying change with age? Gompertz (1825) proposed that adult death rates rise exponentially, m(x) = a·e^(bx), so that ln m(x) is a straight line in age. Is that so, and what differs between populations: the level a or the rate of ageing b? Data: Eurostat's life tables (demo_mlifetable), the death rate by single year of age for women and men in eight countries (Sweden, Denmark, France, Spain, Italy, Poland, Lithuania, Bulgaria), 2003 and 2023. Steps: ages as numbers and ln m(x); per country, sex and year a least-squares line over ages 35–84, giving b, the mortality-rate doubling time ln 2 / b, the level m(60) on the line and R²; each age's observed rate against the line; and per sex and year the spread of the doubling time against the spread of the level. Aha: from 35 to 84 the log death rate is a straight line (R² at least 0.985 in 2023), and the risk of dying doubles every 6.6 to 10 years (median about 7 for women, 7.5 for men), in every country. What differs is the level: m(60) is two to three times higher in Lithuania and Bulgaria than in Sweden or Spain, and it fell everywhere between 2003 and 2023 (Swedish men 8.9 to 5.9 per 1,000, Spanish men 11.1 to 6.7) while the doubling time barely moved. Where the level is low the slope is steeper (ln a and b correlate at −0.93 across the 16 lines of each year: the Strehler–Mildvan correlation), so populations postpone death more than they slow ageing. Off the line: infancy, the young-adult accident hump (up to five times the line at 18–25) and the oldest ages. Caveats: period life tables mix cohorts; the fitted range (35–84) is a choice and the open age group (85+ in 2003, 95+ in 2023) is left out; small countries' single-year rates are noisy at young ages (ten zero rates dropped); a is an extrapolation, not a newborn's risk. Next: hover any age; drill down to one country's years (the API has 1960s onward for some); expand to causes of death (Eurostat hlth_cd_aro) or to the plateau at the oldest ages (Human Mortality Database).",
+  "graphs": [
+    ["graph/id", "70aa7cef-e1e1-57be-a8a7-fc5e9b512015"],
+    ["graph/id", "bc994bf4-d5ec-5686-ad0f-da213d8196a8"]
+  ],
+  "grids": [],
+  "name": "Gompertz's law: the risk of dying doubles about every seven years",
+  "ontology": {
+    "$file": ".seebra/dashboard/65b5ea88-cba0-5803-835c-79683e981249.ontology.json",
+    "$json": true
+  },
+  "queries": [
+    ["query/id", "ea98e357-c8f9-5ff3-8a21-7923c13c731a"],
+    ["query/id", "a3a6a38c-73b3-5ba0-aac8-20a36a8f361f"]
+  ],
+  "studies": [],
+  "tables": [],
+  "texts": [],
+  "timers": [],
+  "transformations": [
+    ["transformation/id", "8297000d-3155-5c58-9866-84cfb96b6ad8"],
+    ["transformation/id", "40a6e54c-e155-5142-a334-91eeeb5a9d58"],
+    ["transformation/id", "ae124587-1b1d-5604-96d7-73b45c82ef20"],
+    ["transformation/id", "75dbd6ca-1260-579f-9e1f-0db63eee371d"],
+    ["transformation/id", "cd335b37-d2f6-54f9-a7fa-a7f0282aead6"]
+  ]
+}

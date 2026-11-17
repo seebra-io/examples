@@ -1,0 +1,22 @@
+{
+  "transformation/content": {
+    "$file": "transforms/aircraft-now-by-circle.js"
+  },
+  "transformation/data-child": ["data/id", "3212d1a0-78f1-5d28-830c-f4a85884d40a"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "js-web-worker",
+  "transformation/id": "89b7c0c2-9e0b-57fa-9507-ec3c5d20633c",
+  "transformation/inputs": [
+    ["data/id", "1f206812-e113-5809-8c07-71a4b1e275de"],
+    ["data/id", "2c553fc5-eab2-56a2-81e0-b75ef4d88317"]
+  ],
+  "transformation/language": "javascript",
+  "transformation/name": "Aircraft now, by circle",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 800
+  },
+  "transformation/parent": ["data/id", "c2b69c1d-15e9-5bfc-9bc6-5fa58c07fbdf"],
+  "transformation/units": "{}"
+}

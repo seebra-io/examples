@@ -1,0 +1,208 @@
+{
+  "title": "Low-flow rating shift at Hermann",
+  "question": "Per field measurement below 60,000 ft³/s: does res_log (ln of measured over curve discharge) increase with year?",
+  "review": {
+    "well_formed": true,
+    "issues": [
+      {
+        "kind": "causal",
+        "text": "A trend in the residuals shows the rating moved, not why (dredging, upstream dams, datum changes).",
+        "fix": "Compare the stage at a fixed flow per decade (fit_era) and check the gage's datum history before naming a cause."
+      },
+      {
+        "kind": "grain",
+        "text": "Measurements are unevenly spread in time (600 a decade in the 1940s-60s, 130 in the 2020s so far).",
+        "fix": "Also test the decade medians (shift), one value per decade."
+      }
+    ],
+    "alternatives": [
+      {
+        "question": "Do flood measurements (≥ 150,000 ft³/s) show the same trend in res_log?",
+        "why": "Drills into the flow class where the floodplain controls; expected flat.",
+        "ready": true
+      },
+      {
+        "question": "Has the stage at 40,000 ft³/s fallen at Kansas City and St. Joseph too?",
+        "why": "Expands to the gages upstream, to see whether the degradation is regional.",
+        "ready": false
+      }
+    ]
+  },
+  "hypotheses": [
+    {
+      "id": "H1",
+      "statement": "Low-flow measurements carry more water than the all-years curve says, and more so the later they were made.",
+      "null": "res_log of low-flow measurements has no trend with year.",
+      "outcome": {
+        "concept": "Rating residual",
+        "field": "res_log"
+      },
+      "predictor": {
+        "concept": "Year measured",
+        "field": "year"
+      },
+      "subgroup": {
+        "concept": "Flow class",
+        "category": "low (< 60,000 ft³/s)"
+      },
+      "direction": "increase",
+      "test": {
+        "method": "regression",
+        "link": null,
+        "outcome_mode": "mean",
+        "outcome_field": "res_log",
+        "predictor_field": "year",
+        "exposure_field": null,
+        "versus": null
+      }
+    },
+    {
+      "id": "H2",
+      "statement": "Flood measurements show no comparable trend: the channel above the bed sets the stage.",
+      "null": "res_log of flood measurements rises with year as much as at low flow.",
+      "outcome": {
+        "concept": "Rating residual",
+        "field": "res_log"
+      },
+      "predictor": {
+        "concept": "Year measured",
+        "field": "year"
+      },
+      "subgroup": {
+        "concept": "Flow class",
+        "category": "flood (≥ 150,000 ft³/s)"
+      },
+      "direction": "equal",
+      "test": {
+        "method": "regression",
+        "link": null,
+        "outcome_mode": "mean",
+        "outcome_field": "res_log",
+        "predictor_field": "year",
+        "exposure_field": null,
+        "versus": null,
+        "against": 0
+      }
+    }
+  ],
+  "concepts": [
+    {
+      "label": "Field measurement",
+      "kind": "event",
+      "description": "One visit: discharge measured across the section, gage height read.",
+      "why": "The unit of the study.",
+      "have": true,
+      "categories": [],
+      "field": "visit",
+      "strategy": null
+    },
+    {
+      "label": "Stage",
+      "kind": "measure",
+      "description": "Gage height, ft above the gage datum.",
+      "why": "What the curve converts.",
+      "have": true,
+      "categories": [],
+      "field": "stage_ft",
+      "strategy": null
+    },
+    {
+      "label": "Discharge",
+      "kind": "measure",
+      "description": "Measured flow, ft³/s.",
+      "why": "What the curve predicts.",
+      "have": true,
+      "categories": [],
+      "field": "discharge_cfs",
+      "strategy": null
+    },
+    {
+      "label": "Rating residual",
+      "kind": "measure",
+      "description": "ln(measured / curve discharge) against the all-years curve.",
+      "why": "The outcome.",
+      "have": true,
+      "categories": [],
+      "field": "res_log",
+      "strategy": {
+        "how": "derive",
+        "detail": "res_log = ln(discharge_cfs / (C (stage_ft − e)^b)) with the all-years fit"
+      }
+    },
+    {
+      "label": "Flow class",
+      "kind": "category",
+      "description": "Low (< 60,000), medium, flood (≥ 150,000 ft³/s).",
+      "why": "The bed controls low flows, the channel and floodplain floods.",
+      "have": true,
+      "categories": [
+        "low (< 60,000 ft³/s)",
+        "medium",
+        "flood (≥ 150,000 ft³/s)"
+      ],
+      "field": "flow_class",
+      "strategy": null
+    },
+    {
+      "label": "Year measured",
+      "kind": "time",
+      "description": "Calendar year of the visit.",
+      "why": "The predictor.",
+      "have": true,
+      "categories": [],
+      "field": "year",
+      "strategy": null
+    }
+  ],
+  "data": [
+    {
+      "concept": "Gage datum history",
+      "request": "Datum changes and gage relocations at USGS 06934500 with their dates",
+      "source": "USGS site description / Water Data time-series metadata",
+      "why": "A datum change shifts all stages at once and would look like a rating shift."
+    }
+  ],
+  "links": [],
+  "method": {
+    "id": "regression",
+    "summary": "A straight line of res_log on year for the low-flow measurements, with a weakly informative prior; the posterior of the slope against 0."
+  },
+  "steps": [
+    {
+      "kind": "data",
+      "title": "Field measurements",
+      "detail": "Discharge (00060) and gage height (00065) per field_visit_id at USGS-06934500."
+    },
+    {
+      "kind": "method",
+      "title": "Fit the all-years curve",
+      "detail": "Grid over e, least squares of ln Q on ln(h − e) (fit_all)."
+    },
+    {
+      "kind": "concept",
+      "title": "Residuals",
+      "detail": "res_log per measurement (residuals)."
+    },
+    {
+      "kind": "categorise",
+      "title": "Flow class",
+      "detail": "flow_class from discharge_cfs: < 60,000, 60,000-150,000, ≥ 150,000 ft³/s."
+    },
+    {
+      "kind": "method",
+      "title": "Regress on year",
+      "detail": "res_log on year, low flows (H1) and floods (H2)."
+    },
+    {
+      "kind": "decide",
+      "title": "Shift or not",
+      "detail": "Compare the slopes with the per-decade stage at 40,000 ft³/s (fit_era)."
+    }
+  ],
+  "caveats": [
+    "Measurement error is 2-8% or more by rating and is not uniform in time (methods changed from current meters to ADCP).",
+    "Measurements cluster in time; residuals within a season are correlated.",
+    "Hysteresis: on a rising flood the same stage carries more water than on the falling limb.",
+    "A gage datum change would look like a shift; check the site's history."
+  ]
+}

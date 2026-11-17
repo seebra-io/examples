@@ -1,0 +1,11 @@
+{
+  "data/id": "ad380aa8-fd61-5118-a758-6c7353ede9c7",
+  "data/name": "Grain per successive 50 kg/ha",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 560
+  },
+  "data/parent": ["transformation/id", "0ed8a4a4-9c40-54cc-8947-d53fbf4330b1"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

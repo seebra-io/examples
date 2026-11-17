@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/gompertz-fit-per-country-sex-and-year-ages-35-84.polars.py"
+  },
+  "transformation/data-child": ["data/id", "e0a17910-7baf-5320-8812-0e4b94aac343"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "ae124587-1b1d-5604-96d7-73b45c82ef20",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Gompertz fit per country, sex and year (ages 35–84)",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1920,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "fe2e0d7a-d43b-5c6f-8269-8f91318af6a9"],
+  "transformation/units": "{}"
+}

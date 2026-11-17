@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/play-money-forecasts.js"
+  },
+  "transformation/data-child": ["data/id", "bf2a526c-15f2-51cf-9dcc-53bcdab80c05"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "js-web-worker",
+  "transformation/id": "925730df-4593-5357-8906-994a041a90d5",
+  "transformation/inputs": [],
+  "transformation/language": "javascript",
+  "transformation/name": "Play-money forecasts",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 1280
+  },
+  "transformation/parent": ["data/id", "e140d89b-ec4b-5ce1-b29d-d462cbb0ecab"],
+  "transformation/units": "{}"
+}

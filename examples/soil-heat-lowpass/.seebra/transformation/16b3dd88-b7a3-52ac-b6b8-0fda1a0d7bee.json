@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/frequency-response-damping-and-lag-per-layer.polars.py"
+  },
+  "transformation/data-child": ["data/id", "111fdc1b-b926-56a0-9508-fe9667c15f9c"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "16b3dd88-b7a3-52ac-b6b8-0fda1a0d7bee",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Frequency response: damping and lag per layer",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 2840,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "3e74b59e-8ba8-5256-b226-c80c7eb2074e"],
+  "transformation/units": "{}"
+}

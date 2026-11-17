@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/ribosomal-proteins.polars.py"
+  },
+  "transformation/data-child": ["data/id", "77ec4c47-7d35-5b66-b376-36acf32c903b"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "059f070f-dca2-5c04-a230-90d849988dca",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Ribosomal proteins",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "17ea9782-ad71-574d-a297-939dec181cfa"],
+  "transformation/units": "{}"
+}

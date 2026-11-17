@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/r-herd-immunity-threshold-and-final-size-per.polars.py"
+  },
+  "transformation/data-child": ["data/id", "8e703752-35a9-5b55-8c25-1559e2f76733"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "756edf75-73a1-5ec3-8254-8473b75b55c1",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "R, herd-immunity threshold and final size per season",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1920,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "d0808e6a-05d3-5d49-afda-78864660167b"],
+  "transformation/units": "{}"
+}

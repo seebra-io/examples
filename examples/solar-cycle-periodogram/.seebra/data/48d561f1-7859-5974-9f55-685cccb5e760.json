@@ -1,0 +1,11 @@
+{
+  "data/id": "48d561f1-7859-5974-9f55-685cccb5e760",
+  "data/name": "Solar cycles",
+  "data/node": {
+    "node/x": 2070,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "a5768b70-5810-5f36-8693-8f761f0114ec"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

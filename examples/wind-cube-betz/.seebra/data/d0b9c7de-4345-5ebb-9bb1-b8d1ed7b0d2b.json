@@ -1,0 +1,10 @@
+{
+  "data/id": "d0b9c7de-4345-5ebb-9bb1-b8d1ed7b0d2b",
+  "data/name": "Westermost Rough metered output (B1610), Sep–Oct 2026 data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 80
+  },
+  "data/parent": ["query/id", "4f176fec-d4df-5d91-8d87-74ff213ff691"],
+  "data/type": "json"
+}

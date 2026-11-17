@@ -1,0 +1,10 @@
+{
+  "data/id": "ce643a44-0024-57a8-b214-77096dadbf97",
+  "data/name": "Hours data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "3f487b87-dd8d-58cc-9920-e7079dddd81e"],
+  "data/type": "json"
+}

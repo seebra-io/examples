@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "ea099d68-c0a6-5acb-8120-6ef95d5437a5"],
+  "query/datasource": ["datasource/id", "e036e0bd-b7c6-55dc-b6f8-b59f72b61e89"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "cb9b1a25-54b3-5dc9-bcad-43155e717ac4",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "FluView: weekly ILI, US national",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 80
+  },
+  "query/params": "{\"regions\":\"nat\",\"epiweeks\":\"201640-202620\"}",
+  "query/path": "/fluview/",
+  "query/request-body": "",
+  "query/units": "{}"
+}

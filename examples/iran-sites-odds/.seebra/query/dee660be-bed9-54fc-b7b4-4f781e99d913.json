@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "2c553fc5-eab2-56a2-81e0-b75ef4d88317"],
+  "query/datasource": ["datasource/id", "b7a5146f-8014-5302-9cb0-bb4e3b8ff068"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "dee660be-bed9-54fc-b7b4-4f781e99d913",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Aircraft within 250 nm of the Gulf (comparison)",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 1280
+  },
+  "query/params": "{}",
+  "query/path": "/lat/26/lon/53.5/dist/250",
+  "query/request-body": "",
+  "query/units": "{}"
+}

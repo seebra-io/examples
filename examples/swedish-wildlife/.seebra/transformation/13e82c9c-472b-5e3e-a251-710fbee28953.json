@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/per-observer-who-the-sample-is.sql"
+  },
+  "transformation/data-child": ["data/id", "ca2855ee-01fb-513c-a7e1-1b14607a8eed"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "13e82c9c-472b-5e3e-a251-710fbee28953",
+  "transformation/inputs": [],
+  "transformation/language": "sql",
+  "transformation/name": "Per observer (who the sample is)",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 560
+  },
+  "transformation/parent": ["data/id", "0a4efc7b-90af-5610-af12-5ce5faac9217"],
+  "transformation/units": "{}"
+}

@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/points-against-comments-log-scales.js"
+  },
+  "graph/id": "4f026da3-f32c-51dd-83f1-d2261b259d64",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Points against comments (log scales)",
+  "graph/node": {
+    "node/x": 1920,
+    "node/y": 80
+  },
+  "graph/parent": ["data/id", "1ed36be2-c5b5-5ff9-98f2-f9645b5860ce"]
+}

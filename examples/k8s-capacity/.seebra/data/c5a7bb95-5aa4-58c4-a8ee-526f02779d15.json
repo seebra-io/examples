@@ -1,0 +1,10 @@
+{
+  "data/id": "c5a7bb95-5aa4-58c4-a8ee-526f02779d15",
+  "data/name": "Requests per node data",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "d1036e1f-48a6-5cc0-9f4b-15c705570574"],
+  "data/type": "json"
+}

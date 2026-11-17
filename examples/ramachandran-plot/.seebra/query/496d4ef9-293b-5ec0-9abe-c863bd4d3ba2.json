@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "1111661b-4480-5ab3-b29c-34cbeb6da7be"],
+  "query/datasource": ["datasource/id", "48e40754-5006-5582-bf1d-604b33728d13"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "496d4ef9-293b-5ec0-9abe-c863bd4d3ba2",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "1UBQ helices and strands",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 1280
+  },
+  "query/params": "{}",
+  "query/path": "/pdb/entry/secondary_structure/1ubq",
+  "query/request-body": "",
+  "query/units": "{}"
+}

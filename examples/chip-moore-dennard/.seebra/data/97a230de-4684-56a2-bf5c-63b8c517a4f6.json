@@ -1,0 +1,11 @@
+{
+  "data/id": "97a230de-4684-56a2-bf5c-63b8c517a4f6",
+  "data/name": "Chow test per measure",
+  "data/node": {
+    "node/x": 2530,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "0741c40a-630d-5399-9078-208ab9a5cbac"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

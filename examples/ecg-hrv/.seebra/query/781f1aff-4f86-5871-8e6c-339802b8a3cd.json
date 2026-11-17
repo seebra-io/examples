@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "59b206ce-5b4b-549d-96d5-bc4976b25aaf"],
+  "query/datasource": ["datasource/id", "be68ed22-c521-59a9-9ecf-b5e15828dd8f"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "781f1aff-4f86-5871-8e6c-339802b8a3cd",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "MIT-BIH 119: all beat annotations (360 Hz)",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 560
+  },
+  "query/params": "{\"action\":\"fetch\",\"db\":\"mitdb/1.0.0\",\"record\":\"119\",\"annotator\":\"atr\",\"dt\":\"0\"}",
+  "query/path": "/server",
+  "query/request-body": "",
+  "query/units": "{}"
+}

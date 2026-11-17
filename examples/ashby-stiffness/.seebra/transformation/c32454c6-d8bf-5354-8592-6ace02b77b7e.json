@@ -1,0 +1,21 @@
+{
+  "transformation/content": {
+    "$file": "transforms/both-lists-together.sql"
+  },
+  "transformation/data-child": ["data/id", "eae605a2-9655-55be-a15b-27f3545b3c6f"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "c32454c6-d8bf-5354-8592-6ace02b77b7e",
+  "transformation/inputs": [
+    ["data/id", "de2d6ded-0b32-5f5d-922a-d8080dc18e9f"]
+  ],
+  "transformation/language": "sql",
+  "transformation/name": "Both lists together",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "b433a528-0136-5211-a834-0f6223132d28"],
+  "transformation/units": "{}"
+}

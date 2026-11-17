@@ -1,0 +1,16 @@
+{
+  "datasource/api-key-key": "api_key",
+  "datasource/auth-type": "none",
+  "datasource/headers": "{}",
+  "datasource/id": "c90928c6-0797-577c-a6b2-d537b9154b9b",
+  "datasource/name": "NASA Science (WordPress REST API)",
+  "datasource/node": {
+    "inputs": 1,
+    "node/x": 80,
+    "node/y": 80,
+    "outputs": 1
+  },
+  "datasource/params": "{}",
+  "datasource/type": "openapi",
+  "datasource/url": "https://science.nasa.gov/wp-json/wp/v2"
+}

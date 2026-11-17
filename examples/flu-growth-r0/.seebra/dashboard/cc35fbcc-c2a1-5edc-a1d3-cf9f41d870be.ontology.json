@@ -1,0 +1,146 @@
+{
+  "title": "Epidemic growth and the reproduction number",
+  "summary": "Exponential growth rate r of influenza seasons, converted to R, and the SIR model's herd-immunity threshold and final size.",
+  "concepts": [
+    {
+      "cid": "c1",
+      "label": "Influenza season",
+      "kind": "event",
+      "description": "Epiweek 40 to 39 of the next year, US national.",
+      "fields": [
+        "weekly.season"
+      ],
+      "in_data": true,
+      "wikidata": "Q2840",
+      "children": [
+        {
+          "cid": "c2",
+          "label": "Influenza-like illness (ILI)",
+          "kind": "measure",
+          "as": "property",
+          "description": "Share of outpatient visits with fever and cough or sore throat (wILI, %).",
+          "fields": [
+            "weekly.wili"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c3",
+          "label": "Test positivity",
+          "kind": "measure",
+          "as": "property",
+          "description": "Share of clinical-lab specimens positive for influenza.",
+          "fields": [
+            "weekly.percent_positive"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c4",
+          "label": "ILI+",
+          "kind": "measure",
+          "as": "property",
+          "description": "ILI × positivity: a proxy for influenza incidence.",
+          "fields": [
+            "weekly.ili_plus"
+          ],
+          "in_data": true,
+          "facts": [
+            {
+              "text": "ILI × % positive as a proxy for influenza incidence: Goldstein et al. 2011.",
+              "source": "https://doi.org/10.1371/journal.pmed.1001051"
+            }
+          ]
+        },
+        {
+          "cid": "c5",
+          "label": "Influenza subtype",
+          "kind": "category",
+          "as": "part",
+          "description": "A(H3N2), A(H1N1)pdm09, B: only A and B totals are here.",
+          "fields": [
+            "weekly.share_b"
+          ],
+          "in_data": false
+        }
+      ]
+    },
+    {
+      "cid": "c6",
+      "label": "SIR model",
+      "kind": "concept",
+      "description": "Susceptible–infected–recovered compartments in a well-mixed population.",
+      "in_data": true,
+      "wikidata": "Q1145829",
+      "children": [
+        {
+          "cid": "c7",
+          "label": "Growth rate r",
+          "kind": "measure",
+          "as": "property",
+          "description": "Exponential growth per week in the early epidemic.",
+          "fields": [
+            "seasons.r_week",
+            "seasons.doubling_days"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c8",
+          "label": "Reproduction number R",
+          "kind": "measure",
+          "as": "property",
+          "description": "Infections caused per infection; from r and the generation interval.",
+          "fields": [
+            "seasons.R"
+          ],
+          "in_data": true,
+          "wikidata": "Q901464",
+          "facts": [
+            {
+              "text": "R from r and the generation-interval distribution: Wallinga & Lipsitch 2007.",
+              "source": "https://doi.org/10.1098/rspb.2006.3754"
+            }
+          ]
+        },
+        {
+          "cid": "c9",
+          "label": "Herd-immunity threshold",
+          "kind": "measure",
+          "as": "property",
+          "description": "1 − 1/R: the immune share at which growth stops.",
+          "fields": [
+            "seasons.hit"
+          ],
+          "in_data": true,
+          "wikidata": "Q842286"
+        },
+        {
+          "cid": "c10",
+          "label": "Final size",
+          "kind": "measure",
+          "as": "property",
+          "description": "Share ever infected, z = 1 − e^(−Rz).",
+          "fields": [
+            "seasons.final_size"
+          ],
+          "in_data": true
+        }
+      ]
+    },
+    {
+      "cid": "c11",
+      "label": "Generation interval",
+      "kind": "measure",
+      "description": "Time from one infection to the next it causes (3 days assumed).",
+      "in_data": false
+    },
+    {
+      "cid": "c12",
+      "label": "Population immunity",
+      "kind": "measure",
+      "description": "Vaccination and earlier infections: why effective R is below R0.",
+      "in_data": false
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/warnings-per-minute-against-a-poisson-process.polars.py"
+  },
+  "transformation/data-child": ["data/id", "6172bf28-ec99-5195-ad9e-30493ecd80b0"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "a5b75c49-8fe0-54cb-9fbd-ab50ca28574a",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Warnings per minute, against a Poisson process",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "4088937f-dd58-5f0f-8639-b08d2809fc12"],
+  "transformation/units": "{}"
+}

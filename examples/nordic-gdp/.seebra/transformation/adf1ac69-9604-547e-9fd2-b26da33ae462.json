@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/yearly-growth.polars.py"
+  },
+  "transformation/data-child": ["data/id", "e5f9abd8-358b-58d3-ba0d-31092afc8d58"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "adf1ac69-9604-547e-9fd2-b26da33ae462",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Yearly growth",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "03b47eb7-7933-534b-af4d-c49eabfce53c"],
+  "transformation/units": "{}"
+}

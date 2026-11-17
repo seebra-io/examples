@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "1f206812-e113-5809-8c07-71a4b1e275de"],
+  "query/datasource": ["datasource/id", "b7a5146f-8014-5302-9cb0-bb4e3b8ff068"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "651fc14c-e187-5dee-8fa6-68b5002e69af",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Aircraft within 250 nm of central Iran",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 1040
+  },
+  "query/params": "{}",
+  "query/path": "/lat/32/lon/54.5/dist/250",
+  "query/request-body": "",
+  "query/units": "{}"
+}

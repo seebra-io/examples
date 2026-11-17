@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "afd0fb36-7897-5fb4-af51-35dd41388228"],
+  "query/datasource": ["datasource/id", "6c08161c-1a0a-5236-85b5-183eaafcf902"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "be9766b7-a7ee-5613-b7ba-fb4bac160595",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "COD entries with formula In P",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 1280
+  },
+  "query/params": "{\"format\":\"json\",\"formula\":\"In P\"}",
+  "query/path": "/result",
+  "query/request-body": "",
+  "query/units": "{}"
+}

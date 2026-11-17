@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/per-decade.sql"
+  },
+  "transformation/data-child": ["data/id", "59207d80-dd94-579a-bc1e-8c1b994a930a"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "f77a4ad0-95d5-5619-86cf-57ab7aef86a6",
+  "transformation/inputs": [],
+  "transformation/language": "sql",
+  "transformation/name": "Per decade",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "7107c97b-7b51-5bcb-a4c0-5400fc717c82"],
+  "transformation/units": "{}"
+}

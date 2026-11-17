@@ -1,0 +1,10 @@
+{
+  "data/id": "09ec4842-c994-57b7-9481-69a54af199ed",
+  "data/name": "Occupancy of the φ–ψ plane (10° cells) data",
+  "data/node": {
+    "node/x": 2530,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "d0bab65d-a991-5b34-839d-2e7d32ba2da0"],
+  "data/type": "json"
+}

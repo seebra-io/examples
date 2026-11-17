@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/measured-lattice-constants-the-most-precise.polars.py"
+  },
+  "transformation/data-child": ["data/id", "f81157af-6604-5097-a7f0-bf45b9ebc87e"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "39aa3ed9-7263-5c1a-b444-dcf1625b95ad",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Measured lattice constants (the most precise zincblende entry near the median)",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "d9be0060-32f1-5760-b2a4-7dc081f86fff"],
+  "transformation/units": "{}"
+}

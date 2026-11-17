@@ -1,0 +1,21 @@
+{
+  "transformation/content": {
+    "$file": "transforms/does-each-metar-fall-inside-its-own-taf.polars.py"
+  },
+  "transformation/data-child": ["data/id", "1050e086-fa5a-533a-a8f0-8b7ec2ed74bb"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "b5e16724-5f3c-58d2-8f40-f9a72b7f515c",
+  "transformation/inputs": [
+    ["data/id", "945f4dd4-e6c2-5362-b744-6cbf09f41052"]
+  ],
+  "transformation/language": "polars",
+  "transformation/name": "Does each METAR fall inside its own TAF? (forensics)",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 1040
+  },
+  "transformation/parent": ["data/id", "919d382b-e996-566a-832b-09a02c9cdc26"],
+  "transformation/units": "{}"
+}

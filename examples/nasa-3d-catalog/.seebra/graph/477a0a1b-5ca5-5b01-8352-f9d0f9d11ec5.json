@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/when-they-were-added-to-science-nasa-gov.js"
+  },
+  "graph/id": "477a0a1b-5ca5-5b01-8352-f9d0f9d11ec5",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "When they were added to science.nasa.gov",
+  "graph/node": {
+    "node/x": 1460,
+    "node/y": 560
+  },
+  "graph/parent": ["data/id", "4a323969-b38f-5c16-b60b-15b728fcb13e"]
+}

@@ -1,0 +1,8 @@
+{
+  "file": {
+    "file/example": "nobel-physics"
+  },
+  "format": 2,
+  "root": ["dashboard/id", "d3428dbd-ce6f-5dad-9ea9-112b5096a939"],
+  "seebra": "board"
+}

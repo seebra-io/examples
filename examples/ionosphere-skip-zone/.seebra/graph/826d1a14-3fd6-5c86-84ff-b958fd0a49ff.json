@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/muf-against-distance-the-skip-zone.js"
+  },
+  "graph/id": "826d1a14-3fd6-5c86-84ff-b958fd0a49ff",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "MUF against distance: the skip zone",
+  "graph/node": {
+    "node/x": 1920,
+    "node/y": 320
+  },
+  "graph/parent": ["data/id", "2f04a8b6-1b64-50a9-bccf-36ffb7d49043"]
+}

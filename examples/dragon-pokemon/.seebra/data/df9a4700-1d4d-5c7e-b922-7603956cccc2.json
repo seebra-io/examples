@@ -1,0 +1,10 @@
+{
+  "data/id": "df9a4700-1d4d-5c7e-b922-7603956cccc2",
+  "data/name": "Artwork (image links for the grid) data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "393cbf9f-0e77-5259-bc1e-92f6ca63b14a"],
+  "data/type": "json"
+}

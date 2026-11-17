@@ -1,0 +1,11 @@
+{
+  "data/id": "512f8087-b8da-50f3-b783-06c6c05799ce",
+  "data/name": "Merit order bins",
+  "data/node": {
+    "node/x": 2530,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "116c61d4-86d1-5f82-bf5c-752ff4408014"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

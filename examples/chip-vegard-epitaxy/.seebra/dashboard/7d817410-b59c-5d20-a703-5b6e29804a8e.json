@@ -1,0 +1,57 @@
+{
+  "dashboard/id": "7d817410-b59c-5d20-a703-5b6e29804a8e",
+  "datas": [
+    ["data/id", "8e020a9f-27bc-50f7-8088-62d9fae522bb"],
+    ["data/id", "ebf0b39b-7d26-5daa-9356-72d1e277273c"],
+    ["data/id", "1177b496-db01-5ead-b3d4-1694167e6928"],
+    ["data/id", "f4bf5f28-4649-5cdb-bd0b-35197b89b686"],
+    ["data/id", "0670b187-8ed7-5b32-855d-dc72bb21335f"],
+    ["data/id", "ec1ebdcf-fde3-54bb-b106-cf903a4a2b40"],
+    ["data/id", "b0e54ae6-54b1-5150-89a8-3d2e06237517"],
+    ["data/id", "28b7938e-95f4-546b-92be-2d2562215d8c"],
+    ["data/id", "a33a18e6-c802-5a31-b25e-ddf171067680"],
+    ["data/id", "f28f1f44-0279-5164-9b38-e726caaa3010"],
+    ["data/id", "d9be0060-32f1-5760-b2a4-7dc081f86fff"],
+    ["data/id", "f81157af-6604-5097-a7f0-bf45b9ebc87e"],
+    ["data/id", "53269d57-8070-55b4-897a-0ee8400bf657"],
+    ["data/id", "5b92fa37-b16e-57c9-bcee-1dad5ce322c1"]
+  ],
+  "datasources": [
+    ["datasource/id", "ab712c3d-4b6f-5d1f-a626-992bebb91186"],
+    ["datasource/id", "d5a9dede-364d-5eda-bab7-e7b894198d30"]
+  ],
+  "description": "Question: how do you grow a perfect crystal of one semiconductor on a wafer of another, and why is the photodetector in every fibre-optic receiver made of exactly In0.53Ga0.47As? Data: Alexandria's PBE calculations (keyless OPTIMADE) of the zincblende III-V binaries, Si and Ge, and of ordered (In,Ga)As and (Al,Ga)As cells; measured lattice constants of GaAs, InAs, AlAs and InP from the Crystallography Open Database. Steps: the cubic lattice constant from each cell's volume (a = (8V/atoms)^(1/3)); each alloy against the straight line between its end points (Vegard's law) and a least-squares bowing parameter for its lattice constant and band gap; the composition x* where In(x)Ga(1−x)As has InP's lattice constant, from PBE and from measured values; PBE's error against the measured cells. Aha: an alloy's lattice constant is linear in its composition (the ordered alloys sit on Vegard's line to a few hundredths of a percent) while its band gap bends, so composition is a dial: pick x to match the substrate, then the gap follows; on the gap-against-lattice-constant map every epitaxial stack is a vertical line, GaAs and AlAs share one (strain-free AlGaAs lasers and transistors), and InP's crosses (In,Ga)As at x ≈ 0.53. Caveats: PBE lattice constants are 1–2% too large and not uniformly so, which moves the matched x (0.47 with PBE, 0.53 with the measured cells) and even flips the sign of the tiny AlAs-on-GaAs mismatch (−0.21% PBE, +0.13% measured); PBE gaps are far too small (InAs and the In-rich alloys have none), so the gap axis is qualitative; ordered cells are not random alloys and fold the indirect valleys onto Γ; strain, critical thickness and thermal-expansion mismatch are not computed. Next: drill into one alloy's cells (click), expand to (Ga,In)P on GaAs, GaN on sapphire or SiGe on Si, and to critical thickness.",
+  "graphs": [
+    ["graph/id", "3bc5fa77-1c7f-53b0-871a-7cc36a0d5cbc"],
+    ["graph/id", "c6f4ebf1-aa67-540f-b53c-a00f41d3ed2e"],
+    ["graph/id", "50321ebf-6fb8-593d-8ff6-a19634714c81"]
+  ],
+  "grids": [],
+  "name": "Vegard's law and lattice matching for epitaxy",
+  "ontology": {
+    "$file": ".seebra/dashboard/7d817410-b59c-5d20-a703-5b6e29804a8e.ontology.json",
+    "$json": true
+  },
+  "queries": [
+    ["query/id", "cba7f522-8161-562d-b900-6f8a2e7a23d6"],
+    ["query/id", "42030a89-72db-5f6b-889a-610afd34ccbe"],
+    ["query/id", "d96a27b0-0b49-5c59-886e-7b00575da7fb"],
+    ["query/id", "48e4f38f-61ad-56cb-a2b5-c9e310c1a7e3"],
+    ["query/id", "d39b6431-8548-53a4-af68-cef1730e8f98"],
+    ["query/id", "3902bf4a-9676-5f59-8ba2-3b74c6153547"]
+  ],
+  "studies": [],
+  "tables": [],
+  "texts": [],
+  "timers": [],
+  "transformations": [
+    ["transformation/id", "ec292bf2-d4b8-506e-a5b2-efbcd6d966a1"],
+    ["transformation/id", "97e0dee9-daa7-5a98-bf37-9af5c1c2b16b"],
+    ["transformation/id", "f7a783e7-8ee4-59e0-ae43-de2a1390b14f"],
+    ["transformation/id", "d975ba31-f59e-5110-913a-e10e92c943cd"],
+    ["transformation/id", "5bcc0e57-3887-5312-887c-f6e604903082"],
+    ["transformation/id", "39aa3ed9-7263-5c1a-b444-dcf1625b95ad"],
+    ["transformation/id", "9da2008e-b27b-5072-921c-3e697cfbd93c"],
+    ["transformation/id", "f4ac535c-67f5-54b4-9e15-12e9187bdf33"]
+  ]
+}

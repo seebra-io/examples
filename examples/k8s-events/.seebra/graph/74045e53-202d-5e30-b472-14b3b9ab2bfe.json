@@ -1,0 +1,16 @@
+{
+  "graph/content": {
+    "$file": "graphs/warnings-per-minute-and-the-bursts.js"
+  },
+  "graph/id": "74045e53-202d-5e30-b472-14b3b9ab2bfe",
+  "graph/inputs": [
+    ["data/id", "4088937f-dd58-5f0f-8639-b08d2809fc12"]
+  ],
+  "graph/language": "javascript",
+  "graph/name": "Warnings per minute, and the bursts",
+  "graph/node": {
+    "node/x": 1920,
+    "node/y": 80
+  },
+  "graph/parent": ["data/id", "6172bf28-ec99-5195-ad9e-30493ecd80b0"]
+}

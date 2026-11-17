@@ -1,0 +1,10 @@
+{
+  "data/id": "6d24ffa6-eb5b-564d-849a-63f12d87846d",
+  "data/name": "Per firm data",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "cfebc268-1af6-5d5f-8969-7890ecfa210b"],
+  "data/type": "json"
+}

@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "73be1b49-a8f7-56a1-b819-744a60e0e47d"],
+  "query/datasource": ["datasource/id", "1424235d-19c5-5fc5-a6b7-8c79be4f231e"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "3d338cdc-367a-53e1-beb7-06dc7d93cc9d",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Students by number of doctoral advisors (P184, in-degree)",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 320
+  },
+  "query/params": "{\"query\":\"SELECT ?advisors (COUNT(?s) AS ?students) WHERE { { SELECT ?s (COUNT(?a) AS ?advisors) WHERE { ?s wdt:P184 ?a } GROUP BY ?s } } GROUP BY ?advisors ORDER BY ?advisors\",\"format\":\"json\"}",
+  "query/path": "/sparql",
+  "query/request-body": "",
+  "query/units": "{}"
+}

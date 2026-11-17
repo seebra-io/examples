@@ -1,0 +1,8 @@
+{
+  "file": {
+    "file/example": "stefan-boltzmann-hr"
+  },
+  "format": 2,
+  "root": ["dashboard/id", "2abc0d45-603e-5300-92ce-4541c1858271"],
+  "seebra": "board"
+}

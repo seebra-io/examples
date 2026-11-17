@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/flood-measurements-foot-by-foot.polars.py"
+  },
+  "transformation/data-child": ["data/id", "b8fff4c3-6097-5c5e-9d72-e43abdd2d32c"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "f1e2518f-4c15-5efb-80aa-0d8eafa63c2e",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Flood measurements foot by foot",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1920,
+    "node/y": 560
+  },
+  "transformation/parent": ["data/id", "1c48d3cb-c182-5c5d-8b55-1565150db2a0"],
+  "transformation/units": "{}"
+}

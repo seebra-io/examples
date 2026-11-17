@@ -1,0 +1,16 @@
+{
+  "graph/content": {
+    "$file": "graphs/image-versions-per-repository-drift.js"
+  },
+  "graph/id": "9a9d8610-df5e-57e5-a02c-f064b0e41ec6",
+  "graph/inputs": [
+    ["data/id", "c4a11228-501f-51e9-9191-f312325bcd16"]
+  ],
+  "graph/language": "javascript",
+  "graph/name": "Image versions per repository (drift)",
+  "graph/node": {
+    "node/x": 1460,
+    "node/y": 560
+  },
+  "graph/parent": ["data/id", "1b7516b8-3668-54e5-aeab-da7ac82f35ba"]
+}

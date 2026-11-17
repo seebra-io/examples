@@ -1,0 +1,16 @@
+{
+  "graph/content": {
+    "$file": "graphs/generation-by-source-against-load-mw.js"
+  },
+  "graph/id": "b5d4cd16-d41b-5d15-b560-8fb76a4a29ed",
+  "graph/inputs": [
+    ["data/id", "f0e649fe-d71f-5a1d-b082-8bcbd08f21fc"]
+  ],
+  "graph/language": "javascript",
+  "graph/name": "Generation by source against load (MW)",
+  "graph/node": {
+    "node/x": 1460,
+    "node/y": 560
+  },
+  "graph/parent": ["data/id", "cc0e11cf-5809-5f4c-ba08-a8db36c85a1d"]
+}

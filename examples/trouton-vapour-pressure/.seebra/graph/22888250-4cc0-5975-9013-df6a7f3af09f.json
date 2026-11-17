@@ -1,0 +1,16 @@
+{
+  "graph/content": {
+    "$file": "graphs/one-line-for-every-liquid-the-reduced-clausius.js"
+  },
+  "graph/id": "22888250-4cc0-5975-9013-df6a7f3af09f",
+  "graph/inputs": [
+    ["data/id", "f2c95e97-61e9-590e-a2fe-3a824b443f01"]
+  ],
+  "graph/language": "javascript",
+  "graph/name": "One line for every liquid: the reduced Clausius–Clapeyron plot",
+  "graph/node": {
+    "node/x": 1920,
+    "node/y": 800
+  },
+  "graph/parent": ["data/id", "734ae4fb-e4cc-5e88-84d8-040ea4d0aaa8"]
+}

@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/per-namespace-quantiles-of-the-ratio-pooled.polars.py"
+  },
+  "transformation/data-child": ["data/id", "0aedab75-face-5765-b7f3-344147ab3fc2"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "85994f74-607b-503a-a0d5-fe962b85f640",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Per namespace: quantiles of the ratio, pooled ratio and idle requests",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 2380,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "f1df191d-ba30-5766-a592-63367321bf74"],
+  "transformation/units": "{}"
+}

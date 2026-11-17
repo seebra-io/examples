@@ -1,0 +1,10 @@
+{
+  "data/id": "d9be0060-32f1-5760-b2a4-7dc081f86fff",
+  "data/name": "Measured cells (COD) data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 560
+  },
+  "data/parent": ["transformation/id", "5bcc0e57-3887-5312-887c-f6e604903082"],
+  "data/type": "json"
+}

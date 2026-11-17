@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/correlation-causation-what-rises-together.js"
+  },
+  "graph/id": "d0c6c146-305f-5070-be18-d133bf7af3a4",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Correlation ≠ causation: what rises together",
+  "graph/node": {
+    "node/x": 1920,
+    "node/y": 320
+  },
+  "graph/parent": ["data/id", "b95930de-d635-5fe8-b49b-118bd682590f"]
+}

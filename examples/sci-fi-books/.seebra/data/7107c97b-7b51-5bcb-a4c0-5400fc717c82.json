@@ -1,0 +1,11 @@
+{
+  "data/id": "7107c97b-7b51-5bcb-a4c0-5400fc717c82",
+  "data/name": "Books",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "8fcb908c-1fc3-59f1-880d-b1f9b561e853"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

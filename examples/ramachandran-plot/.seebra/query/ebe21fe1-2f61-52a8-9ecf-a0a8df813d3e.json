@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "51c7b81c-b8ad-5184-811c-61006ace2727"],
+  "query/datasource": ["datasource/id", "48e40754-5006-5582-bf1d-604b33728d13"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "ebe21fe1-2f61-52a8-9ecf-a0a8df813d3e",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "1EMA backbone angles (validation)",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 1520
+  },
+  "query/params": "{}",
+  "query/path": "/validation/rama_sidechain_listing/entry/1ema",
+  "query/request-body": "",
+  "query/units": "{}"
+}

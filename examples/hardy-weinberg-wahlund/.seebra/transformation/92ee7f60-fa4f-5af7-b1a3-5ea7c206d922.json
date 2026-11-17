@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/1000-genomes-populations-igsr.polars.py"
+  },
+  "transformation/data-child": ["data/id", "24d28f8c-32fb-5e16-ac70-590abd6b91c3"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "92ee7f60-fa4f-5af7-b1a3-5ea7c206d922",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "1000 Genomes populations (IGSR)",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 1280
+  },
+  "transformation/parent": ["data/id", "931b5f3c-c176-5e9c-87d2-7b3194472395"],
+  "transformation/units": "{}"
+}

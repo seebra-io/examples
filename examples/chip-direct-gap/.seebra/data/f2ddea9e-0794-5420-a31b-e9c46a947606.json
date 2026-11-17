@@ -1,0 +1,10 @@
+{
+  "data/id": "f2ddea9e-0794-5420-a31b-e9c46a947606",
+  "data/name": "Elements: valence electrons and electronegativity data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "6d07ce13-d2af-5f4f-b925-9a39c9ddba53"],
+  "data/type": "json"
+}

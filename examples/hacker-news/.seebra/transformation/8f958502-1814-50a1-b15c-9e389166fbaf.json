@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/by-points.sql"
+  },
+  "transformation/data-child": ["data/id", "1ed36be2-c5b5-5ff9-98f2-f9645b5860ce"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "8f958502-1814-50a1-b15c-9e389166fbaf",
+  "transformation/inputs": [],
+  "transformation/language": "sql",
+  "transformation/name": "By points",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "04c0a032-7466-5180-8faf-d68eedfb0942"],
+  "transformation/units": "{}"
+}

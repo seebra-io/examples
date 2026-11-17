@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/season-means-per-year.sql"
+  },
+  "transformation/data-child": ["data/id", "1f0cd937-2c98-5be2-b35f-7c8882096e7c"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "47ab23c9-8cdb-5213-a874-c7df26751d66",
+  "transformation/inputs": [],
+  "transformation/language": "sql",
+  "transformation/name": "Season means per year",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "be5f2358-6c7f-5867-926a-f90755ee7a30"],
+  "transformation/units": "{}"
+}

@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/dennard-s-budget-switching-energy-per-transistor.sql"
+  },
+  "transformation/data-child": ["data/id", "0921387f-28ad-55fe-8ba2-e1a3c684ecc4"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "a255fbcd-7459-5252-b320-d4a0a10e59ba",
+  "transformation/inputs": [],
+  "transformation/language": "sql",
+  "transformation/name": "Dennard's budget: switching energy per transistor, per era",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 2380,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "ad2da19a-511a-5208-b056-5c9b6cea6f94"],
+  "transformation/units": "{}"
+}

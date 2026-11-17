@@ -1,0 +1,10 @@
+{
+  "data/id": "a8e33c08-5bd5-5fd3-bc5f-da82d633de0f",
+  "data/name": "CO₂ per person, latest data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 80
+  },
+  "data/parent": ["query/id", "08e11300-f369-51f7-8c76-a54213355354"],
+  "data/type": "json"
+}

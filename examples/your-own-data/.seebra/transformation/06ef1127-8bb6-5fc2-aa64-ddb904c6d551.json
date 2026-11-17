@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/artists-hours-skips-first-and-last-played.sql"
+  },
+  "transformation/data-child": ["data/id", "a51dc755-c703-5fd5-9bef-994dd0f56535"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "06ef1127-8bb6-5fc2-aa64-ddb904c6d551",
+  "transformation/inputs": [],
+  "transformation/language": "sql",
+  "transformation/name": "Artists: hours, skips, first and last played",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "59f53af7-73c0-557c-bee7-9d0d2b8fcdb6"],
+  "transformation/units": "{}"
+}

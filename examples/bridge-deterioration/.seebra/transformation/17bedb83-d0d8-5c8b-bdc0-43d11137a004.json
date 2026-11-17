@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/wear-in-the-poor-share-grows-exponentially-with.polars.py"
+  },
+  "transformation/data-child": ["data/id", "d77fa792-0dab-5511-9183-efd71234d095"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "17bedb83-d0d8-5c8b-bdc0-43d11137a004",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Wear-in: the poor share grows exponentially with age, fit ln(share poor) on age over 5–44 years",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1920,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "75fdc520-1367-5935-9145-542b8a6fb8d8"],
+  "transformation/units": "{}"
+}

@@ -1,0 +1,11 @@
+{
+  "data/id": "e1a93826-2642-5142-9c01-3354e9a7a772",
+  "data/name": "The year per house",
+  "data/node": {
+    "node/x": 2070,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "4561bdde-7b9e-5798-93f2-72dae857a579"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

@@ -1,0 +1,10 @@
+{
+  "data/id": "df336183-bd21-50f2-a9e2-d22a80ca5ca0",
+  "data/name": "FluView clinical labs: % positive for influenza, US national data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 320
+  },
+  "data/parent": ["query/id", "561b1a24-b76b-5350-8b05-0e8fb4a24256"],
+  "data/type": "json"
+}

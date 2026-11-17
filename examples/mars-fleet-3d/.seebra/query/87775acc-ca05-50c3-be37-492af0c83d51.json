@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "9415a51e-d3f3-5571-93f3-34b7b217e49b"],
+  "query/datasource": ["datasource/id", "c448180a-597e-5dde-ac17-7626318a9f5e"],
+  "query/dynamic?": false,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "87775acc-ca05-50c3-be37-492af0c83d51",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Mars Reconnaissance Orbiter (A), NASA's 3D model",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 80
+  },
+  "query/params": "{}",
+  "query/path": "/cds/3d/resources/model/mars-reconnaissance-orbiter-(mro)-(a)/Mars%20Reconnaissance%20Orbiter%20(MRO)%20(A).glb",
+  "query/request-body": "",
+  "query/units": "{}"
+}

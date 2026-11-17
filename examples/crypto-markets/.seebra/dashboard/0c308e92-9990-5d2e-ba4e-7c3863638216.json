@@ -1,0 +1,34 @@
+{
+  "dashboard/id": "0c308e92-9990-5d2e-ba4e-7c3863638216",
+  "datas": [
+    ["data/id", "7947c4b2-936f-5146-96dc-a47338a9b6e8"],
+    ["data/id", "23ba4f46-7b88-5ee3-8c98-3468a8209b8a"],
+    ["data/id", "608eb311-d319-5c38-b5d6-73f884cefe0f"],
+    ["data/id", "2c39795b-cadd-5054-b0ec-12747a2c720c"],
+    ["data/id", "46dc2902-f6c4-51b2-8322-b73414787669"]
+  ],
+  "datasources": [
+    ["datasource/id", "0d109f6d-9f00-5423-9a39-f68bfc4b4cee"]
+  ],
+  "description": "CoinGecko's 20 largest coins by market cap: Polars turns the answer into rows and the 7-day hourly price sparkline into log returns, then a chart shows the day's moves, each coin's volatility against its week, and the correlation matrix of hourly returns (most coins move with Bitcoin). Prices are in US$; a week of hours is a small sample.",
+  "graphs": [
+    ["graph/id", "60617103-f769-55aa-a608-948b760cda5a"],
+    ["graph/id", "23883875-b140-53c3-810d-02a125d94509"],
+    ["graph/id", "a720308b-7613-57bf-8806-73dae85b6344"]
+  ],
+  "grids": [],
+  "name": "Crypto: the top 20 today",
+  "queries": [
+    ["query/id", "b5888776-e628-5730-9063-5075f0d6d5db"]
+  ],
+  "studies": [],
+  "tables": [],
+  "texts": [],
+  "timers": [],
+  "transformations": [
+    ["transformation/id", "f5675091-6b1c-5109-9c5f-c346bdaeb6ea"],
+    ["transformation/id", "6dfc4c2f-7c90-5c72-b3dd-01d06a72d5b9"],
+    ["transformation/id", "138daea9-ed6f-5946-9a01-bcbdc2a88c8a"],
+    ["transformation/id", "79a6e88b-7ed2-5728-88b7-82297d3b7961"]
+  ]
+}

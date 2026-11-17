@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/a-48-hour-clock-minute-by-minute.polars.py"
+  },
+  "transformation/data-child": ["data/id", "88aa88ba-42a6-5120-a84a-415e3d169272"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "46c80608-0ddb-591a-ac07-1d7dd3297693",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "A 48-hour clock, minute by minute",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 2380,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "369cbb37-92fe-5f29-8542-4059685b66d6"],
+  "transformation/units": "{}"
+}

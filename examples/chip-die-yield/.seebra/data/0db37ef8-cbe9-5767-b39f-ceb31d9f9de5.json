@@ -1,0 +1,10 @@
+{
+  "data/id": "0db37ef8-cbe9-5767-b39f-ceb31d9f9de5",
+  "data/name": "Chiplets: the same silicon as n smaller dies data",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 560
+  },
+  "data/parent": ["transformation/id", "432abd35-cdf0-5ec3-9d01-ab4825d1f80a"],
+  "data/type": "json"
+}

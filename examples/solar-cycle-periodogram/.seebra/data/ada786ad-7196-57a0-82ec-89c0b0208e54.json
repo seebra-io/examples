@@ -1,0 +1,10 @@
+{
+  "data/id": "ada786ad-7196-57a0-82ec-89c0b0208e54",
+  "data/name": "Cycle lengths and the Waldmeier correlation data",
+  "data/node": {
+    "node/x": 2530,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "8ba545f8-276b-51f8-9623-5af73f431ee6"],
+  "data/type": "json"
+}

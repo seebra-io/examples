@@ -1,0 +1,21 @@
+{
+  "transformation/content": {
+    "$file": "transforms/materials-by-family-iv-iii-v-ii-vi.polars.py"
+  },
+  "transformation/data-child": ["data/id", "f65d7d45-f930-5497-b4d1-6280e2fb201d"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "7c09ff14-626d-501f-8e73-c1fcb6874961",
+  "transformation/inputs": [
+    ["data/id", "f2ddea9e-0794-5420-a31b-e9c46a947606"]
+  ],
+  "transformation/language": "polars",
+  "transformation/name": "Materials by family (IV, III-V, II-VI, ...)",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "0be18eec-9ab7-52f6-90a6-31da6ed5919e"],
+  "transformation/units": "{}"
+}

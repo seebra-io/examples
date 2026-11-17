@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "dc46b490-3ffb-5aba-8d18-81d5d16643e5"],
+  "query/datasource": ["datasource/id", "c448180a-597e-5dde-ac17-7626318a9f5e"],
+  "query/dynamic?": false,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "0861cba4-8036-5c8c-93ac-947ba297244f",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Mars Global Surveyor, NASA's 3D model",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 320
+  },
+  "query/params": "{}",
+  "query/path": "/cds/3d/resources/model/mars-global-surveyor/Mars%20Global%20Surveyor.glb",
+  "query/request-body": "",
+  "query/units": "{}"
+}

@@ -1,0 +1,150 @@
+{
+  "title": "X-ray diffraction of semiconductor crystals",
+  "summary": "Cubic semiconductors' cells from the Crystallography Open Database, their Bragg reflections, the selection rule of the diamond and zincblende structures, and the peak splitting that measures epitaxial films.",
+  "concepts": [
+    {
+      "cid": "c1",
+      "label": "Crystal structure",
+      "kind": "entity",
+      "description": "A periodic arrangement of atoms; here fcc lattices with a two-atom basis.",
+      "fields": [
+        "material",
+        "structure",
+        "sg"
+      ],
+      "in_data": true,
+      "wikidata": "Q895901",
+      "children": [
+        {
+          "cid": "c2",
+          "label": "Lattice constant",
+          "kind": "measure",
+          "as": "property",
+          "description": "Edge a of the cubic cell, in Å, from COD entries.",
+          "fields": [
+            "a_A",
+            "spread_A"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c3",
+          "label": "Diamond structure",
+          "kind": "category",
+          "as": "subtype",
+          "description": "Two identical atoms per lattice point (Si, Ge, C), space group Fd-3m.",
+          "fields": [
+            "structure"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c4",
+          "label": "Zincblende structure",
+          "kind": "category",
+          "as": "subtype",
+          "description": "Two different atoms (GaAs, InP), space group F-43m.",
+          "fields": [
+            "structure"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c5",
+          "label": "Crystal defect",
+          "kind": "entity",
+          "as": "part",
+          "description": "Dislocations and point defects; they broaden peaks and relax strained films.",
+          "in_data": false
+        }
+      ]
+    },
+    {
+      "cid": "c6",
+      "label": "Bragg reflection",
+      "kind": "event",
+      "description": "Constructive interference from lattice planes (hkl) at nλ = 2d sin θ.",
+      "fields": [
+        "hkl",
+        "two_theta_deg",
+        "d_A"
+      ],
+      "in_data": true,
+      "wikidata": "Q189363",
+      "children": [
+        {
+          "cid": "c7",
+          "label": "Structure factor",
+          "kind": "measure",
+          "as": "property",
+          "description": "Sum of the atoms' scattered waves in a cell; its square sets the intensity and its zeros the selection rules.",
+          "fields": [
+            "f_sq",
+            "class"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c8",
+          "label": "Atomic scattering factor",
+          "kind": "measure",
+          "as": "property",
+          "description": "An atom's scattering power, Z at θ = 0 and falling with sin θ / λ; here approximated by Z.",
+          "fields": [
+            "f_sq"
+          ],
+          "in_data": false,
+          "facts": [
+            {
+              "text": "Tabulated in the International Tables for Crystallography, Vol. C, Table 6.1.1.4.",
+              "source": "https://it.iucr.org/Cb/"
+            }
+          ]
+        },
+        {
+          "cid": "c9",
+          "label": "Multiplicity",
+          "kind": "measure",
+          "as": "property",
+          "description": "Number of equivalent planes in a family {hkl}.",
+          "fields": [
+            "multiplicity"
+          ],
+          "in_data": true
+        }
+      ]
+    },
+    {
+      "cid": "c10",
+      "label": "Epitaxial film",
+      "kind": "entity",
+      "description": "A crystalline layer grown on a substrate with the same orientation.",
+      "in_data": false,
+      "children": [
+        {
+          "cid": "c11",
+          "label": "Lattice mismatch",
+          "kind": "measure",
+          "as": "property",
+          "description": "(a_film − a_substrate) / a_substrate; below about 0.1–1% a film grows strained without dislocations up to a critical thickness.",
+          "fields": [
+            "mismatch_pct"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c12",
+          "label": "Peak splitting",
+          "kind": "measure",
+          "as": "property",
+          "description": "Δ2θ between film and substrate peaks, −2 tan θ Δa/a.",
+          "fields": [
+            "split_deg",
+            "predicted_split_deg"
+          ],
+          "in_data": true
+        }
+      ]
+    }
+  ]
+}

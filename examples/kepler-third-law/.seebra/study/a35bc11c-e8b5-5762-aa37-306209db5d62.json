@@ -1,0 +1,18 @@
+{
+  "study/hypothesis": "log₁₀ P² = log₁₀(a³/M★) + c with slope 1 and c = 0 (P in years, a in AU, M★ in solar masses).",
+  "study/id": "a35bc11c-e8b5-5762-aa37-306209db5d62",
+  "study/name": "Is P² ∝ a³/M★ across all known planets?",
+  "study/node": {
+    "node/x": 540,
+    "node/y": 320
+  },
+  "study/plan": {
+    "$file": ".seebra/study/a35bc11c-e8b5-5762-aa37-306209db5d62.plan.json",
+    "$json": true
+  },
+  "study/question": "Across the confirmed exoplanets, does the orbital period squared scale as the semi-major axis cubed divided by the star's mass, with slope 1 on log axes?",
+  "study/state": {
+    "$file": ".seebra/study/a35bc11c-e8b5-5762-aa37-306209db5d62.state.json",
+    "$json": true
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/per-group-genera-trace-fossil-genera-median-span.polars.py"
+  },
+  "transformation/data-child": ["data/id", "828707ab-1cb4-5a2c-b0d8-2ec5fdbce20b"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "b9a3d38e-fc43-54fb-a610-3ef6cbb6ed1d",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Per group: genera, trace-fossil genera, median span",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "ff3e16ab-1ff7-5912-a980-bd0a37f37763"],
+  "transformation/units": "{}"
+}

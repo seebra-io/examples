@@ -1,0 +1,16 @@
+{
+  "datasource/api-key-key": "api_key",
+  "datasource/auth-type": "none",
+  "datasource/headers": "{}",
+  "datasource/id": "8c4e5860-f59d-51de-b2b8-7355fc71c0b5",
+  "datasource/name": "GDELT DOC 2.0",
+  "datasource/node": {
+    "inputs": 1,
+    "node/x": 80,
+    "node/y": 1520,
+    "outputs": 1
+  },
+  "datasource/params": "{}",
+  "datasource/type": "openapi",
+  "datasource/url": "https://api.gdeltproject.org/api/v2/doc"
+}

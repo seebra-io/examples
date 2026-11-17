@@ -1,0 +1,41 @@
+{
+  "dashboard/id": "9cdaba2a-b1b8-504c-b08c-34d8f8e053bd",
+  "datas": [
+    ["data/id", "7260ea52-577c-525f-8ce6-fb8621470383"],
+    ["data/id", "2c5d882b-1f1b-5ffe-b07f-8c489565710d"],
+    ["data/id", "7ba84a32-0bae-5874-a2ba-9cd2c2d92695"],
+    ["data/id", "30b643b0-2d73-5c68-af08-eee62ba7b173"],
+    ["data/id", "73cf2bca-5f82-50a2-af8c-aaafa98a2544"],
+    ["data/id", "921aa6c1-e376-5bfd-8f3c-159275d5e015"],
+    ["data/id", "e8a59fc7-e206-5d3f-a2d5-908f5d688a38"],
+    ["data/id", "730d492e-b785-5c8e-97c2-fae89d762c7b"],
+    ["data/id", "a78a0572-d138-56fc-9259-c3325d3ba0cb"]
+  ],
+  "datasources": [
+    ["datasource/id", "3a28b207-a223-562e-923d-494c4d43f64e"]
+  ],
+  "description": "World Bank life expectancy at birth, each country's most recent year, joined in SQL with the World Bank's country list for region and income group (aggregates such as 'World' dropped) and with GDP per capita, with a summary per region. A least-squares regression of life expectancy on log GDP per capita shows how strongly the two go together, with a 95% band for the line, and which countries live longer or shorter than their income predicts; it is a correlation, not a cause.",
+  "graphs": [
+    ["graph/id", "4a529d14-3077-5cd6-99a0-15978967c13f"],
+    ["graph/id", "62a7e63b-7989-59ba-8e3f-f2ddac855508"]
+  ],
+  "grids": [],
+  "name": "Life expectancy around the world",
+  "queries": [
+    ["query/id", "b909c484-4b39-5e98-bf2a-88ffc2d6423f"],
+    ["query/id", "afcd2242-ddbc-5ea5-81ac-369aae14bd3c"],
+    ["query/id", "252f4670-d771-5140-a718-a8af90135e58"]
+  ],
+  "studies": [],
+  "tables": [],
+  "texts": [],
+  "timers": [],
+  "transformations": [
+    ["transformation/id", "c975646c-d921-5604-8935-ce70ade93600"],
+    ["transformation/id", "a76092df-e01d-52a8-b7da-6d07a45ad19d"],
+    ["transformation/id", "4a7682fd-55fd-55bf-a66f-dfb730610704"],
+    ["transformation/id", "0b7f1948-2e04-52c8-bab5-00a416b38cd4"],
+    ["transformation/id", "93f88042-6d0f-5ca9-ab27-ce54dab3d3f1"],
+    ["transformation/id", "09635505-9e40-5e8a-a08c-d6197444f1e6"]
+  ]
+}

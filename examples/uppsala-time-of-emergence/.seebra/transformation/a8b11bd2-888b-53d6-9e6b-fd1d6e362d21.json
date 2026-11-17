@@ -1,0 +1,21 @@
+{
+  "transformation/content": {
+    "$file": "transforms/anomalies-vs-1850-1900.sql"
+  },
+  "transformation/data-child": ["data/id", "2a23eceb-2571-5d7f-b534-d41cf430c83b"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "a8b11bd2-888b-53d6-9e6b-fd1d6e362d21",
+  "transformation/inputs": [
+    ["data/id", "f62047c7-9c9c-5cd6-bfdc-e429ba0ed7ea"]
+  ],
+  "transformation/language": "sql",
+  "transformation/name": "Anomalies vs 1850–1900",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1920,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "1f0cd937-2c98-5be2-b35f-7c8882096e7c"],
+  "transformation/units": "{}"
+}

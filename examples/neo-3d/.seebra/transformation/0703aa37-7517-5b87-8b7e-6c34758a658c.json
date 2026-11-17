@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/closest-first.sql"
+  },
+  "transformation/data-child": ["data/id", "c1fca5ee-1de6-5c9b-8e00-d4474d0d42dd"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "0703aa37-7517-5b87-8b7e-6c34758a658c",
+  "transformation/inputs": [],
+  "transformation/language": "sql",
+  "transformation/name": "Closest first",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1920,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "ae1213d2-fe2f-57c0-88d3-6a0f4cd6eae0"],
+  "transformation/units": "{}"
+}

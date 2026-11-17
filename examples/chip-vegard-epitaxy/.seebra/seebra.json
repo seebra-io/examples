@@ -1,0 +1,8 @@
+{
+  "file": {
+    "file/example": "chip-vegard-epitaxy"
+  },
+  "format": 2,
+  "root": ["dashboard/id", "7d817410-b59c-5d20-a703-5b6e29804a8e"],
+  "seebra": "board"
+}

@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "123e22cd-220e-5c66-b485-3cdeec30a5ef"],
+  "query/datasource": ["datasource/id", "d9f66248-f328-52f5-ac8f-293afe60043f"],
+  "query/dynamic?": false,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "6e6a2052-8d40-5bf8-8c5c-831b79df82c3",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Hubble Space Telescope (A), NASA's 3D model",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 1280
+  },
+  "query/params": "{}",
+  "query/path": "/cds/3d/resources/model/hubble-space-telescope-(a)/Hubble%20Space%20Telescope%20(A).glb",
+  "query/request-body": "",
+  "query/units": "{}"
+}

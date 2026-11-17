@@ -1,0 +1,21 @@
+{
+  "transformation/content": {
+    "$file": "transforms/death-rates-2003-and-2023.sql"
+  },
+  "transformation/data-child": ["data/id", "ea38e379-ba40-51d5-a918-d313da186165"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "8297000d-3155-5c58-9866-84cfb96b6ad8",
+  "transformation/inputs": [
+    ["data/id", "b4a70c56-828c-5737-8dc6-d28372b3fc08"]
+  ],
+  "transformation/language": "sql",
+  "transformation/name": "Death rates, 2003 and 2023",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "b599221c-126a-509b-ba21-31444c4fcd9e"],
+  "transformation/units": "{}"
+}

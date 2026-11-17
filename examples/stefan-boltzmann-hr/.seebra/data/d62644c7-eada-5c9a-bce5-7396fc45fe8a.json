@@ -1,0 +1,11 @@
+{
+  "data/id": "d62644c7-eada-5c9a-bce5-7396fc45fe8a",
+  "data/name": "Stages: radius, temperature, luminosity",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "6e1b3183-4ad9-5837-a8d1-5dcb0284dcb7"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

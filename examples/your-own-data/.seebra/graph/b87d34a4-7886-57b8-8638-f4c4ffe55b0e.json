@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/which-data-and-how-long-the-export-takes-hover-a.js"
+  },
+  "graph/id": "b87d34a4-7886-57b8-8638-f4c4ffe55b0e",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Which data, and how long the export takes (hover a platform)",
+  "graph/node": {
+    "node/x": 1460,
+    "node/y": 800
+  },
+  "graph/parent": ["data/id", "ece65900-9e7b-57f9-a300-8f754f676f59"]
+}

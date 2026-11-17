@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "3e2d1687-7fb6-5258-8126-ecca48bd9577"],
+  "query/datasource": ["datasource/id", "be2ff423-d64f-5002-a376-d495798814a9"],
+  "query/dynamic?": false,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "207465a6-dbdb-5895-b696-47f598357436",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Mercury, NASA's model",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 1040
+  },
+  "query/params": "{}",
+  "query/path": "/psd/solar/2023/09/m/Mercury_1_4878.glb",
+  "query/request-body": "",
+  "query/units": "{}"
+}

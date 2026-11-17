@@ -1,0 +1,10 @@
+{
+  "data/id": "a19a3eb0-0555-5e2a-9178-aeb07bd4a186",
+  "data/name": "Mushroom Observer: chanterelle observations with photos, 2025 data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 1520
+  },
+  "data/parent": ["query/id", "c7b7ac9f-10fc-5966-bc3d-b2db53974e6c"],
+  "data/type": "json"
+}

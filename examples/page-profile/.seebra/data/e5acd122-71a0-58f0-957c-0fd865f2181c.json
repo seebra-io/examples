@@ -1,0 +1,11 @@
+{
+  "data/id": "e5acd122-71a0-58f0-957c-0fd865f2181c",
+  "data/name": "Long frames",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 560
+  },
+  "data/parent": ["transformation/id", "8cd183b3-1828-5b34-bb37-be3451828de8"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

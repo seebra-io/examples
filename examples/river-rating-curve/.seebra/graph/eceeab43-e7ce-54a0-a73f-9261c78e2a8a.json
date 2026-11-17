@@ -1,0 +1,16 @@
+{
+  "graph/content": {
+    "$file": "graphs/measurements-against-one-all-years-curve-low.js"
+  },
+  "graph/id": "eceeab43-e7ce-54a0-a73f-9261c78e2a8a",
+  "graph/inputs": [
+    ["data/id", "9f480698-f506-5d5d-a105-616a764888b4"]
+  ],
+  "graph/language": "javascript",
+  "graph/name": "Measurements against one all-years curve: low flows drift, floods don't",
+  "graph/node": {
+    "node/x": 1920,
+    "node/y": 1280
+  },
+  "graph/parent": ["data/id", "1c48d3cb-c182-5c5d-8b55-1565150db2a0"]
+}

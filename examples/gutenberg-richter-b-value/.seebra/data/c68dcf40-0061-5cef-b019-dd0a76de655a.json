@@ -1,0 +1,10 @@
+{
+  "data/id": "c68dcf40-0061-5cef-b019-dd0a76de655a",
+  "data/name": "Completeness magnitude Mc (maximum curvature + 0.2) data",
+  "data/node": {
+    "node/x": 2070,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "62a30873-13a1-5c9a-b14e-4effee631fe5"],
+  "data/type": "json"
+}

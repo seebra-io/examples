@@ -1,0 +1,18 @@
+{
+  "study/hypothesis": "Counting TEMPO, PROB and BECMG-in-progress groups raises the share of airport-hours below the minima severalfold at every hour ahead, and the METARs below the minima now are mostly inside a temporary group, not outside the TAF.",
+  "study/id": "ea28e1de-7351-5a7d-be40-2e95692540e9",
+  "study/name": "Do TEMPO/PROB groups, not the prevailing forecast, decide VFR a few hours out?",
+  "study/node": {
+    "node/x": 540,
+    "node/y": 2000
+  },
+  "study/plan": {
+    "$file": ".seebra/study/ea28e1de-7351-5a7d-be40-2e95692540e9.plan.json",
+    "$json": true
+  },
+  "study/question": "Across the airports with a TAF in Sweden and its neighbours, is the share of airport-hours below the SERA VMC minima higher when the TAF's temporary groups count than with the prevailing forecast alone, and do the METARs now side with the larger share?",
+  "study/state": {
+    "$file": ".seebra/study/ea28e1de-7351-5a7d-be40-2e95692540e9.state.json",
+    "$json": true
+  }
+}

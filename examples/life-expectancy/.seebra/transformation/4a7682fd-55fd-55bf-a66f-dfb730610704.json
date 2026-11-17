@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/gdp-per-capita-us.polars.py"
+  },
+  "transformation/data-child": ["data/id", "921aa6c1-e376-5bfd-8f3c-159275d5e015"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "4a7682fd-55fd-55bf-a66f-dfb730610704",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "GDP per capita (US$)",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 560
+  },
+  "transformation/parent": ["data/id", "7ba84a32-0bae-5874-a2ba-9cd2c2d92695"],
+  "transformation/units": "{}"
+}

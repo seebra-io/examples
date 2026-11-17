@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/per-chain.sql"
+  },
+  "transformation/data-child": ["data/id", "b40ebca3-301c-57e2-99a2-2b45ddc81610"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "1af770bf-04a7-5570-ba34-d444aaaa4339",
+  "transformation/inputs": [],
+  "transformation/language": "sql",
+  "transformation/name": "Per chain",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 1040
+  },
+  "transformation/parent": ["data/id", "27331551-38f6-56e3-be6d-a1040889c709"],
+  "transformation/units": "{}"
+}

@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/characters-against-their-species-average-height.js"
+  },
+  "graph/id": "eb14be70-da9b-5b2d-a3da-999101af446c",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Characters against their species' average height",
+  "graph/node": {
+    "node/x": 1920,
+    "node/y": 800
+  },
+  "graph/parent": ["data/id", "b1c812b0-0668-5091-8517-c0fa75ff4f15"]
+}

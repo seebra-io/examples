@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/cycle-minima-lowest-smoothed-value-within-4.polars.py"
+  },
+  "transformation/data-child": ["data/id", "2978ec6c-4235-5d35-9195-aa4faaff8edb"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "b72e1f4c-c0b9-5b09-bd9b-21c09e328bcf",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Cycle minima: lowest smoothed value within ±4 years",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "b07953fb-31c8-5ff2-9746-a220e32ed99e"],
+  "transformation/units": "{}"
+}

@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/months-with-time-in-years.polars.py"
+  },
+  "transformation/data-child": ["data/id", "b07953fb-31c8-5ff2-9746-a220e32ed99e"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "fe3f003c-ea5b-5bb7-8945-c56722508210",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Months with time in years",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "5a385e71-1352-510a-b50e-4d47ef37e169"],
+  "transformation/units": "{}"
+}

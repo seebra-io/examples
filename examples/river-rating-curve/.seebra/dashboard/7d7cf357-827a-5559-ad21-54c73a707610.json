@@ -1,0 +1,55 @@
+{
+  "dashboard/id": "7d7cf357-827a-5559-ad21-54c73a707610",
+  "datas": [
+    ["data/id", "b9cc133a-86b6-5559-8486-79f8a25fa4d5"],
+    ["data/id", "ac8fcad9-78dd-5b16-9adb-9a083632f7dd"],
+    ["data/id", "53b3944f-088d-5541-af4c-12295f8c0c00"],
+    ["data/id", "d38a2c77-f26a-51f7-bbb5-6d87969c7c2a"],
+    ["data/id", "722d87cb-bf99-54bb-bdf0-f81111c4a619"],
+    ["data/id", "3ee9bafd-58b1-5d6d-9be9-b1c27f8bb386"],
+    ["data/id", "aea86b35-7f58-504a-951e-80fd27f859b8"],
+    ["data/id", "1c48d3cb-c182-5c5d-8b55-1565150db2a0"],
+    ["data/id", "9f480698-f506-5d5d-a105-616a764888b4"],
+    ["data/id", "2285a219-60f2-5218-aea2-bc94c658438e"],
+    ["data/id", "b8fff4c3-6097-5c5e-9d72-e43abdd2d32c"],
+    ["data/id", "247d8706-1010-5dd4-9427-893089707c83"]
+  ],
+  "datasources": [
+    ["datasource/id", "93a2be66-2bac-5bcd-89e5-6271840b60e6"]
+  ],
+  "description": "Question: a river gage reads only the water level, yet USGS publishes the flow of the Missouri at Hermann every 15 minutes: where does the discharge come from, and how far can it be trusted? Idea: the stage-discharge rating curve. Hydrographers measure the discharge a few times a year (velocity across the section, by current meter or ADCP) and read the stage; a power law Q = C (h − e)^b through those measurements (e: the stage of zero flow, b: set by the hydraulic control, about 1.5–2.5 for a riffle or weir, 5/3 for a wide channel by Manning) turns every stage reading into a discharge. Here 4,117 field measurements since 1928 from the USGS Water Data API are fitted in Polars: for each e on a grid the fit is a straight line in log space, and the e with the least squared error wins (a profile likelihood gives its 95% interval, and with it how different the equally good curves are). Aha: the curve is a model with a shelf life. Fitted per decade, the stage that carries 40,000 ft³/s has fallen by more than 3 ft since the 1960s (bed degradation: sand dredging, and dams that trap sediment upstream), so one all-years curve under-reports today's low flows by over 40%, while floods barely move. And at the top, where the 100-year flood lives, the curve is weakest: 51% of the measurements are below 10 ft and only 65 at 30 ft or more; the one power law reads the 1993 record stage (36.97 ft) as about 564,000 ft³/s against the published 750,000, and the 10 measurements at 34.5 ft or more range from 418,000 to 750,000 ft³/s at nearly the same stage (rising against falling floods, backwater, levee breaks), while the curve's statistical interval there is only about 3%. Caveats: stage in ft above the gage datum (which may have changed), discharge in ft³/s; measurements are rated Excellent (2%) to Poor (>8%); hysteresis (rising floods carry more than falling ones at the same stage) and ice are not modelled; USGS's own rating uses segments and shifts, not one power law; peaks before 1928 are historic estimates. Next: other gages on the Missouri (Kansas City 06893000, St. Joseph 06818000) to see the degradation travel; the daily discharge (USGS daily collection) with the stage to see shifts applied; the flood frequency of the annual peaks.",
+  "graphs": [
+    ["graph/id", "e6849b6d-a3ac-5a9f-a2be-23cdbd0b851b"],
+    ["graph/id", "06229433-a0ad-5d7a-8854-762e9754755d"],
+    ["graph/id", "eceeab43-e7ce-54a0-a73f-9261c78e2a8a"],
+    ["graph/id", "5e7ed8ee-05fa-5c2f-b26c-5cd949519424"]
+  ],
+  "grids": [],
+  "name": "River rating curve: the Missouri at Hermann",
+  "ontology": {
+    "$file": ".seebra/dashboard/7d7cf357-827a-5559-ad21-54c73a707610.ontology.json",
+    "$json": true
+  },
+  "queries": [
+    ["query/id", "6013b66c-3dce-5677-8732-917aabb77e18"],
+    ["query/id", "04301be6-a653-51dd-a129-33f955e3b075"]
+  ],
+  "studies": [
+    ["study/id", "c326faa9-5bf1-5bc8-8dbf-7291c7e91d46"]
+  ],
+  "tables": [],
+  "texts": [],
+  "timers": [],
+  "transformations": [
+    ["transformation/id", "30a4cdd4-83ba-52c4-96cf-2a565151e795"],
+    ["transformation/id", "8ec97f2d-047f-5f3a-a500-dffc0411c5b1"],
+    ["transformation/id", "c9a99da0-ee99-5cdd-91ad-7b2aba7c646d"],
+    ["transformation/id", "85f6e1df-3d20-51bd-9d94-a5063953bfdf"],
+    ["transformation/id", "d70a2e17-a6c8-5498-8421-1397230e8e05"],
+    ["transformation/id", "e8a18c86-7df9-5370-9f9b-ce43bf4fec75"],
+    ["transformation/id", "4d41483c-552d-5d02-86ff-3ab75c04c0df"],
+    ["transformation/id", "28abc620-f14f-572f-ab47-78db509e251e"],
+    ["transformation/id", "f1e2518f-4c15-5efb-80aa-0d8eafa63c2e"],
+    ["transformation/id", "e73b4ef2-1871-5f48-ac7a-f372dc8837a8"]
+  ]
+}

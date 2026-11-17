@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/panel-log-growth-one-column-per-country.polars.py"
+  },
+  "transformation/data-child": ["data/id", "67e8a804-646d-5672-bc2e-48285b0ff62f"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "4c4b19bb-1b41-5f37-9a1a-00dc1d9062b7",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Panel: log growth, one column per country",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1920,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "e5f9abd8-358b-58d3-ba0d-31092afc8d58"],
+  "transformation/units": "{}"
+}

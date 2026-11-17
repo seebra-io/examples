@@ -1,0 +1,23 @@
+{
+  "transformation/content": {
+    "$file": "transforms/countries-co2-and-gdp-per-person.polars.py"
+  },
+  "transformation/data-child": ["data/id", "bf55dbfe-5cf9-5c8a-ad60-d70f626feec2"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "cc2ab9d9-8fe7-5a07-9566-72fee86ac720",
+  "transformation/inputs": [
+    ["data/id", "dfd251f7-6390-5fea-a2ae-46acaae0ba9d"],
+    ["data/id", "0fece79b-3665-53dc-89a0-b096d415476f"],
+    ["data/id", "763c6fc4-c856-5175-a1e7-b4218ff89dbb"]
+  ],
+  "transformation/language": "polars",
+  "transformation/name": "Countries: CO₂ and GDP per person",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "a8e33c08-5bd5-5fd3-bc5f-da82d633de0f"],
+  "transformation/units": "{}"
+}

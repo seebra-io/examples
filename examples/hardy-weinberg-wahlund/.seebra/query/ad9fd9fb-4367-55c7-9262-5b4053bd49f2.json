@@ -1,0 +1,21 @@
+{
+  "query/data-child": ["data/id", "931b5f3c-c176-5e9c-87d2-7b3194472395"],
+  "query/datasource": ["datasource/id", "cda0839e-f197-53d9-a321-8a94e1d7e148"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "ad9fd9fb-4367-55c7-9262-5b4053bd49f2",
+  "query/key": "",
+  "query/method": "POST",
+  "query/name": "Populations: names, sampling sites, super-populations",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 1280
+  },
+  "query/params": "{}",
+  "query/path": "/population/_search",
+  "query/request-body": {
+    "$file": "queries/populations-names-sampling-sites-super.json"
+  },
+  "query/units": "{}"
+}

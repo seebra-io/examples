@@ -1,0 +1,46 @@
+{
+  "dashboard/id": "ff988f9c-3896-587a-aa02-ecc6ffdf7aac",
+  "datas": [
+    ["data/id", "922359be-9c67-5ad5-b312-dd3502b959d2"],
+    ["data/id", "52afdf2e-c6a7-57a8-bd12-9cd516736541"],
+    ["data/id", "71cd377b-8ef7-5bbe-9554-5071068ad8e1"],
+    ["data/id", "970fc956-1544-5e40-8bc7-69db1291543a"],
+    ["data/id", "ce51928e-0661-5ba3-9ef3-945f3b69402a"],
+    ["data/id", "ff3e16ab-1ff7-5912-a980-bd0a37f37763"],
+    ["data/id", "7998eba8-c68c-5a30-ab9a-bbb8879c0b5b"],
+    ["data/id", "4394c235-d66c-564e-90cb-dd78d809252b"],
+    ["data/id", "bd946aeb-f8cc-57dc-9681-fb96da633761"],
+    ["data/id", "828707ab-1cb4-5a2c-b0d8-2ec5fdbce20b"]
+  ],
+  "datasources": [
+    ["datasource/id", "8d5b4c1a-cc25-5628-b1c0-4fdaa1c240c0"]
+  ],
+  "description": "Every non-bird dinosaur genus in the Paleobiology Database: when each lived (first to last find), how many genera lived in each age of the Mesozoic and how fast they appeared and vanished, and where their fossils are dug up today against where those places were when the animals lived. Mind the third panel: the diversity curve rises and falls with how many fossils each age has. Next: The big five extinctions.",
+  "graphs": [
+    ["graph/id", "7a6c57c5-8877-5f00-933d-b0e28a751d6e"],
+    ["graph/id", "d6691c85-b4b6-5e0a-a4a8-4b768427394a"],
+    ["graph/id", "e923e774-8f84-5baa-920c-faf2033eaf37"]
+  ],
+  "grids": [],
+  "name": "Dinosaurs through time",
+  "queries": [
+    ["query/id", "2a16ab62-4709-5de1-a507-c4eab5a294fd"],
+    ["query/id", "075a7c7c-33c1-5a80-b486-f34afc8be206"],
+    ["query/id", "bc15d49c-3450-5fa7-b183-bebed0071adf"],
+    ["query/id", "11712ebc-390a-54e6-8af2-590b036c50fe"],
+    ["query/id", "2b0cecdd-2e1a-5faf-9361-0106878bc9d4"]
+  ],
+  "studies": [
+    ["study/id", "08a47155-c134-5e51-b08d-fb420b3364d4"]
+  ],
+  "tables": [],
+  "texts": [],
+  "timers": [],
+  "transformations": [
+    ["transformation/id", "25b930b9-0cc7-51f4-bb77-6ebc453fd1e8"],
+    ["transformation/id", "d3479721-2706-5d31-a3cc-b1c8c3ab207e"],
+    ["transformation/id", "7944eceb-a304-5348-a7f6-f6da86555202"],
+    ["transformation/id", "c3bd8810-e692-58c8-a981-0c77f6fd33a7"],
+    ["transformation/id", "b9a3d38e-fc43-54fb-a610-3ef6cbb6ed1d"]
+  ]
+}

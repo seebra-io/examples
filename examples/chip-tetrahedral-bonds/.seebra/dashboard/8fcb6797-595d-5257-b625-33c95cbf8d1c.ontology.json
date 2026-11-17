@@ -1,0 +1,147 @@
+{
+  "title": "Why semiconductors are tetrahedral",
+  "summary": "Octet AB compounds by bond ionicity and atom size, and the crystal structure (coordination) their ground state takes.",
+  "concepts": [
+    {
+      "cid": "c1",
+      "label": "Octet compound",
+      "kind": "entity",
+      "description": "An AB compound whose two atoms bring eight valence electrons (I-VII, II-VI, III-V, IV-IV).",
+      "fields": [
+        "formula",
+        "family"
+      ],
+      "in_data": true,
+      "children": [
+        {
+          "cid": "c2",
+          "label": "Electronegativity difference",
+          "kind": "measure",
+          "as": "property",
+          "description": "Pauling Δχ from PubChem: a proxy for bond ionicity.",
+          "fields": [
+            "delta_chi"
+          ],
+          "in_data": true,
+          "wikidata": "Q41551"
+        },
+        {
+          "cid": "c3",
+          "label": "Mean principal quantum number",
+          "kind": "measure",
+          "as": "property",
+          "description": "Average period of A and B: atom size and polarisability.",
+          "fields": [
+            "n_bar"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c4",
+          "label": "Ionicity",
+          "kind": "measure",
+          "as": "property",
+          "description": "Phillips' spectroscopic ionicity f_i from the dielectric constant; f_i < 0.785 means tetrahedral (Phillips 1970).",
+          "in_data": false,
+          "facts": [
+            {
+              "text": "J. C. Phillips, Ionicity of the chemical bond in crystals, Rev. Mod. Phys. 42, 317 (1970).",
+              "source": "https://doi.org/10.1103/RevModPhys.42.317"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cid": "c5",
+      "label": "Crystal structure",
+      "kind": "category",
+      "description": "The ground-state arrangement (Alexandria, PBE).",
+      "fields": [
+        "structure",
+        "sg"
+      ],
+      "in_data": true,
+      "children": [
+        {
+          "cid": "c6",
+          "label": "Coordination number",
+          "kind": "category",
+          "as": "property",
+          "description": "Nearest neighbours: 4 tetrahedral, 6 octahedral, 8 cubic.",
+          "fields": [
+            "coordination"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c7",
+          "label": "Zincblende",
+          "kind": "category",
+          "as": "subtype",
+          "description": "Cubic tetrahedral, space group 216 (GaAs, ZnS).",
+          "fields": [
+            "structure"
+          ],
+          "in_data": true,
+          "wikidata": "Q1546839"
+        },
+        {
+          "cid": "c8",
+          "label": "Wurtzite",
+          "kind": "category",
+          "as": "subtype",
+          "description": "Hexagonal tetrahedral, space group 186 (GaN, ZnO).",
+          "fields": [
+            "structure"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c9",
+          "label": "Rock salt",
+          "kind": "category",
+          "as": "subtype",
+          "description": "Octahedral, space group 225 (NaCl, MgO).",
+          "fields": [
+            "structure"
+          ],
+          "in_data": true
+        }
+      ]
+    },
+    {
+      "cid": "c10",
+      "label": "Structure map",
+      "kind": "category",
+      "description": "A plot of compounds on two atomic coordinates that separates structure types (Mooser–Pearson 1959; Phillips–Van Vechten).",
+      "fields": [
+        "score",
+        "lda_says",
+        "stump_says"
+      ],
+      "in_data": true,
+      "children": [
+        {
+          "cid": "c11",
+          "label": "Linear discriminant",
+          "kind": "category",
+          "as": "part",
+          "description": "Fisher's line between two classes in the plane.",
+          "fields": [
+            "slope",
+            "intercept"
+          ],
+          "in_data": true
+        }
+      ]
+    },
+    {
+      "cid": "c12",
+      "label": "sp³ hybridisation",
+      "kind": "category",
+      "description": "Four directed covalent bonds: the reason tetrahedral semiconductors exist; lost as the bond turns ionic.",
+      "in_data": false
+    }
+  ]
+}

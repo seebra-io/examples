@@ -1,0 +1,16 @@
+{
+  "graph/content": {
+    "$file": "graphs/the-genetic-code-from-the-data-coloured-by-codon.js"
+  },
+  "graph/id": "7299b49f-a0f2-5788-8226-6c6cb81c5743",
+  "graph/inputs": [
+    ["data/id", "fc593c1e-43ff-587d-8c66-905062d2c4cd"]
+  ],
+  "graph/language": "javascript",
+  "graph/name": "The genetic code from the data, coloured by codon preference",
+  "graph/node": {
+    "node/x": 2840,
+    "node/y": 320
+  },
+  "graph/parent": ["data/id", "796ad969-aa5d-5129-a293-c427aa1d6ba2"]
+}

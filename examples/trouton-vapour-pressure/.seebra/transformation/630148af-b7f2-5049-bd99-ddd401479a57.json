@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/one-liquid-each-implied-s-vap-and-trouton-s.polars.py"
+  },
+  "transformation/data-child": ["data/id", "734ae4fb-e4cc-5e88-84d8-040ea4d0aaa8"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "630148af-b7f2-5049-bd99-ddd401479a57",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "One liquid each: implied ΔS_vap and Trouton's prediction",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "18d8e3f0-495b-5989-93f8-40a6bfe44d9d"],
+  "transformation/units": "{}"
+}

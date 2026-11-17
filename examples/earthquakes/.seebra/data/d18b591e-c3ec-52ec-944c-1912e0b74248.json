@@ -1,0 +1,11 @@
+{
+  "data/id": "d18b591e-c3ec-52ec-944c-1912e0b74248",
+  "data/name": "M5+ quakes, strongest first",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "6fde4310-282e-5d5b-a12f-e91777df5804"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

@@ -1,0 +1,165 @@
+{
+  "title": "Quarter-hour frequency steps",
+  "question": "Is the grid frequency further from 50 Hz in the first two minutes after each quarter-hour than in the rest of the quarter-hour, compared per quarter-hour of the day?",
+  "review": {
+    "well_formed": true,
+    "issues": [
+      {
+        "kind": "grain",
+        "text": "Seconds are strongly autocorrelated, so a test over 86,000 seconds would overstate the evidence.",
+        "fix": "The plan averages each quarter-hour's two windows and tests the 96 paired differences."
+      },
+      {
+        "kind": "causal",
+        "text": "The data shows when deviations happen, not that market schedules cause them.",
+        "fix": "The caveats name the mechanism and what would test it: generation schedules and load (Energy-Charts public_power) at the same 15-minute steps."
+      }
+    ],
+    "alternatives": [
+      {
+        "question": "Is the step larger at the full hour than at :15, :30 and :45?",
+        "why": "Drill down: hourly products are still traded alongside quarter-hours.",
+        "ready": true
+      },
+      {
+        "question": "Does the size of the step follow the change in scheduled generation between quarter-hours?",
+        "why": "Expand: brings in the schedules that are said to cause it.",
+        "ready": false
+      }
+    ]
+  },
+  "hypotheses": [
+    {
+      "id": "H1",
+      "statement": "The mean |Δf| in the first two minutes of a quarter-hour is larger than in the rest of it.",
+      "null": "|Δf| is the same in the first two minutes as in the rest of the quarter-hour.",
+      "outcome": {
+        "concept": "Frequency deviation",
+        "field": "mean_abs_df_mhz"
+      },
+      "predictor": {
+        "concept": "Quarter-hour window",
+        "field": "window"
+      },
+      "subgroup": null,
+      "direction": "increase",
+      "test": {
+        "method": "means",
+        "link": null,
+        "outcome_mode": "mean",
+        "outcome_field": "mean_abs_df_mhz",
+        "predictor_field": "window",
+        "exposure_field": null,
+        "versus": "rest"
+      }
+    },
+    {
+      "id": "H2",
+      "statement": "The frequency changes faster (larger |df/dt|) in the first two minutes of a quarter-hour.",
+      "null": "|df/dt| is the same in both windows.",
+      "outcome": {
+        "concept": "Rate of change of frequency",
+        "field": "mean_abs_rocof_mhz_s"
+      },
+      "predictor": {
+        "concept": "Quarter-hour window",
+        "field": "window"
+      },
+      "subgroup": null,
+      "direction": "increase",
+      "test": {
+        "method": "means",
+        "link": null,
+        "outcome_mode": "mean",
+        "outcome_field": "mean_abs_rocof_mhz_s",
+        "predictor_field": "window",
+        "exposure_field": null,
+        "versus": "rest"
+      }
+    }
+  ],
+  "concepts": [
+    {
+      "label": "Frequency deviation",
+      "kind": "measure",
+      "description": "Grid frequency minus 50 Hz, in mHz, per second.",
+      "why": "The outcome: the grid's power balance.",
+      "have": true,
+      "categories": [],
+      "field": "df_mhz",
+      "strategy": null
+    },
+    {
+      "label": "Quarter-hour window",
+      "kind": "category",
+      "description": "First 2 minutes of a quarter-hour or the rest of it.",
+      "why": "The predictor: where schedule steps fall.",
+      "have": true,
+      "categories": [
+        "first 2 min",
+        "rest"
+      ],
+      "field": "window",
+      "strategy": null
+    },
+    {
+      "label": "Generation schedule",
+      "kind": "measure",
+      "description": "Scheduled generation per 15-minute block.",
+      "why": "The proposed cause of the steps.",
+      "have": false,
+      "categories": [],
+      "field": null,
+      "strategy": {
+        "how": "fetch",
+        "detail": "Energy-Charts /public_power?country=de (15-minute generation and load), matched on the quarter-hour."
+      }
+    }
+  ],
+  "data": [
+    {
+      "concept": "Generation schedule",
+      "request": "Germany's 15-minute net generation and load for the same day",
+      "source": "Energy-Charts API /public_power (Fraunhofer ISE, ENTSO-E data)",
+      "why": "To see whether the frequency step follows the change in generation at each boundary."
+    }
+  ],
+  "links": [],
+  "method": {
+    "id": "means",
+    "summary": "For each of the day's 96 quarter-hours, mean |Δf| in its first two minutes minus the rest; a one-sided t-test on the mean difference (the quarters step computes it)."
+  },
+  "steps": [
+    {
+      "kind": "data",
+      "title": "Fetch one day of 1-second frequency",
+      "detail": "Energy-Charts /frequency, region DE-Freiburg."
+    },
+    {
+      "kind": "categorise",
+      "title": "Label each second",
+      "detail": "window = first 2 min if t mod 900 < 120, else rest."
+    },
+    {
+      "kind": "method",
+      "title": "Average per quarter-hour and window, then pair",
+      "detail": "quarters and paired steps: mean_abs_df_mhz per quarter and window, one row per quarter."
+    },
+    {
+      "kind": "method",
+      "title": "Paired t-test",
+      "detail": "test step: t_abs_df, p_abs_df_one_sided, ci95_lo…ci95_hi; and the same for |df/dt|."
+    },
+    {
+      "kind": "decide",
+      "title": "Accept or reject H1 and H2",
+      "detail": "Then repeat on other days (change start and end) before generalising."
+    }
+  ],
+  "caveats": [
+    "One day at one measuring point; the pattern changes with season, weekday and the hour of day.",
+    "Quarter-hours next to each other are not fully independent (slow drifts last longer than 15 minutes).",
+    "A first-2-minute window is a choice; the fold chart shows where the step really is.",
+    "Association, not cause: the market-schedule mechanism is the operators' explanation, not tested here."
+  ]
+}

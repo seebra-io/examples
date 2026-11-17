@@ -1,0 +1,10 @@
+{
+  "data/id": "23913e3d-bc88-520c-aa02-99af9e9daaad",
+  "data/name": "Pods per namespace and phase data",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "142d91ed-77c5-50b0-a0e9-959fa0bb1cf4"],
+  "data/type": "json"
+}

@@ -1,0 +1,10 @@
+{
+  "data/id": "81f6264b-ec5d-52a8-823d-eb992c6e6420",
+  "data/name": "Dies per 300 mm wafer and yield under three defect models data",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "a2c7877a-8a9c-5d13-87cd-3ee1aedc0c26"],
+  "data/type": "json"
+}

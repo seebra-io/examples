@@ -1,0 +1,10 @@
+{
+  "data/id": "c55a3497-2c29-58e9-a6a5-3576867819cc",
+  "data/name": "Hourly output (MW) data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "6441bf77-9bd8-5de3-ae8e-678a30523eff"],
+  "data/type": "json"
+}

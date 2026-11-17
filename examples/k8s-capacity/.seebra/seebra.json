@@ -1,0 +1,8 @@
+{
+  "file": {
+    "file/example": "k8s-capacity"
+  },
+  "format": 2,
+  "root": ["dashboard/id", "2ef5318e-c967-53e1-863d-20b71198bcfb"],
+  "seebra": "board"
+}

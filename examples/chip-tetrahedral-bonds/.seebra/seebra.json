@@ -1,0 +1,8 @@
+{
+  "file": {
+    "file/example": "chip-tetrahedral-bonds"
+  },
+  "format": 2,
+  "root": ["dashboard/id", "8fcb6797-595d-5257-b625-33c95cbf8d1c"],
+  "seebra": "board"
+}

@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/premature-ventricular-beats-coupling-interval.polars.py"
+  },
+  "transformation/data-child": ["data/id", "2c707d1c-26c6-5bb1-8154-9b20932a069b"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "535232dd-1fa1-57bf-962f-83b2c3f0120a",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Premature ventricular beats: coupling interval and compensatory pause",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1920,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "467a44c2-a8f6-5fe4-837e-545a685c1953"],
+  "transformation/units": "{}"
+}

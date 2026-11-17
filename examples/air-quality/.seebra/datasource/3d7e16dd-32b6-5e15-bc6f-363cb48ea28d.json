@@ -1,0 +1,16 @@
+{
+  "datasource/api-key-key": "api_key",
+  "datasource/auth-type": "none",
+  "datasource/headers": "{}",
+  "datasource/id": "3d7e16dd-32b6-5e15-bc6f-363cb48ea28d",
+  "datasource/name": "Open-Meteo air quality",
+  "datasource/node": {
+    "inputs": 1,
+    "node/x": 80,
+    "node/y": 80,
+    "outputs": 1
+  },
+  "datasource/params": "{}",
+  "datasource/type": "openapi",
+  "datasource/url": "https://air-quality-api.open-meteo.com/v1"
+}

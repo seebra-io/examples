@@ -1,0 +1,10 @@
+{
+  "data/id": "436b433b-99e0-54fd-b51b-4ebe28abb62f",
+  "data/name": "Sites: coordinates and descriptions data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 320
+  },
+  "data/parent": ["query/id", "e2e12f92-ad2d-5a6c-b5e2-6bf947adebb3"],
+  "data/type": "json"
+}

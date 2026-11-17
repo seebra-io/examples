@@ -1,0 +1,10 @@
+{
+  "data/id": "eb6e2240-01af-5ed6-b829-c118cd2311ed",
+  "data/name": "Outcome curves (by deadline, consistency) data",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "50d2c490-327e-5afc-a635-d2975fd92562"],
+  "data/type": "json"
+}

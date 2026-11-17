@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/how-far-from-50-hz-second-by-second.js"
+  },
+  "graph/id": "6682b803-7953-59dd-bc06-18d120b3a103",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "How far from 50 Hz, second by second",
+  "graph/node": {
+    "node/x": 1920,
+    "node/y": 800
+  },
+  "graph/parent": ["data/id", "8d2d055a-4c19-59b3-8691-a18134a13477"]
+}

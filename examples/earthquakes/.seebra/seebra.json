@@ -1,0 +1,8 @@
+{
+  "file": {
+    "file/example": "earthquakes"
+  },
+  "format": 2,
+  "root": ["dashboard/id", "57655fc5-b561-540b-b57f-89baf823d91b"],
+  "seebra": "board"
+}

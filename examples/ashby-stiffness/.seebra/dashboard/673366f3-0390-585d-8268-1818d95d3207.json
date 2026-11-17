@@ -1,0 +1,50 @@
+{
+  "dashboard/id": "673366f3-0390-585d-8268-1818d95d3207",
+  "datas": [
+    ["data/id", "b44adc86-add3-55e7-a26a-b419ce13a6ab"],
+    ["data/id", "72a75de8-62c1-5ac6-9673-813941cb5720"],
+    ["data/id", "b433a528-0136-5211-a834-0f6223132d28"],
+    ["data/id", "de2d6ded-0b32-5f5d-922a-d8080dc18e9f"],
+    ["data/id", "eae605a2-9655-55be-a15b-27f3545b3c6f"],
+    ["data/id", "eae683d0-325a-5230-9321-69a674b640df"],
+    ["data/id", "c7a86f4c-55b2-5965-868e-ffb675466477"],
+    ["data/id", "8c091b2a-2e87-5504-9ac1-e15e14ff549a"],
+    ["data/id", "53d3f18b-55ad-58b1-a9c8-05aa41a4923b"],
+    ["data/id", "48f52844-24f8-5f63-afe8-96cfb7e1589f"],
+    ["data/id", "d6d22402-0d58-5177-85b9-5c5a99eae330"]
+  ],
+  "datasources": [
+    ["datasource/id", "c281a928-388c-51c0-b016-37aa315f21d9"]
+  ],
+  "description": "Question: steel, aluminium and titanium are about equally stiff for their weight, so why are airframes aluminium and carbon-fibre composite, and why were early aircraft and gliders made of spruce? Idea: the Ashby chart and material performance indices. On log axes of Young's modulus E against density ρ, a design's best material lies along lines of constant index: E/ρ for a tie or strut in tension (mass ∝ ρ/E), E^½/ρ for a beam in bending (mass ∝ ρ/E^½), E^⅓/ρ for a plate or panel in bending (mass ∝ ρ/E^⅓). Data: Wikidata's SI-normalized values (psn:), so a value typed in MPa or g/cm³ lands in Pa and kg/m³: 35 engineering materials with a recorded tensile modulus (P5480) and density (P2054), and 405 elements and minerals with bulk (P5668) and shear (P5673) moduli, whose Young's modulus follows from isotropic elasticity, E = 9KG/(3K+G), with Poisson's ratio ν = (3K−2G)/(2(3K+G)). A sanity check sets aside 2 rows (A36 steel at 0.2 GPa, MPa typed for GPa; PET at 1.38 kg/m³, g/cm³ typed for kg/m³). What it shows: for a tie, steel (26.8 MJ/kg), aluminium 6061-T6 (25.6) and titanium (24.8) are the same, so a tie of aluminium weighs 1.05× the steel one. For a beam it weighs 0.60× and for a panel 0.50×: the cube root forgives aluminium's low stiffness while its low density counts in full. Further up the panel ranking: magnesium 0.35×, carbon-fibre polyamide 0.34×, beryllium 0.21×, and white spruce 0.15×, the best of all 438 materials as a panel. Caveats: a small crowd-curated sample; the K and G values carry no reference and look computed (DFT-like: identical numbers for all silica polymorphs, G > K for silica, magnesium's E 60 GPa against a handbook 45), and where both exist they differ from the recorded E by 5–37% (titanium, molybdenum, rhodium); pure elements are not alloys; polycrystal averages hide anisotropy, and wood and fibre composites are stiff only along the grain; stiffness only (strength, toughness, fatigue, cost and joining ignored). Next: strength indices σ^(2/3)/ρ for panels that must not yield, AFLOW's DFT elastic constants for thousands of crystals, why lithium (top 3 here) goes into Al-Li airframe alloys.",
+  "graphs": [
+    ["graph/id", "3026ff2e-3cff-539b-a670-0016b4110f85"],
+    ["graph/id", "c373c5c3-3aaf-5366-8eff-763485f2bf77"],
+    ["graph/id", "e3e8a39a-b3c3-5ef0-a175-f3c157aa02e6"]
+  ],
+  "grids": [],
+  "name": "Ashby chart: why aircraft are aluminium, CFRP and spruce",
+  "ontology": {
+    "$file": ".seebra/dashboard/673366f3-0390-585d-8268-1818d95d3207.ontology.json",
+    "$json": true
+  },
+  "queries": [
+    ["query/id", "aa7bcbb3-c8d5-5e8e-861f-b5a025c525db"],
+    ["query/id", "04f4017d-8981-5ba3-acfb-9f2da225b127"]
+  ],
+  "studies": [],
+  "tables": [],
+  "texts": [],
+  "timers": [],
+  "transformations": [
+    ["transformation/id", "0005de9e-e4ac-566f-890a-0b6a00cc2347"],
+    ["transformation/id", "de7f3104-b5b8-5b34-bfc7-8d941ef3eab1"],
+    ["transformation/id", "c32454c6-d8bf-5354-8592-6ace02b77b7e"],
+    ["transformation/id", "bfd9e220-1556-54dc-80c1-a5673f64f81b"],
+    ["transformation/id", "a4e8f480-8a8b-5c59-9e76-edf1cd8d10a1"],
+    ["transformation/id", "ed969871-d296-5687-b919-9d91c255fdd7"],
+    ["transformation/id", "7225a41f-f37a-5a5d-8ce0-ad1a005c1ef5"],
+    ["transformation/id", "4db69168-066f-5aff-b737-16e4a863cb45"],
+    ["transformation/id", "3aaf8ca6-8d9b-5fc5-8356-78cea6663e3f"]
+  ]
+}

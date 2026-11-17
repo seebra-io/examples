@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "970fc956-1544-5e40-8bc7-69db1291543a"],
+  "query/datasource": ["datasource/id", "8d5b4c1a-cc25-5628-b1c0-4fdaa1c240c0"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "11712ebc-390a-54e6-8af2-590b036c50fe",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Dinosaur genera per stage (PBDB diversity)",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 800
+  },
+  "query/params": "{\"base_name\":\"Dinosauria^Aves\",\"count\":\"genera\",\"time_reso\":\"stage\",\"interval\":\"Triassic,Cretaceous\",\"vocab\":\"pbdb\"}",
+  "query/path": "/occs/diversity.json",
+  "query/request-body": "",
+  "query/units": "{}"
+}

@@ -1,0 +1,8 @@
+{
+  "file": {
+    "file/example": "load-spectrum-sidebands"
+  },
+  "format": 2,
+  "root": ["dashboard/id", "86fdca6c-ea0e-5235-b275-c3ccd5f8fe2d"],
+  "seebra": "board"
+}

@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "620755f4-fb94-5665-84a3-399d81cc1bc9"],
+  "query/datasource": ["datasource/id", "2fb3bd4a-e319-5379-a0ee-f65e75eba0b2"],
+  "query/dynamic?": true,
+  "query/format": "text",
+  "query/headers": "{}",
+  "query/id": "c1f12b41-cd9d-5fd4-bb96-c8dd9e17fc96",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "UN News: Middle East",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 2240
+  },
+  "query/params": "{}",
+  "query/path": "/middle-east/feed/rss.xml",
+  "query/request-body": "",
+  "query/units": "{}"
+}

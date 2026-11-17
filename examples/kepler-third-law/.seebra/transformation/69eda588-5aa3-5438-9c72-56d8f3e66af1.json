@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/orbits-in-solar-units-and-the-star-s-mass-from.polars.py"
+  },
+  "transformation/data-child": ["data/id", "da03da8d-2739-5ed3-9c84-3508becb4858"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "69eda588-5aa3-5438-9c72-56d8f3e66af1",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Orbits in solar units, and the star's mass from each orbit",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "ad230538-dfb3-54ce-a39b-1db1b4435ee2"],
+  "transformation/units": "{}"
+}

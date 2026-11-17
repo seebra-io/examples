@@ -1,0 +1,22 @@
+{
+  "transformation/content": {
+    "$file": "transforms/contact-fingerprint.polars.py"
+  },
+  "transformation/data-child": ["data/id", "87fe7e6f-81c4-51e9-8149-b2e25930233e"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "40052cbb-a32e-505f-84fb-640190be562b",
+  "transformation/inputs": [
+    ["data/id", "8a990b26-88b9-5976-af67-6e3c5cfefab6"],
+    ["data/id", "ed709401-6c0b-50c8-9c69-cdf80dde55d1"]
+  ],
+  "transformation/language": "polars",
+  "transformation/name": "Contact fingerprint",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 2840,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "a8353bbf-7007-5c93-89e4-cd3a5f7193a0"],
+  "transformation/units": "{}"
+}

@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "b599221c-126a-509b-ba21-31444c4fcd9e"],
+  "query/datasource": ["datasource/id", "3d457c84-7ec8-57f7-875c-00eccee0ff0e"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "ea98e357-c8f9-5ff3-8a21-7923c13c731a",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Life tables 2003: death rate by age and sex (demo_mlifetable)",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 80
+  },
+  "query/params": "{\"format\":\"SDMX-CSV\",\"startPeriod\":\"2003\",\"endPeriod\":\"2003\"}",
+  "query/path": "/data/demo_mlifetable/A.DEATHRATE.F+M..SE+DK+FR+ES+IT+PL+LT+BG",
+  "query/request-body": "",
+  "query/units": "{}"
+}

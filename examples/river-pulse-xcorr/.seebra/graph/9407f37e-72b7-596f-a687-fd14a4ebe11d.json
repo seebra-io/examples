@@ -1,0 +1,16 @@
+{
+  "graph/content": {
+    "$file": "graphs/cross-correlation-against-lag.js"
+  },
+  "graph/id": "9407f37e-72b7-596f-a687-fd14a4ebe11d",
+  "graph/inputs": [
+    ["data/id", "b2b366a1-56c4-559e-969f-2865ddbc2747"]
+  ],
+  "graph/language": "javascript",
+  "graph/name": "Cross-correlation against lag",
+  "graph/node": {
+    "node/x": 1920,
+    "node/y": 320
+  },
+  "graph/parent": ["data/id", "44222fa0-4df7-5391-a410-eac65a49460a"]
+}

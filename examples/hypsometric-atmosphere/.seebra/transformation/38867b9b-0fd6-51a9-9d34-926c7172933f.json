@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/layers-model-thickness-against-the-hypsometric.polars.py"
+  },
+  "transformation/data-child": ["data/id", "4f13634b-86d6-5051-ba6e-7f6c2fee5c01"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "38867b9b-0fd6-51a9-9d34-926c7172933f",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Layers: model thickness against the hypsometric equation; lapse rate, scale height, speed of sound",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1920,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "710853d0-02bb-59b3-9b95-cb36a05b3c9b"],
+  "transformation/units": "{}"
+}

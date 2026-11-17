@@ -1,0 +1,35 @@
+{
+  "dashboard/id": "0591d18d-d848-57e0-9972-c47bfa54fa12",
+  "datas": [
+    ["data/id", "f1dc322d-34a3-553e-951d-ec4658fa62ae"],
+    ["data/id", "745c29c7-0e20-54dc-ab52-1db958bdc0ed"],
+    ["data/id", "8d631dcf-8f6a-59bf-872d-1eb0d1fcf14d"],
+    ["data/id", "cbe0062d-68a2-5207-b1af-358b159bcb4b"],
+    ["data/id", "370d3c61-e3a1-5da8-b84e-98ef1cb69d79"],
+    ["data/id", "4ff3acbb-8d1b-5919-9664-dcc8abc718a4"]
+  ],
+  "datasources": [
+    ["datasource/id", "f9522c9e-2dae-5aea-8a67-78b91d66c7b8"]
+  ],
+  "description": "Daily precipitation over Copenhagen from 1940 to 2025 (Open-Meteo's ERA5 archive) and each year's wettest day. Statistics idea: extreme values. The maximum of many days follows an extreme-value distribution: a Gumbel fit (method of moments) to the 86 annual maxima gives return levels, the rain expected once in 10, 50 or 100 years on average, with Kite's 95% interval. Caveats: a reanalysis grid cell smooths cloudbursts (2 July 2011: over 100 mm at city stations, 20 mm in ERA5), a 100-year level extrapolates beyond the data, and the fit assumes a stable climate (the two halves of the record are fitted separately to compare).",
+  "graphs": [
+    ["graph/id", "1c9e7200-201b-5ec9-b4d3-8b2ba1a4176d"],
+    ["graph/id", "51f6faff-d9f3-5c2f-8e95-ca87f414fb1f"]
+  ],
+  "grids": [],
+  "name": "Copenhagen's wettest days",
+  "queries": [
+    ["query/id", "84f92ab7-cfd4-5961-8718-863b06f0c73a"]
+  ],
+  "studies": [],
+  "tables": [],
+  "texts": [],
+  "timers": [],
+  "transformations": [
+    ["transformation/id", "dca4fc29-c847-5768-9da8-d846159a3a51"],
+    ["transformation/id", "6a80600c-f4e2-5187-8c4c-29e3df9a3dc2"],
+    ["transformation/id", "80234a2c-adb1-5149-a0ca-9024f96c1476"],
+    ["transformation/id", "c9c634c5-c07d-5f0a-b550-e970fd9a4bef"],
+    ["transformation/id", "966161e5-6888-51d5-b3ed-41741cf43bb7"]
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "data/id": "0e017c59-0e1f-5f0d-8d70-b8494cc2e390",
+  "data/name": "Uppsala, every day since 1836 (CSV object) data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 80
+  },
+  "data/parent": ["query/id", "664c57cf-2e66-5363-a56b-482bf16783cb"],
+  "data/type": "json"
+}

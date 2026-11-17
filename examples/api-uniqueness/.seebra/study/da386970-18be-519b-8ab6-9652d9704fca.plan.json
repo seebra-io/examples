@@ -1,0 +1,210 @@
+{
+  "title": "Uniqueness of Explore's APIs",
+  "question": "Per API in the public Explore catalog: how distinct is its description from its nearest neighbours, how crowded is its field, and are energy and market APIs per-country copies?",
+  "review": {
+    "well_formed": true,
+    "issues": [
+      {
+        "kind": "unmeasured",
+        "text": "Uniqueness of the data is measured through the descriptions: a proxy.",
+        "fix": "Read the nearest neighbours next to every score, and check twins by their sample answers."
+      },
+      {
+        "kind": "concept",
+        "text": "'Per-country copy' is not a field of the catalog.",
+        "fix": "Measure it as place_effect: the change in distinct when place names are kept."
+      },
+      {
+        "kind": "scope",
+        "text": "The catalog changes: new APIs move every score.",
+        "fix": "Note the catalog's updated time; rerun the dashboard."
+      }
+    ],
+    "alternatives": [
+      {
+        "question": "Do APIs from one provider score lower than independent APIs in the same field?",
+        "why": "Tests vendor families, the strongest near-copies.",
+        "ready": false
+      },
+      {
+        "question": "Do the most unique APIs get used in more dashboards?",
+        "why": "Expands to usage; needs the dashboards' API lists.",
+        "ready": true
+      },
+      {
+        "question": "Is distinct lower for APIs with short descriptions?",
+        "why": "Checks a text-length bias (drivers table).",
+        "ready": true
+      }
+    ]
+  },
+  "hypotheses": [
+    {
+      "id": "H1",
+      "statement": "APIs in an energy or markets category have a lower distinct than the rest.",
+      "null": "Their mean distinct equals the rest's.",
+      "outcome": {
+        "concept": "Distinctness",
+        "field": "distinct"
+      },
+      "predictor": {
+        "concept": "Field",
+        "field": "categories"
+      },
+      "subgroup": {
+        "concept": "Field",
+        "category": "energy & markets"
+      },
+      "direction": "decrease",
+      "test": {
+        "method": "means",
+        "link": null,
+        "outcome_mode": "mean",
+        "outcome_field": "distinct",
+        "predictor_field": "categories",
+        "exposure_field": null,
+        "versus": "all other APIs"
+      }
+    },
+    {
+      "id": "H2",
+      "statement": "For energy and market APIs, removing place names lowers distinct more than for the rest (per-country copies).",
+      "null": "The mean place_effect is the same in both groups.",
+      "outcome": {
+        "concept": "Place names",
+        "field": "place_effect"
+      },
+      "predictor": {
+        "concept": "Field",
+        "field": "categories"
+      },
+      "subgroup": {
+        "concept": "Field",
+        "category": "energy & markets"
+      },
+      "direction": "increase",
+      "test": {
+        "method": "means",
+        "link": null,
+        "outcome_mode": "mean",
+        "outcome_field": "place_effect",
+        "predictor_field": "categories",
+        "exposure_field": null,
+        "versus": "all other APIs"
+      }
+    }
+  ],
+  "concepts": [
+    {
+      "label": "API",
+      "kind": "entity",
+      "description": "An Explore catalog item of kind api.",
+      "why": "The unit.",
+      "have": true,
+      "categories": [],
+      "field": "id",
+      "strategy": null
+    },
+    {
+      "label": "Distinctness",
+      "kind": "measure",
+      "description": "1 − mean cosine to the 5 nearest.",
+      "why": "The text half of the score.",
+      "have": false,
+      "categories": [],
+      "field": "distinct",
+      "strategy": {
+        "how": "derive",
+        "detail": "TF-IDF over title, tags, summary, description; cosine; mean of the 5 nearest."
+      }
+    },
+    {
+      "label": "Rarity",
+      "kind": "measure",
+      "description": "1 − n/(2(n + 20)).",
+      "why": "The crowding half.",
+      "have": false,
+      "categories": [],
+      "field": "rarity",
+      "strategy": {
+        "how": "derive",
+        "detail": "n = other APIs in the least crowded category."
+      }
+    },
+    {
+      "label": "Field",
+      "kind": "category",
+      "description": "Catalog category path.",
+      "why": "Groups for the test.",
+      "have": true,
+      "categories": [
+        "energy & markets",
+        "all other APIs"
+      ],
+      "field": "categories",
+      "strategy": {
+        "how": "categorise",
+        "detail": "'energy' or 'markets' anywhere in a category path."
+      }
+    },
+    {
+      "label": "Place names",
+      "kind": "measure",
+      "description": "distinct with places kept − removed.",
+      "why": "Detects per-country copies.",
+      "have": false,
+      "categories": [],
+      "field": "place_effect",
+      "strategy": {
+        "how": "derive",
+        "detail": "Run the similarity twice, with and without the place-name list."
+      }
+    }
+  ],
+  "data": [
+    {
+      "concept": "Data overlap",
+      "request": "Each API's example answer (its first example query), to compare what the APIs return rather than how they are described",
+      "source": "the APIs themselves, through Explore's example queries",
+      "why": "Descriptions are a proxy for the data."
+    }
+  ],
+  "links": [],
+  "method": {
+    "id": "means",
+    "summary": "Mean distinct and mean place_effect in energy & markets against the rest, with Welch's t."
+  },
+  "steps": [
+    {
+      "kind": "data",
+      "title": "The public catalog",
+      "detail": "cdn.seebra.io/explorer/catalog.json, kind api only."
+    },
+    {
+      "kind": "method",
+      "title": "TF-IDF and nearest neighbours",
+      "detail": "JavaScript: vectors, cosine, 10 nearest, places removed and kept."
+    },
+    {
+      "kind": "concept",
+      "title": "Score v1 and variants",
+      "detail": "Polars: distinct for k = 3, 5, 10 and places kept; rarity; score; percentile."
+    },
+    {
+      "kind": "categorise",
+      "title": "Energy & markets",
+      "detail": "Category path contains energy or markets."
+    },
+    {
+      "kind": "decide",
+      "title": "Welch t and sensitivity",
+      "detail": "t = −2.0 on distinct, 2.5 on place_effect: weak support for energy; robust ranking (ρ ≥ 0.97)."
+    }
+  ],
+  "caveats": [
+    "Measures descriptions, not the APIs' data.",
+    "The catalog changes; categories are the catalog's at fetch time.",
+    "Stop words and place names are a fixed English list.",
+    "Rarity uses the least crowded category, so adding a category can raise a score."
+  ]
+}

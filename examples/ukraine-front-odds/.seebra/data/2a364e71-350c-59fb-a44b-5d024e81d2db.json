@@ -1,0 +1,10 @@
+{
+  "data/id": "2a364e71-350c-59fb-a44b-5d024e81d2db",
+  "data/name": "Reported advances per week and side data",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "288b21ee-3768-5a9b-8ce3-02971e839b71"],
+  "data/type": "json"
+}

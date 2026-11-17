@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/first-published-against-editions-log-scale.js"
+  },
+  "graph/id": "f46e1e10-0e48-5f7f-bedb-0b739f6ff115",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "First published against editions (log scale)",
+  "graph/node": {
+    "node/x": 1460,
+    "node/y": 560
+  },
+  "graph/parent": ["data/id", "7107c97b-7b51-5bcb-a4c0-5400fc717c82"]
+}

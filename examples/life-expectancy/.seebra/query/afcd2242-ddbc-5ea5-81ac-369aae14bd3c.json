@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "2c5d882b-1f1b-5ffe-b07f-8c489565710d"],
+  "query/datasource": ["datasource/id", "3a28b207-a223-562e-923d-494c4d43f64e"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "afcd2242-ddbc-5ea5-81ac-369aae14bd3c",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Countries",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 320
+  },
+  "query/params": "{\"format\":\"json\",\"per_page\":\"400\"}",
+  "query/path": "/country",
+  "query/request-body": "",
+  "query/units": "{}"
+}

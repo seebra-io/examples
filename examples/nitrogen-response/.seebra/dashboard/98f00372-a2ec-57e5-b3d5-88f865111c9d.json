@@ -1,0 +1,62 @@
+{
+  "dashboard/id": "98f00372-a2ec-57e5-b3d5-88f865111c9d",
+  "datas": [
+    ["data/id", "8ecd34b3-db48-528e-8527-597418c8662f"],
+    ["data/id", "81c49bbd-ee8f-5a06-83e6-625dcef2e842"],
+    ["data/id", "1b6cc565-10a9-570c-aeac-361f88115c6c"],
+    ["data/id", "ee6c33c1-17da-5f84-9bfc-82e3e0229a60"],
+    ["data/id", "81938dd7-e081-5c04-8601-355a2bd72352"],
+    ["data/id", "35cde488-7dd1-5e32-b28e-0d8d8388ca80"],
+    ["data/id", "0991bfc8-4871-526a-a3e0-c40691791354"],
+    ["data/id", "a1ae715b-5ca8-5128-9495-e885c82a51a3"],
+    ["data/id", "a094913e-5735-5dc9-be9b-93c8bd0e52f6"],
+    ["data/id", "dfe14c8f-9d13-5a2f-a532-b473371e98f9"],
+    ["data/id", "2d76daf8-9cde-55e2-9032-200622c833b6"],
+    ["data/id", "286483a4-3024-5d58-8c0c-9f1b90c05b3a"],
+    ["data/id", "ad380aa8-fd61-5118-a758-6c7353ede9c7"],
+    ["data/id", "d44f3e2f-2386-5361-b407-04e37bb1a59c"],
+    ["data/id", "111936d0-dee6-5de2-b621-bdeb7677a955"],
+    ["data/id", "118ff35f-a222-556d-8f39-88496fb799aa"]
+  ],
+  "datasources": [
+    ["datasource/id", "7b2cdefc-274b-5b4b-9bb4-70bb3ad2ef26"]
+  ],
+  "description": "Question: why does the world not simply double its harvest by doubling fertiliser? Idea: the yield response curve and the law of diminishing returns. Mitscherlich (1909): each extra kilogram of a limiting nutrient closes a fixed fraction of the remaining gap to the attainable yield, Y = Y0 + A(1 − e^(−cN)), so its marginal product dY/dN = A·c·e^(−cN) falls exponentially. The World Bank (FAO data) gives fertiliser use (kg of N + P₂O₅ + K₂O per hectare of arable land) and cereal yield (kg/ha) for about 220 countries. Polars fits the curve by a grid search over c (a cross join with 150 trial values; for each, A and Y0 by closed-form least squares; a profile-likelihood interval for c), computes each country's marginal product and residual, and the grain each successive 50 kg/ha buys. Aha (data of November 2026, 136 countries in the fit): half of the whole response comes in the first 54 kg/ha (95% profile interval 37–87); the first 50 kg/ha buy about 2,040 kg of grain, 41 kg per kg, the next 200 kg/ha about 2,100 kg, 10.5 kg per kg, and one more kilogram returns 5 kg of grain at about 190 kg/ha and 1 kg at about 310 kg/ha. The curve beats the straight line (R² 0.57 against 0.42). Fifteen countries sit on the flat part (under 3 kg per extra kg): Egypt (598 kg/ha), Viet Nam, Colombia, Bangladesh, Brazil and China (about 390–420) among them; there most of the extra nitrogen leaves as nitrate in rivers and N₂O in the air. Countries' paths since 2000 show the other way out: China cut fertiliser from 481 kg/ha (2016) to 393 (2024) while its cereal yield rose from 6,017 to 6,495 kg/ha. The curve is not one farm's: the United States reaches 8,414 kg/ha on 128 kg/ha (92% above the curve) and India 3,632 on 214 (26% below), the climate, irrigation, seed and crop mix the cross-country curve averages over; and its exponential form forces the slope to zero, so read the flat part as 'little', not 'nothing'. Caveats: across countries the curve carries climate, irrigation, seed and crop mix (a test of irrigation on the residuals is in the study); fertiliser is all three nutrients and only per arable hectare, so 45 countries with under 200,000 ha of arable land or over 800 kg/ha (fertilised pasture and plantations: New Zealand, Ireland, Malaysia, the Gulf) are left out of the fit (shown as crosses); latest years differ; the agronomic N-response is measured per field and crop in rate trials. Next: FAOSTAT's nitrogen-only use and soil nutrient budget (the surplus on the flat part), prices for the economic optimum rate, climate for the curve's ceiling.",
+  "graphs": [
+    ["graph/id", "76ad1861-7010-567b-855e-3f09be8accce"],
+    ["graph/id", "9b8ef0a6-fcd9-5ad7-b1dc-344a0a476aa9"],
+    ["graph/id", "7b1330f5-ea68-5fa2-9bf8-ee80e6d8db84"]
+  ],
+  "grids": [],
+  "name": "Fertiliser and diminishing returns",
+  "ontology": {
+    "$file": ".seebra/dashboard/98f00372-a2ec-57e5-b3d5-88f865111c9d.ontology.json",
+    "$json": true
+  },
+  "queries": [
+    ["query/id", "7eb9ccc7-faab-5d1e-a64c-06d26eab8a5d"],
+    ["query/id", "b1bb385f-454c-563b-a35c-14f5af9c977a"],
+    ["query/id", "ba9019d0-f1e7-5da6-8295-c87f7b651213"],
+    ["query/id", "938b6445-3de4-54cb-b007-f947ac8dafbd"],
+    ["query/id", "46beb997-93f6-5806-9efb-83335779679d"],
+    ["query/id", "632abb41-9467-5581-88f4-03d9c0051a20"],
+    ["query/id", "e2433166-bd77-5055-bd72-b9a5703d964f"]
+  ],
+  "studies": [
+    ["study/id", "bf90f22a-c482-55c9-bb9e-452bd1240f58"]
+  ],
+  "tables": [],
+  "texts": [],
+  "timers": [],
+  "transformations": [
+    ["transformation/id", "7f98ad13-d729-5d57-93eb-1d668f8ad22b"],
+    ["transformation/id", "e12e734b-49f2-5c27-ae75-f4bd0208f6b7"],
+    ["transformation/id", "a1e42766-6fc2-51c8-b8f6-014acf3b6242"],
+    ["transformation/id", "20323de1-5ed4-5251-a786-4b87acf4f90f"],
+    ["transformation/id", "8981024d-b717-5fba-8604-1a625f2679e9"],
+    ["transformation/id", "0ed8a4a4-9c40-54cc-8947-d53fbf4330b1"],
+    ["transformation/id", "ee820ea7-fc0c-5faa-852c-1f8644db9a52"],
+    ["transformation/id", "c1bd1977-f0f4-524a-8998-c727b7f302aa"],
+    ["transformation/id", "abc5923c-97be-528b-a4ab-264869d36f10"]
+  ]
+}

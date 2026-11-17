@@ -1,0 +1,10 @@
+{
+  "data/id": "87fe7e6f-81c4-51e9-8149-b2e25930233e",
+  "data/name": "Contact fingerprint data",
+  "data/node": {
+    "node/x": 2990,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "40052cbb-a32e-505f-84fb-640190be562b"],
+  "data/type": "json"
+}

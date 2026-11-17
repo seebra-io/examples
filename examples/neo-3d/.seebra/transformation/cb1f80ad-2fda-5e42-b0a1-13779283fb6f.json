@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/how-good-is-each-estimate-against-jpl.polars.py"
+  },
+  "transformation/data-child": ["data/id", "69321c51-8d44-56f6-aed9-53e8bf48aa73"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "cb1f80ad-2fda-5e42-b0a1-13779283fb6f",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "How good is each estimate (against JPL)",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1920,
+    "node/y": 800
+  },
+  "transformation/parent": ["data/id", "4a36c705-0db0-5dd1-b218-aea9b25cc6d6"],
+  "transformation/units": "{}"
+}

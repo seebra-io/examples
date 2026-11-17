@@ -1,0 +1,76 @@
+{
+  "dashboard/id": "6cd2e808-f4fe-52dd-86f8-925962cf82c5",
+  "datas": [
+    ["data/id", "9ca10029-f19b-5ec3-9f67-ca7403a2f2a0"],
+    ["data/id", "2ce18cd3-c362-5631-a369-58d4703a046d"],
+    ["data/id", "e244c488-2592-5034-b110-4ab1962c232f"],
+    ["data/id", "1c16f81d-e237-5ee0-8ea2-a9af6e328d8c"],
+    ["data/id", "f419e1ab-bfd0-5d52-bee8-a9e2f511bad9"],
+    ["data/id", "f815dae1-fe64-58aa-8b29-d54cc7616ffa"],
+    ["data/id", "90476b7c-9479-53d3-9580-4e3219f16efd"],
+    ["data/id", "00cbc63b-b05a-544c-9a6c-1e6fa96724ab"],
+    ["data/id", "ae7d4001-5de8-5a40-930c-0a4ddece8a3c"],
+    ["data/id", "7cef94af-4deb-5afd-818e-752ef8355b4c"],
+    ["data/id", "919d382b-e996-566a-832b-09a02c9cdc26"],
+    ["data/id", "9316d7ac-2e42-5fc7-8d88-a0f7be3068f0"],
+    ["data/id", "51ffa07a-7327-5651-8012-9d4c84ba6aa0"],
+    ["data/id", "c0d817df-a7aa-50ca-876a-8616a1efb364"],
+    ["data/id", "945f4dd4-e6c2-5362-b744-6cbf09f41052"],
+    ["data/id", "d07c50cd-cae4-57dc-9ac3-4c96357508cd"],
+    ["data/id", "da2dec66-21b8-5935-9bed-2f38eb5fd953"],
+    ["data/id", "4279161b-91da-5f44-9794-587259bb377b"],
+    ["data/id", "53fb0caf-bddb-53cb-99a2-28ab6121a389"],
+    ["data/id", "2f4d6f7b-e805-54ff-a826-8c4c6da04a75"],
+    ["data/id", "fccca149-68e0-5781-9bdf-901690c59bbc"],
+    ["data/id", "1050e086-fa5a-533a-a8f0-8b7ec2ed74bb"]
+  ],
+  "datasources": [
+    ["datasource/id", "c3e0d3e8-c262-58cf-89ed-13d370e41fee"],
+    ["datasource/id", "db19687b-ca05-554c-9bc2-13682ec0fc93"]
+  ],
+  "description": "Question: can I fly Stockholm Arlanda (ESSA) to Göteborg Landvetter (ESGG) VFR now, or in two hours? Idea: a VFR go/no-go is not the METAR you see at the window, and not the TAF's first line. It is every group of every TAF on the route, in the window when you use that airport (± 1 h), against the minima that apply: in Europe SERA's VMC minima (ceiling 1500 ft and visibility 5 km to take off or land in a control zone; special VFR 600 ft and 1500 m), not the US flight categories (VFR/MVFR/IFR/LIFR) the charts colour by: OVC025 is MVFR and still VMC. Data: NOAA Aviation Weather Center's JSON for every METAR and TAF in the box 55–69°N 10–24°E and the world's SIGMETs; SMHI's point forecast (snow1g) at five points along the great circle. Polars decodes the METARs (ceiling = lowest BKN/OVC or vertical visibility), splits each TAF into its BASE, FM, BECMG, TEMPO and PROB groups, fills a TEMPO's missing elements from the prevailing group of that hour, and grades every airport-hour twice: prevailing only, and everything the TAF allows. The aha (13 Nov 2026, 07:50Z): every prevailing forecast on the route was VMC at ETD 09:50Z, yet three of the four METARs (ESSA OVC005, ESOE 3000 m SN, ESGJ BKN006) were below the minima, and the TEMPO groups explained it: ESSA's TEMPO 08–13Z 1400 m SNRA BKN004 (LIFR) and ESOE's TEMPO 2000 m SN BKN008 decided the flight, and SMHI's model had 280 ft at ESSA at ETD. Over the whole box, two hours out, 8 of 52 airports were below the minima by their prevailing forecast and 30 by everything their TAF allows; of 49 METARs with a TAF, 36 sat inside the prevailing forecast, 12 inside a TEMPO/PROB and 1 was worse than its TAF allowed (an amendment due). Explore: hover a station on the map for its decoded METAR and age, an hour on the timeline for the TAF group behind it, a chip in the verdict for its reports; click through to NOAA's METAR/TAF page or SMHI's point forecast. Edit the route step (ICAO codes, ETD, cruise speed) and everything follows; move the SMHI points (queries fc0–fc4) with it. Caveats: NOT an official pre-flight briefing (use AROWeb, https://www.aro.lfv.se, or your briefing service). No NOTAMs, winds and temperatures aloft, icing, airspace or terrain; NOAA's international SIGMETs only (no European AIRMETs); the FIR boundary is not drawn; 'now' is the newest METAR; no wind on the leg; small airports' TAFs last 9 h; the model is not a forecaster. METAR/TAF/SIGMET: NOAA Aviation Weather Center (public domain). Forecast: SMHI (CC BY 4.0).",
+  "graphs": [
+    ["graph/id", "0f28805f-7eff-58e1-8d76-b30ae0ce7b19"],
+    ["graph/id", "d05de3f4-3aee-5357-b034-972a6ba2fa9f"],
+    ["graph/id", "ccc0fec7-4b5c-5532-aa0e-0e4e20da3529"],
+    ["graph/id", "ad8bae48-b7e8-5fe1-b499-314063dcf093"]
+  ],
+  "grids": [],
+  "name": "Can I fly ESSA → ESGG VFR now? (Sweden)",
+  "ontology": {
+    "$file": ".seebra/dashboard/6cd2e808-f4fe-52dd-86f8-925962cf82c5.ontology.json",
+    "$json": true
+  },
+  "queries": [
+    ["query/id", "b6bd7537-d70a-5143-943f-3f8a7375ad76"],
+    ["query/id", "332ded4f-9679-57b9-b08e-6eb678133599"],
+    ["query/id", "1189a1ae-fee7-5e5a-800f-bf4dae39806b"],
+    ["query/id", "e5756c17-e8ad-5734-baf8-16eb913b2b08"],
+    ["query/id", "e1ebaa97-892d-5cf3-9f36-3ef487946f80"],
+    ["query/id", "62158f7d-08bc-5d63-a045-c3110a86aa5d"],
+    ["query/id", "9d2bed50-cd77-543a-a8be-a7a4c95a4bdc"],
+    ["query/id", "ced0fa77-083c-5954-abf7-03eb5eda5580"]
+  ],
+  "studies": [
+    ["study/id", "ea28e1de-7351-5a7d-be40-2e95692540e9"]
+  ],
+  "tables": [],
+  "texts": [],
+  "timers": [],
+  "transformations": [
+    ["transformation/id", "1fc696a1-5c68-559e-9f36-685787129b85"],
+    ["transformation/id", "b5a2067f-7fa4-57dd-8624-2636533a64c0"],
+    ["transformation/id", "d1649998-b3e7-5054-af4c-000745e8b9d0"],
+    ["transformation/id", "7dc48eff-4c8b-52ba-8c1b-3c15c361717b"],
+    ["transformation/id", "9372368c-ff50-5fa7-887e-739620209f29"],
+    ["transformation/id", "13f6c816-3a02-5dc3-9f7d-6460d83facae"],
+    ["transformation/id", "f0445188-6047-59a7-8cf0-389cf967142c"],
+    ["transformation/id", "9814fb4b-1877-5405-a1d9-074560a7c879"],
+    ["transformation/id", "53000f47-6b0c-54ee-9b4d-2866b758a0c5"],
+    ["transformation/id", "188015ef-8e0d-595a-9d2e-0b42922a83c7"],
+    ["transformation/id", "5df3641e-ec62-50e0-89c5-900ead29df09"],
+    ["transformation/id", "2b81ccfe-410d-5071-a14a-d10af8a5ee96"],
+    ["transformation/id", "f80933f3-7bae-5ec5-8a92-8101e9ff98a2"],
+    ["transformation/id", "b5e16724-5f3c-58d2-8f40-f9a72b7f515c"]
+  ]
+}

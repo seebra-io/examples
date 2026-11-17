@@ -1,0 +1,10 @@
+{
+  "data/id": "72a75de8-62c1-5ac6-9673-813941cb5720",
+  "data/name": "Substances with bulk (P5668) and shear (P5673) modulus and density, SI-normalized data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 320
+  },
+  "data/parent": ["query/id", "04f4017d-8981-5ba3-acfb-9f2da225b127"],
+  "data/type": "json"
+}

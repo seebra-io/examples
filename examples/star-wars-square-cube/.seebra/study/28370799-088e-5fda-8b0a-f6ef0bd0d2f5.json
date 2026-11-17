@@ -1,0 +1,18 @@
+{
+  "study/hypothesis": "log₁₀ mass rises with log₁₀ height with slope 3 (the square-cube law); the alternative is a slope of 2 or less.",
+  "study/id": "28370799-088e-5fda-8b0a-f6ef0bd0d2f5",
+  "study/name": "Do Star Wars bodies obey the square-cube law?",
+  "study/node": {
+    "node/x": 540,
+    "node/y": 1280
+  },
+  "study/plan": {
+    "$file": ".seebra/study/28370799-088e-5fda-8b0a-f6ef0bd0d2f5.plan.json",
+    "$json": true
+  },
+  "study/question": "Across the characters SWAPI weighs, does mass grow with height as height³ (scaled bodies), as height² (Quetelet's adult humans), or flatter?",
+  "study/state": {
+    "$file": ".seebra/study/28370799-088e-5fda-8b0a-f6ef0bd0d2f5.state.json",
+    "$json": true
+  }
+}

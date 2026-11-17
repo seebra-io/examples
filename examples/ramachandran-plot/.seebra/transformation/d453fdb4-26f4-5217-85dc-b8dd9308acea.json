@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/per-secondary-structure.sql"
+  },
+  "transformation/data-child": ["data/id", "2dfbe657-4245-5553-a251-a48715dce281"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "d453fdb4-26f4-5217-85dc-b8dd9308acea",
+  "transformation/inputs": [],
+  "transformation/language": "sql",
+  "transformation/name": "Per secondary structure",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 2380,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "bd209231-a9c6-5fbf-abd6-e51a7130c060"],
+  "transformation/units": "{}"
+}

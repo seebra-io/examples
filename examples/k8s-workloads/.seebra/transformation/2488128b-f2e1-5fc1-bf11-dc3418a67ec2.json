@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/pods.polars.py"
+  },
+  "transformation/data-child": ["data/id", "ae5678d9-9807-50ac-b064-15e95b85598d"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "2488128b-f2e1-5fc1-bf11-dc3418a67ec2",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Pods",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "cc28462e-4340-501f-ab09-c805866ab728"],
+  "transformation/units": "{}"
+}

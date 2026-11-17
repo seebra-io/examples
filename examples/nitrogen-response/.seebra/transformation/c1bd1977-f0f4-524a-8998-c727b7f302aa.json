@@ -1,0 +1,21 @@
+{
+  "transformation/content": {
+    "$file": "transforms/eight-countries-year-by-year.polars.py"
+  },
+  "transformation/data-child": ["data/id", "111936d0-dee6-5de2-b621-bdeb7677a955"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "c1bd1977-f0f4-524a-8998-c727b7f302aa",
+  "transformation/inputs": [
+    ["data/id", "0991bfc8-4871-526a-a3e0-c40691791354"]
+  ],
+  "transformation/language": "polars",
+  "transformation/name": "Eight countries year by year",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 800
+  },
+  "transformation/parent": ["data/id", "35cde488-7dd1-5e32-b28e-0d8d8388ca80"],
+  "transformation/units": "{}"
+}

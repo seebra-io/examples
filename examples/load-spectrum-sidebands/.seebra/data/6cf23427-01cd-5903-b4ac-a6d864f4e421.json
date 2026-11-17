@@ -1,0 +1,11 @@
+{
+  "data/id": "6cf23427-01cd-5903-b4ac-a6d864f4e421",
+  "data/name": "Leakage per window",
+  "data/node": {
+    "node/x": 2530,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "607a5814-d63c-516e-b330-05c81b57d92a"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

@@ -1,0 +1,10 @@
+{
+  "data/id": "2ff292dd-456f-5a6a-aad5-f622c36999aa",
+  "data/name": "The average day data",
+  "data/node": {
+    "node/x": 2530,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "a4c664d4-0a52-5cfa-929d-8fa952b9d272"],
+  "data/type": "json"
+}

@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "fbce1980-40e6-57b3-a562-55bf5f29c550"],
+  "query/datasource": ["datasource/id", "48e40754-5006-5582-bf1d-604b33728d13"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "a0a403d6-6a12-5215-a769-ad5f3b68f20c",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "1EMA helices and strands",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 1760
+  },
+  "query/params": "{}",
+  "query/path": "/pdb/entry/secondary_structure/1ema",
+  "query/request-body": "",
+  "query/units": "{}"
+}

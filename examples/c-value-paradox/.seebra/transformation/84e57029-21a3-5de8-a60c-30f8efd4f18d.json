@@ -1,0 +1,24 @@
+{
+  "transformation/content": {
+    "$file": "transforms/genomes-of-five-groups.sql"
+  },
+  "transformation/data-child": ["data/id", "a0cfb2dc-66ff-5b7b-be95-7335b6fc8054"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "84e57029-21a3-5de8-a60c-30f8efd4f18d",
+  "transformation/inputs": [
+    ["data/id", "1257a31e-e15e-50da-82bc-5080aa4e2f5e"],
+    ["data/id", "a2f0bf5a-752f-58ba-a244-44d3aca21fee"],
+    ["data/id", "6ae0ed64-cc06-5a73-b543-344b5bc344d5"],
+    ["data/id", "a99117b0-0140-5f57-89b3-5f9b4556d9b1"]
+  ],
+  "transformation/language": "sql",
+  "transformation/name": "Genomes of five groups",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "6668a88c-7620-5e7d-ba4f-d6567c92e34b"],
+  "transformation/units": "{}"
+}

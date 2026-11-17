@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/days.sql"
+  },
+  "transformation/data-child": ["data/id", "be18a0f2-0f65-5c83-b5fa-d505f9c794b3"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "e2065422-7610-5762-bd00-159536b05450",
+  "transformation/inputs": [],
+  "transformation/language": "sql",
+  "transformation/name": "Days",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "ce643a44-0024-57a8-b214-77096dadbf97"],
+  "transformation/units": "{}"
+}

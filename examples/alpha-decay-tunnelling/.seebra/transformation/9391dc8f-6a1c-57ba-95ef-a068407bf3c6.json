@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/nuclides-with-decay-mode-half-life-and-q.polars.py"
+  },
+  "transformation/data-child": ["data/id", "71a0a7cf-9c44-5363-a836-38ab17042c43"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "9391dc8f-6a1c-57ba-95ef-a068407bf3c6",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Nuclides with decay mode, half-life and Q_α",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "720d1e0f-d7a0-552b-96c8-ab744b23aef7"],
+  "transformation/units": "{}"
+}

@@ -1,0 +1,10 @@
+{
+  "data/id": "3ee9bafd-58b1-5d6d-9be9-b1c27f8bb386",
+  "data/name": "All curves data",
+  "data/node": {
+    "node/x": 2070,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "85f6e1df-3d20-51bd-9d94-a5063953bfdf"],
+  "data/type": "json"
+}

@@ -1,0 +1,1 @@
+SELECT l.country, l.iso3, c.region, c.income, c.capital, l.year, l.years, g.gdp, g.gdp_year FROM data l JOIN data1 c ON l.iso3 = c.iso3 LEFT JOIN data2 g ON l.iso3 = g.iso3 WHERE c.region <> 'Aggregates' ORDER BY l.years DESC

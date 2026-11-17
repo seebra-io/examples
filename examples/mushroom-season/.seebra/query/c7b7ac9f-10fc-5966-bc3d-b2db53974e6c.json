@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "a19a3eb0-0555-5e2a-9178-aeb07bd4a186"],
+  "query/datasource": ["datasource/id", "754ad5a5-dcea-59bb-8384-ac42f14e9516"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "c7b7ac9f-10fc-5966-bc3d-b2db53974e6c",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Mushroom Observer: chanterelle observations with photos, 2025",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 1520
+  },
+  "query/params": "{\"format\":\"json\",\"detail\":\"high\",\"children_of\":\"Cantharellus\",\"has_images\":\"yes\",\"date\":\"2025\"}",
+  "query/path": "/observations",
+  "query/request-body": "",
+  "query/units": "{}"
+}

@@ -1,0 +1,10 @@
+{
+  "data/id": "db471de8-4203-5cef-bf4b-e21489e39cdf",
+  "data/name": "Hourly load, centred and detrended data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "4151690a-d296-5422-9305-8befcaa23139"],
+  "data/type": "json"
+}

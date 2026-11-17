@@ -1,0 +1,10 @@
+{
+  "data/id": "511fb648-cdb0-59c4-9cdd-6dc4e8b0b393",
+  "data/name": "Pods (all namespaces) data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 80
+  },
+  "data/parent": ["query/id", "ae26725e-3fd3-522a-b874-6704c33d69b1"],
+  "data/type": "json"
+}

@@ -1,0 +1,37 @@
+{
+  "dashboard/id": "df83eabe-3714-5768-a887-81101f08200e",
+  "datas": [
+    ["data/id", "36170991-0450-5e9c-ad88-6aff26eac88d"],
+    ["data/id", "0155e03c-843c-5c43-b783-ba5b762d2559"],
+    ["data/id", "78c2f308-1869-5140-8710-27de21b99b03"],
+    ["data/id", "b75e8534-8566-56f9-a3ab-0a37b0117d4b"],
+    ["data/id", "167f320a-78a7-5368-93b4-993cdaf33166"],
+    ["data/id", "a40ca34d-b6c6-5a85-b2b0-09a4404079f2"],
+    ["data/id", "53b47495-ed2c-5213-92e2-9dce92248899"]
+  ],
+  "datasources": [
+    ["datasource/id", "9ea7504d-c434-593d-af13-d7fceb5a6878"]
+  ],
+  "description": "Developing against a REST API: call endpoints, join their answers and check the shape of the data: which fields every record has, which users and posts match in a full join, and the distribution of body lengths with its quantiles before averaging it. Uses JSONPlaceholder as a stand-in (a fixture: every user has exactly 10 posts); point the datasource at http://localhost:<port> and Seebra calls your local API straight from the browser.",
+  "graphs": [
+    ["graph/id", "2d7f250d-a05a-51c1-a611-1ad0d8b722ef"],
+    ["graph/id", "55dc3660-a765-57ec-b2bf-4091630e2677"]
+  ],
+  "grids": [],
+  "name": "REST API workbench",
+  "queries": [
+    ["query/id", "2a68d868-bb31-557a-aae1-91b4045c55ca"],
+    ["query/id", "4daf4cfd-5cff-5fa7-8546-1ca865779a96"]
+  ],
+  "studies": [],
+  "tables": [],
+  "texts": [],
+  "timers": [],
+  "transformations": [
+    ["transformation/id", "73d49c8c-66ec-5614-8b6b-50baf625cdc5"],
+    ["transformation/id", "dd6cb000-6e87-563d-a1f9-46357079c8ac"],
+    ["transformation/id", "8fc95a6a-2f8c-5800-8d6c-d6190dbc366a"],
+    ["transformation/id", "ff778f1b-caab-5be2-808b-3f9e78c9c333"],
+    ["transformation/id", "a23cf39e-d63b-585d-80fd-ca4d86fdc991"]
+  ]
+}

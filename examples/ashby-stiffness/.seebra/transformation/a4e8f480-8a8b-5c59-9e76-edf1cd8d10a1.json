@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/airframe-candidates-mass-of-the-same-stiff-part.polars.py"
+  },
+  "transformation/data-child": ["data/id", "c7a86f4c-55b2-5965-868e-ffb675466477"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "a4e8f480-8a8b-5c59-9e76-edf1cd8d10a1",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Airframe candidates: mass of the same stiff part, relative to steel",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 2380,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "eae683d0-325a-5230-9321-69a674b640df"],
+  "transformation/units": "{}"
+}

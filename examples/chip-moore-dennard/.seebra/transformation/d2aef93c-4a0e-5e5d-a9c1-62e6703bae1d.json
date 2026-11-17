@@ -1,0 +1,24 @@
+{
+  "transformation/content": {
+    "$file": "transforms/all-five-trends-one-row-per-processor-and.sql"
+  },
+  "transformation/data-child": ["data/id", "48f6a0ae-2b11-5acd-bcef-3d682037d013"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "d2aef93c-4a0e-5e5d-a9c1-62e6703bae1d",
+  "transformation/inputs": [
+    ["data/id", "33bfd6ad-bd1c-51b6-8fb3-1c7ecc4cd56d"],
+    ["data/id", "9d9014b7-9095-5c55-847c-707b08c326a1"],
+    ["data/id", "d4fa9ceb-9a25-558d-ab44-cf4deea2b4f4"],
+    ["data/id", "c8d008ab-f822-5902-b662-d661d8d0323b"]
+  ],
+  "transformation/language": "sql",
+  "transformation/name": "All five trends, one row per processor and measure",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "fac31129-7fea-5c27-b542-c3938347052c"],
+  "transformation/units": "{}"
+}

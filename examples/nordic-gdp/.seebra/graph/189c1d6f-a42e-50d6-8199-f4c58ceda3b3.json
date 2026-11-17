@@ -1,0 +1,16 @@
+{
+  "graph/content": {
+    "$file": "graphs/pca-of-the-panel-one-shared-nordic-year-pc1.js"
+  },
+  "graph/id": "189c1d6f-a42e-50d6-8199-f4c58ceda3b3",
+  "graph/inputs": [
+    ["data/id", "67c082eb-8f22-59d7-a077-8d33e86b95eb"]
+  ],
+  "graph/language": "javascript",
+  "graph/name": "PCA of the panel: one shared Nordic year (PC1)",
+  "graph/node": {
+    "node/x": 2840,
+    "node/y": 80
+  },
+  "graph/parent": ["data/id", "8ef02bbf-2b6b-5bd5-b576-5bcb4c86cd09"]
+}

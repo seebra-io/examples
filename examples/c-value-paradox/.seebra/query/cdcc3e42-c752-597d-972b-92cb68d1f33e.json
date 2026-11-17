@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "02ebe31b-db06-5805-a287-6c8f2bc17c76"],
+  "query/datasource": ["datasource/id", "48c6bdde-2deb-595f-aa40-7fc6a0ddcdc1"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "cdcc3e42-c752-597d-972b-92cb68d1f33e",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Archaea: annotated reference genomes",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 320
+  },
+  "query/params": "{\"filters.reference_only\":\"true\",\"filters.has_annotation\":\"true\",\"page_size\":\"200\"}",
+  "query/path": "/genome/taxon/2157/dataset_report",
+  "query/request-body": "",
+  "query/units": "{}"
+}

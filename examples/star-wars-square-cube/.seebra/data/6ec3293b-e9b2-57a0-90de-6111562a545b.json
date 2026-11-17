@@ -1,0 +1,10 @@
+{
+  "data/id": "6ec3293b-e9b2-57a0-90de-6111562a545b",
+  "data/name": "All 82 characters: height, mass, species, homeworld, films data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 80
+  },
+  "data/parent": ["query/id", "9399f611-9520-5256-a0db-4d8bba6f1228"],
+  "data/type": "json"
+}

@@ -1,0 +1,10 @@
+{
+  "data/id": "b44adc86-add3-55e7-a26a-b419ce13a6ab",
+  "data/name": "Materials with a measured Young's modulus (P5480) and density (P2054), SI-normalized data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 80
+  },
+  "data/parent": ["query/id", "aa7bcbb3-c8d5-5e8e-861f-b5a025c525db"],
+  "data/type": "json"
+}

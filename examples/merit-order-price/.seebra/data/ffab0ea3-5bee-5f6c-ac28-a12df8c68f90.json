@@ -1,0 +1,11 @@
+{
+  "data/id": "ffab0ea3-5bee-5f6c-ac28-a12df8c68f90",
+  "data/name": "Which predictor explains the price",
+  "data/node": {
+    "node/x": 2530,
+    "node/y": 560
+  },
+  "data/parent": ["transformation/id", "0e60fda7-1d75-5194-86b1-5a00d0785c3e"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/located-updates-120-days.js"
+  },
+  "transformation/data-child": ["data/id", "df2e4791-2070-50a3-9c50-6c21c3ec865a"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "js-web-worker",
+  "transformation/id": "813a36be-1fa3-5225-8022-457eda413d55",
+  "transformation/inputs": [],
+  "transformation/language": "javascript",
+  "transformation/name": "Located updates (120 days)",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 800
+  },
+  "transformation/parent": ["data/id", "117215b6-ffe7-5af6-8593-495704d7587b"],
+  "transformation/units": "{}"
+}

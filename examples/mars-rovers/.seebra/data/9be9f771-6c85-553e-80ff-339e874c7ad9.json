@@ -1,0 +1,10 @@
+{
+  "data/id": "9be9f771-6c85-553e-80ff-339e874c7ad9",
+  "data/name": "Curiosity photos (the newest 24, image links for the grid) data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "1ac7b631-6cb5-51fe-bd44-2f6b3c2af831"],
+  "data/type": "json"
+}

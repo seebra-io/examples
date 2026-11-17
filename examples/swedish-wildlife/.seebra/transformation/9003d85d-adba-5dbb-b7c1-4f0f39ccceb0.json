@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/photos.polars.py"
+  },
+  "transformation/data-child": ["data/id", "56927553-a906-5273-bcf7-e063e3be7649"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "9003d85d-adba-5dbb-b7c1-4f0f39ccceb0",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Photos",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "954b25dd-ef16-5e96-ac67-b497ee7534cf"],
+  "transformation/units": "{}"
+}

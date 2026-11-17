@@ -1,0 +1,191 @@
+{
+  "title": "Merit order and electricity prices",
+  "summary": "How a power market sets one price from the marginal plant, why residual load (load minus wind and solar) is the variable that matters, and what shapes the supply curve.",
+  "concepts": [
+    {
+      "cid": "c1",
+      "label": "Day-ahead electricity price",
+      "kind": "measure",
+      "description": "The price of the DE-LU bidding zone's day-ahead auction per quarter-hour, in EUR/MWh; uniform for all accepted bids.",
+      "fields": [
+        "price",
+        "median_price",
+        "p10_price",
+        "p90_price"
+      ],
+      "in_data": true,
+      "wikidata": "Q2353622",
+      "facts": [
+        {
+          "text": "Energy-Charts serves SMARD.de's day-ahead prices under CC BY 4.0.",
+          "source": "https://api.energy-charts.info/"
+        },
+        {
+          "text": "Single day-ahead coupling (SDAC) clears Europe's bidding zones together in one auction.",
+          "source": "https://en.wikipedia.org/wiki/European_Power_Exchange"
+        }
+      ],
+      "children": [
+        {
+          "cid": "c2",
+          "label": "Negative price",
+          "kind": "event",
+          "as": "subtype",
+          "description": "Hours when generators pay to deliver: must-run plants and output-based subsidies keep running when supply exceeds demand.",
+          "fields": [
+            "negative_pct"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c3",
+          "label": "Marginal cost",
+          "kind": "measure",
+          "as": "property",
+          "description": "The running cost of one more MWh from a plant (fuel, CO₂, operation); the bid a plant makes in a competitive market.",
+          "in_data": false,
+          "facts": [
+            {
+              "text": "Gas plants' marginal cost moves with the TTF gas price and the EU ETS CO₂ price.",
+              "source": "https://en.wikipedia.org/wiki/Merit_order"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cid": "c4",
+      "label": "Merit order",
+      "kind": "entity",
+      "description": "Plants sorted by marginal cost into a supply curve; the demand that must be met picks the last plant needed, whose cost sets the price.",
+      "fields": [
+        "bin_gw",
+        "median_price"
+      ],
+      "in_data": true,
+      "wikidata": "Q1638474",
+      "facts": [
+        {
+          "text": "The merit-order effect: renewables with near-zero marginal cost shift the supply curve right and lower prices.",
+          "source": "https://en.wikipedia.org/wiki/Merit_order"
+        }
+      ],
+      "children": [
+        {
+          "cid": "c5",
+          "label": "Residual load",
+          "kind": "measure",
+          "as": "property",
+          "description": "Load minus wind and solar output: the demand left for dispatchable plants and imports.",
+          "fields": [
+            "residual_gw",
+            "residual_mw"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c6",
+          "label": "Supply curve convexity",
+          "kind": "measure",
+          "as": "property",
+          "description": "How the slope of price against residual load grows as costlier plants are needed.",
+          "fields": [
+            "slope_eur_per_gwh",
+            "segment"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c7",
+          "label": "Bids and the auction (EUPHEMIA)",
+          "kind": "entity",
+          "as": "part",
+          "description": "The actual stepwise bid curves of the auction, which the binned curve only estimates.",
+          "in_data": false
+        }
+      ]
+    },
+    {
+      "cid": "c8",
+      "label": "Generation by source",
+      "kind": "measure",
+      "description": "Public net generation per source in MW per quarter-hour (ENTSO-E data via Energy-Charts).",
+      "fields": [
+        "solar_gw",
+        "wind_gw",
+        "gas_gw",
+        "coal_gw",
+        "lignite_gw",
+        "imports_gw",
+        "pump_gw"
+      ],
+      "in_data": true,
+      "children": [
+        {
+          "cid": "c9",
+          "label": "Variable renewables",
+          "kind": "entity",
+          "as": "subtype",
+          "description": "Wind and solar: near-zero marginal cost, output set by the weather.",
+          "fields": [
+            "solar_gw",
+            "wind_gw",
+            "renewables_gw"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c10",
+          "label": "Dispatchable plants",
+          "kind": "entity",
+          "as": "subtype",
+          "description": "Lignite, hard coal, gas, pumped hydro: output set by the market. Gas and pumped hydro are typically marginal.",
+          "fields": [
+            "gas_gw",
+            "lignite_gw",
+            "coal_gw",
+            "pump_gw"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c11",
+          "label": "Cross-border trade",
+          "kind": "measure",
+          "as": "subtype",
+          "description": "Net imports (positive) or exports; neighbours' plants are part of the same coupled merit order.",
+          "fields": [
+            "imports_gw"
+          ],
+          "in_data": true
+        }
+      ]
+    },
+    {
+      "cid": "c12",
+      "label": "Duck curve",
+      "kind": "event",
+      "description": "The midday dip in residual load (and price) as solar output peaks, followed by a steep evening ramp.",
+      "fields": [
+        "local_hour",
+        "residual_gw",
+        "price"
+      ],
+      "in_data": true,
+      "wikidata": "Q24961926",
+      "facts": [
+        {
+          "text": "The name comes from CAISO's 2013 chart of California's net load.",
+          "source": "https://en.wikipedia.org/wiki/Duck_curve"
+        }
+      ]
+    },
+    {
+      "cid": "c13",
+      "label": "Fuel and CO₂ prices",
+      "kind": "measure",
+      "description": "Gas (TTF) and EU ETS allowance prices shift the whole curve up or down; not in this data.",
+      "in_data": false
+    }
+  ]
+}

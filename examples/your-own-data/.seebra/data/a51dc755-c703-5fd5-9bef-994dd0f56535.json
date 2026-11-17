@@ -1,0 +1,11 @@
+{
+  "data/id": "a51dc755-c703-5fd5-9bef-994dd0f56535",
+  "data/name": "Spotify: artists",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "06ef1127-8bb6-5fc2-aa64-ddb904c6d551"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

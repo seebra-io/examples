@@ -1,0 +1,10 @@
+{
+  "data/id": "eae605a2-9655-55be-a15b-27f3545b3c6f",
+  "data/name": "Both lists together data",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "c32454c6-d8bf-5354-8592-6ace02b77b7e"],
+  "data/type": "json"
+}

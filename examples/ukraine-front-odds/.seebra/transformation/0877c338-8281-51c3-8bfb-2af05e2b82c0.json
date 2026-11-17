@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/control-now-areas-attack-directions-units.js"
+  },
+  "transformation/data-child": ["data/id", "4a40a0dd-8835-52eb-b63f-903a70054ff5"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "js-web-worker",
+  "transformation/id": "0877c338-8281-51c3-8bfb-2af05e2b82c0",
+  "transformation/inputs": [],
+  "transformation/language": "javascript",
+  "transformation/name": "Control now: areas, attack directions, units, airfields",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "32c6ddae-a164-5787-951a-699da51e9a62"],
+  "transformation/units": "{}"
+}

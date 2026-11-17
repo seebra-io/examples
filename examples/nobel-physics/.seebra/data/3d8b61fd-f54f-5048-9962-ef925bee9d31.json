@@ -1,0 +1,10 @@
+{
+  "data/id": "3d8b61fd-f54f-5048-9962-ef925bee9d31",
+  "data/name": "Age at the award per decade (mean, 95% interval, spread) data",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 560
+  },
+  "data/parent": ["transformation/id", "2216a1a9-45e2-576b-a780-930ef4a89370"],
+  "data/type": "json"
+}

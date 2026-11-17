@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "443620d9-aff8-5c53-9c53-6c56e87e6324"],
+  "query/datasource": ["datasource/id", "0ad2947c-0e41-5bf4-bf2c-3dedb20e3b4e"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "34bd0b90-f537-5512-bec6-8e904619cfde",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Chanterelle (Cantharellus cibarius): Swedish records per month, 2000–2025",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 320
+  },
+  "query/params": "{\"taxonKey\":\"5249504\",\"country\":\"SE\",\"year\":\"2000,2025\",\"limit\":\"0\",\"facet\":\"month\",\"facetLimit\":\"12\"}",
+  "query/path": "/occurrence/search",
+  "query/request-body": "",
+  "query/units": "{}"
+}

@@ -1,0 +1,10 @@
+{
+  "data/id": "488c6073-7b03-5cc3-a5f4-835cc584d907",
+  "data/name": "1UBQ backbone angles (validation) data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 1040
+  },
+  "data/parent": ["query/id", "f3d6c24c-94a6-532d-a201-0dd19c617054"],
+  "data/type": "json"
+}

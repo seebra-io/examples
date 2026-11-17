@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/images-per-camera.sql"
+  },
+  "transformation/data-child": ["data/id", "9e2435d7-5c47-5703-afd4-192c71f7b3e6"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "8ce5203a-cc8b-5bbd-b3d5-6fa35b8af361",
+  "transformation/inputs": [],
+  "transformation/language": "sql",
+  "transformation/name": "Images per camera",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 560
+  },
+  "transformation/parent": ["data/id", "37e83cf1-5cd5-5623-8c8d-b6e899f54259"],
+  "transformation/units": "{}"
+}

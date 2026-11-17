@@ -1,0 +1,155 @@
+{
+  "title": "Hardy–Weinberg and population structure",
+  "summary": "Genotype frequencies under random mating, and the heterozygote deficit that pooling structured populations creates (Wahlund effect).",
+  "concepts": [
+    {
+      "cid": "c1",
+      "label": "Genetic variant",
+      "kind": "entity",
+      "description": "A single-nucleotide polymorphism, by rsID.",
+      "fields": [
+        "hwe.rsid"
+      ],
+      "in_data": true,
+      "wikidata": "Q501128",
+      "children": [
+        {
+          "cid": "c2",
+          "label": "Allele",
+          "kind": "entity",
+          "as": "part",
+          "description": "One version of the variant (reference or alternative).",
+          "fields": [
+            "hwe.ref",
+            "hwe.alt"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c3",
+          "label": "Genotype",
+          "kind": "category",
+          "as": "part",
+          "description": "The pair of alleles a person carries: homozygous or heterozygous.",
+          "fields": [
+            "genotypes.genotype"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c4",
+          "label": "Allele frequency",
+          "kind": "measure",
+          "as": "property",
+          "description": "p, the share of the alternative allele in a sample.",
+          "fields": [
+            "hwe.p"
+          ],
+          "in_data": true
+        }
+      ]
+    },
+    {
+      "cid": "c5",
+      "label": "Hardy–Weinberg equilibrium",
+      "kind": "measure",
+      "description": "Under random mating genotypes come in p², 2pq, q².",
+      "fields": [
+        "hwe.e_het",
+        "hwe.chi2",
+        "hwe.p_value"
+      ],
+      "in_data": true,
+      "wikidata": "Q190006",
+      "facts": [
+        {
+          "text": "Stated independently by G. H. Hardy and Wilhelm Weinberg in 1908.",
+          "source": "https://en.wikipedia.org/wiki/Hardy%E2%80%93Weinberg_principle"
+        }
+      ],
+      "children": [
+        {
+          "cid": "c6",
+          "label": "Heterozygote deficit (F)",
+          "kind": "measure",
+          "as": "property",
+          "description": "1 − H_obs/H_exp; > 0 too few heterozygotes.",
+          "fields": [
+            "hwe.F"
+          ],
+          "in_data": true
+        }
+      ]
+    },
+    {
+      "cid": "c7",
+      "label": "Population structure",
+      "kind": "concept",
+      "description": "Mating within groups whose allele frequencies differ.",
+      "in_data": true,
+      "children": [
+        {
+          "cid": "c8",
+          "label": "Population",
+          "kind": "place",
+          "as": "part",
+          "description": "A 1000 Genomes population and its sampling site.",
+          "fields": [
+            "pops.pop",
+            "pops.lat",
+            "pops.lon"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c9",
+          "label": "Wahlund effect",
+          "kind": "concept",
+          "as": "property",
+          "description": "Pooled samples show a heterozygote deficit equal to F_ST.",
+          "fields": [
+            "wahlund.F_observed",
+            "wahlund.fst"
+          ],
+          "in_data": true,
+          "wikidata": "Q2549519"
+        },
+        {
+          "cid": "c10",
+          "label": "Fixation index (F_ST)",
+          "kind": "measure",
+          "as": "property",
+          "description": "Variance of allele frequency between populations over p̄(1 − p̄).",
+          "fields": [
+            "wahlund.fst"
+          ],
+          "in_data": true,
+          "wikidata": "Q1402066"
+        }
+      ]
+    },
+    {
+      "cid": "c11",
+      "label": "Natural selection",
+      "kind": "concept",
+      "description": "Why these variants' frequencies differ, and for HbS why heterozygotes are in excess.",
+      "in_data": false,
+      "children": [
+        {
+          "cid": "c12",
+          "label": "Heterozygote advantage",
+          "kind": "concept",
+          "as": "subtype",
+          "description": "Carriers of HbS are protected from severe malaria.",
+          "in_data": false,
+          "facts": [
+            {
+              "text": "Sickle-cell trait protects against severe Plasmodium falciparum malaria.",
+              "source": "https://en.wikipedia.org/wiki/Sickle_cell_trait"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

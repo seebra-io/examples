@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/holidays-per-day-poisson-or-clustered.js"
+  },
+  "graph/id": "7759d57b-cf66-5e8d-bd92-48501fe93c42",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Holidays per day: Poisson or clustered?",
+  "graph/node": {
+    "node/x": 2840,
+    "node/y": 80
+  },
+  "graph/parent": ["data/id", "d20f0e30-a0fb-55a2-a5a5-08b17ed6d123"]
+}

@@ -1,0 +1,7 @@
+data.sort("energy_j", descending=True)
+    .with_row_index("i")
+    .with_columns(rank = col("i") + 1, share = col("energy_j") / col("energy_j").sum())
+    .with_columns(share_cum = col("share").cum_sum())
+    .filter(col("rank") <= 25)
+    .select("rank", "mag", "mag_type", "place", "depth_km", "share", "share_cum", "url", "time")
+    .with_columns(share = col("share").round(4), share_cum = col("share_cum").round(4))

@@ -1,0 +1,10 @@
+{
+  "data/id": "9e52cdec-e2bb-504e-85bd-d740852f4bbd",
+  "data/name": "Allocatable per node data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "03c9d4f4-76a8-5de5-bcc4-84de9f2c9805"],
+  "data/type": "json"
+}

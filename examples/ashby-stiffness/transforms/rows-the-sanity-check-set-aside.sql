@@ -1,0 +1,1 @@
+SELECT label, class, source, e_gpa, rho_kgm3, n_values, issue, item AS link FROM data WHERE NOT plausible ORDER BY source, label

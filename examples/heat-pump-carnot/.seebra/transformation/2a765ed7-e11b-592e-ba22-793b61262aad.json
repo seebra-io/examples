@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/days-london-radiators.polars.py"
+  },
+  "transformation/data-child": ["data/id", "233d4b88-d447-544a-b30d-00204b805109"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "2a765ed7-e11b-592e-ba22-793b61262aad",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Days: London (radiators)",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 800
+  },
+  "transformation/parent": ["data/id", "fd561c75-e391-5f57-9d20-10901dc07a22"],
+  "transformation/units": "{}"
+}

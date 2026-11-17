@@ -1,0 +1,8 @@
+# L(t): how many runs are in the system at each minute (sampled at the minute's middle)
+data.join(data1.select("arrive_min", "depart_min", "duration_min"), how="cross")
+    .filter((col("arrive_min") <= col("t_min")) & (col("depart_min") > col("t_min")))
+    .group_by("m").agg(in_flight = len())
+    .join(data.select("m", "t_min"), on="m", how="right")
+    .with_columns(in_flight = col("in_flight").fill_null(0), hour = col("m") // 60)
+    .select("m", "t_min", "hour", "in_flight")
+    .sort("m")

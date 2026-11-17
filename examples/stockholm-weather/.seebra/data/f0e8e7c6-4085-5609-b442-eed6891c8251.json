@@ -1,0 +1,10 @@
+{
+  "data/id": "f0e8e7c6-4085-5609-b442-eed6891c8251",
+  "data/name": "Hourly forecast data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 80
+  },
+  "data/parent": ["query/id", "6be62166-8e04-549b-b8bb-a2fa22cbfd82"],
+  "data/type": "json"
+}

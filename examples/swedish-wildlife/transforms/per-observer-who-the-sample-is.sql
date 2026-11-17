@@ -1,0 +1,1 @@
+SELECT observer, COUNT(*) AS sightings, COUNT(DISTINCT species) AS species, COUNT(DISTINCT class) AS classes FROM data GROUP BY observer ORDER BY sightings DESC

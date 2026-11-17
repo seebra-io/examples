@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "0cc94389-a6de-5a7b-bec4-a9ff312e3377"],
+  "query/datasource": ["datasource/id", "f274b9da-8e9d-5c1c-b049-bb0da40697d9"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "d88d5c25-6147-55f2-944e-5af4ed411ce6",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Haemoglobin 4HHB (PDB)",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 560
+  },
+  "query/params": "{}",
+  "query/path": "/download/4HHB.pdb",
+  "query/request-body": "",
+  "query/units": "{}"
+}

@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/the-season-clock-mean-fruiting-date-and-how.js"
+  },
+  "graph/id": "f45a67fb-dd9a-5242-bdd2-66b146716cac",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "The season clock: mean fruiting date and how concentrated it is",
+  "graph/node": {
+    "node/x": 2840,
+    "node/y": 320
+  },
+  "graph/parent": ["data/id", "43b661f6-3b54-5fee-8bf5-701d9a4a9d57"]
+}

@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/skip-zone-per-band.polars.py"
+  },
+  "transformation/data-child": ["data/id", "b9ef6db8-baf2-5cbe-b1d8-9558f96e14de"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "1bee3c1b-3929-57b7-a765-276c111b997e",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Skip zone per band",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 2380,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "1b648f94-44a8-56d3-b1fb-20537f9771b3"],
+  "transformation/units": "{}"
+}

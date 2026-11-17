@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "c2b69c1d-15e9-5bfc-9bc6-5fa58c07fbdf"],
+  "query/datasource": ["datasource/id", "b7a5146f-8014-5302-9cb0-bb4e3b8ff068"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "1ad31351-9455-51c6-afec-5d9e6feda37c",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Aircraft within 250 nm of Tehran",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 800
+  },
+  "query/params": "{}",
+  "query/path": "/lat/35.5/lon/50.5/dist/250",
+  "query/request-body": "",
+  "query/units": "{}"
+}

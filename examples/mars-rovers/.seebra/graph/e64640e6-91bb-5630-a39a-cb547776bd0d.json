@@ -1,0 +1,16 @@
+{
+  "graph/content": {
+    "$file": "graphs/which-cameras-took-the-newest-100-images.js"
+  },
+  "graph/id": "e64640e6-91bb-5630-a39a-cb547776bd0d",
+  "graph/inputs": [
+    ["data/id", "199470ff-5a4a-536f-9ce0-2070b2a2d7f1"]
+  ],
+  "graph/language": "javascript",
+  "graph/name": "Which cameras took the newest 100 images",
+  "graph/node": {
+    "node/x": 1460,
+    "node/y": 800
+  },
+  "graph/parent": ["data/id", "37e83cf1-5cd5-5623-8c8d-b6e899f54259"]
+}

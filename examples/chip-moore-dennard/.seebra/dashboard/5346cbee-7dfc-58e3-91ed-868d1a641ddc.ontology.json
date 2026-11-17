@@ -1,0 +1,157 @@
+{
+  "title": "Microprocessor scaling",
+  "summary": "Fifty years of CPUs as five measures over time; Moore's law (transistor count doubling) and Dennard scaling (constant power density) and where the second one ended.",
+  "concepts": [
+    {
+      "cid": "c1",
+      "label": "Microprocessor",
+      "kind": "entity",
+      "description": "A CPU on one chip; each point is a processor at its year of introduction.",
+      "fields": [
+        "year"
+      ],
+      "in_data": true,
+      "wikidata": "Q5297",
+      "children": [
+        {
+          "cid": "c2",
+          "label": "Transistor count",
+          "kind": "measure",
+          "as": "property",
+          "description": "Transistors on the die, in thousands.",
+          "fields": [
+            "value",
+            "log2_value"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c3",
+          "label": "Clock frequency",
+          "kind": "measure",
+          "as": "property",
+          "description": "Clock rate in MHz.",
+          "fields": [
+            "value",
+            "log2_value"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c4",
+          "label": "Thermal design power",
+          "kind": "measure",
+          "as": "property",
+          "description": "Typical power in W: the heat the cooler must remove.",
+          "fields": [
+            "value"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c5",
+          "label": "Single-thread performance",
+          "kind": "measure",
+          "as": "property",
+          "description": "SpecINT score (×10³), one core.",
+          "fields": [
+            "value"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c6",
+          "label": "Logical core",
+          "kind": "measure",
+          "as": "part",
+          "description": "Cores (hardware threads) per processor.",
+          "fields": [
+            "value"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c7",
+          "label": "Supply voltage",
+          "kind": "measure",
+          "as": "property",
+          "description": "Core voltage V; dynamic power goes as V². It stopped falling in the mid-2000s.",
+          "in_data": false
+        },
+        {
+          "cid": "c8",
+          "label": "Die area",
+          "kind": "measure",
+          "as": "property",
+          "description": "Chip area in mm²; with power it gives power density, Dennard's invariant.",
+          "in_data": false
+        }
+      ]
+    },
+    {
+      "cid": "c9",
+      "label": "Scaling law",
+      "kind": "category",
+      "description": "Empirical regularities of chip improvement over time.",
+      "in_data": false,
+      "children": [
+        {
+          "cid": "c10",
+          "label": "Moore's law",
+          "kind": "category",
+          "as": "subtype",
+          "description": "Transistor count doubles about every two years (Moore 1975).",
+          "fields": [
+            "doubling_years"
+          ],
+          "in_data": true,
+          "wikidata": "Q170444",
+          "facts": [
+            {
+              "text": "Moore's 1965 paper predicted a doubling every year, revised to every two years in 1975.",
+              "source": "https://en.wikipedia.org/wiki/Moore%27s_law"
+            }
+          ]
+        },
+        {
+          "cid": "c11",
+          "label": "Dennard scaling",
+          "kind": "category",
+          "as": "subtype",
+          "description": "Shrinking a MOSFET by k lowers voltage and capacitance by k, so power density stays constant while the clock rises (Dennard et al. 1974).",
+          "fields": [
+            "energy_per_switch_halvings_per_year"
+          ],
+          "in_data": true,
+          "wikidata": "Q5258680",
+          "facts": [
+            {
+              "text": "Dennard et al., Design of ion-implanted MOSFETs with very small physical dimensions, IEEE JSSC 1974.",
+              "source": "https://doi.org/10.1109/JSSC.1974.1050511"
+            }
+          ]
+        },
+        {
+          "cid": "c12",
+          "label": "Leakage current",
+          "kind": "measure",
+          "as": "property",
+          "description": "Subthreshold leakage grows exponentially as threshold voltage falls; it is why voltage scaling stopped.",
+          "in_data": false
+        }
+      ]
+    },
+    {
+      "cid": "c13",
+      "label": "Structural break",
+      "kind": "event",
+      "description": "The year a trend changes slope, found by the minimum two-line SSE and tested with a Chow F-test.",
+      "fields": [
+        "brk",
+        "F",
+        "p_value"
+      ],
+      "in_data": true
+    }
+  ]
+}

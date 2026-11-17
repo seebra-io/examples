@@ -1,0 +1,11 @@
+{
+  "data/id": "6525ebd1-5159-5e5e-b6d5-9d422a96945c",
+  "data/name": "Pods that need a hand",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "c108251f-1564-589f-84a3-922900e0fde6"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

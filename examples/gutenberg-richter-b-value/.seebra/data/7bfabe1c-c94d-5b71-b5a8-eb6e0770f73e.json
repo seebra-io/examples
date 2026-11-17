@@ -1,0 +1,11 @@
+{
+  "data/id": "7bfabe1c-c94d-5b71-b5a8-eb6e0770f73e",
+  "data/name": "The year's most energetic earthquakes",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 1040
+  },
+  "data/parent": ["transformation/id", "4c67f755-2acd-5255-a930-6f6281f1e41a"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

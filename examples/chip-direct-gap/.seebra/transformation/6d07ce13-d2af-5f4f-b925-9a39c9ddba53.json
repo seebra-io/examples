@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/elements-valence-electrons-and-electronegativity.polars.py"
+  },
+  "transformation/data-child": ["data/id", "f2ddea9e-0794-5420-a31b-e9c46a947606"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "6d07ce13-d2af-5f4f-b925-9a39c9ddba53",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Elements: valence electrons and electronegativity",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "6da594c7-178c-5895-950e-617f35a27da5"],
+  "transformation/units": "{}"
+}

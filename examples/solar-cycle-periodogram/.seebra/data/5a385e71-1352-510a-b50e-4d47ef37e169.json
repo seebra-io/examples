@@ -1,0 +1,10 @@
+{
+  "data/id": "5a385e71-1352-510a-b50e-4d47ef37e169",
+  "data/name": "Monthly sunspot number since 1749 (SILSO v2, observed and smoothed) data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 80
+  },
+  "data/parent": ["query/id", "42fa729b-14c1-502d-b780-852a59328433"],
+  "data/type": "json"
+}

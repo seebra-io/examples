@@ -1,0 +1,10 @@
+{
+  "data/id": "1c446e43-ed1c-525d-97ac-dbe9f4a2429c",
+  "data/name": "Theory: k ± j/7 per day data",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 560
+  },
+  "data/parent": ["transformation/id", "0698d3e6-7417-56c9-88e9-62afe9ce4ef0"],
+  "data/type": "json"
+}

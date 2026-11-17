@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/elasticity-within-each-country-over-time.polars.py"
+  },
+  "transformation/data-child": ["data/id", "4ea62897-918f-5442-8a24-22c454ce130c"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "2baaa426-9865-5fa1-96a3-081789bcd641",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Elasticity within each country over time",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "3abf8019-6730-5d30-b975-437423846072"],
+  "transformation/units": "{}"
+}

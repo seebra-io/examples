@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/the-dam-s-daily-pulse-at-both-gauges.js"
+  },
+  "graph/id": "499896d2-a66f-57a0-b743-a59ee9bccb24",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "The dam's daily pulse at both gauges",
+  "graph/node": {
+    "node/x": 1460,
+    "node/y": 1040
+  },
+  "graph/parent": ["data/id", "bda1f067-2214-5da8-a325-19926df4903f"]
+}

@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/concentration-who-supervises-the-supervisions.js"
+  },
+  "graph/id": "78abfa8f-7721-52f3-975e-5aabe63eaf4a",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Concentration: who supervises the supervisions",
+  "graph/node": {
+    "node/x": 1920,
+    "node/y": 1040
+  },
+  "graph/parent": ["data/id", "bc956ea6-9817-565c-805a-93de0796aa9e"]
+}

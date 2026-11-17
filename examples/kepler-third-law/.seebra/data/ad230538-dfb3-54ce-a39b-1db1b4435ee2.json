@@ -1,0 +1,10 @@
+{
+  "data/id": "ad230538-dfb3-54ce-a39b-1db1b4435ee2",
+  "data/name": "Planets with period, semi-major axis and star mass (pscomppars) data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 80
+  },
+  "data/parent": ["query/id", "1f6356a5-d3fd-5b63-966a-2d1a26cd36d3"],
+  "data/type": "json"
+}

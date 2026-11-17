@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/rollouts.polars.py"
+  },
+  "transformation/data-child": ["data/id", "d002842a-9b28-5bff-bb7c-ee9a2d2163fe"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "a9cb579d-cc9a-5715-84f5-fb4481a56e17",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Rollouts",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "caa982b2-e189-53bd-b996-1aab4dae2ba2"],
+  "transformation/units": "{}"
+}

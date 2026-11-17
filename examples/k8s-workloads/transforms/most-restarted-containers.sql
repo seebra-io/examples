@@ -1,0 +1,1 @@
+SELECT namespace, pod, container, owner_kind, owner, node, phase, restarts, ready FROM data WHERE restarts > 0 ORDER BY restarts DESC LIMIT 20

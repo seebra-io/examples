@@ -1,0 +1,10 @@
+{
+  "data/id": "a27ce431-d01e-5772-972f-e65bdf52c818",
+  "data/name": "Geiger–Nuttall and Gamow views data",
+  "data/node": {
+    "node/x": 2990,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "5b50fcb3-70b6-58f8-826d-aba64062dc6e"],
+  "data/type": "json"
+}

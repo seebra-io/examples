@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/the-interstate-cohorts-age-poor-bridges-in-2035.js"
+  },
+  "graph/id": "b8810b90-b023-58da-a51e-03509d0acf6d",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "The interstate cohorts age: poor bridges in 2035 and 2045 at today's age-specific shares",
+  "graph/node": {
+    "node/x": 2380,
+    "node/y": 80
+  },
+  "graph/parent": ["data/id", "ab007573-a27d-5e84-91c0-6f7a9cf34bcf"]
+}

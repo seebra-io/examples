@@ -1,0 +1,8 @@
+{
+  "file": {
+    "file/example": "ramachandran-plot"
+  },
+  "format": 2,
+  "root": ["dashboard/id", "bb838989-f37c-510a-8791-aa8f3fb1e807"],
+  "seebra": "board"
+}

@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "1212b5b4-8f10-5113-a071-be272b3cac3a"],
+  "query/datasource": ["datasource/id", "4e41c75c-f2d4-5d5e-a7bb-0c2383428021"],
+  "query/dynamic?": true,
+  "query/format": "text",
+  "query/headers": "{}",
+  "query/id": "cfc0a451-49ca-5081-b296-6e408f65dbbe",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "UN News: Europe",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 1760
+  },
+  "query/params": "{}",
+  "query/path": "/europe/feed/rss.xml",
+  "query/request-body": "",
+  "query/units": "{}"
+}

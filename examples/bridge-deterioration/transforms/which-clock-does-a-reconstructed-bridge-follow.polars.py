@@ -1,0 +1,20 @@
+data.rows("features")
+    .select(year = col("attributes").struct.field("YEAR_BUILT_027"), n = col("attributes").struct.field("n"), r = col("attributes").struct.field("mean_rating").cast(Float64))
+    .filter((col("year") >= 1906) & (col("year") <= 2025))
+    .with_columns(band = (((2025 - col("year")) / 10).floor() * 10).cast(Int64))
+    .group_by("band").agg(never_bridges = col("n").sum(), never_rating = (col("r") * col("n")).sum() / col("n").sum())
+    .join(data1.rows("features")
+              .select(year = col("attributes").struct.field("YEAR_RECONSTRUCTED_106"), n = col("attributes").struct.field("n"), r = col("attributes").struct.field("mean_rating").cast(Float64))
+              .filter((col("year") >= 1906) & (col("year") <= 2025))
+              .with_columns(band = (((2025 - col("year")) / 10).floor() * 10).cast(Int64))
+              .group_by("band").agg(since_rebuilt_bridges = col("n").sum(), since_rebuilt_rating = (col("r") * col("n")).sum() / col("n").sum()),
+          on="band", how="left")
+    .join(data2.rows("features")
+              .select(year = col("attributes").struct.field("YEAR_BUILT_027"), n = col("attributes").struct.field("n"), r = col("attributes").struct.field("mean_rating").cast(Float64))
+              .filter((col("year") >= 1906) & (col("year") <= 2025))
+              .with_columns(band = (((2025 - col("year")) / 10).floor() * 10).cast(Int64))
+              .group_by("band").agg(rebuilt_since_built_bridges = col("n").sum(), rebuilt_since_built_rating = (col("r") * col("n")).sum() / col("n").sum()),
+          on="band", how="left")
+    .with_columns(age_mid = col("band") + 5, never_rating = col("never_rating").round(3),
+                  since_rebuilt_rating = col("since_rebuilt_rating").round(3), rebuilt_since_built_rating = col("rebuilt_since_built_rating").round(3))
+    .sort("band")

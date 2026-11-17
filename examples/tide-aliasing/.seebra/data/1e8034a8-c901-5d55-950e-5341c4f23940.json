@@ -1,0 +1,10 @@
+{
+  "data/id": "1e8034a8-c901-5d55-950e-5341c4f23940",
+  "data/name": "Daily means (filtered, then sampled) data",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 560
+  },
+  "data/parent": ["transformation/id", "77be62f7-9183-54ba-a6e0-1c79ab74c6ae"],
+  "data/type": "json"
+}

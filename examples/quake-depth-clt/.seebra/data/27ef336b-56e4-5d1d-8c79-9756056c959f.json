@@ -1,0 +1,10 @@
+{
+  "data/id": "27ef336b-56e4-5d1d-8c79-9756056c959f",
+  "data/name": "The population: mean, sd, skewness of depth data",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "3d790e3e-2229-591a-8e24-d711be765ef0"],
+  "data/type": "json"
+}

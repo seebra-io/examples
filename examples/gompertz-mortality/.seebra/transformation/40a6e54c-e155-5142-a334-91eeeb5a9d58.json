@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/death-rate-by-age.polars.py"
+  },
+  "transformation/data-child": ["data/id", "fe2e0d7a-d43b-5c6f-8269-8f91318af6a9"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "40a6e54c-e155-5142-a334-91eeeb5a9d58",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Death rate by age",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "ea38e379-ba40-51d5-a918-d313da186165"],
+  "transformation/units": "{}"
+}

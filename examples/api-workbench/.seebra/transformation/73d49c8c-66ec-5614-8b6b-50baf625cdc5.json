@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/posts-per-user.sql"
+  },
+  "transformation/data-child": ["data/id", "78c2f308-1869-5140-8710-27de21b99b03"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "73d49c8c-66ec-5614-8b6b-50baf625cdc5",
+  "transformation/inputs": [],
+  "transformation/language": "sql",
+  "transformation/name": "Posts per user",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "36170991-0450-5e9c-ad88-6aff26eac88d"],
+  "transformation/units": "{}"
+}

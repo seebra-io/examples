@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/roster-species-generation.polars.py"
+  },
+  "transformation/data-child": ["data/id", "8a580120-638c-5821-b36e-2daa10840c8c"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "0651af01-0152-5eb5-9355-2073a27281c9",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Roster (species, generation)",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "0be63390-671a-5a7b-8b3f-01058f8b6c5d"],
+  "transformation/units": "{}"
+}

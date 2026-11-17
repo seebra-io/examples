@@ -1,0 +1,21 @@
+{
+  "transformation/content": {
+    "$file": "transforms/leakage-power-between-the-lines.polars.py"
+  },
+  "transformation/data-child": ["data/id", "6cf23427-01cd-5903-b4ac-a6d864f4e421"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "607a5814-d63c-516e-b330-05c81b57d92a",
+  "transformation/inputs": [
+    ["data/id", "1c446e43-ed1c-525d-97ac-dbe9f4a2429c"]
+  ],
+  "transformation/language": "polars",
+  "transformation/name": "Leakage: power between the lines",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 2380,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "c1077a10-ff4c-5482-b111-355ec6761b4b"],
+  "transformation/units": "{}"
+}

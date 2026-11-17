@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "ebf0b39b-7d26-5daa-9356-72d1e277273c"],
+  "query/datasource": ["datasource/id", "ab712c3d-4b6f-5d1f-a626-992bebb91186"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "42030a89-72db-5f6b-889a-610afd34ccbe",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Ordered (In,Ga)As and (Al,Ga)As alloys",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 320
+  },
+  "query/params": "{\"filter\":\"nelements=3 AND elements HAS ALL \\\"Ga\\\",\\\"As\\\" AND elements HAS ANY \\\"In\\\",\\\"Al\\\"\",\"page_limit\":\"500\",\"response_fields\":\"chemical_formula_reduced,elements,elements_ratios,nsites,lattice_vectors,_alexandria_band_gap,_alexandria_band_gap_direct,_alexandria_space_group,_alexandria_hull_distance\"}",
+  "query/path": "/structures",
+  "query/request-body": "",
+  "query/units": "{}"
+}

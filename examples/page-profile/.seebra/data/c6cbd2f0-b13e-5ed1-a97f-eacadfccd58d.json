@@ -1,0 +1,11 @@
+{
+  "data/id": "c6cbd2f0-b13e-5ed1-a97f-eacadfccd58d",
+  "data/name": "Load milestones",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "1708438c-abf7-5b6e-816f-dc13c8232bca"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

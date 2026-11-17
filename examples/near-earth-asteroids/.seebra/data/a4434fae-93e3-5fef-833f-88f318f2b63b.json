@@ -1,0 +1,10 @@
+{
+  "data/id": "a4434fae-93e3-5fef-833f-88f318f2b63b",
+  "data/name": "Close approaches data",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "d20d8d3d-9b39-5b1c-b931-aa832a7ece49"],
+  "data/type": "json"
+}

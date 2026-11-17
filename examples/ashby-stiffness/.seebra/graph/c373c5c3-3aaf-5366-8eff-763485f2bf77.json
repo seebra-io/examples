@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/mass-of-the-same-stiff-part-against-steel-tie.js"
+  },
+  "graph/id": "c373c5c3-3aaf-5366-8eff-763485f2bf77",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Mass of the same stiff part against steel: tie, beam, panel",
+  "graph/node": {
+    "node/x": 3300,
+    "node/y": 80
+  },
+  "graph/parent": ["data/id", "8c091b2a-2e87-5504-9ac1-e15e14ff549a"]
+}

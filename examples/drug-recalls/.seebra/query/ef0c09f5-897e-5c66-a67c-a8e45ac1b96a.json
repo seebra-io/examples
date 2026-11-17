@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "02f157fd-aec8-5faf-a725-5e22a55a7d28"],
+  "query/datasource": ["datasource/id", "a32ef27f-9c3e-51e9-a973-4aa7b31099cb"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "ef0c09f5-897e-5c66-a67c-a8e45ac1b96a",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Recalls per route (all reports)",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 320
+  },
+  "query/params": "{\"count\":\"openfda.route.exact\",\"limit\":\"1000\"}",
+  "query/path": "/drug/enforcement.json",
+  "query/request-body": "",
+  "query/units": "{}"
+}

@@ -1,0 +1,21 @@
+{
+  "transformation/content": {
+    "$file": "transforms/change-and-volatility-per-currency.polars.py"
+  },
+  "transformation/data-child": ["data/id", "92844abc-ebd6-5a22-ae99-44e75cc71efd"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "8d3b228d-dde7-513c-b3e8-424e2b845847",
+  "transformation/inputs": [
+    ["data/id", "8905005d-f6f8-5c6a-a160-da9496b79583"]
+  ],
+  "transformation/language": "polars",
+  "transformation/name": "Change and volatility per currency",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1920,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "dd1aefc5-18da-58d0-834b-5b1d08e75fbe"],
+  "transformation/units": "{}"
+}

@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "01988eb2-0f44-5dae-b36f-efc4d86f98e0"],
+  "query/datasource": ["datasource/id", "9a3cfe51-da69-5122-84e4-75b176d69c1f"],
+  "query/dynamic?": false,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "4c1afc4e-82f9-5adc-8315-31bee406031c",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Grid frequency, 1 s, Freiburg, 10 Nov 2026",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 80
+  },
+  "query/params": "{\"region\":\"DE-Freiburg\",\"start\":\"2026-11-10\",\"end\":\"2026-11-10\"}",
+  "query/path": "/frequency",
+  "query/request-body": "",
+  "query/units": "{}"
+}

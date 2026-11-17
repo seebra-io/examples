@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/covers.polars.py"
+  },
+  "transformation/data-child": ["data/id", "c8516f8d-83e7-5986-9095-cbca16e6c110"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "74cee61f-0ec8-5989-a9df-40a7b4a96baa",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Covers",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "a1c08195-858c-5569-8768-5f65d8b3face"],
+  "transformation/units": "{}"
+}

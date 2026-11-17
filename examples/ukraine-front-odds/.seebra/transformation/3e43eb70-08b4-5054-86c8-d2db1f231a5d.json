@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/un-news-on-the-war.js"
+  },
+  "transformation/data-child": ["data/id", "bc9c73dd-7f65-540e-b111-ad01c92fb96a"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "js-web-worker",
+  "transformation/id": "3e43eb70-08b4-5054-86c8-d2db1f231a5d",
+  "transformation/inputs": [],
+  "transformation/language": "javascript",
+  "transformation/name": "UN News on the war",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 1520
+  },
+  "transformation/parent": ["data/id", "1212b5b4-8f10-5113-a071-be272b3cac3a"],
+  "transformation/units": "{}"
+}

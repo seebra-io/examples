@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/rows.polars.py"
+  },
+  "transformation/data-child": ["data/id", "03b47eb7-7933-534b-af4d-c49eabfce53c"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "ea9d450c-9711-5f9d-b848-4270fea617ff",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Rows",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "117d26e1-f2c5-598c-8722-19fa0097a502"],
+  "transformation/units": "{}"
+}

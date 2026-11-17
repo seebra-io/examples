@@ -1,0 +1,10 @@
+{
+  "data/id": "9ac2c80e-45df-5e53-8294-ee62c07c6f9f",
+  "data/name": "Stable elements and binary compounds with a band gap (≤ 4 atoms per cell) data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 80
+  },
+  "data/parent": ["query/id", "123ab969-9919-531a-94df-f2c4f71a8e87"],
+  "data/type": "json"
+}

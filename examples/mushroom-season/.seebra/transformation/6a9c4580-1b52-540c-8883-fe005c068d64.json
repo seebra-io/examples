@@ -1,0 +1,25 @@
+{
+  "transformation/content": {
+    "$file": "transforms/records-per-species-and-month.sql"
+  },
+  "transformation/data-child": ["data/id", "a9a43260-d320-5fd6-ad44-e7ab86ac0814"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "6a9c4580-1b52-540c-8883-fe005c068d64",
+  "transformation/inputs": [
+    ["data/id", "262f7c78-85c5-5439-9348-c394a6195706"],
+    ["data/id", "9472be3c-6c3e-5205-afda-af3501d891d0"],
+    ["data/id", "e21c684a-016d-54e7-a704-6d89d74b46ef"],
+    ["data/id", "1246d7c5-459c-5b3e-a109-c4ce0c4f5ff8"],
+    ["data/id", "e911ce6a-c753-5001-8a30-7449a527653c"]
+  ],
+  "transformation/language": "sql",
+  "transformation/name": "Records per species and month",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "790a3b40-d963-5b17-aba6-d30639b413c2"],
+  "transformation/units": "{}"
+}

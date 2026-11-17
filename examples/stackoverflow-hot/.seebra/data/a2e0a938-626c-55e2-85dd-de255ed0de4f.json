@@ -1,0 +1,11 @@
+{
+  "data/id": "a2e0a938-626c-55e2-85dd-de255ed0de4f",
+  "data/name": "Co-tags",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "4964b81b-d678-50fb-8768-a30f7cf75daa"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

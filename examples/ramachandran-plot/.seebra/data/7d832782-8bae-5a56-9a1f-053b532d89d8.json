@@ -1,0 +1,10 @@
+{
+  "data/id": "7d832782-8bae-5a56-9a1f-053b532d89d8",
+  "data/name": "2LZM helices and strands data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 800
+  },
+  "data/parent": ["query/id", "7813a504-46eb-5519-8917-3415d4cfc7b2"],
+  "data/type": "json"
+}

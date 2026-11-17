@@ -1,0 +1,10 @@
+{
+  "data/id": "6e1e2974-4e5c-59e5-ab67-8afc3d38cdbb",
+  "data/name": "Colorado River at Lees Ferry, 15-min discharge data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 80
+  },
+  "data/parent": ["query/id", "63ad18dd-c02a-5db8-a5d8-b13349840c42"],
+  "data/type": "json"
+}

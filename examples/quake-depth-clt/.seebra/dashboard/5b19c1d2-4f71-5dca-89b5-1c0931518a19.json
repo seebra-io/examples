@@ -1,0 +1,35 @@
+{
+  "dashboard/id": "5b19c1d2-4f71-5dca-89b5-1c0931518a19",
+  "datas": [
+    ["data/id", "d8958a5c-8849-5113-9aa4-8ee473b441d4"],
+    ["data/id", "c15a5a4a-f72f-5da6-bd6b-7934a7fae6b4"],
+    ["data/id", "27ef336b-56e4-5d1d-8c79-9756056c959f"],
+    ["data/id", "bccd5f31-a0ae-52b2-baa7-63f2a5ae8c87"],
+    ["data/id", "e1f53843-3caa-5700-8030-52219e521cf7"],
+    ["data/id", "e8c83fb7-9bd9-5206-8094-b07ada9ca9e2"]
+  ],
+  "datasources": [
+    ["datasource/id", "f2a7ddaf-e008-56ea-8694-3b4766d36ae1"]
+  ],
+  "description": "Depths of the past month's M2.5+ earthquakes from the USGS feed: a strongly skewed population (most are shallow, a few are hundreds of kilometres deep). Statistics idea: the central limit theorem. 500 random samples of n = 1, 5, 30 and 100 quakes are drawn (with replacement, by a deterministic pseudo-random generator in Polars), and their standardised means approach the normal curve while their spread shrinks as σ/√n and their skewness as γ/√n. Caveats: the population is this month's feed, not all quakes (it over-represents well-monitored networks), and aftershock clusters make the quakes themselves dependent; resampling makes the draws independent.",
+  "graphs": [
+    ["graph/id", "8d192682-6a13-5611-b585-e53f0e2370ae"],
+    ["graph/id", "bd5dbe49-bcd6-58c8-9e9f-de6fad445081"]
+  ],
+  "grids": [],
+  "name": "Central limit theorem: earthquake depths",
+  "queries": [
+    ["query/id", "0bbf3463-6997-5212-8c3e-c88785a9aaf4"]
+  ],
+  "studies": [],
+  "tables": [],
+  "texts": [],
+  "timers": [],
+  "transformations": [
+    ["transformation/id", "db1dc525-6cb6-5116-bcdb-5c5efaee733b"],
+    ["transformation/id", "3d790e3e-2229-591a-8e24-d711be765ef0"],
+    ["transformation/id", "212d01a0-ba41-595b-90bf-b635522ed374"],
+    ["transformation/id", "fd1a336f-2311-5625-883f-4d0b093ff208"],
+    ["transformation/id", "e9e9ebaa-9dc6-5d31-9c65-3d7722aae169"]
+  ]
+}

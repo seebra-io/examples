@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/volatility-per-month-annualised.polars.py"
+  },
+  "transformation/data-child": ["data/id", "a015ea91-18f5-5aab-b790-4b7ab96c084e"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "74715c4c-7d14-5518-965e-293a77bdc6c6",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Volatility per month (annualised)",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 2380,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "8905005d-f6f8-5c6a-a160-da9496b79583"],
+  "transformation/units": "{}"
+}

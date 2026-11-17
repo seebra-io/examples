@@ -1,0 +1,1 @@
+data.corr(["score", "answers", "views", "age_h"], method="spearman")

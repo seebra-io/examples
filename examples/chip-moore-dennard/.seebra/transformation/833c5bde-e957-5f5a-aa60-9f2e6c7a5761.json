@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/one-line-through-all-50-years-no-break-per.polars.py"
+  },
+  "transformation/data-child": ["data/id", "9f86c99e-d4da-5157-aa22-f3ecc26cdf09"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "833c5bde-e957-5f5a-aa60-9f2e6c7a5761",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "One line through all 50 years (no break), per measure",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1920,
+    "node/y": 560
+  },
+  "transformation/parent": ["data/id", "48f6a0ae-2b11-5acd-bcef-3d682037d013"],
+  "transformation/units": "{}"
+}

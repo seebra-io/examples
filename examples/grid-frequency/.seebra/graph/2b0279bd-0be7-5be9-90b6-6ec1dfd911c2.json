@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/the-day-frequency-minus-50-hz-minute-by-minute.js"
+  },
+  "graph/id": "2b0279bd-0be7-5be9-90b6-6ec1dfd911c2",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "The day: frequency minus 50 Hz, minute by minute",
+  "graph/node": {
+    "node/x": 1920,
+    "node/y": 320
+  },
+  "graph/parent": ["data/id", "c294d8d2-fb89-56bd-b598-76493569b0a5"]
+}

@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/heavy-tail-vs-thin-tail-ccdfs-of-both-directions.js"
+  },
+  "graph/id": "81302ea8-1c7c-55b0-9315-d2035dea9e27",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Heavy tail vs thin tail: CCDFs of both directions of the network",
+  "graph/node": {
+    "node/x": 2380,
+    "node/y": 320
+  },
+  "graph/parent": ["data/id", "adfe7c8a-c764-5d81-8cba-8c598c2b5ef2"]
+}

@@ -1,0 +1,11 @@
+{
+  "data/id": "53f3fd4e-d12a-5a27-891c-0543cd57818b",
+  "data/name": "Rules against the structures",
+  "data/node": {
+    "node/x": 2070,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "8d7619f6-b57e-516b-97c7-da6afe831c19"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

@@ -1,0 +1,10 @@
+{
+  "data/id": "55812ae8-c931-53a9-a2f4-d483ec98c865",
+  "data/name": "Sampling schemes (every 1, 6, 11, 24, 25 h) data",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "d085f825-ddc5-57a2-b9df-2e382a805647"],
+  "data/type": "json"
+}

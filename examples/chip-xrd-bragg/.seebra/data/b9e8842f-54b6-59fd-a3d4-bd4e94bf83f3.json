@@ -1,0 +1,10 @@
+{
+  "data/id": "b9e8842f-54b6-59fd-a3d4-bd4e94bf83f3",
+  "data/name": "Elements (atomic number Z) data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "2ccfea9c-9417-5e79-b005-100bed5ce6d9"],
+  "data/type": "json"
+}

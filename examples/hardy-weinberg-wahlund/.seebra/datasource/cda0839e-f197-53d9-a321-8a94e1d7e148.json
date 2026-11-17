@@ -1,0 +1,16 @@
+{
+  "datasource/api-key-key": "api_key",
+  "datasource/auth-type": "none",
+  "datasource/headers": "{\"Content-Type\":\"application/json\"}",
+  "datasource/id": "cda0839e-f197-53d9-a321-8a94e1d7e148",
+  "datasource/name": "IGSR (1000 Genomes data portal)",
+  "datasource/node": {
+    "inputs": 1,
+    "node/x": 80,
+    "node/y": 320,
+    "outputs": 1
+  },
+  "datasource/params": "{}",
+  "datasource/type": "openapi",
+  "datasource/url": "https://www.internationalgenome.org/api/beta"
+}

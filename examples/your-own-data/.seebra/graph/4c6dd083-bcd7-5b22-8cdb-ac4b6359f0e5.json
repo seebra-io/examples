@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/spotify-when-you-listen.js"
+  },
+  "graph/id": "4c6dd083-bcd7-5b22-8cdb-ac4b6359f0e5",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Spotify: when you listen",
+  "graph/node": {
+    "node/x": 1460,
+    "node/y": 1040
+  },
+  "graph/parent": ["data/id", "59f53af7-73c0-557c-bee7-9d0d2b8fcdb6"]
+}

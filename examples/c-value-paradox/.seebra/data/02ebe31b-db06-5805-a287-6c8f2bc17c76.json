@@ -1,0 +1,10 @@
+{
+  "data/id": "02ebe31b-db06-5805-a287-6c8f2bc17c76",
+  "data/name": "Archaea: annotated reference genomes data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 320
+  },
+  "data/parent": ["query/id", "cdcc3e42-c752-597d-972b-92cb68d1f33e"],
+  "data/type": "json"
+}

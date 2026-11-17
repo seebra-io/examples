@@ -1,0 +1,10 @@
+{
+  "data/id": "037e71d5-6cc0-58b0-9893-edcd733ac7fe",
+  "data/name": "Open Iran markets (play money) data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 1760
+  },
+  "data/parent": ["query/id", "4ae0ad91-ec88-5486-b206-cda5d1dbb637"],
+  "data/type": "json"
+}

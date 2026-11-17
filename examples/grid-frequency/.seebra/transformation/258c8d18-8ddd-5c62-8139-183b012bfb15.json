@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/first-2-minutes-against-the-rest-per-quarter.polars.py"
+  },
+  "transformation/data-child": ["data/id", "10c14aec-bd1e-5bcd-9700-8d53e5c9f883"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "258c8d18-8ddd-5c62-8139-183b012bfb15",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "First 2 minutes against the rest, per quarter-hour",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1920,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "daa6eaf6-7618-53de-a2ce-b84ac6bbb00b"],
+  "transformation/units": "{}"
+}

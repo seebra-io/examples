@@ -1,0 +1,10 @@
+{
+  "data/id": "98c4cd61-eafd-5958-88e9-1685c84f4cc5",
+  "data/name": "Articles, ranked data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "c0354c21-123a-5e1e-a7d9-5a69d69d8fa8"],
+  "data/type": "json"
+}

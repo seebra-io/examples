@@ -1,0 +1,21 @@
+{
+  "transformation/content": {
+    "$file": "transforms/running-pods-against-their-template.polars.py"
+  },
+  "transformation/data-child": ["data/id", "d6a18d6a-35ec-5d77-ae11-8f75fb5bb74c"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "0ae80fe2-c35a-5521-a3e9-e5e5fe35fbaa",
+  "transformation/inputs": [
+    ["data/id", "1b7516b8-3668-54e5-aeab-da7ac82f35ba"]
+  ],
+  "transformation/language": "polars",
+  "transformation/name": "Running pods against their template",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 560
+  },
+  "transformation/parent": ["data/id", "f28c6111-72d6-5a4c-a723-8c9bf2fa1d29"],
+  "transformation/units": "{}"
+}

@@ -1,0 +1,10 @@
+{
+  "data/id": "b862fc4b-d415-53ca-a25e-6422b5e898cf",
+  "data/name": "Elements: valence, period, electronegativity data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "2577b2e2-a47f-5d5f-9a33-9acd18465f6c"],
+  "data/type": "json"
+}

@@ -1,0 +1,10 @@
+{
+  "data/id": "bf261d65-21c7-5fad-a146-d024ea0837fa",
+  "data/name": "Hourly water levels data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "3c633de0-b5e9-547e-a55d-aa2438fb6ed6"],
+  "data/type": "json"
+}

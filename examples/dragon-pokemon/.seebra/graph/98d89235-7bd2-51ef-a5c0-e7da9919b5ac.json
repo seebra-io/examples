@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/type-chart.js"
+  },
+  "graph/id": "98d89235-7bd2-51ef-a5c0-e7da9919b5ac",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Type chart",
+  "graph/node": {
+    "node/x": 1000,
+    "node/y": 560
+  },
+  "graph/parent": ["data/id", "0be63390-671a-5a7b-8b3f-01058f8b6c5d"]
+}

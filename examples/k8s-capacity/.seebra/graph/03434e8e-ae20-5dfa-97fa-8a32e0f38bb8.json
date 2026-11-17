@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/how-many-more-typical-pods-fit-per-node.js"
+  },
+  "graph/id": "03434e8e-ae20-5dfa-97fa-8a32e0f38bb8",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "How many more typical pods fit, per node",
+  "graph/node": {
+    "node/x": 1920,
+    "node/y": 560
+  },
+  "graph/parent": ["data/id", "83c77950-1d25-5623-adb6-87b1daa6d2c6"]
+}

@@ -1,0 +1,10 @@
+{
+  "data/id": "b0f9dd8d-4696-56d4-8d95-7b5fc69db084",
+  "data/name": "All sampled series data",
+  "data/node": {
+    "node/x": 2070,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "cc8f6897-25fe-51c2-b471-f8baf93c018a"],
+  "data/type": "json"
+}

@@ -1,0 +1,1 @@
+SELECT station, temp, height_m, ROUND(lat, 2) AS lat, ROUND(lon, 2) AS lon, quality, time FROM data ORDER BY temp DESC

@@ -1,0 +1,8 @@
+{
+  "file": {
+    "file/example": "service-status"
+  },
+  "format": 2,
+  "root": ["dashboard/id", "e9890bcd-5c2c-5e85-848a-d67357196a2d"],
+  "seebra": "board"
+}

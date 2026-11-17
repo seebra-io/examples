@@ -1,0 +1,8 @@
+{
+  "file": {
+    "file/example": "kepler-third-law"
+  },
+  "format": 2,
+  "root": ["dashboard/id", "0d29c0db-f89b-5a49-980d-d74a062b3868"],
+  "seebra": "board"
+}

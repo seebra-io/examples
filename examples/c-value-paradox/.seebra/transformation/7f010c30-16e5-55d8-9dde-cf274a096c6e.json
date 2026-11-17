@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/genome-size-genes-and-gene-density.polars.py"
+  },
+  "transformation/data-child": ["data/id", "e798d48f-1ad8-581b-916f-3bf771ad434f"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "7f010c30-16e5-55d8-9dde-cf274a096c6e",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Genome size, genes and gene density",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1920,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "a0cfb2dc-66ff-5b7b-be95-7335b6fc8054"],
+  "transformation/units": "{}"
+}

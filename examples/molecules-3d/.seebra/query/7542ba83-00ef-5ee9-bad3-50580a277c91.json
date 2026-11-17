@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "aad44ad1-a37f-589d-8fab-c4266d04d034"],
+  "query/datasource": ["datasource/id", "9962eda6-0f45-5a81-bd30-41937bbd2284"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "7542ba83-00ef-5ee9-bad3-50580a277c91",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Caffeine properties",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 320
+  },
+  "query/params": "{}",
+  "query/path": "/compound/name/caffeine/property/IUPACName,MolecularFormula,MolecularWeight,XLogP,HBondDonorCount,HBondAcceptorCount,TPSA/JSON",
+  "query/request-body": "",
+  "query/units": "{}"
+}

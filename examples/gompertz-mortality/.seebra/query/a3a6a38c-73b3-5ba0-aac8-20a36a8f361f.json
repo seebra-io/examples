@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "b4a70c56-828c-5737-8dc6-d28372b3fc08"],
+  "query/datasource": ["datasource/id", "3d457c84-7ec8-57f7-875c-00eccee0ff0e"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "a3a6a38c-73b3-5ba0-aac8-20a36a8f361f",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Life tables 2023: death rate by age and sex (demo_mlifetable)",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 320
+  },
+  "query/params": "{\"format\":\"SDMX-CSV\",\"startPeriod\":\"2023\",\"endPeriod\":\"2023\"}",
+  "query/path": "/data/demo_mlifetable/A.DEATHRATE.F+M..SE+DK+FR+ES+IT+PL+LT+BG",
+  "query/request-body": "",
+  "query/units": "{}"
+}

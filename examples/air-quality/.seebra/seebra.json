@@ -1,0 +1,8 @@
+{
+  "file": {
+    "file/example": "air-quality"
+  },
+  "format": 2,
+  "root": ["dashboard/id", "30b6d2b5-dcb4-5d4b-8635-4d6c3cc8a458"],
+  "seebra": "board"
+}

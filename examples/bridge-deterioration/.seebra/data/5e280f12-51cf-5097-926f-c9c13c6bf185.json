@@ -1,0 +1,10 @@
+{
+  "data/id": "5e280f12-51cf-5097-926f-c9c13c6bf185",
+  "data/name": "Bridges per year built and lowest condition rating data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 80
+  },
+  "data/parent": ["query/id", "8f81e594-587f-568b-9e80-78f2fe494d57"],
+  "data/type": "json"
+}

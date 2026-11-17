@@ -1,0 +1,10 @@
+{
+  "data/id": "673b98dd-bf18-56a9-adf8-cb42668ae204",
+  "data/name": "Theory: damped oscillator data",
+  "data/node": {
+    "node/x": 2070,
+    "node/y": 560
+  },
+  "data/parent": ["transformation/id", "3c7ecb90-9239-5b8e-8aea-e76ae38b0b92"],
+  "data/type": "json"
+}

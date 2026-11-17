@@ -1,0 +1,1 @@
+data.select("date", currency = col("quote"), rate = col("rate"))

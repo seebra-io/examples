@@ -1,0 +1,151 @@
+{
+  "title": "Lattice matching for epitaxy",
+  "summary": "III-V semiconductors and their alloys by lattice constant and band gap: Vegard's law makes the lattice constant linear in composition, so a film can be tuned to fit its substrate.",
+  "concepts": [
+    {
+      "cid": "c1",
+      "label": "III-V semiconductor",
+      "kind": "entity",
+      "description": "A compound of a group III metal (Al, Ga, In) and a group V element (N, P, As, Sb), zincblende here.",
+      "fields": [
+        "material",
+        "formula"
+      ],
+      "in_data": true,
+      "wikidata": "Q1569426",
+      "children": [
+        {
+          "cid": "c2",
+          "label": "Lattice constant",
+          "kind": "measure",
+          "as": "property",
+          "description": "Cubic cell edge, Å: from PBE (Alexandria) and measured (COD).",
+          "fields": [
+            "a_A",
+            "a_measured_A"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c3",
+          "label": "Band gap",
+          "kind": "measure",
+          "as": "property",
+          "description": "PBE gap, eV (underestimated).",
+          "fields": [
+            "gap_ev",
+            "gap_type"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c4",
+          "label": "Semiconductor alloy",
+          "kind": "entity",
+          "as": "subtype",
+          "description": "A mixed crystal such as In(x)Ga(1−x)As; here as ordered cells at x = 1/4, 1/3, 1/2, 2/3, 3/4.",
+          "fields": [
+            "system",
+            "x"
+          ],
+          "in_data": true,
+          "children": [
+            {
+              "cid": "c5",
+              "label": "Vegard's law",
+              "kind": "category",
+              "as": "property",
+              "description": "The alloy's lattice constant is the composition-weighted mean of the end points.",
+              "fields": [
+                "a_vegard",
+                "da_A",
+                "bow_a_A"
+              ],
+              "in_data": true,
+              "wikidata": "Q901426"
+            },
+            {
+              "cid": "c6",
+              "label": "Band-gap bowing",
+              "kind": "measure",
+              "as": "property",
+              "description": "E(x) = (1−x)E0 + xE1 − b x(1−x); b from the alloys.",
+              "fields": [
+                "bow_gap_ev",
+                "de_ev"
+              ],
+              "in_data": true
+            },
+            {
+              "cid": "c7",
+              "label": "Random alloy",
+              "kind": "category",
+              "as": "subtype",
+              "description": "Real alloys have random cation order (special quasirandom structures model it), not the ordered cells computed here.",
+              "in_data": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cid": "c8",
+      "label": "Epitaxy",
+      "kind": "event",
+      "description": "Growing a crystalline film that continues the substrate's lattice (MBE, MOCVD).",
+      "in_data": false,
+      "wikidata": "Q901336",
+      "children": [
+        {
+          "cid": "c9",
+          "label": "Substrate",
+          "kind": "entity",
+          "as": "part",
+          "description": "The wafer the film grows on: Si, GaAs, InP.",
+          "fields": [
+            "a_inp",
+            "a_gaas"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c10",
+          "label": "Lattice mismatch",
+          "kind": "measure",
+          "as": "property",
+          "description": "(a_film − a_substrate)/a_substrate; matched composition x* where it is zero.",
+          "fields": [
+            "x_ingaas_on_inp",
+            "mismatch_gaas_on_inp_pct",
+            "mismatch_alas_on_gaas_pct"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c11",
+          "label": "Critical thickness",
+          "kind": "measure",
+          "as": "property",
+          "description": "The thickness above which a strained film relaxes by forming misfit dislocations (Matthews–Blakeslee); falls roughly as 1/mismatch.",
+          "in_data": false,
+          "facts": [
+            {
+              "text": "Matthews and Blakeslee, Defects in epitaxial multilayers, J. Cryst. Growth 27, 118 (1974).",
+              "source": "https://doi.org/10.1016/S0022-0248(74)80055-2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cid": "c12",
+      "label": "Density functional theory",
+      "kind": "source",
+      "description": "PBE: lattice constants 1–2% too large, gaps too small; the measured COD values check it.",
+      "fields": [
+        "error_pct"
+      ],
+      "in_data": true
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "data/id": "073596ac-a893-54ff-846f-d08a34252cf7",
+  "data/name": "x_min scan",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 560
+  },
+  "data/parent": ["transformation/id", "04510654-530a-5384-a9b1-0d9a291d5b51"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

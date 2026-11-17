@@ -1,0 +1,10 @@
+{
+  "data/id": "f79a1049-8ff9-5a2f-8d0c-9b200eea121b",
+  "data/name": "Rating distribution per 5-year age band data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "c05d16eb-0339-548a-9824-f3836c57623e"],
+  "data/type": "json"
+}

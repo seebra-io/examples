@@ -1,0 +1,10 @@
+{
+  "data/id": "2b201714-006c-5f66-a5f4-a67e591e00a8",
+  "data/name": "Wahlund: pooled F against F_ST data",
+  "data/node": {
+    "node/x": 2530,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "82c263dd-0e46-54e0-b378-58c1263c6551"],
+  "data/type": "json"
+}

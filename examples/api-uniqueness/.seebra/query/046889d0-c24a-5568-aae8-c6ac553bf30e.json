@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "1bdaac2c-8be9-5204-8d39-7e13b18e7240"],
+  "query/datasource": ["datasource/id", "b12b0b98-ae12-546f-9bd7-2d5166ebb162"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "046889d0-c24a-5568-aae8-c6ac553bf30e",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "The public Explore catalog: every API and example, with its description and categories",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 80
+  },
+  "query/params": "{}",
+  "query/path": "/catalog.json",
+  "query/request-body": "",
+  "query/units": "{}"
+}

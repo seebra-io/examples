@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "8a4a1cda-fff8-529c-937f-b338afffec2e"],
+  "query/datasource": ["datasource/id", "4b22823d-a42a-54af-819e-0f3ac326b688"],
+  "query/dynamic?": false,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "f06be086-13a5-5a7f-84ff-341926ca710e",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "All 37 species, with their average height and lifespan",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 320
+  },
+  "query/params": "{}",
+  "query/path": "/species",
+  "query/request-body": "",
+  "query/units": "{}"
+}

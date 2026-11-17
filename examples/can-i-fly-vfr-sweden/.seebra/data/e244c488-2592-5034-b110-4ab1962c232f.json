@@ -1,0 +1,10 @@
+{
+  "data/id": "e244c488-2592-5034-b110-4ab1962c232f",
+  "data/name": "International SIGMETs (worldwide) data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 560
+  },
+  "data/parent": ["query/id", "1189a1ae-fee7-5e5a-800f-bf4dae39806b"],
+  "data/type": "json"
+}

@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/sensitivity-rank-correlation-of-the-v1-score.polars.py"
+  },
+  "transformation/data-child": ["data/id", "955c335b-1b33-52eb-8e31-1128d45975df"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "3c4bdf7e-774f-5181-a5c2-ac142b45b069",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Sensitivity: rank correlation of the v1 score with k = 3, k = 10 and place names kept",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 2380,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "f2999a8c-0252-5608-9a77-fc5e649c121e"],
+  "transformation/units": "{}"
+}

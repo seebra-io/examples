@@ -1,0 +1,10 @@
+{
+  "data/id": "eab3c9f5-1730-557a-8f44-f708de3f1698",
+  "data/name": "Resources by origin and type data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 1040
+  },
+  "data/parent": ["transformation/id", "dadc653c-d8cf-5911-866e-f629a1665287"],
+  "data/type": "json"
+}

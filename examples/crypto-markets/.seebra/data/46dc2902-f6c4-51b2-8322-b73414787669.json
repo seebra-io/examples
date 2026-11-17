@@ -1,0 +1,10 @@
+{
+  "data/id": "46dc2902-f6c4-51b2-8322-b73414787669",
+  "data/name": "Correlation of hourly log returns (every pair) data",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "79a6e88b-7ed2-5728-88b7-82297d3b7961"],
+  "data/type": "json"
+}

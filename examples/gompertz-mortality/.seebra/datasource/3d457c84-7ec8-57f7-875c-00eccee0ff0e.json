@@ -1,0 +1,16 @@
+{
+  "datasource/api-key-key": "api_key",
+  "datasource/auth-type": "none",
+  "datasource/headers": "{}",
+  "datasource/id": "3d457c84-7ec8-57f7-875c-00eccee0ff0e",
+  "datasource/name": "Eurostat SDMX 2.1 API",
+  "datasource/node": {
+    "inputs": 1,
+    "node/x": 80,
+    "node/y": 80,
+    "outputs": 1
+  },
+  "datasource/params": "{}",
+  "datasource/type": "openapi",
+  "datasource/url": "https://ec.europa.eu/eurostat/api/dissemination/sdmx/2.1"
+}

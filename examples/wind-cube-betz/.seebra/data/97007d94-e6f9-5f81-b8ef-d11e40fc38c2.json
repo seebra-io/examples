@@ -1,0 +1,10 @@
+{
+  "data/id": "97007d94-e6f9-5f81-b8ef-d11e40fc38c2",
+  "data/name": "ERA5 at the farm: wind at 100 m, temperature, pressure data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 320
+  },
+  "data/parent": ["query/id", "d9475b3d-127e-5511-8d53-08da1989e5ca"],
+  "data/type": "json"
+}

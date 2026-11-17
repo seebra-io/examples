@@ -1,0 +1,10 @@
+{
+  "data/id": "5f3b8179-374e-5caf-a6fa-c7216535102b",
+  "data/name": "GitHub summary data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 80
+  },
+  "data/parent": ["query/id", "16674b7e-419f-52da-b45d-9f7745054d2f"],
+  "data/type": "json"
+}

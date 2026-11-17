@@ -1,0 +1,170 @@
+{
+  "title": "Fertiliser and the yield response",
+  "summary": "Crops turn fertiliser nutrients (mainly nitrogen) into grain with diminishing returns: the yield response curve flattens, so the last kilograms buy little grain and much of them is lost to water and air. Here seen across countries with World Bank data.",
+  "concepts": [
+    {
+      "cid": "c1",
+      "label": "Country's cropland",
+      "kind": "place",
+      "description": "A country's arable land, the unit of comparison.",
+      "fields": [
+        "country",
+        "iso3",
+        "region",
+        "income",
+        "arable_kha"
+      ],
+      "in_data": true,
+      "children": [
+        {
+          "cid": "c2",
+          "label": "Fertiliser use",
+          "kind": "measure",
+          "as": "property",
+          "description": "Nitrogen, phosphate (P₂O₅) and potash (K₂O) nutrients per hectare of arable land, kg/ha (FAO via World Bank).",
+          "fields": [
+            "fert_kg_ha"
+          ],
+          "in_data": true,
+          "children": [
+            {
+              "cid": "c3",
+              "label": "Nitrogen share",
+              "kind": "measure",
+              "as": "part",
+              "description": "The nitrogen part alone, which drives most of the yield response and of the losses; FAOSTAT's fertiliser-by-nutrient domain has it.",
+              "fields": [],
+              "in_data": false
+            }
+          ]
+        },
+        {
+          "cid": "c4",
+          "label": "Cereal yield",
+          "kind": "measure",
+          "as": "property",
+          "description": "Wheat, rice, maize, barley, oats, rye, millet, sorghum, buckwheat and mixed grains: kg harvested per ha.",
+          "fields": [
+            "yield_kg_ha"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c5",
+          "label": "Irrigation",
+          "kind": "measure",
+          "as": "property",
+          "description": "Share of agricultural land that is irrigated: water decides whether nutrients can be used.",
+          "fields": [
+            "irrigated_pct"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c6",
+          "label": "Climate and growing season",
+          "kind": "measure",
+          "as": "property",
+          "description": "Temperature, rainfall and season length set the attainable yield (the curve's ceiling); not in this data.",
+          "fields": [],
+          "in_data": false
+        }
+      ]
+    },
+    {
+      "cid": "c7",
+      "label": "Yield response curve",
+      "kind": "event",
+      "description": "Yield as a function of the nutrient rate, Y = Y0 + A(1 − e^(−cN)) (Mitscherlich, 1909): every extra unit of a limiting nutrient closes a fixed fraction of the remaining gap to the ceiling.",
+      "fields": [
+        "yield_pred",
+        "c",
+        "A_kg_ha",
+        "Y0_kg_ha"
+      ],
+      "in_data": true,
+      "wikidata": "Q1192591",
+      "facts": [
+        {
+          "text": "Mitscherlich's law of physiological relations (1909) states that the yield increase per unit of a growth factor is proportional to the shortfall from the maximum yield.",
+          "source": "https://en.wikipedia.org/wiki/Mitscherlich%27s_law"
+        },
+        {
+          "text": "Liebig's law of the minimum: growth is limited by the scarcest resource, not by the total of resources.",
+          "source": "https://en.wikipedia.org/wiki/Liebig%27s_law_of_the_minimum"
+        }
+      ],
+      "children": [
+        {
+          "cid": "c8",
+          "label": "Marginal product",
+          "kind": "measure",
+          "as": "property",
+          "description": "dY/dN = A c e^(−cN): kg of grain one more kg of fertiliser buys at a given rate.",
+          "fields": [
+            "mp",
+            "position"
+          ],
+          "in_data": true,
+          "children": [
+            {
+              "cid": "c9",
+              "label": "Economic optimum rate",
+              "kind": "measure",
+              "as": "subtype",
+              "description": "The rate where the marginal product equals the fertiliser-to-grain price ratio; needs prices (FAOSTAT prices, World Bank Pink Sheet).",
+              "fields": [],
+              "in_data": false
+            }
+          ]
+        },
+        {
+          "cid": "c10",
+          "label": "Partial factor productivity",
+          "kind": "measure",
+          "as": "property",
+          "description": "Average kg of grain per kg of fertiliser, Y/N: falls along the curve even where the marginal product is still positive.",
+          "fields": [
+            "grain_per_kg_fert"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c11",
+          "label": "Field trial response",
+          "kind": "source",
+          "as": "subtype",
+          "description": "The agronomic N-response is measured per field and crop in rate trials (e.g. the Broadbalk experiment, Rothamsted); the cross-country curve only mimics it.",
+          "fields": [],
+          "in_data": false
+        }
+      ]
+    },
+    {
+      "cid": "c12",
+      "label": "Nitrogen surplus and losses",
+      "kind": "event",
+      "description": "Nitrogen applied but not taken up by the crop: leached as nitrate, emitted as N₂O and ammonia. Grows on the flat part of the curve.",
+      "fields": [],
+      "in_data": false,
+      "facts": [
+        {
+          "text": "Nitrogen use efficiency (crop N output / N input) is about 0.4 worldwide and fell in China as fertiliser use rose (Zhang et al., Nature 2015).",
+          "source": "https://doi.org/10.1038/nature15743"
+        }
+      ]
+    },
+    {
+      "cid": "c13",
+      "label": "Country trajectories",
+      "kind": "time",
+      "description": "Fertiliser use and yield year by year for eight countries.",
+      "fields": [
+        "year",
+        "fert_kg_ha",
+        "yield_kg_ha"
+      ],
+      "in_data": true
+    }
+  ]
+}

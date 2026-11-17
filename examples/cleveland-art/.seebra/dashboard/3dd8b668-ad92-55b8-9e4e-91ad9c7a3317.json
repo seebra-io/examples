@@ -1,0 +1,32 @@
+{
+  "dashboard/id": "3dd8b668-ad92-55b8-9e4e-91ad9c7a3317",
+  "datas": [
+    ["data/id", "2ffed433-54bb-56e6-ae93-17a1fa8406ab"],
+    ["data/id", "7f955df2-2d35-52c4-89a6-b80aac132705"],
+    ["data/id", "191c93bf-c560-5939-8583-7787bbbd74ad"],
+    ["data/id", "b7a0c028-e036-5510-81ca-867ba9ea6e4e"]
+  ],
+  "datasources": [
+    ["datasource/id", "941a7653-9d09-5bc1-ab33-9c43d3f31894"]
+  ],
+  "description": "Open-access (CC0) paintings from the Cleveland Museum of Art: an image grid, a table of who made them and when, and their creation dates on one time line. Statistics: a distribution and its quantiles, of dates that are ranges (\"c. 1650\" is 1645-1655): the median and the middle half are taken over each range's midpoint. Caveat: 24 paintings, one page (skip 120) of about 3,900 in the API's order, not a random sample of the collection; change skip or limit to see how stable the median is.",
+  "graphs": [
+    ["graph/id", "662fa299-0e05-5e97-8d97-a6d2c4683302"]
+  ],
+  "grids": [
+    ["grid/id", "af72d6b1-cb51-5974-8577-2bf0a7c2b8fa"]
+  ],
+  "name": "Paintings at the Cleveland Museum of Art",
+  "queries": [
+    ["query/id", "a5b97cf4-3797-5b57-9745-139640e1bf7f"]
+  ],
+  "studies": [],
+  "tables": [],
+  "texts": [],
+  "timers": [],
+  "transformations": [
+    ["transformation/id", "9d49b33f-0399-5aa1-acb1-7da377c1f00a"],
+    ["transformation/id", "e357677a-0635-546f-ad0e-1a6fce84fecb"],
+    ["transformation/id", "a9b4e83e-66f8-5158-980b-b856068a16ff"]
+  ]
+}

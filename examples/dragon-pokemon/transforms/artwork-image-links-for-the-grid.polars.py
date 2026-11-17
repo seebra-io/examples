@@ -1,0 +1,6 @@
+# one official artwork per species (forms above 10000 have none)
+data.rows("pokemon")
+    .select(id = col("pokemon").struct.field("url").str.split("/").list.get(6).cast(Int64))
+    .filter(col("id") < 10000)
+    .sort("id")
+    .select(url = concat_str([lit("https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/"), col("id").cast(Utf8), lit(".png")]))

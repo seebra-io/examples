@@ -1,0 +1,10 @@
+{
+  "data/id": "3dd3cca5-8243-57c5-8575-7fa7c5d49b27",
+  "data/name": "Quarter-hours with price data",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "9c97fdfc-edc4-533e-aa4f-3e022483909a"],
+  "data/type": "json"
+}

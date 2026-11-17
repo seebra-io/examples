@@ -1,0 +1,16 @@
+{
+  "datasource/api-key-key": "api_key",
+  "datasource/auth-type": "none",
+  "datasource/headers": "{}",
+  "datasource/id": "b7a5146f-8014-5302-9cb0-bb4e3b8ff068",
+  "datasource/name": "adsb.lol (ADS-B)",
+  "datasource/node": {
+    "inputs": 1,
+    "node/x": 80,
+    "node/y": 800,
+    "outputs": 1
+  },
+  "datasource/params": "{}",
+  "datasource/type": "openapi",
+  "datasource/url": "https://api.adsb.lol/v2"
+}

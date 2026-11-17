@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/views-top-20.js"
+  },
+  "graph/id": "f4248f09-f584-5421-a548-27ca34f0291d",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Views, top 20",
+  "graph/node": {
+    "node/x": 1920,
+    "node/y": 80
+  },
+  "graph/parent": ["data/id", "1404604b-e300-5d12-a850-38a0e56f56fa"]
+}

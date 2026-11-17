@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/parse-single-thread-performance-specint-103.polars.py"
+  },
+  "transformation/data-child": ["data/id", "d4fa9ceb-9a25-558d-ab44-cf4deea2b4f4"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "f410be00-5476-59b5-a740-302a6384709e",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Parse single-thread performance (SpecINT × 10³)",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 800
+  },
+  "transformation/parent": ["data/id", "e4bf8c27-4126-5ca7-b81b-c0f31c2a01fd"],
+  "transformation/units": "{}"
+}

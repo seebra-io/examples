@@ -1,0 +1,10 @@
+{
+  "data/id": "3c157256-5296-5792-9005-286779065d51",
+  "data/name": "Frequency grid (1/112 per day) data",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "0e7836a2-511a-511e-82a5-aa0f246ca0f9"],
+  "data/type": "json"
+}

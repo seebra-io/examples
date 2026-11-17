@@ -1,0 +1,10 @@
+{
+  "data/id": "a6e8d884-0060-5e41-970a-45b68536577a",
+  "data/name": "Power per period: (Σ re)² + (Σ im)², per year data",
+  "data/node": {
+    "node/x": 2990,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "66d3f5e6-22a4-5670-b770-130250d8bc17"],
+  "data/type": "json"
+}

@@ -1,0 +1,10 @@
+{
+  "data/id": "de1d759a-a2c6-5119-81e0-73676b5294d6",
+  "data/name": "Homeworlds: population, size, gravity, and their characters' weight data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 800
+  },
+  "data/parent": ["transformation/id", "b170f294-3869-594b-a336-420a662d021e"],
+  "data/type": "json"
+}

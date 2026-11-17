@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/measurements-stage-and-discharge-per-field-visit.polars.py"
+  },
+  "transformation/data-child": ["data/id", "53b3944f-088d-5541-af4c-12295f8c0c00"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "30a4cdd4-83ba-52c4-96cf-2a565151e795",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Measurements: stage and discharge per field visit",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "b9cc133a-86b6-5559-8486-79f8a25fa4d5"],
+  "transformation/units": "{}"
+}

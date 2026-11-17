@@ -1,0 +1,1 @@
+SELECT userId, COUNT(*) AS posts, AVG(LENGTH(body)) AS avg_body_chars FROM data GROUP BY userId ORDER BY posts DESC

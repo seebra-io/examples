@@ -1,0 +1,10 @@
+{
+  "data/id": "37e83cf1-5cd5-5623-8c8d-b6e899f54259",
+  "data/name": "Perseverance images (camera, sol) data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 560
+  },
+  "data/parent": ["transformation/id", "079c38d2-fbcf-5a8d-be69-22504dade43f"],
+  "data/type": "json"
+}

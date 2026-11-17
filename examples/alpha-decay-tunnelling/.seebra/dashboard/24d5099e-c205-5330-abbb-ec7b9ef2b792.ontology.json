@@ -1,0 +1,159 @@
+{
+  "title": "Alpha decay and quantum tunnelling",
+  "summary": "Nuclides decay by β, α, fission or nucleon emission; an α particle escapes by tunnelling through the Coulomb barrier, which sets the half-life exponentially.",
+  "concepts": [
+    {
+      "cid": "c1",
+      "label": "Nuclide",
+      "kind": "entity",
+      "description": "An atomic nucleus with Z protons and N neutrons, in its ground state.",
+      "fields": [
+        "nuclide",
+        "z",
+        "n",
+        "a"
+      ],
+      "in_data": true,
+      "wikidata": "Q108149",
+      "children": [
+        {
+          "cid": "c2",
+          "label": "Half-life",
+          "kind": "measure",
+          "as": "property",
+          "description": "Time for half of a sample to decay (s).",
+          "fields": [
+            "half_life_s",
+            "log_t"
+          ],
+          "in_data": true,
+          "wikidata": "Q98118"
+        },
+        {
+          "cid": "c3",
+          "label": "Decay mode",
+          "kind": "category",
+          "as": "property",
+          "description": "β−, β+/EC, α, fission, p or n emission.",
+          "fields": [
+            "mode",
+            "decay"
+          ],
+          "in_data": true,
+          "children": [
+            {
+              "cid": "c4",
+              "label": "Alpha decay",
+              "kind": "event",
+              "as": "subtype",
+              "description": "Emission of a ⁴He nucleus.",
+              "fields": [
+                "q_alpha_kev"
+              ],
+              "in_data": true,
+              "wikidata": "Q179856"
+            },
+            {
+              "cid": "c5",
+              "label": "Proton emission",
+              "kind": "event",
+              "as": "subtype",
+              "description": "Also tunnels through a Coulomb barrier, with Z_α = 1.",
+              "fields": [],
+              "in_data": false
+            }
+          ]
+        },
+        {
+          "cid": "c6",
+          "label": "Binding energy per nucleon",
+          "kind": "measure",
+          "as": "property",
+          "description": "keV per nucleon; peaks near iron, so heavy nuclei gain energy by shedding α particles.",
+          "fields": [
+            "binding_kev"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c7",
+          "label": "Nucleon pairing",
+          "kind": "category",
+          "as": "property",
+          "description": "Even–even, odd A, odd–odd: unpaired nucleons hinder α decay.",
+          "fields": [
+            "parity"
+          ],
+          "in_data": true
+        }
+      ]
+    },
+    {
+      "cid": "c8",
+      "label": "Quantum tunnelling",
+      "kind": "event",
+      "description": "A particle crossing a barrier higher than its energy, with probability exp(−2G).",
+      "fields": [
+        "gamow_log10",
+        "eta",
+        "x"
+      ],
+      "in_data": true,
+      "wikidata": "Q14532",
+      "facts": [
+        {
+          "text": "Gamow, and independently Gurney and Condon, explained α decay by tunnelling in 1928.",
+          "source": "https://doi.org/10.1007/BF01343196"
+        }
+      ],
+      "children": [
+        {
+          "cid": "c9",
+          "label": "Coulomb barrier",
+          "kind": "measure",
+          "as": "part",
+          "description": "From the nuclear radius R to the turning point b = 2Z_d e²/(4πε₀Q).",
+          "fields": [
+            "r_fm",
+            "b_fm"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c10",
+          "label": "Preformation factor",
+          "kind": "measure",
+          "as": "part",
+          "description": "The chance an α cluster exists in the nucleus; not in this model.",
+          "fields": [],
+          "in_data": false
+        }
+      ]
+    },
+    {
+      "cid": "c11",
+      "label": "Geiger–Nuttall law",
+      "kind": "event",
+      "description": "log t½ is linear in Z/√Q for each element's isotopes.",
+      "fields": [
+        "gn_x"
+      ],
+      "in_data": true,
+      "wikidata": "Q1502346",
+      "facts": [
+        {
+          "text": "Geiger and Nuttall, 1911, Philosophical Magazine 22, 613.",
+          "source": "https://doi.org/10.1080/14786441008637156"
+        }
+      ]
+    },
+    {
+      "cid": "c12",
+      "label": "Decay chain",
+      "kind": "entity",
+      "description": "Successive decays from ²³⁸U, ²³⁵U or ²³²Th to lead.",
+      "fields": [],
+      "in_data": false
+    }
+  ]
+}

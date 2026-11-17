@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/least-squares-slopes-log-p-on-log-a-and-log-p2.polars.py"
+  },
+  "transformation/data-child": ["data/id", "25256e20-e0d4-506d-b309-5053c384744e"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "13bc5c1b-d44a-5bba-b5a3-c9edd544b852",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Least-squares slopes: log P on log a, and log P² on log a³/M★",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "da03da8d-2739-5ed3-9c84-3508becb4858"],
+  "transformation/units": "{}"
+}

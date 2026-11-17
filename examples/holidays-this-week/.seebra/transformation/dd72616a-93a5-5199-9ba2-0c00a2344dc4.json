@@ -1,0 +1,21 @@
+{
+  "transformation/content": {
+    "$file": "transforms/with-country-names.sql"
+  },
+  "transformation/data-child": ["data/id", "cf9687a4-2c1c-502b-a2da-7e6ca8af9231"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "dd72616a-93a5-5199-9ba2-0c00a2344dc4",
+  "transformation/inputs": [
+    ["data/id", "1ca1d49f-a3d9-5e91-a627-4d693f5c282e"]
+  ],
+  "transformation/language": "sql",
+  "transformation/name": "With country names",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "2d3603c9-91b8-5ec5-b3e1-5205214d8946"],
+  "transformation/units": "{}"
+}

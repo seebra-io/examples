@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "32c6ddae-a164-5787-951a-699da51e9a62"],
+  "query/datasource": ["datasource/id", "fbe300fc-ba7d-5c66-830d-15996b85679c"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "deee6177-1789-5b79-b026-f567bd808039",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Map now (latest snapshot)",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 80
+  },
+  "query/params": "{}",
+  "query/path": "/history/last",
+  "query/request-body": "",
+  "query/units": "{}"
+}

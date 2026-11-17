@@ -1,0 +1,10 @@
+{
+  "data/id": "c42e3e22-d167-50d7-855c-012a3e70f018",
+  "data/name": "Species, Norrbotten data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 560
+  },
+  "data/parent": ["transformation/id", "0ebef8c0-73f9-537b-99d1-0ec37bf7b44c"],
+  "data/type": "json"
+}

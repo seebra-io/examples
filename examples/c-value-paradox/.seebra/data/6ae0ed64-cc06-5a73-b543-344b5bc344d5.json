@@ -1,0 +1,10 @@
+{
+  "data/id": "6ae0ed64-cc06-5a73-b543-344b5bc344d5",
+  "data/name": "Plants (Viridiplantae): size and genes data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 800
+  },
+  "data/parent": ["transformation/id", "b89f61e9-b58a-54ca-b9db-3950d6e72488"],
+  "data/type": "json"
+}

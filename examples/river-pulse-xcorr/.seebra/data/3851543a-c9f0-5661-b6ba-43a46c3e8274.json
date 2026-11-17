@@ -1,0 +1,10 @@
+{
+  "data/id": "3851543a-c9f0-5661-b6ba-43a46c3e8274",
+  "data/name": "Lags 0–48 h data",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "a6551d83-17a8-5dbe-aae4-af5118d271c6"],
+  "data/type": "json"
+}

@@ -1,0 +1,122 @@
+{
+  "title": "Genome size and gene number",
+  "summary": "Gene count scales with genome size in prokaryotes and hardly at all in eukaryotes: the C-value paradox.",
+  "concepts": [
+    {
+      "cid": "c1",
+      "label": "Genome",
+      "kind": "entity",
+      "description": "A reference genome assembly at NCBI.",
+      "fields": [
+        "genomes.accession"
+      ],
+      "in_data": true,
+      "wikidata": "Q7020",
+      "children": [
+        {
+          "cid": "c2",
+          "label": "Genome size (C-value)",
+          "kind": "measure",
+          "as": "property",
+          "description": "Assembly length in Mb.",
+          "fields": [
+            "genomes.genome_mb"
+          ],
+          "in_data": true,
+          "wikidata": "Q1501473"
+        },
+        {
+          "cid": "c3",
+          "label": "Protein-coding gene",
+          "kind": "entity",
+          "as": "part",
+          "description": "Counted by the annotation.",
+          "fields": [
+            "genomes.protein_coding"
+          ],
+          "in_data": true,
+          "wikidata": "Q20747295"
+        },
+        {
+          "cid": "c4",
+          "label": "Gene density",
+          "kind": "measure",
+          "as": "property",
+          "description": "Protein-coding genes per Mb.",
+          "fields": [
+            "genomes.genes_per_mb"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c5",
+          "label": "Non-coding DNA",
+          "kind": "entity",
+          "as": "part",
+          "description": "Introns, repeats, transposable elements: what fills large genomes. Not measured here.",
+          "in_data": false,
+          "wikidata": "Q725444",
+          "children": [
+            {
+              "cid": "c6",
+              "label": "Transposable element",
+              "kind": "entity",
+              "as": "subtype",
+              "description": "Self-copying DNA; most of maize's and wheat's genome.",
+              "in_data": false,
+              "wikidata": "Q201607"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cid": "c7",
+      "label": "Domain of life",
+      "kind": "category",
+      "description": "Prokaryotes (bacteria, archaea) against eukaryotes (fungi, plants, animals).",
+      "fields": [
+        "genomes.domain",
+        "genomes.grp"
+      ],
+      "in_data": true
+    },
+    {
+      "cid": "c8",
+      "label": "C-value paradox",
+      "kind": "concept",
+      "description": "Genome size does not track organismal complexity or gene number.",
+      "fields": [
+        "fits.b"
+      ],
+      "in_data": true,
+      "wikidata": "Q1026196",
+      "facts": [
+        {
+          "text": "Named by C. A. Thomas in 1971; the C-value enigma (Gregory 2001) reframes it as a question about non-coding DNA.",
+          "source": "https://en.wikipedia.org/wiki/C-value"
+        }
+      ],
+      "children": [
+        {
+          "cid": "c9",
+          "label": "Allometric scaling exponent",
+          "kind": "measure",
+          "as": "property",
+          "description": "b in genes = a · size^b.",
+          "fields": [
+            "fits.b"
+          ],
+          "in_data": true
+        }
+      ]
+    },
+    {
+      "cid": "c10",
+      "label": "Population size and drift",
+      "kind": "concept",
+      "description": "Lynch's hypothesis: small populations cannot purge slightly harmful DNA, so genomes bloat.",
+      "in_data": false
+    }
+  ]
+}

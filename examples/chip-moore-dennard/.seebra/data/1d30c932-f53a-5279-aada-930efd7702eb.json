@@ -1,0 +1,10 @@
+{
+  "data/id": "1d30c932-f53a-5279-aada-930efd7702eb",
+  "data/name": "logical cores, per processor (50yrs/cores.dat) data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 1040
+  },
+  "data/parent": ["query/id", "7337c92d-37d2-5797-8f5e-da1cb5748e14"],
+  "data/type": "json"
+}

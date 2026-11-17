@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/the-day-in-numbers.polars.py"
+  },
+  "transformation/data-child": ["data/id", "9fe89beb-acc4-5047-889b-9bd380c84aa0"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "4b1a1be0-1850-50a2-beb3-2c711dc56be1",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "The day in numbers",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 800
+  },
+  "transformation/parent": ["data/id", "6e8b59ff-56f7-5662-89f0-01749a9a91fb"],
+  "transformation/units": "{}"
+}

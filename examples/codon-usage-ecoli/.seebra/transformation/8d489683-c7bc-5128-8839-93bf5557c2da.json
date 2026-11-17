@@ -1,0 +1,23 @@
+{
+  "transformation/content": {
+    "$file": "transforms/genes-coding-sequence-and-protein.sql"
+  },
+  "transformation/data-child": ["data/id", "be33ddfb-90d4-5255-8518-4d20ee8545af"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "8d489683-c7bc-5128-8839-93bf5557c2da",
+  "transformation/inputs": [
+    ["data/id", "ab9f2657-0b91-5a6f-8c04-a19830a34a1d"],
+    ["data/id", "f968b57f-9420-5765-887e-fdf695861317"],
+    ["data/id", "bc686a68-db6e-567d-bc79-f6f606f788eb"]
+  ],
+  "transformation/language": "sql",
+  "transformation/name": "Genes: coding sequence and protein",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "77ec4c47-7d35-5b66-b376-36acf32c903b"],
+  "transformation/units": "{}"
+}

@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "b44adc86-add3-55e7-a26a-b419ce13a6ab"],
+  "query/datasource": ["datasource/id", "c281a928-388c-51c0-b016-37aa315f21d9"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "aa7bcbb3-c8d5-5e8e-861f-b5a025c525db",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Materials with a measured Young's modulus (P5480) and density (P2054), SI-normalized",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 80
+  },
+  "query/params": "{\"query\":\"SELECT ?x ?xLabel ?xDescription ?E ?rho WHERE { ?x p:P5480/psn:P5480/wikibase:quantityAmount ?E . ?x p:P2054/psn:P2054/wikibase:quantityAmount ?rho . SERVICE wikibase:label { bd:serviceParam wikibase:language \\\"en\\\". } }\",\"format\":\"json\"}",
+  "query/path": "/sparql",
+  "query/request-body": "",
+  "query/units": "{}"
+}

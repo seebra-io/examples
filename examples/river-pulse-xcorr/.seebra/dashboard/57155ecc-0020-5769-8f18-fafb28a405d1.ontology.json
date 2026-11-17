@@ -1,0 +1,149 @@
+{
+  "title": "Time-delay estimation on a river",
+  "summary": "Two river gauges as two noisy copies of one travelling signal: the dam's release schedule, the wave that carries it, and the cross-correlation that measures its delay.",
+  "concepts": [
+    {
+      "cid": "c1",
+      "label": "Discharge",
+      "kind": "measure",
+      "description": "Volume of water passing a gauge per second (m³/s).",
+      "fields": [
+        "q_up",
+        "q_down"
+      ],
+      "in_data": true,
+      "wikidata": "Q8737769",
+      "facts": [
+        {
+          "text": "USGS publishes 15-minute discharge for its stream gauges through the Water Data OGC API.",
+          "source": "https://api.waterdata.usgs.gov/ogcapi/v0/"
+        }
+      ],
+      "children": [
+        {
+          "cid": "c2",
+          "label": "Stream gauge",
+          "kind": "place",
+          "as": "property",
+          "description": "A measuring station: Lees Ferry (09380000) and near Grand Canyon (09402500).",
+          "fields": [
+            "q_up",
+            "q_down"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c3",
+          "label": "Hydropeaking",
+          "kind": "event",
+          "as": "subtype",
+          "description": "Daily release swings from a hydropower dam following electricity demand.",
+          "fields": [
+            "up_swing"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c4",
+          "label": "Tributary inflow",
+          "kind": "measure",
+          "as": "part",
+          "description": "Water added between the gauges (Paria, Little Colorado), measured at their own gauges.",
+          "fields": [
+            "gained"
+          ],
+          "in_data": false
+        }
+      ]
+    },
+    {
+      "cid": "c5",
+      "label": "Flood wave",
+      "kind": "event",
+      "description": "The travelling change in flow, which moves at its celerity rather than at the water's speed.",
+      "in_data": true,
+      "children": [
+        {
+          "cid": "c6",
+          "label": "Travel time",
+          "kind": "measure",
+          "as": "property",
+          "description": "Delay of the pulse between gauges.",
+          "fields": [
+            "best_lag_h"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c7",
+          "label": "Wave celerity",
+          "kind": "measure",
+          "as": "property",
+          "description": "Distance over travel time.",
+          "fields": [
+            "celerity_km_h",
+            "celerity_m_s"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c8",
+          "label": "Wave attenuation",
+          "kind": "measure",
+          "as": "property",
+          "description": "How much the daily swing shrinks downstream.",
+          "fields": [
+            "swing_ratio"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c9",
+          "label": "Water velocity",
+          "kind": "measure",
+          "as": "property",
+          "description": "Mean speed of the water itself, from USGS field measurements; slower than the wave.",
+          "in_data": false
+        }
+      ]
+    },
+    {
+      "cid": "c10",
+      "label": "Cross-correlation",
+      "kind": "measure",
+      "description": "Correlation of one signal with another shifted by a lag.",
+      "fields": [
+        "r_flow",
+        "r_ramp",
+        "lag_h"
+      ],
+      "in_data": true,
+      "wikidata": "Q1141506",
+      "children": [
+        {
+          "cid": "c11",
+          "label": "Delay ambiguity",
+          "kind": "measure",
+          "as": "property",
+          "description": "A periodic signal fixes a delay only modulo its period: near-equal peaks one period apart.",
+          "fields": [
+            "runner_up_lag_h",
+            "margin"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c12",
+          "label": "Whitening",
+          "kind": "measure",
+          "as": "property",
+          "description": "Correlating changes instead of levels to sharpen the peak.",
+          "fields": [
+            "r_ramp"
+          ],
+          "in_data": true
+        }
+      ]
+    }
+  ]
+}

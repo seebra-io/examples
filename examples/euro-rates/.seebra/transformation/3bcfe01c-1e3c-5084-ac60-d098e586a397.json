@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/indexed-to-100.polars.py"
+  },
+  "transformation/data-child": ["data/id", "dd1aefc5-18da-58d0-834b-5b1d08e75fbe"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "3bcfe01c-1e3c-5084-ac60-d098e586a397",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Indexed to 100",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "f7c398f9-b29e-541e-b813-fd176d10a716"],
+  "transformation/units": "{}"
+}

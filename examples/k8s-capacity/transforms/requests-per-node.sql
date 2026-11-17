@@ -1,0 +1,1 @@
+SELECT node, COUNT(*) AS pods_used, SUM(cpu_req) AS cpu_req, SUM(mem_req_gib) AS mem_req_gib, SUM(without_cpu_request) AS containers_without_cpu_request FROM data GROUP BY node ORDER BY node

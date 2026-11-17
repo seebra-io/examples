@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/resolution-is-the-sideband-separate.polars.py"
+  },
+  "transformation/data-child": ["data/id", "ef7c52b0-9a0e-5f3d-ae9f-1a54f2b3c05d"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "def249d3-016a-5b1b-8982-3f1049b9dc57",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Resolution: is the sideband separate?",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 2380,
+    "node/y": 560
+  },
+  "transformation/parent": ["data/id", "c1077a10-ff4c-5482-b111-355ec6761b4b"],
+  "transformation/units": "{}"
+}

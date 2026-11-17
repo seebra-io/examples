@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "b4c95036-6123-59c3-b2e2-bebae986b4c5"],
+  "query/datasource": ["datasource/id", "46968e62-93f5-59df-8ceb-e1d6f86b1ef7"],
+  "query/dynamic?": false,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "143d8f2e-11f3-53ee-a337-40bae06668e8",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Export guide: 22 platforms",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 80
+  },
+  "query/params": "{}",
+  "query/path": "/personal-exports.json",
+  "query/request-body": "",
+  "query/units": "{}"
+}

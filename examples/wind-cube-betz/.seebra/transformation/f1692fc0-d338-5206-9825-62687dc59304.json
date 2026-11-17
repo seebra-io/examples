@@ -1,0 +1,21 @@
+{
+  "transformation/content": {
+    "$file": "transforms/output-against-the-power-in-the-wind.polars.py"
+  },
+  "transformation/data-child": ["data/id", "b67bf7f9-f413-5c91-a626-8c2ad1ca715b"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "f1692fc0-d338-5206-9825-62687dc59304",
+  "transformation/inputs": [
+    ["data/id", "785f8793-2003-5f77-a603-bed5b92ee393"]
+  ],
+  "transformation/language": "polars",
+  "transformation/name": "Output against the power in the wind",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "c55a3497-2c29-58e9-a6a5-3576867819cc"],
+  "transformation/units": "{}"
+}

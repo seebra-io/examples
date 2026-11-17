@@ -1,0 +1,181 @@
+{
+  "title": "Spectra of electricity demand",
+  "summary": "How the Fourier transform of a real, finite signal shows its cycles, how multiplying cycles creates sidebands, and how the record length and window decide what can be seen.",
+  "concepts": [
+    {
+      "cid": "c1",
+      "label": "Electricity load",
+      "kind": "measure",
+      "description": "Germany's total consumption from the public grid, GW, hourly mean of quarter-hours.",
+      "fields": [
+        "load_gw",
+        "x"
+      ],
+      "in_data": true,
+      "facts": [
+        {
+          "text": "Energy-Charts publishes ENTSO-E load per country at 15-minute resolution.",
+          "source": "https://api.energy-charts.info/"
+        }
+      ],
+      "children": [
+        {
+          "cid": "c2",
+          "label": "Daily cycle",
+          "kind": "event",
+          "as": "part",
+          "description": "The 24-hour waveform of demand: night trough, morning ramp, midday plateau, evening peak.",
+          "fields": [
+            "local_hour"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c3",
+          "label": "Weekly envelope",
+          "kind": "event",
+          "as": "part",
+          "description": "The weekday/Saturday/Sunday change in the height of the daily cycle.",
+          "fields": [
+            "day_type",
+            "mean_gw",
+            "swing_gw"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c4",
+          "label": "Holidays and weather",
+          "kind": "event",
+          "as": "part",
+          "description": "Irregular changes (public holidays, heat, cold) that are neither daily nor weekly.",
+          "in_data": false
+        }
+      ]
+    },
+    {
+      "cid": "c5",
+      "label": "Fourier spectrum",
+      "kind": "measure",
+      "description": "The amplitude of each frequency in the signal, from a discrete Fourier transform.",
+      "fields": [
+        "f_cpd",
+        "amplitude_gw",
+        "amplitude_db"
+      ],
+      "in_data": true,
+      "wikidata": "Q6520159",
+      "facts": [
+        {
+          "text": "The DFT of N samples resolves frequencies 1/(N·Δt) apart.",
+          "source": "https://en.wikipedia.org/wiki/Discrete_Fourier_transform"
+        }
+      ],
+      "children": [
+        {
+          "cid": "c6",
+          "label": "Harmonics",
+          "kind": "measure",
+          "as": "part",
+          "description": "Lines at whole multiples of a cycle's frequency (1, 2, 3, 4 per day) that describe its non-sinusoidal shape.",
+          "fields": [
+            "k",
+            "role"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c7",
+          "label": "Sidebands",
+          "kind": "measure",
+          "as": "part",
+          "description": "Lines at k ± j/7 per day, the weekly envelope shifted to each daily harmonic.",
+          "fields": [
+            "label",
+            "j"
+          ],
+          "in_data": true,
+          "facts": [
+            {
+              "text": "The modulation theorem: multiplying by cos(2πf₀t) shifts a spectrum by ±f₀.",
+              "source": "https://en.wikipedia.org/wiki/Convolution_theorem"
+            }
+          ]
+        },
+        {
+          "cid": "c8",
+          "label": "Spectral leakage",
+          "kind": "measure",
+          "as": "property",
+          "description": "Power spread away from a line into side lobes, by the finite record and its window.",
+          "fields": [
+            "share_between_pct",
+            "median_between_db"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c13",
+          "label": "Frequency resolution",
+          "kind": "measure",
+          "as": "property",
+          "description": "The smallest separation 1/T at which two lines can be told apart in a record of length T.",
+          "fields": [
+            "resolution_cpd",
+            "dip_ratio",
+            "resolved"
+          ],
+          "in_data": true
+        }
+      ]
+    },
+    {
+      "cid": "c9",
+      "label": "Window function",
+      "kind": "entity",
+      "description": "A taper applied before the Fourier transform: it trades a wider main lobe for lower side lobes.",
+      "fields": [
+        "variant",
+        "w"
+      ],
+      "in_data": true,
+      "facts": [
+        {
+          "text": "The Hann window's first side lobe is −31.5 dB, the rectangular window's −13.3 dB.",
+          "source": "https://en.wikipedia.org/wiki/Window_function"
+        }
+      ],
+      "children": [
+        {
+          "cid": "c10",
+          "label": "Rectangular window",
+          "kind": "entity",
+          "as": "subtype",
+          "description": "No taper: the narrowest lines, the highest side lobes.",
+          "in_data": true
+        },
+        {
+          "cid": "c11",
+          "label": "Hann window",
+          "kind": "entity",
+          "as": "subtype",
+          "description": "A raised cosine over the record.",
+          "in_data": true
+        }
+      ]
+    },
+    {
+      "cid": "c12",
+      "label": "Amplitude modulation",
+      "kind": "entity",
+      "description": "A carrier whose amplitude follows a slower signal; in radio the sidebands carry the message.",
+      "in_data": false,
+      "facts": [
+        {
+          "text": "An AM broadcast's sidebands sit at the carrier ± the audio frequencies.",
+          "source": "https://en.wikipedia.org/wiki/Amplitude_modulation"
+        }
+      ]
+    }
+  ]
+}

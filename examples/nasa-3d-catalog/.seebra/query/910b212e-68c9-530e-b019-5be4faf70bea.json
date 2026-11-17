@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "37a577cc-3b82-5e96-a844-f778d6b33c56"],
+  "query/datasource": ["datasource/id", "c90928c6-0797-577c-a6b2-d537b9154b9b"],
+  "query/dynamic?": false,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "910b212e-68c9-530e-b019-5be4faf70bea",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "STL files (3D printing)",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 1040
+  },
+  "query/params": "{\"mime_type\":\"model/stl\",\"per_page\":\"100\",\"orderby\":\"date\",\"order\":\"desc\",\"_fields\":\"id,date,title,source_url,media_details\"}",
+  "query/path": "/media",
+  "query/request-body": "",
+  "query/units": "{}"
+}

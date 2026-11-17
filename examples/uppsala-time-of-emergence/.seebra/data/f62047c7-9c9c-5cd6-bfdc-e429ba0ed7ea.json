@@ -1,0 +1,11 @@
+{
+  "data/id": "f62047c7-9c9c-5cd6-bfdc-e429ba0ed7ea",
+  "data/name": "Signal-to-noise per season",
+  "data/node": {
+    "node/x": 2070,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "f17911e7-0ec2-58c7-bb41-f881829e0086"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

@@ -1,0 +1,18 @@
+{
+  "study/hypothesis": "III-V and II-VI compounds have a direct gap more often than the rest, which is why light emitters are made of them and not of silicon.",
+  "study/id": "6cc25f70-b39a-5395-b97f-6f7ee94fdd61",
+  "study/name": "Are III-V and II-VI semiconductors more often direct-gap?",
+  "study/node": {
+    "node/x": 540,
+    "node/y": 560
+  },
+  "study/plan": {
+    "$file": ".seebra/study/6cc25f70-b39a-5395-b97f-6f7ee94fdd61.plan.json",
+    "$json": true
+  },
+  "study/question": "Among stable elements and binary compounds with a band gap, is the share with a direct gap higher for III-V and II-VI compounds than for the rest (group IV elements, IV-IV, I-VII, IV-VI and other compounds)?",
+  "study/state": {
+    "$file": ".seebra/study/6cc25f70-b39a-5395-b97f-6f7ee94fdd61.state.json",
+    "$json": true
+  }
+}

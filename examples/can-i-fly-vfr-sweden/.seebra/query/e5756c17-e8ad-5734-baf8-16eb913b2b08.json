@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "1c16f81d-e237-5ee0-8ea2-a9af6e328d8c"],
+  "query/datasource": ["datasource/id", "db19687b-ca05-554c-9bc2-13682ec0fc93"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "e5756c17-e8ad-5734-baf8-16eb913b2b08",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "SMHI forecast at ESSA (59.65°N 17.92°E)",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 800
+  },
+  "query/params": "{}",
+  "query/path": "/geotype/point/lon/17.92/lat/59.65/data.json",
+  "query/request-body": "",
+  "query/units": "{}"
+}

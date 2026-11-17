@@ -1,0 +1,199 @@
+{
+  "title": "Kepler's third law across exoplanets",
+  "question": "Per planet in the NASA Exoplanet Archive composite table: is log₁₀ P² a straight line of slope 1 in log₁₀(a³/M★), and how far does each planet sit from it?",
+  "review": {
+    "well_formed": false,
+    "issues": [
+      {
+        "kind": "concept",
+        "text": "For many transiting planets the archive computed a from P and M★ with Kepler's law, so those rows can't test it.",
+        "fix": "Report the share that agrees to <1% (log_ratio) and repeat the fit on the rest, and per discovery method."
+      },
+      {
+        "kind": "scope",
+        "text": "Imaging and microlensing planets, whose a is measured without the law, are few (about 40).",
+        "fix": "Read their spread as an upper bound and widen with the per-reference ps table."
+      }
+    ],
+    "alternatives": [
+      {
+        "question": "Is the slope of log P² on log(a³/M★) 1 for planets whose a disagrees with Kepler's law by more than 1%?",
+        "why": "Drops the rows computed with the law.",
+        "ready": true
+      },
+      {
+        "question": "Do the stellar masses from the orbit (m_kepler) of multi-planet systems agree with the archive's M★ within 10%?",
+        "why": "Drills into systems, where several orbits weigh one star.",
+        "ready": true
+      },
+      {
+        "question": "Does the stellar density from transits, (a/R★)³/P², match M★/R★³?",
+        "why": "Expands to a law-free measurement of a/R★ from the light curve.",
+        "ready": false
+      }
+    ]
+  },
+  "hypotheses": [
+    {
+      "id": "H1",
+      "statement": "log₁₀ P² rises with log₁₀(a³/M★) with slope 1.",
+      "null": "The slope differs from 1 (the period does not follow a³/M★).",
+      "outcome": {
+        "concept": "Orbital period squared",
+        "field": "log_p2"
+      },
+      "predictor": {
+        "concept": "Semi-major axis cubed over star mass",
+        "field": "log_a3_m"
+      },
+      "subgroup": null,
+      "direction": "equal",
+      "test": {
+        "method": "regression",
+        "link": null,
+        "outcome_mode": "mean",
+        "outcome_field": "log_p2",
+        "predictor_field": "log_a3_m",
+        "exposure_field": null,
+        "versus": null,
+        "against": 1
+      }
+    },
+    {
+      "id": "H2",
+      "statement": "Without dividing by M★, log P against log a has slope 1.5 only if the stars' masses don't change with a.",
+      "null": "The raw slope is 1.5.",
+      "outcome": {
+        "concept": "Orbital period",
+        "field": "log_p"
+      },
+      "predictor": {
+        "concept": "Semi-major axis",
+        "field": "log_a"
+      },
+      "subgroup": null,
+      "direction": "equal",
+      "test": {
+        "method": "regression",
+        "link": null,
+        "outcome_mode": "mean",
+        "outcome_field": "log_p",
+        "predictor_field": "log_a",
+        "exposure_field": null,
+        "versus": null,
+        "against": 1.5
+      }
+    }
+  ],
+  "concepts": [
+    {
+      "label": "Planet",
+      "kind": "entity",
+      "description": "A confirmed exoplanet, one row of pscomppars.",
+      "why": "The unit of the study.",
+      "have": true,
+      "categories": [],
+      "field": "pl_name",
+      "strategy": null
+    },
+    {
+      "label": "Orbital period",
+      "kind": "measure",
+      "description": "P, days in the archive, years here.",
+      "why": "The outcome.",
+      "have": true,
+      "categories": [],
+      "field": "period_yr",
+      "strategy": null
+    },
+    {
+      "label": "Semi-major axis",
+      "kind": "measure",
+      "description": "a in AU.",
+      "why": "The predictor, cubed.",
+      "have": true,
+      "categories": [],
+      "field": "a_au",
+      "strategy": null
+    },
+    {
+      "label": "Stellar mass",
+      "kind": "measure",
+      "description": "M★ in solar masses, from the star's spectrum and stellar models.",
+      "why": "Sets the orbital speed.",
+      "have": true,
+      "categories": [],
+      "field": "star_msun",
+      "strategy": null
+    },
+    {
+      "label": "Dynamical mass",
+      "kind": "measure",
+      "description": "a³/P²: the star's mass as the orbit weighs it.",
+      "why": "Compares the law with the catalogue.",
+      "have": false,
+      "categories": [],
+      "field": "m_kepler",
+      "strategy": {
+        "how": "derive",
+        "detail": "m_kepler = a_au³ / period_yr²"
+      }
+    },
+    {
+      "label": "Discovery method",
+      "kind": "category",
+      "description": "Transit, radial velocity, imaging, microlensing, ...",
+      "why": "Decides whether a was measured or computed.",
+      "have": true,
+      "categories": [],
+      "field": "discoverymethod",
+      "strategy": null
+    }
+  ],
+  "data": [
+    {
+      "concept": "Per-reference orbital solutions",
+      "request": "The ps table's rows per planet and reference (default_flag 0 and 1), with pl_orbsmax, st_mass and their reference links",
+      "source": "NASA Exoplanet Archive TAP, table ps",
+      "why": "To separate the papers whose a is computed from the law."
+    }
+  ],
+  "links": [],
+  "method": {
+    "id": "regression",
+    "summary": "A straight line of log P² on log(a³/M★) with a weak prior; the posterior of the slope against 1."
+  },
+  "steps": [
+    {
+      "kind": "data",
+      "title": "Planets from pscomppars",
+      "detail": "pl_orbper, pl_orbsmax, st_mass for every planet that has all three."
+    },
+    {
+      "kind": "concept",
+      "title": "Derive the dynamical mass",
+      "detail": "m_kepler = a³/P² and log_ratio = log₁₀(m_kepler/star_msun)."
+    },
+    {
+      "kind": "categorise",
+      "title": "Measured or computed a",
+      "detail": "|log_ratio| < 0.0043 marks rows whose a was likely computed from P and M★."
+    },
+    {
+      "kind": "method",
+      "title": "Fit both lines",
+      "detail": "log_p on log_a (expect 1.5 only for equal stars) and log_p2 on log_a3_m (expect 1)."
+    },
+    {
+      "kind": "decide",
+      "title": "Slope against 1",
+      "detail": "On all planets and on those with |log_ratio| ≥ 0.0043."
+    }
+  ],
+  "caveats": [
+    "About half the semi-major axes were computed with the law being tested.",
+    "Composite rows mix references: P, a and M★ may come from different papers.",
+    "The planet's mass is neglected; for brown-dwarf companions it is a few percent of M★.",
+    "Projected separations (imaging) are lower bounds on a."
+  ]
+}

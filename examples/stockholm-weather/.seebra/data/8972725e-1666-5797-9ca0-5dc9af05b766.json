@@ -1,0 +1,10 @@
+{
+  "data/id": "8972725e-1666-5797-9ca0-5dc9af05b766",
+  "data/name": "Daily mean temperature 1991–2020 data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 320
+  },
+  "data/parent": ["query/id", "362c97b2-65c0-5977-9327-15b69af417a8"],
+  "data/type": "json"
+}

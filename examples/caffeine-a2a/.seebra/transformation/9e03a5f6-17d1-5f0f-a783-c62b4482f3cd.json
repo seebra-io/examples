@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/ligand-atoms-caffeine-in-two-orientations.polars.py"
+  },
+  "transformation/data-child": ["data/id", "82748b79-0218-50bb-9cb2-2d2b05dd2fe8"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "9e03a5f6-17d1-5f0f-a783-c62b4482f3cd",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Ligand atoms (caffeine in two orientations, adenosine)",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "37db650b-813f-5fd1-8b59-46bcc72da071"],
+  "transformation/units": "{}"
+}

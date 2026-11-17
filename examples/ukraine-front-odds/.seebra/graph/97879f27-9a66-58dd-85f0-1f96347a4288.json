@@ -1,0 +1,19 @@
+{
+  "graph/content": {
+    "$file": "graphs/front-forces-and-recent-changes-on-the-terrain.js"
+  },
+  "graph/id": "97879f27-9a66-58dd-85f0-1f96347a4288",
+  "graph/inputs": [
+    ["data/id", "4a40a0dd-8835-52eb-b63f-903a70054ff5"],
+    ["data/id", "33b3f2a0-616b-52c9-84a9-50311383f4ce"],
+    ["data/id", "df2e4791-2070-50a3-9c50-6c21c3ec865a"],
+    ["data/id", "9c9239a2-ea3f-5728-96c7-de58d43c5b6a"]
+  ],
+  "graph/language": "javascript",
+  "graph/name": "Front, forces and recent changes on the terrain",
+  "graph/node": {
+    "node/x": 1460,
+    "node/y": 800
+  },
+  "graph/parent": ["data/id", "27d4d850-dc2f-5a36-bd19-3054b9214593"]
+}

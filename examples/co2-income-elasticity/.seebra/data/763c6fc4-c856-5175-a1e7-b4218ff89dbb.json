@@ -1,0 +1,10 @@
+{
+  "data/id": "763c6fc4-c856-5175-a1e7-b4218ff89dbb",
+  "data/name": "Population, latest data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 800
+  },
+  "data/parent": ["query/id", "0803fe23-50ec-56b9-9b4a-fd4eeb8edcde"],
+  "data/type": "json"
+}

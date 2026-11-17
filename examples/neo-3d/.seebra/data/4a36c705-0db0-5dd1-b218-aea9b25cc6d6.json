@@ -1,0 +1,10 @@
+{
+  "data/id": "4a36c705-0db0-5dd1-b218-aea9b25cc6d6",
+  "data/name": "Estimated flyby paths (two-body, ±4 days) data",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "ad6ebed8-91a1-58ad-8305-8bc41d38b163"],
+  "data/type": "json"
+}

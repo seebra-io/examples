@@ -1,0 +1,18 @@
+{
+  "study/hypothesis": "The rate of long frames per second while the canvas moves exceeds the rate while it stands still.",
+  "study/id": "da7c6717-e732-5612-8efe-5602ce6dc2c7",
+  "study/name": "Do pans cause the long frames?",
+  "study/node": {
+    "node/x": 540,
+    "node/y": 560
+  },
+  "study/plan": {
+    "$file": ".seebra/study/da7c6717-e732-5612-8efe-5602ce6dc2c7.plan.json",
+    "$json": true
+  },
+  "study/question": "In this session, are long frames more frequent while the canvas moves than while it stands still, and are the scripts in them Seebra's own?",
+  "study/state": {
+    "$file": ".seebra/study/da7c6717-e732-5612-8efe-5602ce6dc2c7.state.json",
+    "$json": true
+  }
+}

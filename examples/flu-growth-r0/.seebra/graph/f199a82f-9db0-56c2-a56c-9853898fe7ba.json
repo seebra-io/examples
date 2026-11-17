@@ -1,0 +1,16 @@
+{
+  "graph/content": {
+    "$file": "graphs/seasons-on-a-log-scale-exponential-growth-is-a.js"
+  },
+  "graph/id": "f199a82f-9db0-56c2-a56c-9853898fe7ba",
+  "graph/inputs": [
+    ["data/id", "8e703752-35a9-5b55-8c25-1559e2f76733"]
+  ],
+  "graph/language": "javascript",
+  "graph/name": "Seasons on a log scale: exponential growth is a straight line",
+  "graph/node": {
+    "node/x": 1460,
+    "node/y": 320
+  },
+  "graph/parent": ["data/id", "5eb5bc5d-e94e-552c-8d15-85480f85ab4e"]
+}

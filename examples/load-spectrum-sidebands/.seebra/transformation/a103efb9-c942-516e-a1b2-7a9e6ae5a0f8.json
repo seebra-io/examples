@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/three-windows.sql"
+  },
+  "transformation/data-child": ["data/id", "8c523981-fdc3-5c3e-9ebe-df298d579ec9"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "a103efb9-c942-516e-a1b2-7a9e6ae5a0f8",
+  "transformation/inputs": [],
+  "transformation/language": "sql",
+  "transformation/name": "Three windows",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "db471de8-4203-5cef-bf4b-e21489e39cdf"],
+  "transformation/units": "{}"
+}

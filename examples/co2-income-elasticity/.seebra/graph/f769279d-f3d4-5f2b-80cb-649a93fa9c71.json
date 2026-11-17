@@ -1,0 +1,17 @@
+{
+  "graph/content": {
+    "$file": "graphs/within-countries-over-time-not-the-cross-country.js"
+  },
+  "graph/id": "f769279d-f3d4-5f2b-80cb-649a93fa9c71",
+  "graph/inputs": [
+    ["data/id", "4ea62897-918f-5442-8a24-22c454ce130c"],
+    ["data/id", "33245d82-55c7-5b65-9495-dab6fe418a93"]
+  ],
+  "graph/language": "javascript",
+  "graph/name": "Within countries over time: not the cross-country slope",
+  "graph/node": {
+    "node/x": 1460,
+    "node/y": 560
+  },
+  "graph/parent": ["data/id", "3abf8019-6730-5d30-b975-437423846072"]
+}

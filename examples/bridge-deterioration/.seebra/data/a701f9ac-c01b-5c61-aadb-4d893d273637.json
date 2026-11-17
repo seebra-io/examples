@@ -1,0 +1,11 @@
+{
+  "data/id": "a701f9ac-c01b-5c61-aadb-4d893d273637",
+  "data/name": "Age at which half the bridges are below each rating",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "e15d8b8a-fa1d-5039-b77d-1e972113746b"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

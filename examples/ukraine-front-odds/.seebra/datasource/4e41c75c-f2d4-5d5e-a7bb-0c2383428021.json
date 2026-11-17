@@ -1,0 +1,16 @@
+{
+  "datasource/api-key-key": "api_key",
+  "datasource/auth-type": "none",
+  "datasource/headers": "{}",
+  "datasource/id": "4e41c75c-f2d4-5d5e-a7bb-0c2383428021",
+  "datasource/name": "UN News (RSS)",
+  "datasource/node": {
+    "inputs": 1,
+    "node/x": 80,
+    "node/y": 1280,
+    "outputs": 1
+  },
+  "datasource/params": "{}",
+  "datasource/type": "openapi",
+  "datasource/url": "https://news.un.org/feed/subscribe/en/news/region"
+}

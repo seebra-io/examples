@@ -1,0 +1,35 @@
+{
+  "dashboard/id": "7cde96e8-d43a-5f7d-bb3a-260a7942bbe6",
+  "datas": [
+    ["data/id", "ffeb3f9d-67e0-5628-a605-f0486181d7ee"],
+    ["data/id", "f7c398f9-b29e-541e-b813-fd176d10a716"],
+    ["data/id", "dd1aefc5-18da-58d0-834b-5b1d08e75fbe"],
+    ["data/id", "8905005d-f6f8-5c6a-a160-da9496b79583"],
+    ["data/id", "a015ea91-18f5-5aab-b790-4b7ab96c084e"],
+    ["data/id", "92844abc-ebd6-5a22-ae99-44e75cc71efd"]
+  ],
+  "datasources": [
+    ["datasource/id", "e0a6b917-a501-5fec-b0a8-f52feb399f56"]
+  ],
+  "description": "European Central Bank reference rates (via Frankfurter) since January 2025: each currency indexed to 100 at the start, so you can see which gained or lost against the euro, with the change, low and high per currency. Statistics: daily log returns (the change in the log of the rate, which add up over days) and their standard deviation, the volatility, per month and annualised (× √252), so a calm currency and a jumpy one can be told apart even when they end at the same place. ECB publishes once per working day around 16:00 CET; a month has only about 21 returns.",
+  "graphs": [
+    ["graph/id", "37f7fd30-0369-561d-af4c-2ffe6aa2904d"],
+    ["graph/id", "881d0ca8-06c1-5983-a182-7294296e24b9"]
+  ],
+  "grids": [],
+  "name": "The euro against seven currencies",
+  "queries": [
+    ["query/id", "254b772d-0f26-52e2-8020-e38740c7052c"]
+  ],
+  "studies": [],
+  "tables": [],
+  "texts": [],
+  "timers": [],
+  "transformations": [
+    ["transformation/id", "28e4f096-7ead-5937-b3a2-69dc40881d08"],
+    ["transformation/id", "3bcfe01c-1e3c-5084-ac60-d098e586a397"],
+    ["transformation/id", "a2a58746-421b-5d54-87a1-4ee49a4a937f"],
+    ["transformation/id", "74715c4c-7d14-5518-965e-293a77bdc6c6"],
+    ["transformation/id", "8d3b228d-dde7-513c-b3e8-424e2b845847"]
+  ]
+}

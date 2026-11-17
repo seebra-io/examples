@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/warnings-per-reason.js"
+  },
+  "graph/id": "a19fc9d5-0636-51c8-9709-9ff0fe863d8a",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Warnings per reason",
+  "graph/node": {
+    "node/x": 1920,
+    "node/y": 320
+  },
+  "graph/parent": ["data/id", "bcedfbd1-053f-5821-a795-794a9458f9ae"]
+}

@@ -1,0 +1,11 @@
+{
+  "data/id": "b3a5af03-8008-55ee-80d5-a3936af74084",
+  "data/name": "Periodogram peaks",
+  "data/node": {
+    "node/x": 3450,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "8da24039-c157-520e-9bab-34dd4539f7bd"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/rating-distribution-per-5-year-age-band.polars.py"
+  },
+  "transformation/data-child": ["data/id", "f79a1049-8ff9-5a2f-8d0c-9b200eea121b"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "c05d16eb-0339-548a-9824-f3836c57623e",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Rating distribution per 5-year age band",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "5e280f12-51cf-5097-926f-c9c13c6bf185"],
+  "transformation/units": "{}"
+}

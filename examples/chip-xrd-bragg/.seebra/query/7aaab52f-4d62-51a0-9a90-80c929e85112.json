@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "54e5421a-d48e-541a-b152-4ea33f7059a5"],
+  "query/datasource": ["datasource/id", "6c08161c-1a0a-5236-85b5-183eaafcf902"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "7aaab52f-4d62-51a0-9a90-80c929e85112",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "COD entries with formula Si",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 80
+  },
+  "query/params": "{\"format\":\"json\",\"formula\":\"Si\"}",
+  "query/path": "/result",
+  "query/request-body": "",
+  "query/units": "{}"
+}

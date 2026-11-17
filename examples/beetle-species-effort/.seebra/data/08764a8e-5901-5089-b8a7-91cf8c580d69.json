@@ -1,0 +1,10 @@
+{
+  "data/id": "08764a8e-5901-5089-b8a7-91cf8c580d69",
+  "data/name": "Beetle records per species, Norrbotten 2024 data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 560
+  },
+  "data/parent": ["query/id", "790f8a69-9121-58a4-be63-9d7390d6a706"],
+  "data/type": "json"
+}

@@ -1,0 +1,22 @@
+{
+  "transformation/content": {
+    "$file": "transforms/rr-intervals-of-the-three-records-first-15-min.sql"
+  },
+  "transformation/data-child": ["data/id", "467a44c2-a8f6-5fe4-837e-545a685c1953"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "a5907521-b94e-53cb-91bd-296330370bae",
+  "transformation/inputs": [
+    ["data/id", "fbefdf22-8b55-53af-ae13-11deac0f6544"],
+    ["data/id", "b737724a-72ef-5630-878b-459854dcb14d"]
+  ],
+  "transformation/language": "sql",
+  "transformation/name": "RR intervals of the three records (first 15 min each)",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "ff0c8e0a-00a8-5059-a856-a572d74198e7"],
+  "transformation/units": "{}"
+}

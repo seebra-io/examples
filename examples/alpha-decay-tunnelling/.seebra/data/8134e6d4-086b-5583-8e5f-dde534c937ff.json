@@ -1,0 +1,11 @@
+{
+  "data/id": "8134e6d4-086b-5583-8e5f-dde534c937ff",
+  "data/name": "α emitters with their tunnelling exponent",
+  "data/node": {
+    "node/x": 2530,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "47356001-c788-5294-8a36-78f970501adc"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

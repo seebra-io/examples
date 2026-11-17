@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/artwork-image-links-for-the-grid.polars.py"
+  },
+  "transformation/data-child": ["data/id", "df9a4700-1d4d-5c7e-b922-7603956cccc2"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "393cbf9f-0e77-5259-bc1e-92f6ca63b14a",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Artwork (image links for the grid)",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "0be63390-671a-5a7b-8b3f-01058f8b6c5d"],
+  "transformation/units": "{}"
+}

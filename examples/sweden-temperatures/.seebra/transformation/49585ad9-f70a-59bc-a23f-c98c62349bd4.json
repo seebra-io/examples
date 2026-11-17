@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/stations.polars.py"
+  },
+  "transformation/data-child": ["data/id", "58ae7275-070a-5c63-af91-0b199fa55a56"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "49585ad9-f70a-59bc-a23f-c98c62349bd4",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Stations",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "bdf7c0d6-3dec-53ba-999e-f17c6371f423"],
+  "transformation/units": "{}"
+}

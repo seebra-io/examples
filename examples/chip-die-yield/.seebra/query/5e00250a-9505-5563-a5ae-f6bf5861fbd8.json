@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "8b1ee163-e73d-5052-8bc4-5d0dcabbde35"],
+  "query/datasource": ["datasource/id", "7ad886a2-4d10-5302-9c65-fb44a0e2cabf"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "5e00250a-9505-5563-a5ae-f6bf5861fbd8",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Chips and image sensors with a die area (mm²)",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 80
+  },
+  "query/params": "{\"query\":\"# Chips (and camera image sensors) with a die area in mm² on Wikidata\\nSELECT ?chip ?chipLabel ?area (GROUP_CONCAT(DISTINCT ?classLabel; separator=\\\", \\\") AS ?classes)\\n       (SAMPLE(?nodeLabel) AS ?node) (SAMPLE(?mfrLabel) AS ?maker) (MIN(?date) AS ?released) (SAMPLE(?article) AS ?wikipedia)\\nWHERE {\\n  VALUES ?class { wd:Q122901167 wd:Q122760264 wd:Q2713403 wd:Q539558 wd:Q122760330 wd:Q122967152 wd:Q610398 wd:Q406283 wd:Q115722011 wd:Q10929058 }\\n  ?chip wdt:P31 ?class ; p:P2046/psv:P2046 [ wikibase:quantityAmount ?area ; wikibase:quantityUnit wd:Q2737347 ] .\\n  ?class rdfs:label ?classLabel . FILTER(LANG(?classLabel) = \\\"en\\\")\\n  OPTIONAL { ?chip wdt:P2079 ?n . ?n rdfs:label ?nodeLabel . FILTER(LANG(?nodeLabel) = \\\"en\\\") }\\n  OPTIONAL { ?chip wdt:P176 ?m . ?m rdfs:label ?mfrLabel . FILTER(LANG(?mfrLabel) = \\\"en\\\") }\\n  OPTIONAL { ?chip wdt:P577 ?date }\\n  OPTIONAL { ?article schema:about ?chip ; schema:isPartOf <https://en.wikipedia.org/> }\\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \\\"en\\\". }\\n}\\nGROUP BY ?chip ?chipLabel ?area\\nORDER BY ?area\",\"format\":\"json\"}",
+  "query/path": "/sparql",
+  "query/request-body": "",
+  "query/units": "{}"
+}

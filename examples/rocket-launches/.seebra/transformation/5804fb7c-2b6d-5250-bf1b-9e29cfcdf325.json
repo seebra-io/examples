@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/launches.polars.py"
+  },
+  "transformation/data-child": ["data/id", "77615bcc-af32-5346-bdbc-d8b661dca5e2"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "5804fb7c-2b6d-5250-bf1b-9e29cfcdf325",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Launches",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "5805397d-6f0b-51e4-a0b4-5003e015f18d"],
+  "transformation/units": "{}"
+}

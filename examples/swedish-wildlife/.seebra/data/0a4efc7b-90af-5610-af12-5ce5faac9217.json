@@ -1,0 +1,10 @@
+{
+  "data/id": "0a4efc7b-90af-5610-af12-5ce5faac9217",
+  "data/name": "Sightings data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "dc9c926f-3486-5858-87d1-c50c6a329bef"],
+  "data/type": "json"
+}

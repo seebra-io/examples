@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/un-news-on-iran-and-the-gulf.js"
+  },
+  "transformation/data-child": ["data/id", "3aa7a5b7-7199-5859-8b88-5e5bf208ec55"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "js-web-worker",
+  "transformation/id": "42f8edbd-6377-51e3-9b96-71d297a97237",
+  "transformation/inputs": [],
+  "transformation/language": "javascript",
+  "transformation/name": "UN News on Iran and the Gulf",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 1520
+  },
+  "transformation/parent": ["data/id", "620755f4-fb94-5665-84a3-399d81cc1bc9"],
+  "transformation/units": "{}"
+}

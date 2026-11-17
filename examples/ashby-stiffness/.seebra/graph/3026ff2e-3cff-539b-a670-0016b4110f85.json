@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/ashby-chart-young-s-modulus-against-density-with.js"
+  },
+  "graph/id": "3026ff2e-3cff-539b-a670-0016b4110f85",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Ashby chart: Young's modulus against density, with the three design lines through steel",
+  "graph/node": {
+    "node/x": 2380,
+    "node/y": 560
+  },
+  "graph/parent": ["data/id", "eae683d0-325a-5230-9321-69a674b640df"]
+}

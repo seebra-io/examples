@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/the-average-day.polars.py"
+  },
+  "transformation/data-child": ["data/id", "2ff292dd-456f-5a6a-aad5-f622c36999aa"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "a4c664d4-0a52-5cfa-929d-8fa952b9d272",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "The average day",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 2380,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "b47f6168-5b57-55b0-9678-dca54b2e8bcd"],
+  "transformation/units": "{}"
+}

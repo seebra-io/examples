@@ -1,0 +1,18 @@
+{
+  "graph/content": {
+    "$file": "graphs/why-a-line-through-the-log-log-histogram.js"
+  },
+  "graph/id": "fe8b9626-0427-5aa2-884e-dacacc209ae1",
+  "graph/inputs": [
+    ["data/id", "bda4f65b-05ca-538b-9a34-79a094730094"],
+    ["data/id", "adfe7c8a-c764-5d81-8cba-8c598c2b5ef2"],
+    ["data/id", "fb3c0058-dcb4-5312-be3f-e28f84d8c6d5"]
+  ],
+  "graph/language": "javascript",
+  "graph/name": "Why a line through the log-log histogram misleads",
+  "graph/node": {
+    "node/x": 1460,
+    "node/y": 1280
+  },
+  "graph/parent": ["data/id", "4dda24fe-bb3d-597d-99f0-f996c2355244"]
+}

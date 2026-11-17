@@ -1,0 +1,11 @@
+{
+  "data/id": "b92f78e7-2434-5d70-9f6f-3a59b19c2fd1",
+  "data/name": "EVs ranked by highway penalty",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 560
+  },
+  "data/parent": ["transformation/id", "5c3da299-c1a5-570b-90d8-45cc8728bce6"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

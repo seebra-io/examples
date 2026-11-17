@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "868ae04c-3018-512c-9182-7887ed3f2a47"],
+  "query/datasource": ["datasource/id", "6c08161c-1a0a-5236-85b5-183eaafcf902"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "3703b7f8-15c4-59ad-9ec8-0159108a6585",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "COD entries with formula Al As",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 1040
+  },
+  "query/params": "{\"format\":\"json\",\"formula\":\"Al As\"}",
+  "query/path": "/result",
+  "query/request-body": "",
+  "query/units": "{}"
+}

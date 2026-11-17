@@ -1,0 +1,11 @@
+{
+  "data/id": "314cd04f-abcf-5f67-a3ee-244f30450b45",
+  "data/name": "Constituents and their aliases",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 1040
+  },
+  "data/parent": ["transformation/id", "a881ef17-ac3e-5ea1-b847-8bdfa60b570b"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

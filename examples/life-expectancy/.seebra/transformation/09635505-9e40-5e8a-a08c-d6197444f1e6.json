@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/regression-on-log-gdp-correlation-is-not.polars.py"
+  },
+  "transformation/data-child": ["data/id", "a78a0572-d138-56fc-9259-c3325d3ba0cb"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "09635505-9e40-5e8a-a08c-d6197444f1e6",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Regression on log GDP: correlation is not causation",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1920,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "e8a59fc7-e206-5d3f-a2d5-908f5d688a38"],
+  "transformation/units": "{}"
+}

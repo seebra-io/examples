@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/luminosity-from-distance-and-brightness-radius.polars.py"
+  },
+  "transformation/data-child": ["data/id", "4ef98efb-15e1-5afd-8f12-cc032664e04b"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "73c1c6b2-720b-5be5-b047-de5bf6198b1a",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Luminosity from distance and brightness; radius from Stefan–Boltzmann",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "89ce6cf9-577b-5e27-bc90-89eff23539bd"],
+  "transformation/units": "{}"
+}

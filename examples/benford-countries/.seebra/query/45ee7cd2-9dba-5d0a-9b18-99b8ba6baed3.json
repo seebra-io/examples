@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "9f152be6-fa55-5f55-a3b8-d1bc93f8fc05"],
+  "query/datasource": ["datasource/id", "3dacb18d-f4b9-5ba0-bc95-dbae79d2f5d3"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "45ee7cd2-9dba-5d0a-9b18-99b8ba6baed3",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Land area (km²), latest",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 320
+  },
+  "query/params": "{\"format\":\"json\",\"mrnev\":\"1\",\"per_page\":\"400\"}",
+  "query/path": "/country/all/indicator/AG.LND.TOTL.K2",
+  "query/request-body": "",
+  "query/units": "{}"
+}

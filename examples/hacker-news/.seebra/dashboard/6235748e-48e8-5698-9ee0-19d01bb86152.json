@@ -1,0 +1,31 @@
+{
+  "dashboard/id": "6235748e-48e8-5698-9ee0-19d01bb86152",
+  "datas": [
+    ["data/id", "98e3f6f4-9250-582f-b6b0-603e3f7609fe"],
+    ["data/id", "04c0a032-7466-5180-8faf-d68eedfb0942"],
+    ["data/id", "1ed36be2-c5b5-5ff9-98f2-f9645b5860ce"],
+    ["data/id", "cec9570a-fb23-5714-b070-c3a2f455600b"]
+  ],
+  "datasources": [
+    ["datasource/id", "f0e3ea60-c2da-569c-ac75-ce7b32dce5cf"]
+  ],
+  "description": "What's on Hacker News' front page now, from the Algolia search API: points and comments per story (log scales, click a dot for the thread). Statistics idea: a heavy tail. A few stories hold most of the points, so the mean sits well above the median, the typical story; with 30 stories one hit moves the mean a lot.",
+  "graphs": [
+    ["graph/id", "4f026da3-f32c-51dd-83f1-d2261b259d64"],
+    ["graph/id", "28c6794f-70c5-5de3-b2cb-8bb4209c8dc3"]
+  ],
+  "grids": [],
+  "name": "Hacker News front page",
+  "queries": [
+    ["query/id", "25908f8b-f630-567e-af4d-0691f67e3955"]
+  ],
+  "studies": [],
+  "tables": [],
+  "texts": [],
+  "timers": [],
+  "transformations": [
+    ["transformation/id", "5d44d20c-ed4a-5679-840e-b70165d8a6be"],
+    ["transformation/id", "8f958502-1814-50a1-b15c-9e389166fbaf"],
+    ["transformation/id", "9f6e5cac-92fa-5b1a-b4cc-4249ecc00d97"]
+  ]
+}

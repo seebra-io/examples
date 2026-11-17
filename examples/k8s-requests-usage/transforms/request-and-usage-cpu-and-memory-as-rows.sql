@@ -1,0 +1,1 @@
+SELECT namespace, pod, container, qos, 'CPU (cores)' AS resource, cpu_req AS requested, cpu_used AS used, cpu_ratio AS ratio FROM data WHERE cpu_req > 0 UNION ALL SELECT namespace, pod, container, qos, 'memory (MiB)' AS resource, mem_req_mib AS requested, mem_used_mib AS used, mem_ratio AS ratio FROM data WHERE mem_req_mib > 0

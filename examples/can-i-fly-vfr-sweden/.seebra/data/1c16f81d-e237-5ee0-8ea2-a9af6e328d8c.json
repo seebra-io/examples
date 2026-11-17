@@ -1,0 +1,10 @@
+{
+  "data/id": "1c16f81d-e237-5ee0-8ea2-a9af6e328d8c",
+  "data/name": "SMHI forecast at ESSA (59.65°N 17.92°E) data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 800
+  },
+  "data/parent": ["query/id", "e5756c17-e8ad-5734-baf8-16eb913b2b08"],
+  "data/type": "json"
+}

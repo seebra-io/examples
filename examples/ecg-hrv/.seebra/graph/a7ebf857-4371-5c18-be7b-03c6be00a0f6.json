@@ -1,0 +1,17 @@
+{
+  "graph/content": {
+    "$file": "graphs/where-an-rr-interval-comes-from-12-s-of-ecg.js"
+  },
+  "graph/id": "a7ebf857-4371-5c18-be7b-03c6be00a0f6",
+  "graph/inputs": [
+    ["data/id", "009377de-f1d8-5086-8684-49d05cdcce01"],
+    ["data/id", "42634723-dff5-5b94-bf36-eb95162f9620"]
+  ],
+  "graph/language": "javascript",
+  "graph/name": "Where an RR interval comes from: 12 s of ECG (record 119)",
+  "graph/node": {
+    "node/x": 1460,
+    "node/y": 560
+  },
+  "graph/parent": ["data/id", "1e4e3c3d-5bc5-58a1-b2f1-8fa53ad336b7"]
+}

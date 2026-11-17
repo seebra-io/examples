@@ -1,0 +1,40 @@
+{
+  "dashboard/id": "fd58885b-a12e-5ed8-85e4-ddcb48bae377",
+  "datas": [
+    ["data/id", "8b1ee163-e73d-5052-8bc4-5d0dcabbde35"],
+    ["data/id", "7b0b4bad-b754-55aa-8b59-406ee020ac53"],
+    ["data/id", "81f6264b-ec5d-52a8-823d-eb992c6e6420"],
+    ["data/id", "7d1b8271-657a-51cc-9578-347d17a5d3d4"],
+    ["data/id", "0db37ef8-cbe9-5767-b39f-ceb31d9f9de5"],
+    ["data/id", "2f36cc28-f2bb-50ff-bdc5-fae61d17b09b"]
+  ],
+  "datasources": [
+    ["datasource/id", "7ad886a2-4d10-5302-9c65-fb44a0e2cabf"]
+  ],
+  "description": "Question: why does a chip twice the size cost more than twice as much, and why did AMD, Intel and Apple start building processors from several small dies (chiplets)? Data: every chip and image sensor on Wikidata with a die area in mm² (SPARQL, keyless): Apple's A4 to M1 Max, AMD's APUs, console chips, Radeon GPUs, and camera sensors up to full frame (864 mm²). Steps: gross dies per 300 mm wafer, π(d/2)²/A − πd/√(2A); the share that works under three defect models (Poisson e^(−A·D0), Murphy's, and the negative binomial for clustered defects) for defect densities of 0.05 to 0.5 per cm²; the silicon cost of a good mm² against an ideal die; and the same designs split into 2, 4 or 8 tested chiplets, each 10% larger than its share. Aha: yield falls exponentially with area, so the cost of a good mm² climbs steeply for big dies, worst on a young process: splitting a big die into chiplets that are tested before packaging recovers most of the lost silicon, which is why big chips are now built from small ones. Caveats: the defect densities are scenarios (foundries publish few), not data, and so are the 300 mm wafer and the 10% interface overhead; Wikidata has die areas for a few dozen chips only and some entries may be package or sensor areas; packaging, test, interconnect yield and the scribe lines are ignored; real fabs also repair dies with spare cores and memory rows. Next: drill into one die (click it for Wikipedia), expand to wafer prices per node and to published D0 figures (TSMC's N5 ramp), or to the transistor count each die holds (chip-moore-dennard).",
+  "graphs": [
+    ["graph/id", "e6c694cc-1c0d-5a4e-8d94-3920cbf6c436"],
+    ["graph/id", "ccacf6f7-87b7-5b1e-9aca-b0be3dfb87e4"],
+    ["graph/id", "db160e3f-cc5f-5933-b945-715e67a8f76a"]
+  ],
+  "grids": [],
+  "name": "Die yield: why big chips are expensive and chiplets exist",
+  "ontology": {
+    "$file": ".seebra/dashboard/fd58885b-a12e-5ed8-85e4-ddcb48bae377.ontology.json",
+    "$json": true
+  },
+  "queries": [
+    ["query/id", "5e00250a-9505-5563-a5ae-f6bf5861fbd8"]
+  ],
+  "studies": [],
+  "tables": [],
+  "texts": [],
+  "timers": [],
+  "transformations": [
+    ["transformation/id", "30d2205a-4686-5a15-889a-54a4e9cb59eb"],
+    ["transformation/id", "a2c7877a-8a9c-5d13-87cd-3ee1aedc0c26"],
+    ["transformation/id", "97c4c564-550e-55bf-8c6b-cad884d24e1f"],
+    ["transformation/id", "432abd35-cdf0-5ec3-9d01-ab4825d1f80a"],
+    ["transformation/id", "9a3b486d-30f2-53a4-968e-2cc2e7826b10"]
+  ]
+}

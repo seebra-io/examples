@@ -1,0 +1,21 @@
+{
+  "transformation/content": {
+    "$file": "transforms/amplitude-spectrum-per-scheme-dft.sql"
+  },
+  "transformation/data-child": ["data/id", "c592a83c-7f9d-593b-9b3a-f9a787075617"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "f170d6a7-fa93-5479-a96d-ce6f82ddbe28",
+  "transformation/inputs": [
+    ["data/id", "620c0e41-d04c-5912-b961-6c6c892281fa"]
+  ],
+  "transformation/language": "sql",
+  "transformation/name": "Amplitude spectrum per scheme (DFT)",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 2380,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "b0f9dd8d-4696-56d4-8d95-7b5fc69db084"],
+  "transformation/units": "{}"
+}

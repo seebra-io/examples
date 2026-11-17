@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/probability-by-deadline-polymarket.js"
+  },
+  "graph/id": "6617496a-3e53-53e3-93a9-5eb96aaaeedc",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Probability by deadline (Polymarket)",
+  "graph/node": {
+    "node/x": 1920,
+    "node/y": 80
+  },
+  "graph/parent": ["data/id", "8da37725-f0ed-589b-9028-828fab19d26d"]
+}

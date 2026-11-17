@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "b89750ba-0835-55db-92a2-0877dd6ecfa0"],
+  "query/datasource": ["datasource/id", "d71e7705-fb17-537f-bd78-bb46c272c281"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "fd916d84-133b-5290-bfb2-aca31d23fc5d",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "A2A with adenosine, 2YDO (PDB)",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 320
+  },
+  "query/params": "{}",
+  "query/path": "/download/2YDO.pdb",
+  "query/request-body": "",
+  "query/units": "{}"
+}

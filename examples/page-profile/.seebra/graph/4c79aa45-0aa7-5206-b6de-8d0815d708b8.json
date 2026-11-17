@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/load-time-by-origin.js"
+  },
+  "graph/id": "4c79aa45-0aa7-5206-b6de-8d0815d708b8",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Load time by origin",
+  "graph/node": {
+    "node/x": 1460,
+    "node/y": 560
+  },
+  "graph/parent": ["data/id", "eab3c9f5-1730-557a-8f44-f708de3f1698"]
+}

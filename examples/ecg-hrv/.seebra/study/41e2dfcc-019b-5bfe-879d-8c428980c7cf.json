@@ -1,0 +1,18 @@
+{
+  "study/hypothesis": "From every beat, |ΔRR| is far larger in 119 than in 16265; from NN intervals only, the two records differ by no more than a few ms.",
+  "study/id": "41e2dfcc-019b-5bfe-879d-8c428980c7cf",
+  "study/name": "Do ectopic beats fake heart-rate variability?",
+  "study/node": {
+    "node/x": 540,
+    "node/y": 1040
+  },
+  "study/plan": {
+    "$file": ".seebra/study/41e2dfcc-019b-5bfe-879d-8c428980c7cf.plan.json",
+    "$json": true
+  },
+  "study/question": "Are successive RR-interval differences larger in a record with ventricular bigeminy (MIT-BIH 119) than in a healthy heart (NSR 16265) only because of the ectopic beats, i.e. does the difference vanish when only normal-to-normal intervals are used?",
+  "study/state": {
+    "$file": ".seebra/study/41e2dfcc-019b-5bfe-879d-8c428980c7cf.state.json",
+    "$json": true
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "graph/content": {
+    "$file": "graphs/damping-against-depth-daily-and-annual-log-scale.js"
+  },
+  "graph/id": "ba643a2e-c1d3-5d71-a398-96ba3fc5c047",
+  "graph/inputs": [
+    ["data/id", "2e0fed90-144a-59e4-a846-cb63e553ed6c"]
+  ],
+  "graph/language": "javascript",
+  "graph/name": "Damping against depth, daily and annual (log scale)",
+  "graph/node": {
+    "node/x": 3300,
+    "node/y": 320
+  },
+  "graph/parent": ["data/id", "111fdc1b-b926-56a0-9508-fe9667c15f9c"]
+}

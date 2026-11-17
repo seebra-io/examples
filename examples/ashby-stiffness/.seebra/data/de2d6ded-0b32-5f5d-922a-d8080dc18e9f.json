@@ -1,0 +1,10 @@
+{
+  "data/id": "de2d6ded-0b32-5f5d-922a-d8080dc18e9f",
+  "data/name": "Elements and minerals: Young's modulus and Poisson's ratio from K and G data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "de7f3104-b5b8-5b34-bfc7-8d941ef3eab1"],
+  "data/type": "json"
+}

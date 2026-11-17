@@ -1,0 +1,10 @@
+{
+  "data/id": "e5810274-512f-5ae8-84c0-552967e80abb",
+  "data/name": "Advisors by number of doctoral students (P184, out-degree) data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 80
+  },
+  "data/parent": ["query/id", "4c6857f2-5b1a-5b1c-8862-4b3ce24f8e02"],
+  "data/type": "json"
+}

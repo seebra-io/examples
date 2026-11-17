@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "a759a3ad-61d1-54e0-b000-71bfee29e8b1"],
+  "query/datasource": ["datasource/id", "0a5949b6-edd3-562b-a00d-49f1de5bf49b"],
+  "query/dynamic?": false,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "808d593b-243c-5335-9c83-6911d0fd4f2d",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "DE-LU day-ahead price, 15 min, May–June 2026",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 320
+  },
+  "query/params": "{\"bzn\":\"DE-LU\",\"start\":\"2026-05-01\",\"end\":\"2026-06-30\"}",
+  "query/path": "/price",
+  "query/request-body": "",
+  "query/units": "{}"
+}

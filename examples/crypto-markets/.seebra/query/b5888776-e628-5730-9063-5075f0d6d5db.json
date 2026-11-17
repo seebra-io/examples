@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "7947c4b2-936f-5146-96dc-a47338a9b6e8"],
+  "query/datasource": ["datasource/id", "0d109f6d-9f00-5423-9a39-f68bfc4b4cee"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "b5888776-e628-5730-9063-5075f0d6d5db",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Markets",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 80
+  },
+  "query/params": "{\"vs_currency\":\"usd\",\"per_page\":\"20\",\"order\":\"market_cap_desc\",\"sparkline\":\"true\",\"price_change_percentage\":\"1h,24h,7d\"}",
+  "query/path": "/coins/markets",
+  "query/request-body": "",
+  "query/units": "{}"
+}

@@ -1,0 +1,21 @@
+{
+  "transformation/content": {
+    "$file": "transforms/rate-of-ageing-against-level-per-sex-and-year.sql"
+  },
+  "transformation/data-child": ["data/id", "c0c907c7-5a4e-5ae1-bdde-13e1b05c0fdd"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "cd335b37-d2f6-54f9-a7fa-a7f0282aead6",
+  "transformation/inputs": [
+    ["data/id", "f7754424-ceb4-54c7-980c-755e76e3c9d9"]
+  ],
+  "transformation/language": "sql",
+  "transformation/name": "Rate of ageing against level, per sex and year",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 2380,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "e0a17910-7baf-5320-8812-0e4b94aac343"],
+  "transformation/units": "{}"
+}

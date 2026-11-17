@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/per-minute-mean-range-fastest-change.polars.py"
+  },
+  "transformation/data-child": ["data/id", "c294d8d2-fb89-56bd-b598-76493569b0a5"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "a116818f-ad77-54dc-958d-d8ff1f1af378",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Per minute: mean, range, fastest change",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "6e8b59ff-56f7-5662-89f0-01749a9a91fb"],
+  "transformation/units": "{}"
+}

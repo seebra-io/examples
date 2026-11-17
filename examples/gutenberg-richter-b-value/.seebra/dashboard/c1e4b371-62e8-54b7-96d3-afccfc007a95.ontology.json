@@ -1,0 +1,141 @@
+{
+  "title": "Earthquake magnitude statistics",
+  "summary": "Earthquakes follow the Gutenberg–Richter law; the b-value, the completeness magnitude and the magnitude scale decide what a catalogue says; energy is dominated by the largest events.",
+  "concepts": [
+    {
+      "cid": "c1",
+      "label": "Earthquake",
+      "kind": "event",
+      "description": "One event in the USGS catalogue.",
+      "fields": [
+        "id",
+        "time",
+        "place",
+        "lat",
+        "lon"
+      ],
+      "in_data": true,
+      "wikidata": "Q7944",
+      "children": [
+        {
+          "cid": "c2",
+          "label": "Magnitude",
+          "kind": "measure",
+          "as": "property",
+          "description": "Logarithmic size; binned at 0.1.",
+          "fields": [
+            "mag",
+            "m"
+          ],
+          "in_data": true,
+          "children": [
+            {
+              "cid": "c3",
+              "label": "Magnitude scale",
+              "kind": "category",
+              "as": "property",
+              "description": "mb (body waves, saturates near 6), Mww/Mw (moment, from the fault's size).",
+              "fields": [
+                "mag_type",
+                "family"
+              ],
+              "in_data": true
+            }
+          ]
+        },
+        {
+          "cid": "c4",
+          "label": "Hypocentre depth",
+          "kind": "measure",
+          "as": "property",
+          "description": "km; shallow, intermediate, deep.",
+          "fields": [
+            "depth_km",
+            "depth_class"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c5",
+          "label": "Radiated energy",
+          "kind": "measure",
+          "as": "property",
+          "description": "log₁₀ E[J] = 1.5 M + 4.8.",
+          "fields": [
+            "energy_j"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c6",
+          "label": "Aftershock",
+          "kind": "event",
+          "as": "subtype",
+          "description": "Events triggered by a mainshock; not separated here (declustering).",
+          "fields": [],
+          "in_data": false
+        }
+      ]
+    },
+    {
+      "cid": "c7",
+      "label": "Gutenberg–Richter law",
+      "kind": "event",
+      "description": "log₁₀ N(≥M) = a − bM.",
+      "fields": [
+        "n_at_least",
+        "b",
+        "a"
+      ],
+      "in_data": true,
+      "wikidata": "Q1335043",
+      "facts": [
+        {
+          "text": "Aki's (1965) maximum-likelihood estimator: b = log₁₀e / (mean M − Mmin).",
+          "source": "https://doi.org/10.15083/0000033631"
+        }
+      ],
+      "children": [
+        {
+          "cid": "c8",
+          "label": "b-value",
+          "kind": "measure",
+          "as": "property",
+          "description": "The slope; near 1 globally, higher in swarms, lower under high stress.",
+          "fields": [
+            "b",
+            "b_se_shi_bolt"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c9",
+          "label": "Completeness magnitude",
+          "kind": "measure",
+          "as": "property",
+          "description": "Above it every quake is recorded; by maximum curvature + 0.2.",
+          "fields": [
+            "mc"
+          ],
+          "in_data": true
+        }
+      ]
+    },
+    {
+      "cid": "c10",
+      "label": "Seismic region",
+      "kind": "place",
+      "description": "Subduction zone, ridge, continental collision: b differs by tectonic setting.",
+      "fields": [],
+      "in_data": false
+    },
+    {
+      "cid": "c11",
+      "label": "Omori law",
+      "kind": "event",
+      "description": "Aftershock rate decays as 1/(t + c)^p.",
+      "fields": [],
+      "in_data": false
+    }
+  ]
+}

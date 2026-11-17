@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/hours-per-city.polars.py"
+  },
+  "transformation/data-child": ["data/id", "744c1f80-1f7f-5bbf-9614-cf17fa05a3ee"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "22604cfe-9672-5181-9ae7-e0db3b26583b",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Hours per city",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "be7a52f7-9cbf-54d3-9cb8-994a3214eb1e"],
+  "transformation/units": "{}"
+}

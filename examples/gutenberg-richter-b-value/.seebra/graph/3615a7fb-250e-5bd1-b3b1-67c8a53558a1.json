@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/counts-against-energy-the-rare-giants-release.js"
+  },
+  "graph/id": "3615a7fb-250e-5bd1-b3b1-67c8a53558a1",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Counts against energy: the rare giants release almost all of it",
+  "graph/node": {
+    "node/x": 1920,
+    "node/y": 800
+  },
+  "graph/parent": ["data/id", "4dcd81dd-0807-5ce3-bdfd-47372e7376be"]
+}

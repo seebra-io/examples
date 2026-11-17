@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/across-seasons.sql"
+  },
+  "transformation/data-child": ["data/id", "88236013-7a0e-5fcd-b482-54904a94d8fa"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "8eb47b67-00ef-5950-a01d-24666e1ab3ef",
+  "transformation/inputs": [],
+  "transformation/language": "sql",
+  "transformation/name": "Across seasons",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 2380,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "8e703752-35a9-5b55-8c25-1559e2f76733"],
+  "transformation/units": "{}"
+}

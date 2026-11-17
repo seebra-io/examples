@@ -1,0 +1,17 @@
+{
+  "datasource/api-key": "k8s-ops-token",
+  "datasource/api-key-key": "api_key",
+  "datasource/auth-type": "bearer",
+  "datasource/headers": "{\"Content-Type\":\"application/json\"}",
+  "datasource/id": "7a0a254a-389d-5cca-bc8a-a53c5f739dfa",
+  "datasource/name": "Kubernetes API, actions (narrow Role)",
+  "datasource/node": {
+    "inputs": 1,
+    "node/x": 80,
+    "node/y": 320,
+    "outputs": 1
+  },
+  "datasource/params": "{}",
+  "datasource/type": "openapi",
+  "datasource/url": "https://kubernetes.default.svc"
+}

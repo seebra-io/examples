@@ -1,0 +1,10 @@
+{
+  "data/id": "32bac173-bb9a-59e5-899b-34f38b411792",
+  "data/name": "Zipf's law: log views on log rank data",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "97421e20-107e-5f70-afd6-be662195eee1"],
+  "data/type": "json"
+}

@@ -1,0 +1,17 @@
+data.select("latitude", "longitude", "elevation",
+            time = col("current").struct.field("time"), surface_hpa = col("current").struct.field("surface_pressure"),
+            t2m = col("current").struct.field("temperature_2m"),
+            t_1000 = col("current").struct.field("temperature_1000hPa"), z_1000 = col("current").struct.field("geopotential_height_1000hPa"),
+            t_925 = col("current").struct.field("temperature_925hPa"), z_925 = col("current").struct.field("geopotential_height_925hPa"),
+            t_850 = col("current").struct.field("temperature_850hPa"), z_850 = col("current").struct.field("geopotential_height_850hPa"),
+            t_700 = col("current").struct.field("temperature_700hPa"), z_700 = col("current").struct.field("geopotential_height_700hPa"),
+            t_600 = col("current").struct.field("temperature_600hPa"), z_600 = col("current").struct.field("geopotential_height_600hPa"),
+            t_500 = col("current").struct.field("temperature_500hPa"), z_500 = col("current").struct.field("geopotential_height_500hPa"),
+            t_400 = col("current").struct.field("temperature_400hPa"), z_400 = col("current").struct.field("geopotential_height_400hPa"),
+            t_300 = col("current").struct.field("temperature_300hPa"), z_300 = col("current").struct.field("geopotential_height_300hPa"),
+            t_250 = col("current").struct.field("temperature_250hPa"), z_250 = col("current").struct.field("geopotential_height_250hPa"),
+            t_200 = col("current").struct.field("temperature_200hPa"), z_200 = col("current").struct.field("geopotential_height_200hPa"),
+            t_150 = col("current").struct.field("temperature_150hPa"), z_150 = col("current").struct.field("geopotential_height_150hPa"),
+            t_100 = col("current").struct.field("temperature_100hPa"), z_100 = col("current").struct.field("geopotential_height_100hPa"),
+            t_50 = col("current").struct.field("temperature_50hPa"), z_50 = col("current").struct.field("geopotential_height_50hPa"))
+    .sort("latitude")

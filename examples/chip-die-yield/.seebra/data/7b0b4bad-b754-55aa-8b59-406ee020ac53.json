@@ -1,0 +1,11 @@
+{
+  "data/id": "7b0b4bad-b754-55aa-8b59-406ee020ac53",
+  "data/name": "Dies (Wikidata)",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "30d2205a-4686-5a15-889a-54a4e9cb59eb"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

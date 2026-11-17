@@ -1,0 +1,6 @@
+data.filter((col("p_hpa") <= 500) & (col("lapse_k_per_km") < 2))
+    .sort("latitude", "p_hpa", descending=[False, True])
+    .group_by("latitude")
+    # lowest layer above 500 hPa where the temperature stops falling faster than 2 K/km (the WMO criterion, on these coarse levels)
+    .agg(tropopause_hpa = col("p_hpa").first(), tropopause_m = col("z_m").first(), tropopause_c = col("temp_c").first())
+    .sort("latitude")

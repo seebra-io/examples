@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "9cefe24e-ebbd-52a7-974b-84ea362c1948"],
+  "query/datasource": ["datasource/id", "4cdbcf20-8660-555a-8ab4-7415f9a0f5fc"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "dfb94953-013c-5ae5-af0c-5455c162e36c",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "transistors (thousands), per processor (50yrs/transistors.dat)",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 80
+  },
+  "query/params": "{}",
+  "query/path": "/50yrs/transistors.dat",
+  "query/request-body": "",
+  "query/units": "{}"
+}

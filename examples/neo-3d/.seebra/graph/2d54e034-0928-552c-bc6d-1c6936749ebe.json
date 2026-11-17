@@ -1,0 +1,16 @@
+{
+  "graph/content": {
+    "$file": "graphs/distance-through-each-flyby.js"
+  },
+  "graph/id": "2d54e034-0928-552c-bc6d-1c6936749ebe",
+  "graph/inputs": [
+    ["data/id", "69321c51-8d44-56f6-aed9-53e8bf48aa73"]
+  ],
+  "graph/language": "javascript",
+  "graph/name": "Distance through each flyby",
+  "graph/node": {
+    "node/x": 1920,
+    "node/y": 1280
+  },
+  "graph/parent": ["data/id", "4a36c705-0db0-5dd1-b218-aea9b25cc6d6"]
+}

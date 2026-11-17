@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/a-few-percent-of-the-plane-holds-most-residues.js"
+  },
+  "graph/id": "6e783d87-a5e9-5a0d-80af-01c21a398b48",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "A few percent of the plane holds most residues",
+  "graph/node": {
+    "node/x": 2840,
+    "node/y": 80
+  },
+  "graph/parent": ["data/id", "09ec4842-c994-57b7-9481-69a54af199ed"]
+}

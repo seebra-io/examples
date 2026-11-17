@@ -1,0 +1,21 @@
+{
+  "transformation/content": {
+    "$file": "transforms/upstream-moved-by-the-travel-time.polars.py"
+  },
+  "transformation/data-child": ["data/id", "265066ca-3b19-5adb-b692-e296967dd33c"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "0545bd1a-3f8b-5039-a2d8-a82d66b96ef8",
+  "transformation/inputs": [
+    ["data/id", "b2b366a1-56c4-559e-969f-2865ddbc2747"]
+  ],
+  "transformation/language": "polars",
+  "transformation/name": "Upstream moved by the travel time",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 560
+  },
+  "transformation/parent": ["data/id", "bda1f067-2214-5da8-a325-19926df4903f"],
+  "transformation/units": "{}"
+}

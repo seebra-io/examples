@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "0be63390-671a-5a7b-8b3f-01058f8b6c5d"],
+  "query/datasource": ["datasource/id", "c6322954-bfa4-5ba1-be25-88761d0f8641"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "cf909354-c0e8-5e16-b204-1c876aad6adb",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Dragon type",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 80
+  },
+  "query/params": "{}",
+  "query/path": "/type/dragon",
+  "query/request-body": "",
+  "query/units": "{}"
+}

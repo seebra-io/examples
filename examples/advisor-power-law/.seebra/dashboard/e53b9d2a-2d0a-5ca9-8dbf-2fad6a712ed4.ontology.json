@@ -1,0 +1,207 @@
+{
+  "title": "Degree distributions in the doctoral-advisor network",
+  "summary": "People linked by who supervised whose doctorate (Wikidata P184). How many links each person has (degree) is heavy-tailed for advisors and thin-tailed for students; telling a power law from other heavy tails takes maximum likelihood, not a log-log line.",
+  "concepts": [
+    {
+      "cid": "c1",
+      "label": "Academic genealogy network",
+      "kind": "entity",
+      "description": "A directed graph: an edge from advisor to student for each P184 statement.",
+      "fields": [
+        "network"
+      ],
+      "in_data": true,
+      "wikidata": "Q4671207",
+      "facts": [
+        {
+          "text": "Wikidata property P184 (doctoral advisor) links a person to the person who supervised their doctorate.",
+          "source": "https://www.wikidata.org/wiki/Property:P184"
+        }
+      ],
+      "children": [
+        {
+          "cid": "c2",
+          "label": "Doctoral advisor",
+          "kind": "entity",
+          "as": "part",
+          "description": "A person with at least one recorded student.",
+          "fields": [
+            "advisor",
+            "link"
+          ],
+          "in_data": true,
+          "wikidata": "Q363802",
+          "children": [
+            {
+              "cid": "c3",
+              "label": "Students per advisor (out-degree)",
+              "kind": "measure",
+              "as": "property",
+              "description": "k for advisors: heavy-tailed, mean 3.46, maximum 149.",
+              "fields": [
+                "k",
+                "n",
+                "students"
+              ],
+              "in_data": true
+            }
+          ]
+        },
+        {
+          "cid": "c4",
+          "label": "Doctoral student",
+          "kind": "entity",
+          "as": "part",
+          "description": "A person with at least one recorded advisor.",
+          "fields": [],
+          "in_data": true,
+          "children": [
+            {
+              "cid": "c5",
+              "label": "Advisors per student (in-degree)",
+              "kind": "measure",
+              "as": "property",
+              "description": "k for students: thin-tailed, 81% have one, at most 12.",
+              "fields": [
+                "k",
+                "n"
+              ],
+              "in_data": true
+            }
+          ]
+        },
+        {
+          "cid": "c6",
+          "label": "Field of work",
+          "kind": "category",
+          "as": "property",
+          "description": "The advisor's discipline (P101): tails may differ between mathematics and the lab sciences.",
+          "fields": [],
+          "in_data": false
+        },
+        {
+          "cid": "c7",
+          "label": "Doctoral year",
+          "kind": "time",
+          "as": "property",
+          "description": "When each supervision ended: needed to watch the network grow.",
+          "fields": [],
+          "in_data": false
+        }
+      ]
+    },
+    {
+      "cid": "c8",
+      "label": "Heavy-tailed distribution",
+      "kind": "event",
+      "description": "A distribution whose tail falls slower than any exponential: rare values are far more common than a thin-tailed model of the same mean predicts.",
+      "fields": [
+        "ccdf",
+        "ccdf_geo",
+        "expected_geo"
+      ],
+      "in_data": true,
+      "wikidata": "Q1472677",
+      "children": [
+        {
+          "cid": "c9",
+          "label": "Power law",
+          "kind": "event",
+          "as": "subtype",
+          "description": "P(K ≥ k) ∝ k^(1−α) above x_min; a straight line on log-log axes.",
+          "fields": [
+            "alpha",
+            "xmin",
+            "ccdf_tail"
+          ],
+          "in_data": true,
+          "wikidata": "Q837683",
+          "facts": [
+            {
+              "text": "Clauset, Shalizi & Newman (2009) showed that many claimed power laws fail a maximum-likelihood fit with a KS-chosen x_min and a likelihood-ratio test.",
+              "source": "https://doi.org/10.1137/070710111"
+            }
+          ],
+          "children": [
+            {
+              "cid": "c10",
+              "label": "Maximum-likelihood exponent",
+              "kind": "measure",
+              "as": "property",
+              "description": "α = 1 + n / Σ ln(k/(x_min − ½)), with standard error (α − 1)/√n.",
+              "fields": [
+                "alpha",
+                "se_alpha",
+                "n_tail"
+              ],
+              "in_data": true
+            },
+            {
+              "cid": "c11",
+              "label": "KS distance",
+              "kind": "measure",
+              "as": "property",
+              "description": "Largest gap between empirical and fitted CCDF; minimised to choose x_min.",
+              "fields": [
+                "ks",
+                "ks_noise"
+              ],
+              "in_data": true
+            },
+            {
+              "cid": "c12",
+              "label": "Likelihood-ratio test (Vuong)",
+              "kind": "measure",
+              "as": "property",
+              "description": "Power law against an alternative: R, z, p and a verdict.",
+              "fields": [
+                "R",
+                "z",
+                "p_value",
+                "verdict"
+              ],
+              "in_data": true
+            }
+          ]
+        },
+        {
+          "cid": "c13",
+          "label": "Lognormal and power law with cutoff",
+          "kind": "event",
+          "as": "subtype",
+          "description": "Alternatives that also bend on log-log axes; not fitted here.",
+          "fields": [],
+          "in_data": false
+        }
+      ]
+    },
+    {
+      "cid": "c14",
+      "label": "Cumulative advantage",
+      "kind": "event",
+      "description": "Preferential attachment (Price 1976, Barabási–Albert 1999): nodes with many links gain new ones faster, giving heavy tails; the Matthew effect in science (Merton 1968).",
+      "fields": [
+        "top_share_advisors",
+        "top_share_supervisions"
+      ],
+      "in_data": true,
+      "wikidata": "Q1337985",
+      "facts": [
+        {
+          "text": "Merton named the Matthew effect in science in 1968: eminent scientists get disproportionate credit.",
+          "source": "https://en.wikipedia.org/wiki/Matthew_effect"
+        }
+      ]
+    },
+    {
+      "cid": "c15",
+      "label": "Wikidata coverage",
+      "kind": "source",
+      "description": "Which supervisions editors have entered: bulk imports and famous names over-represented; a source bias in the tail.",
+      "fields": [
+        "link"
+      ],
+      "in_data": true
+    }
+  ]
+}

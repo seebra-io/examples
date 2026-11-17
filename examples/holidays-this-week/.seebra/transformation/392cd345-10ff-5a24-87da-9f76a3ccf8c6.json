@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/holidays-per-day.polars.py"
+  },
+  "transformation/data-child": ["data/id", "95ccc91e-4192-5273-9a26-0be9dcd53490"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "392cd345-10ff-5a24-87da-9f76a3ccf8c6",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Holidays per day",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1920,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "cf9687a4-2c1c-502b-a2da-7e6ca8af9231"],
+  "transformation/units": "{}"
+}

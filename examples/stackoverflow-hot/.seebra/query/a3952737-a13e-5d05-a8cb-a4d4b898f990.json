@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "9a950e6f-599d-5ddb-b4cd-1a234a340bf5"],
+  "query/datasource": ["datasource/id", "7cc78219-782e-5724-95cf-c351f4673020"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "a3952737-a13e-5d05-a8cb-a4d4b898f990",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Hot questions",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 80
+  },
+  "query/params": "{\"order\":\"desc\",\"sort\":\"hot\",\"tagged\":\"python\",\"site\":\"stackoverflow\",\"pagesize\":\"50\"}",
+  "query/path": "/questions",
+  "query/request-body": "",
+  "query/units": "{}"
+}

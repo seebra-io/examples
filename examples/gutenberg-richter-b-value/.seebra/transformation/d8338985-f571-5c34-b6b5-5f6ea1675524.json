@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/quakes-with-magnitude-bin-magnitude-family-depth.polars.py"
+  },
+  "transformation/data-child": ["data/id", "fc913db3-ad6a-5ca1-a82a-e6ef2e9ba53b"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "d8338985-f571-5c34-b6b5-5f6ea1675524",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Quakes with magnitude bin, magnitude family, depth class and energy",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "251ad0b1-8443-5860-80ff-6fcd3410eae8"],
+  "transformation/units": "{}"
+}

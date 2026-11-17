@@ -1,0 +1,11 @@
+{
+  "data/id": "33245d82-55c7-5b65-9495-dab6fe418a93",
+  "data/name": "Countries against the fit (× the fit)",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "c1bc2455-3e95-52ed-b672-c598e6bafb3f"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

@@ -1,0 +1,8 @@
+{
+  "file": {
+    "file/example": "api-uniqueness"
+  },
+  "format": 2,
+  "root": ["dashboard/id", "ec9876a0-44b4-5f52-a589-31f4faefb4ed"],
+  "seebra": "board"
+}

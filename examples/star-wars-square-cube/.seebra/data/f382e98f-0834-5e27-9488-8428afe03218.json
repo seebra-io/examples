@@ -1,0 +1,11 @@
+{
+  "data/id": "f382e98f-0834-5e27-9488-8428afe03218",
+  "data/name": "Every weighed character against the law",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "9a243b47-b9bd-5ac2-8515-9a8eee63e01c"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

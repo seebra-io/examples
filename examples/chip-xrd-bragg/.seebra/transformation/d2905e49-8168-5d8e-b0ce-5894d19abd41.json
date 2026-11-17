@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/peak-splitting-of-a-layer-on-its-substrate-2-2.sql"
+  },
+  "transformation/data-child": ["data/id", "9ca87711-25ce-50ed-91a9-2108481e2f6a"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "d2905e49-8168-5d8e-b0ce-5894d19abd41",
+  "transformation/inputs": [],
+  "transformation/language": "sql",
+  "transformation/name": "Peak splitting of a layer on its substrate: Δ2θ = −2 tan θ · Δa/a",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 2380,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "cabddb2f-6867-5e76-bc97-3df1e62350bb"],
+  "transformation/units": "{}"
+}

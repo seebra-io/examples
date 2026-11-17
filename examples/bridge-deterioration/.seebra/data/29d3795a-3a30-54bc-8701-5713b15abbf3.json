@@ -1,0 +1,11 @@
+{
+  "data/id": "29d3795a-3a30-54bc-8701-5713b15abbf3",
+  "data/name": "Materials: poor share, mean age, rating at 40–59 years",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 560
+  },
+  "data/parent": ["transformation/id", "0ff2d1ce-49ba-5592-a2ee-99f9c83b8bca"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

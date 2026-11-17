@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "ce51928e-0661-5ba3-9ef3-945f3b69402a"],
+  "query/datasource": ["datasource/id", "8d5b4c1a-cc25-5628-b1c0-4fdaa1c240c0"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "2b0cecdd-2e1a-5faf-9361-0106878bc9d4",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Every dinosaur find at genus level, with palaeo-positions",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 1040
+  },
+  "query/params": "{\"base_name\":\"Dinosauria^Aves\",\"show\":\"paleoloc,coords,class\",\"idreso\":\"genus\",\"interval\":\"Triassic,Cretaceous\",\"vocab\":\"pbdb\",\"limit\":\"all\"}",
+  "query/path": "/occs/list.json",
+  "query/request-body": "",
+  "query/units": "{}"
+}

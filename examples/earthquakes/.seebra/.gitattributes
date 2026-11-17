@@ -1,0 +1,8 @@
+# Seebra keeps this board's state as text: one pretty-printed JSON file per
+# entity, keys sorted, one reference per line. Git delta-compresses text and
+# diffs and merges it line by line; keep it that way.
+* text eol=lf
+*.json text eol=lf diff
+# No merge driver is set: git's line merge works because a change to a step
+# touches its own file. A conflict in a dashboard's list of idents is resolved
+# by keeping both lines. Never use merge=union on JSON: it can drop a comma.

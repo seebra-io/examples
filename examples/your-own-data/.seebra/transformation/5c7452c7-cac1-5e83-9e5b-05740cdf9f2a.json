@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/titles-series-season-episode-date.js"
+  },
+  "transformation/data-child": ["data/id", "93948712-f47c-5f84-b700-7147e0ede5d5"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "js-web-worker",
+  "transformation/id": "5c7452c7-cac1-5e83-9e5b-05740cdf9f2a",
+  "transformation/inputs": [],
+  "transformation/language": "javascript",
+  "transformation/name": "Titles: series, season, episode, date",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 560
+  },
+  "transformation/parent": ["data/id", "8db43fbb-8ae7-5b99-949e-445b34fc8ac1"],
+  "transformation/units": "{}"
+}

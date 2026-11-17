@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/species-seen-once-twice-frequency-of-frequencies.js"
+  },
+  "graph/id": "857af2ee-7326-55ae-b2ae-4bf15fd8c1f2",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Species seen once, twice, … (frequency of frequencies)",
+  "graph/node": {
+    "node/x": 2380,
+    "node/y": 320
+  },
+  "graph/parent": ["data/id", "61a16a4b-f3b1-53a2-8303-8e26edcd8430"]
+}

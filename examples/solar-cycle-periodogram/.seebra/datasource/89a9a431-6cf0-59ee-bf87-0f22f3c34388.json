@@ -1,0 +1,16 @@
+{
+  "datasource/api-key-key": "api_key",
+  "datasource/auth-type": "none",
+  "datasource/headers": "{}",
+  "datasource/id": "89a9a431-6cf0-59ee-bf87-0f22f3c34388",
+  "datasource/name": "NOAA SWPC solar cycle files",
+  "datasource/node": {
+    "inputs": 1,
+    "node/x": 80,
+    "node/y": 80,
+    "outputs": 1
+  },
+  "datasource/params": "{}",
+  "datasource/type": "openapi",
+  "datasource/url": "https://services.swpc.noaa.gov/json/solar-cycle"
+}

@@ -1,0 +1,200 @@
+{
+  "title": "Square-cube law in Star Wars",
+  "question": "For the 58 characters other than Jabba with height and mass, is the slope of log mass on log height 3, 2, or less?",
+  "review": {
+    "well_formed": true,
+    "issues": [
+      {
+        "kind": "unmeasured",
+        "text": "Masses are fan estimates, often of the actor or the costume.",
+        "fix": "Read the slope as a property of the films' design, not of alien biology."
+      },
+      {
+        "kind": "scope",
+        "text": "Only 59 of 82 characters have both values; prequel CGI characters are the most often missing.",
+        "fix": "Report n per group and the per-film share weighed."
+      }
+    ],
+    "alternatives": [
+      {
+        "question": "Is the slope for humans alone 2 (Quetelet)?",
+        "why": "Checks the method on the group where the answer is known.",
+        "ready": true
+      },
+      {
+        "question": "Do characters from high-gravity homeworlds weigh more for their height?",
+        "why": "Expands to the planets' gravity.",
+        "ready": true
+      },
+      {
+        "question": "Does starship cost scale with length³?",
+        "why": "The same scaling question for machines.",
+        "ready": true
+      }
+    ]
+  },
+  "hypotheses": [
+    {
+      "id": "H1",
+      "statement": "log₁₀ mass rises with log₁₀ height with slope 3.",
+      "null": "The slope is 3 (a scaled body); rejected when its ±2 SE interval excludes 3.",
+      "outcome": {
+        "concept": "Mass",
+        "field": "log_m"
+      },
+      "predictor": {
+        "concept": "Height",
+        "field": "log_h"
+      },
+      "subgroup": null,
+      "direction": "equal",
+      "test": {
+        "method": "regression",
+        "link": null,
+        "outcome_mode": "mean",
+        "outcome_field": "log_m",
+        "predictor_field": "log_h",
+        "exposure_field": null,
+        "versus": null,
+        "against": 3
+      }
+    },
+    {
+      "id": "H2",
+      "statement": "For humans the slope is 2, so the BMI does not depend on height.",
+      "null": "The human slope differs from 2.",
+      "outcome": {
+        "concept": "Mass",
+        "field": "log_m"
+      },
+      "predictor": {
+        "concept": "Height",
+        "field": "log_h"
+      },
+      "subgroup": {
+        "concept": "Species",
+        "category": "human"
+      },
+      "direction": "equal",
+      "test": {
+        "method": "regression",
+        "link": null,
+        "outcome_mode": "mean",
+        "outcome_field": "log_m",
+        "predictor_field": "log_h",
+        "exposure_field": null,
+        "versus": null,
+        "subgroup_field": "group",
+        "against": 2
+      }
+    }
+  ],
+  "concepts": [
+    {
+      "label": "Character",
+      "kind": "entity",
+      "description": "A SWAPI person.",
+      "why": "The unit.",
+      "have": true,
+      "categories": [],
+      "field": "name",
+      "strategy": null
+    },
+    {
+      "label": "Height",
+      "kind": "measure",
+      "description": "cm.",
+      "why": "Predictor.",
+      "have": true,
+      "categories": [],
+      "field": "height_cm",
+      "strategy": null
+    },
+    {
+      "label": "Mass",
+      "kind": "measure",
+      "description": "kg.",
+      "why": "Outcome.",
+      "have": true,
+      "categories": [],
+      "field": "mass_kg",
+      "strategy": null
+    },
+    {
+      "label": "Species",
+      "kind": "category",
+      "description": "Human, alien or droid.",
+      "why": "Subgroups.",
+      "have": true,
+      "categories": [
+        "human",
+        "alien",
+        "droid"
+      ],
+      "field": "group",
+      "strategy": {
+        "how": "categorise",
+        "detail": "Droid by species name; empty species or Human → human; the rest alien."
+      }
+    },
+    {
+      "label": "Mass for height",
+      "kind": "measure",
+      "description": "mass ÷ the law's prediction.",
+      "why": "Finds the unusual.",
+      "have": false,
+      "categories": [],
+      "field": "heavier_by",
+      "strategy": {
+        "how": "derive",
+        "detail": "10^(log_m − a − b log_h) with the fit on everyone but Jabba."
+      }
+    }
+  ],
+  "data": [
+    {
+      "concept": "Gravity",
+      "request": "Surface gravity of each homeworld (planets.gravity, 'standard' units)",
+      "source": "SWAPI planets",
+      "why": "To test whether heavy-gravity worlds make heavier characters."
+    }
+  ],
+  "links": [],
+  "method": {
+    "id": "regression",
+    "summary": "log₁₀ mass on log₁₀ height per group; the slope with its standard error against 3 and 2."
+  },
+  "steps": [
+    {
+      "kind": "data",
+      "title": "People, species, planets",
+      "detail": "SWAPI's full lists; numbers parsed from text, 'unknown' → null."
+    },
+    {
+      "kind": "categorise",
+      "title": "Human, alien, droid",
+      "detail": "Empty species is mostly human; Jabba fitted with and without."
+    },
+    {
+      "kind": "method",
+      "title": "Fit the slope per group",
+      "detail": "slope, se, t against 2 and 3."
+    },
+    {
+      "kind": "concept",
+      "title": "Mass for height",
+      "detail": "Each character's mass over the fitted prediction, and over a scaled Luke (77 kg · (h/172)³)."
+    },
+    {
+      "kind": "decide",
+      "title": "Which law",
+      "detail": "Slope 1.54 ± 0.12 without Jabba: H1 rejected (t = −11.9); humans 1.98 ± 0.80: H2 not rejected."
+    }
+  ],
+  "caveats": [
+    "Fan-recorded values from Lucasfilm's films, not measurements.",
+    "Masses are missing for 23 characters, most from the prequels.",
+    "SWAPI leaves species empty for 32 people; Sly Moore (Umbaran) is counted as human.",
+    "Episodes I–VI only."
+  ]
+}

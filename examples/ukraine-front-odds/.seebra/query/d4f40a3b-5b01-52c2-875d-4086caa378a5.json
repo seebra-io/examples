@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "255bd1f0-7ba9-5e56-ac29-b2b8e15fe198"],
+  "query/datasource": ["datasource/id", "e39e04cb-f724-595d-9832-5c82cc61be7e"],
+  "query/dynamic?": true,
+  "query/format": "text",
+  "query/headers": "{}",
+  "query/id": "d4f40a3b-5b01-52c2-875d-4086caa378a5",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Elevation grid around Ukraine (ESRI ASCII, ~4 km)",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 800
+  },
+  "query/params": "{\"minlongitude\":\"19.5\",\"maxlongitude\":\"43\",\"minlatitude\":\"42.5\",\"maxlatitude\":\"54\",\"format\":\"esriascii\",\"resolution\":\"low\"}",
+  "query/path": "/GridServer",
+  "query/request-body": "",
+  "query/units": "{}"
+}

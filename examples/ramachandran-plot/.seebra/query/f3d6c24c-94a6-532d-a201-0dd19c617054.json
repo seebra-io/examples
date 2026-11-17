@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "488c6073-7b03-5cc3-a5f4-835cc584d907"],
+  "query/datasource": ["datasource/id", "48e40754-5006-5582-bf1d-604b33728d13"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "f3d6c24c-94a6-532d-a201-0dd19c617054",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "1UBQ backbone angles (validation)",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 1040
+  },
+  "query/params": "{}",
+  "query/path": "/validation/rama_sidechain_listing/entry/1ubq",
+  "query/request-body": "",
+  "query/units": "{}"
+}

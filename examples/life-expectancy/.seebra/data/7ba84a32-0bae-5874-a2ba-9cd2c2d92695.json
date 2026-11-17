@@ -1,0 +1,10 @@
+{
+  "data/id": "7ba84a32-0bae-5874-a2ba-9cd2c2d92695",
+  "data/name": "GDP per capita, latest data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 560
+  },
+  "data/parent": ["query/id", "252f4670-d771-5140-a718-a8af90135e58"],
+  "data/type": "json"
+}

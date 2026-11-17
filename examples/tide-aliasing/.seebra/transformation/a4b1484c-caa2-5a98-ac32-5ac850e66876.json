@@ -1,0 +1,21 @@
+{
+  "transformation/content": {
+    "$file": "transforms/strongest-line-per-scheme-against-theory.polars.py"
+  },
+  "transformation/data-child": ["data/id", "e4f7d222-046f-598f-827d-064eeb467670"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "a4b1484c-caa2-5a98-ac32-5ac850e66876",
+  "transformation/inputs": [
+    ["data/id", "314cd04f-abcf-5f67-a3ee-244f30450b45"]
+  ],
+  "transformation/language": "polars",
+  "transformation/name": "Strongest line per scheme against theory",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 2840,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "c592a83c-7f9d-593b-9b3a-f9a787075617"],
+  "transformation/units": "{}"
+}

@@ -1,0 +1,10 @@
+{
+  "data/id": "cc0e11cf-5809-5f4c-ba08-a8db36c85a1d",
+  "data/name": "Source per quarter hour data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "f825860c-8d48-5384-9088-493fcfc7ac04"],
+  "data/type": "json"
+}

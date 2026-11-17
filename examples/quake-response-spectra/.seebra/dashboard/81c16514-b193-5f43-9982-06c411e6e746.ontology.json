@@ -1,0 +1,171 @@
+{
+  "title": "Earthquake response spectra",
+  "summary": "How ground shaking excites buildings of different natural periods, why damping limits resonance, and how distance filters the shaking toward long periods.",
+  "concepts": [
+    {
+      "cid": "c1",
+      "label": "Ground motion",
+      "kind": "measure",
+      "description": "Shaking recorded at a station: peak acceleration (PGA, %g), velocity (PGV, cm/s).",
+      "fields": [
+        "pga",
+        "pgv"
+      ],
+      "in_data": true,
+      "wikidata": "Q1052036",
+      "facts": [
+        {
+          "text": "ShakeMap station lists give peak values per channel for each recording station.",
+          "source": "https://usgs.github.io/shakemap/"
+        }
+      ],
+      "children": [
+        {
+          "cid": "c2",
+          "label": "Spectral acceleration",
+          "kind": "measure",
+          "as": "property",
+          "description": "SA(T): peak response of a 5%-damped oscillator of period T to the record, %g.",
+          "fields": [
+            "psa03",
+            "psa10",
+            "psa30",
+            "sa_g",
+            "period_s"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c3",
+          "label": "Dynamic amplification",
+          "kind": "measure",
+          "as": "property",
+          "description": "SA(T)/PGA: how much an oscillator amplifies the ground motion.",
+          "fields": [
+            "amp03",
+            "amp10",
+            "amp30",
+            "median_amp",
+            "sa_over_pga"
+          ],
+          "in_data": true
+        }
+      ]
+    },
+    {
+      "cid": "c4",
+      "label": "Single-degree-of-freedom oscillator",
+      "kind": "entity",
+      "description": "A mass on a spring with a damper: the model behind the response spectrum.",
+      "fields": [
+        "beta",
+        "zeta",
+        "amplification"
+      ],
+      "in_data": true,
+      "facts": [
+        {
+          "text": "At resonance the steady-state amplification of a lightly damped oscillator is about 1/(2ζ).",
+          "source": "https://en.wikipedia.org/wiki/Resonance"
+        }
+      ],
+      "children": [
+        {
+          "cid": "c5",
+          "label": "Natural period",
+          "kind": "measure",
+          "as": "property",
+          "description": "The period at which the structure oscillates freely; about N/10 s for an N-storey building.",
+          "fields": [
+            "period_s"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c6",
+          "label": "Damping ratio",
+          "kind": "measure",
+          "as": "property",
+          "description": "The fraction of critical damping; about 5% for ordinary buildings.",
+          "fields": [
+            "zeta",
+            "damping"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c7",
+          "label": "Multi-storey modes",
+          "kind": "entity",
+          "as": "part",
+          "description": "Real buildings have higher modes and soil–structure interaction, not in this model.",
+          "in_data": false
+        }
+      ]
+    },
+    {
+      "cid": "c8",
+      "label": "Seismic attenuation",
+      "kind": "event",
+      "description": "Loss of wave amplitude with distance: geometric spreading plus anelastic absorption (quality factor Q).",
+      "fields": [
+        "kappa_per_km",
+        "halving_km"
+      ],
+      "in_data": true,
+      "facts": [
+        {
+          "text": "Absorption per wavelength is fixed by Q, so higher frequencies lose more per kilometre.",
+          "source": "https://en.wikipedia.org/wiki/Seismic_attenuation"
+        }
+      ],
+      "children": [
+        {
+          "cid": "c9",
+          "label": "Distance from rupture",
+          "kind": "measure",
+          "as": "property",
+          "description": "ShakeMap's distance to the fault rupture, km.",
+          "fields": [
+            "distance_km",
+            "dist_bin"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c10",
+          "label": "Spectral shape ratio",
+          "kind": "measure",
+          "as": "property",
+          "description": "SA(3 s)/SA(0.3 s): tall-building over low-building shaking.",
+          "fields": [
+            "long_short",
+            "ln_long_short"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c11",
+          "label": "Site amplification",
+          "kind": "measure",
+          "as": "property",
+          "description": "Soft soils and sedimentary basins (low Vs30) amplify long periods.",
+          "in_data": false
+        }
+      ]
+    },
+    {
+      "cid": "c12",
+      "label": "Earthquake source",
+      "kind": "event",
+      "description": "The M7.1 Ridgecrest mainshock, 6 July 2019; magnitude and rupture length set the corner period of the source spectrum.",
+      "in_data": false,
+      "facts": [
+        {
+          "text": "USGS event page for ci38457511.",
+          "source": "https://earthquake.usgs.gov/earthquakes/eventpage/ci38457511"
+        }
+      ]
+    }
+  ]
+}

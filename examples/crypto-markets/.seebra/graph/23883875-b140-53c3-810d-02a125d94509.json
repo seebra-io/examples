@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/log-returns-and-volatility-the-week-against-its.js"
+  },
+  "graph/id": "23883875-b140-53c3-810d-02a125d94509",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Log returns and volatility: the week against its spread",
+  "graph/node": {
+    "node/x": 1920,
+    "node/y": 80
+  },
+  "graph/parent": ["data/id", "2c39795b-cadd-5054-b0ec-12747a2c720c"]
+}

@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/close-approaches.polars.py"
+  },
+  "transformation/data-child": ["data/id", "ae1213d2-fe2f-57c0-88d3-6a0f4cd6eae0"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "b8bdd9e3-043e-5d94-b9ac-05b0a62dbaea",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Close approaches",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "d7714d78-bc3e-59da-b83b-73f1498b73ae"],
+  "transformation/units": "{}"
+}

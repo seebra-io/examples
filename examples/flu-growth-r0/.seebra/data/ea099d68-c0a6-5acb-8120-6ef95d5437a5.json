@@ -1,0 +1,10 @@
+{
+  "data/id": "ea099d68-c0a6-5acb-8120-6ef95d5437a5",
+  "data/name": "FluView: weekly ILI, US national data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 80
+  },
+  "data/parent": ["query/id", "cb9b1a25-54b3-5dc9-bcad-43155e717ac4"],
+  "data/type": "json"
+}

@@ -1,0 +1,8 @@
+# Energy-Charts gives one array per source, aligned with unix_seconds: one row per source and quarter-hour (MW)
+data.rows("production_types")
+    .filter(col("name").is_in(["Load", "Residual load", "Solar", "Wind onshore", "Wind offshore", "Fossil gas", "Fossil hard coal", "Fossil brown coal / lignite", "Cross border electricity trading", "Hydro pumped storage", "Hydro pumped storage consumption", "Biomass"]))
+    .explode("data")
+    .with_row_index("k")
+    .with_columns(i = col("k") - col("k").min().over("name"))
+    .join(data.rows("unix_seconds").with_row_index("i"), on="i")
+    .select(source = col("name"), t = col("value"), mw = col("data"))

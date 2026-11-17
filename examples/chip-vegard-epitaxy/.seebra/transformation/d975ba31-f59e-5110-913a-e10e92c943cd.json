@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/vegard-s-law-and-bowing-deviation-from-the.polars.py"
+  },
+  "transformation/data-child": ["data/id", "f28f1f44-0279-5164-9b38-e726caaa3010"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "d975ba31-f59e-5110-913a-e10e92c943cd",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Vegard's law and bowing: deviation from the straight line between the end points",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1920,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "a33a18e6-c802-5a31-b25e-ddf171067680"],
+  "transformation/units": "{}"
+}

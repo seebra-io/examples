@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/theory-damped-oscillator.polars.py"
+  },
+  "transformation/data-child": ["data/id", "673b98dd-bf18-56a9-adf8-cb42668ae204"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "3c7ecb90-9239-5b8e-8aea-e76ae38b0b92",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Theory: damped oscillator",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1920,
+    "node/y": 560
+  },
+  "transformation/parent": ["data/id", "2a657db1-f1f6-5471-850d-fbff1eaae0e2"],
+  "transformation/units": "{}"
+}

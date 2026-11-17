@@ -1,0 +1,8 @@
+{
+  "file": {
+    "file/example": "molecules-3d"
+  },
+  "format": 2,
+  "root": ["dashboard/id", "425b2186-af14-5623-b6a4-5a286c690f0a"],
+  "seebra": "board"
+}

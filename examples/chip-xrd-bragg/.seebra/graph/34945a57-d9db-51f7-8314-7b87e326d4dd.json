@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/bragg-s-law-sin2-against-h2-k2-l2.js"
+  },
+  "graph/id": "34945a57-d9db-51f7-8314-7b87e326d4dd",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Bragg's law: sin²θ against h² + k² + l²",
+  "graph/node": {
+    "node/x": 2380,
+    "node/y": 560
+  },
+  "graph/parent": ["data/id", "cabddb2f-6867-5e76-bc97-3df1e62350bb"]
+}

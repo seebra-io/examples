@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/correlation-causation-spearman.polars.py"
+  },
+  "transformation/data-child": ["data/id", "b95930de-d635-5fe8-b49b-118bd682590f"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "b06eb3f8-ece4-51a2-855d-78615c495024",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Correlation ≠ causation: Spearman ρ",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "da17c55b-e0a1-5daa-9102-d722229fd1b2"],
+  "transformation/units": "{}"
+}

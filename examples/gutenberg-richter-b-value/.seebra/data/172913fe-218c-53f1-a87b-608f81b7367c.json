@@ -1,0 +1,10 @@
+{
+  "data/id": "172913fe-218c-53f1-a87b-608f81b7367c",
+  "data/name": "b against the cut-off Mc, per magnitude family data",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 560
+  },
+  "data/parent": ["transformation/id", "c59f801b-14c2-5012-a4d7-08cb93499efe"],
+  "data/type": "json"
+}

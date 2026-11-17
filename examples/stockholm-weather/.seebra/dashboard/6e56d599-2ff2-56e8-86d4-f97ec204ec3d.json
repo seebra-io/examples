@@ -1,0 +1,36 @@
+{
+  "dashboard/id": "6e56d599-2ff2-56e8-86d4-f97ec204ec3d",
+  "datas": [
+    ["data/id", "f0e8e7c6-4085-5609-b442-eed6891c8251"],
+    ["data/id", "8972725e-1666-5797-9ca0-5dc9af05b766"],
+    ["data/id", "ce643a44-0024-57a8-b214-77096dadbf97"],
+    ["data/id", "be18a0f2-0f65-5c83-b5fa-d505f9c794b3"],
+    ["data/id", "239444bc-9e14-5f92-8e62-c4482e88b447"],
+    ["data/id", "66c32535-6929-5e45-9d1a-1710c7fc179e"]
+  ],
+  "datasources": [
+    ["datasource/id", "479acb89-2761-5578-8982-79fb98ba5533"],
+    ["datasource/id", "88beddc4-5f72-5b79-a494-57bfe1e3a03a"]
+  ],
+  "description": "Open-Meteo's hourly forecast for Stockholm, summed per day, and each day's mean temperature as an anomaly against the 1991–2020 normal for that calendar day from Open-Meteo's ERA5 archive: a z-score, the difference in standard deviations of that day's 30 years. Forecast (modelled) against reanalysis (modelled from observations); 30 values per calendar day make the spread itself uncertain.",
+  "graphs": [
+    ["graph/id", "f674dd22-55c5-59c1-b38d-7c91714b0794"],
+    ["graph/id", "4a0159bb-a692-5e71-8741-ecd94e29e760"]
+  ],
+  "grids": [],
+  "name": "Stockholm: the week's weather",
+  "queries": [
+    ["query/id", "6be62166-8e04-549b-b8bb-a2fa22cbfd82"],
+    ["query/id", "362c97b2-65c0-5977-9327-15b69af417a8"]
+  ],
+  "studies": [],
+  "tables": [],
+  "texts": [],
+  "timers": [],
+  "transformations": [
+    ["transformation/id", "3f487b87-dd8d-58cc-9920-e7079dddd81e"],
+    ["transformation/id", "e2065422-7610-5762-bd00-159536b05450"],
+    ["transformation/id", "d6bd7863-e021-5a5a-8638-f80083710c01"],
+    ["transformation/id", "94829934-5535-5721-8493-eca02a68ce72"]
+  ]
+}

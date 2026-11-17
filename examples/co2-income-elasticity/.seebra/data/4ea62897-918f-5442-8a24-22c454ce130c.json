@@ -1,0 +1,11 @@
+{
+  "data/id": "4ea62897-918f-5442-8a24-22c454ce130c",
+  "data/name": "Elasticity within each country",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "2baaa426-9865-5fa1-96a3-081789bcd641"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

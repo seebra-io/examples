@@ -1,0 +1,10 @@
+{
+  "data/id": "1bdaac2c-8be9-5204-8d39-7e13b18e7240",
+  "data/name": "The public Explore catalog: every API and example, with its description and categories data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 80
+  },
+  "data/parent": ["query/id", "046889d0-c24a-5568-aae8-c6ac553bf30e"],
+  "data/type": "json"
+}

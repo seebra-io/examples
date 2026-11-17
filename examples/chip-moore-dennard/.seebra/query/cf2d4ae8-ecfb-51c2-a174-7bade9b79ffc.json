@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "e4bf8c27-4126-5ca7-b81b-c0f31c2a01fd"],
+  "query/datasource": ["datasource/id", "4cdbcf20-8660-555a-8ab4-7415f9a0f5fc"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "cf2d4ae8-ecfb-51c2-a174-7bade9b79ffc",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "single-thread performance (SpecINT × 10³), per processor (50yrs/specint.dat)",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 800
+  },
+  "query/params": "{}",
+  "query/path": "/50yrs/specint.dat",
+  "query/request-body": "",
+  "query/units": "{}"
+}

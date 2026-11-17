@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "df336183-bd21-50f2-a9e2-d22a80ca5ca0"],
+  "query/datasource": ["datasource/id", "e036e0bd-b7c6-55dc-b6f8-b59f72b61e89"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "561b1a24-b76b-5350-8b05-0e8fb4a24256",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "FluView clinical labs: % positive for influenza, US national",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 320
+  },
+  "query/params": "{\"regions\":\"nat\",\"epiweeks\":\"201640-202620\"}",
+  "query/path": "/fluview_clinical/",
+  "query/request-body": "",
+  "query/units": "{}"
+}

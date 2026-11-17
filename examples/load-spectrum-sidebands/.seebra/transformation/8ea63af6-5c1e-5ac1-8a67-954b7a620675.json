@@ -1,0 +1,21 @@
+{
+  "transformation/content": {
+    "$file": "transforms/amplitude-spectra-dft.sql"
+  },
+  "transformation/data-child": ["data/id", "c1077a10-ff4c-5482-b111-355ec6761b4b"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "8ea63af6-5c1e-5ac1-8a67-954b7a620675",
+  "transformation/inputs": [
+    ["data/id", "3c157256-5296-5792-9005-286779065d51"]
+  ],
+  "transformation/language": "sql",
+  "transformation/name": "Amplitude spectra (DFT)",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1920,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "8c523981-fdc3-5c3e-9ebe-df298d579ec9"],
+  "transformation/units": "{}"
+}

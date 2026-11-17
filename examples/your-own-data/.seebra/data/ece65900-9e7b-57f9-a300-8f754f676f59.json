@@ -1,0 +1,11 @@
+{
+  "data/id": "ece65900-9e7b-57f9-a300-8f754f676f59",
+  "data/name": "Export guide: links, steps and the file that matters",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "2defa771-d901-513f-8daa-7266593a791b"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

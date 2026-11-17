@@ -1,0 +1,161 @@
+{
+  "title": "The vertical structure of the atmosphere",
+  "summary": "Pressure falls exponentially with height at a rate set by temperature (the hypsometric equation); warm columns are thick, and temperature profiles define the troposphere and the tropopause.",
+  "concepts": [
+    {
+      "cid": "c1",
+      "label": "Air column",
+      "kind": "place",
+      "description": "The atmosphere above one point, here 17 points along 20° E.",
+      "fields": [
+        "latitude",
+        "longitude",
+        "elevation"
+      ],
+      "in_data": true,
+      "children": [
+        {
+          "cid": "c2",
+          "label": "Pressure level",
+          "kind": "measure",
+          "as": "part",
+          "description": "An isobaric surface, hPa; its height is the geopotential height.",
+          "fields": [
+            "p_hpa",
+            "z_m"
+          ],
+          "in_data": true,
+          "children": [
+            {
+              "cid": "c3",
+              "label": "Geopotential height",
+              "kind": "measure",
+              "as": "property",
+              "description": "Height in geopotential metres (g₀ = 9.80665 m/s²).",
+              "fields": [
+                "z_m"
+              ],
+              "in_data": true,
+              "wikidata": "Q1500813"
+            }
+          ]
+        },
+        {
+          "cid": "c4",
+          "label": "Air temperature",
+          "kind": "measure",
+          "as": "property",
+          "description": "°C at each level.",
+          "fields": [
+            "temp_c",
+            "t_k"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c5",
+          "label": "Humidity",
+          "kind": "measure",
+          "as": "property",
+          "description": "Water vapour makes air lighter (virtual temperature); not fetched here.",
+          "fields": [],
+          "in_data": false
+        },
+        {
+          "cid": "c6",
+          "label": "Tropopause",
+          "kind": "place",
+          "as": "part",
+          "description": "Where the lapse rate drops below 2 K/km.",
+          "fields": [
+            "tropopause_m",
+            "tropopause_hpa"
+          ],
+          "in_data": true,
+          "wikidata": "Q207976"
+        }
+      ]
+    },
+    {
+      "cid": "c7",
+      "label": "Hypsometric equation",
+      "kind": "event",
+      "description": "Δz = (R_d/g₀) T̄ ln(p₁/p₂).",
+      "fields": [
+        "dz_hypsometric_m",
+        "dz_model_m",
+        "error_pct"
+      ],
+      "in_data": true,
+      "wikidata": "Q1638430",
+      "facts": [
+        {
+          "text": "R_d = 287.05 J kg⁻¹ K⁻¹ for dry air.",
+          "source": "https://glossary.ametsoc.org/wiki/Gas_constant"
+        }
+      ],
+      "children": [
+        {
+          "cid": "c8",
+          "label": "Scale height",
+          "kind": "measure",
+          "as": "property",
+          "description": "H = R_d T/g₀: the height over which pressure falls by e.",
+          "fields": [
+            "scale_height_km"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c9",
+          "label": "Thickness",
+          "kind": "measure",
+          "as": "property",
+          "description": "1000–500 hPa: proportional to the layer's mean temperature.",
+          "fields": [
+            "thickness_m",
+            "t_mean_c"
+          ],
+          "in_data": true
+        }
+      ]
+    },
+    {
+      "cid": "c10",
+      "label": "Lapse rate",
+      "kind": "measure",
+      "description": "Fall of temperature with height, K/km.",
+      "fields": [
+        "lapse_k_per_km"
+      ],
+      "in_data": true,
+      "wikidata": "Q1145853"
+    },
+    {
+      "cid": "c11",
+      "label": "Speed of sound",
+      "kind": "measure",
+      "description": "√(γ R_d T).",
+      "fields": [
+        "sound_m_s"
+      ],
+      "in_data": true
+    },
+    {
+      "cid": "c12",
+      "label": "Thermal wind",
+      "kind": "event",
+      "description": "Wind shear from horizontal thickness gradients: the jet streams.",
+      "fields": [],
+      "in_data": false
+    },
+    {
+      "cid": "c13",
+      "label": "Radiosonde",
+      "kind": "source",
+      "description": "Balloon soundings: measured, not modelled, profiles.",
+      "fields": [],
+      "in_data": false
+    }
+  ]
+}

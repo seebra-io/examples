@@ -1,0 +1,10 @@
+{
+  "data/id": "a688bbfe-f5d8-5602-b868-eebbb6132b32",
+  "data/name": "rs4988235 (LCT/MCM6) genotype counts data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "2449ecbe-3ff7-5ff6-9ee0-75e9c1e69e6d"],
+  "data/type": "json"
+}

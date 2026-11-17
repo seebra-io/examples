@@ -1,0 +1,11 @@
+{
+  "data/id": "653d1f80-2665-526f-b04e-3c8858293ca3",
+  "data/name": "Compounds and both rules",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 560
+  },
+  "data/parent": ["transformation/id", "584b8786-a76d-5c19-b956-830e2bcb7454"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

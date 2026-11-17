@@ -1,0 +1,18 @@
+{
+  "study/hypothesis": "Daily COP decreases with the lift, and the measured COP is a roughly constant fraction of the Carnot COP.",
+  "study/id": "a267a05e-1309-5bf0-99d7-cc982aca6338",
+  "study/name": "Does a smaller lift give a higher COP?",
+  "study/node": {
+    "node/x": 540,
+    "node/y": 1040
+  },
+  "study/plan": {
+    "$file": ".seebra/study/a267a05e-1309-5bf0-99d7-cc982aca6338.plan.json",
+    "$json": true
+  },
+  "study/question": "Across four houses with the same heat pump model, does the daily COP of space heating fall as the temperature lift (flow minus outdoor) grows?",
+  "study/state": {
+    "$file": ".seebra/study/a267a05e-1309-5bf0-99d7-cc982aca6338.state.json",
+    "$json": true
+  }
+}

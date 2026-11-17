@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/restart-counts-at-least-k-the-tail.polars.py"
+  },
+  "transformation/data-child": ["data/id", "9ce5f2c8-f782-5282-b0f8-0c697ee58ad6"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "c9cfdf91-d991-5853-8f73-3b77520ec416",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Restart counts: at least k (the tail)",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "76a1b628-bd79-5b25-902f-a131e68bdad9"],
+  "transformation/units": "{}"
+}

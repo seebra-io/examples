@@ -1,0 +1,10 @@
+{
+  "data/id": "afd0fb36-7897-5fb4-af51-35dd41388228",
+  "data/name": "COD entries with formula In P data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 1280
+  },
+  "data/parent": ["query/id", "be9766b7-a7ee-5613-b7ba-fb4bac160595"],
+  "data/type": "json"
+}

@@ -1,0 +1,55 @@
+{
+  "dashboard/id": "0a1c2e21-79fa-56d0-b922-5acfe1910856",
+  "datas": [
+    ["data/id", "fb164937-d5ad-514f-8f22-080235b27af8"],
+    ["data/id", "02ebe31b-db06-5805-a287-6c8f2bc17c76"],
+    ["data/id", "1f429c70-4299-5b1f-adc6-63ce1aa25b18"],
+    ["data/id", "2ffb9345-6d0b-5795-9688-617b509adac1"],
+    ["data/id", "6e1fa7e0-4b4e-519f-92f6-5c0911f551bd"],
+    ["data/id", "6668a88c-7620-5e7d-ba4f-d6567c92e34b"],
+    ["data/id", "1257a31e-e15e-50da-82bc-5080aa4e2f5e"],
+    ["data/id", "a2f0bf5a-752f-58ba-a244-44d3aca21fee"],
+    ["data/id", "6ae0ed64-cc06-5a73-b543-344b5bc344d5"],
+    ["data/id", "a99117b0-0140-5f57-89b3-5f9b4556d9b1"],
+    ["data/id", "a0cfb2dc-66ff-5b7b-be95-7335b6fc8054"],
+    ["data/id", "e798d48f-1ad8-581b-916f-3bf771ad434f"],
+    ["data/id", "df9ed219-f6a1-539f-b9ea-aa7d38b65903"],
+    ["data/id", "4a0a0b63-b17a-5e8a-82be-715267779381"]
+  ],
+  "datasources": [
+    ["datasource/id", "48c6bdde-2deb-595f-aa40-7fc6a0ddcdc1"]
+  ],
+  "description": "Question: does a bigger genome mean more genes? If DNA were mostly genes, gene count would grow in proportion to genome size (genes ∝ size^b with b = 1). Data: 1,000 annotated reference genomes from NCBI Datasets, the first 200 of each of five groups (bacteria, archaea, fungi, plants, animals): assembly size, G+C % and protein-coding gene count. Steps: per genome the size in Mb and the gene density (genes per Mb); per group a least-squares fit of log10(genes) on log10(size), whose slope b is the scaling exponent, with R², and the fold ranges of size and gene count; the same for prokaryotes against eukaryotes. Aha: in bacteria b = 1.01 (R² 0.99) and archaea 0.88: a prokaryote genome is genes packed end to end, about 900–1,000 per Mb at any size. In eukaryotes the law breaks: animal genomes span a 500-fold range of size (57 Mb to the axolotl's 29 Gb) with b = 0.15, plants 0.26, fungi 0.53, and the median density falls to 25 genes per Mb in animals. Genome size says little about gene number or complexity: the C-value paradox. The extra DNA is introns, repeats and transposable elements, which this data does not hold. Caveats: NCBI's first 200 reference genomes per group are a sample in NCBI's order, not random, and over-represent well-studied species; gene counts depend on the annotation pipeline (RefSeq or submitter), and polyploids (wheat, 104k genes) count every copy; assembly length is not flow-cytometry C-value (repeats may be missing from assemblies); microsporidia (Encephalitozoon) count as fungi. Next: hover a genome; drill down to one group (insects, grasses: any NCBI taxon id in the same query); expand to repeat content or intron length, or to Lynch's population-size hypothesis.",
+  "graphs": [
+    ["graph/id", "c4c8a499-48f3-5024-8225-40c12be8951d"],
+    ["graph/id", "0ed1142d-ae4d-53d3-ae42-2f829a613628"]
+  ],
+  "grids": [],
+  "name": "The C-value paradox: genome size against gene number",
+  "ontology": {
+    "$file": ".seebra/dashboard/0a1c2e21-79fa-56d0-b922-5acfe1910856.ontology.json",
+    "$json": true
+  },
+  "queries": [
+    ["query/id", "3320be80-9357-5078-a35e-19dd7cff6f7a"],
+    ["query/id", "cdcc3e42-c752-597d-972b-92cb68d1f33e"],
+    ["query/id", "e6acfbb6-3ecb-585f-87c5-ef3c109b8578"],
+    ["query/id", "8284e352-1037-5845-8256-091dc34f1273"],
+    ["query/id", "97a47518-ea02-5e53-b497-06ba088ed821"]
+  ],
+  "studies": [],
+  "tables": [],
+  "texts": [],
+  "timers": [],
+  "transformations": [
+    ["transformation/id", "61235788-1269-55e6-8017-c745a25d0f7d"],
+    ["transformation/id", "94d9ea2a-2e6b-578b-b9fb-7312174f49ab"],
+    ["transformation/id", "9791676d-a34c-5332-a421-e6e6181dca01"],
+    ["transformation/id", "b89f61e9-b58a-54ca-b9db-3950d6e72488"],
+    ["transformation/id", "ada34e96-b9f1-5118-9c79-a3f62ff55ccf"],
+    ["transformation/id", "84e57029-21a3-5de8-a60c-30f8efd4f18d"],
+    ["transformation/id", "7f010c30-16e5-55d8-9dde-cf274a096c6e"],
+    ["transformation/id", "b04421aa-d184-5efc-959f-8935d5de88f8"],
+    ["transformation/id", "a5ee1c4b-f690-5e32-a520-b48a073c8d99"]
+  ]
+}

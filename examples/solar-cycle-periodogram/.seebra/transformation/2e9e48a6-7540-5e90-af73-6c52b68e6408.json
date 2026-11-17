@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/yearly-means-centred.polars.py"
+  },
+  "transformation/data-child": ["data/id", "a919038b-eb6e-5fd8-97df-2941fadef72d"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "2e9e48a6-7540-5e90-af73-6c52b68e6408",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Yearly means, centred",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1920,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "7d659727-dc39-5206-9933-15870224716a"],
+  "transformation/units": "{}"
+}

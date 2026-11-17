@@ -1,0 +1,1 @@
+SELECT provider, COUNT(*) AS launches, MIN(net) AS next_launch, COUNT(DISTINCT rocket) AS rockets, SUM(CASE WHEN precision IN ('Second', 'Minute', 'Hour') THEN 1 ELSE 0 END) AS dated_to_the_hour FROM data GROUP BY provider ORDER BY launches DESC, next_launch

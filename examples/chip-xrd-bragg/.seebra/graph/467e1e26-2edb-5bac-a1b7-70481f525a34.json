@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/film-on-substrate-peak-splitting-grows-with-tan.js"
+  },
+  "graph/id": "467e1e26-2edb-5bac-a1b7-70481f525a34",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Film on substrate: peak splitting grows with tan θ",
+  "graph/node": {
+    "node/x": 2840,
+    "node/y": 80
+  },
+  "graph/parent": ["data/id", "9ca87711-25ce-50ed-91a9-2108481e2f6a"]
+}

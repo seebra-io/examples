@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/zipf-s-law-rank-against-views-log-log.js"
+  },
+  "graph/id": "cf4da2dc-af54-5ad9-982b-7ef75f047f49",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Zipf's law: rank against views, log–log",
+  "graph/node": {
+    "node/x": 1920,
+    "node/y": 320
+  },
+  "graph/parent": ["data/id", "32bac173-bb9a-59e5-899b-34f38b411792"]
+}

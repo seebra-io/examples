@@ -1,0 +1,10 @@
+{
+  "data/id": "1b6cc565-10a9-570c-aeac-361f88115c6c",
+  "data/name": "Arable land (ha), latest data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 560
+  },
+  "data/parent": ["query/id", "ba9019d0-f1e7-5da6-8295-c87f7b651213"],
+  "data/type": "json"
+}

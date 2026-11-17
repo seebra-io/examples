@@ -1,0 +1,152 @@
+{
+  "title": "Heat diffusion in the ground",
+  "summary": "Soil temperature at depth as the output of a diffusive low-pass system driven by the air: the cycles that drive it, the damping and lag it applies, and the soil properties that set them.",
+  "concepts": [
+    {
+      "cid": "c1",
+      "label": "Temperature cycle",
+      "kind": "event",
+      "description": "A periodic driver of ground temperature at the surface.",
+      "fields": [
+        "cycle",
+        "period_h"
+      ],
+      "in_data": true,
+      "children": [
+        {
+          "cid": "c2",
+          "label": "Diurnal cycle",
+          "kind": "event",
+          "as": "subtype",
+          "description": "The 24-hour day–night swing.",
+          "fields": [
+            "cycle"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c3",
+          "label": "Annual cycle",
+          "kind": "event",
+          "as": "subtype",
+          "description": "The seasonal swing, 8766 hours.",
+          "fields": [
+            "cycle"
+          ],
+          "in_data": true
+        }
+      ]
+    },
+    {
+      "cid": "c4",
+      "label": "Soil temperature",
+      "kind": "measure",
+      "description": "Temperature of a soil layer, °C (here ERA5-Land layer means).",
+      "fields": [
+        "temp_c",
+        "layer",
+        "depth_m"
+      ],
+      "in_data": true,
+      "wikidata": "Q1753101",
+      "facts": [
+        {
+          "text": "ERA5-Land's soil layers are 0–7, 7–28, 28–100 and 100–255 cm.",
+          "source": "https://open-meteo.com/en/docs/historical-weather-api"
+        }
+      ]
+    },
+    {
+      "cid": "c5",
+      "label": "Frequency response",
+      "kind": "measure",
+      "description": "How a system scales and delays each input frequency.",
+      "fields": [
+        "ratio_vs_top",
+        "lag_top_deg"
+      ],
+      "in_data": true,
+      "wikidata": "Q1192221",
+      "children": [
+        {
+          "cid": "c6",
+          "label": "Amplitude attenuation",
+          "kind": "measure",
+          "as": "property",
+          "description": "Output amplitude over input amplitude, e^(−Δz/d) in diffusion.",
+          "fields": [
+            "ratio_vs_top",
+            "ratio_vs_air",
+            "log_ratio_top"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c7",
+          "label": "Phase lag",
+          "kind": "measure",
+          "as": "property",
+          "description": "Delay of the output cycle, Δz/d radians in diffusion; at most 90° for one first-order stage.",
+          "fields": [
+            "lag_top_deg",
+            "lag_air_h"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c8",
+          "label": "Damping depth",
+          "kind": "measure",
+          "as": "property",
+          "description": "d = √(2κ/ω), the e-folding depth of a cycle.",
+          "fields": [
+            "d_amp_m",
+            "d_phase_m"
+          ],
+          "in_data": true
+        }
+      ]
+    },
+    {
+      "cid": "c9",
+      "label": "Soil thermal properties",
+      "kind": "measure",
+      "description": "What sets the filter: diffusivity κ, from conductivity, density and heat capacity.",
+      "fields": [
+        "kappa_amp_mm2_s",
+        "kappa_phase_mm2_s"
+      ],
+      "in_data": true,
+      "children": [
+        {
+          "cid": "c10",
+          "label": "Thermal diffusivity",
+          "kind": "measure",
+          "as": "property",
+          "description": "κ in m²/s; typical soils 0.2–0.8 mm²/s.",
+          "fields": [
+            "kappa_phase_mm2_s"
+          ],
+          "in_data": true,
+          "wikidata": "Q1193066"
+        },
+        {
+          "cid": "c11",
+          "label": "Soil moisture",
+          "kind": "measure",
+          "as": "property",
+          "description": "Water content, which raises conductivity and heat capacity.",
+          "in_data": false
+        },
+        {
+          "cid": "c12",
+          "label": "Snow cover",
+          "kind": "measure",
+          "as": "property",
+          "description": "An insulating layer that decouples soil from air in winter.",
+          "in_data": false
+        }
+      ]
+    }
+  ]
+}

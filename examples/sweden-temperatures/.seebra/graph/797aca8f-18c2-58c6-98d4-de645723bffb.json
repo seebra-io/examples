@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/trend-with-an-uncertainty-band-c-against.js"
+  },
+  "graph/id": "797aca8f-18c2-58c6-98d4-de645723bffb",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Trend with an uncertainty band: °C against latitude",
+  "graph/node": {
+    "node/x": 1920,
+    "node/y": 80
+  },
+  "graph/parent": ["data/id", "50f30f7b-cd87-5234-a33f-de424c7f1c84"]
+}

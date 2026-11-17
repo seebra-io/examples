@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/stations-and-their-spectral-ratio.js"
+  },
+  "graph/id": "935338a1-aea6-56fe-a336-9795a6e3e726",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Stations and their spectral ratio",
+  "graph/node": {
+    "node/x": 1920,
+    "node/y": 800
+  },
+  "graph/parent": ["data/id", "2a657db1-f1f6-5471-850d-fbff1eaae0e2"]
+}

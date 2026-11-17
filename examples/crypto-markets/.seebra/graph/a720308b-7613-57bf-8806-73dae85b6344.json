@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/correlation-of-hourly-log-returns-one-market.js"
+  },
+  "graph/id": "a720308b-7613-57bf-8806-73dae85b6344",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Correlation of hourly log returns: one market factor",
+  "graph/node": {
+    "node/x": 1920,
+    "node/y": 320
+  },
+  "graph/parent": ["data/id", "46dc2902-f6c4-51b2-8322-b73414787669"]
+}

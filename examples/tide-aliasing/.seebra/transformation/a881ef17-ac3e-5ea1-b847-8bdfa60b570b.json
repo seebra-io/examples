@@ -1,0 +1,21 @@
+{
+  "transformation/content": {
+    "$file": "transforms/tidal-constituents-and-their-aliases.polars.py"
+  },
+  "transformation/data-child": ["data/id", "314cd04f-abcf-5f67-a3ee-244f30450b45"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "a881ef17-ac3e-5ea1-b847-8bdfa60b570b",
+  "transformation/inputs": [
+    ["data/id", "55812ae8-c931-53a9-a2f4-d483ec98c865"]
+  ],
+  "transformation/language": "polars",
+  "transformation/name": "Tidal constituents and their aliases",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 1040
+  },
+  "transformation/parent": ["data/id", "bf261d65-21c7-5fad-a146-d024ea0837fa"],
+  "transformation/units": "{}"
+}

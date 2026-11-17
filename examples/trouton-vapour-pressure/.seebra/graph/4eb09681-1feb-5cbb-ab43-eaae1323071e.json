@@ -1,0 +1,16 @@
+{
+  "graph/content": {
+    "$file": "graphs/trouton-s-rule-the-entropy-of-vaporisation-per.js"
+  },
+  "graph/id": "4eb09681-1feb-5cbb-ab43-eaae1323071e",
+  "graph/inputs": [
+    ["data/id", "f2c95e97-61e9-590e-a2fe-3a824b443f01"]
+  ],
+  "graph/language": "javascript",
+  "graph/name": "Trouton's rule: the entropy of vaporisation per class of liquid",
+  "graph/node": {
+    "node/x": 1920,
+    "node/y": 1040
+  },
+  "graph/parent": ["data/id", "734ae4fb-e4cc-5e88-84d8-040ea4d0aaa8"]
+}

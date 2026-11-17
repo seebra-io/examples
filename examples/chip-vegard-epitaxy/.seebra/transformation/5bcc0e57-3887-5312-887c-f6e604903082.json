@@ -1,0 +1,23 @@
+{
+  "transformation/content": {
+    "$file": "transforms/measured-cells-cod.sql"
+  },
+  "transformation/data-child": ["data/id", "d9be0060-32f1-5760-b2a4-7dc081f86fff"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "5bcc0e57-3887-5312-887c-f6e604903082",
+  "transformation/inputs": [
+    ["data/id", "f4bf5f28-4649-5cdb-bd0b-35197b89b686"],
+    ["data/id", "0670b187-8ed7-5b32-855d-dc72bb21335f"],
+    ["data/id", "ec1ebdcf-fde3-54bb-b106-cf903a4a2b40"]
+  ],
+  "transformation/language": "sql",
+  "transformation/name": "Measured cells (COD)",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 560
+  },
+  "transformation/parent": ["data/id", "1177b496-db01-5ead-b3d4-1694167e6928"],
+  "transformation/units": "{}"
+}

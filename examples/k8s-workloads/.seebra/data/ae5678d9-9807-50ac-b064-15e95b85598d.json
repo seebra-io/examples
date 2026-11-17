@@ -1,0 +1,10 @@
+{
+  "data/id": "ae5678d9-9807-50ac-b064-15e95b85598d",
+  "data/name": "Pods data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "2488128b-f2e1-5fc1-bf11-dc3418a67ec2"],
+  "data/type": "json"
+}

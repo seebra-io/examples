@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/the-weekly-envelope.js"
+  },
+  "graph/id": "d47c1693-7eb0-59df-9832-138d6d12d05d",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "The weekly envelope",
+  "graph/node": {
+    "node/x": 1920,
+    "node/y": 560
+  },
+  "graph/parent": ["data/id", "a64c21fc-18d0-5c18-bdd6-78efea0c1785"]
+}

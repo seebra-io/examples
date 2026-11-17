@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "258b7419-bce6-598b-a5f4-c3248eb57b8c"],
+  "query/datasource": ["datasource/id", "546a9c11-4b9b-5667-8428-de06b68489ee"],
+  "query/dynamic?": false,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "95627e7a-b305-5280-b9c6-3810116a3e41",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "EPA vehicles, model years 2021 on",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 80
+  },
+  "query/params": "{\"select\":\"id,make,model,year,atvtype,vclass,ucity,uhighway,city08,highway08,citye,highwaye,range,drive,fueltype1\",\"where\":\"year >= date'2021-01-01'\"}",
+  "query/path": "/catalog/datasets/all-vehicles-model/exports/json",
+  "query/request-body": "",
+  "query/units": "{}"
+}

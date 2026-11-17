@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/life-expectancy-on-log-gdp-per-capita-a.js"
+  },
+  "graph/id": "62a7e63b-7989-59ba-8e3f-f2ddac855508",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Life expectancy on log GDP per capita: a correlation, not a cause",
+  "graph/node": {
+    "node/x": 2380,
+    "node/y": 80
+  },
+  "graph/parent": ["data/id", "a78a0572-d138-56fc-9259-c3325d3ba0cb"]
+}

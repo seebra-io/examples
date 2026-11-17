@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/distribution-of-f-5-mhz-bins.polars.py"
+  },
+  "transformation/data-child": ["data/id", "8d2d055a-4c19-59b3-8691-a18134a13477"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "821bbe97-68e7-5137-ba66-c35e99d63c9f",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Distribution of Δf (5 mHz bins)",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 560
+  },
+  "transformation/parent": ["data/id", "6e8b59ff-56f7-5662-89f0-01749a9a91fb"],
+  "transformation/units": "{}"
+}

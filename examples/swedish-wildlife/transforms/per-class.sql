@@ -1,0 +1,1 @@
+SELECT class, count(*) AS sightings, count(DISTINCT species) AS species FROM data GROUP BY class ORDER BY sightings DESC

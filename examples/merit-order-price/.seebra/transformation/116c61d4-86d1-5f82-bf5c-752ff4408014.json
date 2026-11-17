@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/empirical-merit-order-2-5-gw-bins.polars.py"
+  },
+  "transformation/data-child": ["data/id", "512f8087-b8da-50f3-b783-06c6c05799ce"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "116c61d4-86d1-5f82-bf5c-752ff4408014",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Empirical merit order (2.5 GW bins)",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 2380,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "b47f6168-5b57-55b0-9678-dca54b2e8bcd"],
+  "transformation/units": "{}"
+}

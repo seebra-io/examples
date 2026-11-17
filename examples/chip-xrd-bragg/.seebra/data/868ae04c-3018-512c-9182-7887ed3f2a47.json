@@ -1,0 +1,10 @@
+{
+  "data/id": "868ae04c-3018-512c-9182-7887ed3f2a47",
+  "data/name": "COD entries with formula Al As data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 1040
+  },
+  "data/parent": ["query/id", "3703b7f8-15c4-59ad-9ec8-0159108a6585"],
+  "data/type": "json"
+}

@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/weekday-saturday-sunday.polars.py"
+  },
+  "transformation/data-child": ["data/id", "3ae41b96-3e0d-5ee7-8418-5eabb709def0"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "5a778f10-b14d-5237-a122-0d656dd48422",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Weekday, Saturday, Sunday",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1920,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "a64c21fc-18d0-5c18-bdd6-78efea0c1785"],
+  "transformation/units": "{}"
+}

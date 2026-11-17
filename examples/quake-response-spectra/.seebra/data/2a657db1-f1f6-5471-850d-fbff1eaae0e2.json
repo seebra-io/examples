@@ -1,0 +1,10 @@
+{
+  "data/id": "2a657db1-f1f6-5471-850d-fbff1eaae0e2",
+  "data/name": "Per station: larger horizontal data",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "4ce784f0-e6a7-5fed-a011-d6e824f20e75"],
+  "data/type": "json"
+}

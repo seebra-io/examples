@@ -1,0 +1,10 @@
+{
+  "data/id": "c7572454-2f50-50f6-b694-ee852844b041",
+  "data/name": "rs1426654 SLC24A5 genotypes per population data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 320
+  },
+  "data/parent": ["query/id", "97f99d3c-65a9-5fab-b91d-0a002d7967e6"],
+  "data/type": "json"
+}

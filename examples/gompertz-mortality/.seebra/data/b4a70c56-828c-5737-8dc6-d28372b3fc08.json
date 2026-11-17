@@ -1,0 +1,10 @@
+{
+  "data/id": "b4a70c56-828c-5737-8dc6-d28372b3fc08",
+  "data/name": "Life tables 2023: death rate by age and sex (demo_mlifetable) data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 320
+  },
+  "data/parent": ["query/id", "a3a6a38c-73b3-5ba0-aac8-20a36a8f361f"],
+  "data/type": "json"
+}

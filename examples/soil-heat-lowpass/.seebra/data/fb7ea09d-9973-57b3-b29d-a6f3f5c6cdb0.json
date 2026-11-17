@@ -1,0 +1,10 @@
+{
+  "data/id": "fb7ea09d-9973-57b3-b29d-a6f3f5c6cdb0",
+  "data/name": "Hours with air and four soil layers data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "72570940-7230-591b-89f5-ee4a026d4eac"],
+  "data/type": "json"
+}

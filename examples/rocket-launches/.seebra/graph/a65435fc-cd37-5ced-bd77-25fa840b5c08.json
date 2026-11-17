@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/poisson-waiting-times-share-of-gaps-at-least.js"
+  },
+  "graph/id": "a65435fc-cd37-5ced-bd77-25fa840b5c08",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Poisson waiting times: share of gaps at least this long (log scale) vs the exponential",
+  "graph/node": {
+    "node/x": 1460,
+    "node/y": 800
+  },
+  "graph/parent": ["data/id", "0112d37c-9e6c-5259-9148-6ab365380d09"]
+}

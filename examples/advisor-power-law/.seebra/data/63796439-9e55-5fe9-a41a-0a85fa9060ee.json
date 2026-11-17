@@ -1,0 +1,10 @@
+{
+  "data/id": "63796439-9e55-5fe9-a41a-0a85fa9060ee",
+  "data/name": "Both directions of the advisor network data",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "f937d1b7-6753-58bc-a40c-ff71d08498cb"],
+  "data/type": "json"
+}

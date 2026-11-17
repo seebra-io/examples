@@ -1,0 +1,57 @@
+{
+  "dashboard/id": "f67396fb-ac59-5c3b-9d05-4e261d50afaa",
+  "datas": [
+    ["data/id", "122e9d40-dc49-508a-bfe2-a1064751061d"],
+    ["data/id", "d4efb546-1180-5fe5-8ce6-3a0a76d400fa"],
+    ["data/id", "490fceb1-661f-583b-bbce-e7f4eb7c3811"],
+    ["data/id", "d78d6afa-fbc6-5b94-9b38-4a8d11f2f70b"],
+    ["data/id", "fe5fde25-9bcf-558a-a106-cbd3023537c1"],
+    ["data/id", "92494ad0-69f3-50fb-b236-ddd215e6c8b5"],
+    ["data/id", "044b94c8-9d26-5b2d-b750-8616159953e7"],
+    ["data/id", "369cbb37-92fe-5f29-8542-4059685b66d6"],
+    ["data/id", "88aa88ba-42a6-5120-a84a-415e3d169272"],
+    ["data/id", "33d82a54-f88c-5ecb-8ba2-11a1f00eb84d"],
+    ["data/id", "ac9fea92-c7ef-5517-aee4-53011d3a445c"],
+    ["data/id", "4f62528f-afd2-566e-9134-4f25aa8fd023"],
+    ["data/id", "5a736a03-d95f-5918-aa40-bc96950a45dc"]
+  ],
+  "datasources": [
+    ["datasource/id", "808fba52-acf3-556e-8876-1713dc0206fa"]
+  ],
+  "description": "Every GitHub Actions workflow run of the NumPy repository created on 10 November 2026 (GitHub REST API, five pages of 100, no key). Queueing idea: Little's law, L = λW. The average number of items in a system equals their arrival rate times the average time each spends in it, whatever the arrival pattern, the service-time distribution or the scheduling, as long as the window is long compared with the time in the system. The steps turn each run into an interval (start → last update, Polars), count the runs in flight every minute L(t) on a 48-hour clock, compare the day's time-averaged L with λ·W, repeat it hour by hour, and split L into each workflow's λᵢWᵢ. The aha: the two sides are the same run-minutes counted two ways (the area under L(t), and the sum of the bars), so the law is bookkeeping, not a model; and because L adds up over parts, the workflows that hold the runners are the slow ones, not the frequent ones. Caveats: GitHub gives no end time per run, so the run's last update stands for it, and re-runs (which move a run's start) and runs updated more than 6 hours after starting are left out (the clean step marks them suspect); runs created the evening before and still running after midnight are missing, so early hours read low; a run holds several jobs, so this is load in runs, not in runners. Change created= in the queries (and owner/repo in the path) for another day or project; anonymous GitHub API calls are limited to 60 an hour.",
+  "graphs": [
+    ["graph/id", "3c7656c5-b002-5e6e-b3b5-8a42e5f608da"],
+    ["graph/id", "c38b3d9d-6bcd-5976-86c1-9d50e7f33b9a"],
+    ["graph/id", "11b27f64-f431-5310-a3fb-21539292391d"],
+    ["graph/id", "3f868679-5f90-5796-80c3-65bba91264fe"]
+  ],
+  "grids": [],
+  "name": "Little's law in NumPy's CI",
+  "ontology": {
+    "$file": ".seebra/dashboard/f67396fb-ac59-5c3b-9d05-4e261d50afaa.ontology.json",
+    "$json": true
+  },
+  "queries": [
+    ["query/id", "d0bc59b7-3d7d-5808-afeb-e0aafb7500b2"],
+    ["query/id", "4014e5ac-f497-55d2-94f2-42e2f8886a53"],
+    ["query/id", "c6e0f214-580c-5b28-bbbe-3b92c15236a8"],
+    ["query/id", "374b477e-28ea-546a-a4cf-95fc5e3299cd"],
+    ["query/id", "9d2d0bce-e3a4-50d8-8edd-6efffec8a8da"]
+  ],
+  "studies": [
+    ["study/id", "68a65c3d-4950-5855-9aea-a459b191b6fb"]
+  ],
+  "tables": [],
+  "texts": [],
+  "timers": [],
+  "transformations": [
+    ["transformation/id", "20c021ba-7ade-5914-9375-ad734e4d26c7"],
+    ["transformation/id", "68c1a357-9b0a-54a4-8256-54b964de1f92"],
+    ["transformation/id", "b09b6c94-2888-542b-a20f-f9f4633177f1"],
+    ["transformation/id", "46c80608-0ddb-591a-ac07-1d7dd3297693"],
+    ["transformation/id", "e3dbdf2a-f9b9-5e97-8357-d32dc81af935"],
+    ["transformation/id", "24676c6d-fc3b-5cf5-a65d-ac822f1572be"],
+    ["transformation/id", "038e9d7c-9e04-5b66-b96e-ad9c882d4edf"],
+    ["transformation/id", "a17e9361-6ab3-5378-8093-3d481504b953"]
+  ]
+}

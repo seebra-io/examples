@@ -1,0 +1,11 @@
+{
+  "data/id": "c0c907c7-5a4e-5ae1-bdde-13e1b05c0fdd",
+  "data/name": "Per sex and year",
+  "data/node": {
+    "node/x": 2530,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "cd335b37-d2f6-54f9-a7fa-a7f0282aead6"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

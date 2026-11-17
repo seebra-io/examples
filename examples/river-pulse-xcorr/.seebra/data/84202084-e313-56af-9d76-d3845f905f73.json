@@ -1,0 +1,11 @@
+{
+  "data/id": "84202084-e313-56af-9d76-d3845f905f73",
+  "data/name": "Daily swing per gauge",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 800
+  },
+  "data/parent": ["transformation/id", "7b123558-06a5-532a-85e0-966ee2a2f588"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

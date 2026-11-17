@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "ffeb3f9d-67e0-5628-a605-f0486181d7ee"],
+  "query/datasource": ["datasource/id", "e0a6b917-a501-5fec-b0a8-f52feb399f56"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "254b772d-0f26-52e2-8020-e38740c7052c",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Daily rates since 2025",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 80
+  },
+  "query/params": "{\"from\":\"2025-01-01\",\"base\":\"EUR\",\"quotes\":\"USD,GBP,SEK,NOK,CHF,JPY,CNY\",\"providers\":\"ECB\"}",
+  "query/path": "/rates",
+  "query/request-body": "",
+  "query/units": "{}"
+}

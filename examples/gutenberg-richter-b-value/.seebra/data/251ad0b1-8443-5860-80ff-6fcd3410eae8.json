@@ -1,0 +1,10 @@
+{
+  "data/id": "251ad0b1-8443-5860-80ff-6fcd3410eae8",
+  "data/name": "Every M ≥ 4.5 earthquake in 2025 (GeoJSON) data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 80
+  },
+  "data/parent": ["query/id", "e9901bb9-99ef-5974-8a3b-8341a5d3ed63"],
+  "data/type": "json"
+}

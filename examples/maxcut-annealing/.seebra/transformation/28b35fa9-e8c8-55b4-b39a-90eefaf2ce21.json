@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/every-split-how-many-links-each-cuts.js"
+  },
+  "transformation/data-child": ["data/id", "b330a6f0-f2f6-5861-af8e-0f1f5998e05b"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "js-web-worker",
+  "transformation/id": "28b35fa9-e8c8-55b4-b39a-90eefaf2ce21",
+  "transformation/inputs": [],
+  "transformation/language": "javascript",
+  "transformation/name": "Every split: how many links each cuts",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "5d96d4b6-5205-557d-b13c-7da502ca7afb"],
+  "transformation/units": "{}"
+}

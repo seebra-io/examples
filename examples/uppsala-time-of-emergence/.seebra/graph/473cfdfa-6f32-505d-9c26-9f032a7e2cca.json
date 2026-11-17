@@ -1,0 +1,16 @@
+{
+  "graph/content": {
+    "$file": "graphs/same-warming-different-noise-summer-has-emerged.js"
+  },
+  "graph/id": "473cfdfa-6f32-505d-9c26-9f032a7e2cca",
+  "graph/inputs": [
+    ["data/id", "f62047c7-9c9c-5cd6-bfdc-e429ba0ed7ea"]
+  ],
+  "graph/language": "javascript",
+  "graph/name": "Same warming, different noise: summer has emerged",
+  "graph/node": {
+    "node/x": 2380,
+    "node/y": 320
+  },
+  "graph/parent": ["data/id", "2a23eceb-2571-5d7f-b534-d41cf430c83b"]
+}

@@ -1,0 +1,10 @@
+{
+  "data/id": "77ec4c47-7d35-5b66-b376-36acf32c903b",
+  "data/name": "Ribosomal proteins data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "059f070f-dca2-5c04-a230-90d849988dca"],
+  "data/type": "json"
+}

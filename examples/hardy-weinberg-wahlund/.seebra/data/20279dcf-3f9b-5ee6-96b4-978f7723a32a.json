@@ -1,0 +1,10 @@
+{
+  "data/id": "20279dcf-3f9b-5ee6-96b4-978f7723a32a",
+  "data/name": "rs671 (ALDH2) genotype counts data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 560
+  },
+  "data/parent": ["transformation/id", "c5963a18-3e46-5328-adb4-497bc8707fab"],
+  "data/type": "json"
+}

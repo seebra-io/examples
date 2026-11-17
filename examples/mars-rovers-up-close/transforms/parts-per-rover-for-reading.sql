@@ -1,0 +1,1 @@
+SELECT rover, part, kind, role, mass_kg, power_w, detail, source FROM data ORDER BY rover, kind, part

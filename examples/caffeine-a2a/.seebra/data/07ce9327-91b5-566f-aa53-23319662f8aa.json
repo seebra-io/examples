@@ -1,0 +1,11 @@
+{
+  "data/id": "07ce9327-91b5-566f-aa53-23319662f8aa",
+  "data/name": "Mutations (numbering check)",
+  "data/node": {
+    "node/x": 2070,
+    "node/y": 560
+  },
+  "data/parent": ["transformation/id", "b1b82f02-c009-5a91-9f7a-d9a5a88eb93e"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

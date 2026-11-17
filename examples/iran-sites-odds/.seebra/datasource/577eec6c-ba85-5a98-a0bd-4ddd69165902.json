@@ -1,0 +1,16 @@
+{
+  "datasource/api-key-key": "api_key",
+  "datasource/auth-type": "none",
+  "datasource/headers": "{}",
+  "datasource/id": "577eec6c-ba85-5a98-a0bd-4ddd69165902",
+  "datasource/name": "USGS Earthquake Catalog",
+  "datasource/node": {
+    "inputs": 1,
+    "node/x": 80,
+    "node/y": 560,
+    "outputs": 1
+  },
+  "datasource/params": "{}",
+  "datasource/type": "openapi",
+  "datasource/url": "https://earthquake.usgs.gov/fdsnws/event/1"
+}

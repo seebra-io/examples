@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/fof2-against-local-solar-time.js"
+  },
+  "graph/id": "4a89dc6a-39fc-555d-bd0c-cac7de5e35d5",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "foF2 against local solar time",
+  "graph/node": {
+    "node/x": 1460,
+    "node/y": 800
+  },
+  "graph/parent": ["data/id", "0b2b6767-8b75-55ec-a385-43fe89d8f6a2"]
+}

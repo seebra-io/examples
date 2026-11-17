@@ -1,0 +1,43 @@
+{
+  "dashboard/id": "425b2186-af14-5623-b6a4-5a286c690f0a",
+  "datas": [
+    ["data/id", "fa8ca6d4-4e9b-588c-9d5b-2c12888ce4ea"],
+    ["data/id", "aad44ad1-a37f-589d-8fab-c4266d04d034"],
+    ["data/id", "8e45da5a-d35e-5afe-91df-b524be08afca"],
+    ["data/id", "a8a4e4d5-7c9d-5b43-ae2a-087b4fe91ade"],
+    ["data/id", "98e5398b-4dde-520d-9623-1d08484ec4ec"],
+    ["data/id", "299434c1-adb6-5775-94f2-3b274455d1b5"],
+    ["data/id", "0cc94389-a6de-5a7b-bec4-a9ff312e3377"],
+    ["data/id", "27331551-38f6-56e3-be6d-a1040889c709"],
+    ["data/id", "b40ebca3-301c-57e2-99a2-2b45ddc81610"]
+  ],
+  "datasources": [
+    ["datasource/id", "9962eda6-0f45-5a81-bd30-41937bbd2284"],
+    ["datasource/id", "f274b9da-8e9d-5c1c-b049-bb0da40697d9"]
+  ],
+  "description": "A small molecule from PubChem (caffeine; change the name in the query's path) as ball and stick from its computed 3D conformer, with its properties; and a protein from the RCSB Protein Data Bank (haemoglobin, 4HHB) as a backbone per chain with its haem groups. Statistics: the bond lengths, computed from the atoms' coordinates, form a distribution per bond kind: bands by kind, double bonds shorter than single ones, and the conjugated ring's C–N bonds spread between the two (a computed conformer with few bonds per kind, not a measurement). Hover atoms, bonds and chains; drag to orbit.",
+  "graphs": [
+    ["graph/id", "f86b81c4-4f43-544a-bb5e-8050d0dc40ed"],
+    ["graph/id", "9f3bc811-1c47-57f6-83c1-2ce8e0ff934e"],
+    ["graph/id", "346c25c3-4594-59e4-bada-55b385ac2936"]
+  ],
+  "grids": [],
+  "name": "Molecules in 3D",
+  "queries": [
+    ["query/id", "6fb19715-dd83-5cf9-beb2-6a75267233d8"],
+    ["query/id", "7542ba83-00ef-5ee9-bad3-50580a277c91"],
+    ["query/id", "d88d5c25-6147-55f2-944e-5af4ed411ce6"]
+  ],
+  "studies": [],
+  "tables": [],
+  "texts": [],
+  "timers": [],
+  "transformations": [
+    ["transformation/id", "699318bf-1138-58f0-8805-63ec6715365a"],
+    ["transformation/id", "75b9a909-0ced-5751-8d3a-ec8d8ae21ed4"],
+    ["transformation/id", "b3666bf1-ca73-5c3a-ab6f-12cf493ef2fd"],
+    ["transformation/id", "87cb6765-22ae-5746-bf3f-a3aff06476f6"],
+    ["transformation/id", "8317607a-fb22-5477-bd60-97aa3fb17e80"],
+    ["transformation/id", "1af770bf-04a7-5570-ba34-d444aaaa4339"]
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "transformation/content": {
+    "$file": "transforms/atoms-of-both-entries-pdb-text.js"
+  },
+  "transformation/data-child": ["data/id", "37db650b-813f-5fd1-8b59-46bcc72da071"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "js-web-worker",
+  "transformation/id": "2f327089-fcdf-5652-a971-ba8212a797ca",
+  "transformation/inputs": [
+    ["data/id", "b89750ba-0835-55db-92a2-0877dd6ecfa0"]
+  ],
+  "transformation/language": "javascript",
+  "transformation/name": "Atoms of both entries (PDB text)",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "810b5f3c-9053-5949-a695-b2eb34a6cdbb"],
+  "transformation/units": "{}"
+}

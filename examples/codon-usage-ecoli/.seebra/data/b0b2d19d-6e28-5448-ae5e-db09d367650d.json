@@ -1,0 +1,11 @@
+{
+  "data/id": "b0b2d19d-6e28-5448-ae5e-db09d367650d",
+  "data/name": "Codon bias per gene set",
+  "data/node": {
+    "node/x": 2990,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "5e1162f1-ad53-57fb-98fb-35113ebf12f0"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/rs1815739-actn3-genotype-counts.polars.py"
+  },
+  "transformation/data-child": ["data/id", "ca5ea23d-0ec0-5f1d-bb7d-501810f392a1"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "f1810338-dc5d-57c5-8537-c7149e3ffb69",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "rs1815739 (ACTN3) genotype counts",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 800
+  },
+  "transformation/parent": ["data/id", "b22f719c-426a-52ea-a5bc-cd9d4f4a0276"],
+  "transformation/units": "{}"
+}

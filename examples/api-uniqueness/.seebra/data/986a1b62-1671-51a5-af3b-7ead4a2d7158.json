@@ -1,0 +1,11 @@
+{
+  "data/id": "986a1b62-1671-51a5-af3b-7ead4a2d7158",
+  "data/name": "Most and least unique, with nearest neighbours",
+  "data/node": {
+    "node/x": 2530,
+    "node/y": 1040
+  },
+  "data/parent": ["transformation/id", "d9cb63a7-136e-582a-8822-323f2cf7bce4"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

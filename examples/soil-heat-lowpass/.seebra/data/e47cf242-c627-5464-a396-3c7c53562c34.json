@@ -1,0 +1,10 @@
+{
+  "data/id": "e47cf242-c627-5464-a396-3c7c53562c34",
+  "data/name": "A July week, hour by hour data",
+  "data/node": {
+    "node/x": 2070,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "3c210ba8-3237-5a1e-bb88-b48e19acac92"],
+  "data/type": "json"
+}

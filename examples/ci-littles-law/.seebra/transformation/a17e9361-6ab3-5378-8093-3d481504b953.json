@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/each-workflow-s-share-of-l.polars.py"
+  },
+  "transformation/data-child": ["data/id", "5a736a03-d95f-5918-aa40-bc96950a45dc"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "a17e9361-6ab3-5378-8093-3d481504b953",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Each workflow's share of L",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 2380,
+    "node/y": 800
+  },
+  "transformation/parent": ["data/id", "369cbb37-92fe-5f29-8542-4059685b66d6"],
+  "transformation/units": "{}"
+}

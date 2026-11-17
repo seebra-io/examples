@@ -1,0 +1,10 @@
+{
+  "data/id": "369cbb37-92fe-5f29-8542-4059685b66d6",
+  "data/name": "Runs the law counts (first attempts, ended within 6 h) data",
+  "data/node": {
+    "node/x": 2070,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "b09b6c94-2888-542b-a20f-f9f4633177f1"],
+  "data/type": "json"
+}

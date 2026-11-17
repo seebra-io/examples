@@ -1,0 +1,8 @@
+# the Carnot limit as curves: COP_carnot against outdoor temperature for flow temperatures of 25, 30, 35, 40 and 45 °C, and 35% of it (about what these four houses reach)
+data.head(31).with_row_index("i")
+    .select(outside_c = col("i").cast(Float64) - 10)
+    .join(data.head(5).with_row_index("j").select(flow_c = col("j").cast(Float64) * 5 + 25), how="cross")
+    .with_columns(cop_carnot = ((col("flow_c") + 273.15) / (col("flow_c") - col("outside_c"))).round(2))
+    .with_columns(half_carnot = (col("cop_carnot") * 0.35).round(2), flow = concat_str([col("flow_c").cast(Int64).cast(Utf8), lit(" °C flow")]))
+    .filter(col("flow_c") - col("outside_c") >= 8)
+    .sort("flow_c", "outside_c")

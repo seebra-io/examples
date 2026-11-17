@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "295c92d3-d0a6-528d-9b44-d2928bdf70e5"],
+  "query/datasource": ["datasource/id", "48e40754-5006-5582-bf1d-604b33728d13"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "f61a525f-496d-544c-9b48-4edcff4f51cd",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "1A6M backbone angles (validation)",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 80
+  },
+  "query/params": "{}",
+  "query/path": "/validation/rama_sidechain_listing/entry/1a6m",
+  "query/request-body": "",
+  "query/units": "{}"
+}

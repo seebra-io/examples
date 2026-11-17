@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/multi-planet-systems-every-orbit-weighs-the-same.js"
+  },
+  "graph/id": "b3c3a52c-9071-5582-81c1-c4aedbfd37df",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Multi-planet systems: every orbit weighs the same star",
+  "graph/node": {
+    "node/x": 1920,
+    "node/y": 320
+  },
+  "graph/parent": ["data/id", "8513dac9-fe56-547f-9058-28871f829c62"]
+}

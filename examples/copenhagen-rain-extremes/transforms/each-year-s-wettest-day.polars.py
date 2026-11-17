@@ -1,0 +1,5 @@
+data.join(data.group_by("year").agg(max_mm = col("mm").max(), days = len()), on="year")
+    .filter((col("mm") == col("max_mm")) & (col("days") >= 365))
+    .group_by("year")
+    .agg(max_mm = col("max_mm").first(), date = col("date").first(), days_with_data = col("days").first())
+    .sort("year")

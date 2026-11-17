@@ -1,0 +1,21 @@
+{
+  "transformation/content": {
+    "$file": "transforms/observed-against-the-gompertz-line.polars.py"
+  },
+  "transformation/data-child": ["data/id", "f7754424-ceb4-54c7-980c-755e76e3c9d9"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "75dbd6ca-1260-579f-9e1f-0db63eee371d",
+  "transformation/inputs": [
+    ["data/id", "e0a17910-7baf-5320-8812-0e4b94aac343"]
+  ],
+  "transformation/language": "polars",
+  "transformation/name": "Observed against the Gompertz line",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1920,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "fe2e0d7a-d43b-5c6f-8269-8f91318af6a9"],
+  "transformation/units": "{}"
+}

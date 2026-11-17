@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "c2aa48c4-dbf3-51d1-8346-b9619e3c7c1f"],
+  "query/datasource": ["datasource/id", "4b22823d-a42a-54af-819e-0f3ac326b688"],
+  "query/dynamic?": false,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "1b6a5d5e-0169-5451-9e56-77379309be42",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "All 36 starships: cost, length, crew, hyperdrive class",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 1040
+  },
+  "query/params": "{}",
+  "query/path": "/starships",
+  "query/request-body": "",
+  "query/units": "{}"
+}

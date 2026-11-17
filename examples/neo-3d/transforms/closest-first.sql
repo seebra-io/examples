@@ -1,0 +1,1 @@
+SELECT name, date, miss_ld, miss_km, speed_kms, diameter_m, hazardous, url FROM data ORDER BY miss_ld LIMIT 20

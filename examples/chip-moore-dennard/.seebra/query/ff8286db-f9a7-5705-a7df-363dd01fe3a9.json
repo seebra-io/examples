@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "518be0e1-e934-5fd8-8f09-05899efe5e19"],
+  "query/datasource": ["datasource/id", "4cdbcf20-8660-555a-8ab4-7415f9a0f5fc"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "ff8286db-f9a7-5705-a7df-363dd01fe3a9",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "typical power (W), per processor (50yrs/watts.dat)",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 560
+  },
+  "query/params": "{}",
+  "query/path": "/50yrs/watts.dat",
+  "query/request-body": "",
+  "query/units": "{}"
+}

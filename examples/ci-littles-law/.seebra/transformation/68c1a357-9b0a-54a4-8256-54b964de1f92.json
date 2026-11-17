@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/runs-as-intervals-minutes-since-00-00-utc.polars.py"
+  },
+  "transformation/data-child": ["data/id", "044b94c8-9d26-5b2d-b750-8616159953e7"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "68c1a357-9b0a-54a4-8256-54b964de1f92",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Runs as intervals (minutes since 00:00 UTC)",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "92494ad0-69f3-50fb-b236-ddd215e6c8b5"],
+  "transformation/units": "{}"
+}

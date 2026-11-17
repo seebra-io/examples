@@ -1,0 +1,10 @@
+{
+  "data/id": "7d1b8271-657a-51cc-9578-347d17a5d3d4",
+  "data/name": "Yield curves over die area (for the chart) data",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "97c4c564-550e-55bf-8c6b-cad884d24e1f"],
+  "data/type": "json"
+}

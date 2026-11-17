@@ -1,0 +1,10 @@
+{
+  "data/id": "d361d533-e64d-504e-b42c-33613b4da0f5",
+  "data/name": "rs4988235 LCT/MCM6 genotypes per population data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 80
+  },
+  "data/parent": ["query/id", "a79d8b12-36ae-569d-b528-27ffb1d28ee1"],
+  "data/type": "json"
+}

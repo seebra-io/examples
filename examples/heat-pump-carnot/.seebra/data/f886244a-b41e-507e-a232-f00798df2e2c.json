@@ -1,0 +1,10 @@
+{
+  "data/id": "f886244a-b41e-507e-a232-f00798df2e2c",
+  "data/name": "System 254, Angus (radiators): daily stats, Nov 2025 – Oct 2026 data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 320
+  },
+  "data/parent": ["query/id", "00658aad-16f5-52b4-a0e0-a7f75b37df0b"],
+  "data/type": "json"
+}

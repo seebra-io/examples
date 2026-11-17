@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/chiplets-the-same-silicon-as-n-smaller-dies.sql"
+  },
+  "transformation/data-child": ["data/id", "0db37ef8-cbe9-5767-b39f-ceb31d9f9de5"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "432abd35-cdf0-5ec3-9d01-ab4825d1f80a",
+  "transformation/inputs": [],
+  "transformation/language": "sql",
+  "transformation/name": "Chiplets: the same silicon as n smaller dies",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 560
+  },
+  "transformation/parent": ["data/id", "7b0b4bad-b754-55aa-8b59-406ee020ac53"],
+  "transformation/units": "{}"
+}

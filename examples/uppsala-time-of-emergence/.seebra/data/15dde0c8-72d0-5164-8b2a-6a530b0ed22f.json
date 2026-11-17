@@ -1,0 +1,11 @@
+{
+  "data/id": "15dde0c8-72d0-5164-8b2a-6a530b0ed22f",
+  "data/name": "Frost per 30-year period",
+  "data/node": {
+    "node/x": 2070,
+    "node/y": 560
+  },
+  "data/parent": ["transformation/id", "fc66e0d6-716f-5dc4-b4aa-f8556a488fad"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

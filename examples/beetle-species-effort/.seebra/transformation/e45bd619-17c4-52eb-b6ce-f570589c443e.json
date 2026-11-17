@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/species-skane.polars.py"
+  },
+  "transformation/data-child": ["data/id", "676a2595-26bf-56cd-82d4-c57cfad5c906"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "e45bd619-17c4-52eb-b6ce-f570589c443e",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Species, Skåne",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "38f420b8-3ab8-5c54-8efa-2c97e99ca15c"],
+  "transformation/units": "{}"
+}

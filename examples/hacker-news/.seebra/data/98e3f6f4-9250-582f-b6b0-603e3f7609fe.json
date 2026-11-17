@@ -1,0 +1,10 @@
+{
+  "data/id": "98e3f6f4-9250-582f-b6b0-603e3f7609fe",
+  "data/name": "Front page data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 80
+  },
+  "data/parent": ["query/id", "25908f8b-f630-567e-af4d-0691f67e3955"],
+  "data/type": "json"
+}

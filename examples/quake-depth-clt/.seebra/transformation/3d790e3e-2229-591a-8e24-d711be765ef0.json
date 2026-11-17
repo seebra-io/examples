@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/the-population-mean-sd-skewness-of-depth.polars.py"
+  },
+  "transformation/data-child": ["data/id", "27ef336b-56e4-5d1d-8c79-9756056c959f"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "3d790e3e-2229-591a-8e24-d711be765ef0",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "The population: mean, sd, skewness of depth",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "c15a5a4a-f72f-5da6-bd6b-7934a7fae6b4"],
+  "transformation/units": "{}"
+}

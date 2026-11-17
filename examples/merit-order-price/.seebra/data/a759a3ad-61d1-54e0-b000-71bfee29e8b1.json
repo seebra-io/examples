@@ -1,0 +1,10 @@
+{
+  "data/id": "a759a3ad-61d1-54e0-b000-71bfee29e8b1",
+  "data/name": "DE-LU day-ahead price, 15 min, May–June 2026 data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 320
+  },
+  "data/parent": ["query/id", "808d593b-243c-5335-9c83-6911d0fd4f2d"],
+  "data/type": "json"
+}

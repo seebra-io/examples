@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/porcini-per-month.polars.py"
+  },
+  "transformation/data-child": ["data/id", "e21c684a-016d-54e7-a704-6d89d74b46ef"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "7ae1e7dc-6ce0-5d5b-8cdb-c59cbc341e1f",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Porcini per month",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 800
+  },
+  "transformation/parent": ["data/id", "1cfa24fe-3f34-51fe-9965-bac3bbb5023f"],
+  "transformation/units": "{}"
+}

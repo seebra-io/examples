@@ -1,0 +1,11 @@
+{
+  "data/id": "396919a3-ee8f-5b99-bbb5-f6e75a5a2432",
+  "data/name": "Checks against Gaia",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "732e567f-472e-5f8f-819e-924cc9b3f45c"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

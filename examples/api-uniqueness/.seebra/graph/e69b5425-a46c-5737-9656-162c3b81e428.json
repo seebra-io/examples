@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/sensitivity-the-v1-score-against-k-3-k-10-and.js"
+  },
+  "graph/id": "e69b5425-a46c-5737-9656-162c3b81e428",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Sensitivity: the v1 score against k = 3, k = 10 and place names kept",
+  "graph/node": {
+    "node/x": 2380,
+    "node/y": 1760
+  },
+  "graph/parent": ["data/id", "f2999a8c-0252-5608-9a77-fc5e649c121e"]
+}

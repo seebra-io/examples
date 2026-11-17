@@ -1,0 +1,16 @@
+{
+  "graph/content": {
+    "$file": "graphs/vegard-s-law-lattice-constant-is-linear-in.js"
+  },
+  "graph/id": "c6f4ebf1-aa67-540f-b53c-a00f41d3ed2e",
+  "graph/inputs": [
+    ["data/id", "b0e54ae6-54b1-5150-89a8-3d2e06237517"]
+  ],
+  "graph/language": "javascript",
+  "graph/name": "Vegard's law: lattice constant is linear in composition",
+  "graph/node": {
+    "node/x": 2380,
+    "node/y": 80
+  },
+  "graph/parent": ["data/id", "f28f1f44-0279-5164-9b38-e726caaa3010"]
+}

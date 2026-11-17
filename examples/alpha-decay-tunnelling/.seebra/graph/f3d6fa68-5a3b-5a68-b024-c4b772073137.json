@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/the-chart-of-nuclides-the-valley-of-stability.js"
+  },
+  "graph/id": "f3d6fa68-5a3b-5a68-b024-c4b772073137",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "The chart of nuclides: the valley of stability and how nuclei decay",
+  "graph/node": {
+    "node/x": 1920,
+    "node/y": 320
+  },
+  "graph/parent": ["data/id", "71a0a7cf-9c44-5363-a836-38ab17042c43"]
+}

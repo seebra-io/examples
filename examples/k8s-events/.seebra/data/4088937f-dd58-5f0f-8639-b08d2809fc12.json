@@ -1,0 +1,11 @@
+{
+  "data/id": "4088937f-dd58-5f0f-8639-b08d2809fc12",
+  "data/name": "Warning events",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "a79e3a45-d9fe-54d2-b05d-f5d7b395541f"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

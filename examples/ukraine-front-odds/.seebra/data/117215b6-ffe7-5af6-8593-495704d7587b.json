@@ -1,0 +1,10 @@
+{
+  "data/id": "117215b6-ffe7-5af6-8593-495704d7587b",
+  "data/name": "Update log (every snapshot, with its note) data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 560
+  },
+  "data/parent": ["query/id", "f17c8fb6-8acb-5e71-b7be-5cec3453ce91"],
+  "data/type": "json"
+}

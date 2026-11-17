@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/pods-that-need-a-hand.polars.py"
+  },
+  "transformation/data-child": ["data/id", "6525ebd1-5159-5e5e-b6d5-9d422a96945c"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "c108251f-1564-589f-84a3-922900e0fde6",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Pods that need a hand",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "511fb648-cdb0-59c4-9cdd-6dc4e8b0b393"],
+  "transformation/units": "{}"
+}

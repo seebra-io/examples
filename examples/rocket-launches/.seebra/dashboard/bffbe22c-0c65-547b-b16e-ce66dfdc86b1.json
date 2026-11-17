@@ -1,0 +1,37 @@
+{
+  "dashboard/id": "bffbe22c-0c65-547b-b16e-ce66dfdc86b1",
+  "datas": [
+    ["data/id", "5805397d-6f0b-51e4-a0b4-5003e015f18d"],
+    ["data/id", "77615bcc-af32-5346-bdbc-d8b661dca5e2"],
+    ["data/id", "a64c8a99-6111-5f7c-8aba-b09168750ca3"],
+    ["data/id", "5131ee02-a38c-5087-b993-35270c404a12"],
+    ["data/id", "228e53d7-47a9-5e5b-a5dd-9604cfd19bcd"],
+    ["data/id", "0112d37c-9e6c-5259-9148-6ab365380d09"]
+  ],
+  "datasources": [
+    ["datasource/id", "6b9f9c61-5bf2-5840-b864-55ca40d0e058"]
+  ],
+  "description": "The next 30 orbital launches from The Space Devs' Launch Library 2: when (and how sure the date is), who, which rocket and pad, and what they carry (hover a launch for its record, click for its Launch Library page). Statistics: Poisson waiting times. If launches came at random at a steady rate, the gaps between them would be exponential, a straight line on a log axis; the last 100 launches are compared with that model, with the rate per day and the chance of a day without a launch. The ratio sd / mean of the gaps is 1 for a Poisson process (below: more regular, above: clustered by campaigns, ranges and weather); the 100 launches give only 99 gaps, and they are past launches because upcoming dates known only to the month pile up at its end. The free API allows 15 requests an hour (this dashboard makes two).",
+  "graphs": [
+    ["graph/id", "ac188264-37c2-5f91-b003-cc632300bf53"],
+    ["graph/id", "a65435fc-cd37-5ced-bd77-25fa840b5c08"]
+  ],
+  "grids": [
+    ["grid/id", "2d353e02-2764-59c4-bd4e-d82cc49f6cbf"]
+  ],
+  "name": "Upcoming rocket launches",
+  "queries": [
+    ["query/id", "595da8c9-311b-55e0-a721-306bb922a4ec"],
+    ["query/id", "c6288389-87c5-5ec4-b23e-a0ba896c1296"]
+  ],
+  "studies": [],
+  "tables": [],
+  "texts": [],
+  "timers": [],
+  "transformations": [
+    ["transformation/id", "5804fb7c-2b6d-5250-bf1b-9e29cfcdf325"],
+    ["transformation/id", "8b7b5152-0d6a-5589-afe1-663fa41b1bbb"],
+    ["transformation/id", "7eea9a44-fbec-5e7b-9341-4459ede17ec4"],
+    ["transformation/id", "90cd8576-a9d9-59e7-9c77-96acad4ec504"]
+  ]
+}

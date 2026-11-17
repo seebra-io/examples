@@ -1,0 +1,50 @@
+{
+  "dashboard/id": "85185ff3-43e9-569c-a5c5-da6b155ac142",
+  "datas": [
+    ["data/id", "0a9ddcd3-311c-5000-90e5-1d6317b50221"],
+    ["data/id", "bf261d65-21c7-5fad-a146-d024ea0837fa"],
+    ["data/id", "55812ae8-c931-53a9-a2f4-d483ec98c865"],
+    ["data/id", "adb327e6-07d9-5c0d-ac51-f46f38e0e21e"],
+    ["data/id", "1e8034a8-c901-5d55-950e-5341c4f23940"],
+    ["data/id", "b0f9dd8d-4696-56d4-8d95-7b5fc69db084"],
+    ["data/id", "620c0e41-d04c-5912-b961-6c6c892281fa"],
+    ["data/id", "c592a83c-7f9d-593b-9b3a-f9a787075617"],
+    ["data/id", "314cd04f-abcf-5f67-a3ee-244f30450b45"],
+    ["data/id", "e4f7d222-046f-598f-827d-064eeb467670"],
+    ["data/id", "c3b6cfda-29d3-5aec-b683-b9498e049bc2"]
+  ],
+  "datasources": [
+    ["datasource/id", "ea9e930a-b2ee-5f67-83db-6b1012a63a68"]
+  ],
+  "description": "Four months of hourly water levels at San Francisco (NOAA CO-OPS station 9414290, the Golden Gate gauge). Signals idea: the Nyquist–Shannon sampling theorem and aliasing. A signal sampled fs times a day can only show frequencies up to fs/2; anything faster is not lost but folded down to |f − k·fs|. The steps read the gauge every 1, 6, 11, 24 and 25 hours (Polars), take the amplitude spectrum of each with a discrete Fourier transform in SQL, and compare its peaks with where alias theory puts the tidal constituents (M2, S2, N2, K1, O1). The aha: read once a day, the 12.42-hour lunar tide becomes a smooth wave of about 14.8 days that is not in the water, and it is as large as the real tide; averaging each day first (a low-pass filter) makes it vanish. This is why every analogue-to-digital converter has an anti-aliasing filter, and why slow, unfiltered monitoring can invent trends. Caveats: the daily-sampled wave's period (14.77 days) is by coincidence close to the real spring–neap cycle (the M2–S2 beat), so don't mistake one for the other; verified heights, in metres above MLLW, times in UTC; the spectrum is a plain DFT on a 0.004 cpd grid without a window, so lines leak a little into their neighbours.",
+  "graphs": [
+    ["graph/id", "bcfc516d-dfc6-559a-b992-6fc4ba3928bf"],
+    ["graph/id", "73301909-baed-59b9-94a5-65e852903a8a"],
+    ["graph/id", "b26eae4f-397e-5d7f-8031-6f570821f089"]
+  ],
+  "grids": [],
+  "name": "Aliasing: a fake two-week tide",
+  "ontology": {
+    "$file": ".seebra/dashboard/85185ff3-43e9-569c-a5c5-da6b155ac142.ontology.json",
+    "$json": true
+  },
+  "queries": [
+    ["query/id", "403cbb12-01a5-5176-9bd0-73f4dbc10168"]
+  ],
+  "studies": [],
+  "tables": [],
+  "texts": [],
+  "timers": [],
+  "transformations": [
+    ["transformation/id", "3c633de0-b5e9-547e-a55d-aa2438fb6ed6"],
+    ["transformation/id", "d085f825-ddc5-57a2-b9df-2e382a805647"],
+    ["transformation/id", "22f5efb1-6f1e-5e01-941a-fe48e8d85590"],
+    ["transformation/id", "77be62f7-9183-54ba-a6e0-1c79ab74c6ae"],
+    ["transformation/id", "cc8f6897-25fe-51c2-b471-f8baf93c018a"],
+    ["transformation/id", "a9de54c2-3f5a-5c42-93ad-9e1e4169ff44"],
+    ["transformation/id", "f170d6a7-fa93-5479-a96d-ce6f82ddbe28"],
+    ["transformation/id", "a881ef17-ac3e-5ea1-b847-8bdfa60b570b"],
+    ["transformation/id", "a4b1484c-caa2-5a98-ac32-5ac850e66876"],
+    ["transformation/id", "d21adb83-62e5-5d98-a1dc-e78721c4f969"]
+  ]
+}

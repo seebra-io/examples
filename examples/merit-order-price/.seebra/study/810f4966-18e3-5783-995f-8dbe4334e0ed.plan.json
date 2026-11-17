@@ -1,0 +1,172 @@
+{
+  "title": "Residual load and the power price",
+  "question": "Does the hourly day-ahead price rise with residual load, and more clearly than with load?",
+  "review": {
+    "well_formed": true,
+    "issues": [
+      {
+        "kind": "grain",
+        "text": "Hours next to each other are strongly autocorrelated; 1,464 hours are far fewer independent observations.",
+        "fix": "Read the interval as optimistic; repeat with daily means (61 days) or another two months."
+      },
+      {
+        "kind": "causal",
+        "text": "Residual load and price both follow the clock and the weather.",
+        "fix": "The mechanism (merit order) is known; the test asks whether the data shows it, and the stack chart shows which plants move with it."
+      }
+    ],
+    "alternatives": [
+      {
+        "question": "Is the curve steeper above 35 GW residual load than below 20 GW?",
+        "why": "Drill down: the convexity of the supply curve (segments step).",
+        "ready": true
+      },
+      {
+        "question": "Does the whole curve move up with the gas price from month to month?",
+        "why": "Expand: needs TTF gas and EU ETS prices.",
+        "ready": false
+      }
+    ]
+  },
+  "hypotheses": [
+    {
+      "id": "H1",
+      "statement": "The hourly day-ahead price increases with residual load.",
+      "null": "The price does not change with residual load.",
+      "outcome": {
+        "concept": "Day-ahead electricity price",
+        "field": "price"
+      },
+      "predictor": {
+        "concept": "Residual load",
+        "field": "residual_gw"
+      },
+      "subgroup": null,
+      "direction": "increase",
+      "test": {
+        "method": "regression",
+        "link": null,
+        "outcome_mode": "mean",
+        "outcome_field": "price",
+        "predictor_field": "residual_gw",
+        "exposure_field": null,
+        "versus": null
+      }
+    },
+    {
+      "id": "H2",
+      "statement": "At the hourly grain the price falls as wind and solar output rises.",
+      "null": "The price does not change with wind + solar output.",
+      "outcome": {
+        "concept": "Day-ahead electricity price",
+        "field": "price"
+      },
+      "predictor": {
+        "concept": "Variable renewables",
+        "field": "renewables_gw"
+      },
+      "subgroup": null,
+      "direction": "decrease",
+      "test": {
+        "method": "regression",
+        "link": null,
+        "outcome_mode": "mean",
+        "outcome_field": "price",
+        "predictor_field": "renewables_gw",
+        "exposure_field": null,
+        "versus": null
+      }
+    }
+  ],
+  "concepts": [
+    {
+      "label": "Day-ahead electricity price",
+      "kind": "measure",
+      "description": "Hourly mean DE-LU day-ahead price, EUR/MWh.",
+      "why": "The outcome.",
+      "have": true,
+      "categories": [],
+      "field": "price",
+      "strategy": null
+    },
+    {
+      "label": "Residual load",
+      "kind": "measure",
+      "description": "Load minus wind and solar, GW.",
+      "why": "The predictor the merit order names.",
+      "have": true,
+      "categories": [],
+      "field": "residual_gw",
+      "strategy": null
+    },
+    {
+      "label": "Variable renewables",
+      "kind": "measure",
+      "description": "Wind (on- and offshore) plus solar, GW.",
+      "why": "The part of supply with near-zero marginal cost.",
+      "have": true,
+      "categories": [],
+      "field": "renewables_gw",
+      "strategy": null
+    },
+    {
+      "label": "Gas price",
+      "kind": "measure",
+      "description": "TTF front-month gas price, EUR/MWh.",
+      "why": "Shifts the steep end of the curve; a confounder across months.",
+      "have": false,
+      "categories": [],
+      "field": null,
+      "strategy": {
+        "how": "fetch",
+        "detail": "A daily gas price series (e.g. ENTSOG or a commodity API), joined on the day."
+      }
+    }
+  ],
+  "data": [
+    {
+      "concept": "Gas price",
+      "request": "Daily TTF gas price for May–June 2026",
+      "source": "ICE Endex Dutch TTF settlement prices (not in the Explore catalog, no keyless API known: fetch by hand)",
+      "why": "To separate the curve's shift from its shape."
+    }
+  ],
+  "links": [],
+  "method": {
+    "id": "regression",
+    "summary": "Regress the hourly price on residual load (H1) and on wind+solar (H2); the fit step gives the least-squares slope and R² for load, residual load and wind+solar side by side."
+  },
+  "steps": [
+    {
+      "kind": "data",
+      "title": "Fetch generation, load and price",
+      "detail": "Energy-Charts /public_power (country=de) and /price (bzn=DE-LU), May–June 2026."
+    },
+    {
+      "kind": "link",
+      "title": "Join on the quarter-hour",
+      "detail": "quarters step: one row per unix second of the quarter-hour, then hourly means."
+    },
+    {
+      "kind": "method",
+      "title": "Fit price on each predictor",
+      "detail": "fit step: slope_eur_per_gwh, r2 for residual load, load, wind + solar."
+    },
+    {
+      "kind": "method",
+      "title": "Check the shape",
+      "detail": "segments step: slope below 20 GW, 20–35 GW and above 35 GW."
+    },
+    {
+      "kind": "decide",
+      "title": "Accept or reject H1 and H2",
+      "detail": "Then repeat for a winter month and another bidding zone."
+    }
+  ],
+  "caveats": [
+    "Hours are autocorrelated: the effective sample is much smaller than 1,464.",
+    "Two months of one season; gas and CO₂ prices move the curve between seasons.",
+    "Linear fits on a convex curve understate the slope at high residual load.",
+    "Day-ahead prices only; intraday and balancing prices react to forecast errors."
+  ]
+}

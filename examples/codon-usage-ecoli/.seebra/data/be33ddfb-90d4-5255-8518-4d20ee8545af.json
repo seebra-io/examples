@@ -1,0 +1,10 @@
+{
+  "data/id": "be33ddfb-90d4-5255-8518-4d20ee8545af",
+  "data/name": "Genes: coding sequence and protein data",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "8d489683-c7bc-5128-8839-93bf5557c2da"],
+  "data/type": "json"
+}

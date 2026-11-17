@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/the-rating-shift-the-stage-that-carries-the-same.js"
+  },
+  "graph/id": "06229433-a0ad-5d7a-8854-762e9754755d",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "The rating shift: the stage that carries the same flow, by decade",
+  "graph/node": {
+    "node/x": 1920,
+    "node/y": 1040
+  },
+  "graph/parent": ["data/id", "722d87cb-bf99-54bb-bdf0-f81111c4a619"]
+}

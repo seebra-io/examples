@@ -1,0 +1,21 @@
+{
+  "transformation/content": {
+    "$file": "transforms/each-measurement-against-the-all-years-curve.polars.py"
+  },
+  "transformation/data-child": ["data/id", "1c48d3cb-c182-5c5d-8b55-1565150db2a0"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "e8a18c86-7df9-5370-9f9b-ce43bf4fec75",
+  "transformation/inputs": [
+    ["data/id", "d38a2c77-f26a-51f7-bbb5-6d87969c7c2a"]
+  ],
+  "transformation/language": "polars",
+  "transformation/name": "Each measurement against the all-years curve",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 560
+  },
+  "transformation/parent": ["data/id", "53b3944f-088d-5541-af4c-12295f8c0c00"],
+  "transformation/units": "{}"
+}

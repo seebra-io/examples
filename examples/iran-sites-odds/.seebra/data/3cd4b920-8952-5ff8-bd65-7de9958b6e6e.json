@@ -1,0 +1,10 @@
+{
+  "data/id": "3cd4b920-8952-5ff8-bd65-7de9958b6e6e",
+  "data/name": "Seismic events M2.5+ in the region (last 30 days) data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 560
+  },
+  "data/parent": ["query/id", "cac71931-cde2-55b3-b92c-c4160724cc78"],
+  "data/type": "json"
+}

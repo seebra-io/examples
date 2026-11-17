@@ -1,0 +1,10 @@
+{
+  "data/id": "89eb4ed4-cb2f-5045-9f64-a0d54744874e",
+  "data/name": "Starships in numbers: cost, length, crew, hyperdrive data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "ee9936e9-36e9-5e3d-b162-79cd7e5e5744"],
+  "data/type": "json"
+}

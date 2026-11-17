@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "3cd4b920-8952-5ff8-bd65-7de9958b6e6e"],
+  "query/datasource": ["datasource/id", "577eec6c-ba85-5a98-a0bd-4ddd69165902"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "cac71931-cde2-55b3-b92c-c4160724cc78",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Seismic events M2.5+ in the region (last 30 days)",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 560
+  },
+  "query/params": "{\"format\":\"geojson\",\"minlatitude\":\"24.5\",\"maxlatitude\":\"40\",\"minlongitude\":\"43.5\",\"maxlongitude\":\"63.5\",\"minmagnitude\":\"2.5\",\"orderby\":\"time\"}",
+  "query/path": "/query",
+  "query/request-body": "",
+  "query/units": "{}"
+}

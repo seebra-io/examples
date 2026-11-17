@@ -1,0 +1,45 @@
+{
+  "dashboard/id": "95f55432-db1a-5aa0-8129-cad68a7236b8",
+  "datas": [
+    ["data/id", "d0b9c7de-4345-5ebb-9bb1-b8d1ed7b0d2b"],
+    ["data/id", "97007d94-e6f9-5f81-b8ef-d11e40fc38c2"],
+    ["data/id", "c55a3497-2c29-58e9-a6a5-3576867819cc"],
+    ["data/id", "785f8793-2003-5f77-a603-bed5b92ee393"],
+    ["data/id", "b67bf7f9-f413-5c91-a626-8c2ad1ca715b"],
+    ["data/id", "e61e9cf8-7d60-5722-9f24-f7b5631f4f7b"],
+    ["data/id", "6754948d-5eb0-5d4c-81ea-79305b027d62"],
+    ["data/id", "37962db2-4d6a-5140-8498-07ccf4e83544"]
+  ],
+  "datasources": [
+    ["datasource/id", "725534a8-c335-502a-93a2-d5c96060fc3a"],
+    ["datasource/id", "5f2be838-8c34-5d9a-9ec5-b03948ff0957"]
+  ],
+  "description": "Question: when the wind doubles, why does a wind farm make far more than twice the power, and why can it never take all of it? Data: two months (September and October 2026) of metered half-hourly output of Westermost Rough, an offshore wind farm 8 km off Holderness, England (35 Siemens SWT-6.0-154 turbines, 6 MW each, 154 m rotors, 210 MW), from Elexon's BMRS (dataset B1610, BM unit T_WTMSO-1, free to use under the BMRS data licence with attribution); and hourly ERA5 reanalysis wind at 100 m, temperature and surface pressure at the nearest grid point from Open-Meteo's historical weather API (CC BY 4.0). Idea: the kinetic energy flux through a rotor is P = ½ ρ A v³: the mass of air per second (ρAv) times its kinetic energy per kilogram (v²/2). Doubling the wind gives eight times the power. A rotor can only take part of it: to extract energy it must slow the air, and stopping it would block the flow. Betz (1920) showed with momentum theory that the most a rotor can capture is 16/27 ≈ 59.3% of the power in the wind, when it slows the air to a third downstream. Steps: Elexon's half-hours to hourly MW; ERA5 to wind and air density; each hour with the power in the wind through the 35 rotors and the power coefficient Cp; the measured power curve in 0.5 m/s bins with the Betz limit; a log-log fit of output on wind below rated power (the exponent of the cube law); the energy share by wind speed; the two months in numbers. The aha: below rated power the farm's output goes as v^3.17 (611 hours from 4.5 to 10 m/s, r = 0.78): doubling the wind gives nine times the power and the bin medians stay well below the Betz line (median Cp 0.37 at 7–9 m/s against 0.593; the 84 single hours above it are where the 30 km ERA5 wind underestimates the wind at the farm); the windy hours carry the energy, because the mean of v³ is much larger than the cube of the mean v (the power in the wind averaged 510 MW, while the mean wind of 9.4 m/s cubed gives only 336 MW). The farm ran at a capacity factor of 54% and at its cap 17% of the hours. Above about 12 m/s the turbines cap their output on purpose (pitch control), so the cube law gives way to the rated plateau. Caveats: ERA5 wind is a 30 km grid value at 100 m, not the turbines' own anemometers, so the scatter is mostly measurement, and Cp mixes in wake losses inside the farm; curtailment (the grid operator paying the farm to stop) shows as hours of low output in high wind; output is net metered at the grid; the settlement run (II, SF, R1) can revise values. Next: look up the farm's curtailment (Elexon BOALF bid-offer acceptances for T_WTMSO-1) to explain the outliers, or compare a farm with larger rotors (Burbo Bank Extension, T_BRBEO-1, 8 MW turbines).",
+  "graphs": [
+    ["graph/id", "61745b84-1586-522d-ac26-8df050a1c01f"],
+    ["graph/id", "07d053d4-4186-5747-b6cc-c8573eb64b99"],
+    ["graph/id", "fab9c581-553d-5ea4-abfa-365b34fe032d"]
+  ],
+  "grids": [],
+  "name": "Wind power: the cube law and the Betz limit",
+  "ontology": {
+    "$file": ".seebra/dashboard/95f55432-db1a-5aa0-8129-cad68a7236b8.ontology.json",
+    "$json": true
+  },
+  "queries": [
+    ["query/id", "4f176fec-d4df-5d91-8d87-74ff213ff691"],
+    ["query/id", "d9475b3d-127e-5511-8d53-08da1989e5ca"]
+  ],
+  "studies": [],
+  "tables": [],
+  "texts": [],
+  "timers": [],
+  "transformations": [
+    ["transformation/id", "6441bf77-9bd8-5de3-ae8e-678a30523eff"],
+    ["transformation/id", "d343af8f-b314-5f3a-a14a-e711cf83901e"],
+    ["transformation/id", "f1692fc0-d338-5206-9825-62687dc59304"],
+    ["transformation/id", "ff438680-f075-59f1-8ff6-5d97927a3d20"],
+    ["transformation/id", "7828b4b4-4d21-5c51-afa8-4dc8e1186462"],
+    ["transformation/id", "1fd5b56b-486b-570a-a9ac-7862a096c2f2"]
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/the-scaling-law-log-mass-on-log-height-per-group.polars.py"
+  },
+  "transformation/data-child": ["data/id", "b6df0e9e-c188-56d4-8eaa-68b036396e6d"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "2b339f91-d9d2-53f7-af3f-e32ca0c8fa72",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "The scaling law: log mass on log height, per group, against 2 (BMI) and 3 (square-cube)",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1920,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "7f5831d1-37d3-558b-a257-18634438e8d3"],
+  "transformation/units": "{}"
+}

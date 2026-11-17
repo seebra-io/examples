@@ -1,0 +1,41 @@
+{
+  "dashboard/id": "6f009630-0f93-566d-800c-8ac30cb816fd",
+  "datas": [
+    ["data/id", "1fedc298-5ff2-556f-b232-36fbb6cae166"],
+    ["data/id", "9f152be6-fa55-5f55-a3b8-d1bc93f8fc05"],
+    ["data/id", "7dbe09ee-75e0-50c0-8d08-67cab2eba6b1"],
+    ["data/id", "54f4c137-c96e-5e7f-bc05-f1ebc8e7f104"],
+    ["data/id", "1ac57976-1397-5f1d-a5af-a209c2d34a07"],
+    ["data/id", "1b8262e1-4d53-57b8-865c-cae22210fabd"],
+    ["data/id", "1652c29c-d9a4-54d3-b9cd-4bd14ada775c"],
+    ["data/id", "231e0fb0-60ed-5cee-a35c-f98e446992af"],
+    ["data/id", "7fb3556d-c26e-5bdc-b254-22fad2679a97"]
+  ],
+  "datasources": [
+    ["datasource/id", "3dacb18d-f4b9-5ba0-bc95-dbae79d2f5d3"]
+  ],
+  "description": "Population, land area, GDP and CO₂ emissions of every country from the World Bank, and the first significant digit of each value. Statistics idea: Benford's law. Quantities that grow multiplicatively and span several orders of magnitude start with 1 about 30% of the time and with 9 under 5% (share log10(1 + 1/d)); a chi-square test with 8 degrees of freedom and the mean absolute deviation (MAD) say how close each quantity comes. Caveats: about 215 countries per quantity is a small sample for a digit test, values are each country's latest year, and conformity is not proof that numbers are honest (nor nonconformity proof of fraud).",
+  "graphs": [
+    ["graph/id", "f9426872-db77-57f9-a0aa-c77b0ca34f33"],
+    ["graph/id", "5473d7ef-72cd-51ed-ae2e-1db8c0597da6"]
+  ],
+  "grids": [],
+  "name": "Benford's law in country statistics",
+  "queries": [
+    ["query/id", "e18d5075-3c52-5df7-831b-4e2cfcc0aed8"],
+    ["query/id", "45ee7cd2-9dba-5d0a-9b18-99b8ba6baed3"],
+    ["query/id", "7aaf522f-65a4-5af3-8a2b-3d45809a2327"],
+    ["query/id", "9290ea5c-384a-5474-b572-b04549308e4b"],
+    ["query/id", "6d65800e-6255-54b0-adcd-caa2d519df2f"]
+  ],
+  "studies": [],
+  "tables": [],
+  "texts": [],
+  "timers": [],
+  "transformations": [
+    ["transformation/id", "cf8901f7-6a02-5c13-907f-c9f00a778480"],
+    ["transformation/id", "cfe5f78f-8c45-5789-8b73-146e8031e3b6"],
+    ["transformation/id", "b92dabea-ed52-5227-a441-b266230659bc"],
+    ["transformation/id", "735b0efc-b4a6-58e8-85ac-3d19834cffc5"]
+  ]
+}

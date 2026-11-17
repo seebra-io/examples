@@ -1,0 +1,18 @@
+{
+  "study/hypothesis": "For students per advisor, log₁₀ P(K ≥ k) falls linearly in log₁₀ k above x_min (slope 1 − α); for advisors per student, log₁₀ P(K ≥ k) falls linearly in k itself.",
+  "study/id": "7e075b51-c111-5f4c-9a45-ce8a977879ca",
+  "study/name": "Is supervision a power law?",
+  "study/node": {
+    "node/x": 540,
+    "node/y": 800
+  },
+  "study/plan": {
+    "$file": ".seebra/study/7e075b51-c111-5f4c-9a45-ce8a977879ca.plan.json",
+    "$json": true
+  },
+  "study/question": "In Wikidata's doctoral-advisor network, does the share of advisors with at least k students fall as a power of k in the tail, while the share of students with at least k advisors falls exponentially?",
+  "study/state": {
+    "$file": ".seebra/study/7e075b51-c111-5f4c-9a45-ce8a977879ca.state.json",
+    "$json": true
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "data/id": "0437c273-a247-565c-b4e2-5cef9315b449",
+  "data/name": "Median days open, three ways",
+  "data/node": {
+    "node/x": 2070,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "80145039-03e1-521d-953c-d8c3fd9cbfe7"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

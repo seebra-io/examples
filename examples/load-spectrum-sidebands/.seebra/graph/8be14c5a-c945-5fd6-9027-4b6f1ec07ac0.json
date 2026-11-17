@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/the-signal-8-weeks-of-load.js"
+  },
+  "graph/id": "8be14c5a-c945-5fd6-9027-4b6f1ec07ac0",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "The signal: 8 weeks of load",
+  "graph/node": {
+    "node/x": 1460,
+    "node/y": 1040
+  },
+  "graph/parent": ["data/id", "db471de8-4203-5cef-bf4b-e21489e39cdf"]
+}

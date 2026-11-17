@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/everything-on-one-time-axis.sql"
+  },
+  "transformation/data-child": ["data/id", "764e4999-6c2f-5eef-bbca-8eaaae1fc171"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "236409de-53a2-598e-af37-87c69b937b46",
+  "transformation/inputs": [],
+  "transformation/language": "sql",
+  "transformation/name": "Everything on one time axis",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 1520
+  },
+  "transformation/parent": ["data/id", "ef5542e6-4f2c-59fa-ba45-375fd0199e08"],
+  "transformation/units": "{}"
+}

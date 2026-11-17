@@ -1,0 +1,10 @@
+{
+  "data/id": "56927553-a906-5273-bcf7-e063e3be7649",
+  "data/name": "Photos data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "9003d85d-adba-5dbb-b7c1-4f0f39ccceb0"],
+  "data/type": "json"
+}

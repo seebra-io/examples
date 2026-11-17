@@ -1,0 +1,8 @@
+{
+  "file": {
+    "file/example": "sweden-power"
+  },
+  "format": 2,
+  "root": ["dashboard/id", "84020ee8-a9ed-5a14-9e83-16a726dda7d7"],
+  "seebra": "board"
+}

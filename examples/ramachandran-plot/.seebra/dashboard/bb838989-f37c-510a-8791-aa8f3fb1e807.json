@@ -1,0 +1,61 @@
+{
+  "dashboard/id": "bb838989-f37c-510a-8791-aa8f3fb1e807",
+  "datas": [
+    ["data/id", "295c92d3-d0a6-528d-9b44-d2928bdf70e5"],
+    ["data/id", "1b613d4f-d4d9-5857-a8a3-e5a61fa7f06c"],
+    ["data/id", "d852e294-9f70-5720-bbf7-b2ab96410c66"],
+    ["data/id", "7d832782-8bae-5a56-9a1f-053b532d89d8"],
+    ["data/id", "488c6073-7b03-5cc3-a5f4-835cc584d907"],
+    ["data/id", "1111661b-4480-5ab3-b29c-34cbeb6da7be"],
+    ["data/id", "51c7b81c-b8ad-5184-811c-61006ace2727"],
+    ["data/id", "fbce1980-40e6-57b3-a562-55bf5f29c550"],
+    ["data/id", "e59e69e9-5235-55ee-a9f1-e0454d1736b9"],
+    ["data/id", "50ee85b3-6430-5252-8845-14b081f2dba8"],
+    ["data/id", "94214b56-beb2-5690-80f8-01ea9fbc99e4"],
+    ["data/id", "95fbd060-5e78-5934-a1f9-56d9ec144c0c"],
+    ["data/id", "223007af-7571-54d7-9352-c7b7d8061e94"],
+    ["data/id", "bd209231-a9c6-5fbf-abd6-e51a7130c060"],
+    ["data/id", "09ec4842-c994-57b7-9481-69a54af199ed"],
+    ["data/id", "2dfbe657-4245-5553-a251-a48715dce281"],
+    ["data/id", "c2fa2960-3889-5eb1-9192-691ef554cdad"]
+  ],
+  "datasources": [
+    ["datasource/id", "48e40754-5006-5582-bf1d-604b33728d13"]
+  ],
+  "description": "Question: a protein backbone has two free rotations per residue, φ (around N–Cα) and ψ (around Cα–C). Why do proteins fold into a few repeating shapes, helices and sheets, rather than anything at all? Data: the backbone angles of every residue of four well-resolved proteins, myoglobin 1A6M (1.0 Å, all α), T4 lysozyme 2LZM, ubiquitin 1UBQ and green fluorescent protein 1EMA (a β-barrel), as PDBe's validation pipeline (MolProbity) computed them from the coordinates, with PDBe's helix and strand assignments. Steps: residues with φ and ψ per entry, joined to the helix and strand ranges; each residue placed in a region of the plane (α_R, β, PPII, α_L) and in a 10° cell; then the occupancy of the plane, and summaries per secondary structure and for glycine and proline apart. Aha: only a small part of the 360° × 360° square is used, because atoms of neighbouring residues collide everywhere else (Ramachandran, 1963): half of the 606 residues lie in 1.4% of the plane and 95% in 10.6% (10° cells). Helix residues sit in one tight basin (median φ −64°, ψ −40°), strands in another (−120°, +135°); positive φ is glycine's (22 of the 34 residues there; 48% of glycines against 2% of other residues), the one amino acid without a side chain, and proline's ring pins φ at −63° ± 10°. Secondary structure is a run of residues in one basin. Caveats: four proteins (606 residues; alternate conformations, listed twice with the same angles, counted once) are a small sample; the region boxes are approximate (MolProbity's Favored/Allowed contours come from ~100,000 residues and differ per residue type); PDBe's helix/strand ranges come from the deposited annotation; angles are from crystal structures (one conformation). Next: hover a residue; drill down to one protein or residue type; expand to more PDB entries (any id works with the same queries) or to NMR ensembles.",
+  "graphs": [
+    ["graph/id", "79d882d7-689c-5b52-b53f-5d7c54b445dc"],
+    ["graph/id", "6e783d87-a5e9-5a0d-80af-01c21a398b48"]
+  ],
+  "grids": [],
+  "name": "The Ramachandran plot: why proteins have helices and sheets",
+  "ontology": {
+    "$file": ".seebra/dashboard/bb838989-f37c-510a-8791-aa8f3fb1e807.ontology.json",
+    "$json": true
+  },
+  "queries": [
+    ["query/id", "f61a525f-496d-544c-9b48-4edcff4f51cd"],
+    ["query/id", "174e31fb-31d6-519e-bb31-80b850648d38"],
+    ["query/id", "9bdfc7bc-aefb-50e3-b7c6-02bc7c40fddb"],
+    ["query/id", "7813a504-46eb-5519-8917-3415d4cfc7b2"],
+    ["query/id", "f3d6c24c-94a6-532d-a201-0dd19c617054"],
+    ["query/id", "496d4ef9-293b-5ec0-9abe-c863bd4d3ba2"],
+    ["query/id", "ebe21fe1-2f61-52a8-9ecf-a0a8df813d3e"],
+    ["query/id", "a0a403d6-6a12-5215-a769-ad5f3b68f20c"]
+  ],
+  "studies": [],
+  "tables": [],
+  "texts": [],
+  "timers": [],
+  "transformations": [
+    ["transformation/id", "d57c750e-a925-55e9-af7b-7112476e30b8"],
+    ["transformation/id", "178d947e-8f89-5808-9b02-89a2020ac241"],
+    ["transformation/id", "68498c11-fd12-5135-acef-f5b08b82d0f3"],
+    ["transformation/id", "0c6e0ed6-d9d4-5a94-817f-5ab53fbd1e69"],
+    ["transformation/id", "d1036c86-7450-54f9-96b5-c11d0f67bbc9"],
+    ["transformation/id", "1ce31118-b6c3-54a2-a7a6-75479267388d"],
+    ["transformation/id", "d0bab65d-a991-5b34-839d-2e7d32ba2da0"],
+    ["transformation/id", "d453fdb4-26f4-5217-85dc-b8dd9308acea"],
+    ["transformation/id", "9db7bece-9757-5087-8bcf-9d75fcbc1c5f"]
+  ]
+}

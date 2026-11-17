@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/first-and-last-year-per-country.polars.py"
+  },
+  "transformation/data-child": ["data/id", "118ff35f-a222-556d-8f39-88496fb799aa"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "abc5923c-97be-528b-a4ab-264869d36f10",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "First and last year per country",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 560
+  },
+  "transformation/parent": ["data/id", "111936d0-dee6-5de2-b621-bdeb7677a955"],
+  "transformation/units": "{}"
+}

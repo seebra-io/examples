@@ -1,0 +1,10 @@
+{
+  "data/id": "7947c4b2-936f-5146-96dc-a47338a9b6e8",
+  "data/name": "Markets data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 80
+  },
+  "data/parent": ["query/id", "b5888776-e628-5730-9063-5075f0d6d5db"],
+  "data/type": "json"
+}

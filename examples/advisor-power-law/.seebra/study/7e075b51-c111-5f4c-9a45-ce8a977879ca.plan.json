@@ -1,0 +1,214 @@
+{
+  "title": "Power law in doctoral supervision",
+  "question": "Per degree k in Wikidata's P184 network: is log₁₀ CCDF a straight line in log₁₀ k for students per advisor above the KS-chosen x_min, and a straight line in k for advisors per student?",
+  "review": {
+    "well_formed": false,
+    "issues": [
+      {
+        "kind": "unmeasured",
+        "text": "Wikidata's P184 statements are a proxy for real supervisions: famous and well-documented academics and bulk-imported lineages are over-represented.",
+        "fix": "Read α as a property of the recorded network; check the tail's advisors (top chart) for imports."
+      },
+      {
+        "kind": "causal",
+        "text": "A heavy tail is consistent with cumulative advantage (preferential attachment) but doesn't prove it: long careers and big labs also give many students.",
+        "fix": "Claim only the shape; a growth model needs dated edges (students' doctoral years)."
+      },
+      {
+        "kind": "scope",
+        "text": "The tail above x_min = 27 has 1,158 advisors and 68 distinct degrees: too few to tell a power law from an exponential or a lognormal.",
+        "fix": "Report the likelihood-ratio z and its 'can't tell' verdict, not just α."
+      }
+    ],
+    "alternatives": [
+      {
+        "question": "Does the MLE α stay constant as x_min rises from 10 to 40 (as a pure power law requires)?",
+        "why": "Drills into the tail's shape with the x_min scan on the board.",
+        "ready": true
+      },
+      {
+        "question": "Is the tail of students per advisor heavier for mathematicians (P101) than for chemists?",
+        "why": "Drills into fields; needs the advisors' fields of work.",
+        "ready": false
+      },
+      {
+        "question": "Do advisors who already had students in a decade get more in the next (preferential attachment)?",
+        "why": "Expands to dated edges to test the mechanism, not only the shape.",
+        "ready": false
+      }
+    ]
+  },
+  "hypotheses": [
+    {
+      "id": "H1",
+      "statement": "Above x_min, the log share of advisors with at least k students falls linearly in log k (a power law, slope 1 − α ≈ −3).",
+      "null": "The log CCDF bends in log k (lognormal, cutoff): its slope is not constant.",
+      "outcome": {
+        "concept": "Share of advisors with at least k students",
+        "field": "log_ccdf"
+      },
+      "predictor": {
+        "concept": "Number of doctoral students",
+        "field": "log_k"
+      },
+      "subgroup": {
+        "concept": "Network direction",
+        "category": "students per advisor"
+      },
+      "direction": "decrease",
+      "test": {
+        "method": "regression",
+        "link": null,
+        "outcome_mode": "mean",
+        "outcome_field": "log_ccdf",
+        "predictor_field": "log_k",
+        "exposure_field": null,
+        "versus": null
+      }
+    },
+    {
+      "id": "H2",
+      "statement": "The log share of students with at least k advisors falls linearly in k (exponential: each extra advisor is several times rarer).",
+      "null": "It falls linearly in log k instead (heavy-tailed).",
+      "outcome": {
+        "concept": "Share of students with at least k advisors",
+        "field": "log_ccdf"
+      },
+      "predictor": {
+        "concept": "Number of doctoral advisors",
+        "field": "k"
+      },
+      "subgroup": {
+        "concept": "Network direction",
+        "category": "advisors per student"
+      },
+      "direction": "decrease",
+      "test": {
+        "method": "regression",
+        "link": null,
+        "outcome_mode": "mean",
+        "outcome_field": "log_ccdf",
+        "predictor_field": "k",
+        "exposure_field": null,
+        "versus": null
+      }
+    }
+  ],
+  "concepts": [
+    {
+      "label": "Doctoral advisor",
+      "kind": "entity",
+      "description": "A person with one or more P184 statements pointing at them.",
+      "why": "The node whose out-degree is studied.",
+      "have": true,
+      "categories": [],
+      "field": null,
+      "strategy": null
+    },
+    {
+      "label": "Degree",
+      "kind": "measure",
+      "description": "k: students per advisor or advisors per student.",
+      "why": "The predictor.",
+      "have": true,
+      "categories": [],
+      "field": "k",
+      "strategy": null
+    },
+    {
+      "label": "CCDF",
+      "kind": "measure",
+      "description": "P(K ≥ k), the share with k or more.",
+      "why": "The outcome; on log-log axes a power law is a straight line.",
+      "have": true,
+      "categories": [],
+      "field": "log_ccdf",
+      "strategy": null
+    },
+    {
+      "label": "Network direction",
+      "kind": "category",
+      "description": "students per advisor (out-degree) or advisors per student (in-degree).",
+      "why": "The subgroup of each hypothesis.",
+      "have": true,
+      "categories": [
+        "students per advisor",
+        "advisors per student"
+      ],
+      "field": "network",
+      "strategy": null
+    },
+    {
+      "label": "Power-law exponent",
+      "kind": "measure",
+      "description": "α by maximum likelihood for a given x_min.",
+      "why": "The size of the effect; compare with the regression slope.",
+      "have": false,
+      "categories": [],
+      "field": "alpha",
+      "strategy": {
+        "how": "derive",
+        "detail": "α = 1 + n_tail / Σ n ln(k/(x_min − ½)) over k ≥ x_min (step xmin_scan)"
+      }
+    },
+    {
+      "label": "Doctoral year",
+      "kind": "time",
+      "description": "When each supervision ended.",
+      "why": "Needed to test preferential attachment as a growth process.",
+      "have": false,
+      "categories": [],
+      "field": null,
+      "strategy": {
+        "how": "fetch",
+        "detail": "Wikidata P69 (educated at) with qualifier P582/P585, or the Mathematics Genealogy Project, matched on the student's QID"
+      }
+    }
+  ],
+  "data": [
+    {
+      "concept": "Doctoral year",
+      "request": "For each P184 edge, the year the student's doctorate was awarded",
+      "source": "Wikidata (P69 qualifiers, P1026 academic thesis), Mathematics Genealogy Project",
+      "why": "To see whether advisors with more students gain students faster."
+    }
+  ],
+  "links": [],
+  "method": {
+    "id": "regression",
+    "summary": "A straight line of log₁₀ CCDF on log₁₀ k (H1, degrees k ≥ x_min) and on k (H2) with weak priors; the slope's posterior and the residuals' curvature decide. A regression on a CCDF has correlated residuals, so its interval is too narrow: the MLE and the likelihood-ratio test (steps xmin_scan, compare) are the real estimates."
+  },
+  "steps": [
+    {
+      "kind": "data",
+      "title": "Degree histograms from Wikidata",
+      "detail": "Two SPARQL GROUP BY counts over P184: students per advisor (out_hist) and advisors per student (in_hist)."
+    },
+    {
+      "kind": "concept",
+      "title": "CCDF per degree",
+      "detail": "ccdf = cumulative sum of n from the top / total; log_k, log_ccdf (steps out_deg, in_deg, curves)."
+    },
+    {
+      "kind": "method",
+      "title": "Scan x_min",
+      "detail": "MLE α and KS distance for x_min = 1…40; the smallest KS picks the tail (xmin_scan, best)."
+    },
+    {
+      "kind": "method",
+      "title": "Regress and compare",
+      "detail": "Regression of log_ccdf on log_k (network = students per advisor, k ≥ x_min) and on k (advisors per student); Vuong's test in compare."
+    },
+    {
+      "kind": "decide",
+      "title": "Power law, exponential, or can't tell",
+      "detail": "Use compare.verdict (|z| > 2) with the slopes; report 'heavy-tailed' when the power law beats the thin-tailed model on the whole range but not in the tail."
+    }
+  ],
+  "caveats": [
+    "Wikidata coverage: recorded supervisions, not all supervisions; bulk imports inflate some advisors.",
+    "Rows of a CCDF are cumulative, so a regression on them overstates certainty; prefer the MLE and likelihood ratio.",
+    "The discrete MLE uses the continuous approximation with a ½ offset, accurate for x_min of about 6 and up.",
+    "Power law, lognormal and stretched exponential are hard to tell apart with ~1,000 tail values; the lognormal is not fitted here."
+  ]
+}

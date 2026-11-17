@@ -1,0 +1,8 @@
+{
+  "file": {
+    "file/example": "grid-frequency"
+  },
+  "format": 2,
+  "root": ["dashboard/id", "5312b48f-22da-5c77-8916-1381514cfa04"],
+  "seebra": "board"
+}

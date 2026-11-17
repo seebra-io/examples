@@ -1,0 +1,21 @@
+{
+  "transformation/content": {
+    "$file": "transforms/strongest-lines-matched-to-theory.polars.py"
+  },
+  "transformation/data-child": ["data/id", "2df0f30a-2dcf-5736-9d36-8ee71052b3ee"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "31d24115-75f3-5f21-8348-2848bff210b1",
+  "transformation/inputs": [
+    ["data/id", "1c446e43-ed1c-525d-97ac-dbe9f4a2429c"]
+  ],
+  "transformation/language": "polars",
+  "transformation/name": "Strongest lines, matched to theory",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 2380,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "c1077a10-ff4c-5482-b111-355ec6761b4b"],
+  "transformation/units": "{}"
+}

@@ -1,0 +1,16 @@
+{
+  "datasource/api-key": "none",
+  "datasource/bucket": "noaa-ghcn-pds",
+  "datasource/id": "97f0c666-f949-5f45-9a99-e79db05caf1d",
+  "datasource/name": "NOAA GHCN-Daily on AWS (public S3 bucket)",
+  "datasource/node": {
+    "inputs": 1,
+    "node/x": 80,
+    "node/y": 80,
+    "outputs": 1
+  },
+  "datasource/region": "us-east-1",
+  "datasource/secret-key": "none",
+  "datasource/type": "s3",
+  "datasource/url": "https://s3.amazonaws.com"
+}

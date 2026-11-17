@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "117d26e1-f2c5-598c-8722-19fa0097a502"],
+  "query/datasource": ["datasource/id", "cbd63588-2356-5ee3-9d6b-9f0762e82ee1"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "6fdb66db-f691-5594-94b0-e1f9406baaf8",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "GDP per capita",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 80
+  },
+  "query/params": "{\"format\":\"json\",\"date\":\"2000:2024\",\"per_page\":\"500\"}",
+  "query/path": "/country/SWE;NOR;DNK;FIN;ISL/indicator/NY.GDP.PCAP.CD",
+  "query/request-body": "",
+  "query/units": "{}"
+}

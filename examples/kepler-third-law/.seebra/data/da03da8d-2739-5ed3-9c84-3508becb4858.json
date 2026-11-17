@@ -1,0 +1,10 @@
+{
+  "data/id": "da03da8d-2739-5ed3-9c84-3508becb4858",
+  "data/name": "Orbits in solar units, and the star's mass from each orbit data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "69eda588-5aa3-5438-9c72-56d8f3e66af1"],
+  "data/type": "json"
+}

@@ -1,0 +1,11 @@
+{
+  "data/id": "c99d70be-de13-517b-a1c4-e294b578b334",
+  "data/name": "Every open market",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 1040
+  },
+  "data/parent": ["transformation/id", "75c2578c-ff9b-52f4-aa80-f6852b2d5980"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

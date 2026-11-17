@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/stations-heard-in-the-last-3-hours.polars.py"
+  },
+  "transformation/data-child": ["data/id", "0b2b6767-8b75-55ec-a385-43fe89d8f6a2"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "a06df244-0f5a-5b25-8af2-18eaf88a3c0c",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Stations heard in the last 3 hours",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "928a878e-8ccc-5221-90cc-cec0a6e4f4e1"],
+  "transformation/units": "{}"
+}

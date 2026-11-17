@@ -1,0 +1,10 @@
+{
+  "data/id": "adb327e6-07d9-5c0d-ac51-f46f38e0e21e",
+  "data/name": "The gauge read at each rate data",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "22f5efb1-6f1e-5e01-941a-fe48e8d85590"],
+  "data/type": "json"
+}

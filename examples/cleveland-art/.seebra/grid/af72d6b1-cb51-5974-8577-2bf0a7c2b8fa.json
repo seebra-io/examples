@@ -1,0 +1,10 @@
+{
+  "grid/cols": 6,
+  "grid/id": "af72d6b1-cb51-5974-8577-2bf0a7c2b8fa",
+  "grid/node": {
+    "node/x": 1460,
+    "node/y": 80
+  },
+  "grid/parent": ["data/id", "7f955df2-2d35-52c4-89a6-b80aac132705"],
+  "grid/title": "Paintings"
+}

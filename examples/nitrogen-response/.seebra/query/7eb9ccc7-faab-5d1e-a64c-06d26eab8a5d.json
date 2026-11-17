@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "8ecd34b3-db48-528e-8527-597418c8662f"],
+  "query/datasource": ["datasource/id", "7b2cdefc-274b-5b4b-9bb4-70bb3ad2ef26"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "7eb9ccc7-faab-5d1e-a64c-06d26eab8a5d",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Fertiliser consumption (kg/ha of arable land), latest",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 80
+  },
+  "query/params": "{\"format\":\"json\",\"mrnev\":\"1\",\"per_page\":\"400\"}",
+  "query/path": "/country/all/indicator/AG.CON.FERT.ZS",
+  "query/request-body": "",
+  "query/units": "{}"
+}

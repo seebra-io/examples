@@ -1,0 +1,16 @@
+{
+  "graph/content": {
+    "$file": "graphs/power-curve-power-in-the-wind-and-betz.js"
+  },
+  "graph/id": "61745b84-1586-522d-ac26-8df050a1c01f",
+  "graph/inputs": [
+    ["data/id", "e61e9cf8-7d60-5722-9f24-f7b5631f4f7b"]
+  ],
+  "graph/language": "javascript",
+  "graph/name": "Power curve, power in the wind and Betz",
+  "graph/node": {
+    "node/x": 1920,
+    "node/y": 800
+  },
+  "graph/parent": ["data/id", "b67bf7f9-f413-5c91-a626-8c2ad1ca715b"]
+}

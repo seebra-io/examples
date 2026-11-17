@@ -1,0 +1,10 @@
+{
+  "data/id": "d0808e6a-05d3-5d49-afda-78864660167b",
+  "data/name": "Exponential growth per season (log-linear fit) data",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "88adabc4-e698-54e5-8cbf-a2045844b201"],
+  "data/type": "json"
+}

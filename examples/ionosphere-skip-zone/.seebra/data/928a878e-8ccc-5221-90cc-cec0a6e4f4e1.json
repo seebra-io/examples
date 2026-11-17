@@ -1,0 +1,10 @@
+{
+  "data/id": "928a878e-8ccc-5221-90cc-cec0a6e4f4e1",
+  "data/name": "Newest ionogram per station data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 80
+  },
+  "data/parent": ["query/id", "83ccce87-93a6-54a8-8eed-bc4f0a038ea2"],
+  "data/type": "json"
+}

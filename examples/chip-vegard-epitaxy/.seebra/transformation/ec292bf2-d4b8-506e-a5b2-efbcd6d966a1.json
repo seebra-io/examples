@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/binaries-lattice-constant-a-and-band-gap-ev-pbe.polars.py"
+  },
+  "transformation/data-child": ["data/id", "b0e54ae6-54b1-5150-89a8-3d2e06237517"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "ec292bf2-d4b8-506e-a5b2-efbcd6d966a1",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Binaries: lattice constant (Å) and band gap (eV, PBE)",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "8e020a9f-27bc-50f7-8088-62d9fae522bb"],
+  "transformation/units": "{}"
+}

@@ -1,0 +1,163 @@
+{
+  "title": "Kepler's third law in exoplanet systems",
+  "summary": "Planets orbit stars; the orbit's period and size, with the star's mass, obey P² = a³/M★. The catalogue mixes measured and computed values.",
+  "concepts": [
+    {
+      "cid": "c1",
+      "label": "Planetary system",
+      "kind": "entity",
+      "description": "A star with one or more planets.",
+      "fields": [
+        "hostname",
+        "sy_pnum"
+      ],
+      "in_data": true,
+      "wikidata": "Q4116214",
+      "children": [
+        {
+          "cid": "c2",
+          "label": "Host star",
+          "kind": "entity",
+          "as": "part",
+          "description": "The star the planets orbit.",
+          "fields": [
+            "hostname"
+          ],
+          "in_data": true,
+          "children": [
+            {
+              "cid": "c3",
+              "label": "Stellar mass",
+              "kind": "measure",
+              "as": "property",
+              "description": "M★ in solar masses, from spectra and stellar evolution models.",
+              "fields": [
+                "star_msun"
+              ],
+              "in_data": true
+            }
+          ]
+        },
+        {
+          "cid": "c4",
+          "label": "Exoplanet",
+          "kind": "entity",
+          "as": "part",
+          "description": "A planet outside the Solar System.",
+          "fields": [
+            "pl_name"
+          ],
+          "in_data": true,
+          "wikidata": "Q44559",
+          "children": [
+            {
+              "cid": "c5",
+              "label": "Orbital period",
+              "kind": "measure",
+              "as": "property",
+              "description": "Time for one orbit (days).",
+              "fields": [
+                "period_days"
+              ],
+              "in_data": true
+            },
+            {
+              "cid": "c6",
+              "label": "Semi-major axis",
+              "kind": "measure",
+              "as": "property",
+              "description": "Half the long axis of the elliptical orbit (AU).",
+              "fields": [
+                "a_au"
+              ],
+              "in_data": true
+            },
+            {
+              "cid": "c7",
+              "label": "Discovery method",
+              "kind": "category",
+              "as": "property",
+              "description": "Transit, radial velocity, imaging, microlensing, timing.",
+              "fields": [
+                "discoverymethod"
+              ],
+              "in_data": true
+            },
+            {
+              "cid": "c8",
+              "label": "Planet mass",
+              "kind": "measure",
+              "as": "property",
+              "description": "Neglected here; adds to M★ in the exact law.",
+              "fields": [],
+              "in_data": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cid": "c9",
+      "label": "Kepler's third law",
+      "kind": "event",
+      "description": "P² = 4π²a³/(G(M★+m)); in years, AU and solar masses P² = a³/M★.",
+      "fields": [
+        "log_p2",
+        "log_a3_m",
+        "m_kepler"
+      ],
+      "in_data": true,
+      "wikidata": "Q83219",
+      "facts": [
+        {
+          "text": "Kepler published the harmonic law in Harmonices Mundi (1619); Newton derived it from gravitation in the Principia (1687).",
+          "source": "https://en.wikipedia.org/wiki/Kepler%27s_laws_of_planetary_motion"
+        }
+      ],
+      "children": [
+        {
+          "cid": "c10",
+          "label": "Dynamical mass",
+          "kind": "measure",
+          "as": "subtype",
+          "description": "The central mass a³/P² implied by an orbit.",
+          "fields": [
+            "m_kepler",
+            "log_ratio"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c11",
+          "label": "Transit stellar density",
+          "kind": "measure",
+          "as": "subtype",
+          "description": "(a/R★)³/P² from the light curve's shape: a law-based measurement that needs no stellar mass.",
+          "fields": [],
+          "in_data": false
+        }
+      ]
+    },
+    {
+      "cid": "c12",
+      "label": "Data provenance",
+      "kind": "source",
+      "description": "Which paper each value comes from, and whether it was measured or derived.",
+      "fields": [
+        "a_source"
+      ],
+      "in_data": true,
+      "children": [
+        {
+          "cid": "c13",
+          "label": "Per-reference solutions",
+          "kind": "source",
+          "as": "part",
+          "description": "The archive's ps table: one row per planet and paper.",
+          "fields": [],
+          "in_data": false
+        }
+      ]
+    }
+  ]
+}

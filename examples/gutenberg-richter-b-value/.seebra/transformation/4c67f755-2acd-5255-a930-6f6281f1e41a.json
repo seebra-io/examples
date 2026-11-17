@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/the-25-quakes-that-released-the-most-energy.polars.py"
+  },
+  "transformation/data-child": ["data/id", "7bfabe1c-c94d-5b71-b5a8-eb6e0770f73e"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "4c67f755-2acd-5255-a930-6f6281f1e41a",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "The 25 quakes that released the most energy",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 1040
+  },
+  "transformation/parent": ["data/id", "fc913db3-ad6a-5ca1-a82a-e6ef2e9ba53b"],
+  "transformation/units": "{}"
+}

@@ -1,0 +1,10 @@
+{
+  "data/id": "6e1fa7e0-4b4e-519f-92f6-5c0911f551bd",
+  "data/name": "Animals (Metazoa): annotated reference genomes data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 1040
+  },
+  "data/parent": ["query/id", "97a47518-ea02-5e53-b497-06ba088ed821"],
+  "data/type": "json"
+}

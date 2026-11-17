@@ -1,0 +1,21 @@
+{
+  "transformation/content": {
+    "$file": "transforms/quarter-hours-with-price.polars.py"
+  },
+  "transformation/data-child": ["data/id", "3dd3cca5-8243-57c5-8575-7fa7c5d49b27"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "9c97fdfc-edc4-533e-aa4f-3e022483909a",
+  "transformation/inputs": [
+    ["data/id", "ba464048-521f-54b9-b392-9b503f2b8618"]
+  ],
+  "transformation/language": "polars",
+  "transformation/name": "Quarter-hours with price",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "960d7d8b-d2e8-52ba-a789-7860de402d74"],
+  "transformation/units": "{}"
+}

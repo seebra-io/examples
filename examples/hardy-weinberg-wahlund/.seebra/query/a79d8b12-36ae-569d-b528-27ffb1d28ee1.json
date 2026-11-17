@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "d361d533-e64d-504e-b42c-33613b4da0f5"],
+  "query/datasource": ["datasource/id", "4e69ca60-8c96-5566-ab6d-335f41d46497"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "a79d8b12-36ae-569d-b528-27ffb1d28ee1",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "rs4988235 LCT/MCM6 genotypes per population",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 80
+  },
+  "query/params": "{\"content-type\":\"application/json\",\"population_genotypes\":\"1\"}",
+  "query/path": "/variation/human/rs4988235",
+  "query/request-body": "",
+  "query/units": "{}"
+}

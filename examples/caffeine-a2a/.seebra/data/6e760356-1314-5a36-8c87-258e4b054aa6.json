@@ -1,0 +1,11 @@
+{
+  "data/id": "6e760356-1314-5a36-8c87-258e4b054aa6",
+  "data/name": "Properties (PubChem)",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "ad33450b-5963-5c76-8060-447b72abc020"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

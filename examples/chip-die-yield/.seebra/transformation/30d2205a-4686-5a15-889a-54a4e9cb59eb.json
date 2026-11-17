@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/dies-area-kind-process-maker.polars.py"
+  },
+  "transformation/data-child": ["data/id", "7b0b4bad-b754-55aa-8b59-406ee020ac53"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "30d2205a-4686-5a15-889a-54a4e9cb59eb",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Dies: area, kind, process, maker",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "8b1ee163-e73d-5052-8bc4-5d0dcabbde35"],
+  "transformation/units": "{}"
+}

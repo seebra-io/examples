@@ -1,0 +1,10 @@
+{
+  "data/id": "b67bf7f9-f413-5c91-a626-8c2ad1ca715b",
+  "data/name": "Output against the power in the wind data",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "f1692fc0-d338-5206-9825-62687dc59304"],
+  "data/type": "json"
+}

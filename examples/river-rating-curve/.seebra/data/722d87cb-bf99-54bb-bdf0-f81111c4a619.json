@@ -1,0 +1,11 @@
+{
+  "data/id": "722d87cb-bf99-54bb-bdf0-f81111c4a619",
+  "data/name": "Per-decade curves and the stage at 40k, 100k, 300k ft³/s",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "c9a99da0-ee99-5cdd-91ad-7b2aba7c646d"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

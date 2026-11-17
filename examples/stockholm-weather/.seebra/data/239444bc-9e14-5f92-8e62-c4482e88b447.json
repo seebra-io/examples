@@ -1,0 +1,10 @@
+{
+  "data/id": "239444bc-9e14-5f92-8e62-c4482e88b447",
+  "data/name": "Normal per calendar day (1991–2020) data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "d6bd7863-e021-5a5a-8638-f80083710c01"],
+  "data/type": "json"
+}

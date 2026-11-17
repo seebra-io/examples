@@ -1,0 +1,11 @@
+{
+  "data/id": "2d76daf8-9cde-55e2-9032-200622c833b6",
+  "data/name": "Countries on the curve",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "20323de1-5ed4-5251-a786-4b87acf4f90f"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/checks-against-gaia-our-l-vs-flame-our-r-vs-gsp.polars.py"
+  },
+  "transformation/data-child": ["data/id", "396919a3-ee8f-5b99-bbb5-f6e75a5a2432"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "732e567f-472e-5f8f-819e-924cc9b3f45c",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Checks against Gaia: our L vs FLAME, our R vs GSP-Phot",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "4ef98efb-15e1-5afd-8f12-cc032664e04b"],
+  "transformation/units": "{}"
+}

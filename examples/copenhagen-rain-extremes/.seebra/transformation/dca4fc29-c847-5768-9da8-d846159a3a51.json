@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/days.polars.py"
+  },
+  "transformation/data-child": ["data/id", "745c29c7-0e20-54dc-ab52-1db958bdc0ed"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "dca4fc29-c847-5768-9da8-d846159a3a51",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Days",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "f1dc322d-34a3-553e-951d-ec4658fa62ae"],
+  "transformation/units": "{}"
+}

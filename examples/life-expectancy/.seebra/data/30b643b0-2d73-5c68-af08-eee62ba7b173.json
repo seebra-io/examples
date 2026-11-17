@@ -1,0 +1,10 @@
+{
+  "data/id": "30b643b0-2d73-5c68-af08-eee62ba7b173",
+  "data/name": "Values data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "c975646c-d921-5604-8935-ce70ade93600"],
+  "data/type": "json"
+}

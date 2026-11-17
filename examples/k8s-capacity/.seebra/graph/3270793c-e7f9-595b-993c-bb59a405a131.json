@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/requested-share-of-each-node-cpu-and-memory.js"
+  },
+  "graph/id": "3270793c-e7f9-595b-993c-bb59a405a131",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Requested share of each node, CPU and memory",
+  "graph/node": {
+    "node/x": 1920,
+    "node/y": 80
+  },
+  "graph/parent": ["data/id", "83c77950-1d25-5623-adb6-87b1daa6d2c6"]
+}

@@ -1,0 +1,11 @@
+{
+  "data/id": "828707ab-1cb4-5a2c-b0d8-2ec5fdbce20b",
+  "data/name": "Per group",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "b9a3d38e-fc43-54fb-a610-3ef6cbb6ed1d"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

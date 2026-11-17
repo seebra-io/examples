@@ -1,0 +1,239 @@
+{
+  "title": "Ectopic beats and HRV",
+  "question": "Per successive pair of RR intervals in the first 15 minutes of each record: is the mean |ΔRR| larger in MIT-BIH 119 than in NSR 16265, computed from every beat (abs_d_all) and from NN intervals only (abs_d_nn)?",
+  "review": {
+    "well_formed": false,
+    "issues": [
+      {
+        "kind": "scope",
+        "text": "Three records are three people: a difference between records is a difference between people as much as between rhythms.",
+        "fix": "Read the test within each record (every beat against NN), and widen to all 48 MIT-BIH records for a between-rhythm claim."
+      },
+      {
+        "kind": "causal",
+        "text": "The NN filter removes intervals around ectopic beats, but also gaps and artefacts: not all of the inflation is ectopy.",
+        "fix": "Count what the filter removed per record (ectopic beats, noise gaps over 2 s) in the hrv table."
+      },
+      {
+        "kind": "vague",
+        "text": "\"Variability\" can mean SDNN, RMSSD, pNN50 or spectral power.",
+        "fix": "The plan uses the absolute successive difference (RMSSD's ingredient)."
+      }
+    ],
+    "alternatives": [
+      {
+        "question": "Is the median (coupling + pause) / 2·NN of 119's PVCs equal to 1 (a full compensatory pause)?",
+        "why": "Drills into the ectopic beats themselves.",
+        "ready": true
+      },
+      {
+        "question": "Does the Poincaré slope of RRₙ₊₁ on RRₙ stay near 1 in NN pairs of the healthy record?",
+        "why": "Tests the structure SD1/SD2 describes.",
+        "ready": true
+      },
+      {
+        "question": "Does NN RMSSD fall with age across the nsrdb and nsr2db subjects?",
+        "why": "Expands to more people and a real predictor.",
+        "ready": false
+      }
+    ]
+  },
+  "hypotheses": [
+    {
+      "id": "H1",
+      "statement": "Computed from every beat, the absolute successive RR difference is larger in MIT-BIH 119 than in NSR 16265.",
+      "null": "The mean |ΔRR| from every beat is the same in both records.",
+      "outcome": {
+        "concept": "Successive RR difference",
+        "field": "abs_d_all"
+      },
+      "predictor": {
+        "concept": "Record",
+        "field": "record"
+      },
+      "subgroup": {
+        "concept": "Record",
+        "category": "mitdb 119"
+      },
+      "direction": "increase",
+      "test": {
+        "method": "means",
+        "link": null,
+        "outcome_mode": "mean",
+        "outcome_field": "abs_d_all",
+        "predictor_field": "record",
+        "exposure_field": null,
+        "versus": "nsrdb 16265"
+      }
+    },
+    {
+      "id": "H2",
+      "statement": "From normal-to-normal intervals only, the absolute successive difference of 119 is within a few ms of 16265's.",
+      "null": "The NN |ΔRR| of 119 is still several times 16265's.",
+      "outcome": {
+        "concept": "Successive NN difference",
+        "field": "abs_d_nn"
+      },
+      "predictor": {
+        "concept": "Record",
+        "field": "record"
+      },
+      "subgroup": {
+        "concept": "Record",
+        "category": "mitdb 119"
+      },
+      "direction": "equal",
+      "test": {
+        "method": "means",
+        "link": null,
+        "outcome_mode": "mean",
+        "outcome_field": "abs_d_nn",
+        "predictor_field": "record",
+        "exposure_field": null,
+        "versus": "nsrdb 16265"
+      }
+    },
+    {
+      "id": "H3",
+      "statement": "In NN pairs, each RR interval predicts the next (the Poincaré comet lies along the identity line).",
+      "null": "RRₙ₊₁ does not depend on RRₙ.",
+      "outcome": {
+        "concept": "Next RR interval",
+        "field": "rr_next"
+      },
+      "predictor": {
+        "concept": "RR interval",
+        "field": "rr_ms"
+      },
+      "subgroup": {
+        "concept": "Record",
+        "category": "nsrdb 16265"
+      },
+      "direction": "increase",
+      "test": {
+        "method": "regression",
+        "link": null,
+        "outcome_mode": "mean",
+        "outcome_field": "rr_next",
+        "predictor_field": "rr_ms",
+        "exposure_field": null,
+        "versus": null
+      }
+    }
+  ],
+  "concepts": [
+    {
+      "label": "Beat",
+      "kind": "entity",
+      "description": "One annotated heartbeat: its sample time t and label a (N, A, V, ...).",
+      "why": "The unit RR intervals are made of.",
+      "have": true,
+      "categories": [],
+      "field": "a",
+      "strategy": null
+    },
+    {
+      "label": "RR interval",
+      "kind": "measure",
+      "description": "Time between successive beats, ms.",
+      "why": "Everything in HRV is built from it.",
+      "have": true,
+      "categories": [],
+      "field": "rr_ms",
+      "strategy": null
+    },
+    {
+      "label": "Normal-to-normal interval",
+      "kind": "category",
+      "description": "An RR interval with a normal beat at both ends, 300–2000 ms.",
+      "why": "The filter the hypotheses compare.",
+      "have": true,
+      "categories": [
+        "NN",
+        "touches an ectopic beat or gap"
+      ],
+      "field": "nn",
+      "strategy": null
+    },
+    {
+      "label": "Successive RR difference",
+      "kind": "measure",
+      "description": "|RRₙ − RRₙ₋₁|: from every beat (abs_d_all) or NN only (abs_d_nn).",
+      "why": "The outcome.",
+      "have": true,
+      "categories": [],
+      "field": "abs_d_all",
+      "strategy": null
+    },
+    {
+      "label": "Record",
+      "kind": "entity",
+      "description": "One person's Holter recording (nsrdb 16265, mitdb 100, mitdb 119).",
+      "why": "The groups compared.",
+      "have": true,
+      "categories": [],
+      "field": "record",
+      "strategy": null
+    },
+    {
+      "label": "Subject age",
+      "kind": "measure",
+      "description": "Age of the person recorded (in the record header notes).",
+      "why": "HRV falls with age: a confounder between records.",
+      "have": false,
+      "categories": [],
+      "field": null,
+      "strategy": {
+        "how": "fetch",
+        "detail": "LightWAVE action=info gives the header note (e.g. \" 32 M\") per record."
+      }
+    }
+  ],
+  "data": [
+    {
+      "concept": "Subject age",
+      "request": "Age and sex from each record's header notes, for all nsrdb and mitdb records",
+      "source": "PhysioNet LightWAVE action=info",
+      "why": "To compare HRV between people at all, age must be held constant."
+    }
+  ],
+  "links": [],
+  "method": {
+    "id": "means",
+    "summary": "Welch-type posterior of the difference in mean |ΔRR| between mitdb 119 and nsrdb 16265, once for every-beat differences and once for NN only."
+  },
+  "steps": [
+    {
+      "kind": "data",
+      "title": "Beat annotations",
+      "detail": "LightWAVE fetch annotator=atr for nsrdb 16265 (t0 0, dt 900) and mitdb 100, 119 (dt 0: the whole record), cut to the first 900 s."
+    },
+    {
+      "kind": "concept",
+      "title": "RR intervals",
+      "detail": "rr_ms = Δt · 1000 / fs between successive beat labels; rhythm, noise and artefact marks dropped."
+    },
+    {
+      "kind": "categorise",
+      "title": "NN or not",
+      "detail": "nn = prev == N and a == N and 300 < rr_ms < 2000."
+    },
+    {
+      "kind": "method",
+      "title": "Compare |ΔRR|",
+      "detail": "means of abs_d_all and abs_d_nn, mitdb 119 against nsrdb 16265; hrv table for RMSSD = √mean(ΔRR²)."
+    },
+    {
+      "kind": "decide",
+      "title": "Is the excess ectopic?",
+      "detail": "Accept H1 and H2 together: the NN filter removes the difference."
+    }
+  ],
+  "caveats": [
+    "Three people, not three rhythms: age, sex, medication and activity differ.",
+    "15-minute windows; SDNN depends on window length.",
+    "128 Hz (nsrdb) against 360 Hz (mitdb) beat timing.",
+    "Successive differences are serially correlated, so the means test is optimistic about its interval.",
+    "Annotations are cardiologists' labels; a device's beat detector would make its own errors."
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "data/id": "f010f38d-090a-5db0-952b-b5bb3a2db40f",
+  "data/name": "One threshold on Δχ: where does tetrahedral give way to octahedral? data",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "7cee0eac-adf7-5b9f-890c-55840f2b984f"],
+  "data/type": "json"
+}

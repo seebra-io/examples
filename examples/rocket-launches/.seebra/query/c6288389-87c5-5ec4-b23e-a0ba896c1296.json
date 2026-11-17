@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "228e53d7-47a9-5e5b-a5dd-9604cfd19bcd"],
+  "query/datasource": ["datasource/id", "6b9f9c61-5bf2-5840-b864-55ca40d0e058"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "c6288389-87c5-5ec4-b23e-a0ba896c1296",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "The last 100 launches",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 320
+  },
+  "query/params": "{\"limit\":\"100\",\"mode\":\"list\"}",
+  "query/path": "/launches/previous/",
+  "query/request-body": "",
+  "query/units": "{}"
+}

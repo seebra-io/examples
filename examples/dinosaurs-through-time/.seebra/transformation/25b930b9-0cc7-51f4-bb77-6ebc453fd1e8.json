@@ -1,0 +1,22 @@
+{
+  "transformation/content": {
+    "$file": "transforms/genera-group-first-and-last-appearance.js"
+  },
+  "transformation/data-child": ["data/id", "ff3e16ab-1ff7-5912-a980-bd0a37f37763"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "js-web-worker",
+  "transformation/id": "25b930b9-0cc7-51f4-bb77-6ebc453fd1e8",
+  "transformation/inputs": [
+    ["data/id", "52afdf2e-c6a7-57a8-bd12-9cd516736541"],
+    ["data/id", "71cd377b-8ef7-5bbe-9554-5071068ad8e1"]
+  ],
+  "transformation/language": "javascript",
+  "transformation/name": "Genera: group, first and last appearance",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "922359be-9c67-5ad5-b312-dd3502b959d2"],
+  "transformation/units": "{}"
+}

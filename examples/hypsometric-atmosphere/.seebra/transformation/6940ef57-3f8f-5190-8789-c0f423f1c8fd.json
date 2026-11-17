@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/each-column-500-hpa-height-1000-500-hpa.polars.py"
+  },
+  "transformation/data-child": ["data/id", "e50d7f7d-1983-5368-b7e0-b905d136f699"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "6940ef57-3f8f-5190-8789-c0f423f1c8fd",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Each column: 500 hPa height, 1000–500 hPa thickness and mean temperature",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1920,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "710853d0-02bb-59b3-9b95-cb36a05b3c9b"],
+  "transformation/units": "{}"
+}

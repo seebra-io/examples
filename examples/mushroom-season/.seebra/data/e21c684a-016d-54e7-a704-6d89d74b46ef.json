@@ -1,0 +1,10 @@
+{
+  "data/id": "e21c684a-016d-54e7-a704-6d89d74b46ef",
+  "data/name": "Porcini per month data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 800
+  },
+  "data/parent": ["transformation/id", "7ae1e7dc-6ce0-5d5b-8cdb-c59cbc341e1f"],
+  "data/type": "json"
+}

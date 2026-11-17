@@ -1,0 +1,13 @@
+{
+  "data/file": {
+    "$file": "data/the-planets-orbital-elements-jpl-standish-and.json"
+  },
+  "data/id": "66960e22-3bdd-583c-9e28-add38a6ae356",
+  "data/name": "The planets' orbital elements (JPL, Standish) and the belt's resonances data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 80
+  },
+  "data/parent": ["query/id", "a05fe6a9-471f-570f-b6fc-ff917ddc3f4b"],
+  "data/type": "json"
+}

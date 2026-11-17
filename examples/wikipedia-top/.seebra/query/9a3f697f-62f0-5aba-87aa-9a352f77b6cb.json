@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "c5934d73-6180-52ec-ab00-240de40bb83e"],
+  "query/datasource": ["datasource/id", "e6df3737-9cb2-52be-af07-485826d68fae"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "9a3f697f-62f0-5aba-87aa-9a352f77b6cb",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Top articles",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 80
+  },
+  "query/params": "{}",
+  "query/path": "/metrics/pageviews/top/en.wikipedia/all-access/2026/11/01",
+  "query/request-body": "",
+  "query/units": "{}"
+}

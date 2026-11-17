@@ -1,0 +1,10 @@
+{
+  "data/id": "0155e03c-843c-5c43-b783-ba5b762d2559",
+  "data/name": "GET /users data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 320
+  },
+  "data/parent": ["query/id", "4daf4cfd-5cff-5fa7-8546-1ca865779a96"],
+  "data/type": "json"
+}

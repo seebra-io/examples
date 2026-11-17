@@ -1,0 +1,10 @@
+{
+  "data/id": "35cde488-7dd1-5e32-b28e-0d8d8388ca80",
+  "data/name": "Fertiliser use 2000-2024, eight countries data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 1280
+  },
+  "data/parent": ["query/id", "632abb41-9467-5581-88f4-03d9c0051a20"],
+  "data/type": "json"
+}

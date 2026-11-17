@@ -1,0 +1,21 @@
+{
+  "query/data-child": ["data/id", "bc686a68-db6e-567d-bc79-f6f606f788eb"],
+  "query/datasource": ["datasource/id", "e4f7f4b2-9303-5adc-9e54-2464388d52c7"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "0b81a126-a005-5272-b403-93eb5f46d498",
+  "query/key": "",
+  "query/method": "POST",
+  "query/name": "Coding sequences, batch 2 (28 ribosomal, 22 regulators)",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 800
+  },
+  "query/params": "{}",
+  "query/path": "/sequence/id",
+  "query/request-body": {
+    "$file": "queries/coding-sequences-batch-2-28-ribosomal-22.json"
+  },
+  "query/units": "{}"
+}

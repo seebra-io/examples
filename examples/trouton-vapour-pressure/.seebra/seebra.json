@@ -1,0 +1,8 @@
+{
+  "file": {
+    "file/example": "trouton-vapour-pressure"
+  },
+  "format": 2,
+  "root": ["dashboard/id", "aeb8c1bf-ca48-5b6a-9bc5-f1971d2fbfe0"],
+  "seebra": "board"
+}

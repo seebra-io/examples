@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "ed4bed98-eac0-5d8a-bf64-10eb6477bfe5"],
+  "query/datasource": ["datasource/id", "0ad2947c-0e41-5bf4-bf2c-3dedb20e3b4e"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "df07fa4e-4150-56ca-8531-e7e5d7c2e646",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Fly agaric (Amanita muscaria): Swedish records per month, 2000–2025",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 1040
+  },
+  "query/params": "{\"taxonKey\":\"8168319\",\"country\":\"SE\",\"year\":\"2000,2025\",\"limit\":\"0\",\"facet\":\"month\",\"facetLimit\":\"12\"}",
+  "query/path": "/occurrence/search",
+  "query/request-body": "",
+  "query/units": "{}"
+}

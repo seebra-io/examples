@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "5805397d-6f0b-51e4-a0b4-5003e015f18d"],
+  "query/datasource": ["datasource/id", "6b9f9c61-5bf2-5840-b864-55ca40d0e058"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "595da8c9-311b-55e0-a721-306bb922a4ec",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Upcoming launches",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 80
+  },
+  "query/params": "{\"limit\":\"30\",\"mode\":\"normal\"}",
+  "query/path": "/launches/upcoming/",
+  "query/request-body": "",
+  "query/units": "{}"
+}

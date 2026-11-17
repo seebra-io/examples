@@ -1,0 +1,8 @@
+{
+  "file": {
+    "file/example": "sweden-temperatures"
+  },
+  "format": 2,
+  "root": ["dashboard/id", "4ed1fe01-716c-5f0a-af65-82f8c4b8802e"],
+  "seebra": "board"
+}

@@ -1,0 +1,11 @@
+{
+  "data/id": "6ea9c1d8-8d06-5c45-90fd-d6e6a1a1ee3a",
+  "data/name": "Observations (click through to Mushroom Observer)",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 1520
+  },
+  "data/parent": ["transformation/id", "da1509b5-d3c5-55a4-91ad-85ec8041b015"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

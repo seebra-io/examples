@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "f815dae1-fe64-58aa-8b29-d54cc7616ffa"],
+  "query/datasource": ["datasource/id", "db19687b-ca05-554c-9bc2-13682ec0fc93"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "62158f7d-08bc-5d63-a045-c3110a86aa5d",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "SMHI forecast at 50% of the route (58.69°N 15.02°E)",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 1280
+  },
+  "query/params": "{}",
+  "query/path": "/geotype/point/lon/15.02/lat/58.69/data.json",
+  "query/request-body": "",
+  "query/units": "{}"
+}

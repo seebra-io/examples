@@ -1,0 +1,16 @@
+{
+  "datasource/api-key-key": "api_key",
+  "datasource/auth-type": "none",
+  "datasource/headers": "{}",
+  "datasource/id": "546a9c11-4b9b-5667-8428-de06b68489ee",
+  "datasource/name": "opendatasoft public portal (EPA fuel economy data)",
+  "datasource/node": {
+    "inputs": 1,
+    "node/x": 80,
+    "node/y": 80,
+    "outputs": 1
+  },
+  "datasource/params": "{}",
+  "datasource/type": "openapi",
+  "datasource/url": "https://public.opendatasoft.com/api/explore/v2.1"
+}

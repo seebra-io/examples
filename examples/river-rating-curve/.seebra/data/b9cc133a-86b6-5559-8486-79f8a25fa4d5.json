@@ -1,0 +1,10 @@
+{
+  "data/id": "b9cc133a-86b6-5559-8486-79f8a25fa4d5",
+  "data/name": "Field measurements: discharge and gage height, Missouri River at Hermann data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 80
+  },
+  "data/parent": ["query/id", "6013b66c-3dce-5677-8732-917aabb77e18"],
+  "data/type": "json"
+}

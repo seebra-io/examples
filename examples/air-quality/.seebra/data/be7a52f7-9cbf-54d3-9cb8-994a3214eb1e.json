@@ -1,0 +1,10 @@
+{
+  "data/id": "be7a52f7-9cbf-54d3-9cb8-994a3214eb1e",
+  "data/name": "Hourly pollutants data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 80
+  },
+  "data/parent": ["query/id", "eb9d1313-854f-53b2-ad28-d8d6934e97e0"],
+  "data/type": "json"
+}

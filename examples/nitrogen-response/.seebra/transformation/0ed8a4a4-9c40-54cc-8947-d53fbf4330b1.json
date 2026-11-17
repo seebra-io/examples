@@ -1,0 +1,21 @@
+{
+  "transformation/content": {
+    "$file": "transforms/grain-bought-by-each-successive-50-kg-ha.polars.py"
+  },
+  "transformation/data-child": ["data/id", "ad380aa8-fd61-5118-a758-6c7353ede9c7"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "0ed8a4a4-9c40-54cc-8947-d53fbf4330b1",
+  "transformation/inputs": [
+    ["data/id", "dfe14c8f-9d13-5a2f-a532-b473371e98f9"]
+  ],
+  "transformation/language": "polars",
+  "transformation/name": "Grain bought by each successive 50 kg/ha",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 560
+  },
+  "transformation/parent": ["data/id", "81938dd7-e081-5c04-8601-355a2bd72352"],
+  "transformation/units": "{}"
+}

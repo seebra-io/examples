@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "bdefcb2f-d3dc-51c5-990b-59bbcef889ed"],
+  "query/datasource": ["datasource/id", "be2ff423-d64f-5002-a376-d495798814a9"],
+  "query/dynamic?": false,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "93643ad4-38ab-5b40-8ae3-6b30a4f13ab6",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "The Sun, NASA's model",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 800
+  },
+  "query/params": "{}",
+  "query/path": "/psd/solar/2023/09/s/Sun_1_1391000.glb",
+  "query/request-body": "",
+  "query/units": "{}"
+}

@@ -1,0 +1,10 @@
+{
+  "data/id": "c5934d73-6180-52ec-ab00-240de40bb83e",
+  "data/name": "Top articles data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 80
+  },
+  "data/parent": ["query/id", "9a3f697f-62f0-5aba-87aa-9a352f77b6cb"],
+  "data/type": "json"
+}

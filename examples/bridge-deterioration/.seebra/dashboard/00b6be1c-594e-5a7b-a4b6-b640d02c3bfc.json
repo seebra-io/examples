@@ -1,0 +1,60 @@
+{
+  "dashboard/id": "00b6be1c-594e-5a7b-a4b6-b640d02c3bfc",
+  "datas": [
+    ["data/id", "5e280f12-51cf-5097-926f-c9c13c6bf185"],
+    ["data/id", "6a34c283-64b0-542f-9a25-1ff3056a734c"],
+    ["data/id", "4ad8fcbb-6002-5494-8632-2fae0acada61"],
+    ["data/id", "4e826347-7e3c-50d0-a133-5b01180a367f"],
+    ["data/id", "5766f808-f359-5cb3-978f-a670f84cd656"],
+    ["data/id", "26cdadb2-d00a-5510-9fb8-a63223bce27f"],
+    ["data/id", "f79a1049-8ff9-5a2f-8d0c-9b200eea121b"],
+    ["data/id", "75fdc520-1367-5935-9145-542b8a6fb8d8"],
+    ["data/id", "a701f9ac-c01b-5c61-aadb-4d893d273637"],
+    ["data/id", "d77fa792-0dab-5511-9183-efd71234d095"],
+    ["data/id", "ab007573-a27d-5e84-91c0-6f7a9cf34bcf"],
+    ["data/id", "c52355ed-35e2-5bce-acbd-d46e45e2850d"],
+    ["data/id", "29d3795a-3a30-54bc-8701-5713b15abbf3"],
+    ["data/id", "a0686951-13e1-57e1-bf35-a6e4e32aba97"]
+  ],
+  "datasources": [
+    ["datasource/id", "cb5e61e3-61d7-5349-ac10-33bfc1ff8ecc"]
+  ],
+  "description": "Question: how fast does a bridge wear out, and why will the US have more poor bridges in ten years even if it keeps fixing them at today's pace? Data: the US National Bridge Inventory (FHWA, as of June 2025, served by BTS as an ArcGIS feature service), aggregated by the server into counts of bridges per year built and lowest condition rating (the lowest of the 0-9 deck, superstructure, substructure and culvert ratings; ≤ 4 is poor), per main-span material, and per year of reconstruction: 622,769 bridges built 1896-2025. Idea: a deterioration curve, read like a life table. Half of the bridges have dropped below rating 8 within 5-9 years, below 7 by 35-39 years and below 6 only at 95-99. The poor share grows exponentially through the first 45 years (ln share on age: 0.096 per year, r² 0.98, doubling every 7.2 years), then bends: the law predicts 12.4% poor at 50 but 7.2% is observed, the work done on bridges in their fifth and sixth decades. Aha: the poor bridges of 2035 are already built. If each age keeps the poor share it has today, ageing alone takes 41,319 poor bridges (6.6%) to 55,961 (9.0%) in 2035 and 72,685 (11.7%) in 2045, because the big 1956-1980 interstate-era cohorts (206,905 bridges, a third of the stock) are moving into the ages where about one in ten is poor: about 1,464 more bridges a year must leave the poor class than today just to stand still. Materials: steel is 14.6% poor and prestressed concrete 3.6%, but at 40-59 years they rate 5.60 and 5.97: most of the gap is that prestressed bridges are 19 years younger on average (age is the confounder). Reconstruction resets the clock only partly (6.45 in the first ten years against 7.60 for new bridges). Caveats: one inventory, not bridges followed over time, so old cohorts are survivors (the worst were replaced); ratings are inspectors' judgements; the lowest rating hides which component is poor; item 106 is only the latest reconstruction; the projection is a period projection, not a forecast (no new bridges, no policy change). Next: drill into a cohort's poor bridges (click a dot: the records on the FHWA/BTS server), by state, traffic (ADT_029) or truck share; expand to FHWA's annual NBI files 1992-2025 to follow each bridge and fit the Markov transition probabilities that bridge management systems use.",
+  "graphs": [
+    ["graph/id", "d34bdb6b-ac8e-577b-9446-80d99c8754e7"],
+    ["graph/id", "bd5c078f-fbd4-5f74-a7a6-4a4a955a1e0b"],
+    ["graph/id", "b8810b90-b023-58da-a51e-03509d0acf6d"],
+    ["graph/id", "018823bf-dede-573c-b165-7a5c7e94882b"],
+    ["graph/id", "c5d0628e-c5f6-55c4-81dd-c5bde05cb057"]
+  ],
+  "grids": [],
+  "name": "How bridges wear out: the National Bridge Inventory",
+  "ontology": {
+    "$file": ".seebra/dashboard/00b6be1c-594e-5a7b-a4b6-b640d02c3bfc.ontology.json",
+    "$json": true
+  },
+  "queries": [
+    ["query/id", "8f81e594-587f-568b-9e80-78f2fe494d57"],
+    ["query/id", "9b11b3e1-771b-5777-afcf-9dd0e5acaf1b"],
+    ["query/id", "8c2df971-a767-52a6-b8b6-0a4741d7849e"],
+    ["query/id", "c2f1db64-0c5e-515f-8e67-4386e8acfff3"],
+    ["query/id", "40508eb7-fa1e-544d-b7c6-db24e44d439f"],
+    ["query/id", "f4964714-5971-5fe6-91d9-1aef4993d36f"]
+  ],
+  "studies": [
+    ["study/id", "ee16a408-5bfa-548d-a0c4-d9005a3b991b"]
+  ],
+  "tables": [],
+  "texts": [],
+  "timers": [],
+  "transformations": [
+    ["transformation/id", "c05d16eb-0339-548a-9824-f3836c57623e"],
+    ["transformation/id", "04b76b2f-8ec6-54d7-8939-6b7a5e60f7fc"],
+    ["transformation/id", "e15d8b8a-fa1d-5039-b77d-1e972113746b"],
+    ["transformation/id", "17bedb83-d0d8-5c8b-bdc0-43d11137a004"],
+    ["transformation/id", "8d7dc8ae-f912-5350-8168-2f028740758a"],
+    ["transformation/id", "87789e8c-9bf9-5695-863a-a6b9ead9ba25"],
+    ["transformation/id", "0ff2d1ce-49ba-5592-a2ee-99f9c83b8bca"],
+    ["transformation/id", "3c02461c-c5e0-5a72-8457-6d58746b20d6"]
+  ]
+}

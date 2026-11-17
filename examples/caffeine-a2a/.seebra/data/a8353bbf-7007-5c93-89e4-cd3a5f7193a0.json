@@ -1,0 +1,10 @@
+{
+  "data/id": "a8353bbf-7007-5c93-89e4-cd3a5f7193a0",
+  "data/name": "Contacts per residue data",
+  "data/node": {
+    "node/x": 2530,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "263b1645-5ab2-55aa-9948-220b6c74d0f7"],
+  "data/type": "json"
+}

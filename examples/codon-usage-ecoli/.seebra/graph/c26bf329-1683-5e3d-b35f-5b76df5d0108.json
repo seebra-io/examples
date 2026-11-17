@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/nc-against-gc3s-ribosomal-proteins-fall-below.js"
+  },
+  "graph/id": "c26bf329-1683-5e3d-b35f-5b76df5d0108",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Nc against GC3s: ribosomal proteins fall below the mutation-only curve",
+  "graph/node": {
+    "node/x": 2840,
+    "node/y": 560
+  },
+  "graph/parent": ["data/id", "34978a38-6f9b-5c64-8ba3-ca2f23e54623"]
+}

@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/rs4988235-lct-mcm6-genotype-counts.polars.py"
+  },
+  "transformation/data-child": ["data/id", "a688bbfe-f5d8-5602-b868-eebbb6132b32"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "2449ecbe-3ff7-5ff6-9ee0-75e9c1e69e6d",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "rs4988235 (LCT/MCM6) genotype counts",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "d361d533-e64d-504e-b42c-33613b4da0f5"],
+  "transformation/units": "{}"
+}

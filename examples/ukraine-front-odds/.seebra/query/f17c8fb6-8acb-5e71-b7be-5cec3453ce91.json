@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "117215b6-ffe7-5af6-8593-495704d7587b"],
+  "query/datasource": ["datasource/id", "fbe300fc-ba7d-5c66-830d-15996b85679c"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "f17c8fb6-8acb-5e71-b7be-5cec3453ce91",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Update log (every snapshot, with its note)",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 560
+  },
+  "query/params": "{}",
+  "query/path": "/history/public",
+  "query/request-body": "",
+  "query/units": "{}"
+}

@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/24h-change.js"
+  },
+  "graph/id": "60617103-f769-55aa-a608-948b760cda5a",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "24h change (%)",
+  "graph/node": {
+    "node/x": 1460,
+    "node/y": 560
+  },
+  "graph/parent": ["data/id", "23ba4f46-7b88-5ee3-8c98-3468a8209b8a"]
+}

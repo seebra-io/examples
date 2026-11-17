@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/per-collection-how-many-how-large.polars.py"
+  },
+  "transformation/data-child": ["data/id", "9b66b4c6-43f5-5c34-bebd-5f5798cbd288"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "c4fd0864-0d8d-532f-a8e8-96b30f160bd2",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Per collection: how many, how large",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "4a323969-b38f-5c16-b60b-15b728fcb13e"],
+  "transformation/units": "{\"median_mb\":\"MB\",\"largest_mb\":\"MB\",\"total_mb\":\"MB\"}"
+}

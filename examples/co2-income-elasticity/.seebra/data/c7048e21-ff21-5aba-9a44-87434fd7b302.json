@@ -1,0 +1,10 @@
+{
+  "data/id": "c7048e21-ff21-5aba-9a44-87434fd7b302",
+  "data/name": "CO₂ per person 1990–2024, six countries data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 1040
+  },
+  "data/parent": ["query/id", "1c678a2a-b2e7-5968-9623-5a0e658aef07"],
+  "data/type": "json"
+}

@@ -1,0 +1,10 @@
+{
+  "data/id": "041f0ca6-c4c0-52b8-a11c-b8e051b55f21",
+  "data/name": "rs334 (HBB) genotype counts data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 1040
+  },
+  "data/parent": ["transformation/id", "7a3f9fd8-5840-5b33-88bb-9ac3f9bab6a6"],
+  "data/type": "json"
+}

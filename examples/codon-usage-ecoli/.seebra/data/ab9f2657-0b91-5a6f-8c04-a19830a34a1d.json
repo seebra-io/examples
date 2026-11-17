@@ -1,0 +1,10 @@
+{
+  "data/id": "ab9f2657-0b91-5a6f-8c04-a19830a34a1d",
+  "data/name": "Transcription regulators data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "bd94d6d5-53ce-54f2-a89b-1af786759b81"],
+  "data/type": "json"
+}

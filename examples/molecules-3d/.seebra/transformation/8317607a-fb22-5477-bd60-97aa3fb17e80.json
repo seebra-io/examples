@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/atoms.js"
+  },
+  "transformation/data-child": ["data/id", "27331551-38f6-56e3-be6d-a1040889c709"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "js-web-worker",
+  "transformation/id": "8317607a-fb22-5477-bd60-97aa3fb17e80",
+  "transformation/inputs": [],
+  "transformation/language": "javascript",
+  "transformation/name": "Atoms",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 800
+  },
+  "transformation/parent": ["data/id", "0cc94389-a6de-5a7b-bec4-a9ff312e3377"],
+  "transformation/units": "{}"
+}

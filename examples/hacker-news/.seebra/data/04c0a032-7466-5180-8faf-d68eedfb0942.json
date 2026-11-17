@@ -1,0 +1,10 @@
+{
+  "data/id": "04c0a032-7466-5180-8faf-d68eedfb0942",
+  "data/name": "Stories data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "5d44d20c-ed4a-5679-840e-b70165d8a6be"],
+  "data/type": "json"
+}

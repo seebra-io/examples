@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/where-dinosaurs-are-found-today-and-where-they.js"
+  },
+  "graph/id": "e923e774-8f84-5baa-920c-faf2033eaf37",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Where dinosaurs are found today, and where they lived",
+  "graph/node": {
+    "node/x": 1460,
+    "node/y": 1040
+  },
+  "graph/parent": ["data/id", "4394c235-d66c-564e-90cb-dd78d809252b"]
+}

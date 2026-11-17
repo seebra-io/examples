@@ -1,0 +1,10 @@
+{
+  "data/id": "620c0e41-d04c-5912-b961-6c6c892281fa",
+  "data/name": "Frequency grid (cycles per day) data",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 800
+  },
+  "data/parent": ["transformation/id", "a9de54c2-3f5a-5c42-93ad-9e1e4169ff44"],
+  "data/type": "json"
+}

@@ -1,0 +1,10 @@
+{
+  "data/id": "c3b6cfda-29d3-5aec-b683-b9498e049bc2",
+  "data/name": "The folding rule per sampling rate data",
+  "data/node": {
+    "node/x": 2070,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "d21adb83-62e5-5d98-a1dc-e78721c4f969"],
+  "data/type": "json"
+}

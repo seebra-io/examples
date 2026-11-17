@@ -1,0 +1,11 @@
+{
+  "data/id": "191c93bf-c560-5939-8583-7787bbbd74ad",
+  "data/name": "Titles and artists",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "e357677a-0635-546f-ad0e-1a6fce84fecb"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

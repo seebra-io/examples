@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/direct-against-fundamental-gap-the-phonon-a.js"
+  },
+  "graph/id": "5d4f3303-8cd3-5f34-a72a-00a722d0a762",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Direct against fundamental gap: the phonon a photon would need",
+  "graph/node": {
+    "node/x": 1920,
+    "node/y": 800
+  },
+  "graph/parent": ["data/id", "f65d7d45-f930-5497-b4d1-6280e2fb201d"]
+}

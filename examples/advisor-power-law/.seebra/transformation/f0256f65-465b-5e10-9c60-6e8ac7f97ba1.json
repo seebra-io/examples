@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/lorenz-curve-the-share-of-supervisions-held-by.polars.py"
+  },
+  "transformation/data-child": ["data/id", "bc956ea6-9817-565c-805a-93de0796aa9e"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "f0256f65-465b-5e10-9c60-6e8ac7f97ba1",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Lorenz curve: the share of supervisions held by the top advisors",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 1040
+  },
+  "transformation/parent": ["data/id", "4dda24fe-bb3d-597d-99f0-f996c2355244"],
+  "transformation/units": "{}"
+}

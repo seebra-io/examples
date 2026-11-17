@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "5e280f12-51cf-5097-926f-c9c13c6bf185"],
+  "query/datasource": ["datasource/id", "cb5e61e3-61d7-5349-ac10-33bfc1ff8ecc"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "8f81e594-587f-568b-9e80-78f2fe494d57",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Bridges per year built and lowest condition rating",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 80
+  },
+  "query/params": "{\"where\":\"1=1\",\"groupByFieldsForStatistics\":\"YEAR_BUILT_027,LOWEST_RATING\",\"outStatistics\":\"[{\\\"statisticType\\\":\\\"count\\\",\\\"onStatisticField\\\":\\\"OBJECTID\\\",\\\"outStatisticFieldName\\\":\\\"n\\\"}]\",\"f\":\"json\"}",
+  "query/path": "/query",
+  "query/request-body": "",
+  "query/units": "{}"
+}

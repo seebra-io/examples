@@ -1,0 +1,11 @@
+{
+  "data/id": "9758eeee-9d05-5142-ab09-085024a76001",
+  "data/name": "Spectral ratio trend",
+  "data/node": {
+    "node/x": 2070,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "45c3a7fd-5acc-5378-8181-bd72cea7c71f"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

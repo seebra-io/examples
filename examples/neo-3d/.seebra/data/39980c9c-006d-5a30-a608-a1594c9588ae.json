@@ -1,0 +1,10 @@
+{
+  "data/id": "39980c9c-006d-5a30-a608-a1594c9588ae",
+  "data/name": "How close: cumulative share within each distance (ECDF) data",
+  "data/node": {
+    "node/x": 2070,
+    "node/y": 560
+  },
+  "data/parent": ["transformation/id", "231b276f-c38e-5144-aa9a-ecf12a3b5cee"],
+  "data/type": "json"
+}

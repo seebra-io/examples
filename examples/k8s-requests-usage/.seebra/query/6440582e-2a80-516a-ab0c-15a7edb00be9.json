@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "63b13c42-d499-579b-b477-3c227fc1ae99"],
+  "query/datasource": ["datasource/id", "3a3fcd90-2fad-5169-a3b7-2e8bad4fc4e3"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "6440582e-2a80-516a-ab0c-15a7edb00be9",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Pod usage (metrics-server)",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 80
+  },
+  "query/params": "{}",
+  "query/path": "/apis/metrics.k8s.io/v1beta1/pods",
+  "query/request-body": "",
+  "query/units": "{}"
+}

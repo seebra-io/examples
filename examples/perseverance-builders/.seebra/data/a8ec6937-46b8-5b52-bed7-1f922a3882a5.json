@@ -1,0 +1,10 @@
+{
+  "data/id": "a8ec6937-46b8-5b52-bed7-1f922a3882a5",
+  "data/name": "Ingenuity, NASA's 3D model data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 320
+  },
+  "data/parent": ["query/id", "42ac0ec0-ca44-57f3-9996-a71581a209d7"],
+  "data/type": "json"
+}

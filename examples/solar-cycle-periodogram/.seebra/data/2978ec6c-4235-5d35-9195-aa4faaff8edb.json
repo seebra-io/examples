@@ -1,0 +1,10 @@
+{
+  "data/id": "2978ec6c-4235-5d35-9195-aa4faaff8edb",
+  "data/name": "Cycle minima: lowest smoothed value within ±4 years data",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "b72e1f4c-c0b9-5b09-bd9b-21c09e328bcf"],
+  "data/type": "json"
+}

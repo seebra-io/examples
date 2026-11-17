@@ -1,0 +1,10 @@
+{
+  "data/id": "223007af-7571-54d7-9352-c7b7d8061e94",
+  "data/name": "Residues of four proteins data",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "d1036c86-7450-54f9-96b5-c11d0f67bbc9"],
+  "data/type": "json"
+}

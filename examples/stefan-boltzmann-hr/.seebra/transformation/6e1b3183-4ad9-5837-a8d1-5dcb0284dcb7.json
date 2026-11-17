@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/radius-per-evolutionary-stage.polars.py"
+  },
+  "transformation/data-child": ["data/id", "d62644c7-eada-5c9a-bce5-7396fc45fe8a"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "6e1b3183-4ad9-5837-a8d1-5dcb0284dcb7",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Radius per evolutionary stage",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "4ef98efb-15e1-5afd-8f12-cc032664e04b"],
+  "transformation/units": "{}"
+}

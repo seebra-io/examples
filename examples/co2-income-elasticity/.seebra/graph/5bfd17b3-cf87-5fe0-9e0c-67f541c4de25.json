@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/elasticity-across-countries-log-log.js"
+  },
+  "graph/id": "5bfd17b3-cf87-5fe0-9e0c-67f541c4de25",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Elasticity across countries (log–log)",
+  "graph/node": {
+    "node/x": 1920,
+    "node/y": 80
+  },
+  "graph/parent": ["data/id", "33245d82-55c7-5b65-9495-dab6fe418a93"]
+}

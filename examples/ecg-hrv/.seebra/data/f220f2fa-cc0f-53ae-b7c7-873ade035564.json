@@ -1,0 +1,10 @@
+{
+  "data/id": "f220f2fa-cc0f-53ae-b7c7-873ade035564",
+  "data/name": "NSR 16265: beat annotations, first 15 min (128 Hz) data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 80
+  },
+  "data/parent": ["query/id", "e706f87a-71ae-5e3c-a302-f7f4b8f18597"],
+  "data/type": "json"
+}

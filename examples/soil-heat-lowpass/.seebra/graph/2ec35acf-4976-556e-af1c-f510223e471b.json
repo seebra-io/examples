@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/three-years-the-yearly-wave-reaches-deep-late.js"
+  },
+  "graph/id": "2ec35acf-4976-556e-af1c-f510223e471b",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Three years: the yearly wave reaches deep, late",
+  "graph/node": {
+    "node/x": 2380,
+    "node/y": 560
+  },
+  "graph/parent": ["data/id", "cd5f9a08-45b1-5915-a671-ad0ab99046f6"]
+}

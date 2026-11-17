@@ -1,0 +1,177 @@
+{
+  "title": "HF radio and the ionosphere",
+  "summary": "How the ionosphere's F2 layer reflects HF radio, why the usable frequency grows with distance (secant law), and what sets the skip zone.",
+  "concepts": [
+    {
+      "cid": "c1",
+      "label": "F2 layer",
+      "kind": "entity",
+      "description": "The densest layer of the ionosphere, 200–400 km up, ionised by solar EUV.",
+      "fields": [
+        "fof2",
+        "hmf2",
+        "nmax_e11_m3"
+      ],
+      "in_data": true,
+      "wikidata": "Q1347131",
+      "facts": [
+        {
+          "text": "GIRO collects ionograms from about 100 digisondes worldwide.",
+          "source": "https://giro.uml.edu/"
+        },
+        {
+          "text": "KC2G compiles GIRO's newest scaled values per station.",
+          "source": "https://prop.kc2g.com/about/"
+        }
+      ],
+      "children": [
+        {
+          "cid": "c2",
+          "label": "Critical frequency foF2",
+          "kind": "measure",
+          "as": "property",
+          "description": "The highest frequency returned at vertical incidence; foF2 [Hz] = 8.98 √N [m⁻³].",
+          "fields": [
+            "fof2"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c3",
+          "label": "Peak height hmF2",
+          "kind": "measure",
+          "as": "property",
+          "description": "Height of the F2 electron density peak, km.",
+          "fields": [
+            "hmf2"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c4",
+          "label": "Peak electron density",
+          "kind": "measure",
+          "as": "property",
+          "description": "N = f²/80.6, in 10¹¹ electrons/m³.",
+          "fields": [
+            "nmax_e11_m3"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c5",
+          "label": "E and D layers",
+          "kind": "entity",
+          "as": "part",
+          "description": "Lower layers: E can screen low-angle rays, D absorbs by day (sets the lowest usable frequency).",
+          "fields": [
+            "foe"
+          ],
+          "in_data": false
+        }
+      ]
+    },
+    {
+      "cid": "c6",
+      "label": "Maximum usable frequency",
+      "kind": "measure",
+      "description": "The highest frequency returned over a given hop, MUF = foF2 · sec i; MUF(3000) is the value for 3000 km.",
+      "fields": [
+        "mufd",
+        "muf_calc",
+        "muf_mhz"
+      ],
+      "in_data": true,
+      "facts": [
+        {
+          "text": "M(3000)F2 is the factor MUF(3000)/foF2 scaled from the ionogram.",
+          "source": "https://www.sws.bom.gov.au/Educational/5/2/2"
+        }
+      ],
+      "children": [
+        {
+          "cid": "c7",
+          "label": "Secant law",
+          "kind": "entity",
+          "as": "part",
+          "description": "Oblique and vertical frequencies reflected at the same height: f_ob = f_v · sec i.",
+          "fields": [
+            "sec_i",
+            "sec_i_3000"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c8",
+          "label": "Propagation factor M(3000)F2",
+          "kind": "measure",
+          "as": "property",
+          "description": "Measured ratio MUF(3000)/foF2, about 3–4.",
+          "fields": [
+            "m3000"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c9",
+          "label": "Longest single hop",
+          "kind": "measure",
+          "as": "property",
+          "description": "The distance where the ray leaves at the horizon, 2R·acos(R/(R+h)).",
+          "fields": [
+            "max_hop_km"
+          ],
+          "in_data": true
+        }
+      ]
+    },
+    {
+      "cid": "c10",
+      "label": "Skip zone",
+      "kind": "event",
+      "description": "The ring around a transmitter where a band above foF2 is not returned.",
+      "fields": [
+        "skip_km",
+        "band",
+        "status"
+      ],
+      "in_data": true,
+      "wikidata": "Q1756451",
+      "facts": [
+        {
+          "text": "Radio amateurs use NVIS (near-vertical incidence) below foF2 for short paths.",
+          "source": "https://en.wikipedia.org/wiki/Skip_zone"
+        }
+      ]
+    },
+    {
+      "cid": "c11",
+      "label": "Solar control",
+      "kind": "event",
+      "description": "Day/night (local solar time), season and the 11-year solar cycle set foF2.",
+      "fields": [
+        "lst",
+        "daylight"
+      ],
+      "in_data": true,
+      "children": [
+        {
+          "cid": "c12",
+          "label": "Solar flux F10.7",
+          "kind": "measure",
+          "as": "part",
+          "description": "The Sun's 10.7 cm radio flux, a proxy for the EUV that ionises the F2 layer (NOAA SWPC).",
+          "in_data": false
+        },
+        {
+          "cid": "c13",
+          "label": "Geomagnetic storms",
+          "kind": "event",
+          "as": "part",
+          "description": "Storms can deplete the F2 layer for days (negative phase).",
+          "in_data": false
+        }
+      ]
+    }
+  ]
+}

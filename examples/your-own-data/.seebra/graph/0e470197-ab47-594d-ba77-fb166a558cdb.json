@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/start-here.js"
+  },
+  "graph/id": "0e470197-ab47-594d-ba77-fb166a558cdb",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Start here",
+  "graph/node": {
+    "node/x": 1460,
+    "node/y": 560
+  },
+  "graph/parent": ["data/id", "ece65900-9e7b-57f9-a300-8f754f676f59"]
+}

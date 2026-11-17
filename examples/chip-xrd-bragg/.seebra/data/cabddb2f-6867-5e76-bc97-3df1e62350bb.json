@@ -1,0 +1,11 @@
+{
+  "data/id": "cabddb2f-6867-5e76-bc97-3df1e62350bb",
+  "data/name": "Reflections",
+  "data/node": {
+    "node/x": 2070,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "c9a85170-a21a-571a-8190-3e1774766dee"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

@@ -1,0 +1,11 @@
+{
+  "data/id": "30a5bc9d-51e3-5d9b-b54b-4b91a1051198",
+  "data/name": "Power law vs exponential: likelihood-ratio tests",
+  "data/node": {
+    "node/x": 2530,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "e03e6b48-c503-56fc-9750-a3ac29313512"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

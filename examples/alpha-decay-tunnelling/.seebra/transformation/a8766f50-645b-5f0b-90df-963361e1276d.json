@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/log10-t1-2-against-the-exponent-per-nucleon.polars.py"
+  },
+  "transformation/data-child": ["data/id", "58de972f-9ba1-5023-9386-be0b7e4a298c"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "a8766f50-645b-5f0b-90df-963361e1276d",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "log₁₀ t½ against the exponent, per nucleon parity",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 2840,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "8134e6d4-086b-5583-8e5f-dde534c937ff"],
+  "transformation/units": "{}"
+}

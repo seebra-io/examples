@@ -1,0 +1,11 @@
+{
+  "data/id": "b164ddcf-7010-5bb7-bf96-1d62c02248ab",
+  "data/name": "Attenuation per period",
+  "data/node": {
+    "node/x": 2530,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "e26fae62-5754-56fd-a558-ece03e0a11d8"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

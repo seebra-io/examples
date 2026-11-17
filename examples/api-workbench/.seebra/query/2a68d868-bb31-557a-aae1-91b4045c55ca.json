@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "36170991-0450-5e9c-ad88-6aff26eac88d"],
+  "query/datasource": ["datasource/id", "9ea7504d-c434-593d-af13-d7fceb5a6878"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "2a68d868-bb31-557a-aae1-91b4045c55ca",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "GET /posts",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 80
+  },
+  "query/params": "{}",
+  "query/path": "/posts",
+  "query/request-body": "",
+  "query/units": "{}"
+}

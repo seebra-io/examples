@@ -1,0 +1,10 @@
+{
+  "data/id": "f7c398f9-b29e-541e-b813-fd176d10a716",
+  "data/name": "Rate per day data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "28e4f096-7ead-5937-b3a2-69dc40881d08"],
+  "data/type": "json"
+}

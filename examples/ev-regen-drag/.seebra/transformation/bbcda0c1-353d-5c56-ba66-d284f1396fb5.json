@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/battery-evs-by-body-type.polars.py"
+  },
+  "transformation/data-child": ["data/id", "7937d9cd-49b1-5fc8-ae2f-d7ea23b576be"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "bbcda0c1-353d-5c56-ba66-d284f1396fb5",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Battery EVs by body type",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "6b3cc1c5-69ee-57d8-af5c-85c30944a793"],
+  "transformation/units": "{}"
+}

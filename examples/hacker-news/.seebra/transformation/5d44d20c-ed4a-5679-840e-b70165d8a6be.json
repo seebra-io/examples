@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/stories.polars.py"
+  },
+  "transformation/data-child": ["data/id", "04c0a032-7466-5180-8faf-d68eedfb0942"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "5d44d20c-ed4a-5679-840e-b70165d8a6be",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Stories",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "98e3f6f4-9250-582f-b6b0-603e3f7609fe"],
+  "transformation/units": "{}"
+}

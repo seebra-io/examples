@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/replicas-per-deployment-desired-updated.js"
+  },
+  "graph/id": "21339610-0856-54d0-9151-8a1e0a6ef3a1",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Replicas per deployment: desired, updated, available",
+  "graph/node": {
+    "node/x": 1460,
+    "node/y": 320
+  },
+  "graph/parent": ["data/id", "d002842a-9b28-5bff-bb7c-ee9a2d2163fe"]
+}

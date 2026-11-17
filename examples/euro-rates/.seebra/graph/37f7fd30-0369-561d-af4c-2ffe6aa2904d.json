@@ -1,0 +1,16 @@
+{
+  "graph/content": {
+    "$file": "graphs/units-per-euro-indexed-above-100-the-euro-bought.js"
+  },
+  "graph/id": "37f7fd30-0369-561d-af4c-2ffe6aa2904d",
+  "graph/inputs": [
+    ["data/id", "92844abc-ebd6-5a22-ae99-44e75cc71efd"]
+  ],
+  "graph/language": "javascript",
+  "graph/name": "Units per euro, indexed (above 100: the euro bought more)",
+  "graph/node": {
+    "node/x": 1920,
+    "node/y": 560
+  },
+  "graph/parent": ["data/id", "dd1aefc5-18da-58d0-834b-5b1d08e75fbe"]
+}

@@ -1,0 +1,8 @@
+{
+  "file": {
+    "file/example": "nitrogen-response"
+  },
+  "format": 2,
+  "root": ["dashboard/id", "98f00372-a2ec-57e5-b3d5-88f865111c9d"],
+  "seebra": "board"
+}

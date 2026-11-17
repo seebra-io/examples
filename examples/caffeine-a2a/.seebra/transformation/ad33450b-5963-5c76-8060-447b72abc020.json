@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/caffeine-and-adenosine-pubchem.polars.py"
+  },
+  "transformation/data-child": ["data/id", "6e760356-1314-5a36-8c87-258e4b054aa6"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "ad33450b-5963-5c76-8060-447b72abc020",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Caffeine and adenosine (PubChem)",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "66e43106-68e0-51ae-8fb7-0dc8518bb0d3"],
+  "transformation/units": "{}"
+}

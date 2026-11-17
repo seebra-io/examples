@@ -1,0 +1,10 @@
+{
+  "data/id": "67299649-4a44-57a1-a7ad-a6ff2f9fc049",
+  "data/name": "Elevation grid around Iran (ESRI ASCII, ~4 km) data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 80
+  },
+  "data/parent": ["query/id", "ccfd0e6f-ccd8-52cb-8697-c66247eff63f"],
+  "data/type": "json"
+}

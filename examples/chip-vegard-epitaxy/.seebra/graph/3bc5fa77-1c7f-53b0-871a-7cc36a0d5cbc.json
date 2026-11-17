@@ -1,0 +1,17 @@
+{
+  "graph/content": {
+    "$file": "graphs/the-epitaxy-map-band-gap-against-lattice.js"
+  },
+  "graph/id": "3bc5fa77-1c7f-53b0-871a-7cc36a0d5cbc",
+  "graph/inputs": [
+    ["data/id", "a33a18e6-c802-5a31-b25e-ddf171067680"],
+    ["data/id", "53269d57-8070-55b4-897a-0ee8400bf657"]
+  ],
+  "graph/language": "javascript",
+  "graph/name": "The epitaxy map: band gap against lattice constant",
+  "graph/node": {
+    "node/x": 1460,
+    "node/y": 1040
+  },
+  "graph/parent": ["data/id", "b0e54ae6-54b1-5150-89a8-3d2e06237517"]
+}

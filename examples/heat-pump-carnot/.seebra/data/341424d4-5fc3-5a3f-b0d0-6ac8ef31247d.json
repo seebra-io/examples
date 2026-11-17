@@ -1,0 +1,10 @@
+{
+  "data/id": "341424d4-5fc3-5a3f-b0d0-6ac8ef31247d",
+  "data/name": "Carnot curves (theory) data",
+  "data/node": {
+    "node/x": 2070,
+    "node/y": 800
+  },
+  "data/parent": ["transformation/id", "e28426ce-590e-556c-86da-33fad7f8c086"],
+  "data/type": "json"
+}

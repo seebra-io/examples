@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/one-row-per-column-of-air.polars.py"
+  },
+  "transformation/data-child": ["data/id", "c5ff5fe5-c63b-5bf9-84ef-53e4fafb4479"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "ca385b83-9c59-54c2-a704-104aca4b8036",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "One row per column of air",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "c676d561-19b6-5ed4-bed9-44dc7767ae39"],
+  "transformation/units": "{}"
+}

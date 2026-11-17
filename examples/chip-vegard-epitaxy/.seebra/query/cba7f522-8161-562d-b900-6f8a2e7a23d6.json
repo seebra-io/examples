@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "8e020a9f-27bc-50f7-8088-62d9fae522bb"],
+  "query/datasource": ["datasource/id", "ab712c3d-4b6f-5d1f-a626-992bebb91186"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "cba7f522-8161-562d-b900-6f8a2e7a23d6",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Zincblende III-V binaries and diamond Si, Ge",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 80
+  },
+  "query/params": "{\"filter\":\"nsites=2 AND (_alexandria_space_group=216 OR _alexandria_space_group=227) AND ((nelements=2 AND elements HAS ANY \\\"Al\\\",\\\"Ga\\\",\\\"In\\\" AND elements HAS ANY \\\"N\\\",\\\"P\\\",\\\"As\\\",\\\"Sb\\\") OR (nelements=1 AND elements HAS ANY \\\"Si\\\",\\\"Ge\\\"))\",\"page_limit\":\"500\",\"response_fields\":\"chemical_formula_reduced,elements,elements_ratios,nsites,lattice_vectors,_alexandria_band_gap,_alexandria_band_gap_direct,_alexandria_space_group,_alexandria_hull_distance\"}",
+  "query/path": "/structures",
+  "query/request-body": "",
+  "query/units": "{}"
+}

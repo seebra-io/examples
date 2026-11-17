@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "379ef43e-f563-5477-b90d-60f832282a39"],
+  "query/datasource": ["datasource/id", "be8fb891-3243-5672-884e-2c05ee439797"],
+  "query/dynamic?": false,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "f5d2a30d-f17e-5749-8811-d1523b8f17ff",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Mars models on science.nasa.gov",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 1040
+  },
+  "query/params": "{\"mime_type\":\"model/gltf-binary\",\"per_page\":\"50\",\"orderby\":\"date\",\"order\":\"desc\",\"_fields\":\"id,date,title,source_url,media_details\",\"search\":\"mars\"}",
+  "query/path": "/media",
+  "query/request-body": "",
+  "query/units": "{}"
+}

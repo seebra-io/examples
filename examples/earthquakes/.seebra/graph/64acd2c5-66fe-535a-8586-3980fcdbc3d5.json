@@ -1,0 +1,16 @@
+{
+  "graph/content": {
+    "$file": "graphs/where-they-struck.js"
+  },
+  "graph/id": "64acd2c5-66fe-535a-8586-3980fcdbc3d5",
+  "graph/inputs": [
+    ["data/id", "d18b591e-c3ec-52ec-944c-1912e0b74248"]
+  ],
+  "graph/language": "javascript",
+  "graph/name": "Where they struck",
+  "graph/node": {
+    "node/x": 1460,
+    "node/y": 320
+  },
+  "graph/parent": ["data/id", "1df8e777-5c4b-5a23-a71f-1d25e820f553"]
+}

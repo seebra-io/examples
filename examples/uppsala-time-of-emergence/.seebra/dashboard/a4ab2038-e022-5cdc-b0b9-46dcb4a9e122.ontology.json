@@ -1,0 +1,167 @@
+{
+  "title": "Night-time warming at Uppsala since 1840",
+  "summary": "Uppsala's daily minimum temperature, per season against 1850–1900: how large the warming is, how large the natural year-to-year spread is, and whether the signal has emerged from that noise; and what it does to frost.",
+  "concepts": [
+    {
+      "cid": "c1",
+      "label": "Weather station",
+      "kind": "place",
+      "description": "Uppsala, Sweden (GHCN-D SWE00139148, 59.86° N 17.63° E, 13 m): daily records since 1836 (minimum temperature since 1840).",
+      "fields": [],
+      "in_data": true,
+      "wikidata": "Q25286",
+      "facts": [
+        {
+          "text": "Uppsala's temperature series, started by Anders Celsius's successors, is among the longest instrumental records in Europe.",
+          "source": "https://www.ncei.noaa.gov/cdo-web/datasets/GHCND/stations/GHCND:SWE00139148/detail"
+        }
+      ],
+      "children": [
+        {
+          "cid": "c2",
+          "label": "Daily minimum temperature",
+          "kind": "measure",
+          "as": "property",
+          "description": "TMIN, the night's lowest screen temperature, °C (GHCN-D stores tenths).",
+          "fields": [
+            "tmin_c",
+            "mean_tmin_c"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c3",
+          "label": "Urban heat island",
+          "kind": "category",
+          "as": "property",
+          "description": "A growing town stores heat and warms its nights; part of a city station's trend is local.",
+          "fields": [],
+          "in_data": false
+        }
+      ]
+    },
+    {
+      "cid": "c4",
+      "label": "Season",
+      "kind": "time",
+      "description": "Meteorological seasons: winter DJF (December counted with the next year), spring MAM, summer JJA, autumn SON.",
+      "fields": [
+        "season",
+        "year"
+      ],
+      "in_data": true,
+      "children": [
+        {
+          "cid": "c5",
+          "label": "Pre-industrial baseline",
+          "kind": "time",
+          "as": "part",
+          "description": "1850–1900, the IPCC AR6 reference period; its mean is the zero of every anomaly here.",
+          "fields": [
+            "base_mean_c",
+            "era"
+          ],
+          "in_data": true,
+          "facts": [
+            {
+              "text": "IPCC AR6 uses 1850–1900 as the approximation of pre-industrial temperature.",
+              "source": "https://www.ipcc.ch/report/ar6/wg1/chapter/summary-for-policymakers/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cid": "c6",
+      "label": "Warming signal",
+      "kind": "measure",
+      "description": "The change of a season's mean daily minimum, last 30 years minus 1850–1900, °C.",
+      "fields": [
+        "warming_c",
+        "anomaly_c"
+      ],
+      "in_data": true,
+      "children": [
+        {
+          "cid": "c7",
+          "label": "Natural variability",
+          "kind": "measure",
+          "as": "property",
+          "description": "The year-to-year standard deviation σ of a season's mean in the baseline: the noise.",
+          "fields": [
+            "base_sd_c"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c8",
+          "label": "Signal-to-noise ratio",
+          "kind": "measure",
+          "as": "property",
+          "description": "Warming / σ. Above about 2, a typical year lies outside the old climate's normal range.",
+          "fields": [
+            "signal_to_noise",
+            "z"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c9",
+          "label": "Time of emergence",
+          "kind": "event",
+          "as": "property",
+          "description": "When a signal first stays above the noise; earliest where variability is small (summer, the tropics), not where warming is largest.",
+          "fields": [
+            "recent_warmer_than_any_base_pct"
+          ],
+          "in_data": true,
+          "facts": [
+            {
+              "text": "Hawkins and Sutton (2012) showed the signal of warming emerges first in low-variability regions such as the tropics, though they warm less.",
+              "source": "https://doi.org/10.1029/2011GL050087"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cid": "c10",
+      "label": "Frost",
+      "kind": "event",
+      "description": "A night with the minimum below 0 °C.",
+      "fields": [
+        "frost_nights"
+      ],
+      "in_data": true,
+      "children": [
+        {
+          "cid": "c11",
+          "label": "Frost-free season",
+          "kind": "measure",
+          "as": "property",
+          "description": "Days between the last spring and the first autumn frost: the growing season's frame.",
+          "fields": [
+            "frost_free_days",
+            "last_spring_frost_doy",
+            "first_autumn_frost_doy"
+          ],
+          "in_data": true
+        }
+      ]
+    },
+    {
+      "cid": "c12",
+      "label": "GHCN-Daily",
+      "kind": "source",
+      "description": "NOAA's Global Historical Climatology Network daily: >100,000 stations, quality-controlled, not homogenised. On AWS as the public bucket noaa-ghcn-pds (CSV and Parquet, by year and by station).",
+      "fields": [],
+      "in_data": true,
+      "facts": [
+        {
+          "text": "The bucket is open for anonymous access and updated daily.",
+          "source": "https://registry.opendata.aws/noaa-ghcn/"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "transformation/content": {
+    "$file": "transforms/countries-with-region-and-gdp.sql"
+  },
+  "transformation/data-child": ["data/id", "e8a59fc7-e206-5d3f-a2d5-908f5d688a38"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "0b7f1948-2e04-52c8-bab5-00a416b38cd4",
+  "transformation/inputs": [
+    ["data/id", "73cf2bca-5f82-50a2-af8c-aaafa98a2544"],
+    ["data/id", "921aa6c1-e376-5bfd-8f3c-159275d5e015"]
+  ],
+  "transformation/language": "sql",
+  "transformation/name": "Countries with region and GDP",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "30b643b0-2d73-5c68-af08-eee62ba7b173"],
+  "transformation/units": "{}"
+}

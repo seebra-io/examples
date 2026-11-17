@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "810b5f3c-9053-5949-a695-b2eb34a6cdbb"],
+  "query/datasource": ["datasource/id", "d71e7705-fb17-537f-bd78-bb46c272c281"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "f48e173c-1607-57b2-82b9-fb64ad3a2981",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "A2A with caffeine, 5MZP (PDB)",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 80
+  },
+  "query/params": "{}",
+  "query/path": "/download/5MZP.pdb",
+  "query/request-body": "",
+  "query/units": "{}"
+}

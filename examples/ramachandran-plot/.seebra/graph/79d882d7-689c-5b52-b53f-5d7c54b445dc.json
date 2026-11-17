@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/ramachandran-plot-and-of-every-residue.js"
+  },
+  "graph/id": "79d882d7-689c-5b52-b53f-5d7c54b445dc",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Ramachandran plot: φ and ψ of every residue",
+  "graph/node": {
+    "node/x": 2380,
+    "node/y": 800
+  },
+  "graph/parent": ["data/id", "bd209231-a9c6-5fbf-abd6-e51a7130c060"]
+}

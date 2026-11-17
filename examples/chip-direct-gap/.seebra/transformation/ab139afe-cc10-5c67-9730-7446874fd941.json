@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/two-proportion-test-iii-v-and-ii-vi-against-the.sql"
+  },
+  "transformation/data-child": ["data/id", "4a4e8250-7941-586d-bafb-3f9b3a67329f"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "ab139afe-cc10-5c67-9730-7446874fd941",
+  "transformation/inputs": [],
+  "transformation/language": "sql",
+  "transformation/name": "Two-proportion test: III-V and II-VI against the rest",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1920,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "f65d7d45-f930-5497-b4d1-6280e2fb201d"],
+  "transformation/units": "{}"
+}

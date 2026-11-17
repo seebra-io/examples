@@ -1,0 +1,11 @@
+{
+  "data/id": "e61e9cf8-7d60-5722-9f24-f7b5631f4f7b",
+  "data/name": "Power curve bins",
+  "data/node": {
+    "node/x": 2070,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "ff438680-f075-59f1-8ff6-5d97927a3d20"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

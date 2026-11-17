@@ -1,0 +1,10 @@
+{
+  "data/id": "8513dac9-fe56-547f-9058-28871f829c62",
+  "data/name": "Systems with five or more planets: one star weighed by each orbit data",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 800
+  },
+  "data/parent": ["transformation/id", "ef4586cc-3214-5bcf-a6f8-2eb669f7f854"],
+  "data/type": "json"
+}

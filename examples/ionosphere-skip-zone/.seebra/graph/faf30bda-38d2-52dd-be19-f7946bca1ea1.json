@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/the-ionosondes-now.js"
+  },
+  "graph/id": "faf30bda-38d2-52dd-be19-f7946bca1ea1",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "The ionosondes now",
+  "graph/node": {
+    "node/x": 1460,
+    "node/y": 560
+  },
+  "graph/parent": ["data/id", "0b2b6767-8b75-55ec-a385-43fe89d8f6a2"]
+}

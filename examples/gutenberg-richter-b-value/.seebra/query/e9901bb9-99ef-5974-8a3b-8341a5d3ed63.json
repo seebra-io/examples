@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "251ad0b1-8443-5860-80ff-6fcd3410eae8"],
+  "query/datasource": ["datasource/id", "9b64d506-3711-5338-883e-e563337da149"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "e9901bb9-99ef-5974-8a3b-8341a5d3ed63",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Every M ≥ 4.5 earthquake in 2025 (GeoJSON)",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 80
+  },
+  "query/params": "{\"format\":\"geojson\",\"starttime\":\"2025-01-01\",\"endtime\":\"2026-01-01\",\"minmagnitude\":\"4.5\",\"orderby\":\"time-asc\"}",
+  "query/path": "/query",
+  "query/request-body": "",
+  "query/units": "{}"
+}

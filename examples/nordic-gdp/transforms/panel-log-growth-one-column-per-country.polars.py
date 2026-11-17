@@ -1,0 +1,7 @@
+data.filter(col("country") == "Denmark").select("year", Denmark = col("log_growth"))
+    .join(data.filter(col("country") == "Finland").select("year", Finland = col("log_growth")), on="year")
+    .join(data.filter(col("country") == "Iceland").select("year", Iceland = col("log_growth")), on="year")
+    .join(data.filter(col("country") == "Norway").select("year", Norway = col("log_growth")), on="year")
+    .join(data.filter(col("country") == "Sweden").select("year", Sweden = col("log_growth")), on="year")
+    .drop_nulls()
+    .sort("year")

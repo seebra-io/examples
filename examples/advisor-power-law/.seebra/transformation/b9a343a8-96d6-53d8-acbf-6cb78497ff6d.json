@@ -1,0 +1,21 @@
+{
+  "transformation/content": {
+    "$file": "transforms/the-most-prolific-advisors-with-their-share-of.polars.py"
+  },
+  "transformation/data-child": ["data/id", "35b0cb75-7bfc-5c93-806f-1c777ee47107"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "b9a343a8-96d6-53d8-acbf-6cb78497ff6d",
+  "transformation/inputs": [
+    ["data/id", "9248d691-c0fe-5b92-8901-01d88c6fdc8c"]
+  ],
+  "transformation/language": "polars",
+  "transformation/name": "The most prolific advisors, with their share of all recorded supervisions",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 560
+  },
+  "transformation/parent": ["data/id", "c59c0a9d-1548-5230-826f-8809b4f873e1"],
+  "transformation/units": "{}"
+}

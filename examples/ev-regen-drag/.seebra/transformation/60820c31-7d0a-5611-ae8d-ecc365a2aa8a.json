@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/energy-per-100-km-city-and-highway.polars.py"
+  },
+  "transformation/data-child": ["data/id", "6b3cc1c5-69ee-57d8-af5c-85c30944a793"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "60820c31-7d0a-5611-ae8d-ecc365a2aa8a",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Energy per 100 km, city and highway",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "258b7419-bce6-598b-a5f4-c3248eb57b8c"],
+  "transformation/units": "{}"
+}

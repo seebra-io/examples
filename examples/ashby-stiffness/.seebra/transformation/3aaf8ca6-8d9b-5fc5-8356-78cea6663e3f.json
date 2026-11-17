@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/rows-the-sanity-check-set-aside.sql"
+  },
+  "transformation/data-child": ["data/id", "d6d22402-0d58-5177-85b9-5c5a99eae330"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "3aaf8ca6-8d9b-5fc5-8356-78cea6663e3f",
+  "transformation/inputs": [],
+  "transformation/language": "sql",
+  "transformation/name": "Rows the sanity check set aside",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1920,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "eae605a2-9655-55be-a15b-27f3545b3c6f"],
+  "transformation/units": "{}"
+}

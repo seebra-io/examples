@@ -1,0 +1,10 @@
+{
+  "data/id": "7d659727-dc39-5206-9933-15870224716a",
+  "data/name": "Months numbered by cycle, and the signed series data",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "6de9a90e-a5eb-59d4-bc77-0e806013b69d"],
+  "data/type": "json"
+}

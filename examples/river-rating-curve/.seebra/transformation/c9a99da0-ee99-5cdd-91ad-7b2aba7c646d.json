@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/a-rating-curve-per-decade-and-the-stage-at-fixed.polars.py"
+  },
+  "transformation/data-child": ["data/id", "722d87cb-bf99-54bb-bdf0-f81111c4a619"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "c9a99da0-ee99-5cdd-91ad-7b2aba7c646d",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "A rating curve per decade, and the stage at fixed flows",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "53b3944f-088d-5541-af4c-12295f8c0c00"],
+  "transformation/units": "{}"
+}

@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/github-components.polars.py"
+  },
+  "transformation/data-child": ["data/id", "5760fce8-83e7-5538-b9f4-220743ba3cee"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "c22b72fd-4915-5fda-8e9c-9b13d4340cf5",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "GitHub components",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "5f3b8179-374e-5caf-a6fa-c7216535102b"],
+  "transformation/units": "{}"
+}

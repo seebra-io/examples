@@ -1,0 +1,46 @@
+{
+  "dashboard/id": "8fcb6797-595d-5257-b625-33c95cbf8d1c",
+  "datas": [
+    ["data/id", "ec9127e2-4c89-5a2f-9230-d0c0dab302b4"],
+    ["data/id", "e22797a0-aef8-5a79-adbe-91886e5b64c8"],
+    ["data/id", "b862fc4b-d415-53ca-a25e-6422b5e898cf"],
+    ["data/id", "001e55ba-23a3-5387-b36f-666e916a72d5"],
+    ["data/id", "f010f38d-090a-5db0-952b-b5bb3a2db40f"],
+    ["data/id", "dbb4c896-fd0e-54f6-9e5a-b263bd5599d7"],
+    ["data/id", "653d1f80-2665-526f-b04e-3c8858293ca3"],
+    ["data/id", "53f3fd4e-d12a-5a27-891c-0543cd57818b"],
+    ["data/id", "8b210f32-8f48-5005-b0a6-7500f0e449d1"]
+  ],
+  "datasources": [
+    ["datasource/id", "a577b43b-d00b-5b2a-87a4-9b9acd021ea0"],
+    ["datasource/id", "e5cfd47d-7a36-525d-9b11-9d2e0fb73751"]
+  ],
+  "description": "Question: silicon, GaAs, GaN, ZnSe, SiC: why is every semiconductor in a chip built of atoms with exactly four neighbours, while table salt and magnesium oxide, made of the same kinds of elements, take six? Data: every stable binary AB compound in Alexandria (PBE ground states, keyless OPTIMADE) with 2 or 4 atoms per cell made of main-group and d10 elements, and PubChem's periodic table for valence electrons, electronegativity and period. Steps: keep the octet compounds (two atoms bringing 8 valence electrons: I-VII, II-VI, III-V, IV-IV); read the coordination from the ground-state space group (zincblende and wurtzite 4, rock salt 6, CsCl 8); place each on the Mooser–Pearson map (Pauling electronegativity difference Δχ against the mean principal quantum number n̄); find the best single Δχ threshold and Fisher's linear discriminant on both, and their accuracy against always guessing the larger class. Aha: the structure is predictable from two atomic numbers: covalent bonds between light atoms (small Δχ, small n̄) are directional sp³ bonds pointing to four neighbours, the open tetrahedral network that gives a band gap with mobile carriers; ionic bonds (large Δχ) are not directional and pack six neighbours. One number already does most of the work: Δχ below about 1.3 predicts four neighbours for 87% of the compounds (against 52% for always guessing the larger class), and adding n̄ (Fisher's line) gets 91%. ZnO and BeO stay tetrahedral at quite large Δχ because their atoms are small, MgO and CdO go rock salt. Caveats: Pauling's Δχ is a crude ionicity (Phillips' spectroscopic ionicity from optical data separates the two classes completely at 0.785, but needs dielectric constants not fetched here); ground states are PBE at zero temperature and pressure (energy differences of a few meV/atom can flip: PBE puts LiCl, LiBr and LiI in wurtzite, while they crystallise as rock salt, and those three are most of the line's misses); no IV-IV compound (SiC) is in the ground-state set with these cell sizes; compounds with larger cells are left out; the discriminant is fitted and judged on the same compounds. Next: drill into the misclassified compounds (scored table), expand to Phillips ionicity with dielectric data, or to how pressure turns tetrahedral semiconductors into rock salt.",
+  "graphs": [
+    ["graph/id", "d66959c3-ba01-5a89-8b55-e0e35ff1d0cf"],
+    ["graph/id", "ac126319-e20c-5d8e-9797-57dee16f3c1f"]
+  ],
+  "grids": [],
+  "name": "Why semiconductors are tetrahedral: the Mooser–Pearson map",
+  "ontology": {
+    "$file": ".seebra/dashboard/8fcb6797-595d-5257-b625-33c95cbf8d1c.ontology.json",
+    "$json": true
+  },
+  "queries": [
+    ["query/id", "8f40f19a-619b-519b-ba7e-c17ff97b96e2"],
+    ["query/id", "1f8f65f2-2342-57a3-9a61-816046f8a7ef"]
+  ],
+  "studies": [],
+  "tables": [],
+  "texts": [],
+  "timers": [],
+  "transformations": [
+    ["transformation/id", "2577b2e2-a47f-5d5f-9a33-9acd18465f6c"],
+    ["transformation/id", "feae3ab7-ff99-59f3-902b-ce3842bb9fed"],
+    ["transformation/id", "7cee0eac-adf7-5b9f-890c-55840f2b984f"],
+    ["transformation/id", "92ac5b81-2b8c-5487-b431-18971377a053"],
+    ["transformation/id", "584b8786-a76d-5c19-b956-830e2bcb7454"],
+    ["transformation/id", "8d7619f6-b57e-516b-97c7-da6afe831c19"],
+    ["transformation/id", "5fc40053-91af-5298-8e2f-73e26214e97d"]
+  ]
+}

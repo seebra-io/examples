@@ -1,0 +1,16 @@
+{
+  "graph/content": {
+    "$file": "graphs/hr-diagram-with-lines-of-equal-radius.js"
+  },
+  "graph/id": "9646af98-1d0b-516a-8453-e58eb9a82145",
+  "graph/inputs": [
+    ["data/id", "d62644c7-eada-5c9a-bce5-7396fc45fe8a"]
+  ],
+  "graph/language": "javascript",
+  "graph/name": "HR diagram with lines of equal radius",
+  "graph/node": {
+    "node/x": 1460,
+    "node/y": 800
+  },
+  "graph/parent": ["data/id", "4ef98efb-15e1-5afd-8f12-cc032664e04b"]
+}

@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "ec9127e2-4c89-5a2f-9230-d0c0dab302b4"],
+  "query/datasource": ["datasource/id", "a577b43b-d00b-5b2a-87a4-9b9acd021ea0"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "8f40f19a-619b-519b-ba7e-c17ff97b96e2",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Stable binary compounds AB with 2 or 4 atoms per cell",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 80
+  },
+  "query/params": "{\"filter\":\"_alexandria_hull_distance=0 AND nelements=2 AND (nsites=2 OR nsites=4) AND elements HAS ANY \\\"Li\\\",\\\"Na\\\",\\\"K\\\",\\\"Rb\\\",\\\"Cs\\\",\\\"Cu\\\",\\\"Ag\\\",\\\"Be\\\",\\\"Mg\\\",\\\"Ca\\\",\\\"Sr\\\",\\\"Ba\\\",\\\"Zn\\\",\\\"Cd\\\",\\\"Hg\\\",\\\"B\\\",\\\"Al\\\",\\\"Ga\\\",\\\"In\\\",\\\"Tl\\\",\\\"C\\\",\\\"Si\\\",\\\"Ge\\\",\\\"Sn\\\",\\\"Pb\\\" AND elements HAS ANY \\\"N\\\",\\\"P\\\",\\\"As\\\",\\\"Sb\\\",\\\"O\\\",\\\"S\\\",\\\"Se\\\",\\\"Te\\\",\\\"F\\\",\\\"Cl\\\",\\\"Br\\\",\\\"I\\\",\\\"C\\\",\\\"Si\\\",\\\"Ge\\\",\\\"Sn\\\"\",\"page_limit\":\"500\",\"response_fields\":\"chemical_formula_reduced,elements,elements_ratios,nsites,_alexandria_space_group,_alexandria_band_gap\"}",
+  "query/path": "/structures",
+  "query/request-body": "",
+  "query/units": "{}"
+}

@@ -1,0 +1,10 @@
+{
+  "data/id": "94898b48-0eb3-56c6-95e4-8e4243dee3b2",
+  "data/name": "Map on 31 December 2025 (snapshot 1767200597) data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 320
+  },
+  "data/parent": ["query/id", "28243151-21a8-594d-a7b1-61d486087eeb"],
+  "data/type": "json"
+}

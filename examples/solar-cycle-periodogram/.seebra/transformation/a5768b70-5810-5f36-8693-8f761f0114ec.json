@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/cycles-start-length-peak-rise-time.polars.py"
+  },
+  "transformation/data-child": ["data/id", "48d561f1-7859-5974-9f55-685cccb5e760"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "a5768b70-5810-5f36-8693-8f761f0114ec",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Cycles: start, length, peak, rise time",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1920,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "7d659727-dc39-5206-9933-15870224716a"],
+  "transformation/units": "{}"
+}

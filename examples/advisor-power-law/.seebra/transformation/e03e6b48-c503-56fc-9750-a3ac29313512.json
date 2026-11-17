@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/power-law-against-exponential-log-likelihood.polars.py"
+  },
+  "transformation/data-child": ["data/id", "30a5bc9d-51e3-5d9b-b54b-4b91a1051198"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "e03e6b48-c503-56fc-9750-a3ac29313512",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Power law against exponential: log-likelihood ratio and Vuong's test",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 2380,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "f87531b5-393e-5ef2-869c-4e916255440a"],
+  "transformation/units": "{}"
+}

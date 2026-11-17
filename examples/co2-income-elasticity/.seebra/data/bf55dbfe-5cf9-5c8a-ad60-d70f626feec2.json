@@ -1,0 +1,10 @@
+{
+  "data/id": "bf55dbfe-5cf9-5c8a-ad60-d70f626feec2",
+  "data/name": "Countries: CO₂ and GDP per person data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "cc2ab9d9-8fe7-5a07-9566-72fee86ac720"],
+  "data/type": "json"
+}

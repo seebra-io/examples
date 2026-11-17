@@ -1,0 +1,11 @@
+{
+  "data/id": "18dab360-d21c-5b00-a7a6-72d47671b538",
+  "data/name": "Waiting containers",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 800
+  },
+  "data/parent": ["transformation/id", "d5478c4d-0ad1-5b10-ba2c-e7abddea8859"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

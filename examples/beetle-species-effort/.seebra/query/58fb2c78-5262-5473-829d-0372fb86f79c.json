@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "38f420b8-3ab8-5c54-8efa-2c97e99ca15c"],
+  "query/datasource": ["datasource/id", "39f16f7e-4b45-59b9-8571-88f2f36f894e"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "58fb2c78-5262-5473-829d-0372fb86f79c",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Beetle records per species, Skåne 2024",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 80
+  },
+  "query/params": "{\"country\":\"SE\",\"orderKey\":\"1470\",\"year\":\"2024\",\"stateProvince\":\"Skåne\",\"limit\":\"0\",\"facet\":\"speciesKey\",\"facetLimit\":\"3000\"}",
+  "query/path": "/occurrence/search",
+  "query/request-body": "",
+  "query/units": "{}"
+}

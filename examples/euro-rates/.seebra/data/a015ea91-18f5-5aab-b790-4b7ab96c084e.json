@@ -1,0 +1,10 @@
+{
+  "data/id": "a015ea91-18f5-5aab-b790-4b7ab96c084e",
+  "data/name": "Volatility per month (annualised) data",
+  "data/node": {
+    "node/x": 2530,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "74715c4c-7d14-5518-965e-293a77bdc6c6"],
+  "data/type": "json"
+}

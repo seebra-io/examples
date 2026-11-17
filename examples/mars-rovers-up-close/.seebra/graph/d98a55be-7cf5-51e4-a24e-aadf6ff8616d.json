@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/where-the-watts-go.js"
+  },
+  "graph/id": "d98a55be-7cf5-51e4-a24e-aadf6ff8616d",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Where the watts go",
+  "graph/node": {
+    "node/x": 1460,
+    "node/y": 560
+  },
+  "graph/parent": ["data/id", "5533be3a-66fa-5b62-9447-90ae124c7772"]
+}

@@ -1,0 +1,10 @@
+{
+  "data/id": "b89750ba-0835-55db-92a2-0877dd6ecfa0",
+  "data/name": "A2A with adenosine, 2YDO (PDB) data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 320
+  },
+  "data/parent": ["query/id", "fd916d84-133b-5290-bfb2-aca31d23fc5d"],
+  "data/type": "json"
+}

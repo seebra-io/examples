@@ -1,0 +1,10 @@
+{
+  "data/id": "41aed811-0731-5faa-91bf-c7a8e7860dd0",
+  "data/name": "M4.5+ past week data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 80
+  },
+  "data/parent": ["query/id", "9d02ce80-cc3c-5266-8fab-29033f68b119"],
+  "data/type": "json"
+}

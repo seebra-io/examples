@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/holidays.polars.py"
+  },
+  "transformation/data-child": ["data/id", "2d3603c9-91b8-5ec5-b3e1-5205214d8946"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "06a72bfb-a59f-5f35-a3f1-22a802e5271d",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Holidays",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "1037c617-4ec1-5c06-a426-cd7201ed7d31"],
+  "transformation/units": "{}"
+}

@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/warning-events.polars.py"
+  },
+  "transformation/data-child": ["data/id", "4088937f-dd58-5f0f-8639-b08d2809fc12"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "a79e3a45-d9fe-54d2-b05d-f5d7b395541f",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Warning events",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "3ee983b9-f573-57b2-b250-6bb4085907c4"],
+  "transformation/units": "{}"
+}

@@ -1,0 +1,11 @@
+{
+  "data/id": "4f13634b-86d6-5051-ba6e-7f6c2fee5c01",
+  "data/name": "Layers",
+  "data/node": {
+    "node/x": 2070,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "38867b9b-0fd6-51a9-9d34-926c7172933f"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

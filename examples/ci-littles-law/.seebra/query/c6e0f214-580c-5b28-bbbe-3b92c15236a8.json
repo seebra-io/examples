@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "490fceb1-661f-583b-bbce-e7f4eb7c3811"],
+  "query/datasource": ["datasource/id", "808fba52-acf3-556e-8876-1713dc0206fa"],
+  "query/dynamic?": false,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "c6e0f214-580c-5b28-bbbe-3b92c15236a8",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "NumPy workflow runs, 10 Nov 2026, page 3",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 560
+  },
+  "query/params": "{\"per_page\":\"100\",\"created\":\"2026-11-10\",\"page\":\"3\"}",
+  "query/path": "/repos/numpy/numpy/actions/runs",
+  "query/request-body": "",
+  "query/units": "{}"
+}

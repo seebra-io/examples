@@ -1,0 +1,10 @@
+{
+  "data/id": "c8516f8d-83e7-5986-9095-cbca16e6c110",
+  "data/name": "Covers data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "74cee61f-0ec8-5989-a9df-40a7b4a96baa"],
+  "data/type": "json"
+}

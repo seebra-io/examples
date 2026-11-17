@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/when-each-species-is-recorded-share-of-its.js"
+  },
+  "graph/id": "b2fb6807-d4a1-5d2f-9406-d64ddeb37b51",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "When each species is recorded (share of its Swedish records per month)",
+  "graph/node": {
+    "node/x": 2380,
+    "node/y": 320
+  },
+  "graph/parent": ["data/id", "fbeb5f1a-bd7a-5672-aa00-c767540b1553"]
+}

@@ -1,0 +1,8 @@
+{
+  "file": {
+    "file/example": "codon-usage-ecoli"
+  },
+  "format": 2,
+  "root": ["dashboard/id", "d0893940-699d-54b9-aebd-efca4ba0847a"],
+  "seebra": "board"
+}

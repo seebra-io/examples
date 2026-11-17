@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "ec1ebdcf-fde3-54bb-b106-cf903a4a2b40"],
+  "query/datasource": ["datasource/id", "d5a9dede-364d-5eda-bab7-e7b894198d30"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "3902bf4a-9676-5f59-8ba2-3b74c6153547",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "COD entries for InP (measured)",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 1280
+  },
+  "query/params": "{\"format\":\"json\",\"formula\":\"In P\"}",
+  "query/path": "/result",
+  "query/request-body": "",
+  "query/units": "{}"
+}

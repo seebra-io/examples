@@ -1,0 +1,10 @@
+{
+  "data/id": "281bc1ba-e03b-5809-bb13-93146219812c",
+  "data/name": "GDP per person (PPP) 1990–2024, six countries data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 1280
+  },
+  "data/parent": ["query/id", "b1ed26cd-87ec-5f16-83e1-f9e61ab8d185"],
+  "data/type": "json"
+}

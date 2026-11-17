@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "2ffed433-54bb-56e6-ae93-17a1fa8406ab"],
+  "query/datasource": ["datasource/id", "941a7653-9d09-5bc1-ab33-9c43d3f31894"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "a5b97cf4-3797-5b57-9745-139640e1bf7f",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Paintings",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 80
+  },
+  "query/params": "{\"has_image\":\"1\",\"cc0\":\"1\",\"type\":\"Painting\",\"limit\":\"24\",\"skip\":\"120\"}",
+  "query/path": "/artworks/",
+  "query/request-body": "",
+  "query/units": "{}"
+}

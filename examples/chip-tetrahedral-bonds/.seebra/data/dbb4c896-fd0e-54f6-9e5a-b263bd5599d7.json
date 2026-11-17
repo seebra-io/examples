@@ -1,0 +1,10 @@
+{
+  "data/id": "dbb4c896-fd0e-54f6-9e5a-b263bd5599d7",
+  "data/name": "Fisher's linear discriminant on (Δχ, n̄): the Mooser–Pearson line data",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "92ac5b81-2b8c-5487-b431-18971377a053"],
+  "data/type": "json"
+}

@@ -1,0 +1,21 @@
+{
+  "transformation/content": {
+    "$file": "transforms/1ema-residues-and-secondary-structure.polars.py"
+  },
+  "transformation/data-child": ["data/id", "95fbd060-5e78-5934-a1f9-56d9ec144c0c"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "0c6e0ed6-d9d4-5a94-817f-5ab53fbd1e69",
+  "transformation/inputs": [
+    ["data/id", "fbce1980-40e6-57b3-a562-55bf5f29c550"]
+  ],
+  "transformation/language": "polars",
+  "transformation/name": "1EMA residues: φ, ψ and secondary structure",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 800
+  },
+  "transformation/parent": ["data/id", "51c7b81c-b8ad-5184-811c-61006ace2727"],
+  "transformation/units": "{}"
+}

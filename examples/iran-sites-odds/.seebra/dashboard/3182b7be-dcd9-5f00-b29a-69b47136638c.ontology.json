@@ -1,0 +1,300 @@
+{
+  "title": "The Iran conflict: sites, airspace, outcomes and diplomacy",
+  "summary": "Iran's nuclear programme and the conflict with Israel and the United States: facilities with known locations, seismic and airspace signals that can be watched openly, outcomes priced by deadline, and diplomacy in the news.",
+  "concepts": [
+    {
+      "cid": "i1",
+      "label": "Party",
+      "kind": "entity",
+      "description": "A state in the conflict.",
+      "fields": [],
+      "in_data": false,
+      "children": [
+        {
+          "cid": "i1a",
+          "label": "Iran",
+          "kind": "entity",
+          "as": "subtype",
+          "wikidata": "Q794",
+          "fields": [],
+          "in_data": false
+        },
+        {
+          "cid": "i1b",
+          "label": "Israel",
+          "kind": "entity",
+          "as": "subtype",
+          "wikidata": "Q801",
+          "fields": [],
+          "in_data": false
+        },
+        {
+          "cid": "i1c",
+          "label": "United States",
+          "kind": "entity",
+          "as": "subtype",
+          "wikidata": "Q30",
+          "fields": [],
+          "in_data": false
+        }
+      ]
+    },
+    {
+      "cid": "i2",
+      "label": "Site",
+      "kind": "place",
+      "description": "A place the dashboard follows, located from its Wikipedia article.",
+      "fields": [
+        "name",
+        "kind",
+        "lat",
+        "lon",
+        "url"
+      ],
+      "in_data": true,
+      "children": [
+        {
+          "cid": "i2a",
+          "label": "Nuclear site (enrichment, reactor, power)",
+          "kind": "place",
+          "as": "subtype",
+          "fields": [
+            "kind"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "i2b",
+          "label": "Military site",
+          "kind": "place",
+          "as": "subtype",
+          "fields": [
+            "kind"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "i2c",
+          "label": "Energy and shipping (Kharg, Bandar Abbas, Hormuz)",
+          "kind": "place",
+          "as": "subtype",
+          "fields": [
+            "kind"
+          ],
+          "in_data": true
+        }
+      ]
+    },
+    {
+      "cid": "i3",
+      "label": "Seismic event",
+      "kind": "event",
+      "description": "A located ground motion (USGS), with its distance to the nearest site.",
+      "fields": [
+        "time",
+        "mag",
+        "depth_km",
+        "type",
+        "nearest_site",
+        "km_to_site"
+      ],
+      "in_data": true,
+      "facts": [
+        {
+          "text": "Explosions are shallow and lack the shear signature of earthquakes; telling them apart needs waveform analysis, not a catalogue's location.",
+          "source": "https://www.usgs.gov/programs/earthquake-hazards/science/nuclear-explosion-monitoring"
+        }
+      ]
+    },
+    {
+      "cid": "i4",
+      "label": "Airspace activity",
+      "kind": "measure",
+      "description": "Aircraft in view now (adsb.lol, ADS-B) within 250 nm of three points; the count over Iran against the Gulf's.",
+      "fields": [
+        "zone",
+        "aircraft",
+        "callsign",
+        "type",
+        "altitude_ft",
+        "speed_kt"
+      ],
+      "in_data": true
+    },
+    {
+      "cid": "i5",
+      "label": "Outcome by deadline",
+      "kind": "event",
+      "description": "A yes/no outcome with a date: does X happen by (or does Y last through) the deadline? Each prediction market prices one deadline; a series of them is the outcome's probability over time, a cumulative distribution for 'by' and a survival curve for 'through'.",
+      "fields": [
+        "event",
+        "question",
+        "deadline",
+        "topic",
+        "shape"
+      ],
+      "in_data": true,
+      "facts": [
+        {
+          "text": "For 'X by d', P(by d1) <= P(by d2) whenever d1 < d2: a later deadline can only add ways to happen. A series that breaks this is mispriced or thin.",
+          "source": "https://en.wikipedia.org/wiki/Cumulative_distribution_function"
+        },
+        {
+          "text": "Market prices approximate probabilities only roughly: fees, the cost of locking up money until resolution, risk preferences and thin trading bias them, most at very low and very high prices.",
+          "source": "https://doi.org/10.1257/0895330041371321"
+        },
+        {
+          "text": "A market resolves by its own written rules (what counts as a ceasefire, which source decides); read them before reading the price.",
+          "source": "https://docs.polymarket.com/"
+        }
+      ],
+      "children": [
+        {
+          "cid": "i5a",
+          "label": "Market probability",
+          "kind": "measure",
+          "as": "property",
+          "description": "The price of Yes (0 to 1), with the bid-ask spread and the money traded behind it.",
+          "fields": [
+            "yes",
+            "bid",
+            "ask",
+            "spread",
+            "volume_usd",
+            "liquidity_usd",
+            "consistent"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "i5b",
+          "label": "Deadline",
+          "kind": "time",
+          "as": "property",
+          "description": "When the market resolves; its month and year are the 'before month-year X'.",
+          "fields": [
+            "deadline"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "i5t0",
+          "label": "Ceasefire",
+          "kind": "category",
+          "as": "subtype",
+          "description": "A ceasefire beginning, or one lasting through a date (a survival curve).",
+          "fields": [
+            "topic"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "i5t1",
+          "label": "Peace deal / nuclear deal",
+          "kind": "category",
+          "as": "subtype",
+          "description": "An agreement, including on enrichment and the uranium stockpile.",
+          "fields": [
+            "topic"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "i5t2",
+          "label": "Nuclear",
+          "kind": "category",
+          "as": "subtype",
+          "description": "Enrichment, stockpile, a test.",
+          "fields": [
+            "topic"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "i5t3",
+          "label": "Escalation",
+          "kind": "category",
+          "as": "subtype",
+          "description": "Strikes, invasion, a declaration of war, airspace closure, a blockade.",
+          "fields": [
+            "topic"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "i5t4",
+          "label": "Leadership",
+          "kind": "category",
+          "as": "subtype",
+          "description": "A change of Supreme Leader or regime.",
+          "fields": [
+            "topic"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "i5t5",
+          "label": "Shipping & energy",
+          "kind": "category",
+          "as": "subtype",
+          "description": "The Strait of Hormuz, oil prices, Kharg Island.",
+          "fields": [
+            "topic"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "i5m",
+          "label": "Play-money forecast",
+          "kind": "source",
+          "as": "part",
+          "description": "Manifold's markets: play money, more questions, fewer traders; a second opinion beside the priced ones.",
+          "fields": [
+            "question",
+            "yes",
+            "closes",
+            "traders"
+          ],
+          "in_data": true
+        }
+      ]
+    },
+    {
+      "cid": "i6",
+      "label": "Diplomatic development",
+      "kind": "event",
+      "description": "Talks, meetings, ceasefire proposals, sanctions and UN action, as reported by UN News and indexed by GDELT.",
+      "fields": [
+        "date",
+        "title",
+        "source",
+        "url"
+      ],
+      "in_data": true,
+      "children": [
+        {
+          "cid": "i6a",
+          "label": "UN News",
+          "kind": "source",
+          "as": "part",
+          "description": "The UN's own news service (regional feed).",
+          "fields": [
+            "source"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "i6b",
+          "label": "GDELT",
+          "kind": "source",
+          "as": "part",
+          "description": "Machine-indexed world news coverage (English here); one request every 5 seconds per address.",
+          "fields": [
+            "source"
+          ],
+          "in_data": true
+        }
+      ]
+    }
+  ]
+}

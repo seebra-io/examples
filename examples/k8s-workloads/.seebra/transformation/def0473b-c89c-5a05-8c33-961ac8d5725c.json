@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/last-termination-of-restarted-containers.polars.py"
+  },
+  "transformation/data-child": ["data/id", "69a09935-8836-5e3f-8250-1c46bb59a70c"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "def0473b-c89c-5a05-8c33-961ac8d5725c",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Last termination of restarted containers",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 560
+  },
+  "transformation/parent": ["data/id", "cc28462e-4340-501f-ab09-c805866ab728"],
+  "transformation/units": "{}"
+}

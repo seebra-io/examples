@@ -1,0 +1,10 @@
+{
+  "data/id": "3ee983b9-f573-57b2-b250-6bb4085907c4",
+  "data/name": "Warning events (all namespaces) data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 80
+  },
+  "data/parent": ["query/id", "bd35aec2-0c43-5207-af38-998433b2157e"],
+  "data/type": "json"
+}

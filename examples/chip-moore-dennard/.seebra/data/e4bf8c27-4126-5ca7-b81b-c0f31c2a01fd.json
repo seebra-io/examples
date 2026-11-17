@@ -1,0 +1,10 @@
+{
+  "data/id": "e4bf8c27-4126-5ca7-b81b-c0f31c2a01fd",
+  "data/name": "single-thread performance (SpecINT × 10³), per processor (50yrs/specint.dat) data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 800
+  },
+  "data/parent": ["query/id", "cf2d4ae8-ecfb-51c2-a174-7bade9b79ffc"],
+  "data/type": "json"
+}

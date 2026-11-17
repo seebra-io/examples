@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "053b7fc6-2246-5668-bf09-7201d7f37737"],
+  "query/datasource": ["datasource/id", "6c08161c-1a0a-5236-85b5-183eaafcf902"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "13d988c9-44af-5219-b336-c89f08edd3ca",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "COD entries with formula Ge",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 320
+  },
+  "query/params": "{\"format\":\"json\",\"formula\":\"Ge\"}",
+  "query/path": "/result",
+  "query/request-body": "",
+  "query/units": "{}"
+}

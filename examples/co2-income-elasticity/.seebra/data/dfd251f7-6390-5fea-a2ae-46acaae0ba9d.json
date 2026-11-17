@@ -1,0 +1,10 @@
+{
+  "data/id": "dfd251f7-6390-5fea-a2ae-46acaae0ba9d",
+  "data/name": "GDP per person (PPP), latest data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 320
+  },
+  "data/parent": ["query/id", "7daaf3a6-cdef-5d09-82b6-8e02352a0519"],
+  "data/type": "json"
+}

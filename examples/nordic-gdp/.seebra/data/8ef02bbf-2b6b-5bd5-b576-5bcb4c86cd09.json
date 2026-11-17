@@ -1,0 +1,10 @@
+{
+  "data/id": "8ef02bbf-2b6b-5bd5-b576-5bcb4c86cd09",
+  "data/name": "PCA: each year on the components data",
+  "data/node": {
+    "node/x": 2530,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "45eb6998-c498-5cba-9095-ae66054e080c"],
+  "data/type": "json"
+}

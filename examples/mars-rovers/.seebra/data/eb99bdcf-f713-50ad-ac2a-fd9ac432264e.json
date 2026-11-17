@@ -1,0 +1,10 @@
+{
+  "data/id": "eb99bdcf-f713-50ad-ac2a-fd9ac432264e",
+  "data/name": "Perseverance data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 80
+  },
+  "data/parent": ["query/id", "fed2ad4c-4d72-5689-8443-620617b206b7"],
+  "data/type": "json"
+}

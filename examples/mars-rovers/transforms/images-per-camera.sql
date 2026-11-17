@@ -1,0 +1,1 @@
+SELECT camera, count(*) AS images, min(sol) AS first_sol, max(sol) AS latest_sol, count(DISTINCT sol) AS sols_with_images FROM data GROUP BY camera ORDER BY images DESC

@@ -1,0 +1,10 @@
+{
+  "data/id": "fbeb5f1a-bd7a-5672-aa00-c767540b1553",
+  "data/name": "Share of each species' records per month, against all fungi data",
+  "data/node": {
+    "node/x": 2070,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "b7de0f30-0be4-59e9-afbb-c298636a27e6"],
+  "data/type": "json"
+}

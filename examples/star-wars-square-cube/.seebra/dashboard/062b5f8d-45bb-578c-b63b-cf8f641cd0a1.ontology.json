@@ -1,0 +1,192 @@
+{
+  "title": "Bodies, species, worlds and ships in the Star Wars films",
+  "summary": "Characters belong to a species and come from a homeworld; their height and mass are tested against scaling laws (square-cube, Quetelet). Starships get the same scaling test. All values are fan-recorded from Lucasfilm's films.",
+  "concepts": [
+    {
+      "cid": "c1",
+      "label": "Character",
+      "kind": "entity",
+      "description": "A named person, alien or droid in the six films (SWAPI people).",
+      "fields": [
+        "name",
+        "group",
+        "films_n"
+      ],
+      "in_data": true,
+      "children": [
+        {
+          "cid": "c2",
+          "label": "Height",
+          "kind": "measure",
+          "as": "property",
+          "description": "cm, fan-recorded.",
+          "fields": [
+            "height_cm",
+            "log_h"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c3",
+          "label": "Mass",
+          "kind": "measure",
+          "as": "property",
+          "description": "kg, fan-recorded; unknown for 23 of 82.",
+          "fields": [
+            "mass_kg",
+            "log_m"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c4",
+          "label": "Body-mass index",
+          "kind": "measure",
+          "as": "property",
+          "description": "mass / height² (kg/m²), Quetelet's index; assumes mass ∝ height².",
+          "fields": [
+            "bmi"
+          ],
+          "in_data": true,
+          "wikidata": "Q131190"
+        },
+        {
+          "cid": "c5",
+          "label": "Mass for height",
+          "kind": "measure",
+          "as": "property",
+          "description": "Mass over the mass the fitted law predicts for that height.",
+          "fields": [
+            "heavier_by",
+            "expected_kg",
+            "log_resid"
+          ],
+          "in_data": true
+        }
+      ]
+    },
+    {
+      "cid": "c6",
+      "label": "Species",
+      "kind": "category",
+      "description": "SWAPI species record: classification, average height and lifespan. Empty for most humans.",
+      "fields": [
+        "species",
+        "classification",
+        "species_avg_height"
+      ],
+      "in_data": true,
+      "children": [
+        {
+          "cid": "c7",
+          "label": "Droid",
+          "kind": "category",
+          "as": "subtype",
+          "description": "Machines: C-3PO, R2-D2, IG-88 ...",
+          "fields": [
+            "group"
+          ],
+          "in_data": true
+        }
+      ]
+    },
+    {
+      "cid": "c8",
+      "label": "Scaling law",
+      "kind": "event",
+      "description": "log mass = a + b log height; b = 3 for a scaled body (square-cube law), b = 2 for adult humans (Quetelet).",
+      "fields": [
+        "slope",
+        "se",
+        "t_vs_bmi_2",
+        "t_vs_cube_3"
+      ],
+      "in_data": true,
+      "facts": [
+        {
+          "text": "Galileo stated the square-cube law in Two New Sciences (1638): a giant scaled from a man would break its bones.",
+          "source": "https://en.wikipedia.org/wiki/Square%E2%80%93cube_law"
+        },
+        {
+          "text": "Adolphe Quetelet proposed mass/height² in 1832; Ancel Keys named it the body mass index in 1972.",
+          "source": "https://en.wikipedia.org/wiki/Body_mass_index"
+        }
+      ],
+      "children": [
+        {
+          "cid": "c9",
+          "label": "Allometry",
+          "kind": "event",
+          "as": "subtype",
+          "description": "How body proportions change with size in real animals (mass ∝ length^~3 within a species' shape).",
+          "fields": [],
+          "in_data": false,
+          "wikidata": "Q1145479"
+        }
+      ]
+    },
+    {
+      "cid": "c10",
+      "label": "Planet",
+      "kind": "place",
+      "description": "Homeworld: population, diameter, climate, gravity, surface water.",
+      "fields": [
+        "homeworld_name",
+        "climate",
+        "gravity_g",
+        "population",
+        "diameter_km"
+      ],
+      "in_data": true
+    },
+    {
+      "cid": "c11",
+      "label": "Starship",
+      "kind": "entity",
+      "description": "Cost (credits), length (m), crew, hyperdrive class, MGLT.",
+      "fields": [
+        "cost",
+        "length_m",
+        "crew_n",
+        "hyperdrive",
+        "mglt"
+      ],
+      "in_data": true
+    },
+    {
+      "cid": "c12",
+      "label": "Film",
+      "kind": "time",
+      "description": "Episodes I–VI, released 1977–2005.",
+      "fields": [
+        "title",
+        "episode",
+        "release_date"
+      ],
+      "in_data": true
+    },
+    {
+      "cid": "c13",
+      "label": "Fan-made catalogue",
+      "kind": "source",
+      "description": "SWAPI: fans' transcription of Lucasfilm's films; estimates, gaps ('unknown') and no sequels.",
+      "fields": [
+        "wiki"
+      ],
+      "in_data": true,
+      "children": [
+        {
+          "cid": "c14",
+          "label": "Wookieepedia",
+          "kind": "source",
+          "as": "part",
+          "description": "The fan encyclopedia each mark links to, with sources per fact.",
+          "fields": [
+            "wiki"
+          ],
+          "in_data": true
+        }
+      ]
+    }
+  ]
+}

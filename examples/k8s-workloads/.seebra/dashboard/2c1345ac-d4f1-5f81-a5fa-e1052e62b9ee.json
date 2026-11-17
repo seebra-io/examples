@@ -1,0 +1,40 @@
+{
+  "dashboard/id": "2c1345ac-d4f1-5f81-a5fa-e1052e62b9ee",
+  "datas": [
+    ["data/id", "cc28462e-4340-501f-ab09-c805866ab728"],
+    ["data/id", "ae5678d9-9807-50ac-b064-15e95b85598d"],
+    ["data/id", "76a1b628-bd79-5b25-902f-a131e68bdad9"],
+    ["data/id", "23913e3d-bc88-520c-aa02-99af9e9daaad"],
+    ["data/id", "9ce5f2c8-f782-5282-b0f8-0c697ee58ad6"],
+    ["data/id", "3914b04f-11a5-5421-9306-5c82ab0793b2"],
+    ["data/id", "69a09935-8836-5e3f-8250-1c46bb59a70c"],
+    ["data/id", "18dab360-d21c-5b00-a7a6-72d47671b538"]
+  ],
+  "datasources": [
+    ["datasource/id", "1f948c45-eab5-563a-b53f-233cc46d8572"]
+  ],
+  "description": "Your cluster's pods (up to 500, the API's first page): how many per namespace and phase, which containers restart most and why, and which are waiting (CrashLoopBackOff, ImagePullBackOff). Statistics: restart counts are a heavy tail. Most containers never restart and a few account for most restarts, so the mean says little; the second graph shows the share of containers that restarted at least k times on log-log axes, against a geometric (thin-tailed) count with the same mean. Hover a bar for the owner, node, last exit code and the kubectl command to read the previous logs; a bar links to Kubernetes' docs on that exit reason. Caveats: a restart count is since the pod started, so a recreated pod starts at 0 again. On a healthy cluster \"Waiting containers\" stops with \"field not found: waiting\" (no container is waiting) and \"Last termination\" with \"field not found: terminated\" (none has restarted): the runtime has no optional fields yet, so read those two errors as good news. Needs signing in and a connected cluster: the datasource is https://kubernetes.default.svc, the in-cluster address of the Kubernetes API, reached through your organization's own Seebra gateway running in that cluster (Settings → Organization), with a read-only service-account token kept in the gateway's Secret under the name k8s-token (sent as a bearer token). Signed out, or through Seebra's hosted gateway, no cluster can be reached, so this example shows errors there. The datasource shows \"key ?\" because the token lives on the gateway, not among your Seebra secrets. Setup, RBAC and the kubectl proxy route: docs, Use cases → Kubernetes.",
+  "graphs": [
+    ["graph/id", "23e56ae3-15fd-57b0-a9e6-095e303de5c9"],
+    ["graph/id", "08cba68d-d973-5708-bb0d-c453aa8bdc56"],
+    ["graph/id", "1b2ac22f-d356-5075-b6b2-2e5290519ce7"]
+  ],
+  "grids": [],
+  "name": "Kubernetes workload health",
+  "queries": [
+    ["query/id", "4061a99e-003c-5495-92a7-2683023b7ecc"]
+  ],
+  "studies": [],
+  "tables": [],
+  "texts": [],
+  "timers": [],
+  "transformations": [
+    ["transformation/id", "2488128b-f2e1-5fc1-bf11-dc3418a67ec2"],
+    ["transformation/id", "813d3ba8-e2f0-5f4d-8c52-78406fd19b89"],
+    ["transformation/id", "142d91ed-77c5-50b0-a0e9-959fa0bb1cf4"],
+    ["transformation/id", "c9cfdf91-d991-5853-8f73-3b77520ec416"],
+    ["transformation/id", "64b03281-d439-55da-8b99-98de8335fb50"],
+    ["transformation/id", "def0473b-c89c-5a05-8c33-961ac8d5725c"],
+    ["transformation/id", "d5478c4d-0ad1-5b10-ba2c-e7abddea8859"]
+  ]
+}

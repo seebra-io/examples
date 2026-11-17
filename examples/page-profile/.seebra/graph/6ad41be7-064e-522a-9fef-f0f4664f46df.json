@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/the-session-frames-scripts-fetches-and-moves.js"
+  },
+  "graph/id": "6ad41be7-064e-522a-9fef-f0f4664f46df",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "The session: frames, scripts, fetches and moves",
+  "graph/node": {
+    "node/x": 1460,
+    "node/y": 80
+  },
+  "graph/parent": ["data/id", "764e4999-6c2f-5eef-bbca-8eaaae1fc171"]
+}

@@ -1,0 +1,8 @@
+{
+  "file": {
+    "file/example": "stackoverflow-hot"
+  },
+  "format": 2,
+  "root": ["dashboard/id", "a1d34bf5-ccf9-59aa-9f1a-b3967b0320d1"],
+  "seebra": "board"
+}

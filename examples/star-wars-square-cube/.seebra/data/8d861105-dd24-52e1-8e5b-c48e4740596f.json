@@ -1,0 +1,10 @@
+{
+  "data/id": "8d861105-dd24-52e1-8e5b-c48e4740596f",
+  "data/name": "Per film: characters, and how many SWAPI can weigh data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 560
+  },
+  "data/parent": ["transformation/id", "934a0c4d-c210-55e8-b1f7-a01ff3e2d382"],
+  "data/type": "json"
+}

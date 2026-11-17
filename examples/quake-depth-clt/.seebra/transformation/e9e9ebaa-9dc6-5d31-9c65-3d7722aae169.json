@@ -1,0 +1,21 @@
+{
+  "transformation/content": {
+    "$file": "transforms/central-limit-theorem-spread-n-and-skewness-n.polars.py"
+  },
+  "transformation/data-child": ["data/id", "e8c83fb7-9bd9-5206-8094-b07ada9ca9e2"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "e9e9ebaa-9dc6-5d31-9c65-3d7722aae169",
+  "transformation/inputs": [
+    ["data/id", "27ef336b-56e4-5d1d-8c79-9756056c959f"]
+  ],
+  "transformation/language": "polars",
+  "transformation/name": "Central limit theorem: spread σ/√n and skewness γ/√n",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 2380,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "e1f53843-3caa-5700-8030-52219e521cf7"],
+  "transformation/units": "{}"
+}

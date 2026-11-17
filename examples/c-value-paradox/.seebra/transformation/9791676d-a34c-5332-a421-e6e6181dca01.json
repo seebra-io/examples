@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/fungi-size-and-genes.polars.py"
+  },
+  "transformation/data-child": ["data/id", "a2f0bf5a-752f-58ba-a244-44d3aca21fee"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "9791676d-a34c-5332-a421-e6e6181dca01",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Fungi: size and genes",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 560
+  },
+  "transformation/parent": ["data/id", "1f429c70-4299-5b1f-adc6-63ce1aa25b18"],
+  "transformation/units": "{}"
+}

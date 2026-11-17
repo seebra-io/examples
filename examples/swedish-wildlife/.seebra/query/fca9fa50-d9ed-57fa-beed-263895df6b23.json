@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "954b25dd-ef16-5e96-ac67-b497ee7534cf"],
+  "query/datasource": ["datasource/id", "b35cb9b7-98f7-5f8c-aa72-c390c971a140"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "fca9fa50-d9ed-57fa-beed-263895df6b23",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Sightings with photos",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 80
+  },
+  "query/params": "{\"country\":\"SE\",\"mediaType\":\"StillImage\",\"limit\":\"48\"}",
+  "query/path": "/occurrence/search",
+  "query/request-body": "",
+  "query/units": "{}"
+}

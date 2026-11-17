@@ -1,0 +1,16 @@
+{
+  "graph/content": {
+    "$file": "graphs/flood-peaks-the-top-of-the-curve-is-the-least.js"
+  },
+  "graph/id": "5e7ed8ee-05fa-5c2f-b26c-5cd949519424",
+  "graph/inputs": [
+    ["data/id", "247d8706-1010-5dd4-9427-893089707c83"]
+  ],
+  "graph/language": "javascript",
+  "graph/name": "Flood peaks: the top of the curve is the least measured",
+  "graph/node": {
+    "node/x": 1460,
+    "node/y": 1040
+  },
+  "graph/parent": ["data/id", "2285a219-60f2-5218-aea2-bc94c658438e"]
+}

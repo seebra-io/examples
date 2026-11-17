@@ -1,0 +1,10 @@
+{
+  "data/id": "8ecd34b3-db48-528e-8527-597418c8662f",
+  "data/name": "Fertiliser consumption (kg/ha of arable land), latest data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 80
+  },
+  "data/parent": ["query/id", "7eb9ccc7-faab-5d1e-a64c-06d26eab8a5d"],
+  "data/type": "json"
+}

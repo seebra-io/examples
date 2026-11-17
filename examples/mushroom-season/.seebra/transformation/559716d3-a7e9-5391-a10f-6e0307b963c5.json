@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/funnel-chanterelle-per-month.polars.py"
+  },
+  "transformation/data-child": ["data/id", "9472be3c-6c3e-5205-afda-af3501d891d0"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "559716d3-a7e9-5391-a10f-6e0307b963c5",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Funnel chanterelle per month",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 560
+  },
+  "transformation/parent": ["data/id", "5a1f9a0c-c76f-55ef-9853-4b7dfabd21c1"],
+  "transformation/units": "{}"
+}

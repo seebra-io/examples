@@ -1,0 +1,10 @@
+{
+  "data/id": "17f931df-dedf-53be-a0b6-7a393f55dd94",
+  "data/name": "Curiosity data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 320
+  },
+  "data/parent": ["query/id", "3a09f65a-5f65-5155-b1a4-d169a5c57d1d"],
+  "data/type": "json"
+}

@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/do-starships-scale-too-cost-against-length.polars.py"
+  },
+  "transformation/data-child": ["data/id", "39c5a5eb-db92-5210-b522-ab3f291b55dd"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "466ab519-8974-5b88-ac97-e7d7a3556e98",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Do starships scale too? Cost against length",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 800
+  },
+  "transformation/parent": ["data/id", "89eb4ed4-cb2f-5045-9f64-a0d54744874e"],
+  "transformation/units": "{}"
+}

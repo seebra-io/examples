@@ -1,0 +1,11 @@
+{
+  "data/id": "23ba4f46-7b88-5ee3-8c98-3468a8209b8a",
+  "data/name": "Coins",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "f5675091-6b1c-5109-9c5f-c346bdaeb6ea"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

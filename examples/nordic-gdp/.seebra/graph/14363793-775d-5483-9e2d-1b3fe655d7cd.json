@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/pca-loadings-who-moves-each-component.js"
+  },
+  "graph/id": "14363793-775d-5483-9e2d-1b3fe655d7cd",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "PCA loadings: who moves each component",
+  "graph/node": {
+    "node/x": 2840,
+    "node/y": 320
+  },
+  "graph/parent": ["data/id", "4d33d185-ee7a-5ad5-9113-ca2e819db0bd"]
+}

@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "f66fabdb-039b-51db-9d8f-4ef9fc458a24"],
+  "query/datasource": ["datasource/id", "45a37cc0-f072-5fb6-9225-f30399a8fc4d"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "1a27ee48-8622-5e71-a38a-f07d81e37dab",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Next 7 days",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 80
+  },
+  "query/params": "{\"api_key\":\"DEMO_KEY\"}",
+  "query/path": "/feed",
+  "query/request-body": "",
+  "query/units": "{}"
+}

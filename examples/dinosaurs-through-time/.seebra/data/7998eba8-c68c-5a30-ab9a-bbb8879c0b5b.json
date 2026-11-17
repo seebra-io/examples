@@ -1,0 +1,11 @@
+{
+  "data/id": "7998eba8-c68c-5a30-ab9a-bbb8879c0b5b",
+  "data/name": "Per stage: counts and Foote's rates (per Myr)",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "d3479721-2706-5d31-a3cc-b1c8c3ab207e"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

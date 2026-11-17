@@ -1,0 +1,10 @@
+{
+  "data/id": "9cefe24e-ebbd-52a7-974b-84ea362c1948",
+  "data/name": "transistors (thousands), per processor (50yrs/transistors.dat) data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 80
+  },
+  "data/parent": ["query/id", "dfb94953-013c-5ae5-af0c-5455c162e36c"],
+  "data/type": "json"
+}

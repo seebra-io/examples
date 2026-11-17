@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "ff4e4468-e701-5797-96c0-bdc52512b17f"],
+  "query/datasource": ["datasource/id", "f0a1c990-d04b-51bb-9160-eb2835f3c545"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "b8a1e97e-4b97-5a7f-baf0-96257c6219c5",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "News on talks, ceasefire and sanctions (14 days)",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 1520
+  },
+  "query/params": "{\"query\":\"(ukraine OR russia) (talks OR negotiations OR ceasefire OR summit OR sanctions OR peace) sourcelang:english\",\"mode\":\"artlist\",\"format\":\"json\",\"maxrecords\":\"75\",\"timespan\":\"14d\",\"sort\":\"datedesc\"}",
+  "query/path": "/doc",
+  "query/request-body": "",
+  "query/units": "{}"
+}

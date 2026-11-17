@@ -1,0 +1,119 @@
+{
+  "title": "Grid frequency control",
+  "summary": "The synchronous grid's frequency as the measure of its power balance, the control loops that hold it, and the trading schedule whose steps show up in it.",
+  "concepts": [
+    {
+      "cid": "c1",
+      "label": "Grid frequency",
+      "kind": "measure",
+      "description": "The rotation rate shared by every synchronous generator in Continental Europe, nominally 50 Hz.",
+      "fields": [
+        "f_hz",
+        "df_mhz"
+      ],
+      "in_data": true,
+      "wikidata": "Q1418790",
+      "facts": [
+        {
+          "text": "Energy-Charts publishes the frequency measured every second in Freiburg.",
+          "source": "https://api.energy-charts.info/"
+        }
+      ],
+      "children": [
+        {
+          "cid": "c2",
+          "label": "Frequency deviation",
+          "kind": "measure",
+          "as": "property",
+          "description": "Frequency minus 50 Hz in mHz: positive means more power fed in than used.",
+          "fields": [
+            "df_mhz",
+            "abs_df_mhz"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c3",
+          "label": "Rate of change of frequency",
+          "kind": "measure",
+          "as": "property",
+          "description": "df/dt in mHz/s (RoCoF): how fast the imbalance moves the frequency, set by the imbalance over the grid's inertia.",
+          "fields": [
+            "rocof_mhz_s"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c4",
+          "label": "Deterministic frequency deviation",
+          "kind": "event",
+          "as": "subtype",
+          "description": "The regular jump after each quarter-hour and hour, from stepwise generation schedules.",
+          "fields": [
+            "mean_df_mhz",
+            "diff_abs_df_mhz"
+          ],
+          "in_data": true
+        }
+      ]
+    },
+    {
+      "cid": "c5",
+      "label": "Frequency control",
+      "kind": "entity",
+      "description": "The cascade of controllers that holds the frequency near 50 Hz.",
+      "in_data": false,
+      "children": [
+        {
+          "cid": "c6",
+          "label": "Frequency containment reserve",
+          "kind": "measure",
+          "as": "part",
+          "description": "Primary control: a proportional (droop) response within seconds, 3000 MW across Continental Europe at ±200 mHz.",
+          "fields": [
+            "fcr_mw"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c7",
+          "label": "Automatic frequency restoration reserve",
+          "kind": "measure",
+          "as": "part",
+          "description": "Secondary control: an integral controller per control area that brings the frequency back to 50 Hz within minutes.",
+          "in_data": false
+        },
+        {
+          "cid": "c8",
+          "label": "Grid inertia",
+          "kind": "measure",
+          "as": "property",
+          "description": "The kinetic energy of rotating machines; it limits RoCoF after a sudden imbalance and shrinks as inverter-based generation grows.",
+          "in_data": false
+        }
+      ]
+    },
+    {
+      "cid": "c9",
+      "label": "Electricity market time unit",
+      "kind": "time",
+      "description": "The block in which power is traded and scheduled: 15 minutes in the European day-ahead market since October 2025.",
+      "fields": [
+        "sec_of_quarter",
+        "quarter_of_hour",
+        "window"
+      ],
+      "in_data": true,
+      "children": [
+        {
+          "cid": "c10",
+          "label": "Generation schedule",
+          "kind": "measure",
+          "as": "part",
+          "description": "Planned output per block; steps at block boundaries while demand changes smoothly.",
+          "in_data": false
+        }
+      ]
+    }
+  ]
+}

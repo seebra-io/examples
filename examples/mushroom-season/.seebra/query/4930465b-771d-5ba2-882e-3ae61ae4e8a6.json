@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "2f227567-943f-5ea8-a070-5291f7a296a2"],
+  "query/datasource": ["datasource/id", "0ad2947c-0e41-5bf4-bf2c-3dedb20e3b4e"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "4930465b-771d-5ba2-882e-3ae61ae4e8a6",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "False morel (Gyromitra esculenta): Swedish records per month, 2000–2025",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 1280
+  },
+  "query/params": "{\"taxonKey\":\"5258510\",\"country\":\"SE\",\"year\":\"2000,2025\",\"limit\":\"0\",\"facet\":\"month\",\"facetLimit\":\"12\"}",
+  "query/path": "/occurrence/search",
+  "query/request-body": "",
+  "query/units": "{}"
+}

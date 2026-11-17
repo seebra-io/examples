@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/hours-with-air-and-four-soil-layers.polars.py"
+  },
+  "transformation/data-child": ["data/id", "fb7ea09d-9973-57b3-b29d-a6f3f5c6cdb0"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "72570940-7230-591b-89f5-ee4a026d4eac",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Hours with air and four soil layers",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "34815029-a708-59e0-a488-4cefcb3a38be"],
+  "transformation/units": "{}"
+}

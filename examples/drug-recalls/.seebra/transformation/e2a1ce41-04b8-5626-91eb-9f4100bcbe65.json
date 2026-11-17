@@ -1,0 +1,21 @@
+{
+  "transformation/content": {
+    "$file": "transforms/a-rate-needs-an-exposure-recalls-per-1-000.polars.py"
+  },
+  "transformation/data-child": ["data/id", "97828803-16db-50bd-b6f4-43126cfb0caa"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "e2a1ce41-04b8-5626-91eb-9f4100bcbe65",
+  "transformation/inputs": [
+    ["data/id", "231f5f26-57f0-5a2d-a478-353ae17710f4"]
+  ],
+  "transformation/language": "polars",
+  "transformation/name": "A rate needs an exposure: recalls per 1,000 listed products",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "02f157fd-aec8-5faf-a725-5e22a55a7d28"],
+  "transformation/units": "{}"
+}

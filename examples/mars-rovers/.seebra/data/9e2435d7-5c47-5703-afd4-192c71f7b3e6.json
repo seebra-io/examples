@@ -1,0 +1,11 @@
+{
+  "data/id": "9e2435d7-5c47-5703-afd4-192c71f7b3e6",
+  "data/name": "Perseverance cameras",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 560
+  },
+  "data/parent": ["transformation/id", "8ce5203a-cc8b-5bbd-b3d5-6fa35b8af361"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

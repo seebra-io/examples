@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/cost-of-a-good-mm2-against-die-area.js"
+  },
+  "graph/id": "ccacf6f7-87b7-5b1e-9aca-b0be3dfb87e4",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Cost of a good mm² against die area",
+  "graph/node": {
+    "node/x": 1920,
+    "node/y": 560
+  },
+  "graph/parent": ["data/id", "81f6264b-ec5d-52a8-823d-eb992c6e6420"]
+}

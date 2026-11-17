@@ -1,0 +1,10 @@
+{
+  "data/id": "044b94c8-9d26-5b2d-b750-8616159953e7",
+  "data/name": "Runs as intervals (minutes since 00:00 UTC) data",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "68c1a357-9b0a-54a4-8256-54b964de1f92"],
+  "data/type": "json"
+}

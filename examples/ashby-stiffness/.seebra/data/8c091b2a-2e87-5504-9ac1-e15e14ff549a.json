@@ -1,0 +1,10 @@
+{
+  "data/id": "8c091b2a-2e87-5504-9ac1-e15e14ff549a",
+  "data/name": "Candidates per design (tie, beam, panel) data",
+  "data/node": {
+    "node/x": 2990,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "ed969871-d296-5687-b919-9d91c255fdd7"],
+  "data/type": "json"
+}

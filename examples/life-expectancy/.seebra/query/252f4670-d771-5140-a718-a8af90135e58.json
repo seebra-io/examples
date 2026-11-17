@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "7ba84a32-0bae-5874-a2ba-9cd2c2d92695"],
+  "query/datasource": ["datasource/id", "3a28b207-a223-562e-923d-494c4d43f64e"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "252f4670-d771-5140-a718-a8af90135e58",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "GDP per capita, latest",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 560
+  },
+  "query/params": "{\"format\":\"json\",\"mrnev\":\"1\",\"per_page\":\"400\"}",
+  "query/path": "/country/all/indicator/NY.GDP.PCAP.CD",
+  "query/request-body": "",
+  "query/units": "{}"
+}

@@ -1,0 +1,33 @@
+{
+  "dashboard/id": "84020ee8-a9ed-5a14-9e83-16a726dda7d7",
+  "datas": [
+    ["data/id", "88fd56f1-0235-5a70-9b9a-66dd0f076866"],
+    ["data/id", "cc0e11cf-5809-5f4c-ba08-a8db36c85a1d"],
+    ["data/id", "f0e649fe-d71f-5a1d-b082-8bcbd08f21fc"],
+    ["data/id", "bb71498f-516a-5ce2-a95e-402897f8aaa5"],
+    ["data/id", "f54b3bea-00c5-59f5-9464-985e5134522b"]
+  ],
+  "datasources": [
+    ["datasource/id", "608b52bf-dc39-526e-b0b8-a4f506937ee8"]
+  ],
+  "description": "Energy-Charts (Fraunhofer ISE, from ENTSO-E data) public net generation in Sweden today, every 15 minutes: nuclear, hydro, wind, solar and the rest stacked against the load, with net exports, and each source's mean and peak output. Statistics: correlation is not causation. The correlation matrix of the sources over today's quarter hours shows what moves together; hydro follows the load because operators steer it, while other pairs only share the clock. One day of quarter hours, each close to the last, is far less evidence than the count of rows suggests.",
+  "graphs": [
+    ["graph/id", "b5d4cd16-d41b-5d15-b560-8fb76a4a29ed"],
+    ["graph/id", "50581435-6573-5dd0-9ef1-5f1a14ebbe7e"]
+  ],
+  "grids": [],
+  "name": "Sweden's electricity today",
+  "queries": [
+    ["query/id", "0e30b9f3-1f4b-5e65-98ba-c8ad63de1917"]
+  ],
+  "studies": [],
+  "tables": [],
+  "texts": [],
+  "timers": [],
+  "transformations": [
+    ["transformation/id", "f825860c-8d48-5384-9088-493fcfc7ac04"],
+    ["transformation/id", "0b44f8bc-b2e1-565f-9e35-ac38b3a99473"],
+    ["transformation/id", "77c14bb6-5998-501e-a296-ea3ce878ee12"],
+    ["transformation/id", "e2d30656-bc00-5f86-819f-b49e760653d8"]
+  ]
+}

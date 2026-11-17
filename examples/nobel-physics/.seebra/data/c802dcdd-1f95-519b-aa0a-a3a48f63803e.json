@@ -1,0 +1,10 @@
+{
+  "data/id": "c802dcdd-1f95-519b-aa0a-a3a48f63803e",
+  "data/name": "Physics laureates data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 80
+  },
+  "data/parent": ["query/id", "a95130d8-8894-51d4-bef7-a151c4897fa5"],
+  "data/type": "json"
+}

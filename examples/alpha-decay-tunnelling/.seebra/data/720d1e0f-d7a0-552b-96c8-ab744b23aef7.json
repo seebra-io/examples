@@ -1,0 +1,10 @@
+{
+  "data/id": "720d1e0f-d7a0-552b-96c8-ab744b23aef7",
+  "data/name": "CSV rows (the columns' types change after row 100) data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "034b1b50-be2b-579b-87f8-75008996c8f4"],
+  "data/type": "json"
+}

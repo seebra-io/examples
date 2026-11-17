@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "bbcd9479-69f3-54d9-9dd2-021048e04666"],
+  "query/datasource": ["datasource/id", "4b22823d-a42a-54af-819e-0f3ac326b688"],
+  "query/dynamic?": false,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "3d62f8a1-6ec2-575e-aa9a-6bcbbc494edc",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "All 60 planets: population, diameter, climate, gravity",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 560
+  },
+  "query/params": "{}",
+  "query/path": "/planets",
+  "query/request-body": "",
+  "query/units": "{}"
+}

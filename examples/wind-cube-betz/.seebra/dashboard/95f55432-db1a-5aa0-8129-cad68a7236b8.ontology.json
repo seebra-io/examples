@@ -1,0 +1,175 @@
+{
+  "title": "Wind power physics",
+  "summary": "How wind speed sets the power available to a turbine (cube law), how much a rotor can capture (Betz limit), and how a real farm's power curve departs from both.",
+  "concepts": [
+    {
+      "cid": "c1",
+      "label": "Wind farm",
+      "kind": "entity",
+      "description": "Westermost Rough: 35 Siemens SWT-6.0-154, 210 MW, off the Holderness coast.",
+      "fields": [
+        "mw",
+        "cf"
+      ],
+      "in_data": true,
+      "wikidata": "Q8018960",
+      "facts": [
+        {
+          "text": "Elexon BMRS B1610 gives metered generation per BM unit per settlement period.",
+          "source": "https://bmrs.elexon.co.uk/"
+        },
+        {
+          "text": "Westermost Rough was the first commercial use of the 6 MW, 154 m rotor turbine (2015).",
+          "source": "https://en.wikipedia.org/wiki/Westermost_Rough_Wind_Farm"
+        }
+      ],
+      "children": [
+        {
+          "cid": "c2",
+          "label": "Power curve",
+          "kind": "measure",
+          "as": "property",
+          "description": "Output against wind speed: cut-in, cubic rise, rated plateau, cut-out.",
+          "fields": [
+            "v_bin",
+            "median_mw",
+            "p25_mw",
+            "p75_mw"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c3",
+          "label": "Capacity factor",
+          "kind": "measure",
+          "as": "property",
+          "description": "Mean output / installed capacity.",
+          "fields": [
+            "cf",
+            "capacity_factor"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c4",
+          "label": "Wake losses",
+          "kind": "event",
+          "as": "part",
+          "description": "Turbines downwind see slower, more turbulent air; part of the gap below Betz.",
+          "in_data": false
+        },
+        {
+          "cid": "c5",
+          "label": "Curtailment",
+          "kind": "event",
+          "as": "part",
+          "description": "Output reduced on instruction (grid constraints); not in this data.",
+          "in_data": false
+        }
+      ]
+    },
+    {
+      "cid": "c6",
+      "label": "Power in the wind",
+      "kind": "measure",
+      "description": "P = ½ ρ A v³ through the swept area A.",
+      "fields": [
+        "p_wind_mw",
+        "v",
+        "rho"
+      ],
+      "in_data": true,
+      "facts": [
+        {
+          "text": "Wind power density scales with the cube of wind speed.",
+          "source": "https://en.wikipedia.org/wiki/Wind_power#Wind_power_density"
+        }
+      ],
+      "children": [
+        {
+          "cid": "c7",
+          "label": "Cube law",
+          "kind": "measure",
+          "as": "property",
+          "description": "The exponent of output against wind below rated power.",
+          "fields": [
+            "exponent",
+            "doubling_wind_factor"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c8",
+          "label": "Air density",
+          "kind": "measure",
+          "as": "property",
+          "description": "ρ = p/(R T): colder, denser air carries more power at the same speed.",
+          "fields": [
+            "rho",
+            "t_c",
+            "p_hpa"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c9",
+          "label": "Wind speed distribution",
+          "kind": "measure",
+          "as": "property",
+          "description": "How often each speed occurs; with the cube law it decides where the energy comes from.",
+          "fields": [
+            "hours_share_pct",
+            "energy_share_pct",
+            "mean_of_cube_mw",
+            "cube_of_mean_mw"
+          ],
+          "in_data": true
+        }
+      ]
+    },
+    {
+      "cid": "c10",
+      "label": "Betz limit",
+      "kind": "measure",
+      "description": "The maximum power coefficient of an ideal rotor, 16/27 ≈ 0.593, from momentum theory.",
+      "fields": [
+        "cp",
+        "median_cp",
+        "betz_mw",
+        "betz_limit_mw"
+      ],
+      "in_data": true,
+      "wikidata": "Q901006",
+      "facts": [
+        {
+          "text": "Albert Betz derived the limit in 1920.",
+          "source": "https://en.wikipedia.org/wiki/Betz%27s_law"
+        }
+      ]
+    },
+    {
+      "cid": "c11",
+      "label": "Pitch control",
+      "kind": "entity",
+      "description": "Turning the blades to spill power above rated wind speed, which caps output.",
+      "in_data": false
+    },
+    {
+      "cid": "c12",
+      "label": "ERA5 reanalysis",
+      "kind": "source",
+      "description": "ECMWF's hourly reanalysis on a 0.25° grid, served by Open-Meteo.",
+      "fields": [
+        "v",
+        "time"
+      ],
+      "in_data": true,
+      "facts": [
+        {
+          "text": "Open-Meteo's historical weather API serves ERA5 under CC BY 4.0.",
+          "source": "https://open-meteo.com/en/docs/historical-weather-api"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "data/id": "7f5831d1-37d3-558b-a257-18634438e8d3",
+  "data/name": "Who is fitted: everyone, everyone but Jabba, humans, aliens data",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "25d44375-3dda-5248-ad6f-2cc811aafb93"],
+  "data/type": "json"
+}

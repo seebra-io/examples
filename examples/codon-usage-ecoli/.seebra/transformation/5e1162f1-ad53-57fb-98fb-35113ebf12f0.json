@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/codon-bias-per-gene-set.sql"
+  },
+  "transformation/data-child": ["data/id", "b0b2d19d-6e28-5448-ae5e-db09d367650d"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "5e1162f1-ad53-57fb-98fb-35113ebf12f0",
+  "transformation/inputs": [],
+  "transformation/language": "sql",
+  "transformation/name": "Codon bias per gene set",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 2840,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "34978a38-6f9b-5c64-8ba3-ca2f23e54623"],
+  "transformation/units": "{}"
+}

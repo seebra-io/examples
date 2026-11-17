@@ -1,0 +1,11 @@
+data.filter(col("gdp").is_not_null())
+    .with_columns(x = col("gdp").log(10), y = col("years"))
+    .with_columns(n = len(), dx = col("x") - col("x").mean(), dy = col("y") - col("y").mean())
+    .with_columns(slope = (col("dx") * col("dy")).sum() / col("dx").pow(2).sum(), sxx = col("dx").pow(2).sum())
+    .with_columns(fitted = col("y").mean() + col("slope") * col("dx"))
+    .with_columns(residual = col("y") - col("fitted"))
+    .with_columns(r2 = 1 - col("residual").pow(2).sum() / col("dy").pow(2).sum(),
+                  se = (col("residual").pow(2).sum() / (col("n") - 2)).sqrt() * (1 / col("n") + col("dx").pow(2) / col("sxx")).sqrt())
+    .with_columns(lo = col("fitted") - t_ppf(0.975, col("n") - 2) * col("se"), hi = col("fitted") + t_ppf(0.975, col("n") - 2) * col("se"))
+    .select("country", "iso3", "region", "income", "years", "gdp", "fitted", "lo", "hi", "residual", "slope", "r2", "n")
+    .sort("residual")

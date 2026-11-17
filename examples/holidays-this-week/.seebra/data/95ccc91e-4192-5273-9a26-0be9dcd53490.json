@@ -1,0 +1,10 @@
+{
+  "data/id": "95ccc91e-4192-5273-9a26-0be9dcd53490",
+  "data/name": "Holidays per day data",
+  "data/node": {
+    "node/x": 2070,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "392cd345-10ff-5a24-87da-9f76a3ccf8c6"],
+  "data/type": "json"
+}

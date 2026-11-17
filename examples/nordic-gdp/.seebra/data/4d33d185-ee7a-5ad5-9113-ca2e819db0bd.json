@@ -1,0 +1,10 @@
+{
+  "data/id": "4d33d185-ee7a-5ad5-9113-ca2e819db0bd",
+  "data/name": "PCA: what each component is made of data",
+  "data/node": {
+    "node/x": 2530,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "8d5e0f19-aa4a-5871-932a-4c119049c72c"],
+  "data/type": "json"
+}

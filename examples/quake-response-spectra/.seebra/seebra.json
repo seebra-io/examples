@@ -1,0 +1,8 @@
+{
+  "file": {
+    "file/example": "quake-response-spectra"
+  },
+  "format": 2,
+  "root": ["dashboard/id", "81c16514-b193-5f43-9982-06c411e6e746"],
+  "seebra": "board"
+}

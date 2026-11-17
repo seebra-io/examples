@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/trial-periods-3-to-150-years.polars.py"
+  },
+  "transformation/data-child": ["data/id", "d085cc76-a44f-5978-883a-f096470c225e"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "bfad728c-47e7-5f0d-bb1d-14ae0191d4c6",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Trial periods, 3 to 150 years",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 560
+  },
+  "transformation/parent": ["data/id", "b07953fb-31c8-5ff2-9746-a220e32ed99e"],
+  "transformation/units": "{}"
+}

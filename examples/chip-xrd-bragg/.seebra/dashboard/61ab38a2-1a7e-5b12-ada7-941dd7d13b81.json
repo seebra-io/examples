@@ -1,0 +1,55 @@
+{
+  "dashboard/id": "61ab38a2-1a7e-5b12-ada7-941dd7d13b81",
+  "datas": [
+    ["data/id", "54e5421a-d48e-541a-b152-4ea33f7059a5"],
+    ["data/id", "053b7fc6-2246-5668-bf09-7201d7f37737"],
+    ["data/id", "1d60a1ae-98fd-5f97-8606-8d909ecdbbc6"],
+    ["data/id", "cc30ec03-dc86-59d2-997a-cf2f3df95b62"],
+    ["data/id", "868ae04c-3018-512c-9182-7887ed3f2a47"],
+    ["data/id", "afd0fb36-7897-5fb4-af51-35dd41388228"],
+    ["data/id", "fd11323e-6571-570c-b195-d1f5eff25721"],
+    ["data/id", "2aabb9b8-1743-5c0a-a03f-29f0455be53d"],
+    ["data/id", "6c626d44-2db1-5859-b2d8-033cfc58c2ce"],
+    ["data/id", "b9e8842f-54b6-59fd-a3d4-bd4e94bf83f3"],
+    ["data/id", "44d8c465-14c5-5a0c-bf9e-6ba8b3e67d38"],
+    ["data/id", "cabddb2f-6867-5e76-bc97-3df1e62350bb"],
+    ["data/id", "9ca87711-25ce-50ed-91a9-2108481e2f6a"]
+  ],
+  "datasources": [
+    ["datasource/id", "6c08161c-1a0a-5236-85b5-183eaafcf902"],
+    ["datasource/id", "23b72160-7ab1-5dec-b6cc-a89c4f0432e2"]
+  ],
+  "description": "Question: how does an X-ray diffractometer tell silicon from gallium arsenide, and how does it measure a film a few nanometres thick on a wafer? Data: the Crystallography Open Database's entries for Si, Ge, C, GaAs, AlAs and InP (keyless JSON), the cubic cell edge a of each (the entry nearest the median of its cubic entries), and PubChem's atomic numbers. Steps: Bragg's law nλ = 2d sin θ with d = a/√(h²+k²+l²) for Cu Kα1 (1.5406 Å); the structure factor of an fcc lattice with a two-atom basis (|F|² = 16(f_A ± f_B)² or 16(f_A² + f_B²) by the parity of h, k, l); intensities with multiplicity and the Lorentz-polarisation factor; and the splitting between a film's and a substrate's peaks, Δ2θ ≈ −2 tan θ · Δa/a. Aha: the (200) reflection is extinct in Si, Ge and diamond (one kind of atom, so the two atoms of the basis cancel), almost invisible in GaAs (Ga and As have 31 and 33 electrons: 0.1% of the strongest peak) and strong in AlAs and InP (17% and 24%): the pattern reads the chemistry of the basis. And the splitting of a nearly lattice-matched film like AlAs on GaAs (0.13% mismatch) grows with tan θ, which is why epitaxial layers are measured on high-angle reflections. Caveats: atomic scattering factors are approximated by Z (no fall-off with angle, no Debye–Waller factor), so high-angle intensities are too large; real silicon shows a weak 'forbidden' (222) from its bonding charge; Kα2, absorption, preferred orientation and peak widths are ignored; COD entries were measured at different temperatures (thermal expansion shifts a by about 0.01% per 40 K in Si). Next: open a COD entry (click a peak), compare a measured pattern, or follow the lattice-matching example (chip-vegard-epitaxy) for alloys.",
+  "graphs": [
+    ["graph/id", "db521f39-4a85-56c4-82a1-108b71265880"],
+    ["graph/id", "34945a57-d9db-51f7-8314-7b87e326d4dd"],
+    ["graph/id", "467e1e26-2edb-5bac-a1b7-70481f525a34"]
+  ],
+  "grids": [],
+  "name": "Bragg's law and the selection rules of semiconductor crystals",
+  "ontology": {
+    "$file": ".seebra/dashboard/61ab38a2-1a7e-5b12-ada7-941dd7d13b81.ontology.json",
+    "$json": true
+  },
+  "queries": [
+    ["query/id", "7aaab52f-4d62-51a0-9a90-80c929e85112"],
+    ["query/id", "13d988c9-44af-5219-b336-c89f08edd3ca"],
+    ["query/id", "1535bb7c-7934-54f8-84d0-f1cc730d53d2"],
+    ["query/id", "67923fa6-7b6e-512c-adc8-e3261f5d2eee"],
+    ["query/id", "3703b7f8-15c4-59ad-9ec8-0159108a6585"],
+    ["query/id", "be9766b7-a7ee-5613-b7ba-fb4bac160595"],
+    ["query/id", "24a9c25d-90c2-5193-ad54-6af7d564ba8e"]
+  ],
+  "studies": [],
+  "tables": [],
+  "texts": [],
+  "timers": [],
+  "transformations": [
+    ["transformation/id", "fd8cc785-2c79-58a0-8117-338e16254f07"],
+    ["transformation/id", "4ce60f0d-41bd-50ec-90bb-e85aaf40f3c6"],
+    ["transformation/id", "2ccfea9c-9417-5e79-b005-100bed5ce6d9"],
+    ["transformation/id", "6e1389e3-9480-5195-a131-f4713a8731b9"],
+    ["transformation/id", "c9a85170-a21a-571a-8190-3e1774766dee"],
+    ["transformation/id", "d2905e49-8168-5d8e-b0ce-5894d19abd41"]
+  ]
+}

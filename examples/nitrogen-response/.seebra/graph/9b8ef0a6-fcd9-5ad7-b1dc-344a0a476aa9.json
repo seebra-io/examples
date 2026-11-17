@@ -1,0 +1,18 @@
+{
+  "graph/content": {
+    "$file": "graphs/what-one-more-kilogram-buys.js"
+  },
+  "graph/id": "9b8ef0a6-fcd9-5ad7-b1dc-344a0a476aa9",
+  "graph/inputs": [
+    ["data/id", "ad380aa8-fd61-5118-a758-6c7353ede9c7"],
+    ["data/id", "2d76daf8-9cde-55e2-9032-200622c833b6"],
+    ["data/id", "dfe14c8f-9d13-5a2f-a532-b473371e98f9"]
+  ],
+  "graph/language": "javascript",
+  "graph/name": "What one more kilogram buys",
+  "graph/node": {
+    "node/x": 1460,
+    "node/y": 800
+  },
+  "graph/parent": ["data/id", "286483a4-3024-5d58-8c0c-9f1b90c05b3a"]
+}

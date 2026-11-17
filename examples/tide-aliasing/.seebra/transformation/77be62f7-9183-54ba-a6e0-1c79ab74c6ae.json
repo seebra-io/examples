@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/daily-means-filtered-then-sampled.polars.py"
+  },
+  "transformation/data-child": ["data/id", "1e8034a8-c901-5d55-950e-5341c4f23940"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "77be62f7-9183-54ba-a6e0-1c79ab74c6ae",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Daily means (filtered, then sampled)",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 560
+  },
+  "transformation/parent": ["data/id", "bf261d65-21c7-5fad-a146-d024ea0837fa"],
+  "transformation/units": "{}"
+}

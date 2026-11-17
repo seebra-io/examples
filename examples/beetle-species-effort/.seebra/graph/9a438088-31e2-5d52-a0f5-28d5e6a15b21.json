@@ -1,0 +1,16 @@
+{
+  "graph/content": {
+    "$file": "graphs/rarefaction-curves-and-chao1-species-depend-on.js"
+  },
+  "graph/id": "9a438088-31e2-5d52-a0f5-28d5e6a15b21",
+  "graph/inputs": [
+    ["data/id", "83771e66-6eac-5947-a769-f93f5dc62302"]
+  ],
+  "graph/language": "javascript",
+  "graph/name": "Rarefaction curves and Chao1 (species depend on effort)",
+  "graph/node": {
+    "node/x": 2380,
+    "node/y": 80
+  },
+  "graph/parent": ["data/id", "46fc0e43-3038-52b1-b455-1b7beb4439fe"]
+}

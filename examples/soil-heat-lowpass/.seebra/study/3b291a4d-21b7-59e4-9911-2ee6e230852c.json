@@ -1,0 +1,18 @@
+{
+  "study/hypothesis": "Damping and lag grow linearly with depth for each cycle, and the annual cycle's damping depth is about √365 ≈ 19 times the daily one's.",
+  "study/id": "3b291a4d-21b7-59e4-9911-2ee6e230852c",
+  "study/name": "Does the ground follow the heat equation?",
+  "study/node": {
+    "node/x": 540,
+    "node/y": 320
+  },
+  "study/plan": {
+    "$file": ".seebra/study/3b291a4d-21b7-59e4-9911-2ee6e230852c.plan.json",
+    "$json": true
+  },
+  "study/question": "Do the soil layers under Berlin damp and delay the daily and the annual temperature cycle as the heat equation predicts, with a damping depth √(ω_daily/ω_annual) ≈ 19 times larger for the annual cycle?",
+  "study/state": {
+    "$file": ".seebra/study/3b291a4d-21b7-59e4-9911-2ee6e230852c.state.json",
+    "$json": true
+  }
+}

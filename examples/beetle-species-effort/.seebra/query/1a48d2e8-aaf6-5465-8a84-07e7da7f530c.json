@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "92e5591b-b979-5a49-a8de-0caa3aa32e86"],
+  "query/datasource": ["datasource/id", "39f16f7e-4b45-59b9-8571-88f2f36f894e"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "1a48d2e8-aaf6-5465-8a84-07e7da7f530c",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Beetle records per species, Gotland 2024",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 320
+  },
+  "query/params": "{\"country\":\"SE\",\"orderKey\":\"1470\",\"year\":\"2024\",\"stateProvince\":\"Gotland\",\"limit\":\"0\",\"facet\":\"speciesKey\",\"facetLimit\":\"3000\"}",
+  "query/path": "/occurrence/search",
+  "query/request-body": "",
+  "query/units": "{}"
+}

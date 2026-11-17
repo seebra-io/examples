@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "e497c999-ab5d-56ee-a2a0-0b4d3ad60268"],
+  "query/datasource": ["datasource/id", "8baf5d9a-7219-5322-8cbb-57d53f696733"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "f4a9ffcb-9737-5bb3-b2f6-090d07bebdf4",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Cloudflare summary",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 320
+  },
+  "query/params": "{}",
+  "query/path": "/summary.json",
+  "query/request-body": "",
+  "query/units": "{}"
+}

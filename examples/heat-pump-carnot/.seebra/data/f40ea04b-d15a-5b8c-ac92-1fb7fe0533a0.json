@@ -1,0 +1,10 @@
+{
+  "data/id": "f40ea04b-d15a-5b8c-ac92-1fb7fe0533a0",
+  "data/name": "System 357, Newcastle (radiators): daily stats, Nov 2025 – Oct 2026 data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 560
+  },
+  "data/parent": ["query/id", "688de3c0-476f-5528-9b51-9b61a93feea7"],
+  "data/type": "json"
+}

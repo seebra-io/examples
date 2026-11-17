@@ -1,0 +1,8 @@
+{
+  "file": {
+    "file/example": "merit-order-price"
+  },
+  "format": 2,
+  "root": ["dashboard/id", "36940ea9-c4ab-596c-b513-0458e2d9b793"],
+  "seebra": "board"
+}

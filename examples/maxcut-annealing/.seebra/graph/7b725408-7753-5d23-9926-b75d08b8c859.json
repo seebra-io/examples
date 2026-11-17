@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/slower-annealing-better-cuts.js"
+  },
+  "graph/id": "7b725408-7753-5d23-9926-b75d08b8c859",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Slower annealing, better cuts?",
+  "graph/node": {
+    "node/x": 2380,
+    "node/y": 80
+  },
+  "graph/parent": ["data/id", "ddb83bc4-61ab-520e-afe3-af22b72d30c8"]
+}

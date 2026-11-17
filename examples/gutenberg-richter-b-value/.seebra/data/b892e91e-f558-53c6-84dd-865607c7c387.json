@@ -1,0 +1,11 @@
+{
+  "data/id": "b892e91e-f558-53c6-84dd-865607c7c387",
+  "data/name": "b per depth class",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 800
+  },
+  "data/parent": ["transformation/id", "100528f4-d431-5869-a51a-28b76ec4ed5f"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

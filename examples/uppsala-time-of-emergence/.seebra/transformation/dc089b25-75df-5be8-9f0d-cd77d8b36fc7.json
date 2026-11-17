@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/frost-nights-and-the-frost-free-season.sql"
+  },
+  "transformation/data-child": ["data/id", "77b4014b-5f4b-58b6-8d77-9acfa1a5d71c"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "dc089b25-75df-5be8-9f0d-cd77d8b36fc7",
+  "transformation/inputs": [],
+  "transformation/language": "sql",
+  "transformation/name": "Frost nights and the frost-free season",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "be5f2358-6c7f-5867-926a-f90755ee7a30"],
+  "transformation/units": "{}"
+}

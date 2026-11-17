@@ -1,0 +1,11 @@
+{
+  "data/id": "c7a86f4c-55b2-5965-868e-ffb675466477",
+  "data/name": "Airframe candidates against steel",
+  "data/node": {
+    "node/x": 2530,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "a4e8f480-8a8b-5c59-9e76-edf1cd8d10a1"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "7d832782-8bae-5a56-9a1f-053b532d89d8"],
+  "query/datasource": ["datasource/id", "48e40754-5006-5582-bf1d-604b33728d13"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "7813a504-46eb-5519-8917-3415d4cfc7b2",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "2LZM helices and strands",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 800
+  },
+  "query/params": "{}",
+  "query/path": "/pdb/entry/secondary_structure/2lzm",
+  "query/request-body": "",
+  "query/units": "{}"
+}

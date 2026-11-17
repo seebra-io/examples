@@ -1,0 +1,8 @@
+{
+  "file": {
+    "file/example": "crypto-markets"
+  },
+  "format": 2,
+  "root": ["dashboard/id", "0c308e92-9990-5d2e-ba4e-7c3863638216"],
+  "seebra": "board"
+}

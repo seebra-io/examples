@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/poisson-waiting-times-gaps-between-the-last-100.polars.py"
+  },
+  "transformation/data-child": ["data/id", "0112d37c-9e6c-5259-9148-6ab365380d09"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "90cd8576-a9d9-59e7-9c77-96acad4ec504",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Poisson waiting times: gaps between the last 100 launches vs the exponential",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 560
+  },
+  "transformation/parent": ["data/id", "228e53d7-47a9-5e5b-a5dd-9604cfd19bcd"],
+  "transformation/units": "{}"
+}

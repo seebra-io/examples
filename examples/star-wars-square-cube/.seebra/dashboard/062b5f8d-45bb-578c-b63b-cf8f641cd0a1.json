@@ -1,0 +1,61 @@
+{
+  "dashboard/id": "062b5f8d-45bb-578c-b63b-cf8f641cd0a1",
+  "datas": [
+    ["data/id", "6ec3293b-e9b2-57a0-90de-6111562a545b"],
+    ["data/id", "8a4a1cda-fff8-529c-937f-b338afffec2e"],
+    ["data/id", "bbcd9479-69f3-54d9-9dd2-021048e04666"],
+    ["data/id", "3353fc22-abce-5914-a811-85f4b769d24e"],
+    ["data/id", "c2aa48c4-dbf3-51d1-8346-b9619e3c7c1f"],
+    ["data/id", "575f9c3e-0a05-54bd-829d-8ff9f1d8370a"],
+    ["data/id", "7f5831d1-37d3-558b-a257-18634438e8d3"],
+    ["data/id", "b6df0e9e-c188-56d4-8eaa-68b036396e6d"],
+    ["data/id", "f382e98f-0834-5e27-9488-8428afe03218"],
+    ["data/id", "b1c812b0-0668-5091-8517-c0fa75ff4f15"],
+    ["data/id", "89eb4ed4-cb2f-5045-9f64-a0d54744874e"],
+    ["data/id", "39c5a5eb-db92-5210-b522-ab3f291b55dd"],
+    ["data/id", "8d861105-dd24-52e1-8e5b-c48e4740596f"],
+    ["data/id", "de1d759a-a2c6-5119-81e0-73676b5294d6"]
+  ],
+  "datasources": [
+    ["datasource/id", "4b22823d-a42a-54af-819e-0f3ac326b688"]
+  ],
+  "description": "Question: who in Star Wars is unusually tall or heavy for their kind, and do its bodies scale like real ones? Idea: the square-cube law. Scale a body up by a factor s and its mass grows as s³ while the bones' cross-section grows only as s², which is why giants are built differently; for adult humans Quetelet found mass ∝ height² instead, the basis of the body-mass index (kg/m²). SWAPI (the Star Wars API, the swapi.info mirror) lists 82 characters with height and mass, 37 species, 60 planets, 36 starships and the six films. Polars fits log mass on log height: for the 58 weighed characters other than Jabba the slope is 1.54 ± 0.12, below the BMI's 2 (t = −3.7) and far below the cube's 3 (t = −11.9), so twice as tall is only 2.9 times as heavy, not 8. Humans alone give 1.98 ± 0.80, Quetelet's 2; aliens give 1.52 ± 0.14. Aha: Star Wars aliens break the square-cube law the other way round: tall ones (Kaminoans, Gungans, Wat Tambor) are designed lanky and small ones (Yoda, droids) dense, because they are costumes, puppets and CGI around human-sized actors. Jabba the Hutt is the outlier: 1,358 kg at 175 cm, BMI 443, 19 times a Star Wars body of his height. The same question for machines: starship cost grows as length^1.40 (r = 0.94 on log axes), not length³, so big ships are cheap per cubic metre, and the hyperdrive class hardly follows price. Awareness: the data is fan-made from the films (fans' transcription of Lucasfilm's films; swapi.info's code is MIT-licensed, but the data has no licence of its own and Star Wars is © Lucasfilm, so credit both and keep it non-commercial), masses and heights are estimates entered by fans, SWAPI leaves species empty for 32 people (nearly all human; Sly Moore, an Umbaran, is counted as human here), only 59 of 82 have both height and mass, and the data stops at Revenge of the Sith (2005): no sequels or series. Next: drill into a species (its people, average height and lifespan), expand to the planets' climate and gravity (hover the homeworlds), or to Wookieepedia for each character (click any mark).",
+  "graphs": [
+    ["graph/id", "3b635060-56bc-5752-8cc3-1cebcf4cb767"],
+    ["graph/id", "b975a077-0314-5956-9d94-cf8266d207e7"],
+    ["graph/id", "eb14be70-da9b-5b2d-a3da-999101af446c"],
+    ["graph/id", "2867c45d-0f62-52f0-93f0-45742fad0087"],
+    ["graph/id", "c09e0fb9-97a4-5f37-8a81-ae4199c6263d"],
+    ["graph/id", "8a7c7d9b-e626-54d6-bc86-3f2c22e62686"]
+  ],
+  "grids": [],
+  "name": "Star Wars bodies and the square-cube law",
+  "ontology": {
+    "$file": ".seebra/dashboard/062b5f8d-45bb-578c-b63b-cf8f641cd0a1.ontology.json",
+    "$json": true
+  },
+  "queries": [
+    ["query/id", "9399f611-9520-5256-a0db-4d8bba6f1228"],
+    ["query/id", "f06be086-13a5-5a7f-84ff-341926ca710e"],
+    ["query/id", "3d62f8a1-6ec2-575e-aa9a-6bcbbc494edc"],
+    ["query/id", "f070703d-3ef0-54f0-a235-bc1010124794"],
+    ["query/id", "1b6a5d5e-0169-5451-9e56-77379309be42"]
+  ],
+  "studies": [
+    ["study/id", "28370799-088e-5fda-8b0a-f6ef0bd0d2f5"]
+  ],
+  "tables": [],
+  "texts": [],
+  "timers": [],
+  "transformations": [
+    ["transformation/id", "b39e80be-1825-52cb-9cfe-72d1ffd9dbb6"],
+    ["transformation/id", "25d44375-3dda-5248-ad6f-2cc811aafb93"],
+    ["transformation/id", "2b339f91-d9d2-53f7-af3f-e32ca0c8fa72"],
+    ["transformation/id", "9a243b47-b9bd-5ac2-8515-9a8eee63e01c"],
+    ["transformation/id", "19a04464-3f37-52ae-8db2-23fa53f83ae4"],
+    ["transformation/id", "ee9936e9-36e9-5e3d-b162-79cd7e5e5744"],
+    ["transformation/id", "466ab519-8974-5b88-ac97-e7d7a3556e98"],
+    ["transformation/id", "934a0c4d-c210-55e8-b1f7-a01ff3e2d382"],
+    ["transformation/id", "b170f294-3869-594b-a336-420a662d021e"]
+  ]
+}

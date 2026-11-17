@@ -1,0 +1,10 @@
+{
+  "data/id": "b22f719c-426a-52ea-a5bc-cd9d4f4a0276",
+  "data/name": "rs1815739 ACTN3 genotypes per population data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 800
+  },
+  "data/parent": ["query/id", "efc53e57-10af-5294-b387-83a653547628"],
+  "data/type": "json"
+}

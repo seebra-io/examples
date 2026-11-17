@@ -1,0 +1,10 @@
+{
+  "data/id": "2aabb9b8-1743-5c0a-a03f-29f0455be53d",
+  "data/name": "All COD entries of the six materials data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "fd8cc785-2c79-58a0-8117-338e16254f07"],
+  "data/type": "json"
+}

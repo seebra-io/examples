@@ -1,0 +1,10 @@
+{
+  "data/id": "231f5f26-57f0-5a2d-a478-353ae17710f4",
+  "data/name": "Listed products per route (NDC directory) data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 560
+  },
+  "data/parent": ["query/id", "4075c7f0-0883-55f1-8abf-a1b07fca4128"],
+  "data/type": "json"
+}

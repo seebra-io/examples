@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "8972725e-1666-5797-9ca0-5dc9af05b766"],
+  "query/datasource": ["datasource/id", "88beddc4-5f72-5b79-a494-57bfe1e3a03a"],
+  "query/dynamic?": false,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "362c97b2-65c0-5977-9327-15b69af417a8",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Daily mean temperature 1991–2020",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 320
+  },
+  "query/params": "{\"latitude\":\"59.33\",\"longitude\":\"18.07\",\"start_date\":\"1991-01-01\",\"end_date\":\"2020-12-31\",\"daily\":\"temperature_2m_mean\",\"timezone\":\"Europe/Stockholm\"}",
+  "query/path": "/archive",
+  "query/request-body": "",
+  "query/units": "{}"
+}

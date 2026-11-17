@@ -1,0 +1,10 @@
+{
+  "data/id": "5766f808-f359-5cb3-978f-a670f84cd656",
+  "data/name": "Reconstructed bridges: mean lowest rating per year built data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 1040
+  },
+  "data/parent": ["query/id", "40508eb7-fa1e-544d-b7c6-db24e44d439f"],
+  "data/type": "json"
+}

@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/damping-depth-diffusivity-and-the-law.polars.py"
+  },
+  "transformation/data-child": ["data/id", "2e0fed90-144a-59e4-a846-cb63e553ed6c"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "a466bf40-b3e1-582b-b1c7-25e54643b80a",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Damping depth, diffusivity and the √ω law",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 3300,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "111fdc1b-b926-56a0-9508-fe9667c15f9c"],
+  "transformation/units": "{}"
+}

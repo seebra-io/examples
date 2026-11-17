@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/gdp-per-capita-current-us.js"
+  },
+  "graph/id": "438a3da3-7cf0-560d-8c6f-f50eb7d69cde",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "GDP per capita (current US$)",
+  "graph/node": {
+    "node/x": 1460,
+    "node/y": 320
+  },
+  "graph/parent": ["data/id", "03b47eb7-7933-534b-af4d-c49eabfce53c"]
+}

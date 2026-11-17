@@ -1,0 +1,10 @@
+{
+  "data/id": "fd11323e-6571-570c-b195-d1f5eff25721",
+  "data/name": "Periodic table (atomic numbers) data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 1520
+  },
+  "data/parent": ["query/id", "24a9c25d-90c2-5193-ad54-6af7d564ba8e"],
+  "data/type": "json"
+}

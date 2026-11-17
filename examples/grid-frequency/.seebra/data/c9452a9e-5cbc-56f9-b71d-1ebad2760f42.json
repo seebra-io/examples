@@ -1,0 +1,11 @@
+{
+  "data/id": "c9452a9e-5cbc-56f9-b71d-1ebad2760f42",
+  "data/name": "Paired test: first 2 minutes against the rest",
+  "data/node": {
+    "node/x": 2530,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "c9631f56-ad32-50a1-a222-bb8bbfb97375"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

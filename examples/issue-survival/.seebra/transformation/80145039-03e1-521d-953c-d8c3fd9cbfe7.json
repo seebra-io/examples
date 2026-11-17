@@ -1,0 +1,21 @@
+{
+  "transformation/content": {
+    "$file": "transforms/median-time-open-kaplan-meier-against-ignoring.polars.py"
+  },
+  "transformation/data-child": ["data/id", "0437c273-a247-565c-b4e2-5cef9315b449"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "80145039-03e1-521d-953c-d8c3fd9cbfe7",
+  "transformation/inputs": [
+    ["data/id", "edaf4a65-61da-53a2-bdc9-210905e61878"]
+  ],
+  "transformation/language": "polars",
+  "transformation/name": "Median time open: Kaplan–Meier against ignoring the open ones",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1920,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "31aaa9d1-397c-5c51-9335-d52339c694e4"],
+  "transformation/units": "{}"
+}

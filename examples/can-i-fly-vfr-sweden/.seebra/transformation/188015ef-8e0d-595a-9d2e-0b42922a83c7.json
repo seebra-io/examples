@@ -1,0 +1,21 @@
+{
+  "transformation/content": {
+    "$file": "transforms/verdict-between-the-airports-model-at-the-time.polars.py"
+  },
+  "transformation/data-child": ["data/id", "4279161b-91da-5f44-9794-587259bb377b"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "188015ef-8e0d-595a-9d2e-0b42922a83c7",
+  "transformation/inputs": [
+    ["data/id", "7cef94af-4deb-5afd-818e-752ef8355b4c"]
+  ],
+  "transformation/language": "polars",
+  "transformation/name": "Verdict between the airports (model, at the time the aircraft passes)",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 800
+  },
+  "transformation/parent": ["data/id", "d07c50cd-cae4-57dc-9ac3-4c96357508cd"],
+  "transformation/units": "{}"
+}

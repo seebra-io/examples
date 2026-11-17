@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "6e1fa7e0-4b4e-519f-92f6-5c0911f551bd"],
+  "query/datasource": ["datasource/id", "48c6bdde-2deb-595f-aa40-7fc6a0ddcdc1"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "97a47518-ea02-5e53-b497-06ba088ed821",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Animals (Metazoa): annotated reference genomes",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 1040
+  },
+  "query/params": "{\"filters.reference_only\":\"true\",\"filters.has_annotation\":\"true\",\"page_size\":\"200\"}",
+  "query/path": "/genome/taxon/33208/dataset_report",
+  "query/request-body": "",
+  "query/units": "{}"
+}

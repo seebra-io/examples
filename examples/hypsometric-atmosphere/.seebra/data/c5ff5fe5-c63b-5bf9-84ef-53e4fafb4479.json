@@ -1,0 +1,10 @@
+{
+  "data/id": "c5ff5fe5-c63b-5bf9-84ef-53e4fafb4479",
+  "data/name": "One row per column of air data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "ca385b83-9c59-54c2-a704-104aca4b8036"],
+  "data/type": "json"
+}

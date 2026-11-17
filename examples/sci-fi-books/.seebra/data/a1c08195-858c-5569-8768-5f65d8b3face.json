@@ -1,0 +1,10 @@
+{
+  "data/id": "a1c08195-858c-5569-8768-5f65d8b3face",
+  "data/name": "Science fiction data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 80
+  },
+  "data/parent": ["query/id", "bb5b1a5f-9f92-5f30-86be-93ddd6d1f501"],
+  "data/type": "json"
+}

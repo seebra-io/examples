@@ -1,0 +1,10 @@
+{
+  "data/id": "4c5e0173-ccb6-5c75-8077-660e35371dbc",
+  "data/name": "Requests per container data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "f161242c-6549-5cbb-822d-3e36d7822c2d"],
+  "data/type": "json"
+}

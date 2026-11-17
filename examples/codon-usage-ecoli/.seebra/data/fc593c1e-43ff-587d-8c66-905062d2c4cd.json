@@ -1,0 +1,10 @@
+{
+  "data/id": "fc593c1e-43ff-587d-8c66-905062d2c4cd",
+  "data/name": "Codon usage (RSCU) per gene set data",
+  "data/node": {
+    "node/x": 2530,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "31a8584a-56d8-5e40-9fa1-1c2e058da610"],
+  "data/type": "json"
+}

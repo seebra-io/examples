@@ -1,0 +1,21 @@
+{
+  "transformation/content": {
+    "$file": "transforms/mitscherlich-fit-for-150-values-of-c-least.polars.py"
+  },
+  "transformation/data-child": ["data/id", "a094913e-5735-5dc9-be9b-93c8bd0e52f6"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "e12e734b-49f2-5c27-ae75-f4bd0208f6b7",
+  "transformation/inputs": [
+    ["data/id", "81938dd7-e081-5c04-8601-355a2bd72352"]
+  ],
+  "transformation/language": "polars",
+  "transformation/name": "Mitscherlich fit for 150 values of c (least squares A, Y0)",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "a1ae715b-5ca8-5128-9495-e885c82a51a3"],
+  "transformation/units": "{}"
+}

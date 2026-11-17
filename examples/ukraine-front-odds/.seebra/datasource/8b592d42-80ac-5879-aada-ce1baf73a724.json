@@ -1,0 +1,16 @@
+{
+  "datasource/api-key-key": "api_key",
+  "datasource/auth-type": "none",
+  "datasource/headers": "{}",
+  "datasource/id": "8b592d42-80ac-5879-aada-ce1baf73a724",
+  "datasource/name": "Polymarket (Gamma API)",
+  "datasource/node": {
+    "inputs": 1,
+    "node/x": 80,
+    "node/y": 560,
+    "outputs": 1
+  },
+  "datasource/params": "{}",
+  "datasource/type": "openapi",
+  "datasource/url": "https://gamma-api.polymarket.com"
+}

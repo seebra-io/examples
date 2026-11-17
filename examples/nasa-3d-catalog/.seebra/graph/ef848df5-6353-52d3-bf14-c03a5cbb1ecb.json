@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/how-large-each-model-is-hover-for-the-model.js"
+  },
+  "graph/id": "ef848df5-6353-52d3-bf14-c03a5cbb1ecb",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "How large each model is (hover for the model, click for the file)",
+  "graph/node": {
+    "node/x": 1460,
+    "node/y": 320
+  },
+  "graph/parent": ["data/id", "4a323969-b38f-5c16-b60b-15b728fcb13e"]
+}

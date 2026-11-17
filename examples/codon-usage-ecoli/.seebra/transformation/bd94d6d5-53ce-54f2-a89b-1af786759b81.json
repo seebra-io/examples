@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/transcription-regulators.polars.py"
+  },
+  "transformation/data-child": ["data/id", "ab9f2657-0b91-5a6f-8c04-a19830a34a1d"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "bd94d6d5-53ce-54f2-a89b-1af786759b81",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Transcription regulators",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "7bbb4856-f658-5e2c-9ea6-6edbc3124a72"],
+  "transformation/units": "{}"
+}

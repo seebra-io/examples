@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/hourly-wind-and-air-density.polars.py"
+  },
+  "transformation/data-child": ["data/id", "785f8793-2003-5f77-a603-bed5b92ee393"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "d343af8f-b314-5f3a-a14a-e711cf83901e",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Hourly wind and air density",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "97007d94-e6f9-5f81-b8ef-d11e40fc38c2"],
+  "transformation/units": "{}"
+}

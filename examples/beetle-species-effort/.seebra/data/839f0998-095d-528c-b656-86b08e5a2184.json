@@ -1,0 +1,10 @@
+{
+  "data/id": "839f0998-095d-528c-b656-86b08e5a2184",
+  "data/name": "Species, Gotland data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "382e53ea-a684-5b34-8d6a-8fee276cee78"],
+  "data/type": "json"
+}

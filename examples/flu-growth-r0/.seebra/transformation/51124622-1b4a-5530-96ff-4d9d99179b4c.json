@@ -1,0 +1,21 @@
+{
+  "transformation/content": {
+    "$file": "transforms/weekly-ili-per-season.polars.py"
+  },
+  "transformation/data-child": ["data/id", "5eb5bc5d-e94e-552c-8d15-85480f85ab4e"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "51124622-1b4a-5530-96ff-4d9d99179b4c",
+  "transformation/inputs": [
+    ["data/id", "df336183-bd21-50f2-a9e2-d22a80ca5ca0"]
+  ],
+  "transformation/language": "polars",
+  "transformation/name": "Weekly ILI+ per season",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "ea099d68-c0a6-5acb-8120-6ef95d5437a5"],
+  "transformation/units": "{}"
+}

@@ -1,0 +1,16 @@
+{
+  "graph/content": {
+    "$file": "graphs/highway-city-ratio-per-powertrain.js"
+  },
+  "graph/id": "cf112485-63e9-5cf8-bf87-c33980f02bb1",
+  "graph/inputs": [
+    ["data/id", "7467e914-5990-5d69-96f6-982849b248e1"]
+  ],
+  "graph/language": "javascript",
+  "graph/name": "Highway/city ratio per powertrain",
+  "graph/node": {
+    "node/x": 1460,
+    "node/y": 1280
+  },
+  "graph/parent": ["data/id", "6b3cc1c5-69ee-57d8-af5c-85c30944a793"]
+}

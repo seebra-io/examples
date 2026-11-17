@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/birds-per-100-photographed-records-per-province.js"
+  },
+  "graph/id": "a38a77e2-77ed-56d1-9ccc-b444cb5062aa",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Birds per 100 photographed records, per province",
+  "graph/node": {
+    "node/x": 1460,
+    "node/y": 800
+  },
+  "graph/parent": ["data/id", "854a28d4-5b97-54cb-8f90-7c27536c40ee"]
+}

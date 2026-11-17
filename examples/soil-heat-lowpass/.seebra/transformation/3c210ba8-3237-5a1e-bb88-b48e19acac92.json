@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/a-july-week-hour-by-hour.polars.py"
+  },
+  "transformation/data-child": ["data/id", "e47cf242-c627-5464-a396-3c7c53562c34"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "3c210ba8-3237-5a1e-bb88-b48e19acac92",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "A July week, hour by hour",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1920,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "c0c5c9d2-3add-5bbd-a93d-043b1f7d8a30"],
+  "transformation/units": "{}"
+}

@@ -1,0 +1,122 @@
+{
+  "title": "Queueing in continuous integration",
+  "summary": "CI workflow runs as customers of a queueing system: when they arrive, how long they stay, how many are in the system, and the conservation law that ties the three.",
+  "concepts": [
+    {
+      "cid": "c1",
+      "label": "Workflow run",
+      "kind": "event",
+      "description": "One execution of a GitHub Actions workflow, triggered by a push, pull request or schedule.",
+      "fields": [
+        "id",
+        "name",
+        "event",
+        "conclusion"
+      ],
+      "in_data": true,
+      "facts": [
+        {
+          "text": "GitHub lists a repository's runs at /repos/{owner}/{repo}/actions/runs, filterable by created date.",
+          "source": "https://docs.github.com/en/rest/actions/workflow-runs"
+        }
+      ],
+      "children": [
+        {
+          "cid": "c2",
+          "label": "Workflow",
+          "kind": "category",
+          "as": "property",
+          "description": "The workflow definition a run belongs to (Linux tests, Wheel builder, …).",
+          "fields": [
+            "name"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c3",
+          "label": "Job",
+          "kind": "entity",
+          "as": "part",
+          "description": "A unit of a run that takes one runner; a run has several.",
+          "in_data": false
+        }
+      ]
+    },
+    {
+      "cid": "c4",
+      "label": "Queueing system",
+      "kind": "entity",
+      "description": "Items arriving, waiting, being served and leaving.",
+      "in_data": true,
+      "wikidata": "Q1414184",
+      "children": [
+        {
+          "cid": "c5",
+          "label": "Arrival rate",
+          "kind": "measure",
+          "as": "property",
+          "description": "λ, runs per hour.",
+          "fields": [
+            "arrivals",
+            "lambda_per_hour"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c6",
+          "label": "Time in system",
+          "kind": "measure",
+          "as": "property",
+          "description": "W, from start to last update, minutes.",
+          "fields": [
+            "duration_min",
+            "W_min"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c7",
+          "label": "Number in system",
+          "kind": "measure",
+          "as": "property",
+          "description": "L(t), runs in flight at each minute, and its time average.",
+          "fields": [
+            "in_flight",
+            "L",
+            "L_all"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c8",
+          "label": "Little's law",
+          "kind": "measure",
+          "as": "property",
+          "description": "L = λW for any stable system over a long window.",
+          "fields": [
+            "lambda_W",
+            "L_all"
+          ],
+          "in_data": true,
+          "wikidata": "Q1500506"
+        },
+        {
+          "cid": "c9",
+          "label": "Runner capacity",
+          "kind": "measure",
+          "as": "property",
+          "description": "How many jobs can run at once; queue time grows sharply as utilisation nears it.",
+          "in_data": false
+        },
+        {
+          "cid": "c10",
+          "label": "Queue time",
+          "kind": "measure",
+          "as": "property",
+          "description": "Time a job waits for a runner (jobs API).",
+          "in_data": false
+        }
+      ]
+    }
+  ]
+}

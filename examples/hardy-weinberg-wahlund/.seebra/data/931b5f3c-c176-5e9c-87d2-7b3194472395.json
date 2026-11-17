@@ -1,0 +1,10 @@
+{
+  "data/id": "931b5f3c-c176-5e9c-87d2-7b3194472395",
+  "data/name": "Populations: names, sampling sites, super-populations data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 1280
+  },
+  "data/parent": ["query/id", "ad9fd9fb-4367-55c7-9262-5b4053bd49f2"],
+  "data/type": "json"
+}

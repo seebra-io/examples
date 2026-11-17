@@ -1,0 +1,10 @@
+{
+  "data/id": "d852e294-9f70-5720-bbf7-b2ab96410c66",
+  "data/name": "2LZM backbone angles (validation) data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 560
+  },
+  "data/parent": ["query/id", "9bdfc7bc-aefb-50e3-b7c6-02bc7c40fddb"],
+  "data/type": "json"
+}

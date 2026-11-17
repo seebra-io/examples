@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/parse-logical-cores.polars.py"
+  },
+  "transformation/data-child": ["data/id", "c8d008ab-f822-5902-b662-d661d8d0323b"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "ac2b4d13-80aa-5c76-a315-228cd73314c5",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Parse logical cores",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 1040
+  },
+  "transformation/parent": ["data/id", "1d30c932-f53a-5279-aada-930efd7702eb"],
+  "transformation/units": "{}"
+}

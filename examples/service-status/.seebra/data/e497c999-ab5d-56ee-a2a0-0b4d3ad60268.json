@@ -1,0 +1,10 @@
+{
+  "data/id": "e497c999-ab5d-56ee-a2a0-0b4d3ad60268",
+  "data/name": "Cloudflare summary data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 320
+  },
+  "data/parent": ["query/id", "f4a9ffcb-9737-5bb3-b2f6-090d07bebdf4"],
+  "data/type": "json"
+}

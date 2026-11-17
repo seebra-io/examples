@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/values-in-si-units-pa-k.polars.py"
+  },
+  "transformation/data-child": ["data/id", "18d8e3f0-495b-5989-93f8-40a6bfe44d9d"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "a7dc365f-0434-5c28-bd22-7a502c012983",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Values in SI units (Pa, K)",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "e2731062-f577-5ffa-808e-9abdc400a894"],
+  "transformation/units": "{}"
+}

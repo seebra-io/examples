@@ -1,0 +1,63 @@
+{
+  "dashboard/id": "2b5fa5f0-5a86-5bb4-9742-00e916960790",
+  "datas": [
+    ["data/id", "d361d533-e64d-504e-b42c-33613b4da0f5"],
+    ["data/id", "c7572454-2f50-50f6-b694-ee852844b041"],
+    ["data/id", "921447c6-beee-5fde-b793-ae26522e07eb"],
+    ["data/id", "b22f719c-426a-52ea-a5bc-cd9d4f4a0276"],
+    ["data/id", "f2be53e2-ff2d-570d-b99e-3388e8b161a6"],
+    ["data/id", "931b5f3c-c176-5e9c-87d2-7b3194472395"],
+    ["data/id", "a688bbfe-f5d8-5602-b868-eebbb6132b32"],
+    ["data/id", "3ba13ea7-574c-5341-b82d-3581c079362e"],
+    ["data/id", "20279dcf-3f9b-5ee6-96b4-978f7723a32a"],
+    ["data/id", "ca5ea23d-0ec0-5f1d-bb7d-501810f392a1"],
+    ["data/id", "041f0ca6-c4c0-52b8-a11c-b8e051b55f21"],
+    ["data/id", "75ae6a48-13c1-5331-9b8c-460ddd0f3478"],
+    ["data/id", "24d28f8c-32fb-5e16-ac70-590abd6b91c3"],
+    ["data/id", "d505a290-3607-55b0-b2aa-2db18e12d3f6"],
+    ["data/id", "2b201714-006c-5f66-a5f4-a67e591e00a8"],
+    ["data/id", "5b272d23-281c-5caf-b2d8-b15ff12608a0"]
+  ],
+  "datasources": [
+    ["datasource/id", "4e69ca60-8c96-5566-ab6d-335f41d46497"],
+    ["datasource/id", "cda0839e-f197-53d9-a321-8a94e1d7e148"]
+  ],
+  "description": "Question: Hardy–Weinberg says that under random mating an allele at frequency p comes in genotypes p², 2pq and q², whatever p is. Do real human populations follow it, and what does it mean when they don't? Data: genotype counts for five well-known variants (rs4988235 lactase persistence, rs1426654 SLC24A5 skin pigmentation, rs671 ALDH2 alcohol flush, rs1815739 ACTN3 R577X, rs334 sickle-cell HbS) in the 26 populations of 1000 Genomes phase 3 (Ensembl REST), and the populations' sampling sites and super-populations (IGSR). Steps: per variant and sample, the allele frequency, the expected genotype counts, a chi-square test (1 df) and the heterozygote deficit F = 1 − H_obs/H_exp; then the Wahlund effect: for each pooled sample (all 26, or one super-population) the deficit predicted from the populations alone, F_ST = Var(p) / (p̄(1 − p̄)). Aha: single populations sit on the Hardy–Weinberg parabola (3 of 83 population tests at p < 0.05, all for ACTN3, about what chance gives), but pooling them makes heterozygotes vanish: all 2,504 people together have F = 0.67 for SLC24A5 (408 heterozygotes where 1,232 are expected), 0.39 for LCT and 0.20 for ALDH2, and F_ST from the populations predicts 0.65, 0.36 and 0.18. A departure from Hardy–Weinberg is a clue, not an error: here it is structure (a pooled sample is not one mating population). HbS goes the other way: no homozygotes among 661 Africans where 6.6 are expected (F = −0.11, p = 0.004), the mark of selection (sickle-cell disease against malaria protection for carriers), which in the pooled ALL sample cancels the Wahlund deficit (F = −0.03). Caveats: the variants were chosen for being famous, not at random; 61–113 people per population give the tests little power and some expected counts under 5; genotype calls have errors; sampling sites are where people were sampled (CEU in Utah). Next: hover any dot; add any rsID as another query; drill down to one super-population's populations; expand to selection scans or ancient DNA.",
+  "graphs": [
+    ["graph/id", "4d9aa16d-e40c-5250-8af0-995176e983dd"],
+    ["graph/id", "cbf627ca-b21e-5fb8-a921-1ec0d35c09a5"],
+    ["graph/id", "b35be48e-e596-552e-9c95-e3b4f391813e"]
+  ],
+  "grids": [],
+  "name": "Hardy–Weinberg, and why pooled populations break it",
+  "ontology": {
+    "$file": ".seebra/dashboard/2b5fa5f0-5a86-5bb4-9742-00e916960790.ontology.json",
+    "$json": true
+  },
+  "queries": [
+    ["query/id", "a79d8b12-36ae-569d-b528-27ffb1d28ee1"],
+    ["query/id", "97f99d3c-65a9-5fab-b91d-0a002d7967e6"],
+    ["query/id", "30b2fd4b-0f8c-5a2f-bd29-42bd64a6eddb"],
+    ["query/id", "efc53e57-10af-5294-b387-83a653547628"],
+    ["query/id", "62bb3774-51ec-5b14-b15a-32d65a240170"],
+    ["query/id", "ad9fd9fb-4367-55c7-9262-5b4053bd49f2"]
+  ],
+  "studies": [
+    ["study/id", "d1fb4dd4-12cf-5726-8d9b-ad82fe352a65"]
+  ],
+  "tables": [],
+  "texts": [],
+  "timers": [],
+  "transformations": [
+    ["transformation/id", "2449ecbe-3ff7-5ff6-9ee0-75e9c1e69e6d"],
+    ["transformation/id", "84a381b9-17e4-5891-bd20-468c2ec3feea"],
+    ["transformation/id", "c5963a18-3e46-5328-adb4-497bc8707fab"],
+    ["transformation/id", "f1810338-dc5d-57c5-8537-c7149e3ffb69"],
+    ["transformation/id", "7a3f9fd8-5840-5b33-88bb-9ac3f9bab6a6"],
+    ["transformation/id", "d6c1a681-dd22-518a-8739-07c2ad3d3837"],
+    ["transformation/id", "92ee7f60-fa4f-5af7-b1a3-5ea7c206d922"],
+    ["transformation/id", "aeef1792-1e0f-5a22-a74b-3039b8d0a8ee"],
+    ["transformation/id", "82c263dd-0e46-54e0-b378-58c1263c6551"],
+    ["transformation/id", "71ac0f17-8388-5441-9da7-19d3609b0896"]
+  ]
+}

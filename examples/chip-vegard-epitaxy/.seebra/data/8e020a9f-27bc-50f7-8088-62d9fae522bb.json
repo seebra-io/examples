@@ -1,0 +1,10 @@
+{
+  "data/id": "8e020a9f-27bc-50f7-8088-62d9fae522bb",
+  "data/name": "Zincblende III-V binaries and diamond Si, Ge data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 80
+  },
+  "data/parent": ["query/id", "cba7f522-8161-562d-b900-6f8a2e7a23d6"],
+  "data/type": "json"
+}

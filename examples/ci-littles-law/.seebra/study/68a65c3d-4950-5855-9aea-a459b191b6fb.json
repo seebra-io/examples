@@ -1,0 +1,18 @@
+{
+  "study/hypothesis": "Across the day's hours, the measured mean number of runs in flight rises one for one with the hour's arrival rate times its runs' mean duration.",
+  "study/id": "68a65c3d-4950-5855-9aea-a459b191b6fb",
+  "study/name": "Does L = λW hold hour by hour?",
+  "study/node": {
+    "node/x": 540,
+    "node/y": 1280
+  },
+  "study/plan": {
+    "$file": ".seebra/study/68a65c3d-4950-5855-9aea-a459b191b6fb.plan.json",
+    "$json": true
+  },
+  "study/question": "Over the hours of one day, does the mean number of NumPy workflow runs in flight equal the hour's arrival rate times its runs' mean time in the system?",
+  "study/state": {
+    "$file": ".seebra/study/68a65c3d-4950-5855-9aea-a459b191b6fb.state.json",
+    "$json": true
+  }
+}

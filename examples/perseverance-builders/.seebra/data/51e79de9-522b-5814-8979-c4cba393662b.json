@@ -1,0 +1,10 @@
+{
+  "data/id": "51e79de9-522b-5814-8979-c4cba393662b",
+  "data/name": "Perseverance, NASA's 3D model data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 80
+  },
+  "data/parent": ["query/id", "cfc760e9-1fb1-5a1b-a8df-b519e968c708"],
+  "data/type": "json"
+}

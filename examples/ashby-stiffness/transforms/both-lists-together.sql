@@ -1,0 +1,3 @@
+SELECT * FROM data
+UNION ALL
+SELECT * FROM data1

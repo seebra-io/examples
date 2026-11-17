@@ -1,0 +1,10 @@
+{
+  "data/id": "aea86b35-7f58-504a-951e-80fd27f859b8",
+  "data/name": "Curves from 0 to 40 ft data",
+  "data/node": {
+    "node/x": 2530,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "d70a2e17-a6c8-5498-8421-1397230e8e05"],
+  "data/type": "json"
+}

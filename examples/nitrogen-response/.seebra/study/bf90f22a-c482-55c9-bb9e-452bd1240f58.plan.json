@@ -1,0 +1,246 @@
+{
+  "title": "Diminishing returns to fertiliser",
+  "question": "Per country (latest year, arable land ≥ 200,000 ha, ≤ 800 kg/ha): is cereal yield (kg/ha) an increasing, saturating function of fertiliser use (kg/ha of arable land), and does the grain per kg of fertiliser fall as use rises?",
+  "review": {
+    "well_formed": false,
+    "issues": [
+      {
+        "kind": "causal",
+        "text": "Countries that use more fertiliser are also richer, more irrigated and use better seed: the curve mixes all of them.",
+        "fix": "Report the association; test whether irrigation explains the residuals (H3) and keep climate as a caveat."
+      },
+      {
+        "kind": "vague",
+        "text": "'Buys less grain' can be the average (Y/N) or the marginal (dY/dN) return.",
+        "fix": "The marginal return is read from the fitted curve (mp); the average, grain_per_kg_fert, is tested directly."
+      },
+      {
+        "kind": "grain",
+        "text": "Fertiliser and yield years differ between countries, and fertiliser counts all three nutrients on arable land only.",
+        "fix": "Show the years on hover; drop countries where the arable-land denominator is meaningless."
+      }
+    ],
+    "alternatives": [
+      {
+        "question": "Within one country over 20 years, does yield still rise with fertiliser use (paths)?",
+        "why": "Drills into a country, removing the cross-country confounders.",
+        "ready": true
+      },
+      {
+        "question": "Do countries on the flat part (mp < 3) have larger nitrogen surpluses per hectare?",
+        "why": "Expands to the environmental cost: needs FAOSTAT's soil nutrient budget.",
+        "ready": false
+      },
+      {
+        "question": "Does the curve's ceiling rise with irrigated share?",
+        "why": "Drills into the main confounder already on the board.",
+        "ready": true
+      }
+    ]
+  },
+  "hypotheses": [
+    {
+      "id": "H1",
+      "statement": "Cereal yield increases with fertiliser use per hectare.",
+      "null": "Yield does not change with fertiliser use.",
+      "outcome": {
+        "concept": "Cereal yield",
+        "field": "yield_kg_ha"
+      },
+      "predictor": {
+        "concept": "Fertiliser use",
+        "field": "fert_kg_ha"
+      },
+      "subgroup": null,
+      "direction": "increase",
+      "test": {
+        "method": "regression",
+        "link": null,
+        "outcome_mode": "mean",
+        "outcome_field": "yield_kg_ha",
+        "predictor_field": "fert_kg_ha",
+        "exposure_field": null,
+        "versus": null
+      }
+    },
+    {
+      "id": "H2",
+      "statement": "The grain bought per kg of fertiliser falls as fertiliser use rises (diminishing returns).",
+      "null": "Grain per kg of fertiliser is the same at every rate (yield proportional to fertiliser).",
+      "outcome": {
+        "concept": "Partial factor productivity",
+        "field": "grain_per_kg_fert"
+      },
+      "predictor": {
+        "concept": "Fertiliser use",
+        "field": "fert_kg_ha"
+      },
+      "subgroup": null,
+      "direction": "decrease",
+      "test": {
+        "method": "regression",
+        "link": null,
+        "outcome_mode": "mean",
+        "outcome_field": "grain_per_kg_fert",
+        "predictor_field": "fert_kg_ha",
+        "exposure_field": null,
+        "versus": null
+      }
+    },
+    {
+      "id": "H3",
+      "statement": "Countries with more irrigated land yield more than the curve predicts.",
+      "null": "The curve's residuals do not depend on the irrigated share.",
+      "outcome": {
+        "concept": "Yield residual",
+        "field": "resid_pct"
+      },
+      "predictor": {
+        "concept": "Irrigation",
+        "field": "irrigated_pct"
+      },
+      "subgroup": null,
+      "direction": "increase",
+      "test": {
+        "method": "regression",
+        "link": null,
+        "outcome_mode": "mean",
+        "outcome_field": "resid_pct",
+        "predictor_field": "irrigated_pct",
+        "exposure_field": null,
+        "versus": null
+      }
+    }
+  ],
+  "concepts": [
+    {
+      "label": "Country's cropland",
+      "kind": "place",
+      "description": "One country's arable land, latest year.",
+      "why": "The unit of the study.",
+      "have": true,
+      "categories": [],
+      "field": "iso3",
+      "strategy": null
+    },
+    {
+      "label": "Fertiliser use",
+      "kind": "measure",
+      "description": "kg of N + P₂O₅ + K₂O per ha of arable land.",
+      "why": "The predictor.",
+      "have": true,
+      "categories": [],
+      "field": "fert_kg_ha",
+      "strategy": null
+    },
+    {
+      "label": "Cereal yield",
+      "kind": "measure",
+      "description": "kg of cereals harvested per ha.",
+      "why": "The outcome.",
+      "have": true,
+      "categories": [],
+      "field": "yield_kg_ha",
+      "strategy": null
+    },
+    {
+      "label": "Partial factor productivity",
+      "kind": "measure",
+      "description": "kg of grain per kg of fertiliser.",
+      "why": "The average return, H2's outcome.",
+      "have": true,
+      "categories": [],
+      "field": "grain_per_kg_fert",
+      "strategy": null
+    },
+    {
+      "label": "Yield residual",
+      "kind": "measure",
+      "description": "Observed against the fitted curve, in %.",
+      "why": "What the curve leaves unexplained, H3's outcome.",
+      "have": false,
+      "categories": [],
+      "field": "resid_pct",
+      "strategy": {
+        "how": "derive",
+        "detail": "resid_pct = 100 · (yield_kg_ha / yield_pred − 1), yield_pred from the Mitscherlich fit"
+      }
+    },
+    {
+      "label": "Irrigation",
+      "kind": "measure",
+      "description": "Irrigated share of agricultural land (%).",
+      "why": "The main confounder.",
+      "have": true,
+      "categories": [],
+      "field": "irrigated_pct",
+      "strategy": null
+    },
+    {
+      "label": "Nitrogen surplus",
+      "kind": "measure",
+      "description": "N input minus N removed in the harvest, kg/ha.",
+      "why": "Where the unused fertiliser goes.",
+      "have": false,
+      "categories": [],
+      "field": null,
+      "strategy": {
+        "how": "fetch",
+        "detail": "FAOSTAT soil nutrient budget (domain ESB), matched on ISO3 country code and year"
+      }
+    }
+  ],
+  "data": [
+    {
+      "concept": "Nitrogen surplus",
+      "request": "Cropland nitrogen surplus and nitrogen use efficiency per country, latest year",
+      "source": "FAOSTAT soil nutrient budget (ESB)",
+      "why": "To test whether the flat part of the curve is where nitrogen is lost."
+    },
+    {
+      "concept": "Climate and growing season",
+      "request": "Mean growing-season temperature and precipitation over each country's cropland",
+      "source": "Open-Meteo historical weather (ERA5) at cropland centroids, or the World Bank Climate Knowledge Portal",
+      "why": "The ceiling of the curve depends on climate."
+    }
+  ],
+  "links": [],
+  "method": {
+    "id": "regression",
+    "summary": "A straight line of each outcome on its predictor with a weak prior (H1, H2: on fert_kg_ha; H3: resid_pct on irrigated_pct); the effect's 95% interval and P(direction). The saturating shape itself is fitted by the Mitscherlich grid search on the board, and compared with the straight line by R²."
+  },
+  "steps": [
+    {
+      "kind": "data",
+      "title": "Latest fertiliser use, cereal yield, arable land, irrigation",
+      "detail": "World Bank AG.CON.FERT.ZS, AG.YLD.CREL.KG, AG.LND.ARBL.HA, AG.LND.IRIG.AG.ZS, joined on iso3; aggregates dropped."
+    },
+    {
+      "kind": "categorise",
+      "title": "Which countries the per-hectare figure fits",
+      "detail": "in_fit: arable_ha ≥ 200,000 and fert_kg_ha ≤ 800; why_out says why the rest are out."
+    },
+    {
+      "kind": "concept",
+      "title": "Fit the response curve",
+      "detail": "Grid search over c (150 values), closed-form A and Y0, profile interval of c; yield_pred, mp, resid_pct per country."
+    },
+    {
+      "kind": "method",
+      "title": "Regressions",
+      "detail": "H1 yield_kg_ha on fert_kg_ha, H2 grain_per_kg_fert on fert_kg_ha, H3 resid_pct on irrigated_pct."
+    },
+    {
+      "kind": "decide",
+      "title": "Diminishing returns?",
+      "detail": "H1 and H2 supported and Mitscherlich R² > straight-line R²; H3 tells how much irrigation is in the curve."
+    }
+  ],
+  "caveats": [
+    "Cross-country association, not a dose-response: richer countries irrigate more, use better seed and machinery and grow different cereals.",
+    "Fertiliser counts N + P₂O₅ + K₂O on arable land only; fertiliser on pasture or permanent crops inflates the rate (hence the exclusions).",
+    "Latest years differ between indicators and countries; a single year's yield carries its weather.",
+    "H2 is partly mechanical: Y/N falls with N unless yield is proportional to N; the null is that proportionality.",
+    "The ecological fallacy: a national average curve is not a farm's or a field's response."
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "54f4c137-c96e-5e7f-bc05-f1ebc8e7f104"],
+  "query/datasource": ["datasource/id", "3dacb18d-f4b9-5ba0-bc95-dbae79d2f5d3"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "9290ea5c-384a-5474-b572-b04549308e4b",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "CO₂ emissions excl. land use (Mt CO₂e), latest",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 800
+  },
+  "query/params": "{\"format\":\"json\",\"mrnev\":\"1\",\"per_page\":\"400\"}",
+  "query/path": "/country/all/indicator/EN.GHG.CO2.MT.CE.AR5",
+  "query/request-body": "",
+  "query/units": "{}"
+}

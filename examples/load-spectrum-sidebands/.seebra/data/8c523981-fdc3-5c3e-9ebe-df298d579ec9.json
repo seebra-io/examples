@@ -1,0 +1,10 @@
+{
+  "data/id": "8c523981-fdc3-5c3e-9ebe-df298d579ec9",
+  "data/name": "Three windows data",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "a103efb9-c942-516e-a1b2-7a9e6ae5a0f8"],
+  "data/type": "json"
+}

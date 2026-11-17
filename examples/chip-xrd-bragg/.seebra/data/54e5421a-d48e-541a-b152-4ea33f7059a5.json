@@ -1,0 +1,10 @@
+{
+  "data/id": "54e5421a-d48e-541a-b152-4ea33f7059a5",
+  "data/name": "COD entries with formula Si data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 80
+  },
+  "data/parent": ["query/id", "7aaab52f-4d62-51a0-9a90-80c929e85112"],
+  "data/type": "json"
+}

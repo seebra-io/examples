@@ -1,0 +1,10 @@
+{
+  "data/id": "67c082eb-8f22-59d7-a077-8d33e86b95eb",
+  "data/name": "PCA: variance explained data",
+  "data/node": {
+    "node/x": 2530,
+    "node/y": 560
+  },
+  "data/parent": ["transformation/id", "78a13bc6-b1c6-5b6d-989d-becfa6308faf"],
+  "data/type": "json"
+}

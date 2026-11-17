@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/every-run-of-the-day-start-to-last-update.js"
+  },
+  "graph/id": "3c7656c5-b002-5e6e-b3b5-8a42e5f608da",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Every run of the day, start to last update",
+  "graph/node": {
+    "node/x": 2380,
+    "node/y": 1040
+  },
+  "graph/parent": ["data/id", "369cbb37-92fe-5f29-8542-4059685b66d6"]
+}

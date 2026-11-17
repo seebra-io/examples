@@ -1,0 +1,8 @@
+{
+  "file": {
+    "file/example": "maxcut-annealing"
+  },
+  "format": 2,
+  "root": ["dashboard/id", "d7d89bd1-a7c4-5d12-9e95-c2f56a9c30f1"],
+  "seebra": "board"
+}

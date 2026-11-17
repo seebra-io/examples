@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "d852e294-9f70-5720-bbf7-b2ab96410c66"],
+  "query/datasource": ["datasource/id", "48e40754-5006-5582-bf1d-604b33728d13"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "9bdfc7bc-aefb-50e3-b7c6-02bc7c40fddb",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "2LZM backbone angles (validation)",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 560
+  },
+  "query/params": "{}",
+  "query/path": "/validation/rama_sidechain_listing/entry/2lzm",
+  "query/request-body": "",
+  "query/units": "{}"
+}

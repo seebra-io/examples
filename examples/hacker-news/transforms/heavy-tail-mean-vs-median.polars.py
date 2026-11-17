@@ -1,0 +1,9 @@
+data.select(stories = len(),
+            mean_points = col("points").mean().round(0),
+            median_points = col("points").median(),
+            p90_points = col("points").quantile(0.9, "linear").round(0),
+            max_points = col("points").max(),
+            above_mean = (col("points") > col("points").mean()).cast(Int64).sum(),
+            top_share = (100 * col("points").max() / col("points").sum()).round(1),
+            mean_comments = col("comments").mean().round(0),
+            median_comments = col("comments").median())

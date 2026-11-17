@@ -1,0 +1,16 @@
+{
+  "graph/content": {
+    "$file": "graphs/which-semi-major-axes-were-measured-and-which.js"
+  },
+  "graph/id": "968759e4-f505-5bdd-883e-a6aa6fb2713e",
+  "graph/inputs": [
+    ["data/id", "d7759813-e572-5667-9367-8b26b930d73a"]
+  ],
+  "graph/language": "javascript",
+  "graph/name": "Which semi-major axes were measured, and which computed",
+  "graph/node": {
+    "node/x": 1460,
+    "node/y": 1040
+  },
+  "graph/parent": ["data/id", "da03da8d-2739-5ed3-9c84-3508becb4858"]
+}

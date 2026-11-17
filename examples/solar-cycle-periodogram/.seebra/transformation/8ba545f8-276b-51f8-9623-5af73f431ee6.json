@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/cycle-lengths-and-the-waldmeier-correlation.polars.py"
+  },
+  "transformation/data-child": ["data/id", "ada786ad-7196-57a0-82ec-89c0b0208e54"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "8ba545f8-276b-51f8-9623-5af73f431ee6",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Cycle lengths and the Waldmeier correlation",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 2380,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "48d561f1-7859-5974-9f55-685cccb5e760"],
+  "transformation/units": "{}"
+}

@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "17f931df-dedf-53be-a0b6-7a393f55dd94"],
+  "query/datasource": ["datasource/id", "da0d6c24-7504-53aa-bf5c-f1bcf41e02d9"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "3a09f65a-5f65-5155-b1a4-d169a5c57d1d",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Curiosity",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 320
+  },
+  "query/params": "{\"order\":\"sol desc\",\"per_page\":\"100\",\"page\":\"0\",\"condition_1\":\"msl:mission\"}",
+  "query/path": "/api/v1/raw_image_items/",
+  "query/request-body": "",
+  "query/units": "{}"
+}

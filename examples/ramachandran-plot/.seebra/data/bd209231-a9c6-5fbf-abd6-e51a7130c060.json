@@ -1,0 +1,10 @@
+{
+  "data/id": "bd209231-a9c6-5fbf-abd6-e51a7130c060",
+  "data/name": "Residues on the Ramachandran plane data",
+  "data/node": {
+    "node/x": 2070,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "1ce31118-b6c3-54a2-a7a6-75479267388d"],
+  "data/type": "json"
+}

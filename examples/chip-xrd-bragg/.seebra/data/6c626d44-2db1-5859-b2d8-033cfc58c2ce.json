@@ -1,0 +1,11 @@
+{
+  "data/id": "6c626d44-2db1-5859-b2d8-033cfc58c2ce",
+  "data/name": "Reference cells (COD)",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "4ce60f0d-41bd-50ec-90bb-e85aaf40f3c6"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

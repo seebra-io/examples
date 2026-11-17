@@ -1,0 +1,17 @@
+{
+  "graph/content": {
+    "$file": "graphs/sites-and-seismic-events-on-the-terrain.js"
+  },
+  "graph/id": "73c5af08-a7e4-507b-ae34-86ebe806a262",
+  "graph/inputs": [
+    ["data/id", "e088db56-5f46-5651-bbe5-6d86eba5f20a"],
+    ["data/id", "c1d4518e-70b5-56f3-a531-144883c249ad"]
+  ],
+  "graph/language": "javascript",
+  "graph/name": "Sites and seismic events on the terrain",
+  "graph/node": {
+    "node/x": 1460,
+    "node/y": 560
+  },
+  "graph/parent": ["data/id", "45e8faa2-51b1-5ba0-b88b-996539f84b0d"]
+}

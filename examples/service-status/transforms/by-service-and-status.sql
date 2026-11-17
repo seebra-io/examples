@@ -1,0 +1,1 @@
+SELECT service, status, COUNT(*) AS components FROM data GROUP BY service, status ORDER BY service, components DESC

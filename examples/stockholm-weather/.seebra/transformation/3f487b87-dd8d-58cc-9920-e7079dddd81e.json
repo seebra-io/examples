@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/hours.polars.py"
+  },
+  "transformation/data-child": ["data/id", "ce643a44-0024-57a8-b214-77096dadbf97"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "3f487b87-dd8d-58cc-9920-e7079dddd81e",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Hours",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "f0e8e7c6-4085-5609-b442-eed6891c8251"],
+  "transformation/units": "{}"
+}

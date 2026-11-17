@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/per-region.sql"
+  },
+  "transformation/data-child": ["data/id", "730d492e-b785-5c8e-97c2-fae89d762c7b"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "93f88042-6d0f-5ca9-ab27-ce54dab3d3f1",
+  "transformation/inputs": [],
+  "transformation/language": "sql",
+  "transformation/name": "Per region",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1920,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "e8a59fc7-e206-5d3f-a2d5-908f5d688a38"],
+  "transformation/units": "{}"
+}

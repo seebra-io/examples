@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/against-a-poisson-rate-dispersion-p-at-least.polars.py"
+  },
+  "transformation/data-child": ["data/id", "d20f0e30-a0fb-55a2-a5a5-08b17ed6d123"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "d6bd4bd7-3725-5ec9-bf5b-397d7a34a652",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Against a Poisson rate (dispersion, P(at least))",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 2380,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "95ccc91e-4192-5273-9a26-0be9dcd53490"],
+  "transformation/units": "{}"
+}

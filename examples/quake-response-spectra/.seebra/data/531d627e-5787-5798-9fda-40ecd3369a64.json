@@ -1,0 +1,10 @@
+{
+  "data/id": "531d627e-5787-5798-9fda-40ecd3369a64",
+  "data/name": "Spectrum as rows (T = 0, 0.3, 1, 3 s) data",
+  "data/node": {
+    "node/x": 2070,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "3a849bf4-ab92-50f7-9b15-5728204acc30"],
+  "data/type": "json"
+}

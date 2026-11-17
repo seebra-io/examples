@@ -1,0 +1,21 @@
+{
+  "transformation/content": {
+    "$file": "transforms/approaches-with-their-orbits.js"
+  },
+  "transformation/data-child": ["data/id", "a29cf280-5f5d-5304-9de0-8328f094acff"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "js-web-worker",
+  "transformation/id": "1e987227-a63a-5837-823e-ad8b7cb793b7",
+  "transformation/inputs": [
+    ["data/id", "a7fe7235-df29-5ea4-9134-1ef8a0438b8f"]
+  ],
+  "transformation/language": "javascript",
+  "transformation/name": "Approaches with their orbits",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "e04635d5-e406-5c77-8f7b-60349f40b852"],
+  "transformation/units": "{\"dist_ld\":\"LD\",\"dist_min_ld\":\"LD\",\"dist_max_ld\":\"LD\",\"v_rel_kms\":\"km/s\",\"size_m\":\"m\",\"diameter_km\":\"km\",\"a\":\"AU\",\"i\":\"deg\",\"om\":\"deg\",\"w\":\"deg\",\"ma\":\"deg\",\"moid_ld\":\"LD\"}"
+}

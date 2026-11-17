@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/reported-advances-per-week.js"
+  },
+  "graph/id": "bb750155-11ea-574d-9c71-246d3b45d1a2",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Reported advances per week",
+  "graph/node": {
+    "node/x": 1920,
+    "node/y": 320
+  },
+  "graph/parent": ["data/id", "2a364e71-350c-59fb-a44b-5d024e81d2db"]
+}

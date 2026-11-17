@@ -1,0 +1,11 @@
+data.with_columns(m = col("mag").round(1))
+    .group_by("m")
+    .agg(n = len())
+    .sort("m", descending=True)
+    .with_columns(n_at_least = col("n").cum_sum())
+    .with_columns(total = col("n").sum(), mean_m = (col("m") * col("n")).sum() / col("n").sum())
+    .with_columns(b = (0.4343 / (col("mean_m") - 4.45)).round(2))
+    .with_columns(b_se = (col("b") / col("total").cast(Float64).sqrt()).round(2),
+                  expected = (col("total") * (-2.302585 * col("b") * (col("m") - 4.5)).exp()).round(1))
+    .select("m", "n", "n_at_least", "expected", "b", "b_se", "total")
+    .sort("m")

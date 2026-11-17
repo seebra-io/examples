@@ -1,0 +1,16 @@
+{
+  "datasource/api-key-key": "api_key",
+  "datasource/auth-type": "none",
+  "datasource/headers": "{}",
+  "datasource/id": "68a537a8-d636-57e3-963a-45fca9bc2047",
+  "datasource/name": "JPL Small-Body Database Query API",
+  "datasource/node": {
+    "inputs": 1,
+    "node/x": 80,
+    "node/y": 800,
+    "outputs": 1
+  },
+  "datasource/params": "{}",
+  "datasource/type": "openapi",
+  "datasource/url": "https://ssd-api.jpl.nasa.gov"
+}

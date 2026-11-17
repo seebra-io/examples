@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/systems-with-five-or-more-planets-one-star.polars.py"
+  },
+  "transformation/data-child": ["data/id", "8513dac9-fe56-547f-9058-28871f829c62"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "ef4586cc-3214-5bcf-a6f8-2eb669f7f854",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Systems with five or more planets: one star weighed by each orbit",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 800
+  },
+  "transformation/parent": ["data/id", "da03da8d-2739-5ed3-9c84-3508becb4858"],
+  "transformation/units": "{}"
+}

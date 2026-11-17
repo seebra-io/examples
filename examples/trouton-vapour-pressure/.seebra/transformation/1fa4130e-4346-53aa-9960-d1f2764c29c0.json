@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/welch-s-t-o-h-donors-against-non-donors.polars.py"
+  },
+  "transformation/data-child": ["data/id", "5f1ea025-6705-591b-99e7-1dd00b88aea0"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "1fa4130e-4346-53aa-9960-d1f2764c29c0",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Welch's t: O–H donors against non-donors",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1920,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "734ae4fb-e4cc-5e88-84d8-040ea4d0aaa8"],
+  "transformation/units": "{}"
+}

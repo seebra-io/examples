@@ -1,0 +1,11 @@
+{
+  "data/id": "d77fa792-0dab-5511-9183-efd71234d095",
+  "data/name": "Wear-in fit: growth rate and doubling time of the poor share",
+  "data/node": {
+    "node/x": 2070,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "17bedb83-d0d8-5c8b-bdc0-43d11137a004"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

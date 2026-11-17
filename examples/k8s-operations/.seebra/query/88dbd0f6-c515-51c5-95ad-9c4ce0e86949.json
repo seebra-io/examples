@@ -1,0 +1,21 @@
+{
+  "query/data-child": ["data/id", "9e14c8df-e598-5c4c-8032-041df3c5d63b"],
+  "query/datasource": ["datasource/id", "7a0a254a-389d-5cca-bc8a-a53c5f739dfa"],
+  "query/dynamic?": false,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "88dbd0f6-c515-51c5-95ad-9c4ce0e86949",
+  "query/key": "",
+  "query/method": "POST",
+  "query/name": "Evict: dry run (changes nothing)",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 560
+  },
+  "query/params": "{\"dryRun\":\"All\"}",
+  "query/path": "/api/v1/namespaces/{{namespace}}/pods/{{pod}}/eviction",
+  "query/request-body": {
+    "$file": "queries/evict-dry-run-changes-nothing.json"
+  },
+  "query/units": "{}"
+}

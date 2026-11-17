@@ -1,0 +1,10 @@
+{
+  "data/id": "a40ca34d-b6c6-5a85-b2b0-09a4404079f2",
+  "data/name": "Field coverage (non-null per field) data",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "ff778f1b-caab-5be2-808b-3f9e78c9c333"],
+  "data/type": "json"
+}

@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/z-and-p-for-h1.polars.py"
+  },
+  "transformation/data-child": ["data/id", "37cde7df-7ddc-57d4-8c06-da63efd12625"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "b2b29664-3b86-5d19-b577-3688e71e64ba",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "z and p for H1",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 2380,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "4a4e8250-7941-586d-bafb-3f9b3a67329f"],
+  "transformation/units": "{}"
+}

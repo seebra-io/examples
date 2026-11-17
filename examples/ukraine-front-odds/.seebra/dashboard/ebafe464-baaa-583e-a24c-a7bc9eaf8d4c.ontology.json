@@ -1,0 +1,379 @@
+{
+  "title": "The Russo-Ukrainian war: control, forces, outcomes and diplomacy",
+  "summary": "Territory changes hands at a front reported as dated, located updates; forces are placed by open-source mapping; outcomes (ceasefire, peace, concessions, escalation) are priced by deadline in prediction markets; diplomacy is reported in the news.",
+  "concepts": [
+    {
+      "cid": "u1",
+      "label": "Belligerent",
+      "kind": "entity",
+      "description": "A party to the war.",
+      "fields": [
+        "side"
+      ],
+      "in_data": true,
+      "children": [
+        {
+          "cid": "u1a",
+          "label": "Russia",
+          "kind": "entity",
+          "as": "subtype",
+          "wikidata": "Q159",
+          "fields": [],
+          "in_data": false
+        },
+        {
+          "cid": "u1b",
+          "label": "Ukraine",
+          "kind": "entity",
+          "as": "subtype",
+          "wikidata": "Q212",
+          "fields": [],
+          "in_data": false
+        }
+      ]
+    },
+    {
+      "cid": "u2",
+      "label": "Territorial control",
+      "kind": "place",
+      "description": "Who holds an area, as DeepStateMap draws it.",
+      "fields": [
+        "status",
+        "km2_now",
+        "km2_baseline",
+        "change_km2"
+      ],
+      "in_data": true,
+      "children": [
+        {
+          "cid": "u2a",
+          "label": "Occupied since 2022",
+          "kind": "category",
+          "as": "subtype",
+          "fields": [
+            "status"
+          ],
+          "in_data": true,
+          "description": "Held by Russia since the full-scale invasion."
+        },
+        {
+          "cid": "u2b",
+          "label": "Occupied since 2014",
+          "kind": "category",
+          "as": "subtype",
+          "fields": [
+            "status"
+          ],
+          "in_data": true,
+          "description": "Crimea and the parts of Donetsk and Luhansk held since 2014."
+        },
+        {
+          "cid": "u2c",
+          "label": "Grey zone (status unknown)",
+          "kind": "category",
+          "as": "subtype",
+          "fields": [
+            "status"
+          ],
+          "in_data": true,
+          "description": "Contested or unconfirmed."
+        },
+        {
+          "cid": "u2d",
+          "label": "Liberated",
+          "kind": "category",
+          "as": "subtype",
+          "fields": [
+            "status"
+          ],
+          "in_data": true,
+          "description": "Retaken by Ukraine (mostly 2022)."
+        },
+        {
+          "cid": "u2e",
+          "label": "Terrain",
+          "kind": "measure",
+          "as": "property",
+          "fields": [
+            "z"
+          ],
+          "in_data": true,
+          "description": "Elevation (m) from GMRT: rivers, ridges and plains shape where a front can move."
+        }
+      ]
+    },
+    {
+      "cid": "u3",
+      "label": "Front-line change",
+      "kind": "event",
+      "description": "A place DeepStateMap reports changing hands, dated and located.",
+      "fields": [
+        "time",
+        "side",
+        "place",
+        "lat",
+        "lon",
+        "text"
+      ],
+      "in_data": true,
+      "children": [
+        {
+          "cid": "u3a",
+          "label": "Russian advance",
+          "kind": "category",
+          "as": "subtype",
+          "fields": [
+            "side"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "u3b",
+          "label": "Ukrainian advance",
+          "kind": "category",
+          "as": "subtype",
+          "fields": [
+            "side"
+          ],
+          "in_data": true
+        }
+      ]
+    },
+    {
+      "cid": "u4",
+      "label": "Force position",
+      "kind": "entity",
+      "description": "Where open-source mapping places military forces and infrastructure; a placement, not a confirmed location.",
+      "fields": [
+        "name",
+        "kind",
+        "lon",
+        "lat"
+      ],
+      "in_data": true,
+      "children": [
+        {
+          "cid": "u4a",
+          "label": "Unit (brigade, regiment, division, volunteer formation)",
+          "kind": "entity",
+          "as": "subtype",
+          "fields": [
+            "name",
+            "kind"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "u4b",
+          "label": "Attack direction",
+          "kind": "event",
+          "as": "subtype",
+          "fields": [],
+          "in_data": true
+        },
+        {
+          "cid": "u4c",
+          "label": "Military airfield",
+          "kind": "place",
+          "as": "subtype",
+          "fields": [
+            "name"
+          ],
+          "in_data": true
+        }
+      ]
+    },
+    {
+      "cid": "u5",
+      "label": "Outcome by deadline",
+      "kind": "event",
+      "description": "A yes/no outcome with a date: does X happen by (or does Y last through) the deadline? Each prediction market prices one deadline; a series of them is the outcome's probability over time, a cumulative distribution for 'by' and a survival curve for 'through'.",
+      "fields": [
+        "event",
+        "question",
+        "deadline",
+        "topic",
+        "shape"
+      ],
+      "in_data": true,
+      "facts": [
+        {
+          "text": "For 'X by d', P(by d1) <= P(by d2) whenever d1 < d2: a later deadline can only add ways to happen. A series that breaks this is mispriced or thin.",
+          "source": "https://en.wikipedia.org/wiki/Cumulative_distribution_function"
+        },
+        {
+          "text": "Market prices approximate probabilities only roughly: fees, the cost of locking up money until resolution, risk preferences and thin trading bias them, most at very low and very high prices.",
+          "source": "https://doi.org/10.1257/0895330041371321"
+        },
+        {
+          "text": "A market resolves by its own written rules (what counts as a ceasefire, which source decides); read them before reading the price.",
+          "source": "https://docs.polymarket.com/"
+        }
+      ],
+      "children": [
+        {
+          "cid": "u5a",
+          "label": "Market probability",
+          "kind": "measure",
+          "as": "property",
+          "description": "The price of Yes (0 to 1), with the bid-ask spread and the money traded behind it.",
+          "fields": [
+            "yes",
+            "bid",
+            "ask",
+            "spread",
+            "volume_usd",
+            "liquidity_usd",
+            "consistent"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "u5b",
+          "label": "Deadline",
+          "kind": "time",
+          "as": "property",
+          "description": "When the market resolves; its month and year are the 'before month-year X'.",
+          "fields": [
+            "deadline"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "u5t0",
+          "label": "Ceasefire",
+          "kind": "category",
+          "as": "subtype",
+          "description": "A mutually agreed halt to fighting (full or energy-only).",
+          "fields": [
+            "topic"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "u5t1",
+          "label": "Peace deal",
+          "kind": "category",
+          "as": "subtype",
+          "description": "A signed agreement ending the war.",
+          "fields": [
+            "topic"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "u5t2",
+          "label": "Territory",
+          "kind": "category",
+          "as": "subtype",
+          "description": "Ukraine ceding or recognising Russian control of territory.",
+          "fields": [
+            "topic"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "u5t3",
+          "label": "Leadership",
+          "kind": "category",
+          "as": "subtype",
+          "description": "A change of head of state or an election.",
+          "fields": [
+            "topic"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "u5t4",
+          "label": "Escalation",
+          "kind": "category",
+          "as": "subtype",
+          "description": "A clash with NATO, an attack on an EU or NATO country, mobilisation.",
+          "fields": [
+            "topic"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "u5t5",
+          "label": "Alliances & guarantees",
+          "kind": "category",
+          "as": "subtype",
+          "description": "NATO membership or neutrality, security guarantees.",
+          "fields": [
+            "topic"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "u5m",
+          "label": "Play-money forecast",
+          "kind": "source",
+          "as": "part",
+          "description": "Manifold's markets: play money, more questions, fewer traders; a second opinion beside the priced ones.",
+          "fields": [
+            "question",
+            "yes",
+            "closes",
+            "traders"
+          ],
+          "in_data": true
+        }
+      ]
+    },
+    {
+      "cid": "u6",
+      "label": "Diplomatic development",
+      "kind": "event",
+      "description": "Talks, meetings, ceasefire proposals, sanctions and UN action, as reported by UN News and indexed by GDELT.",
+      "fields": [
+        "date",
+        "title",
+        "source",
+        "url"
+      ],
+      "in_data": true,
+      "children": [
+        {
+          "cid": "u6a",
+          "label": "UN News",
+          "kind": "source",
+          "as": "part",
+          "description": "The UN's own news service (regional feed).",
+          "fields": [
+            "source"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "u6b",
+          "label": "GDELT",
+          "kind": "source",
+          "as": "part",
+          "description": "Machine-indexed world news coverage (English here); one request every 5 seconds per address.",
+          "fields": [
+            "source"
+          ],
+          "in_data": true
+        }
+      ]
+    },
+    {
+      "cid": "u7",
+      "label": "DeepStateMap.Live",
+      "kind": "source",
+      "description": "A Ukrainian volunteer open-source map of the war, updated daily; its history goes back to 2022.",
+      "fields": [
+        "snapshot",
+        "url"
+      ],
+      "in_data": true,
+      "facts": [
+        {
+          "text": "DeepStateMap's updates are short notes ('The enemy advanced near X') with each place linked to its map.",
+          "source": "https://deepstatemap.live/"
+        }
+      ]
+    }
+  ]
+}

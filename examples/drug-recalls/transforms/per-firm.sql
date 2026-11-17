@@ -1,0 +1,1 @@
+SELECT firm, COUNT(*) AS recalls, SUM(CASE WHEN class = 'Class I' THEN 1 ELSE 0 END) AS class_i, SUM(CASE WHEN class = 'Class II' THEN 1 ELSE 0 END) AS class_ii, SUM(CASE WHEN class = 'Class III' THEN 1 ELSE 0 END) AS class_iii, MAX(reported) AS latest FROM data GROUP BY firm ORDER BY recalls DESC, latest DESC LIMIT 15

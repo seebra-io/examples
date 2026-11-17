@@ -1,0 +1,16 @@
+{
+  "graph/content": {
+    "$file": "graphs/temperature-profiles-from-pole-to-pole-and-the.js"
+  },
+  "graph/id": "9e15bc94-3521-5b42-8d0d-2b04d0c71655",
+  "graph/inputs": [
+    ["data/id", "323d8d15-7501-57e1-83da-b37fb06909ef"]
+  ],
+  "graph/language": "javascript",
+  "graph/name": "Temperature profiles from pole to pole, and the tropopause",
+  "graph/node": {
+    "node/x": 1920,
+    "node/y": 560
+  },
+  "graph/parent": ["data/id", "710853d0-02bb-59b3-9b95-cb36a05b3c9b"]
+}

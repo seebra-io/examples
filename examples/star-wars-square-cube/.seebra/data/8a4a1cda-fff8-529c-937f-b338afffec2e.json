@@ -1,0 +1,10 @@
+{
+  "data/id": "8a4a1cda-fff8-529c-937f-b338afffec2e",
+  "data/name": "All 37 species, with their average height and lifespan data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 320
+  },
+  "data/parent": ["query/id", "f06be086-13a5-5a7f-84ff-341926ca710e"],
+  "data/type": "json"
+}

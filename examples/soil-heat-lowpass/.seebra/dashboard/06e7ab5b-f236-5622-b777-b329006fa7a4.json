@@ -1,0 +1,49 @@
+{
+  "dashboard/id": "06e7ab5b-f236-5622-b777-b329006fa7a4",
+  "datas": [
+    ["data/id", "34815029-a708-59e0-a488-4cefcb3a38be"],
+    ["data/id", "fb7ea09d-9973-57b3-b29d-a6f3f5c6cdb0"],
+    ["data/id", "c0c5c9d2-3add-5bbd-a93d-043b1f7d8a30"],
+    ["data/id", "79566d17-3115-5f7e-b23f-d9a2b5129e55"],
+    ["data/id", "3e74b59e-8ba8-5256-b226-c80c7eb2074e"],
+    ["data/id", "111fdc1b-b926-56a0-9508-fe9667c15f9c"],
+    ["data/id", "2e0fed90-144a-59e4-a846-cb63e553ed6c"],
+    ["data/id", "e47cf242-c627-5464-a396-3c7c53562c34"],
+    ["data/id", "cd5f9a08-45b1-5915-a671-ad0ab99046f6"]
+  ],
+  "datasources": [
+    ["datasource/id", "d32d300d-59e1-50b0-84da-cc8ab473e8b6"]
+  ],
+  "description": "Three years of hourly air temperature and soil temperature in four layers down to 2.55 m under Berlin (Open-Meteo's historical weather API, ERA5-Land reanalysis). Systems idea: the frequency response of a diffusive system. Heat soaks into the ground by diffusion, and the heat equation says a temperature cycle of angular frequency ω is damped as e^(−z/d) and delayed by z/d radians, with damping depth d = √(2κ/ω): the faster the cycle, the shallower it reaches. The steps lay the layers side by side (SQL), take each layer's daily and annual harmonic with a one-frequency Fourier transform (SQL), compare amplitude and phase with the top layer's (Polars), and fit the damping depth for each cycle, the soil's thermal diffusivity κ, and the ratio of the two depths against √(8766 h / 24 h) ≈ 19. The aha: the daily swing is gone below about 30 cm while the yearly one still reaches 2 m two months late, and the lag passes 90°, which no single first-order (RC) stage can do: the ground is a distributed low-pass, a chain of infinitely many RC stages (like a wall, a cable or a transmission line). Caveats: ERA5-Land soil temperatures are a land-surface model's output (which itself solves heat diffusion), not thermometers; the layers are thick averages; snow, frost and moisture change κ through the year; daily amplitudes under 1% of the top layer's are left out of the fit. Change the latitude and longitude for another place's soil.",
+  "graphs": [
+    ["graph/id", "7e7c45db-3450-5367-81a5-a0a40778a727"],
+    ["graph/id", "2ec35acf-4976-556e-af1c-f510223e471b"],
+    ["graph/id", "ba643a2e-c1d3-5d71-a398-96ba3fc5c047"],
+    ["graph/id", "5cb1d6cd-fad8-5012-9bbd-ec45e7da0ec3"]
+  ],
+  "grids": [],
+  "name": "The ground is a low-pass filter",
+  "ontology": {
+    "$file": ".seebra/dashboard/06e7ab5b-f236-5622-b777-b329006fa7a4.ontology.json",
+    "$json": true
+  },
+  "queries": [
+    ["query/id", "485d3d29-25cb-5f3f-a84c-36d40e47ed15"]
+  ],
+  "studies": [
+    ["study/id", "3b291a4d-21b7-59e4-9911-2ee6e230852c"]
+  ],
+  "tables": [],
+  "texts": [],
+  "timers": [],
+  "transformations": [
+    ["transformation/id", "72570940-7230-591b-89f5-ee4a026d4eac"],
+    ["transformation/id", "c0cb8a3c-f46c-5feb-ade4-0f3875812096"],
+    ["transformation/id", "40454b0c-e000-5fe0-aabe-fe96b9d625c8"],
+    ["transformation/id", "a6069af3-7462-58e0-ae8e-b30b89846c88"],
+    ["transformation/id", "16b3dd88-b7a3-52ac-b6b8-0fda1a0d7bee"],
+    ["transformation/id", "a466bf40-b3e1-582b-b1c7-25e54643b80a"],
+    ["transformation/id", "3c210ba8-3237-5a1e-bb88-b48e19acac92"],
+    ["transformation/id", "c03ec395-10fc-5e08-9f5f-13ac1e7fe3cb"]
+  ]
+}

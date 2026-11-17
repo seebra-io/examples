@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/slope-in-three-ranges-convexity.polars.py"
+  },
+  "transformation/data-child": ["data/id", "7319d58e-876e-5de2-9cb8-a04f551c36a8"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "be471354-bd28-53e9-bb35-0d7565ac9269",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Slope in three ranges (convexity)",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 2380,
+    "node/y": 800
+  },
+  "transformation/parent": ["data/id", "b47f6168-5b57-55b0-9678-dca54b2e8bcd"],
+  "transformation/units": "{}"
+}

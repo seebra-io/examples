@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/the-naive-way-least-squares-lines-on-log-log.polars.py"
+  },
+  "transformation/data-child": ["data/id", "bda4f65b-05ca-538b-9a34-79a094730094"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "16544e4f-4302-5280-b8e2-61c29b2bb0e1",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "The naive way: least-squares lines on log-log plots",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 800
+  },
+  "transformation/parent": ["data/id", "4dda24fe-bb3d-597d-99f0-f996c2355244"],
+  "transformation/units": "{}"
+}

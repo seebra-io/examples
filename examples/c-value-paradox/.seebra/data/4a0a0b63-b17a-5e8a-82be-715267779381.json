@@ -1,0 +1,11 @@
+{
+  "data/id": "4a0a0b63-b17a-5e8a-82be-715267779381",
+  "data/name": "Prokaryotes against eukaryotes",
+  "data/node": {
+    "node/x": 2530,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "a5ee1c4b-f690-5e32-a520-b48a073c8d99"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

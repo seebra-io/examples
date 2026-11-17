@@ -1,0 +1,11 @@
+{
+  "data/id": "cf9687a4-2c1c-502b-a2da-7e6ca8af9231",
+  "data/name": "Holidays",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "dd72616a-93a5-5199-9ba2-0c00a2344dc4"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

@@ -1,0 +1,10 @@
+{
+  "data/id": "a33a18e6-c802-5a31-b25e-ddf171067680",
+  "data/name": "Each alloy series with its binary end points (x = 0 and 1) data",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "f7a783e7-8ee4-59e0-ae43-de2a1390b14f"],
+  "data/type": "json"
+}

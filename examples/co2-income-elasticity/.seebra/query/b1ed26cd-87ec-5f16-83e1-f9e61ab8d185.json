@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "281bc1ba-e03b-5809-bb13-93146219812c"],
+  "query/datasource": ["datasource/id", "546b1607-ad5a-584f-8f46-6e8e52f1fc9c"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "b1ed26cd-87ec-5f16-83e1-f9e61ab8d185",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "GDP per person (PPP) 1990–2024, six countries",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 1280
+  },
+  "query/params": "{\"format\":\"json\",\"date\":\"1990:2024\",\"per_page\":\"1000\"}",
+  "query/path": "/country/SWE;USA;GBR;DEU;CHN;IND/indicator/NY.GDP.PCAP.PP.KD",
+  "query/request-body": "",
+  "query/units": "{}"
+}

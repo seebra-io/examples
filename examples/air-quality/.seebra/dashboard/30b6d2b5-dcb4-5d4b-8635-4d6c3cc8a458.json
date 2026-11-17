@@ -1,0 +1,31 @@
+{
+  "dashboard/id": "30b6d2b5-dcb4-5d4b-8635-4d6c3cc8a458",
+  "datas": [
+    ["data/id", "be7a52f7-9cbf-54d3-9cb8-994a3214eb1e"],
+    ["data/id", "744c1f80-1f7f-5bbf-9614-cf17fa05a3ee"],
+    ["data/id", "f15fedcd-5fca-5554-8c38-5bd5346d10b4"],
+    ["data/id", "d739ffcb-3327-5681-9fdc-d2e4a196ffc7"]
+  ],
+  "datasources": [
+    ["datasource/id", "3d7e16dd-32b6-5e15-bc6f-363cb48ea28d"]
+  ],
+  "description": "Open-Meteo's CAMS air-quality model for eight cities: hourly fine particles (PM2.5) for the past three days and the next two, against the WHO 24-hour guideline (15 µg/m³), and daily means of PM2.5, PM10, NO₂ and ozone. Statistics: the guideline is a 99th percentile (no more than 3–4 days a year above it), so the second graph shows each city's distribution of hours as quantiles and counts the days whose mean exceeds 15. Modelled values, not station measurements; five days are a small sample of a year.",
+  "graphs": [
+    ["graph/id", "0f7afc1f-3cb7-5988-addb-77be1961c794"],
+    ["graph/id", "635f63d4-d5a8-528a-aeb5-ad36ead6f654"]
+  ],
+  "grids": [],
+  "name": "Air quality in eight cities",
+  "queries": [
+    ["query/id", "eb9d1313-854f-53b2-ad28-d8d6934e97e0"]
+  ],
+  "studies": [],
+  "tables": [],
+  "texts": [],
+  "timers": [],
+  "transformations": [
+    ["transformation/id", "22604cfe-9672-5181-9ae7-e0db3b26583b"],
+    ["transformation/id", "c39fcd40-a7e1-5b64-8486-06abe903acf4"],
+    ["transformation/id", "d6e6852b-d64b-5152-9522-49414629a4ae"]
+  ]
+}

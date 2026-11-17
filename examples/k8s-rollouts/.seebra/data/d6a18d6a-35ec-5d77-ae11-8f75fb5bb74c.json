@@ -1,0 +1,11 @@
+{
+  "data/id": "d6a18d6a-35ec-5d77-ae11-8f75fb5bb74c",
+  "data/name": "Running pods against their template",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 560
+  },
+  "data/parent": ["transformation/id", "0ae80fe2-c35a-5521-a3e9-e5e5fe35fbaa"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

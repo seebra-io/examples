@@ -1,0 +1,21 @@
+{
+  "transformation/content": {
+    "$file": "transforms/cross-correlation-per-lag.polars.py"
+  },
+  "transformation/data-child": ["data/id", "44222fa0-4df7-5391-a410-eac65a49460a"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "bbc7be3b-440a-5721-bcca-d5cec7c63ccc",
+  "transformation/inputs": [
+    ["data/id", "3851543a-c9f0-5661-b6ba-43a46c3e8274"]
+  ],
+  "transformation/language": "polars",
+  "transformation/name": "Cross-correlation per lag",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "bda1f067-2214-5da8-a325-19926df4903f"],
+  "transformation/units": "{}"
+}

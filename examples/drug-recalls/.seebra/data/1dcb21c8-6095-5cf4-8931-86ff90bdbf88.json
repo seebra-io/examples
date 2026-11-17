@@ -1,0 +1,10 @@
+{
+  "data/id": "1dcb21c8-6095-5cf4-8931-86ff90bdbf88",
+  "data/name": "Latest drug recalls data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 80
+  },
+  "data/parent": ["query/id", "6e2ed921-c8dd-51e0-ac92-88722d7c6b90"],
+  "data/type": "json"
+}

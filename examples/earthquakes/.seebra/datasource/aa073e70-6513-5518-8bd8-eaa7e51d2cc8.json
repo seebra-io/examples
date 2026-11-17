@@ -1,0 +1,16 @@
+{
+  "datasource/api-key-key": "api_key",
+  "datasource/auth-type": "none",
+  "datasource/headers": "{}",
+  "datasource/id": "aa073e70-6513-5518-8bd8-eaa7e51d2cc8",
+  "datasource/name": "USGS earthquakes",
+  "datasource/node": {
+    "inputs": 1,
+    "node/x": 80,
+    "node/y": 80,
+    "outputs": 1
+  },
+  "datasource/params": "{}",
+  "datasource/type": "openapi",
+  "datasource/url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0"
+}

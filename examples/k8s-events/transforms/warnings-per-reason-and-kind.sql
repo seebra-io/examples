@@ -1,0 +1,1 @@
+SELECT reason, kind, COUNT(*) AS events, SUM(occurrences) AS occurrences, COUNT(DISTINCT object) AS objects, COUNT(DISTINCT namespace) AS namespaces, MAX(last) AS latest FROM data GROUP BY reason, kind ORDER BY events DESC

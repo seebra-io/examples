@@ -1,0 +1,21 @@
+{
+  "transformation/content": {
+    "$file": "transforms/annealing-runs-50-per-schedule-and-random-splits.js"
+  },
+  "transformation/data-child": ["data/id", "1234656e-92a3-5123-bfa9-cbcd0b1acf11"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "js-web-worker",
+  "transformation/id": "75b81f0a-dd6e-5e9b-b41b-4a0fa3078c1c",
+  "transformation/inputs": [
+    ["data/id", "b330a6f0-f2f6-5861-af8e-0f1f5998e05b"]
+  ],
+  "transformation/language": "javascript",
+  "transformation/name": "Annealing runs: 50 per schedule, and random splits",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 560
+  },
+  "transformation/parent": ["data/id", "5d96d4b6-5205-557d-b13c-7da502ca7afb"],
+  "transformation/units": "{}"
+}

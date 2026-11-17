@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "1cfa24fe-3f34-51fe-9965-bac3bbb5023f"],
+  "query/datasource": ["datasource/id", "0ad2947c-0e41-5bf4-bf2c-3dedb20e3b4e"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "3d66c81f-c02b-5480-8da6-96d8b046b435",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Porcini (Boletus edulis): Swedish records per month, 2000–2025",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 800
+  },
+  "query/params": "{\"taxonKey\":\"5954958\",\"country\":\"SE\",\"year\":\"2000,2025\",\"limit\":\"0\",\"facet\":\"month\",\"facetLimit\":\"12\"}",
+  "query/path": "/occurrence/search",
+  "query/request-body": "",
+  "query/units": "{}"
+}

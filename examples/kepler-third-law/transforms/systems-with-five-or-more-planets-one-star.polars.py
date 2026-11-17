@@ -1,0 +1,7 @@
+data.filter(col("sy_pnum") >= 5)
+    .with_columns(planets_here = len().over("hostname"))
+    .filter(col("planets_here") >= 5)
+    .with_columns(m_mean = col("m_kepler").mean().over("hostname"), m_sd = col("m_kepler").std().over("hostname"))
+    .with_columns(spread_pct = (100 * col("m_sd") / col("m_mean")).round(2), offset_pct = (100 * (col("m_mean") / col("star_msun") - 1)).round(2))
+    .select("hostname", "pl_name", "discoverymethod", "planets_here", "star_msun", "a_au", "period_days", "m_kepler", "m_mean", "spread_pct", "offset_pct", "link")
+    .sort("star_msun", "hostname", "a_au")

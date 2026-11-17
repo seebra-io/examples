@@ -1,0 +1,10 @@
+{
+  "data/id": "83622778-ee95-5e04-9331-b85995d0ece5",
+  "data/name": "The day folded at the quarter-hour data",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "da54a579-0c4b-56f2-b141-c8705f0f5828"],
+  "data/type": "json"
+}

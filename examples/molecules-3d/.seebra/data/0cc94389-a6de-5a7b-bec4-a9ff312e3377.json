@@ -1,0 +1,10 @@
+{
+  "data/id": "0cc94389-a6de-5a7b-bec4-a9ff312e3377",
+  "data/name": "Haemoglobin 4HHB (PDB) data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 560
+  },
+  "data/parent": ["query/id", "d88d5c25-6147-55f2-944e-5af4ed411ce6"],
+  "data/type": "json"
+}

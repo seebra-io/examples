@@ -1,0 +1,35 @@
+{
+  "dashboard/id": "e9890bcd-5c2c-5e85-848a-d67357196a2d",
+  "datas": [
+    ["data/id", "5f3b8179-374e-5caf-a6fa-c7216535102b"],
+    ["data/id", "e497c999-ab5d-56ee-a2a0-0b4d3ad60268"],
+    ["data/id", "5760fce8-83e7-5538-b9f4-220743ba3cee"],
+    ["data/id", "abd4cf7c-7c4c-5238-8f40-7cbbc3a83fe9"],
+    ["data/id", "bb4980c9-d85a-5c6c-b106-e3680885eeaa"],
+    ["data/id", "df942181-6cdb-5662-ab22-a264c24d9ce2"]
+  ],
+  "datasources": [
+    ["datasource/id", "2404fa55-6c8d-5e80-8267-818c1256845d"],
+    ["datasource/id", "8baf5d9a-7219-5322-8cbb-57d53f696733"]
+  ],
+  "description": "Live status of the services a platform team depends on (GitHub, Cloudflare), from their public Statuspage summaries: every component with its status, and how many are not operational per service. Cloudflare lists hundreds of components (one per data centre), GitHub a dozen, so compare shares, not counts.",
+  "graphs": [
+    ["graph/id", "cfad7f2d-6cb6-5dfa-8978-337b996de054"]
+  ],
+  "grids": [],
+  "name": "Service status",
+  "queries": [
+    ["query/id", "16674b7e-419f-52da-b45d-9f7745054d2f"],
+    ["query/id", "f4a9ffcb-9737-5bb3-b2f6-090d07bebdf4"]
+  ],
+  "studies": [],
+  "tables": [],
+  "texts": [],
+  "timers": [],
+  "transformations": [
+    ["transformation/id", "c22b72fd-4915-5fda-8e9c-9b13d4340cf5"],
+    ["transformation/id", "63c075a7-f5a9-5d1a-9462-12fd3f4e0f0d"],
+    ["transformation/id", "2b483250-57df-5590-925a-b66ca7decec6"],
+    ["transformation/id", "ff303110-e58c-5e81-b663-da9f06cdb627"]
+  ]
+}

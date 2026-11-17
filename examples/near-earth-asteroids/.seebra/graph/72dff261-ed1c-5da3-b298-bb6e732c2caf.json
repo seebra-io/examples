@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/sizes-on-a-log-scale-median-and-geometric-mean.js"
+  },
+  "graph/id": "72dff261-ed1c-5da3-b298-bb6e732c2caf",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Sizes on a log scale: median and geometric mean vs the mean",
+  "graph/node": {
+    "node/x": 2380,
+    "node/y": 80
+  },
+  "graph/parent": ["data/id", "dead8837-fdff-5be7-bddb-f08bc87ffa69"]
+}

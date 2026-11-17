@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "922359be-9c67-5ad5-b312-dd3502b959d2"],
+  "query/datasource": ["datasource/id", "8d5b4c1a-cc25-5628-b1c0-4fdaa1c240c0"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "2a16ab62-4709-5de1-a507-c4eab5a294fd",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Theropod genera, without modern birds (Aves)",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 80
+  },
+  "query/params": "{\"base_name\":\"Theropoda^Aves\",\"rank\":\"genus\",\"show\":\"app,class\",\"taxon_status\":\"valid\",\"interval\":\"Triassic,Cretaceous\",\"vocab\":\"pbdb\"}",
+  "query/path": "/taxa/list.json",
+  "query/request-body": "",
+  "query/units": "{}"
+}

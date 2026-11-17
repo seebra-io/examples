@@ -1,0 +1,10 @@
+{
+  "data/id": "9a950e6f-599d-5ddb-b4cd-1a234a340bf5",
+  "data/name": "Hot questions data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 80
+  },
+  "data/parent": ["query/id", "a3952737-a13e-5d05-a8cb-a4d4b898f990"],
+  "data/type": "json"
+}

@@ -1,0 +1,10 @@
+{
+  "data/id": "dc46b490-3ffb-5aba-8d18-81d5d16643e5",
+  "data/name": "Mars Global Surveyor, NASA's 3D model data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 320
+  },
+  "data/parent": ["query/id", "0861cba4-8036-5c8c-93ac-947ba297244f"],
+  "data/type": "json"
+}

@@ -1,0 +1,10 @@
+{
+  "data/id": "caa982b2-e189-53bd-b996-1aab4dae2ba2",
+  "data/name": "Deployments (all namespaces) data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 80
+  },
+  "data/parent": ["query/id", "b4f26ecb-9db0-56d4-82d0-54742ce9e791"],
+  "data/type": "json"
+}

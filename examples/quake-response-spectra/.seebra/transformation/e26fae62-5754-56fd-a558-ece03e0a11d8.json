@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/attenuation-per-period-q.polars.py"
+  },
+  "transformation/data-child": ["data/id", "b164ddcf-7010-5bb7-bf96-1d62c02248ab"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "e26fae62-5754-56fd-a558-ece03e0a11d8",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Attenuation per period (κ, Q)",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 2380,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "531d627e-5787-5798-9fda-40ecd3369a64"],
+  "transformation/units": "{}"
+}

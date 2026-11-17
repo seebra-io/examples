@@ -1,0 +1,1 @@
+data.group_by("decade").agg(laureates = len(), women = (col("gender") == "female").cast(Int64).sum()).sort("decade")

@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/all-years-and-the-two-halves.sql"
+  },
+  "transformation/data-child": ["data/id", "cbe0062d-68a2-5207-b1af-358b159bcb4b"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "80234a2c-adb1-5149-a0ca-9024f96c1476",
+  "transformation/inputs": [],
+  "transformation/language": "sql",
+  "transformation/name": "All years and the two halves",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1920,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "8d631dcf-8f6a-59bf-872d-1eb0d1fcf14d"],
+  "transformation/units": "{}"
+}

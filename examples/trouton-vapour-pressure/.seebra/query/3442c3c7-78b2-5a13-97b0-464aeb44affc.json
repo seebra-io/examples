@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "e2731062-f577-5ffa-808e-9abdc400a894"],
+  "query/datasource": ["datasource/id", "bd84f75e-5de7-5c70-8c26-7fd84d13094e"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "3442c3c7-78b2-5a13-97b0-464aeb44affc",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Vapour pressures with their temperature, and boiling points (Wikidata, as entered)",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 80
+  },
+  "query/params": "{\"query\":\"SELECT ?item ?itemLabel ?p ?pu ?t ?tu ?tb ?tbu ?tbp ?tbpu ?cid ?smiles WHERE { ?item p:P2119 ?st. ?st psv:P2119 [wikibase:quantityAmount ?p; wikibase:quantityUnit ?pu]. ?st pqv:P2076 [wikibase:quantityAmount ?t; wikibase:quantityUnit ?tu]. ?item p:P2102 ?bs. ?bs psv:P2102 [wikibase:quantityAmount ?tb; wikibase:quantityUnit ?tbu]. OPTIONAL { ?bs pqv:P2077 [wikibase:quantityAmount ?tbp; wikibase:quantityUnit ?tbpu]. } OPTIONAL { ?item wdt:P662 ?cid. } OPTIONAL { ?item wdt:P233 ?smiles. } SERVICE wikibase:label { bd:serviceParam wikibase:language \\\"en\\\". } }\",\"format\":\"json\"}",
+  "query/path": "/sparql",
+  "query/request-body": "",
+  "query/units": "{}"
+}

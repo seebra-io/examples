@@ -1,0 +1,11 @@
+{
+  "data/id": "e8c83fb7-9bd9-5206-8094-b07ada9ca9e2",
+  "data/name": "Sample means against σ/√n and γ/√n",
+  "data/node": {
+    "node/x": 2530,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "e9e9ebaa-9dc6-5d31-9c65-3d7722aae169"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

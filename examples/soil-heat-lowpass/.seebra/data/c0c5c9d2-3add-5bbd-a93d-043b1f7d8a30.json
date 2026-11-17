@@ -1,0 +1,10 @@
+{
+  "data/id": "c0c5c9d2-3add-5bbd-a93d-043b1f7d8a30",
+  "data/name": "One row per hour and layer data",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "c0cb8a3c-f46c-5feb-ade4-0f3875812096"],
+  "data/type": "json"
+}

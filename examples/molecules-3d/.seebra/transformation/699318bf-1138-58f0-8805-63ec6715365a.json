@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/atoms-3d-conformer.polars.py"
+  },
+  "transformation/data-child": ["data/id", "8e45da5a-d35e-5afe-91df-b524be08afca"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "699318bf-1138-58f0-8805-63ec6715365a",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Atoms (3D conformer)",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "fa8ca6d4-4e9b-588c-9d5b-2c12888ce4ea"],
+  "transformation/units": "{}"
+}

@@ -1,0 +1,21 @@
+{
+  "transformation/content": {
+    "$file": "transforms/both-directions-of-the-advisor-network.sql"
+  },
+  "transformation/data-child": ["data/id", "63796439-9e55-5fe9-a41a-0a85fa9060ee"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "f937d1b7-6753-58bc-a40c-ff71d08498cb",
+  "transformation/inputs": [
+    ["data/id", "715da144-da6b-5674-9c9f-0255bf58673e"]
+  ],
+  "transformation/language": "sql",
+  "transformation/name": "Both directions of the advisor network",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "4dda24fe-bb3d-597d-99f0-f996c2355244"],
+  "transformation/units": "{}"
+}

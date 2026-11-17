@@ -1,0 +1,10 @@
+{
+  "data/id": "7dbe09ee-75e0-50c0-8d08-67cab2eba6b1",
+  "data/name": "GDP (current US$), latest data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 560
+  },
+  "data/parent": ["query/id", "7aaf522f-65a4-5af3-8a2b-3d45809a2327"],
+  "data/type": "json"
+}

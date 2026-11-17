@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "83d101ff-dd29-57dd-ac17-65362a8ed9e3"],
+  "query/datasource": ["datasource/id", "9523a5e1-966f-5a5f-8c28-208a44aa46b3"],
+  "query/dynamic?": false,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "b9737cb0-d27b-5ff3-9de7-2b71b0cee0cd",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Ridgecrest M7.1 ShakeMap station list",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 80
+  },
+  "query/params": "{}",
+  "query/path": "/product/shakemap/ci38457511/ci/1562894825412/download/stationlist.json",
+  "query/request-body": "",
+  "query/units": "{}"
+}

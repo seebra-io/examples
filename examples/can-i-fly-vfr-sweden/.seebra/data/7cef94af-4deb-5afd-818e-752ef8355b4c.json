@@ -1,0 +1,10 @@
+{
+  "data/id": "7cef94af-4deb-5afd-818e-752ef8355b4c",
+  "data/name": "Along the route: distance, when each airport is used, its ±1 h window data",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "b5a2067f-7fa4-57dd-8624-2636533a64c0"],
+  "data/type": "json"
+}

@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/bond-length-per-kind-distribution.polars.py"
+  },
+  "transformation/data-child": ["data/id", "98e5398b-4dde-520d-9623-1d08484ec4ec"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "b3666bf1-ca73-5c3a-ab6f-12cf493ef2fd",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Bond length per kind (distribution)",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "a8a4e4d5-7c9d-5b43-ae2a-087b4fe91ade"],
+  "transformation/units": "{}"
+}

@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/reflections-hkl-and-the-diamond-zincblende.sql"
+  },
+  "transformation/data-child": ["data/id", "44d8c465-14c5-5a0c-bf9e-6ba8b3e67d38"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "6e1389e3-9480-5195-a131-f4713a8731b9",
+  "transformation/inputs": [],
+  "transformation/language": "sql",
+  "transformation/name": "Reflections hkl and the diamond/zincblende selection rule",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1920,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "6c626d44-2db1-5859-b2d8-033cfc58c2ce"],
+  "transformation/units": "{}"
+}

@@ -1,0 +1,11 @@
+{
+  "data/id": "eae683d0-325a-5230-9321-69a674b640df",
+  "data/name": "All materials with their indices and ranks",
+  "data/node": {
+    "node/x": 2070,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "bfd9e220-1556-54dc-80c1-a5673f64f81b"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

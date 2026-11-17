@@ -1,0 +1,8 @@
+{
+  "file": {
+    "file/example": "bridge-deterioration"
+  },
+  "format": 2,
+  "root": ["dashboard/id", "00b6be1c-594e-5a7b-a4b6-b640d02c3bfc"],
+  "seebra": "board"
+}

@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "f220f2fa-cc0f-53ae-b7c7-873ade035564"],
+  "query/datasource": ["datasource/id", "be68ed22-c521-59a9-9ecf-b5e15828dd8f"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "e706f87a-71ae-5e3c-a302-f7f4b8f18597",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "NSR 16265: beat annotations, first 15 min (128 Hz)",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 80
+  },
+  "query/params": "{\"action\":\"fetch\",\"db\":\"nsrdb/1.0.0\",\"record\":\"16265\",\"annotator\":\"atr\",\"t0\":\"0\",\"dt\":\"900\"}",
+  "query/path": "/server",
+  "query/request-body": "",
+  "query/units": "{}"
+}

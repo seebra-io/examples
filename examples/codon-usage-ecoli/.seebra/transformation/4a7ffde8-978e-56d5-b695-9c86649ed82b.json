@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/the-genetic-code-read-from-the-data.polars.py"
+  },
+  "transformation/data-child": ["data/id", "796ad969-aa5d-5129-a293-c427aa1d6ba2"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "4a7ffde8-978e-56d5-b695-9c86649ed82b",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "The genetic code, read from the data",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 2380,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "013347ed-d64f-5f64-88f7-03889c34c912"],
+  "transformation/units": "{}"
+}

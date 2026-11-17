@@ -1,0 +1,11 @@
+{
+  "data/id": "f2b113c3-a84c-5bef-91bc-2b5911842983",
+  "data/name": "The parts",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "9b800753-41dc-5f09-993f-698d9255284e"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

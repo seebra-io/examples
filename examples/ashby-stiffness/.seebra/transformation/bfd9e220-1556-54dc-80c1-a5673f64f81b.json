@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/performance-indices-e-e-1-2-e-1-3-and-the-mass.polars.py"
+  },
+  "transformation/data-child": ["data/id", "eae683d0-325a-5230-9321-69a674b640df"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "bfd9e220-1556-54dc-80c1-a5673f64f81b",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Performance indices E/ρ, E^½/ρ, E^⅓/ρ, and the mass against steel",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1920,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "eae605a2-9655-55be-a15b-27f3545b3c6f"],
+  "transformation/units": "{}"
+}

@@ -1,0 +1,11 @@
+{
+  "data/id": "bf2a526c-15f2-51cf-9dcc-53bcdab80c05",
+  "data/name": "Manifold forecasts",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 1280
+  },
+  "data/parent": ["transformation/id", "925730df-4593-5357-8906-994a041a90d5"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

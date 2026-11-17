@@ -1,0 +1,21 @@
+{
+  "transformation/content": {
+    "$file": "transforms/chow-test-is-the-break-real-measure-by-measure.polars.py"
+  },
+  "transformation/data-child": ["data/id", "97a230de-4684-56a2-bf5c-63b8c517a4f6"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "0741c40a-630d-5399-9078-208ab9a5cbac",
+  "transformation/inputs": [
+    ["data/id", "9f86c99e-d4da-5157-aa22-f3ecc26cdf09"]
+  ],
+  "transformation/language": "polars",
+  "transformation/name": "Chow test: is the break real, measure by measure?",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 2380,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "ad2da19a-511a-5208-b056-5c9b6cea6f94"],
+  "transformation/units": "{}"
+}

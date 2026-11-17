@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/recalls.polars.py"
+  },
+  "transformation/data-child": ["data/id", "537b8fc8-d58f-5406-99c1-ce0a81dfbabf"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "b273ae04-8f72-51ae-834f-5f5928e0cc9c",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Recalls",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "1dcb21c8-6095-5cf4-8931-86ff90bdbf88"],
+  "transformation/units": "{}"
+}

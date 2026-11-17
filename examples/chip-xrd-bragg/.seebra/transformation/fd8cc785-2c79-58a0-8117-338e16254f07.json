@@ -1,0 +1,25 @@
+{
+  "transformation/content": {
+    "$file": "transforms/all-cod-entries-of-the-six-materials.sql"
+  },
+  "transformation/data-child": ["data/id", "2aabb9b8-1743-5c0a-a03f-29f0455be53d"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "fd8cc785-2c79-58a0-8117-338e16254f07",
+  "transformation/inputs": [
+    ["data/id", "053b7fc6-2246-5668-bf09-7201d7f37737"],
+    ["data/id", "1d60a1ae-98fd-5f97-8606-8d909ecdbbc6"],
+    ["data/id", "cc30ec03-dc86-59d2-997a-cf2f3df95b62"],
+    ["data/id", "868ae04c-3018-512c-9182-7887ed3f2a47"],
+    ["data/id", "afd0fb36-7897-5fb4-af51-35dd41388228"]
+  ],
+  "transformation/language": "sql",
+  "transformation/name": "All COD entries of the six materials",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "54e5421a-d48e-541a-b152-4ea33f7059a5"],
+  "transformation/units": "{}"
+}

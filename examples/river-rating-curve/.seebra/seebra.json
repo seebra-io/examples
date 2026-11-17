@@ -1,0 +1,8 @@
+{
+  "file": {
+    "file/example": "river-rating-curve"
+  },
+  "format": 2,
+  "root": ["dashboard/id", "7d7cf357-827a-5559-ad21-54c73a707610"],
+  "seebra": "board"
+}

@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "4ad8fcbb-6002-5494-8632-2fae0acada61"],
+  "query/datasource": ["datasource/id", "cb5e61e3-61d7-5349-ac10-33bfc1ff8ecc"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "8c2df971-a767-52a6-b8b6-0a4741d7849e",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Bridges per main-span material and lowest rating",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 560
+  },
+  "query/params": "{\"where\":\"1=1\",\"groupByFieldsForStatistics\":\"STRUCTURE_KIND_043A,LOWEST_RATING\",\"outStatistics\":\"[{\\\"statisticType\\\":\\\"count\\\",\\\"onStatisticField\\\":\\\"OBJECTID\\\",\\\"outStatisticFieldName\\\":\\\"n\\\"}]\",\"f\":\"json\"}",
+  "query/path": "/query",
+  "query/request-body": "",
+  "query/units": "{}"
+}

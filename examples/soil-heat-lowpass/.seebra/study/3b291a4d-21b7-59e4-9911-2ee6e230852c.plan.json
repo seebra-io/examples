@@ -1,0 +1,165 @@
+{
+  "title": "The ground as a diffusive low-pass",
+  "question": "Do the soil layers under Berlin damp and delay the daily and the annual temperature cycle as the heat equation predicts, with a damping depth √(ω_daily/ω_annual) ≈ 19 times larger for the annual cycle?",
+  "review": {
+    "well_formed": true,
+    "issues": [
+      {
+        "kind": "unmeasured",
+        "text": "The soil temperatures are ERA5-Land reanalysis, from a land-surface model that itself solves heat diffusion in four layers, not thermometers in the ground.",
+        "fix": "The plan tests the model's ground; the caveats say what a measured profile (a soil observatory) would add."
+      },
+      {
+        "kind": "scope",
+        "text": "Only one or two layers carry a measurable daily cycle, so the daily damping depth rests on the 0–7 and 7–28 cm layers.",
+        "fix": "The fit uses only layers whose amplitude is above 1% of the top layer's, and reports amplitude and phase estimates separately."
+      }
+    ],
+    "alternatives": [
+      {
+        "question": "Do amplitude and phase give the same damping depth for each cycle (as pure diffusion requires)?",
+        "why": "Drill down: a mismatch points to moisture, snow or layer-averaging effects.",
+        "ready": true
+      },
+      {
+        "question": "Is the damping depth different on sandy and clay soils (another place's soil type)?",
+        "why": "Expand: diffusivity depends on soil and water content.",
+        "ready": false
+      }
+    ]
+  },
+  "hypotheses": [
+    {
+      "id": "H1",
+      "statement": "The log amplitude ratio falls linearly with depth for each cycle (exponential damping), with a slower decline for the annual cycle.",
+      "null": "Amplitude does not depend on depth differently for the two cycles.",
+      "outcome": {
+        "concept": "Amplitude ratio",
+        "field": "log_ratio_top"
+      },
+      "predictor": {
+        "concept": "Depth",
+        "field": "dz_m"
+      },
+      "subgroup": {
+        "concept": "Cycle",
+        "category": "annual"
+      },
+      "direction": "decrease",
+      "test": {
+        "method": "regression",
+        "link": null,
+        "outcome_mode": "mean",
+        "outcome_field": "log_ratio_top",
+        "predictor_field": "dz_m",
+        "exposure_field": null,
+        "versus": "daily"
+      }
+    },
+    {
+      "id": "H2",
+      "statement": "The annual damping depth is about √365 ≈ 19 times the daily one (heat diffusion), not the same (a lumped lag).",
+      "null": "The ratio of damping depths is far from 19 (outside 12–30).",
+      "outcome": {
+        "concept": "Damping depth",
+        "field": "d_phase_m"
+      },
+      "predictor": {
+        "concept": "Cycle",
+        "field": "cycle"
+      },
+      "subgroup": null,
+      "direction": "increase",
+      "test": {
+        "method": "means",
+        "link": null,
+        "outcome_mode": "mean",
+        "outcome_field": "d_phase_m",
+        "predictor_field": "cycle",
+        "exposure_field": null,
+        "versus": "daily"
+      }
+    }
+  ],
+  "concepts": [
+    {
+      "label": "Damping depth",
+      "kind": "measure",
+      "description": "d = √(2κ/ω): the depth over which a cycle's amplitude falls by e and its phase lags one radian.",
+      "why": "The law's prediction is about it.",
+      "have": true,
+      "categories": [],
+      "field": "d_amp_m",
+      "strategy": null
+    },
+    {
+      "label": "Thermal diffusivity",
+      "kind": "measure",
+      "description": "κ = conductivity / (density · heat capacity), m²/s.",
+      "why": "Both cycles should give the same κ.",
+      "have": true,
+      "categories": [],
+      "field": "kappa_phase_mm2_s",
+      "strategy": null
+    },
+    {
+      "label": "Soil moisture",
+      "kind": "measure",
+      "description": "Water content per layer, which changes κ.",
+      "why": "A confounder of seasonal differences.",
+      "have": false,
+      "categories": [],
+      "field": null,
+      "strategy": {
+        "how": "fetch",
+        "detail": "Open-Meteo archive hourly soil_moisture_0_to_7cm … 100_to_255cm, same place and hours."
+      }
+    }
+  ],
+  "data": [
+    {
+      "concept": "Soil moisture",
+      "request": "Hourly soil moisture for the same four ERA5 layers in Berlin, 2022–2024",
+      "source": "Open-Meteo historical weather API (ERA5-Land)",
+      "why": "Wet soil conducts heat better: split the fit by wet and dry seasons."
+    }
+  ],
+  "links": [],
+  "method": {
+    "id": "regression",
+    "summary": "For each cycle, ln(A/A_top) = −Δz/d and φ − φ_top = Δz/d, fitted through the origin over the layers above the noise; then d_annual/d_daily against √(ω_daily/ω_annual)."
+  },
+  "steps": [
+    {
+      "kind": "data",
+      "title": "Fetch three years of hourly air and soil temperature",
+      "detail": "Open-Meteo archive, Berlin, 2022–2024, four ERA5 soil layers."
+    },
+    {
+      "kind": "method",
+      "title": "Fourier coefficients per layer",
+      "detail": "harmonics: amplitude_c and phase_rad at 24 h and 8766 h."
+    },
+    {
+      "kind": "method",
+      "title": "Response relative to the top layer",
+      "detail": "response: ratio_vs_top, lag_top_rad, d_amp_m, d_phase_m."
+    },
+    {
+      "kind": "method",
+      "title": "Fit d per cycle",
+      "detail": "fit: d_amp_m, d_phase_m, kappa, annual_over_daily against sqrt_omega_law."
+    },
+    {
+      "kind": "decide",
+      "title": "Compare with √365",
+      "detail": "Accept or reject H2; repeat for a second place."
+    }
+  ],
+  "caveats": [
+    "ERA5-Land soil temperature is model output on a ~9 km grid, not a measurement.",
+    "Layer temperatures are averages over thick layers (up to 1.55 m), so 'depth' is the layer middle.",
+    "Snow cover, freezing and soil moisture change κ through the year; the fit assumes one κ.",
+    "The surface energy balance (sun, evaporation) makes the top soil cycle differ from the air's; ratios are taken against the top soil layer for that reason."
+  ]
+}

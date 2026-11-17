@@ -1,0 +1,8 @@
+{
+  "file": {
+    "file/example": "gutenberg-richter-b-value"
+  },
+  "format": 2,
+  "root": ["dashboard/id", "c1e4b371-62e8-54b7-96d3-afccfc007a95"],
+  "seebra": "board"
+}

@@ -1,0 +1,10 @@
+{
+  "data/id": "cc30ec03-dc86-59d2-997a-cf2f3df95b62",
+  "data/name": "COD entries with formula As Ga data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 800
+  },
+  "data/parent": ["query/id", "67923fa6-7b6e-512c-adc8-e3261f5d2eee"],
+  "data/type": "json"
+}

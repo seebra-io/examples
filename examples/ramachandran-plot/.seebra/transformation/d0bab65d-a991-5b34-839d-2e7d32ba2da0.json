@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/occupancy-of-the-plane-10-cells.polars.py"
+  },
+  "transformation/data-child": ["data/id", "09ec4842-c994-57b7-9481-69a54af199ed"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "d0bab65d-a991-5b34-839d-2e7d32ba2da0",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Occupancy of the φ–ψ plane (10° cells)",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 2380,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "bd209231-a9c6-5fbf-abd6-e51a7130c060"],
+  "transformation/units": "{}"
+}

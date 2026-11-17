@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/dragon-share-of-new-species-with-95-interval.js"
+  },
+  "graph/id": "55d40a2d-12bc-577e-8460-aebca435f8f3",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Dragon share of new species, with 95% interval",
+  "graph/node": {
+    "node/x": 1920,
+    "node/y": 80
+  },
+  "graph/parent": ["data/id", "b9152f3f-d8c6-5e54-ba23-d660da184407"]
+}

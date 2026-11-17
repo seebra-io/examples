@@ -1,0 +1,10 @@
+{
+  "data/id": "b00ccd2d-fb4e-59d1-8ca3-78ca8a035226",
+  "data/name": "Opportunity (MER-B), NASA's 3D model data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 560
+  },
+  "data/parent": ["query/id", "853cc919-07d9-5561-87f7-7029e36b4595"],
+  "data/type": "json"
+}

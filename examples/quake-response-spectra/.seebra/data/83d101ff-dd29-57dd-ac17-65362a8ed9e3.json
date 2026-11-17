@@ -1,0 +1,10 @@
+{
+  "data/id": "83d101ff-dd29-57dd-ac17-65362a8ed9e3",
+  "data/name": "Ridgecrest M7.1 ShakeMap station list data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 80
+  },
+  "data/parent": ["query/id", "b9737cb0-d27b-5ff3-9de7-2b71b0cee0cd"],
+  "data/type": "json"
+}

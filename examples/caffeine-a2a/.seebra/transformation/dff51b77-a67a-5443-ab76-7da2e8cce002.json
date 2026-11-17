@@ -1,0 +1,21 @@
+{
+  "transformation/content": {
+    "$file": "transforms/receptor-atoms-with-segment-and-generic-number.polars.py"
+  },
+  "transformation/data-child": ["data/id", "3f88e9b1-66f9-5652-95af-daf2f11884d7"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "dff51b77-a67a-5443-ab76-7da2e8cce002",
+  "transformation/inputs": [
+    ["data/id", "27d26520-d071-59b6-a7fd-c19755565b34"]
+  ],
+  "transformation/language": "polars",
+  "transformation/name": "Receptor atoms with segment and generic number",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "37db650b-813f-5fd1-8b59-46bcc72da071"],
+  "transformation/units": "{}"
+}

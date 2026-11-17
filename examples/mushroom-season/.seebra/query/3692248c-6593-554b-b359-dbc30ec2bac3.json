@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "5a1f9a0c-c76f-55ef-9853-4b7dfabd21c1"],
+  "query/datasource": ["datasource/id", "0ad2947c-0e41-5bf4-bf2c-3dedb20e3b4e"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "3692248c-6593-554b-b359-dbc30ec2bac3",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Funnel chanterelle (Craterellus tubaeformis): Swedish records per month, 2000–2025",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 560
+  },
+  "query/params": "{\"taxonKey\":\"2554536\",\"country\":\"SE\",\"year\":\"2000,2025\",\"limit\":\"0\",\"facet\":\"month\",\"facetLimit\":\"12\"}",
+  "query/path": "/occurrence/search",
+  "query/request-body": "",
+  "query/units": "{}"
+}

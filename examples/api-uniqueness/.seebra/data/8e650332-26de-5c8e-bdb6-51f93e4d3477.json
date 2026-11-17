@@ -1,0 +1,10 @@
+{
+  "data/id": "8e650332-26de-5c8e-bdb6-51f93e4d3477",
+  "data/name": "Similarity network: each API's 3 nearest (places removed) data",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "0d1b6541-7a52-57c8-bc42-e35e5fc522b3"],
+  "data/type": "json"
+}

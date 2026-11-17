@@ -1,0 +1,16 @@
+{
+  "graph/content": {
+    "$file": "graphs/death-rate-by-age-log-scale-gompertz-s-straight.js"
+  },
+  "graph/id": "70aa7cef-e1e1-57be-a8a7-fc5e9b512015",
+  "graph/inputs": [
+    ["data/id", "e0a17910-7baf-5320-8812-0e4b94aac343"]
+  ],
+  "graph/language": "javascript",
+  "graph/name": "Death rate by age, log scale: Gompertz's straight line",
+  "graph/node": {
+    "node/x": 1920,
+    "node/y": 560
+  },
+  "graph/parent": ["data/id", "fe2e0d7a-d43b-5c6f-8269-8f91318af6a9"]
+}

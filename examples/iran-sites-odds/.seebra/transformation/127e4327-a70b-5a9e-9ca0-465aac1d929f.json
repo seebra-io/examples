@@ -1,0 +1,21 @@
+{
+  "transformation/content": {
+    "$file": "transforms/seismic-events-with-the-nearest-site.js"
+  },
+  "transformation/data-child": ["data/id", "c1d4518e-70b5-56f3-a531-144883c249ad"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "js-web-worker",
+  "transformation/id": "127e4327-a70b-5a9e-9ca0-465aac1d929f",
+  "transformation/inputs": [
+    ["data/id", "e088db56-5f46-5651-bbe5-6d86eba5f20a"]
+  ],
+  "transformation/language": "javascript",
+  "transformation/name": "Seismic events, with the nearest site",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 560
+  },
+  "transformation/parent": ["data/id", "3cd4b920-8952-5ff8-bd65-7de9958b6e6e"],
+  "transformation/units": "{\"mag\":\"1\",\"depth_km\":\"km\",\"km_to_site\":\"km\"}"
+}

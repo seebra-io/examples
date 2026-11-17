@@ -1,0 +1,21 @@
+{
+  "transformation/content": {
+    "$file": "transforms/the-folding-rule-per-sampling-rate.polars.py"
+  },
+  "transformation/data-child": ["data/id", "c3b6cfda-29d3-5aec-b683-b9498e049bc2"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "d21adb83-62e5-5d98-a1dc-e78721c4f969",
+  "transformation/inputs": [
+    ["data/id", "55812ae8-c931-53a9-a2f4-d483ec98c865"]
+  ],
+  "transformation/language": "polars",
+  "transformation/name": "The folding rule per sampling rate",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1920,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "620c0e41-d04c-5912-b961-6c6c892281fa"],
+  "transformation/units": "{}"
+}

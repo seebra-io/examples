@@ -1,0 +1,18 @@
+{
+  "study/hypothesis": "Seasons with a larger growth rate r have a higher peak ILI+ (SIR: peak prevalence 1 − (1 + ln R)/R rises with R).",
+  "study/id": "f0e0a537-273b-5161-a01e-0c0112272cdd",
+  "study/name": "Study: do faster-growing seasons peak higher?",
+  "study/node": {
+    "node/x": 540,
+    "node/y": 560
+  },
+  "study/plan": {
+    "$file": ".seebra/study/f0e0a537-273b-5161-a01e-0c0112272cdd.plan.json",
+    "$json": true
+  },
+  "study/question": "Across US influenza seasons since 2016–17, does a season's early exponential growth rate r (and so its R) predict how high its ILI+ peak goes, as the SIR model says?",
+  "study/state": {
+    "$file": ".seebra/study/f0e0a537-273b-5161-a01e-0c0112272cdd.state.json",
+    "$json": true
+  }
+}

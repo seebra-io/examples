@@ -1,0 +1,11 @@
+{
+  "data/id": "b6df0e9e-c188-56d4-8eaa-68b036396e6d",
+  "data/name": "Scaling exponents per group",
+  "data/node": {
+    "node/x": 2070,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "2b339f91-d9d2-53f7-af3f-e32ca0c8fa72"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

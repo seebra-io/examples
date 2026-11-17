@@ -1,0 +1,31 @@
+{
+  "dashboard/id": "f2d011ed-9c71-5d78-8a49-e3eb21ba58a1",
+  "datas": [
+    ["data/id", "966da2fe-19e0-53fb-907f-2e021e8d0d05"],
+    ["data/id", "21e8fcc8-52f5-5e02-984c-6713a740d0cd"],
+    ["data/id", "606ff8dc-40e6-5216-81d2-c046257dc304"]
+  ],
+  "datasources": [
+    ["datasource/id", "5a9bd1bc-6870-574c-9ead-357fedee9185"],
+    ["datasource/id", "a196923f-728d-54a4-a9d0-fd594cfaac49"]
+  ],
+  "description": "Every attempt to land on Mars, 1971–2021: where each one came down on NASA's map, how it went (10 of 16 worked), the landing system (parachutes and rockets, airbags, sky crane) and how long it lasted. Positions and stories are sourced per mission.",
+  "graphs": [
+    ["graph/id", "8edde33d-d6aa-5fa2-b762-e78bf0c7604c"],
+    ["graph/id", "e34f60e9-adf1-58b0-88da-ae58c5499000"],
+    ["graph/id", "19ab76f6-7076-5edd-bbca-4200348263f2"]
+  ],
+  "grids": [],
+  "name": "Landing on Mars",
+  "queries": [
+    ["query/id", "0f1ba67f-1437-52b3-a4ac-0a100a898173"],
+    ["query/id", "c772076b-5c11-538b-bdc1-6c89fc88c520"]
+  ],
+  "studies": [],
+  "tables": [],
+  "texts": [],
+  "timers": [],
+  "transformations": [
+    ["transformation/id", "50e24cef-25aa-5e6b-816e-614a99aa52d1"]
+  ]
+}

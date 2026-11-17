@@ -1,0 +1,6 @@
+data.group_by("currency")
+    .agg(first = col("rate").first(), last = col("rate").last(), low = col("rate").min(), high = col("rate").max(), days = len())
+    .with_columns(change_pct = ((col("last") / col("first") - 1) * 100).round(2))
+    .join(data1.group_by("currency").agg(sd_pct = col("log_return_pct").std(), biggest_pct = col("log_return_pct").abs().max().round(2)), on="currency")
+    .with_columns(vol_pct = (col("sd_pct") * (252 ** 0.5)).round(1), sd_pct = col("sd_pct").round(3))
+    .sort("change_pct", descending=True)

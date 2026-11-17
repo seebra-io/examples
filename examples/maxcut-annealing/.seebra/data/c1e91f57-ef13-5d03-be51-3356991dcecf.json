@@ -1,0 +1,10 @@
+{
+  "data/id": "c1e91f57-ef13-5d03-be51-3356991dcecf",
+  "data/name": "Best split: each node's side data",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "69195d64-ab44-5d79-bb2d-cf54f374ddd7"],
+  "data/type": "json"
+}

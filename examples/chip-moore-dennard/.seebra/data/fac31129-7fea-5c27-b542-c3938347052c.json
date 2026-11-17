@@ -1,0 +1,10 @@
+{
+  "data/id": "fac31129-7fea-5c27-b542-c3938347052c",
+  "data/name": "Parse transistors (thousands) data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "0f5e04dd-c8c7-5b2a-b28c-761df7a1710d"],
+  "data/type": "json"
+}

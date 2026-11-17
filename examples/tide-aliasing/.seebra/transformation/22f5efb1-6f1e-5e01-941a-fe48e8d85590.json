@@ -1,0 +1,21 @@
+{
+  "transformation/content": {
+    "$file": "transforms/the-gauge-read-at-each-rate.polars.py"
+  },
+  "transformation/data-child": ["data/id", "adb327e6-07d9-5c0d-ac51-f46f38e0e21e"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "22f5efb1-6f1e-5e01-941a-fe48e8d85590",
+  "transformation/inputs": [
+    ["data/id", "55812ae8-c931-53a9-a2f4-d483ec98c865"]
+  ],
+  "transformation/language": "polars",
+  "transformation/name": "The gauge read at each rate",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "bf261d65-21c7-5fad-a146-d024ea0837fa"],
+  "transformation/units": "{}"
+}

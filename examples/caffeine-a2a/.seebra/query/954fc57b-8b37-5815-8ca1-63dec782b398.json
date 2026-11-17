@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "66e43106-68e0-51ae-8fb7-0dc8518bb0d3"],
+  "query/datasource": ["datasource/id", "8577f809-380e-58e1-a7e5-74b942f3fb63"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "954fc57b-8b37-5815-8ca1-63dec782b398",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Caffeine and adenosine properties",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 1040
+  },
+  "query/params": "{}",
+  "query/path": "/compound/cid/2519,60961/property/Title,MolecularFormula,MolecularWeight,XLogP,HBondDonorCount,HBondAcceptorCount,TPSA,RotatableBondCount,HeavyAtomCount/JSON",
+  "query/request-body": "",
+  "query/units": "{}"
+}

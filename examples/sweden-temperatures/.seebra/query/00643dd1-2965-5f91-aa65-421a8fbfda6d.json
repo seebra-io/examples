@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "bdf7c0d6-3dec-53ba-999e-f17c6371f423"],
+  "query/datasource": ["datasource/id", "3cc67204-5df2-5854-93ee-d9a26f9cbfc8"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "00643dd1-2965-5f91-aa65-421a8fbfda6d",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Air temperature, latest hour",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 80
+  },
+  "query/params": "{}",
+  "query/path": "/parameter/1/station-set/all/period/latest-hour/data.json",
+  "query/request-body": "",
+  "query/units": "{}"
+}

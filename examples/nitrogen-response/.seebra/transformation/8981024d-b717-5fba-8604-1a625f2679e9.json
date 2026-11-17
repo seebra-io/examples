@@ -1,0 +1,21 @@
+{
+  "transformation/content": {
+    "$file": "transforms/the-fitted-curve-and-its-slope-0-800-kg-ha.polars.py"
+  },
+  "transformation/data-child": ["data/id", "286483a4-3024-5d58-8c0c-9f1b90c05b3a"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "8981024d-b717-5fba-8604-1a625f2679e9",
+  "transformation/inputs": [
+    ["data/id", "dfe14c8f-9d13-5a2f-a532-b473371e98f9"]
+  ],
+  "transformation/language": "polars",
+  "transformation/name": "The fitted curve and its slope, 0-800 kg/ha",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "81938dd7-e081-5c04-8601-355a2bd72352"],
+  "transformation/units": "{}"
+}

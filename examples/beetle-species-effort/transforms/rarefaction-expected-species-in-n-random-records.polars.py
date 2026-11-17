@@ -1,0 +1,10 @@
+data.with_columns(N = col("records").sum().over("province").cast(Float64))
+    .join(data.with_row_index("k").filter(col("k") <= 40).select("k"), how="cross")
+    .with_columns(n = (col("N") * (col("k").cast(Float64) / 40).pow(2)).round(0),
+                  rest = col("N") - col("records").cast(Float64))
+    .with_columns(p_absent = when(col("rest") >= col("n"))
+                      .then((lgamma(col("rest") + 1) - lgamma(col("rest") - col("n") + 1) - lgamma(col("N") + 1) + lgamma(col("N") - col("n") + 1)).exp())
+                      .otherwise(0.0))
+    .group_by("province", "k", "n", "N")
+    .agg(species = (1 - col("p_absent")).sum().round(1))
+    .sort("province", "n")

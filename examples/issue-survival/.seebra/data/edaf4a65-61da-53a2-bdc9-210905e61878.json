@@ -1,0 +1,10 @@
+{
+  "data/id": "edaf4a65-61da-53a2-bdc9-210905e61878",
+  "data/name": "Survival with censoring: Kaplan–Meier and Greenwood's band data",
+  "data/node": {
+    "node/x": 2070,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "29a12f06-7097-5e50-899c-4a2391560337"],
+  "data/type": "json"
+}

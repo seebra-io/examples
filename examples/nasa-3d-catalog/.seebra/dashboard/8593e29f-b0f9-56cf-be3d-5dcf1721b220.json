@@ -1,0 +1,41 @@
+{
+  "dashboard/id": "8593e29f-b0f9-56cf-be3d-5dcf1721b220",
+  "datas": [
+    ["data/id", "248b6335-6a48-5d42-af46-078853f645eb"],
+    ["data/id", "b44fb472-9789-5340-98d5-9200f1f09c58"],
+    ["data/id", "29973a63-590d-51df-97a6-e867403f0e7d"],
+    ["data/id", "a384700a-ecb6-54c8-bd8b-121ec28935b6"],
+    ["data/id", "37a577cc-3b82-5e96-a844-f778d6b33c56"],
+    ["data/id", "4a323969-b38f-5c16-b60b-15b728fcb13e"],
+    ["data/id", "9b66b4c6-43f5-5c34-bebd-5f5798cbd288"],
+    ["data/id", "123e22cd-220e-5c66-b485-3cdeec30a5ef"]
+  ],
+  "datasources": [
+    ["datasource/id", "c90928c6-0797-577c-a6b2-d537b9154b9b"],
+    ["datasource/id", "d9f66248-f328-52f5-ac8f-293afe60043f"]
+  ],
+  "description": "Every 3D model science.nasa.gov publishes (glTF .glb, plus a few STL files for printing), read live from the site's WordPress media API: which collections they're in, how large they are, and when they were added. Hover a dot for the model, click it for the file; Hubble opens in 3D below. Next: Mars in 3D puts the Mars spacecraft side by side.",
+  "graphs": [
+    ["graph/id", "ef848df5-6353-52d3-bf14-c03a5cbb1ecb"],
+    ["graph/id", "477a0a1b-5ca5-5b01-8352-f9d0f9d11ec5"],
+    ["graph/id", "e96ae5f6-5f45-5a0e-af3d-182278b6c48f"]
+  ],
+  "grids": [],
+  "name": "NASA in 3D: the model catalog",
+  "queries": [
+    ["query/id", "32d1a5c7-6945-56f8-87c6-d22045802853"],
+    ["query/id", "02f64e63-4aed-5ed8-8194-bf9e4c963916"],
+    ["query/id", "e52fc342-c7cf-5c86-8007-a80feae04bae"],
+    ["query/id", "dfe18711-c551-5c0d-84f6-ccb57d36f23a"],
+    ["query/id", "910b212e-68c9-530e-b019-5be4faf70bea"],
+    ["query/id", "6e6a2052-8d40-5bf8-8c5c-831b79df82c3"]
+  ],
+  "studies": [],
+  "tables": [],
+  "texts": [],
+  "timers": [],
+  "transformations": [
+    ["transformation/id", "d3da8ac2-848c-52a7-a1b2-1257832a797b"],
+    ["transformation/id", "c4fd0864-0d8d-532f-a8e8-96b30f160bd2"]
+  ]
+}

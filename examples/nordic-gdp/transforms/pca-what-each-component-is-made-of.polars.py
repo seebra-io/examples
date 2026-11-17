@@ -1,0 +1,1 @@
+data.pca(["Denmark", "Finland", "Iceland", "Norway", "Sweden"], k=2, scale=True, output="loadings")

@@ -1,0 +1,24 @@
+{
+  "transformation/content": {
+    "$file": "transforms/the-models-one-row-per-file.js"
+  },
+  "transformation/data-child": ["data/id", "4a323969-b38f-5c16-b60b-15b728fcb13e"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "js-web-worker",
+  "transformation/id": "d3da8ac2-848c-52a7-a1b2-1257832a797b",
+  "transformation/inputs": [
+    ["data/id", "b44fb472-9789-5340-98d5-9200f1f09c58"],
+    ["data/id", "29973a63-590d-51df-97a6-e867403f0e7d"],
+    ["data/id", "a384700a-ecb6-54c8-bd8b-121ec28935b6"],
+    ["data/id", "37a577cc-3b82-5e96-a844-f778d6b33c56"]
+  ],
+  "transformation/language": "javascript",
+  "transformation/name": "The models, one row per file",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "248b6335-6a48-5d42-af46-078853f645eb"],
+  "transformation/units": "{\"mb\":\"MB\"}"
+}

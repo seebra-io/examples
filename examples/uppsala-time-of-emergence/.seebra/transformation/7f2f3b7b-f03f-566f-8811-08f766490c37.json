@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/daily-minima-with-seasons.sql"
+  },
+  "transformation/data-child": ["data/id", "be5f2358-6c7f-5867-926a-f90755ee7a30"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "7f2f3b7b-f03f-566f-8811-08f766490c37",
+  "transformation/inputs": [],
+  "transformation/language": "sql",
+  "transformation/name": "Daily minima with seasons",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "0e017c59-0e1f-5f0d-8d70-b8494cc2e390"],
+  "transformation/units": "{}"
+}

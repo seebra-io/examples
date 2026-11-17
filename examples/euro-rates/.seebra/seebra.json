@@ -1,0 +1,8 @@
+{
+  "file": {
+    "file/example": "euro-rates"
+  },
+  "format": 2,
+  "root": ["dashboard/id", "7cde96e8-d43a-5f7d-bb3a-260a7942bbe6"],
+  "seebra": "board"
+}

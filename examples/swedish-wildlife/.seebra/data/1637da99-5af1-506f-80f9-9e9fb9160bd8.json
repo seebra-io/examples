@@ -1,0 +1,10 @@
+{
+  "data/id": "1637da99-5af1-506f-80f9-9e9fb9160bd8",
+  "data/name": "Bird records per province data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 560
+  },
+  "data/parent": ["query/id", "14d6ca7b-1495-5c36-b707-bdb43d79267b"],
+  "data/type": "json"
+}

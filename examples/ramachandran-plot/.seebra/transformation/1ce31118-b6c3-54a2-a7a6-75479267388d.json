@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/residues-on-the-ramachandran-plane.polars.py"
+  },
+  "transformation/data-child": ["data/id", "bd209231-a9c6-5fbf-abd6-e51a7130c060"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "1ce31118-b6c3-54a2-a7a6-75479267388d",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Residues on the Ramachandran plane",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1920,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "223007af-7571-54d7-9352-c7b7d8061e94"],
+  "transformation/units": "{}"
+}

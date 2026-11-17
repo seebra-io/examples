@@ -1,0 +1,11 @@
+{
+  "data/id": "3aa7a5b7-7199-5859-8b88-5e5bf208ec55",
+  "data/name": "UN News",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 1520
+  },
+  "data/parent": ["transformation/id", "42f8edbd-6377-51e3-9b96-71d297a97237"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

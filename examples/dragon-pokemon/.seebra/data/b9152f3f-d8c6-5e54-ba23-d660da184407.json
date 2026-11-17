@@ -1,0 +1,10 @@
+{
+  "data/id": "b9152f3f-d8c6-5e54-ba23-d660da184407",
+  "data/name": "Dragon share per generation (a rate needs an exposure) data",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 560
+  },
+  "data/parent": ["transformation/id", "8c9c0ddf-66eb-58e7-8bae-d6b5485ba2f9"],
+  "data/type": "json"
+}

@@ -1,0 +1,11 @@
+{
+  "data/id": "813bc449-4ebd-5a05-bdfa-74669e707a67",
+  "data/name": "Stations: foF2, hmF2, MUF(3000)",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "3a4db3e5-aab6-56b4-b362-c3f32fd8675b"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

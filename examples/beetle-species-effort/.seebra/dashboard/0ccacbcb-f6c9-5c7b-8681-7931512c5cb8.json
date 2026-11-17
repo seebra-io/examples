@@ -1,0 +1,43 @@
+{
+  "dashboard/id": "0ccacbcb-f6c9-5c7b-8681-7931512c5cb8",
+  "datas": [
+    ["data/id", "38f420b8-3ab8-5c54-8efa-2c97e99ca15c"],
+    ["data/id", "92e5591b-b979-5a49-a8de-0caa3aa32e86"],
+    ["data/id", "08764a8e-5901-5089-b8a7-91cf8c580d69"],
+    ["data/id", "676a2595-26bf-56cd-82d4-c57cfad5c906"],
+    ["data/id", "839f0998-095d-528c-b656-86b08e5a2184"],
+    ["data/id", "c42e3e22-d167-50d7-855c-012a3e70f018"],
+    ["data/id", "1a5fe429-3458-50d3-bc68-fcab45caf36c"],
+    ["data/id", "46fc0e43-3038-52b1-b455-1b7beb4439fe"],
+    ["data/id", "83771e66-6eac-5947-a769-f93f5dc62302"],
+    ["data/id", "61a16a4b-f3b1-53a2-8303-8e26edcd8430"]
+  ],
+  "datasources": [
+    ["datasource/id", "39f16f7e-4b45-59b9-8571-88f2f36f894e"]
+  ],
+  "description": "Beetle (Coleoptera) records in GBIF from three Swedish provinces in 2024, counted per species. Statistics idea: a species count depends on effort. Rarefaction (Hurlbert's formula, from the binomial coefficients as lgamma) gives the species expected in a random subsample of n records, so provinces compare at equal effort; Chao1 estimates how many species exist from those seen once and twice, and singletons / records is the chance the next record is a new species. Caveats: GBIF records are not a random sample (surveys are clumped, observers chase rarities, provinces differ in size and habitat), and Chao1 is a lower bound.",
+  "graphs": [
+    ["graph/id", "9a438088-31e2-5d52-a0f5-28d5e6a15b21"],
+    ["graph/id", "857af2ee-7326-55ae-b2ae-4bf15fd8c1f2"]
+  ],
+  "grids": [],
+  "name": "Beetle species and effort",
+  "queries": [
+    ["query/id", "58fb2c78-5262-5473-829d-0372fb86f79c"],
+    ["query/id", "1a48d2e8-aaf6-5465-8a84-07e7da7f530c"],
+    ["query/id", "790f8a69-9121-58a4-be63-9d7390d6a706"]
+  ],
+  "studies": [],
+  "tables": [],
+  "texts": [],
+  "timers": [],
+  "transformations": [
+    ["transformation/id", "e45bd619-17c4-52eb-b6ce-f570589c443e"],
+    ["transformation/id", "382e53ea-a684-5b34-8d6a-8fee276cee78"],
+    ["transformation/id", "0ebef8c0-73f9-537b-99d1-0ec37bf7b44c"],
+    ["transformation/id", "2cdfb357-7f12-5c48-8cf6-5d41f5e5d824"],
+    ["transformation/id", "9aa0a2cf-1ca2-5e29-bcd9-875380f406de"],
+    ["transformation/id", "95913a48-a0a2-5e1f-8801-6b9afd66b84e"],
+    ["transformation/id", "09381f36-8e3a-5a76-9279-4fce1551ea82"]
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "data/id": "67e8a804-646d-5672-bc2e-48285b0ff62f",
+  "data/name": "Panel: log growth, one column per country data",
+  "data/node": {
+    "node/x": 2070,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "4c4b19bb-1b41-5f37-9a1a-00dc1d9062b7"],
+  "data/type": "json"
+}

@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/rr-intervals-nsr-16265.polars.py"
+  },
+  "transformation/data-child": ["data/id", "ff0c8e0a-00a8-5059-a856-a572d74198e7"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "c4b157d4-a26b-51c1-8f31-3b1924be8c71",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "RR intervals: NSR 16265",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "f220f2fa-cc0f-53ae-b7c7-873ade035564"],
+  "transformation/units": "{}"
+}

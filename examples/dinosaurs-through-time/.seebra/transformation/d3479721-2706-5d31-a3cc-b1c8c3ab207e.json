@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/stages-genera-living-appearing-and-disappearing.js"
+  },
+  "transformation/data-child": ["data/id", "7998eba8-c68c-5a30-ab9a-bbb8879c0b5b"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "js-web-worker",
+  "transformation/id": "d3479721-2706-5d31-a3cc-b1c8c3ab207e",
+  "transformation/inputs": [],
+  "transformation/language": "javascript",
+  "transformation/name": "Stages: genera living, appearing and disappearing",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "970fc956-1544-5e40-8bc7-69db1291543a"],
+  "transformation/units": "{}"
+}

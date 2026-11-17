@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/a-few-observers-make-most-of-the-sample.js"
+  },
+  "graph/id": "e378cffe-d6af-5299-b814-80f63aef64fb",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "A few observers make most of the sample",
+  "graph/node": {
+    "node/x": 1920,
+    "node/y": 80
+  },
+  "graph/parent": ["data/id", "ca2855ee-01fb-513c-a7e1-1b14607a8eed"]
+}

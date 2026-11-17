@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/perseverance-images-per-sol-a-rate-needs-an.polars.py"
+  },
+  "transformation/data-child": ["data/id", "2b3ce49d-5876-5c12-96f0-654a704c6780"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "084cf39b-6a6a-5441-8415-2caf01def09f",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Perseverance images per sol: a rate needs an exposure",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 1040
+  },
+  "transformation/parent": ["data/id", "37e83cf1-5cd5-5623-8c8d-b6e899f54259"],
+  "transformation/units": "{}"
+}

@@ -1,0 +1,10 @@
+{
+  "data/id": "0b2b6767-8b75-55ec-a385-43fe89d8f6a2",
+  "data/name": "Stations heard in the last 3 hours data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "a06df244-0f5a-5b25-8af2-18eaf88a3c0c"],
+  "data/type": "json"
+}

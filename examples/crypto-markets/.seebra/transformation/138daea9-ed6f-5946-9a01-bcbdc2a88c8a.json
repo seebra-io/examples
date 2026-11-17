@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/log-returns-and-volatility-per-coin.polars.py"
+  },
+  "transformation/data-child": ["data/id", "2c39795b-cadd-5054-b0ec-12747a2c720c"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "138daea9-ed6f-5946-9a01-bcbdc2a88c8a",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Log returns and volatility per coin",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "608eb311-d319-5c38-b5d6-73f884cefe0f"],
+  "transformation/units": "{}"
+}

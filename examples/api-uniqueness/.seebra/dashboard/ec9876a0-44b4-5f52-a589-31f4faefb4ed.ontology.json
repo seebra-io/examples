@@ -1,0 +1,171 @@
+{
+  "title": "Uniqueness of the APIs in Seebra's Explore catalog",
+  "summary": "Each API has a description and categories; TF-IDF vectors of the descriptions give similarities and nearest neighbours; the categories give crowding. Uniqueness combines both.",
+  "concepts": [
+    {
+      "cid": "c1",
+      "label": "API",
+      "kind": "entity",
+      "description": "An item of kind api in the Explore catalog.",
+      "fields": [
+        "id",
+        "title",
+        "link"
+      ],
+      "in_data": true,
+      "wikidata": "Q165194",
+      "children": [
+        {
+          "cid": "c2",
+          "label": "Description",
+          "kind": "source",
+          "as": "part",
+          "description": "Title, tags, summary and description text: what is measured, not the API's data.",
+          "fields": [
+            "summary",
+            "description_chars"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c3",
+          "label": "Uniqueness score",
+          "kind": "measure",
+          "as": "property",
+          "description": "100 · distinct · rarity (v1), and its percentile.",
+          "fields": [
+            "score",
+            "percentile"
+          ],
+          "in_data": true,
+          "children": [
+            {
+              "cid": "c4",
+              "label": "Distinctness",
+              "kind": "measure",
+              "as": "part",
+              "description": "1 − mean cosine similarity to the k nearest descriptions.",
+              "fields": [
+                "distinct",
+                "distinct_k3",
+                "distinct_k10",
+                "distinct_kept"
+              ],
+              "in_data": true
+            },
+            {
+              "cid": "c5",
+              "label": "Rarity",
+              "kind": "measure",
+              "as": "part",
+              "description": "1 − n/(2(n+20)), n the other APIs in its least crowded category.",
+              "fields": [
+                "rarity",
+                "crowd"
+              ],
+              "in_data": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cid": "c6",
+      "label": "TF-IDF similarity",
+      "kind": "measure",
+      "description": "Cosine of TF-IDF word vectors: (1 + log tf) · log((1 + N)/(1 + df)), normalised.",
+      "fields": [
+        "similarity",
+        "similarity_1"
+      ],
+      "in_data": true,
+      "wikidata": "Q796584",
+      "children": [
+        {
+          "cid": "c7",
+          "label": "Nearest neighbours",
+          "kind": "entity",
+          "as": "part",
+          "description": "The k APIs with the most similar descriptions.",
+          "fields": [
+            "neighbour",
+            "nearest_1",
+            "nearest_2",
+            "nearest_3"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c8",
+          "label": "Place names",
+          "kind": "category",
+          "as": "property",
+          "description": "Country and city words removed, so per-country copies look alike.",
+          "fields": [
+            "place_effect"
+          ],
+          "in_data": true
+        }
+      ]
+    },
+    {
+      "cid": "c9",
+      "label": "Field",
+      "kind": "category",
+      "description": "The catalog's category tree (top-level field / category), e.g. science/chemistry.",
+      "fields": [
+        "root",
+        "field",
+        "categories",
+        "category"
+      ],
+      "in_data": true,
+      "facts": [
+        {
+          "text": "Science and engineering categories follow the OECD Fields of Science and Technology (Frascati Manual).",
+          "source": "https://www.oecd.org/en/publications/frascati-manual-2015_9789264239012-en.html"
+        }
+      ]
+    },
+    {
+      "cid": "c10",
+      "label": "Near-copy",
+      "kind": "event",
+      "description": "Two APIs whose descriptions share most weighted words (cosine > 0.5): vendor product lines, per-country twins.",
+      "fields": [
+        "similarity_1"
+      ],
+      "in_data": true,
+      "children": [
+        {
+          "cid": "c11",
+          "label": "Vendor family",
+          "kind": "category",
+          "as": "subtype",
+          "description": "One provider's products described from one template.",
+          "fields": [],
+          "in_data": false
+        },
+        {
+          "cid": "c12",
+          "label": "Per-country copy",
+          "kind": "category",
+          "as": "subtype",
+          "description": "The same kind of service for another country (grid operators, statistics offices).",
+          "fields": [
+            "place_effect"
+          ],
+          "in_data": true
+        }
+      ]
+    },
+    {
+      "cid": "c13",
+      "label": "Catalog snapshot",
+      "kind": "time",
+      "description": "The catalog's updated time: scores change as APIs are added.",
+      "fields": [],
+      "in_data": false
+    }
+  ]
+}

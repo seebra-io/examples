@@ -1,0 +1,21 @@
+{
+  "transformation/content": {
+    "$file": "transforms/users-joined-with-their-posts.polars.py"
+  },
+  "transformation/data-child": ["data/id", "53b47495-ed2c-5213-92e2-9dce92248899"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "a23cf39e-d63b-585d-80fd-ca4d86fdc991",
+  "transformation/inputs": [
+    ["data/id", "78c2f308-1869-5140-8710-27de21b99b03"]
+  ],
+  "transformation/language": "polars",
+  "transformation/name": "Users joined with their posts",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 560
+  },
+  "transformation/parent": ["data/id", "167f320a-78a7-5368-93b4-993cdaf33166"],
+  "transformation/units": "{}"
+}

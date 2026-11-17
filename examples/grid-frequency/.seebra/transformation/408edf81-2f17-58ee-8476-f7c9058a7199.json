@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/per-quarter-hour-and-window.sql"
+  },
+  "transformation/data-child": ["data/id", "daa6eaf6-7618-53de-a2ce-b84ac6bbb00b"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "408edf81-2f17-58ee-8476-f7c9058a7199",
+  "transformation/inputs": [],
+  "transformation/language": "sql",
+  "transformation/name": "Per quarter-hour and window",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 1040
+  },
+  "transformation/parent": ["data/id", "6e8b59ff-56f7-5662-89f0-01749a9a91fb"],
+  "transformation/units": "{}"
+}

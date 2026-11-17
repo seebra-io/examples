@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/anomaly-as-a-z-score-each-day-against-its-1991.js"
+  },
+  "graph/id": "4a0159bb-a692-5e71-8741-ecd94e29e760",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Anomaly as a z-score: each day against its 1991–2020 normal",
+  "graph/node": {
+    "node/x": 2380,
+    "node/y": 80
+  },
+  "graph/parent": ["data/id", "66c32535-6929-5e45-9d1a-1710c7fc179e"]
+}

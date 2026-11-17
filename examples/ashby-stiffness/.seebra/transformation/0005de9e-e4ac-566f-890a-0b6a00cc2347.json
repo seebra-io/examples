@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/engineering-materials-one-row-each-a-class-a.polars.py"
+  },
+  "transformation/data-child": ["data/id", "b433a528-0136-5211-a834-0f6223132d28"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "0005de9e-e4ac-566f-890a-0b6a00cc2347",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Engineering materials: one row each, a class, a sanity check",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "b44adc86-add3-55e7-a26a-b419ce13a6ab"],
+  "transformation/units": "{}"
+}

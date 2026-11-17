@@ -1,0 +1,132 @@
+{
+  "title": "Distance and spectral shape",
+  "question": "Does SA(3 s)/SA(0.3 s) grow with distance from the rupture?",
+  "review": {
+    "well_formed": true,
+    "issues": [
+      {
+        "kind": "causal",
+        "text": "Far stations sit more often on soft basins (Los Angeles, Central Valley) that amplify long periods.",
+        "fix": "Join Vs30 per station (ShakeMap 4 lists carry it) and add it as a second predictor."
+      },
+      {
+        "kind": "grain",
+        "text": "Stations cluster (Los Angeles); neighbours share path and site.",
+        "fix": "Read the interval as optimistic; check the trend per distance bin (shape step)."
+      }
+    ],
+    "alternatives": [
+      {
+        "question": "Does SA(0.3 s) decay faster with distance than SA(3 s)?",
+        "why": "Drill down: the attenuation step fits κ per period.",
+        "ready": true
+      },
+      {
+        "question": "Does a smaller earthquake (M6.4 foreshock) have a lower long/short ratio at the same distance?",
+        "why": "Expand: the source spectrum's corner period grows with magnitude.",
+        "ready": false
+      }
+    ]
+  },
+  "hypotheses": [
+    {
+      "id": "H1",
+      "statement": "ln(SA(3 s)/SA(0.3 s)) increases with distance from the rupture.",
+      "null": "The ratio does not change with distance.",
+      "outcome": {
+        "concept": "Spectral shape ratio",
+        "field": "ln_long_short"
+      },
+      "predictor": {
+        "concept": "Distance from rupture",
+        "field": "distance_km"
+      },
+      "subgroup": null,
+      "direction": "increase",
+      "test": {
+        "method": "regression",
+        "link": null,
+        "outcome_mode": "mean",
+        "outcome_field": "ln_long_short",
+        "predictor_field": "distance_km",
+        "exposure_field": null,
+        "versus": null
+      }
+    }
+  ],
+  "concepts": [
+    {
+      "label": "Spectral shape ratio",
+      "kind": "measure",
+      "description": "ln of SA(3 s)/SA(0.3 s) per station.",
+      "why": "The outcome.",
+      "have": true,
+      "categories": [],
+      "field": "ln_long_short",
+      "strategy": null
+    },
+    {
+      "label": "Distance from rupture",
+      "kind": "measure",
+      "description": "ShakeMap rupture distance, km.",
+      "why": "The predictor.",
+      "have": true,
+      "categories": [],
+      "field": "distance_km",
+      "strategy": null
+    },
+    {
+      "label": "Site amplification",
+      "kind": "measure",
+      "description": "Vs30, the top-30 m shear-wave speed.",
+      "why": "A confounder.",
+      "have": false,
+      "categories": [],
+      "field": null,
+      "strategy": {
+        "how": "fetch",
+        "detail": "USGS Vs30 grid, or a ShakeMap 4 station list that carries vs30, joined on station."
+      }
+    }
+  ],
+  "data": [
+    {
+      "concept": "Site amplification",
+      "request": "Vs30 at each station",
+      "source": "USGS global Vs30 / ShakeMap 4 station list",
+      "why": "To separate site from path."
+    }
+  ],
+  "links": [],
+  "method": {
+    "id": "regression",
+    "summary": "Regress ln_long_short on distance_km over the stations; the trend step gives the least-squares slope as a factor per 100 km."
+  },
+  "steps": [
+    {
+      "kind": "data",
+      "title": "Fetch the ShakeMap station list",
+      "detail": "ci38457511, ci version: pga, psa03, psa10, psa30 per channel."
+    },
+    {
+      "kind": "method",
+      "title": "Per-station spectra",
+      "detail": "stations step: larger horizontal per measure, long_short, ln_long_short."
+    },
+    {
+      "kind": "method",
+      "title": "Fit the trend",
+      "detail": "trend step: per_100km_factor, r; shape step per distance bin."
+    },
+    {
+      "kind": "decide",
+      "title": "Accept or reject H1",
+      "detail": "Then add Vs30 and repeat for the M6.4 foreshock."
+    }
+  ],
+  "caveats": [
+    "Site effects (basins) are not controlled.",
+    "Three periods only.",
+    "One earthquake; magnitude also shapes the spectrum."
+  ]
+}

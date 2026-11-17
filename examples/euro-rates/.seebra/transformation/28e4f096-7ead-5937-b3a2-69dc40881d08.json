@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/rate-per-day.polars.py"
+  },
+  "transformation/data-child": ["data/id", "f7c398f9-b29e-541e-b813-fd176d10a716"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "28e4f096-7ead-5937-b3a2-69dc40881d08",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Rate per day",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "ffeb3f9d-67e0-5628-a605-f0486181d7ee"],
+  "transformation/units": "{}"
+}

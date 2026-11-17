@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/hop-distances-0-4000-km.polars.py"
+  },
+  "transformation/data-child": ["data/id", "f40d6735-f2cc-5b7c-9cbf-3712e0713e31"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "267e64cb-d93d-5a19-9dfc-c74fc04094e2",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Hop distances 0–4000 km",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "928a878e-8ccc-5221-90cc-cec0a6e4f4e1"],
+  "transformation/units": "{}"
+}

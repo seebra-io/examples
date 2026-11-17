@@ -1,0 +1,10 @@
+{
+  "data/id": "255bd1f0-7ba9-5e56-ac29-b2b8e15fe198",
+  "data/name": "Elevation grid around Ukraine (ESRI ASCII, ~4 km) data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 800
+  },
+  "data/parent": ["query/id", "d4f40a3b-5b01-52c2-875d-4086caa378a5"],
+  "data/type": "json"
+}

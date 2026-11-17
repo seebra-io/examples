@@ -1,0 +1,10 @@
+{
+  "data/id": "61a16a4b-f3b1-53a2-8303-8e26edcd8430",
+  "data/name": "Frequency of frequencies data",
+  "data/node": {
+    "node/x": 2070,
+    "node/y": 560
+  },
+  "data/parent": ["transformation/id", "09381f36-8e3a-5a76-9279-4fce1551ea82"],
+  "data/type": "json"
+}

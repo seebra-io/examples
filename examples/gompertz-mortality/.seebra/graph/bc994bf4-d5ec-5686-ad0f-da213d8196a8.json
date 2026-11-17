@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/level-against-doubling-time-2003-2023.js"
+  },
+  "graph/id": "bc994bf4-d5ec-5686-ad0f-da213d8196a8",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Level against doubling time, 2003 → 2023",
+  "graph/node": {
+    "node/x": 2380,
+    "node/y": 320
+  },
+  "graph/parent": ["data/id", "e0a17910-7baf-5320-8812-0e4b94aac343"]
+}

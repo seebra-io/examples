@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/mass-luminosity-law-on-the-main-sequence-l-m.polars.py"
+  },
+  "transformation/data-child": ["data/id", "07d9320f-3f8a-5820-938c-c0049bb8f20a"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "b9b9fd2b-ed38-5fad-a840-502da48fbc1c",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Mass–luminosity law on the main sequence: L ∝ M^α",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 560
+  },
+  "transformation/parent": ["data/id", "4ef98efb-15e1-5afd-8f12-cc032664e04b"],
+  "transformation/units": "{}"
+}

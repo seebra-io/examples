@@ -1,0 +1,21 @@
+{
+  "transformation/content": {
+    "$file": "transforms/both-gauges-on-one-clock-m3-s.polars.py"
+  },
+  "transformation/data-child": ["data/id", "bda1f067-2214-5da8-a325-19926df4903f"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "a604b9af-a82f-5313-a3ec-221405be4c06",
+  "transformation/inputs": [
+    ["data/id", "6dd8662f-6af9-51a0-8682-4def0478b528"]
+  ],
+  "transformation/language": "polars",
+  "transformation/name": "Both gauges on one clock (m³/s)",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "6e1e2974-4e5c-59e5-ab67-8afc3d38cdbb"],
+  "transformation/units": "{}"
+}

@@ -1,0 +1,43 @@
+{
+  "dashboard/id": "7e0adcfa-7691-5c0a-bb11-993440d05b6a",
+  "datas": [
+    ["data/id", "c676d561-19b6-5ed4-bed9-44dc7767ae39"],
+    ["data/id", "c5ff5fe5-c63b-5bf9-84ef-53e4fafb4479"],
+    ["data/id", "710853d0-02bb-59b3-9b95-cb36a05b3c9b"],
+    ["data/id", "4f13634b-86d6-5051-ba6e-7f6c2fee5c01"],
+    ["data/id", "54f0eb1a-d332-5dd8-90c5-85f1ab67919e"],
+    ["data/id", "e50d7f7d-1983-5368-b7e0-b905d136f699"],
+    ["data/id", "323d8d15-7501-57e1-83da-b37fb06909ef"]
+  ],
+  "datasources": [
+    ["datasource/id", "65cebe6f-8b7f-522f-8542-f04139f882d2"]
+  ],
+  "description": "Question: why is the 500 hPa pressure surface hundreds of metres higher over the tropics than over the poles, and how high is the atmosphere? Idea: the hypsometric equation, from hydrostatic balance and the ideal gas law: the thickness between two pressure levels is Δz = (R_d/g₀) T̄ ln(p₁/p₂), so pressure falls exponentially with a scale height H = R_d T/g₀ of about 6–9 km, and a warm column is a thick one. Open-Meteo's forecast API gives the current temperature and geopotential height at 13 pressure levels (1000 to 50 hPa) in 17 columns along 20° E from 80° S to 80° N. Polars and SQL turn the wide answer into levels and layers and compute every layer's thickness from its two temperatures alone: it matches the model's heights to about 0.25% on average (2.4% at worst, in the snapshot cached on 13 November 2026), the remainder mostly humidity (virtual temperature). The lapse rate finds the tropopause (near 16.5 km in the tropics, 8–11 km toward the poles), and the 1000–500 hPa thickness gives each column's mean temperature. Caveats: one moment's model analysis (it changes hour by hour); geopotential metres, not geometric; dry-air R_d without the moisture correction; levels below the ground (Antarctica, high plateaus) are extrapolated by the model and left out of the checks. Next: the speed of sound per layer (sound_m_s, √(γRT)), a radiosonde ascent from the same place, or the jet stream from the thickness gradient (thermal wind).",
+  "graphs": [
+    ["graph/id", "9e15bc94-3521-5b42-8d0d-2b04d0c71655"],
+    ["graph/id", "a85db96c-3081-52e1-8a3b-53c438055179"],
+    ["graph/id", "66dc2820-3a97-57a5-9779-02ed45457642"],
+    ["graph/id", "7c60ea62-0001-595c-b82b-9b75df22b9c6"]
+  ],
+  "grids": [],
+  "name": "The hypsometric equation: why warm air stands tall",
+  "ontology": {
+    "$file": ".seebra/dashboard/7e0adcfa-7691-5c0a-bb11-993440d05b6a.ontology.json",
+    "$json": true
+  },
+  "queries": [
+    ["query/id", "cf877c6f-bed0-5995-abfb-986ce2685795"]
+  ],
+  "studies": [],
+  "tables": [],
+  "texts": [],
+  "timers": [],
+  "transformations": [
+    ["transformation/id", "ca385b83-9c59-54c2-a704-104aca4b8036"],
+    ["transformation/id", "4b6df408-c449-504d-962a-93af0e11775d"],
+    ["transformation/id", "38867b9b-0fd6-51a9-9d34-926c7172933f"],
+    ["transformation/id", "6392b4b5-a2b0-5fec-b46a-9947d8020c5e"],
+    ["transformation/id", "6940ef57-3f8f-5190-8789-c0f423f1c8fd"],
+    ["transformation/id", "a57f3c37-d4fe-5253-be71-b363d99b3f9b"]
+  ]
+}

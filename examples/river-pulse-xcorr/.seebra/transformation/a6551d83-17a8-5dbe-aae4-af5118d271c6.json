@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/lags-0-48-h.polars.py"
+  },
+  "transformation/data-child": ["data/id", "3851543a-c9f0-5661-b6ba-43a46c3e8274"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "a6551d83-17a8-5dbe-aae4-af5118d271c6",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Lags 0–48 h",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "bda1f067-2214-5da8-a325-19926df4903f"],
+  "transformation/units": "{}"
+}

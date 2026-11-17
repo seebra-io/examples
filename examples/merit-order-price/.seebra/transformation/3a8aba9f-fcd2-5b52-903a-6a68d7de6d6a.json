@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/price-to-rows.polars.py"
+  },
+  "transformation/data-child": ["data/id", "ba464048-521f-54b9-b392-9b503f2b8618"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "3a8aba9f-fcd2-5b52-903a-6a68d7de6d6a",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Price to rows",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "a759a3ad-61d1-54e0-b000-71bfee29e8b1"],
+  "transformation/units": "{}"
+}

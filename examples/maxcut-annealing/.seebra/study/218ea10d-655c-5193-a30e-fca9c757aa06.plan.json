@@ -1,0 +1,148 @@
+{
+  "title": "Annealing schedule and max-cut quality",
+  "question": "Per annealing run (50 per schedule, 1 to 500 sweeps): does the cut as a share of the best (ratio) rise with the sweeps?",
+  "review": {
+    "well_formed": true,
+    "issues": [
+      {
+        "kind": "scope",
+        "text": "One graph, one temperature range (2 to 0.05) and seeded runs: the trend holds for this setup, not for annealing in general.",
+        "fix": "Change GRAPH in the Graph step and rerun; the hard cases are random graphs with many odd cycles."
+      },
+      {
+        "kind": "unmeasured",
+        "text": "Time per run grows with sweeps, so 'better' here is bought with more work.",
+        "fix": "Read the success curve per unit of work: found_best_pct against sweeps × n moves."
+      },
+      {
+        "kind": "scope",
+        "text": "Simulated annealing stands in for D-Wave's quantum annealer only by analogy: the QPU uses quantum fluctuations, a fixed anneal time, and noise.",
+        "fix": "Compare with the QPU on the same graph (the D-Wave board) before concluding about quantum annealing."
+      }
+    ],
+    "alternatives": [
+      {
+        "question": "Is the share of runs that find the exact best (hit) higher with longer schedules?",
+        "why": "Drills from the mean ratio to the yes/no outcome a user cares about.",
+        "ready": true
+      },
+      {
+        "question": "On the random 22-node graph, does annealing need more sweeps than on the 3-regular one to reach 90% success?",
+        "why": "Expands to how the graph's structure makes the landscape harder.",
+        "ready": true
+      },
+      {
+        "question": "Does D-Wave's QPU find the best cut more often with a longer anneal time (1 to 2,000 µs)?",
+        "why": "Expands to the quantum annealer itself; needs a Leap token and the D-Wave board.",
+        "ready": false
+      }
+    ]
+  },
+  "hypotheses": [
+    {
+      "id": "H1",
+      "statement": "The cut found, as a share of the best cut, rises with the annealing schedule (sweeps).",
+      "null": "The cut found does not depend on the schedule length.",
+      "outcome": {
+        "concept": "Cut quality",
+        "field": "ratio"
+      },
+      "predictor": {
+        "concept": "Annealing schedule",
+        "field": "sweeps"
+      },
+      "direction": "increase",
+      "test": {
+        "method": "spearman",
+        "link": null,
+        "outcome_mode": "mean",
+        "outcome_field": "ratio",
+        "predictor_field": "sweeps",
+        "exposure_field": null,
+        "versus": null
+      }
+    }
+  ],
+  "concepts": [
+    {
+      "label": "Split",
+      "kind": "entity",
+      "description": "An assignment of every node to side A or side B.",
+      "why": "What each method returns.",
+      "have": true,
+      "categories": [],
+      "field": null,
+      "strategy": null
+    },
+    {
+      "label": "Cut quality",
+      "kind": "measure",
+      "description": "Links cut by the run's final split, divided by the maximum cut found by exhaustive search.",
+      "why": "The outcome.",
+      "have": true,
+      "categories": [],
+      "field": "ratio",
+      "strategy": null
+    },
+    {
+      "label": "Annealing schedule",
+      "kind": "measure",
+      "description": "Sweeps: the schedule has sweeps × n moves while the temperature falls from 2 to 0.05.",
+      "why": "The predictor; 0 is a random split.",
+      "have": true,
+      "categories": [],
+      "field": "sweeps",
+      "strategy": null
+    },
+    {
+      "label": "Found the best",
+      "kind": "measure",
+      "description": "1 when the run's cut equals the maximum cut.",
+      "why": "The yes/no version of the outcome.",
+      "have": true,
+      "categories": [],
+      "field": "hit",
+      "strategy": null
+    }
+  ],
+  "data": [
+    {
+      "concept": "Quantum annealer samples",
+      "request": "For the same graph: D-Wave QPU samples (num_reads 100) at anneal times 1, 20, 200 and 2,000 µs",
+      "source": "D-Wave Leap Solver API, with your own token",
+      "why": "To put the quantum annealer on the same curve."
+    }
+  ],
+  "links": [],
+  "method": {
+    "id": "spearman",
+    "summary": "Spearman's rank correlation between sweeps and the cut ratio over all 500 runs; a positive ρ with an interval above 0 supports H1. The summary table gives the success rate per schedule."
+  },
+  "steps": [
+    {
+      "kind": "data",
+      "title": "The graph",
+      "detail": "Links of the chosen graph (Graph step); the exact landscape and best cut by Gray-code search (Every split, Best split)."
+    },
+    {
+      "kind": "method",
+      "title": "Anneal",
+      "detail": "50 seeded runs per schedule from 1 to 500 sweeps, plus 50 random splits (Annealing runs)."
+    },
+    {
+      "kind": "concept",
+      "title": "Cut quality",
+      "detail": "ratio = cut / max cut and hit = 1 at the best, per run."
+    },
+    {
+      "kind": "decide",
+      "title": "Rises or not",
+      "detail": "Spearman ρ of ratio on sweeps; read the success curve for where it levels off."
+    }
+  ],
+  "caveats": [
+    "Seeded runs: the numbers are reproducible but are one sample of 50 per schedule.",
+    "The exhaustive search is exact only up to about 26 nodes in a browser; beyond that the 'best' would be a guess.",
+    "Simulated annealing is an analogy for the quantum annealer, not a model of it."
+  ]
+}

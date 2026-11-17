@@ -1,0 +1,16 @@
+{
+  "datasource/api-key-key": "api_key",
+  "datasource/auth-type": "none",
+  "datasource/headers": "{}",
+  "datasource/id": "ea9e930a-b2ee-5f67-83db-6b1012a63a68",
+  "datasource/name": "NOAA CO-OPS Tides & Currents",
+  "datasource/node": {
+    "inputs": 1,
+    "node/x": 80,
+    "node/y": 80,
+    "outputs": 1
+  },
+  "datasource/params": "{}",
+  "datasource/type": "openapi",
+  "datasource/url": "https://api.tidesandcurrents.noaa.gov/api/prod"
+}

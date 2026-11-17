@@ -1,0 +1,8 @@
+{
+  "file": {
+    "file/example": "k8s-workloads"
+  },
+  "format": 2,
+  "root": ["dashboard/id", "2c1345ac-d4f1-5f81-a5fa-e1052e62b9ee"],
+  "seebra": "board"
+}

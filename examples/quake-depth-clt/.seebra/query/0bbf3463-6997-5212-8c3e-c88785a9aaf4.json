@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "d8958a5c-8849-5113-9aa4-8ee473b441d4"],
+  "query/datasource": ["datasource/id", "f2a7ddaf-e008-56ea-8694-3b4766d36ae1"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "0bbf3463-6997-5212-8c3e-c88785a9aaf4",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "M2.5+ past 30 days",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 80
+  },
+  "query/params": "{}",
+  "query/path": "/summary/2.5_month.geojson",
+  "query/request-body": "",
+  "query/units": "{}"
+}

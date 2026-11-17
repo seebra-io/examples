@@ -1,0 +1,10 @@
+{
+  "data/id": "59207d80-dd94-579a-bc1e-8c1b994a930a",
+  "data/name": "Per decade data",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "f77a4ad0-95d5-5619-86cf-57ab7aef86a6"],
+  "data/type": "json"
+}

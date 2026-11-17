@@ -1,0 +1,11 @@
+{
+  "data/id": "3ae41b96-3e0d-5ee7-8418-5eabb709def0",
+  "data/name": "The weekly pattern",
+  "data/node": {
+    "node/x": 2070,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "5a778f10-b14d-5237-a122-0d656dd48422"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

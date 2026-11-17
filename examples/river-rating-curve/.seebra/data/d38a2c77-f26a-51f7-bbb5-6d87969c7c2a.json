@@ -1,0 +1,11 @@
+{
+  "data/id": "d38a2c77-f26a-51f7-bbb5-6d87969c7c2a",
+  "data/name": "All-years fit: e, b, C and the 95% interval of e",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "8ec97f2d-047f-5f3a-a500-dffc0411c5b1"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

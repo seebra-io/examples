@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "94898b48-0eb3-56c6-95e4-8e4243dee3b2"],
+  "query/datasource": ["datasource/id", "fbe300fc-ba7d-5c66-830d-15996b85679c"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "28243151-21a8-594d-a7b1-61d486087eeb",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Map on 31 December 2025 (snapshot 1767200597)",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 320
+  },
+  "query/params": "{}",
+  "query/path": "/history/1767200597/geojson",
+  "query/request-body": "",
+  "query/units": "{}"
+}

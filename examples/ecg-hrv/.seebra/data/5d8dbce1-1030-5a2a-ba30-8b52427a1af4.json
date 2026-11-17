@@ -1,0 +1,11 @@
+{
+  "data/id": "5d8dbce1-1030-5a2a-ba30-8b52427a1af4",
+  "data/name": "HRV per record (every beat against NN only)",
+  "data/node": {
+    "node/x": 2070,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "30cdedf2-a7d1-5872-85a2-f8b1fe5283ac"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

@@ -1,0 +1,10 @@
+{
+  "data/id": "ff0c8e0a-00a8-5059-a856-a572d74198e7",
+  "data/name": "RR intervals: NSR 16265 data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "c4b157d4-a26b-51c1-8f31-3b1924be8c71"],
+  "data/type": "json"
+}

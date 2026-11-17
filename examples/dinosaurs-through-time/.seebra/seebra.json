@@ -1,0 +1,8 @@
+{
+  "file": {
+    "file/example": "dinosaurs-through-time"
+  },
+  "format": 2,
+  "root": ["dashboard/id", "ff988f9c-3896-587a-aa02-ecc6ffdf7aac"],
+  "seebra": "board"
+}

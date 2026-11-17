@@ -1,0 +1,11 @@
+{
+  "data/id": "da17c55b-e0a1-5daa-9102-d722229fd1b2",
+  "data/name": "Questions",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "bae16e0b-cfdc-5a29-9be3-a7c6794ddde4"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

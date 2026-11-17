@@ -1,0 +1,11 @@
+{
+  "data/id": "8a580120-638c-5821-b36e-2daa10840c8c",
+  "data/name": "Roster",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "0651af01-0152-5eb5-9355-2073a27281c9"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

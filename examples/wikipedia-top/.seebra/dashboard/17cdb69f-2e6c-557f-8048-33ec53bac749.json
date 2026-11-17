@@ -1,0 +1,31 @@
+{
+  "dashboard/id": "17cdb69f-2e6c-557f-8048-33ec53bac749",
+  "datas": [
+    ["data/id", "c5934d73-6180-52ec-ab00-240de40bb83e"],
+    ["data/id", "98c4cd61-eafd-5958-88e9-1685c84f4cc5"],
+    ["data/id", "1404604b-e300-5d12-a850-38a0e56f56fa"],
+    ["data/id", "32bac173-bb9a-59e5-899b-34f38b411792"]
+  ],
+  "datasources": [
+    ["datasource/id", "e6df3737-9cb2-52be-af07-485826d68fae"]
+  ],
+  "description": "English Wikipedia's most-viewed articles on 1 November 2026 from the Wikimedia pageviews API, without the main page and special, project and talk pages (click a bar or dot to read the article). Statistics idea: Zipf's law. On log-log axes views against rank fall close to a straight line, a power law views ≈ C · rank^(−s); the fit gives s. Caveats: the API lists only the top 1000, views include some automated traffic, and news spikes bend the head of the curve.",
+  "graphs": [
+    ["graph/id", "f4248f09-f584-5421-a548-27ca34f0291d"],
+    ["graph/id", "cf4da2dc-af54-5ad9-982b-7ef75f047f49"]
+  ],
+  "grids": [],
+  "name": "Most-read on Wikipedia",
+  "queries": [
+    ["query/id", "9a3f697f-62f0-5aba-87aa-9a352f77b6cb"]
+  ],
+  "studies": [],
+  "tables": [],
+  "texts": [],
+  "timers": [],
+  "transformations": [
+    ["transformation/id", "c0354c21-123a-5e1e-a7d9-5a69d69d8fa8"],
+    ["transformation/id", "0735528c-ef30-57f8-8dd2-2017b372afda"],
+    ["transformation/id", "97421e20-107e-5f70-afd6-be662195eee1"]
+  ]
+}

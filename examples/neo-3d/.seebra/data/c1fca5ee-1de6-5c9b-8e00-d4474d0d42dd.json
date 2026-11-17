@@ -1,0 +1,11 @@
+{
+  "data/id": "c1fca5ee-1de6-5c9b-8e00-d4474d0d42dd",
+  "data/name": "Closest approaches",
+  "data/node": {
+    "node/x": 2070,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "0703aa37-7517-5b87-8b7e-6c34758a658c"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

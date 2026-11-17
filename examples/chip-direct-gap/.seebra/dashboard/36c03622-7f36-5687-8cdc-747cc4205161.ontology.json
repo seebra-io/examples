@@ -1,0 +1,134 @@
+{
+  "title": "Band gaps and light emission",
+  "summary": "Semiconductors by family and band structure: whether the band gap is direct decides whether a material can emit light efficiently.",
+  "concepts": [
+    {
+      "cid": "c1",
+      "label": "Semiconductor",
+      "kind": "entity",
+      "description": "A material with a band gap between its filled valence band and its empty conduction band; here a stable element or binary compound.",
+      "fields": [
+        "formula",
+        "id"
+      ],
+      "in_data": true,
+      "wikidata": "Q11456",
+      "children": [
+        {
+          "cid": "c2",
+          "label": "Semiconductor family",
+          "kind": "category",
+          "as": "property",
+          "description": "Groups of the constituent elements: IV (Si), III-V (GaAs), II-VI (ZnSe), I-VII (CuBr).",
+          "fields": [
+            "family"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c3",
+          "label": "Crystal structure",
+          "kind": "category",
+          "as": "property",
+          "description": "Space group of the ground state: 227 diamond, 216 zincblende, 186 wurtzite, 225 rocksalt.",
+          "fields": [
+            "sg",
+            "nsites"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c4",
+          "label": "Electronegativity difference",
+          "kind": "measure",
+          "as": "property",
+          "description": "Pauling χ difference of the two elements: a measure of how ionic the bond is.",
+          "fields": [
+            "delta_chi"
+          ],
+          "in_data": true
+        }
+      ]
+    },
+    {
+      "cid": "c5",
+      "label": "Band gap",
+      "kind": "measure",
+      "description": "Energy between the valence-band maximum and the conduction-band minimum, eV.",
+      "fields": [
+        "gap_ev"
+      ],
+      "in_data": true,
+      "wikidata": "Q103929",
+      "children": [
+        {
+          "cid": "c6",
+          "label": "Direct band gap",
+          "kind": "category",
+          "as": "subtype",
+          "description": "Both band edges at the same crystal momentum: a photon alone can be absorbed or emitted.",
+          "fields": [
+            "gap_type",
+            "gap_direct_ev"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c7",
+          "label": "Indirect band gap",
+          "kind": "category",
+          "as": "subtype",
+          "description": "Band edges at different momenta: recombination needs a phonon, so emission is weak (Si, Ge, AlAs, GaP).",
+          "fields": [
+            "gap_type",
+            "margin_ev"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c8",
+          "label": "Band-gap problem of DFT",
+          "kind": "category",
+          "as": "property",
+          "description": "Semi-local functionals such as PBE underestimate gaps, often by 30–100%; hybrid functionals or GW come closer.",
+          "in_data": false,
+          "facts": [
+            {
+              "text": "Alexandria's gaps are PBE; measured Si is 1.12 eV, GaAs 1.42 eV at 300 K.",
+              "source": "https://alexandria.icams.rub.de/"
+            }
+          ]
+        },
+        {
+          "cid": "c9",
+          "label": "Measured band gap",
+          "kind": "measure",
+          "as": "property",
+          "description": "Experimental gap from optical absorption or photoluminescence.",
+          "in_data": false
+        }
+      ]
+    },
+    {
+      "cid": "c10",
+      "label": "Light-emitting diode",
+      "kind": "entity",
+      "description": "A p-n junction that emits photons at about the band-gap energy, λ ≈ 1240 nm·eV / E_g.",
+      "fields": [
+        "photon_nm"
+      ],
+      "in_data": false,
+      "wikidata": "Q143907",
+      "children": [
+        {
+          "cid": "c11",
+          "label": "Radiative recombination",
+          "kind": "event",
+          "as": "part",
+          "description": "An electron falling across the gap and emitting a photon; fast in direct-gap materials.",
+          "in_data": false
+        }
+      ]
+    }
+  ]
+}

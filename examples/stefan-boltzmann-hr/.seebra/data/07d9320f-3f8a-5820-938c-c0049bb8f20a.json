@@ -1,0 +1,10 @@
+{
+  "data/id": "07d9320f-3f8a-5820-938c-c0049bb8f20a",
+  "data/name": "Mass–luminosity law on the main sequence: L ∝ M^α data",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 560
+  },
+  "data/parent": ["transformation/id", "b9b9fd2b-ed38-5fad-a840-502da48fbc1c"],
+  "data/type": "json"
+}

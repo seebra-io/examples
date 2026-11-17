@@ -1,0 +1,10 @@
+{
+  "data/id": "2ffed433-54bb-56e6-ae93-17a1fa8406ab",
+  "data/name": "Paintings data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 80
+  },
+  "data/parent": ["query/id", "a5b97cf4-3797-5b57-9745-139640e1bf7f"],
+  "data/type": "json"
+}

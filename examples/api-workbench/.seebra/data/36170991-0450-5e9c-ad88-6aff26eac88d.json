@@ -1,0 +1,10 @@
+{
+  "data/id": "36170991-0450-5e9c-ad88-6aff26eac88d",
+  "data/name": "GET /posts data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 80
+  },
+  "data/parent": ["query/id", "2a68d868-bb31-557a-aae1-91b4045c55ca"],
+  "data/type": "json"
+}

@@ -1,0 +1,24 @@
+{
+  "transformation/content": {
+    "$file": "transforms/genotype-counts-five-variants.sql"
+  },
+  "transformation/data-child": ["data/id", "75ae6a48-13c1-5331-9b8c-460ddd0f3478"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "d6c1a681-dd22-518a-8739-07c2ad3d3837",
+  "transformation/inputs": [
+    ["data/id", "3ba13ea7-574c-5341-b82d-3581c079362e"],
+    ["data/id", "20279dcf-3f9b-5ee6-96b4-978f7723a32a"],
+    ["data/id", "ca5ea23d-0ec0-5f1d-bb7d-501810f392a1"],
+    ["data/id", "041f0ca6-c4c0-52b8-a11c-b8e051b55f21"]
+  ],
+  "transformation/language": "sql",
+  "transformation/name": "Genotype counts, five variants",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "a688bbfe-f5d8-5602-b868-eebbb6132b32"],
+  "transformation/units": "{}"
+}

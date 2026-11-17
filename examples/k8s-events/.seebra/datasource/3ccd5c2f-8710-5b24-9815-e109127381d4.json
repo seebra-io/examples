@@ -1,0 +1,17 @@
+{
+  "datasource/api-key": "k8s-token",
+  "datasource/api-key-key": "api_key",
+  "datasource/auth-type": "bearer",
+  "datasource/headers": "{}",
+  "datasource/id": "3ccd5c2f-8710-5b24-9815-e109127381d4",
+  "datasource/name": "Kubernetes API (your cluster, via your gateway)",
+  "datasource/node": {
+    "inputs": 1,
+    "node/x": 80,
+    "node/y": 80,
+    "outputs": 1
+  },
+  "datasource/params": "{}",
+  "datasource/type": "openapi",
+  "datasource/url": "https://kubernetes.default.svc"
+}

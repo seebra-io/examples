@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/mars-models-one-row-per-file.js"
+  },
+  "transformation/data-child": ["data/id", "569b305f-14e4-5fad-819f-12ddcdfedbec"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "js-web-worker",
+  "transformation/id": "c87dfd94-f3b8-599d-85ef-fcef3aa2b2eb",
+  "transformation/inputs": [],
+  "transformation/language": "javascript",
+  "transformation/name": "Mars models, one row per file",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "379ef43e-f563-5477-b90d-60f832282a39"],
+  "transformation/units": "{\"mb\":\"MB\"}"
+}

@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/mean-lowest-rating-per-material-and-10-year-age.polars.py"
+  },
+  "transformation/data-child": ["data/id", "c52355ed-35e2-5bce-acbd-d46e45e2850d"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "87789e8c-9bf9-5695-863a-a6b9ead9ba25",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Mean lowest rating per material and 10-year age band",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "6a34c283-64b0-542f-9a25-1ff3056a734c"],
+  "transformation/units": "{}"
+}

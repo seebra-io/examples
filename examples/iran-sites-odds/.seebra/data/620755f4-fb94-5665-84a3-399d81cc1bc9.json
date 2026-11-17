@@ -1,0 +1,10 @@
+{
+  "data/id": "620755f4-fb94-5665-84a3-399d81cc1bc9",
+  "data/name": "UN News: Middle East data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 2240
+  },
+  "data/parent": ["query/id", "c1f12b41-cd9d-5fd4-bb96-c8dd9e17fc96"],
+  "data/type": "json"
+}

@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/issues-days-open-closed-or-censored.polars.py"
+  },
+  "transformation/data-child": ["data/id", "d3091a36-9cc9-5d27-abe1-a3d0960b42d9"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "02eacddb-db80-5007-8985-4f13ab8d51ce",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Issues: days open, closed or censored",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "4c384403-ef93-5abc-9e92-21c8f0813240"],
+  "transformation/units": "{}"
+}

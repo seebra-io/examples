@@ -1,0 +1,21 @@
+{
+  "transformation/content": {
+    "$file": "transforms/annual-peaks-against-the-curve.polars.py"
+  },
+  "transformation/data-child": ["data/id", "2285a219-60f2-5218-aea2-bc94c658438e"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "28abc620-f14f-572f-ab47-78db509e251e",
+  "transformation/inputs": [
+    ["data/id", "d38a2c77-f26a-51f7-bbb5-6d87969c7c2a"]
+  ],
+  "transformation/language": "polars",
+  "transformation/name": "Annual peaks against the curve",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "ac8fcad9-78dd-5b16-9adb-9a083632f7dd"],
+  "transformation/units": "{}"
+}

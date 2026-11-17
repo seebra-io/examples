@@ -1,0 +1,10 @@
+{
+  "data/id": "167f320a-78a7-5368-93b4-993cdaf33166",
+  "data/name": "Users data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 560
+  },
+  "data/parent": ["transformation/id", "8fc95a6a-2f8c-5800-8d6c-d6190dbc366a"],
+  "data/type": "json"
+}

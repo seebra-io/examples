@@ -1,0 +1,5 @@
+data.rows("hourly.time").rename({"value": "time"}).with_row_index("i")
+    .join(data.rows("hourly.temperature_2m").rename({"value": "temp"}).with_row_index("i"), on="i")
+    .join(data.rows("hourly.precipitation").rename({"value": "rain"}).with_row_index("i"), on="i")
+    .select("time", day = col("time").str.slice(0, 10), temp = col("temp"), rain = col("rain"))
+    .sort("time")

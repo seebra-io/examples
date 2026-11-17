@@ -1,0 +1,11 @@
+{
+  "data/id": "53b47495-ed2c-5213-92e2-9dce92248899",
+  "data/name": "Users and their posts (full join)",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 560
+  },
+  "data/parent": ["transformation/id", "a23cf39e-d63b-585d-80fd-ca4d86fdc991"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

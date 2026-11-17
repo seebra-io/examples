@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/resonance-and-damping-theory.js"
+  },
+  "graph/id": "ca8f0831-7be7-5942-83c6-d5a70bdfacd4",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Resonance and damping (theory)",
+  "graph/node": {
+    "node/x": 2380,
+    "node/y": 560
+  },
+  "graph/parent": ["data/id", "673b98dd-bf18-56a9-adf8-cb42668ae204"]
+}

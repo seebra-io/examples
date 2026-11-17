@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/rarefaction-expected-species-in-n-random-records.polars.py"
+  },
+  "transformation/data-child": ["data/id", "46fc0e43-3038-52b1-b455-1b7beb4439fe"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "9aa0a2cf-1ca2-5e29-bcd9-875380f406de",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Rarefaction: expected species in n random records",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1920,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "1a5fe429-3458-50d3-bc68-fcab45caf36c"],
+  "transformation/units": "{}"
+}

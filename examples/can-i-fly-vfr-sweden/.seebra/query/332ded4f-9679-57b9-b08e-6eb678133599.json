@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "2ce18cd3-c362-5631-a369-58d4703a046d"],
+  "query/datasource": ["datasource/id", "c3e0d3e8-c262-58cf-89ed-13d370e41fee"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "332ded4f-9679-57b9-b08e-6eb678133599",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "TAFs, 55–69°N 10–24°E (latest per airport)",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 320
+  },
+  "query/params": "{\"bbox\":\"55,10,69,24\",\"format\":\"json\"}",
+  "query/path": "/taf",
+  "query/request-body": "",
+  "query/units": "{}"
+}

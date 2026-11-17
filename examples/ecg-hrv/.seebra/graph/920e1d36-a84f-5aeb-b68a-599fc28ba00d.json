@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/rr-tachograms-three-hearts-15-minutes-each.js"
+  },
+  "graph/id": "920e1d36-a84f-5aeb-b68a-599fc28ba00d",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "RR tachograms: three hearts, 15 minutes each",
+  "graph/node": {
+    "node/x": 1920,
+    "node/y": 560
+  },
+  "graph/parent": ["data/id", "467a44c2-a8f6-5fe4-837e-545a685c1953"]
+}

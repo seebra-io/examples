@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/where-did-the-clock-stop-doubling-a-two-line-fit.polars.py"
+  },
+  "transformation/data-child": ["data/id", "37b963bf-8c13-5473-8e6a-ced28ec8a8a1"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "5257f5de-583a-598a-9c8d-64c3ce28d7a9",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Where did the clock stop doubling? A two-line fit for every break year",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1920,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "48f6a0ae-2b11-5acd-bcef-3d682037d013"],
+  "transformation/units": "{}"
+}

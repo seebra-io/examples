@@ -1,0 +1,11 @@
+{
+  "data/id": "be18a0f2-0f65-5c83-b5fa-d505f9c794b3",
+  "data/name": "Daily low, high and rain",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "e2065422-7610-5762-bd00-159536b05450"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

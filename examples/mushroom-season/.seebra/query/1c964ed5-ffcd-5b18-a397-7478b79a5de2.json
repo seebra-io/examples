@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "19f5b6e5-6e01-539d-8c92-b51b9062f20a"],
+  "query/datasource": ["datasource/id", "0ad2947c-0e41-5bf4-bf2c-3dedb20e3b4e"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "1c964ed5-ffcd-5b18-a397-7478b79a5de2",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "All fungi (Fungi): Swedish records per month, 2000–2025",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 80
+  },
+  "query/params": "{\"taxonKey\":\"5\",\"country\":\"SE\",\"year\":\"2000,2025\",\"limit\":\"0\",\"facet\":\"month\",\"facetLimit\":\"12\"}",
+  "query/path": "/occurrence/search",
+  "query/request-body": "",
+  "query/units": "{}"
+}

@@ -1,0 +1,16 @@
+{
+  "graph/content": {
+    "$file": "graphs/50-years-of-microprocessors-moore-keeps-going.js"
+  },
+  "graph/id": "310dcf27-dd43-57bf-a91c-c900b07d1ede",
+  "graph/inputs": [
+    ["data/id", "ad2da19a-511a-5208-b056-5c9b6cea6f94"]
+  ],
+  "graph/language": "javascript",
+  "graph/name": "50 years of microprocessors: Moore keeps going, the clock stops",
+  "graph/node": {
+    "node/x": 1920,
+    "node/y": 800
+  },
+  "graph/parent": ["data/id", "48f6a0ae-2b11-5acd-bcef-3d682037d013"]
+}

@@ -1,0 +1,10 @@
+{
+  "data/id": "cd5f9a08-45b1-5915-a671-ad0ab99046f6",
+  "data/name": "Weekly means, three years data",
+  "data/node": {
+    "node/x": 2070,
+    "node/y": 560
+  },
+  "data/parent": ["transformation/id", "c03ec395-10fc-5e08-9f5f-13ac1e7fe3cb"],
+  "data/type": "json"
+}

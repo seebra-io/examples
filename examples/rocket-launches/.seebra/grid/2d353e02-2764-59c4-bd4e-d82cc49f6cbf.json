@@ -1,0 +1,10 @@
+{
+  "grid/cols": 5,
+  "grid/id": "2d353e02-2764-59c4-bd4e-d82cc49f6cbf",
+  "grid/node": {
+    "node/x": 1460,
+    "node/y": 80
+  },
+  "grid/parent": ["data/id", "a64c8a99-6111-5f7c-8aba-b09168750ca3"],
+  "grid/title": "The rockets"
+}

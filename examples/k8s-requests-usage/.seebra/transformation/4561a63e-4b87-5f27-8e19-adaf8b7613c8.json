@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/request-and-usage-cpu-and-memory-as-rows.sql"
+  },
+  "transformation/data-child": ["data/id", "f1df191d-ba30-5766-a592-63367321bf74"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "4561a63e-4b87-5f27-8e19-adaf8b7613c8",
+  "transformation/inputs": [],
+  "transformation/language": "sql",
+  "transformation/name": "Request and usage, CPU and memory as rows",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1920,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "9717b6c3-d3f8-5221-b28b-6b0aac093d68"],
+  "transformation/units": "{}"
+}

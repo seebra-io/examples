@@ -1,0 +1,16 @@
+{
+  "graph/content": {
+    "$file": "graphs/the-kirkwood-gaps-asteroids-by-orbit-size.js"
+  },
+  "graph/id": "496a7650-e36c-53b6-a16f-2412aeeac3ab",
+  "graph/inputs": [
+    ["data/id", "66960e22-3bdd-583c-9e28-add38a6ae356"]
+  ],
+  "graph/language": "javascript",
+  "graph/name": "The Kirkwood gaps: asteroids by orbit size",
+  "graph/node": {
+    "node/x": 1460,
+    "node/y": 320
+  },
+  "graph/parent": ["data/id", "8e5cf7dd-ad91-56d2-903e-bca7b603d50a"]
+}

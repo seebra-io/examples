@@ -1,0 +1,18 @@
+{
+  "study/hypothesis": "Genera found per stage rise with fossil finds per stage (Spearman's rho > 0): the raw diversity curve partly measures sampling.",
+  "study/id": "08a47155-c134-5e51-b08d-fb420b3364d4",
+  "study/name": "Do more fossils mean more dinosaurs?",
+  "study/node": {
+    "node/x": 540,
+    "node/y": 1280
+  },
+  "study/plan": {
+    "$file": ".seebra/study/08a47155-c134-5e51-b08d-fb420b3364d4.plan.json",
+    "$json": true
+  },
+  "study/question": "Across the Mesozoic stages, does the number of dinosaur genera found in a stage follow the number of fossil finds it has?",
+  "study/state": {
+    "$file": ".seebra/study/08a47155-c134-5e51-b08d-fb420b3364d4.state.json",
+    "$json": true
+  }
+}

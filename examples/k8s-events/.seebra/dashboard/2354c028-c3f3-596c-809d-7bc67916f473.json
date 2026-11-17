@@ -1,0 +1,34 @@
+{
+  "dashboard/id": "2354c028-c3f3-596c-809d-7bc67916f473",
+  "datas": [
+    ["data/id", "3ee983b9-f573-57b2-b250-6bb4085907c4"],
+    ["data/id", "4088937f-dd58-5f0f-8639-b08d2809fc12"],
+    ["data/id", "6172bf28-ec99-5195-ad9e-30493ecd80b0"],
+    ["data/id", "bcedfbd1-053f-5821-a795-794a9458f9ae"],
+    ["data/id", "da0dc7e1-bd7e-58ec-ab6c-d3adea848f86"]
+  ],
+  "datasources": [
+    ["datasource/id", "3ccd5c2f-8710-5b24-9815-e109127381d4"]
+  ],
+  "description": "Your cluster's warning events (/api/v1/events, type=Warning): when they came, which reasons and objects, and which keep recurring. Statistics: events as a Poisson process. If warnings arrived at random at the window's mean rate, the count per minute would be Poisson: the dispersion index (variance over mean) would be about 1, and a minute above the dashed line would happen by chance less than 5% of the time across the whole window (a Bonferroni bound). Red minutes are bursts: one cause (a node going NotReady, a bad rollout) setting off many warnings at once. A recurring event is one object reporting the same thing again and again: its count over the time between its first and last report is a rate per hour. Hover a minute for its top reasons; a reason links to Kubernetes' docs. Caveats: the API keeps events for about an hour (kube-apiserver --event-ttl, 1h by default), so this is the last hour, not history; each event is counted once at its latest occurrence (count says how many times it repeated); up to 1,000 events. Needs signing in and a connected cluster: the datasource is https://kubernetes.default.svc, the in-cluster address of the Kubernetes API, reached through your organization's own Seebra gateway running in that cluster (Settings → Organization), with a read-only service-account token kept in the gateway's Secret under the name k8s-token (sent as a bearer token). Signed out, or through Seebra's hosted gateway, no cluster can be reached, so this example shows errors there. The datasource shows \"key ?\" because the token lives on the gateway, not among your Seebra secrets. Setup, RBAC and the kubectl proxy route: docs, Use cases → Kubernetes.",
+  "graphs": [
+    ["graph/id", "74045e53-202d-5e30-b472-14b3b9ab2bfe"],
+    ["graph/id", "a19fc9d5-0636-51c8-9709-9ff0fe863d8a"],
+    ["graph/id", "dcd36434-4293-5881-9dff-29c5e1f3626c"]
+  ],
+  "grids": [],
+  "name": "Kubernetes warning events",
+  "queries": [
+    ["query/id", "bd35aec2-0c43-5207-af38-998433b2157e"]
+  ],
+  "studies": [],
+  "tables": [],
+  "texts": [],
+  "timers": [],
+  "transformations": [
+    ["transformation/id", "a79e3a45-d9fe-54d2-b05d-f5d7b395541f"],
+    ["transformation/id", "a5b75c49-8fe0-54cb-9fbd-ab50ca28574a"],
+    ["transformation/id", "bff48d88-3018-51f4-a3bf-975837652e4a"],
+    ["transformation/id", "7155e4e6-7acc-5b9c-bbd6-aabd42797c2f"]
+  ]
+}

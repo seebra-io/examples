@@ -1,0 +1,21 @@
+{
+  "transformation/content": {
+    "$file": "transforms/how-far-the-measurements-reach-up-the-curve.polars.py"
+  },
+  "transformation/data-child": ["data/id", "247d8706-1010-5dd4-9427-893089707c83"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "e73b4ef2-1871-5f48-ac7a-f372dc8837a8",
+  "transformation/inputs": [
+    ["data/id", "53b3944f-088d-5541-af4c-12295f8c0c00"]
+  ],
+  "transformation/language": "polars",
+  "transformation/name": "How far the measurements reach up the curve",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 800
+  },
+  "transformation/parent": ["data/id", "2285a219-60f2-5218-aea2-bc94c658438e"],
+  "transformation/units": "{}"
+}

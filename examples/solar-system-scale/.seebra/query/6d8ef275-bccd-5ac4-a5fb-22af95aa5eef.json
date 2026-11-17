@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "7f736753-ddd7-5007-86d2-662043bd674c"],
+  "query/datasource": ["datasource/id", "be2ff423-d64f-5002-a376-d495798814a9"],
+  "query/dynamic?": false,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "6d8ef275-bccd-5ac4-a5fb-22af95aa5eef",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Venus, NASA's model",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 1280
+  },
+  "query/params": "{}",
+  "query/path": "/psd/solar/2023/09/v/Venus_1_12103.glb",
+  "query/request-body": "",
+  "query/units": "{}"
+}

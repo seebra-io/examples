@@ -1,0 +1,11 @@
+{
+  "data/id": "8e703752-35a9-5b55-8c25-1559e2f76733",
+  "data/name": "Seasons",
+  "data/node": {
+    "node/x": 2070,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "756edf75-73a1-5ec3-8254-8473b75b55c1"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

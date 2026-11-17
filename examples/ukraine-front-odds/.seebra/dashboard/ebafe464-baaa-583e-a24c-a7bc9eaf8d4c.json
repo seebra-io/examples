@@ -1,0 +1,71 @@
+{
+  "dashboard/id": "ebafe464-baaa-583e-a24c-a7bc9eaf8d4c",
+  "datas": [
+    ["data/id", "32c6ddae-a164-5787-951a-699da51e9a62"],
+    ["data/id", "94898b48-0eb3-56c6-95e4-8e4243dee3b2"],
+    ["data/id", "117215b6-ffe7-5af6-8593-495704d7587b"],
+    ["data/id", "255bd1f0-7ba9-5e56-ac29-b2b8e15fe198"],
+    ["data/id", "f27c1ebb-b141-57b1-b2d1-3ed5490cf66f"],
+    ["data/id", "e140d89b-ec4b-5ce1-b29d-d462cbb0ecab"],
+    ["data/id", "ff4e4468-e701-5797-96c0-bdc52512b17f"],
+    ["data/id", "1212b5b4-8f10-5113-a071-be272b3cac3a"],
+    ["data/id", "27d4d850-dc2f-5a36-bd19-3054b9214593"],
+    ["data/id", "4a40a0dd-8835-52eb-b63f-903a70054ff5"],
+    ["data/id", "33b3f2a0-616b-52c9-84a9-50311383f4ce"],
+    ["data/id", "9c9239a2-ea3f-5728-96c7-de58d43c5b6a"],
+    ["data/id", "df2e4791-2070-50a3-9c50-6c21c3ec865a"],
+    ["data/id", "2a364e71-350c-59fb-a44b-5d024e81d2db"],
+    ["data/id", "c99d70be-de13-517b-a1c4-e294b578b334"],
+    ["data/id", "8da37725-f0ed-589b-9028-828fab19d26d"],
+    ["data/id", "bf2a526c-15f2-51cf-9dcc-53bcdab80c05"],
+    ["data/id", "bc9c73dd-7f65-540e-b111-ad01c92fb96a"],
+    ["data/id", "c2d94e99-2ceb-55b1-89c5-8f12f8f744af"]
+  ],
+  "datasources": [
+    ["datasource/id", "fbe300fc-ba7d-5c66-830d-15996b85679c"],
+    ["datasource/id", "e39e04cb-f724-595d-9832-5c82cc61be7e"],
+    ["datasource/id", "8b592d42-80ac-5879-aada-ce1baf73a724"],
+    ["datasource/id", "d348e3de-c603-5b89-a9de-59bd3e05afc8"],
+    ["datasource/id", "f0a1c990-d04b-51bb-9160-eb2835f3c545"],
+    ["datasource/id", "4e41c75c-f2d4-5d5e-a7bb-0c2383428021"]
+  ],
+  "description": "Question: who is gaining ground in Ukraine, where are the forces, and what do markets give for a ceasefire, a peace deal or territorial concessions by a given month? The map lays DeepStateMap's areas of control (now, and the line of 1 January 2026 dashed) on GMRT terrain, with its attack directions, the Russian units and airfields it places, and 120 days of its located updates (each a place it reports changing hands). The area step measures the net change in km² since 1 January; the weekly chart counts reported advances by side. The odds chart is the ontology's 'outcome by deadline': each Polymarket 'by ...?' event is a probability curve over its deadlines (a cumulative distribution), so you can read the chance of a ceasefire before a month and year; Manifold adds play-money forecasts; UN News and GDELT the diplomacy. Caveats: DeepStateMap is a Ukrainian volunteer project (sources: its own, the General Staff, geolocated footage); its unit positions are its placements, not verified here, and a quiet sector is unreported rather than unchanged. Market prices are not probabilities (fees, thin trading; hollow dots break the ordering). GDELT allows one request every 5 seconds per address and often refuses (its table then stays empty; UN News doesn't depend on it): rerun it. Terrain is about 7 km per cell.",
+  "graphs": [
+    ["graph/id", "97879f27-9a66-58dd-85f0-1f96347a4288"],
+    ["graph/id", "6617496a-3e53-53e3-93a9-5eb96aaaeedc"],
+    ["graph/id", "bb750155-11ea-574d-9c71-246d3b45d1a2"]
+  ],
+  "grids": [],
+  "name": "Ukraine: front, forces, odds and diplomacy",
+  "ontology": {
+    "$file": ".seebra/dashboard/ebafe464-baaa-583e-a24c-a7bc9eaf8d4c.ontology.json",
+    "$json": true
+  },
+  "queries": [
+    ["query/id", "deee6177-1789-5b79-b026-f567bd808039"],
+    ["query/id", "28243151-21a8-594d-a7b1-61d486087eeb"],
+    ["query/id", "f17c8fb6-8acb-5e71-b7be-5cec3453ce91"],
+    ["query/id", "d4f40a3b-5b01-52c2-875d-4086caa378a5"],
+    ["query/id", "bb1ca356-b1dd-59ae-8b78-1ffb14e4ea5c"],
+    ["query/id", "7d0cf03b-aab4-57c3-bb5f-f0f13c5b86c4"],
+    ["query/id", "b8a1e97e-4b97-5a7f-baf0-96257c6219c5"],
+    ["query/id", "cfc0a451-49ca-5081-b296-6e408f65dbbe"]
+  ],
+  "studies": [],
+  "tables": [],
+  "texts": [],
+  "timers": [],
+  "transformations": [
+    ["transformation/id", "55bba494-1ea4-508d-b990-26e4e762ec79"],
+    ["transformation/id", "0877c338-8281-51c3-8bfb-2af05e2b82c0"],
+    ["transformation/id", "4e7fd0c3-da0e-5856-87dd-65b7d2eb4029"],
+    ["transformation/id", "eb297efa-1d7a-5858-aae7-29103e7d7440"],
+    ["transformation/id", "813a36be-1fa3-5225-8022-457eda413d55"],
+    ["transformation/id", "288b21ee-3768-5a9b-8ce3-02971e839b71"],
+    ["transformation/id", "75c2578c-ff9b-52f4-aa80-f6852b2d5980"],
+    ["transformation/id", "9c31dfa7-8556-5a7a-9316-480c415707fc"],
+    ["transformation/id", "925730df-4593-5357-8906-994a041a90d5"],
+    ["transformation/id", "3e43eb70-08b4-5054-86c8-d2db1f231a5d"],
+    ["transformation/id", "14b897f5-cda8-54be-b784-7206a7b0628b"]
+  ]
+}

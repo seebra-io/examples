@@ -1,0 +1,10 @@
+{
+  "data/id": "c8d008ab-f822-5902-b662-d661d8d0323b",
+  "data/name": "Parse logical cores data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 1040
+  },
+  "data/parent": ["transformation/id", "ac2b4d13-80aa-5c76-a315-228cd73314c5"],
+  "data/type": "json"
+}

@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/frequency-of-frequencies.polars.py"
+  },
+  "transformation/data-child": ["data/id", "61a16a4b-f3b1-53a2-8303-8e26edcd8430"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "09381f36-8e3a-5a76-9279-4fce1551ea82",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Frequency of frequencies",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1920,
+    "node/y": 560
+  },
+  "transformation/parent": ["data/id", "1a5fe429-3458-50d3-bc68-fcab45caf36c"],
+  "transformation/units": "{}"
+}

@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/daily-and-annual-harmonic-per-layer-amplitude.sql"
+  },
+  "transformation/data-child": ["data/id", "3e74b59e-8ba8-5256-b226-c80c7eb2074e"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "a6069af3-7462-58e0-ae8e-b30b89846c88",
+  "transformation/inputs": [],
+  "transformation/language": "sql",
+  "transformation/name": "Daily and annual harmonic per layer (amplitude, phase)",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 2380,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "79566d17-3115-5f7e-b23f-d9a2b5129e55"],
+  "transformation/units": "{}"
+}

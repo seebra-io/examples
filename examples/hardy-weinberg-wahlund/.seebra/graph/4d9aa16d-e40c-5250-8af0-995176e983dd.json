@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/heterozygotes-against-allele-frequency.js"
+  },
+  "graph/id": "4d9aa16d-e40c-5250-8af0-995176e983dd",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Heterozygotes against allele frequency: populations on the parabola, pooled samples below",
+  "graph/node": {
+    "node/x": 2380,
+    "node/y": 560
+  },
+  "graph/parent": ["data/id", "d505a290-3607-55b0-b2aa-2db18e12d3f6"]
+}

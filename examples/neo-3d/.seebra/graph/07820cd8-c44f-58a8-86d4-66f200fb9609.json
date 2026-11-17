@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/around-earth-3d.js"
+  },
+  "graph/id": "07820cd8-c44f-58a8-86d4-66f200fb9609",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Around Earth (3D)",
+  "graph/node": {
+    "node/x": 1920,
+    "node/y": 80
+  },
+  "graph/parent": ["data/id", "ae1213d2-fe2f-57c0-88d3-6a0f4cd6eae0"]
+}

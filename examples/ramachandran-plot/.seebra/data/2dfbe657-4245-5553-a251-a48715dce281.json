@@ -1,0 +1,11 @@
+{
+  "data/id": "2dfbe657-4245-5553-a251-a48715dce281",
+  "data/name": "Per secondary structure",
+  "data/node": {
+    "node/x": 2530,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "d453fdb4-26f4-5217-85dc-b8dd9308acea"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

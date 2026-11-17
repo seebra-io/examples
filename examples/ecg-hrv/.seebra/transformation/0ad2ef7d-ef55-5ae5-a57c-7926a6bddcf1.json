@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/ecg-samples-in-mv-12-s-of-record-119-lead-mlii.polars.py"
+  },
+  "transformation/data-child": ["data/id", "1e4e3c3d-5bc5-58a1-b2f1-8fa53ad336b7"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "0ad2ef7d-ef55-5ae5-a57c-7926a6bddcf1",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "ECG samples in mV (12 s of record 119, lead MLII)",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 800
+  },
+  "transformation/parent": ["data/id", "e1187608-802d-5792-8864-fa2305fbe212"],
+  "transformation/units": "{}"
+}

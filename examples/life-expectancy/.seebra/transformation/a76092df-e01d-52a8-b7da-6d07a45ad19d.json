@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/regions-and-income.polars.py"
+  },
+  "transformation/data-child": ["data/id", "73cf2bca-5f82-50a2-af8c-aaafa98a2544"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "a76092df-e01d-52a8-b7da-6d07a45ad19d",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Regions and income",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "2c5d882b-1f1b-5ffe-b07f-8c489565710d"],
+  "transformation/units": "{}"
+}

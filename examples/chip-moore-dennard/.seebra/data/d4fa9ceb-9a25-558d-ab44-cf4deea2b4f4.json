@@ -1,0 +1,10 @@
+{
+  "data/id": "d4fa9ceb-9a25-558d-ab44-cf4deea2b4f4",
+  "data/name": "Parse single-thread performance (SpecINT × 10³) data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 800
+  },
+  "data/parent": ["transformation/id", "f410be00-5476-59b5-a740-302a6384709e"],
+  "data/type": "json"
+}

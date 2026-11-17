@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/is-b-stable-b-against-mc-for-mb-and-mw.js"
+  },
+  "graph/id": "6a7d47ee-f922-5c08-b429-31522a9c49ec",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Is b stable? b against Mc for mb and Mw",
+  "graph/node": {
+    "node/x": 1920,
+    "node/y": 560
+  },
+  "graph/parent": ["data/id", "172913fe-218c-53f1-a87b-608f81b7367c"]
+}

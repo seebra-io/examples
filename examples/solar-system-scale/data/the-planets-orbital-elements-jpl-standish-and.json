@@ -1,0 +1,151 @@
+{
+ "source": "E. M. Standish, Keplerian Elements for Approximate Positions of the Major Planets, JPL Solar System Dynamics, Table 1 (valid 1800-2050): https://ssd.jpl.nasa.gov/planets/approx_pos.html",
+ "radii_source": "Mean radii from NASA's planetary fact sheets: https://nssdc.gsfc.nasa.gov/planetary/factsheet/",
+ "note": "Elements at J2000 (JD 2451545.0) with their rates per Julian century; angles in degrees, a in AU. omega_bar is the longitude of perihelion, so the argument of perihelion is omega_bar - Omega. Earth's row is the Earth-Moon barycentre.",
+ "bodies": [
+  {
+   "name": "Sun",
+   "kind": "star",
+   "radius_km": 695700,
+   "texture": "NASA's Sun model (Eyes on the Solar System)"
+  },
+  {
+   "name": "Mercury",
+   "kind": "planet",
+   "a": 0.38709927,
+   "e": 0.20563593,
+   "i": 7.00497902,
+   "L": 252.2503235,
+   "omega_bar": 77.45779628,
+   "Omega": 48.33076593,
+   "a_dot": 3.7e-07,
+   "e_dot": 1.906e-05,
+   "i_dot": -0.00594749,
+   "L_dot": 149472.67411175,
+   "omega_bar_dot": 0.16047689,
+   "Omega_dot": -0.12534081,
+   "radius_km": 2439.7,
+   "period_days": 87.969,
+   "color": "#a8a29e",
+   "texture": "NASA's Mercury model (MESSENGER mosaic)"
+  },
+  {
+   "name": "Venus",
+   "kind": "planet",
+   "a": 0.72333566,
+   "e": 0.00677672,
+   "i": 3.39467605,
+   "L": 181.9790995,
+   "omega_bar": 131.60246718,
+   "Omega": 76.67984255,
+   "a_dot": 3.9e-06,
+   "e_dot": -4.107e-05,
+   "i_dot": -0.0007889,
+   "L_dot": 58517.81538729,
+   "omega_bar_dot": 0.00268329,
+   "Omega_dot": -0.27769418,
+   "radius_km": 6051.8,
+   "period_days": 224.701,
+   "color": "#fbbf24",
+   "texture": "NASA's Venus model"
+  },
+  {
+   "name": "Earth",
+   "kind": "planet",
+   "a": 1.00000261,
+   "e": 0.01671123,
+   "i": -1.531e-05,
+   "L": 100.46457166,
+   "omega_bar": 102.93768193,
+   "Omega": 0.0,
+   "a_dot": 5.62e-06,
+   "e_dot": -4.392e-05,
+   "i_dot": -0.01294668,
+   "L_dot": 35999.37244981,
+   "omega_bar_dot": 0.32327364,
+   "Omega_dot": 0.0,
+   "radius_km": 6371.0,
+   "period_days": 365.256,
+   "color": "#38bdf8",
+   "texture": "NASA 3D Resources: Earth (A)"
+  },
+  {
+   "name": "Mars",
+   "kind": "planet",
+   "a": 1.52371034,
+   "e": 0.0933941,
+   "i": 1.84969142,
+   "L": -4.55343205,
+   "omega_bar": -23.94362959,
+   "Omega": 49.55953891,
+   "a_dot": 1.847e-05,
+   "e_dot": 7.882e-05,
+   "i_dot": -0.00813131,
+   "L_dot": 19140.30268499,
+   "omega_bar_dot": 0.44441088,
+   "Omega_dot": -0.29257343,
+   "radius_km": 3389.5,
+   "period_days": 686.98,
+   "color": "#f97316",
+   "texture": "NASA 3D Resources: Mars"
+  },
+  {
+   "name": "Jupiter",
+   "kind": "planet",
+   "a": 5.202887,
+   "e": 0.04838624,
+   "i": 1.30439695,
+   "L": 34.39644051,
+   "omega_bar": 14.72847983,
+   "Omega": 100.47390909,
+   "a_dot": -0.00011607,
+   "e_dot": -0.00013253,
+   "i_dot": -0.00183714,
+   "L_dot": 3034.74612775,
+   "omega_bar_dot": 0.21252668,
+   "Omega_dot": 0.20469106,
+   "radius_km": 69911,
+   "period_days": 4332.59,
+   "color": "#d6b38a",
+   "texture": "NASA 3D Resources: Jupiter"
+  }
+ ],
+ "regions": [
+  {
+   "name": "Main asteroid belt",
+   "from_au": 2.06,
+   "to_au": 3.27,
+   "why": "Between Mars and Jupiter: bodies that never formed a planet, held between the 4:1 and 2:1 resonances with Jupiter."
+  },
+  {
+   "name": "Kirkwood gap 3:1",
+   "at_au": 2.5,
+   "why": "An asteroid here would orbit three times for each of Jupiter's one; the repeated pull clears it."
+  },
+  {
+   "name": "Kirkwood gap 5:2",
+   "at_au": 2.82,
+   "why": "Five orbits for Jupiter's two."
+  },
+  {
+   "name": "Kirkwood gap 7:3",
+   "at_au": 2.95,
+   "why": "Seven orbits for Jupiter's three."
+  },
+  {
+   "name": "Kirkwood gap 2:1",
+   "at_au": 3.27,
+   "why": "Two orbits for Jupiter's one: the belt's outer edge."
+  },
+  {
+   "name": "Hilda group 3:2",
+   "at_au": 3.97,
+   "why": "Locked in the 3:2 resonance, so they gather in a triangle with Jupiter at one corner."
+  },
+  {
+   "name": "Jupiter trojans",
+   "at_au": 5.2,
+   "why": "Sharing Jupiter's orbit, 60° ahead (L4) and behind (L5)."
+  }
+ ]
+}

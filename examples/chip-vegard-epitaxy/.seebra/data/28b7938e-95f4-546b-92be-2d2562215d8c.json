@@ -1,0 +1,10 @@
+{
+  "data/id": "28b7938e-95f4-546b-92be-2d2562215d8c",
+  "data/name": "Ordered alloys: composition x and effective lattice constant data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "97e0dee9-daa7-5a98-bf37-9af5c1c2b16b"],
+  "data/type": "json"
+}

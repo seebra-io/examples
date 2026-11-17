@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/per-age-band-bridges-mean-lowest-rating-poor.polars.py"
+  },
+  "transformation/data-child": ["data/id", "75fdc520-1367-5935-9145-542b8a6fb8d8"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "04b76b2f-8ec6-54d7-8939-6b7a5e60f7fc",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Per age band: bridges, mean lowest rating, poor share",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "f79a1049-8ff9-5a2f-8d0c-9b200eea121b"],
+  "transformation/units": "{}"
+}

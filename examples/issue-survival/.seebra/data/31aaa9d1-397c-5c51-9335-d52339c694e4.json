@@ -1,0 +1,10 @@
+{
+  "data/id": "31aaa9d1-397c-5c51-9335-d52339c694e4",
+  "data/name": "All issues and per kind data",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "034b27cf-cff3-583d-8445-cd154d4769b9"],
+  "data/type": "json"
+}

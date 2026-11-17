@@ -1,0 +1,50 @@
+{
+  "dashboard/id": "3658e2f5-7d93-5a39-880b-fc9a1be8658a",
+  "datas": [
+    ["data/id", "5a385e71-1352-510a-b50e-4d47ef37e169"],
+    ["data/id", "b07953fb-31c8-5ff2-9746-a220e32ed99e"],
+    ["data/id", "2978ec6c-4235-5d35-9195-aa4faaff8edb"],
+    ["data/id", "7d659727-dc39-5206-9933-15870224716a"],
+    ["data/id", "48d561f1-7859-5974-9f55-685cccb5e760"],
+    ["data/id", "ada786ad-7196-57a0-82ec-89c0b0208e54"],
+    ["data/id", "a919038b-eb6e-5fd8-97df-2941fadef72d"],
+    ["data/id", "d085cc76-a44f-5978-883a-f096470c225e"],
+    ["data/id", "39aae013-3d97-5eb7-84ab-18c80c8ce101"],
+    ["data/id", "a6e8d884-0060-5e41-970a-45b68536577a"],
+    ["data/id", "b3a5af03-8008-55ee-80d5-a3936af74084"]
+  ],
+  "datasources": [
+    ["datasource/id", "89a9a431-6cf0-59ee-bf87-0f22f3c34388"]
+  ],
+  "description": "Question: is the Sun's 11-year cycle in the numbers themselves, and why 11 and not 22? Idea: the periodogram (a Fourier transform for real data): for each trial period P, |Σ x(t) e^(−2πit/P)|² measures how much of the series repeats at that period. NOAA SWPC's JSON copy of SILSO's monthly sunspot number (1749 to now, version 2) is averaged per year in Polars, and SQL evaluates 400 trial periods from 3 to 150 years. One sharp peak stands at 11.0 years (the Schwabe cycle), with shoulders near 10 and 12 years and a Gleissberg bump near 100. The minima of the 13-month smoothed series (lowest within ±4 years), found in Polars with a cross-join window, number the cycles as SILSO does and give their lengths (mean 11.0 years, 9 to 13.6). Aha: flip the sign of every other cycle, as the Sun's magnetic polarity flips, and the peak moves to about 22 years, the Hale cycle; counting sunspots rectifies the magnetic signal and doubles its frequency. Caveats: early values (before about 1850) rest on sparse observations; the 13-month smoothing is SILSO's and missing for the last six months; the periodogram of a quasi-periodic signal is broad; the sign flip assumes strict alternation (Hale's law), which magnetograms confirm only since 1908. Next: the F10.7 radio flux (same file, since 1947) against sunspots; the SWPC cycle-25 prediction; the Waldmeier effect (strong cycles rise faster: r = −0.75 between peak and rise time over the 24 complete cycles, chart 3).",
+  "graphs": [
+    ["graph/id", "2c0e91b9-5bab-54ae-86a0-1bf0a024077b"],
+    ["graph/id", "573c51e7-428b-50d1-9176-6e43a60b2cd1"],
+    ["graph/id", "d12bb529-63b3-54f9-a3a6-a9e6f176d032"]
+  ],
+  "grids": [],
+  "name": "The solar cycle, found by a periodogram",
+  "ontology": {
+    "$file": ".seebra/dashboard/3658e2f5-7d93-5a39-880b-fc9a1be8658a.ontology.json",
+    "$json": true
+  },
+  "queries": [
+    ["query/id", "42fa729b-14c1-502d-b780-852a59328433"]
+  ],
+  "studies": [],
+  "tables": [],
+  "texts": [],
+  "timers": [],
+  "transformations": [
+    ["transformation/id", "fe3f003c-ea5b-5bb7-8945-c56722508210"],
+    ["transformation/id", "b72e1f4c-c0b9-5b09-bd9b-21c09e328bcf"],
+    ["transformation/id", "6de9a90e-a5eb-59d4-bc77-0e806013b69d"],
+    ["transformation/id", "a5768b70-5810-5f36-8693-8f761f0114ec"],
+    ["transformation/id", "8ba545f8-276b-51f8-9623-5af73f431ee6"],
+    ["transformation/id", "2e9e48a6-7540-5e90-af73-6c52b68e6408"],
+    ["transformation/id", "bfad728c-47e7-5f0d-bb1d-14ae0191d4c6"],
+    ["transformation/id", "15507449-40aa-5884-ae95-fe0d6e377aeb"],
+    ["transformation/id", "66d3f5e6-22a4-5670-b770-130250d8bc17"],
+    ["transformation/id", "8da24039-c157-520e-9bab-34dd4539f7bd"]
+  ]
+}

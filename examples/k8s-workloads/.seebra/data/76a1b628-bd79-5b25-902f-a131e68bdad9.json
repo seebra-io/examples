@@ -1,0 +1,10 @@
+{
+  "data/id": "76a1b628-bd79-5b25-902f-a131e68bdad9",
+  "data/name": "Containers data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "813d3ba8-e2f0-5f4d-8c52-78406fd19b89"],
+  "data/type": "json"
+}

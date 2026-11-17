@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "3fb34ce6-294a-52c7-8830-f5e3d1b15f2b"],
+  "query/datasource": ["datasource/id", "933a1bee-668c-50b0-be56-e4070a68980e"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "93cba030-5395-5ecb-85d2-81c2d20a08d0",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "PodDisruptionBudgets",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 320
+  },
+  "query/params": "{\"limit\":\"500\"}",
+  "query/path": "/apis/policy/v1/poddisruptionbudgets",
+  "query/request-body": "",
+  "query/units": "{}"
+}

@@ -1,0 +1,207 @@
+{
+  "title": "TEMPO groups and VFR minima",
+  "question": "Per hour ahead (outlook): is below_all / airports larger than below_prev / airports, and how many METARs below the minima sit inside a TEMPO/PROB (consistency.fit)?",
+  "review": {
+    "well_formed": false,
+    "issues": [
+      {
+        "kind": "grain",
+        "text": "One snapshot of TAFs and METARs: one weather situation (a November snow day), not a climate of forecasts.",
+        "fix": "Save the answers every hour for weeks and repeat; NOAA keeps METARs and TAFs for 15 days (hours= and date= parameters)."
+      },
+      {
+        "kind": "concept",
+        "text": "A TEMPO says conditions occur for under half of its period, not all of it; counting every TEMPO hour as below is the planning view, not a probability.",
+        "fix": "Weight PROB30/40 by their probability, TEMPO by 0.5, and compare with METAR verification."
+      },
+      {
+        "kind": "scope",
+        "text": "Small airports' TAFs last 9 h, so the population shrinks from about 52 to 14 airports after 9 h.",
+        "fix": "Compare only the airports with 24/30 h TAFs across all hours."
+      }
+    ],
+    "alternatives": [
+      {
+        "question": "How often does a METAR fall outside its own TAF (an amendment due) per airport over a month?",
+        "why": "Drills into TAF verification at one airport.",
+        "ready": false
+      },
+      {
+        "question": "Does SMHI's model ceiling between the airports fall below 1500 ft when the TAFs on both ends are VMC?",
+        "why": "Expands to the route between the aerodromes, where no TAF looks.",
+        "ready": true
+      }
+    ]
+  },
+  "hypotheses": [
+    {
+      "id": "H1",
+      "statement": "The share of airports below the VMC minima is higher with every TAF group counted than with the prevailing forecast only.",
+      "null": "Temporary groups add nothing: the two shares are equal.",
+      "outcome": {
+        "concept": "Airports below VMC minima",
+        "field": "below_all"
+      },
+      "predictor": {
+        "concept": "Hours ahead",
+        "field": "h"
+      },
+      "subgroup": null,
+      "direction": "increase",
+      "test": {
+        "method": "one_mean",
+        "link": null,
+        "outcome_mode": "mean",
+        "outcome_field": "share_all",
+        "second_field": "share_prev",
+        "key_field": "h"
+      }
+    },
+    {
+      "id": "H2",
+      "statement": "The share of airports below the minima by everything the TAF allows falls with the hours ahead (the snow moves out), faster than the prevailing share.",
+      "null": "No trend with hours ahead.",
+      "outcome": {
+        "concept": "Share below, all groups",
+        "field": "share_all"
+      },
+      "predictor": {
+        "concept": "Hours ahead",
+        "field": "h"
+      },
+      "subgroup": null,
+      "direction": "decrease",
+      "test": {
+        "method": "regression",
+        "link": null,
+        "outcome_mode": "mean",
+        "outcome_field": "share_all",
+        "predictor_field": "h",
+        "exposure_field": null,
+        "versus": null
+      }
+    }
+  ],
+  "concepts": [
+    {
+      "label": "Airport-hour",
+      "kind": "entity",
+      "description": "One airport's TAF in one hour (taf_hours).",
+      "why": "The unit.",
+      "have": true,
+      "categories": [],
+      "field": "icao",
+      "strategy": null
+    },
+    {
+      "label": "Prevailing forecast",
+      "kind": "category",
+      "description": "BASE, FM or BECMG group valid then.",
+      "why": "The lower line.",
+      "have": true,
+      "categories": [
+        "VFR",
+        "MVFR",
+        "IFR",
+        "LIFR"
+      ],
+      "field": "ok_prev",
+      "strategy": null
+    },
+    {
+      "label": "Temporary group",
+      "kind": "category",
+      "description": "TEMPO or PROB30/40 valid then, missing elements from the prevailing group.",
+      "why": "What the hypothesis is about.",
+      "have": true,
+      "categories": [],
+      "field": "ok_all",
+      "strategy": null
+    },
+    {
+      "label": "VMC minima",
+      "kind": "measure",
+      "description": "1500 ft ceiling, 5 km visibility (SERA.5005(b)).",
+      "why": "The threshold graded against.",
+      "have": true,
+      "categories": [],
+      "field": "ok_all",
+      "strategy": null
+    },
+    {
+      "label": "METAR fit",
+      "kind": "category",
+      "description": "Inside the prevailing forecast, inside a TEMPO/PROB, or worse than the TAF.",
+      "why": "Which line reality follows.",
+      "have": true,
+      "categories": [
+        "inside the prevailing forecast",
+        "inside a TEMPO/PROB",
+        "worse than the TAF allows"
+      ],
+      "field": "fit",
+      "strategy": null
+    }
+  ],
+  "data": [
+    {
+      "concept": "METAR and TAF history",
+      "request": "https://aviationweather.gov/api/data/metar?ids=ESSA&hours=360&format=json (and /taf with date=)",
+      "source": "NOAA AWC",
+      "why": "Repeat the snapshot over weeks."
+    }
+  ],
+  "links": [
+    {
+      "on": "airport and hour",
+      "kind": "entity",
+      "a": {
+        "data": "metars",
+        "field": "icao"
+      },
+      "b": {
+        "data": "taf_hours",
+        "field": "icao"
+      },
+      "grain": "hour",
+      "note": "consistency joins the METAR to its TAF's first hour."
+    }
+  ],
+  "method": {
+    "id": "rates",
+    "summary": "Below-minima counts per hour ahead over the airports with a TAF then, prevailing against all groups."
+  },
+  "steps": [
+    {
+      "kind": "data",
+      "title": "Every TAF and METAR in the box",
+      "detail": "NOAA AWC JSON, bbox 55,10,69,24."
+    },
+    {
+      "kind": "categorise",
+      "title": "Grade each airport-hour twice",
+      "detail": "taf_hours: ok_prev and ok_all against 1500 ft / 5 km."
+    },
+    {
+      "kind": "method",
+      "title": "Shares per hour ahead",
+      "detail": "outlook: below_prev, below_all, airports."
+    },
+    {
+      "kind": "link",
+      "title": "METAR against its TAF",
+      "detail": "consistency: fit."
+    },
+    {
+      "kind": "decide",
+      "title": "Read the gap",
+      "detail": "Rate ratio and the METAR diamond on the chart."
+    }
+  ],
+  "caveats": [
+    "One day's snapshot.",
+    "TEMPO counted as fully below for planning.",
+    "Population shrinks after 9 h.",
+    "US flight categories differ from SERA minima; the test uses SERA."
+  ]
+}

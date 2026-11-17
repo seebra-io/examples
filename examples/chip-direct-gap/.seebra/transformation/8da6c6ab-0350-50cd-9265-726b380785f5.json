@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/materials-band-gap-and-direct-gap-ev.polars.py"
+  },
+  "transformation/data-child": ["data/id", "0be18eec-9ab7-52f6-90a6-31da6ed5919e"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "8da6c6ab-0350-50cd-9265-726b380785f5",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Materials: band gap and direct gap (eV)",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "9ac2c80e-45df-5e53-8294-ee62c07c6f9f"],
+  "transformation/units": "{}"
+}

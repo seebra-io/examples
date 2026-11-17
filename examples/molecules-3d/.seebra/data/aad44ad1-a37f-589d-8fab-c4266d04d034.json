@@ -1,0 +1,10 @@
+{
+  "data/id": "aad44ad1-a37f-589d-8fab-c4266d04d034",
+  "data/name": "Caffeine properties data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 320
+  },
+  "data/parent": ["query/id", "7542ba83-00ef-5ee9-bad3-50580a277c91"],
+  "data/type": "json"
+}

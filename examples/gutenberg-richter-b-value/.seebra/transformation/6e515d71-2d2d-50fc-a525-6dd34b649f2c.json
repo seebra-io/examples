@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/frequency-magnitude-distribution-per-bin-and.polars.py"
+  },
+  "transformation/data-child": ["data/id", "4dcd81dd-0807-5ce3-bdfd-47372e7376be"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "6e515d71-2d2d-50fc-a525-6dd34b649f2c",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Frequency–magnitude distribution: per bin and cumulative",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "fc913db3-ad6a-5ca1-a82a-e6ef2e9ba53b"],
+  "transformation/units": "{}"
+}

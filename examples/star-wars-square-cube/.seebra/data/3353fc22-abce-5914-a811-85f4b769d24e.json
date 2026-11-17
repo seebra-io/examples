@@ -1,0 +1,10 @@
+{
+  "data/id": "3353fc22-abce-5914-a811-85f4b769d24e",
+  "data/name": "The six films of the original and prequel trilogies data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 800
+  },
+  "data/parent": ["query/id", "f070703d-3ef0-54f0-a235-bc1010124794"],
+  "data/type": "json"
+}

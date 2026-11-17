@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/elements-atomic-number-z.polars.py"
+  },
+  "transformation/data-child": ["data/id", "b9e8842f-54b6-59fd-a3d4-bd4e94bf83f3"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "2ccfea9c-9417-5e79-b005-100bed5ce6d9",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Elements (atomic number Z)",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "fd11323e-6571-570c-b195-d1f5eff25721"],
+  "transformation/units": "{}"
+}

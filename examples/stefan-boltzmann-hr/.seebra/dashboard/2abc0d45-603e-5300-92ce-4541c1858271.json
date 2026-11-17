@@ -1,0 +1,40 @@
+{
+  "dashboard/id": "2abc0d45-603e-5300-92ce-4541c1858271",
+  "datas": [
+    ["data/id", "89ce6cf9-577b-5e27-bc90-89eff23539bd"],
+    ["data/id", "4ef98efb-15e1-5afd-8f12-cc032664e04b"],
+    ["data/id", "396919a3-ee8f-5b99-bbb5-f6e75a5a2432"],
+    ["data/id", "d62644c7-eada-5c9a-bce5-7396fc45fe8a"],
+    ["data/id", "07d9320f-3f8a-5820-938c-c0049bb8f20a"]
+  ],
+  "datasources": [
+    ["datasource/id", "8198d2f6-ae06-5da1-97bc-6f10ba5669f1"]
+  ],
+  "description": "Question: why do two stars of the same colour differ a hundredfold in brightness? Idea: the Stefan–Boltzmann law, L = 4πR²σT⁴: a star's light is its surface temperature to the fourth power times its area. A random sample of 3,000 Gaia DR3 stars with parallaxes better than 5% (Gaia's TAP service, gaia_source joined with astrophysical_parameters) gives brightness, distance and temperature; Polars turns them into luminosity (inverse-square law, extinction, Gaia's bolometric correction BC_G(Teff) of Andrae et al. 2018) and into a radius R = √L (5772 K/T)². Our luminosities agree with Gaia's FLAME values to 0.03 dex (they use the same recipe) and our radii with GSP-Phot's spectral fit to 0.055 dex (log–log slope 0.97, a 7% median offset). On the HR diagram the dashed lines of constant radius sort the stars: at 4,800 K a dwarf and a giant differ by 10× in radius and 100× in light. The main sequence is a mass sequence: L ∝ M^4.7 here. Caveats: Teff from GSP-Phot is biased for some stars (hot, reddened); the bolometric correction is fitted only for 3,300–8,000 K, so other stars are left out; a parallax-limited sample over-represents luminous giants (Malmquist bias); FLAME masses are model-based. Next: binaries with dynamical masses (Gaia's nss_two_body_orbit), or ages across the main-sequence turn-off.",
+  "graphs": [
+    ["graph/id", "9646af98-1d0b-516a-8453-e58eb9a82145"],
+    ["graph/id", "dbd73110-8030-5169-9332-19e738a9e572"],
+    ["graph/id", "dd8f4bba-b956-5ba1-b363-ba71dca7719c"]
+  ],
+  "grids": [],
+  "name": "Stefan–Boltzmann on the HR diagram",
+  "ontology": {
+    "$file": ".seebra/dashboard/2abc0d45-603e-5300-92ce-4541c1858271.ontology.json",
+    "$json": true
+  },
+  "queries": [
+    ["query/id", "6ea314ee-af4b-5f92-9d38-31b83805ae1c"]
+  ],
+  "studies": [
+    ["study/id", "d0e4c1dc-23cd-5d08-a374-b1e2d76cbaa4"]
+  ],
+  "tables": [],
+  "texts": [],
+  "timers": [],
+  "transformations": [
+    ["transformation/id", "73c1c6b2-720b-5be5-b047-de5bf6198b1a"],
+    ["transformation/id", "732e567f-472e-5f8f-819e-924cc9b3f45c"],
+    ["transformation/id", "6e1b3183-4ad9-5837-a8d1-5dcb0284dcb7"],
+    ["transformation/id", "b9b9fd2b-ed38-5fad-a840-502da48fbc1c"]
+  ]
+}

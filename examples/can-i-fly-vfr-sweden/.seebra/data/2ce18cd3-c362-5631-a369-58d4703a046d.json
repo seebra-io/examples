@@ -1,0 +1,10 @@
+{
+  "data/id": "2ce18cd3-c362-5631-a369-58d4703a046d",
+  "data/name": "TAFs, 55–69°N 10–24°E (latest per airport) data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 320
+  },
+  "data/parent": ["query/id", "332ded4f-9679-57b9-b08e-6eb678133599"],
+  "data/type": "json"
+}

@@ -1,0 +1,11 @@
+{
+  "data/id": "83c77950-1d25-5623-adb6-87b1daa6d2c6",
+  "data/name": "Headroom per node",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "47ed9084-e389-5f94-b8d5-859b6e562817"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

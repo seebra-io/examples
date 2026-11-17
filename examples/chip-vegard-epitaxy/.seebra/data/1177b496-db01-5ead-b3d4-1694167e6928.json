@@ -1,0 +1,10 @@
+{
+  "data/id": "1177b496-db01-5ead-b3d4-1694167e6928",
+  "data/name": "COD entries for GaAs (measured) data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 560
+  },
+  "data/parent": ["query/id", "d96a27b0-0b49-5c59-886e-7b00575da7fb"],
+  "data/type": "json"
+}

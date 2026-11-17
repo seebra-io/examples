@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/the-25-slowest-resources.sql"
+  },
+  "transformation/data-child": ["data/id", "f118fa23-7456-5272-a826-175e8288c1ed"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "65da0f4f-6fb9-5f15-82ae-5c20c744d32b",
+  "transformation/inputs": [],
+  "transformation/language": "sql",
+  "transformation/name": "The 25 slowest resources",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 1280
+  },
+  "transformation/parent": ["data/id", "ef5542e6-4f2c-59fa-ba45-375fd0199e08"],
+  "transformation/units": "{}"
+}

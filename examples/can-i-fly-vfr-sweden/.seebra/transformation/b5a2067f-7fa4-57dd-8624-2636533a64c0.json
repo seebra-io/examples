@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/along-the-route-distance-when-each-airport-is.polars.py"
+  },
+  "transformation/data-child": ["data/id", "7cef94af-4deb-5afd-818e-752ef8355b4c"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "b5a2067f-7fa4-57dd-8624-2636533a64c0",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Along the route: distance, when each airport is used, its ±1 h window",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "ae7d4001-5de8-5a40-930c-0a4ddece8a3c"],
+  "transformation/units": "{}"
+}

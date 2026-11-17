@@ -1,0 +1,13 @@
+{
+  "data/file": {
+    "$file": "data/parts-and-builders-curated-with-sources-data.json"
+  },
+  "data/id": "6738931b-6c59-56dd-9eb3-269e3073a51a",
+  "data/name": "Parts and builders (curated, with sources) data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 560
+  },
+  "data/parent": ["query/id", "504fae59-a17e-5df9-b646-334258de68cc"],
+  "data/type": "json"
+}

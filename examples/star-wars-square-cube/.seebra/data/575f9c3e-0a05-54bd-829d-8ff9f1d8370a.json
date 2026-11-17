@@ -1,0 +1,10 @@
+{
+  "data/id": "575f9c3e-0a05-54bd-829d-8ff9f1d8370a",
+  "data/name": "Characters in numbers: height (cm), mass (kg), BMI, species and homeworld data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "b39e80be-1825-52cb-9cfe-72d1ffd9dbb6"],
+  "data/type": "json"
+}

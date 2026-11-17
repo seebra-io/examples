@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "e22797a0-aef8-5a79-adbe-91886e5b64c8"],
+  "query/datasource": ["datasource/id", "e5cfd47d-7a36-525d-9b11-9d2e0fb73751"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "1f8f65f2-2342-57a3-9a61-816046f8a7ef",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Periodic table (configuration, electronegativity)",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 320
+  },
+  "query/params": "{}",
+  "query/path": "/periodictable/JSON",
+  "query/request-body": "",
+  "query/units": "{}"
+}

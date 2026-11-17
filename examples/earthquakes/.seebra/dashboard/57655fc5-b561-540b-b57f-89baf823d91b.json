@@ -1,0 +1,31 @@
+{
+  "dashboard/id": "57655fc5-b561-540b-b57f-89baf823d91b",
+  "datas": [
+    ["data/id", "41aed811-0731-5faa-91bf-c7a8e7860dd0"],
+    ["data/id", "1df8e777-5c4b-5a23-a71f-1d25e820f553"],
+    ["data/id", "d18b591e-c3ec-52ec-944c-1912e0b74248"],
+    ["data/id", "ad26b60b-24d5-50fb-b5a0-431357783366"]
+  ],
+  "datasources": [
+    ["datasource/id", "aa073e70-6513-5518-8bd8-eaa7e51d2cc8"]
+  ],
+  "description": "USGS's magnitude 4.5+ earthquakes of the past week, read from GeoJSON with Polars, ranked, and plotted on a world projection (hover a quake for its place, depth and time; click for its USGS event page). Statistics: the Gutenberg–Richter law, a power law: the number of quakes at least as strong as M falls about tenfold per magnitude, so on a log axis it is a straight line whose slope is the b-value (Aki's maximum-likelihood estimate, with its standard error). A week has only about a hundred M4.5+ quakes, so b is uncertain to about ±0.1; the catalogue mixes magnitude types (mb, Mww) and is complete only above about M4.5.",
+  "graphs": [
+    ["graph/id", "64acd2c5-66fe-535a-8586-3980fcdbc3d5"],
+    ["graph/id", "229730a4-99da-5d75-9cfd-5c40e3bfd038"]
+  ],
+  "grids": [],
+  "name": "Earthquakes this week",
+  "queries": [
+    ["query/id", "9d02ce80-cc3c-5266-8fab-29033f68b119"]
+  ],
+  "studies": [],
+  "tables": [],
+  "texts": [],
+  "timers": [],
+  "transformations": [
+    ["transformation/id", "f642426d-5dd8-51cb-a676-445e51d67fc4"],
+    ["transformation/id", "6fde4310-282e-5d5b-a12f-e91777df5804"],
+    ["transformation/id", "afd05965-81f8-5774-adcf-6a3c3b46bfd4"]
+  ]
+}

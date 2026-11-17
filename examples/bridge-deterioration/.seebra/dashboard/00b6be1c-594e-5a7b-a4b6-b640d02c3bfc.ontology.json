@@ -1,0 +1,169 @@
+{
+  "title": "Bridge deterioration in the US National Bridge Inventory",
+  "summary": "Bridges are built in cohorts, wear with age and are repaired or replaced; inspections rate their components 0-9, and the lowest rating sets good, fair or poor. One inventory shows the stock's ages, not one bridge's life.",
+  "concepts": [
+    {
+      "cid": "c1",
+      "label": "Highway bridge",
+      "kind": "entity",
+      "description": "A structure over 20 ft (6.1 m) carrying a public road, one NBI record.",
+      "fields": [
+        "n",
+        "bridges"
+      ],
+      "in_data": true,
+      "wikidata": "Q12280",
+      "facts": [
+        {
+          "text": "The NBI covers over 620,000 bridges on public roads; this copy is as of June 20, 2025.",
+          "source": "https://geo.dot.gov/"
+        }
+      ],
+      "children": [
+        {
+          "cid": "c2",
+          "label": "Year built",
+          "kind": "time",
+          "as": "property",
+          "description": "NBI item 27; age = 2025 - year built.",
+          "fields": [
+            "band",
+            "built",
+            "age_mid"
+          ],
+          "in_data": true,
+          "children": [
+            {
+              "cid": "c3",
+              "label": "Construction cohort",
+              "kind": "entity",
+              "as": "subtype",
+              "description": "Bridges built in the same span: the 1956-1980 interstate era is a third of the stock.",
+              "fields": [
+                "built",
+                "bridges"
+              ],
+              "in_data": true
+            }
+          ]
+        },
+        {
+          "cid": "c4",
+          "label": "Main-span material",
+          "kind": "category",
+          "as": "property",
+          "description": "NBI item 43A: concrete, steel, prestressed concrete, timber, masonry, iron.",
+          "fields": [
+            "material",
+            "kind_code"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c5",
+          "label": "Reconstruction",
+          "kind": "event",
+          "as": "part",
+          "description": "NBI item 106: the year of the latest major reconstruction.",
+          "fields": [
+            "since_rebuilt_rating",
+            "rebuilt_since_built_rating"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c6",
+          "label": "Traffic load",
+          "kind": "measure",
+          "as": "property",
+          "description": "Average daily traffic (item 29) and truck share (item 109): the loads that fatigue decks.",
+          "fields": [],
+          "in_data": false
+        }
+      ]
+    },
+    {
+      "cid": "c7",
+      "label": "Condition rating",
+      "kind": "measure",
+      "description": "0-9 inspector ratings of deck, superstructure, substructure (items 58-60) and culvert (62); the lowest decides the class: good ≥ 7, fair 5-6, poor ≤ 4.",
+      "fields": [
+        "rating",
+        "mean_rating",
+        "share_poor",
+        "share_good"
+      ],
+      "in_data": true,
+      "facts": [
+        {
+          "text": "Coding Guide for the Structure Inventory and Appraisal of the Nation's Bridges.",
+          "source": "https://doi.org/10.21949/1519105"
+        }
+      ],
+      "children": [
+        {
+          "cid": "c8",
+          "label": "Wear-in rate",
+          "kind": "measure",
+          "as": "property",
+          "description": "Growth of ln(poor share) per year of age; its doubling time.",
+          "fields": [
+            "growth_per_year",
+            "doubling_years"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c9",
+          "label": "Markov deterioration model",
+          "kind": "event",
+          "as": "subtype",
+          "description": "Ratings as states with yearly transition probabilities (as in AASHTOWare BrM); needs ratings followed year by year.",
+          "fields": [],
+          "in_data": false
+        },
+        {
+          "cid": "c10",
+          "label": "Element-level condition",
+          "kind": "measure",
+          "as": "part",
+          "description": "Condition states per element (bearings, joints, girders) from the newer SNBI/element data.",
+          "fields": [],
+          "in_data": false
+        }
+      ]
+    },
+    {
+      "cid": "c11",
+      "label": "Bridge stock projection",
+      "kind": "event",
+      "description": "Each cohort aged 10 or 20 years at today's age-specific poor shares: the demographic momentum of the inventory.",
+      "fields": [
+        "poor_2035",
+        "poor_2045",
+        "extra_fixes_per_year_to_2035"
+      ],
+      "in_data": true,
+      "children": [
+        {
+          "cid": "c12",
+          "label": "Survivor bias",
+          "kind": "event",
+          "as": "property",
+          "description": "Old cohorts hold the bridges that were not replaced, so a cross-section flattens the deterioration curve.",
+          "fields": [],
+          "in_data": false
+        },
+        {
+          "cid": "c13",
+          "label": "Design life",
+          "kind": "time",
+          "as": "property",
+          "description": "50 years in older AASHTO practice, 75 years in LRFD (since 1994).",
+          "fields": [],
+          "in_data": false
+        }
+      ]
+    }
+  ]
+}

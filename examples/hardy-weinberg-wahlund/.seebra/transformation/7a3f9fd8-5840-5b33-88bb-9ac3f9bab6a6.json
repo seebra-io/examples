@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/rs334-hbb-genotype-counts.polars.py"
+  },
+  "transformation/data-child": ["data/id", "041f0ca6-c4c0-52b8-a11c-b8e051b55f21"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "7a3f9fd8-5840-5b33-88bb-9ac3f9bab6a6",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "rs334 (HBB) genotype counts",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 1040
+  },
+  "transformation/parent": ["data/id", "f2be53e2-ff2d-570d-b99e-3388e8b161a6"],
+  "transformation/units": "{}"
+}

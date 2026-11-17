@@ -1,0 +1,10 @@
+{
+  "data/id": "daa6eaf6-7618-53de-a2ce-b84ac6bbb00b",
+  "data/name": "Per quarter-hour and window data",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 1040
+  },
+  "data/parent": ["transformation/id", "408edf81-2f17-58ee-8476-f7c9058a7199"],
+  "data/type": "json"
+}

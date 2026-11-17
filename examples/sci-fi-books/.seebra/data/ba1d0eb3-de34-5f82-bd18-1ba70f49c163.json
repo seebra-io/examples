@@ -1,0 +1,10 @@
+{
+  "data/id": "ba1d0eb3-de34-5f82-bd18-1ba70f49c163",
+  "data/name": "Editions per year in print (a rate needs an exposure) data",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 800
+  },
+  "data/parent": ["transformation/id", "45188eb6-af03-5baf-9200-4e33e2396aa4"],
+  "data/type": "json"
+}

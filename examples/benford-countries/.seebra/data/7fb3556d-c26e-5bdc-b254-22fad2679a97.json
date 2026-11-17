@@ -1,0 +1,11 @@
+{
+  "data/id": "7fb3556d-c26e-5bdc-b254-22fad2679a97",
+  "data/name": "Conformity per quantity (χ², MAD)",
+  "data/node": {
+    "node/x": 2530,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "735b0efc-b4a6-58e8-85ac-3d19834cffc5"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

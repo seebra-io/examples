@@ -1,0 +1,16 @@
+{
+  "graph/content": {
+    "$file": "graphs/caffeine-3d.js"
+  },
+  "graph/id": "f86b81c4-4f43-544a-bb5e-8050d0dc40ed",
+  "graph/inputs": [
+    ["data/id", "a8a4e4d5-7c9d-5b43-ae2a-087b4fe91ade"]
+  ],
+  "graph/language": "javascript",
+  "graph/name": "Caffeine (3D)",
+  "graph/node": {
+    "node/x": 1460,
+    "node/y": 80
+  },
+  "graph/parent": ["data/id", "8e45da5a-d35e-5afe-91df-b524be08afca"]
+}

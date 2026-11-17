@@ -1,0 +1,44 @@
+{
+  "dashboard/id": "c1e4b371-62e8-54b7-96d3-afccfc007a95",
+  "datas": [
+    ["data/id", "251ad0b1-8443-5860-80ff-6fcd3410eae8"],
+    ["data/id", "fc913db3-ad6a-5ca1-a82a-e6ef2e9ba53b"],
+    ["data/id", "4dcd81dd-0807-5ce3-bdfd-47372e7376be"],
+    ["data/id", "c68dcf40-0061-5cef-b019-dd0a76de655a"],
+    ["data/id", "6ce23e72-a4ba-5820-aba7-17eeb714fe60"],
+    ["data/id", "172913fe-218c-53f1-a87b-608f81b7367c"],
+    ["data/id", "b892e91e-f558-53c6-84dd-865607c7c387"],
+    ["data/id", "7bfabe1c-c94d-5b71-b5a8-eb6e0770f73e"]
+  ],
+  "datasources": [
+    ["datasource/id", "9b64d506-3711-5338-883e-e563337da149"]
+  ],
+  "description": "Question: if M 4.5 earthquakes happen every hour, how often does an M 8 happen, and which quakes release the Earth's seismic energy? Idea: the Gutenberg–Richter law, log₁₀ N(≥M) = a − bM: every magnitude unit is about ten times rarer (b ≈ 1). USGS's FDSN event service gives every M ≥ 4.5 earthquake worldwide in 2025 (about 8,560). Polars bins them at 0.1, finds the completeness magnitude by maximum curvature (Mc = 4.7) and estimates b by Aki–Utsu maximum likelihood with Shi–Bolt's standard error: b = 1.15 ± 0.02 (4,728 quakes ≥ 4.7) for the mixed catalogue, so the law predicts 12 M 7+ a year (16 occurred) and an M 8+ every 14 months or so (one occurred). The b-value against Mc shows a catch: small quakes are reported in body-wave mb, large ones in moment magnitude Mw, so each family alone is cut off at one end; Mw's b settles near 1 (0.99 at Mc 5.5) once Mc is past its cut. A catalogue's b depends on its magnitude scale. With energy ∝ 10^(1.5M), the counts fall tenfold per unit while energy per bin grows: in 2025 the M 8.8 Kamchatka earthquake alone released about 83% of the year's seismic energy. Caveats: magnitudes mix mb, Mww and others; the global M 4.5 floor is incomplete in places (oceans, poorly instrumented regions) above 4.5; aftershocks are not removed (declustering changes b a little); one year is a short window for M 8 rates. Next: b per region or depth (table), b before and after a large quake, or the Omori law of its aftershocks (the same service, a circle around the epicentre).",
+  "graphs": [
+    ["graph/id", "a901d965-796f-53b8-b90d-8cd4721ec702"],
+    ["graph/id", "6a7d47ee-f922-5c08-b429-31522a9c49ec"],
+    ["graph/id", "3615a7fb-250e-5bd1-b3b1-67c8a53558a1"]
+  ],
+  "grids": [],
+  "name": "The Gutenberg–Richter law and the b-value",
+  "ontology": {
+    "$file": ".seebra/dashboard/c1e4b371-62e8-54b7-96d3-afccfc007a95.ontology.json",
+    "$json": true
+  },
+  "queries": [
+    ["query/id", "e9901bb9-99ef-5974-8a3b-8341a5d3ed63"]
+  ],
+  "studies": [],
+  "tables": [],
+  "texts": [],
+  "timers": [],
+  "transformations": [
+    ["transformation/id", "d8338985-f571-5c34-b6b5-5f6ea1675524"],
+    ["transformation/id", "6e515d71-2d2d-50fc-a525-6dd34b649f2c"],
+    ["transformation/id", "62a30873-13a1-5c9a-b14e-4effee631fe5"],
+    ["transformation/id", "4832223c-d795-57ee-b1a7-a3972f68804a"],
+    ["transformation/id", "c59f801b-14c2-5012-a4d7-08cb93499efe"],
+    ["transformation/id", "100528f4-d431-5869-a51a-28b76ec4ed5f"],
+    ["transformation/id", "4c67f755-2acd-5255-a930-6f6281f1e41a"]
+  ]
+}

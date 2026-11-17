@@ -1,0 +1,35 @@
+{
+  "dashboard/id": "d28ad56b-8502-5dcf-9ac8-4c7478e45237",
+  "datas": [
+    ["data/id", "1037c617-4ec1-5c06-a426-cd7201ed7d31"],
+    ["data/id", "1ca1d49f-a3d9-5e91-a627-4d693f5c282e"],
+    ["data/id", "2d3603c9-91b8-5ec5-b3e1-5205214d8946"],
+    ["data/id", "cf9687a4-2c1c-502b-a2da-7e6ca8af9231"],
+    ["data/id", "95ccc91e-4192-5273-9a26-0be9dcd53490"],
+    ["data/id", "d20f0e30-a0fb-55a2-a5a5-08b17ed6d123"]
+  ],
+  "datasources": [
+    ["datasource/id", "e8e07973-508d-5ada-b3e9-876fd5620684"]
+  ],
+  "description": "Nager.Date's public holidays in every country it covers for the coming seven days, joined with country names: what is celebrated where, whether nationwide or regional. Statistics: Poisson counts. If holidays fell independently at a steady rate, the count per day would be Poisson around the week's mean; the dispersion index (variance over mean, 1 for Poisson) and P(at least this many) per day show whether they cluster instead. Caveat: one week is seven numbers, Nager.Date lists about 200 countries but how fully it records regional holidays varies, and a day with no holiday counts as zero.",
+  "graphs": [
+    ["graph/id", "ef7b87a7-b12a-562a-b964-344b84abafd4"],
+    ["graph/id", "7759d57b-cf66-5e8d-bd92-48501fe93c42"]
+  ],
+  "grids": [],
+  "name": "Public holidays this week",
+  "queries": [
+    ["query/id", "9ffbbfad-6ae6-5d4b-8328-84419992de29"],
+    ["query/id", "9349bb13-679a-54e5-b88a-33b9afdf1c64"]
+  ],
+  "studies": [],
+  "tables": [],
+  "texts": [],
+  "timers": [],
+  "transformations": [
+    ["transformation/id", "06a72bfb-a59f-5f35-a3f1-22a802e5271d"],
+    ["transformation/id", "dd72616a-93a5-5199-9ba2-0c00a2344dc4"],
+    ["transformation/id", "392cd345-10ff-5a24-87da-9f76a3ccf8c6"],
+    ["transformation/id", "d6bd4bd7-3725-5ec9-bf5b-397d7a34a652"]
+  ]
+}

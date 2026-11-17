@@ -1,0 +1,21 @@
+{
+  "transformation/content": {
+    "$file": "transforms/months-numbered-by-cycle-and-the-signed-series.polars.py"
+  },
+  "transformation/data-child": ["data/id", "7d659727-dc39-5206-9933-15870224716a"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "6de9a90e-a5eb-59d4-bc77-0e806013b69d",
+  "transformation/inputs": [
+    ["data/id", "2978ec6c-4235-5d35-9195-aa4faaff8edb"]
+  ],
+  "transformation/language": "polars",
+  "transformation/name": "Months numbered by cycle, and the signed series",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "b07953fb-31c8-5ff2-9746-a220e32ed99e"],
+  "transformation/units": "{}"
+}

@@ -1,0 +1,8 @@
+{
+  "file": {
+    "file/example": "chip-direct-gap"
+  },
+  "format": 2,
+  "root": ["dashboard/id", "36c03622-7f36-5687-8cdc-747cc4205161"],
+  "seebra": "board"
+}

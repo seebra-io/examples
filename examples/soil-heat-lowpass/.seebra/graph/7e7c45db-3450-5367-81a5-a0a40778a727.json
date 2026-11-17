@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/a-summer-week-the-daily-swing-dies-with-depth.js"
+  },
+  "graph/id": "7e7c45db-3450-5367-81a5-a0a40778a727",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "A summer week: the daily swing dies with depth",
+  "graph/node": {
+    "node/x": 2380,
+    "node/y": 320
+  },
+  "graph/parent": ["data/id", "e47cf242-c627-5464-a396-3c7c53562c34"]
+}

@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "9122a129-07dd-5083-b455-f619816701a4"],
+  "query/datasource": ["datasource/id", "b35cb9b7-98f7-5f8c-aa72-c390c971a140"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "fee71895-d7c2-5fed-9690-7e907a9bd608",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "All photographed records per province (effort)",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 320
+  },
+  "query/params": "{\"country\":\"SE\",\"mediaType\":\"StillImage\",\"limit\":\"0\",\"facet\":\"stateProvince\",\"facetLimit\":\"40\"}",
+  "query/path": "/occurrence/search",
+  "query/request-body": "",
+  "query/units": "{}"
+}

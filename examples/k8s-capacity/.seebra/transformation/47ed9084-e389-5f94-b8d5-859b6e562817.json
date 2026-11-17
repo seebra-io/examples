@@ -1,0 +1,22 @@
+{
+  "transformation/content": {
+    "$file": "transforms/headroom-per-node-and-how-many-typical-pods.polars.py"
+  },
+  "transformation/data-child": ["data/id", "83c77950-1d25-5623-adb6-87b1daa6d2c6"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "47ed9084-e389-5f94-b8d5-859b6e562817",
+  "transformation/inputs": [
+    ["data/id", "c5a7bb95-5aa4-58c4-a8ee-526f02779d15"],
+    ["data/id", "7e118221-b1e1-54da-88bc-9af3e888163d"]
+  ],
+  "transformation/language": "polars",
+  "transformation/name": "Headroom per node (and how many typical pods still fit)",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "9e52cdec-e2bb-504e-85bd-d740852f4bbd"],
+  "transformation/units": "{}"
+}

@@ -1,0 +1,181 @@
+{
+  "title": "Growth rate and peak height",
+  "question": "Per season, does the slope r of ln(ILI+) in the growth window predict the season's peak ILI+?",
+  "hypotheses": [
+    {
+      "id": "H1",
+      "statement": "A larger early growth rate r goes with a higher peak ILI+.",
+      "null": "The peak ILI+ is unrelated to r.",
+      "outcome": {
+        "concept": "Peak ILI+",
+        "field": "seasons.peak"
+      },
+      "predictor": {
+        "concept": "Growth rate r",
+        "field": "seasons.r_week"
+      },
+      "subgroup": null,
+      "direction": "increase",
+      "test": {
+        "method": "regression",
+        "link": null,
+        "outcome_mode": "mean",
+        "outcome_field": "peak",
+        "predictor_field": "r_week",
+        "exposure_field": null,
+        "versus": null
+      }
+    },
+    {
+      "id": "H2",
+      "statement": "A larger growth rate brings the peak earlier in the season.",
+      "null": "The peak week is unrelated to r.",
+      "outcome": {
+        "concept": "Peak week",
+        "field": "seasons.peak_t"
+      },
+      "predictor": {
+        "concept": "Growth rate r",
+        "field": "seasons.r_week"
+      },
+      "subgroup": null,
+      "direction": "decrease",
+      "test": {
+        "method": "regression",
+        "link": null,
+        "outcome_mode": "mean",
+        "outcome_field": "peak_t",
+        "predictor_field": "r_week",
+        "exposure_field": null,
+        "versus": null
+      }
+    }
+  ],
+  "concepts": [
+    {
+      "label": "Growth rate r",
+      "kind": "measure",
+      "description": "Slope of ln(ILI+) per week in the growth window.",
+      "why": "The predictor.",
+      "have": true,
+      "categories": [],
+      "field": null,
+      "strategy": null
+    },
+    {
+      "label": "Peak ILI+",
+      "kind": "measure",
+      "description": "The season's highest weekly ILI+.",
+      "why": "The outcome.",
+      "have": true,
+      "categories": [],
+      "field": null,
+      "strategy": null
+    },
+    {
+      "label": "Effective reproduction number",
+      "kind": "measure",
+      "description": "R = (1 + r·Tg/k)^k with Tg = 3 days, k = 4.",
+      "why": "Links r to the SIR model.",
+      "have": true,
+      "categories": [],
+      "field": null,
+      "strategy": null
+    },
+    {
+      "label": "Circulating subtype",
+      "kind": "category",
+      "description": "A(H3N2), A(H1N1)pdm09 or B dominating a season.",
+      "why": "A confounder: H3N2 seasons tend to be more severe.",
+      "have": false,
+      "categories": [],
+      "field": null,
+      "strategy": {
+        "how": "fetch",
+        "detail": "Subtype counts per week from CDC FluView public-health labs (Delphi fluview_clinical has A and B only: total_a, total_b)."
+      }
+    },
+    {
+      "label": "Prior immunity",
+      "kind": "measure",
+      "description": "Share immune at the season start (vaccination, earlier infection).",
+      "why": "Sets the effective R and the peak.",
+      "have": false,
+      "categories": [],
+      "field": null,
+      "strategy": {
+        "how": "proxy",
+        "detail": "Vaccination coverage per season (CDC FluVaxView): misses immunity from infection."
+      }
+    }
+  ],
+  "review": {
+    "well_formed": true,
+    "issues": [
+      {
+        "kind": "scope",
+        "text": "Only eight seasons have lab data and enough influenza in this source (2016–17 on, without 2020–22), so a regression has few points.",
+        "fix": "Read the slope's interval, not only its sign; expand with regional series (Delphi has HHS regions and states) for more points."
+      },
+      {
+        "kind": "causal",
+        "text": "Seasons differ in subtype, timing and prior immunity, which move both r and the peak.",
+        "fix": "Name subtype and immunity as confounders; the association is what the data shows."
+      }
+    ],
+    "alternatives": [
+      {
+        "question": "Within one season, do the ten HHS regions with faster growth peak higher?",
+        "why": "Drill down: more points with the same virus.",
+        "ready": false
+      },
+      {
+        "question": "Do seasons dominated by influenza B grow more slowly than A seasons?",
+        "why": "Expand: share_b per season is on the board.",
+        "ready": true
+      }
+    ]
+  },
+  "data": [
+    {
+      "concept": "Circulating subtype",
+      "request": "Weekly counts of A(H3N2), A(H1N1)pdm09 and B per season, national.",
+      "source": "CDC FluView (public health laboratories)",
+      "why": "Confounder of r and peak."
+    }
+  ],
+  "links": [],
+  "method": {
+    "id": "regression",
+    "summary": "Regress peak on r_week across seasons (one row per season of the seasons table)."
+  },
+  "steps": [
+    {
+      "kind": "method",
+      "title": "Fit the growth window",
+      "detail": "growth: r_week per season from ln(ILI+) between 5% and 60% of the peak, before it."
+    },
+    {
+      "kind": "method",
+      "title": "Convert r to R",
+      "detail": "seasons: R = (1 + r·Tg/k)^k, Tg 3 days, k 4; herd threshold, final size, peak prevalence."
+    },
+    {
+      "kind": "method",
+      "title": "Regress peak on r_week",
+      "detail": "Across the seasons table; and peak_t on r_week for H2."
+    },
+    {
+      "kind": "decide",
+      "title": "Read against the SIR prediction",
+      "detail": "SIR says higher R, higher and earlier peak; check the sign and size of b."
+    }
+  ],
+  "caveats": [
+    "ILI+ is a proxy for incidence, not a count of infections; its scale depends on who visits sentinel providers.",
+    "R depends on the assumed generation interval (3 days here): a longer one gives a larger R for the same r.",
+    "The growth window is a rule (5–60% of the peak), and seasons with two waves (2019–20) or an early start (2022–23) fit less well: read fit_r2.",
+    "SIR assumes a homogeneous, well-mixed population; school terms and holidays bend real curves (the Christmas dip).",
+    "Eight seasons: a correlation is weak evidence."
+  ]
+}

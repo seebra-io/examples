@@ -1,0 +1,10 @@
+{
+  "data/id": "8e45da5a-d35e-5afe-91df-b524be08afca",
+  "data/name": "Atoms (3D conformer) data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "699318bf-1138-58f0-8805-63ec6715365a"],
+  "data/type": "json"
+}

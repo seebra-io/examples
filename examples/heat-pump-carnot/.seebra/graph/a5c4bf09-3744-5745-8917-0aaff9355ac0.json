@@ -1,0 +1,16 @@
+{
+  "graph/content": {
+    "$file": "graphs/cop-against-outdoor-temperature-four-houses.js"
+  },
+  "graph/id": "a5c4bf09-3744-5745-8917-0aaff9355ac0",
+  "graph/inputs": [
+    ["data/id", "58d76c0e-3a9e-5821-9e8f-c9c7d6c0f018"]
+  ],
+  "graph/language": "javascript",
+  "graph/name": "COP against outdoor temperature, four houses",
+  "graph/node": {
+    "node/x": 1920,
+    "node/y": 1040
+  },
+  "graph/parent": ["data/id", "b9a5e1a2-3f25-53ed-8582-0228fb139519"]
+}

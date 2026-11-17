@@ -1,0 +1,16 @@
+{
+  "graph/content": {
+    "$file": "graphs/geiger-nuttall-becomes-one-line-quantum.js"
+  },
+  "graph/id": "17278057-434b-5434-bead-1a072f1b4727",
+  "graph/inputs": [
+    ["data/id", "58de972f-9ba1-5023-9386-be0b7e4a298c"]
+  ],
+  "graph/language": "javascript",
+  "graph/name": "Geiger–Nuttall becomes one line: quantum tunnelling",
+  "graph/node": {
+    "node/x": 3300,
+    "node/y": 80
+  },
+  "graph/parent": ["data/id", "a27ce431-d01e-5772-972f-e65bdf52c818"]
+}

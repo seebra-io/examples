@@ -1,0 +1,11 @@
+{
+  "data/id": "c15a5a4a-f72f-5da6-bd6b-7934a7fae6b4",
+  "data/name": "Quakes",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "db1dc525-6cb6-5116-bcdb-5c5efaee733b"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

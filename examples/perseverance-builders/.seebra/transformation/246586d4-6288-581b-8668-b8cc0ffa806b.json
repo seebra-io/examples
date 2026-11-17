@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/who-built-what.polars.py"
+  },
+  "transformation/data-child": ["data/id", "15cd3669-ab6e-5a4f-9163-d3e90a065d5b"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "246586d4-6288-581b-8668-b8cc0ffa806b",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Who built what",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "6738931b-6c59-56dd-9eb3-269e3073a51a"],
+  "transformation/units": "{}"
+}

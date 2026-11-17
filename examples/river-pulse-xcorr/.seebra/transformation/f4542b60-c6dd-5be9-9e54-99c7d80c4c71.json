@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/travel-time-runner-up-and-wave-speed.polars.py"
+  },
+  "transformation/data-child": ["data/id", "b2b366a1-56c4-559e-969f-2865ddbc2747"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "f4542b60-c6dd-5be9-9e54-99c7d80c4c71",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Travel time, runner-up and wave speed",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1920,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "44222fa0-4df7-5391-a410-eac65a49460a"],
+  "transformation/units": "{}"
+}

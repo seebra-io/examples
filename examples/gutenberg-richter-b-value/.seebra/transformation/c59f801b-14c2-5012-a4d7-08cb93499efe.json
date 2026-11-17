@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/b-against-the-cut-off-mc-per-magnitude-family.polars.py"
+  },
+  "transformation/data-child": ["data/id", "172913fe-218c-53f1-a87b-608f81b7367c"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "c59f801b-14c2-5012-a4d7-08cb93499efe",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "b against the cut-off Mc, per magnitude family",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 560
+  },
+  "transformation/parent": ["data/id", "fc913db3-ad6a-5ca1-a82a-e6ef2e9ba53b"],
+  "transformation/units": "{}"
+}

@@ -1,0 +1,1 @@
+SELECT region, COUNT(*) AS countries, ROUND(AVG(years), 1) AS mean_years, MIN(years) AS lowest, MAX(years) AS highest FROM data GROUP BY region ORDER BY mean_years DESC

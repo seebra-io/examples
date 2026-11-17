@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/most-and-least-unique-apis-and-what-they-are.js"
+  },
+  "graph/id": "f9012e2b-6b39-5ca7-b846-65d4403e911e",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Most and least unique APIs, and what they are closest to",
+  "graph/node": {
+    "node/x": 2840,
+    "node/y": 80
+  },
+  "graph/parent": ["data/id", "986a1b62-1671-51a5-af3b-7ead4a2d7158"]
+}

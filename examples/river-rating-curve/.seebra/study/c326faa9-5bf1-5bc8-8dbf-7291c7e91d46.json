@@ -1,0 +1,18 @@
+{
+  "study/hypothesis": "The log residual of low-flow measurements (below 60,000 ft³/s) from the all-years curve rises with the year of measurement.",
+  "study/id": "c326faa9-5bf1-5bc8-8dbf-7291c7e91d46",
+  "study/name": "Has the rating shifted at low flow?",
+  "study/node": {
+    "node/x": 540,
+    "node/y": 560
+  },
+  "study/plan": {
+    "$file": ".seebra/study/c326faa9-5bf1-5bc8-8dbf-7291c7e91d46.plan.json",
+    "$json": true
+  },
+  "study/question": "At the Missouri River at Hermann, does the same stage carry more water now than decades ago, that is, do low-flow measurements sit increasingly above a single rating curve fitted to all years?",
+  "study/state": {
+    "$file": ".seebra/study/c326faa9-5bf1-5bc8-8dbf-7291c7e91d46.state.json",
+    "$json": true
+  }
+}

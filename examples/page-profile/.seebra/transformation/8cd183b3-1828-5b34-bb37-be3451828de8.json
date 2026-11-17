@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/long-frames-their-span-and-top-script.sql"
+  },
+  "transformation/data-child": ["data/id", "e5acd122-71a0-58f0-957c-0fd865f2181c"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "8cd183b3-1828-5b34-bb37-be3451828de8",
+  "transformation/inputs": [],
+  "transformation/language": "sql",
+  "transformation/name": "Long frames, their span and top script",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 560
+  },
+  "transformation/parent": ["data/id", "ef5542e6-4f2c-59fa-ba45-375fd0199e08"],
+  "transformation/units": "{}"
+}

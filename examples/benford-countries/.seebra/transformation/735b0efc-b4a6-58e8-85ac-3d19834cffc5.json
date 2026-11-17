@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/conformity-per-quantity.sql"
+  },
+  "transformation/data-child": ["data/id", "7fb3556d-c26e-5bdc-b254-22fad2679a97"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "735b0efc-b4a6-58e8-85ac-3d19834cffc5",
+  "transformation/inputs": [],
+  "transformation/language": "sql",
+  "transformation/name": "Conformity per quantity",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 2380,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "231e0fb0-60ed-5cee-a35c-f98e446992af"],
+  "transformation/units": "{}"
+}

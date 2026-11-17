@@ -1,0 +1,11 @@
+{
+  "data/id": "ad2da19a-511a-5208-b056-5c9b6cea6f94",
+  "data/name": "Doubling times per measure and era",
+  "data/node": {
+    "node/x": 2070,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "1c330995-accf-57e8-8ebe-c0cce830db6f"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

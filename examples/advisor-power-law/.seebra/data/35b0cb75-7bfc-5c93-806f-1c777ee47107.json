@@ -1,0 +1,10 @@
+{
+  "data/id": "35b0cb75-7bfc-5c93-806f-1c777ee47107",
+  "data/name": "The most prolific advisors, with their share of all recorded supervisions data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 560
+  },
+  "data/parent": ["transformation/id", "b9a343a8-96d6-53d8-acbf-6cb78497ff6d"],
+  "data/type": "json"
+}

@@ -1,0 +1,10 @@
+{
+  "data/id": "199470ff-5a4a-536f-9ce0-2070b2a2d7f1",
+  "data/name": "Curiosity images (camera, sol) data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 800
+  },
+  "data/parent": ["transformation/id", "a8fa1034-d93e-5c00-9c2b-3ec4765b376c"],
+  "data/type": "json"
+}

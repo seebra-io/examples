@@ -1,0 +1,11 @@
+{
+  "data/id": "53d3f18b-55ad-58b1-a9c8-05aa41a4923b",
+  "data/name": "Per class",
+  "data/node": {
+    "node/x": 2530,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "7225a41f-f37a-5a5d-8ce0-ad1a005c1ef5"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/news-articles-gdelt.js"
+  },
+  "transformation/data-child": ["data/id", "c2d94e99-2ceb-55b1-89c5-8f12f8f744af"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "js-web-worker",
+  "transformation/id": "14b897f5-cda8-54be-b784-7206a7b0628b",
+  "transformation/inputs": [],
+  "transformation/language": "javascript",
+  "transformation/name": "News articles (GDELT)",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 1760
+  },
+  "transformation/parent": ["data/id", "ff4e4468-e701-5797-96c0-bdc52512b17f"],
+  "transformation/units": "{}"
+}

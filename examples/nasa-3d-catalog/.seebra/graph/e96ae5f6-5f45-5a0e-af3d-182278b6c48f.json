@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/hubble-in-3d-drag-to-orbit-wheel-to-zoom.js"
+  },
+  "graph/id": "e96ae5f6-5f45-5a0e-af3d-182278b6c48f",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Hubble in 3D (drag to orbit, wheel to zoom)",
+  "graph/node": {
+    "node/x": 1000,
+    "node/y": 320
+  },
+  "graph/parent": ["data/id", "123e22cd-220e-5c66-b485-3cdeec30a5ef"]
+}

@@ -1,0 +1,8 @@
+{
+  "file": {
+    "file/example": "ecg-hrv"
+  },
+  "format": 2,
+  "root": ["dashboard/id", "ffc790cf-1863-5676-825f-27d3dda39cd9"],
+  "seebra": "board"
+}

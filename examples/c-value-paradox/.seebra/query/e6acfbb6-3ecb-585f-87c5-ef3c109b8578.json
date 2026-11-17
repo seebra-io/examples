@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "1f429c70-4299-5b1f-adc6-63ce1aa25b18"],
+  "query/datasource": ["datasource/id", "48c6bdde-2deb-595f-aa40-7fc6a0ddcdc1"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "e6acfbb6-3ecb-585f-87c5-ef3c109b8578",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Fungi: annotated reference genomes",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 560
+  },
+  "query/params": "{\"filters.reference_only\":\"true\",\"filters.has_annotation\":\"true\",\"page_size\":\"200\"}",
+  "query/path": "/genome/taxon/4751/dataset_report",
+  "query/request-body": "",
+  "query/units": "{}"
+}

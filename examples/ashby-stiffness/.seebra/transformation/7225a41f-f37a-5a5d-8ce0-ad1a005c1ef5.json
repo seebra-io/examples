@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/per-material-class.sql"
+  },
+  "transformation/data-child": ["data/id", "53d3f18b-55ad-58b1-a9c8-05aa41a4923b"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "7225a41f-f37a-5a5d-8ce0-ad1a005c1ef5",
+  "transformation/inputs": [],
+  "transformation/language": "sql",
+  "transformation/name": "Per material class",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 2380,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "eae683d0-325a-5230-9321-69a674b640df"],
+  "transformation/units": "{}"
+}

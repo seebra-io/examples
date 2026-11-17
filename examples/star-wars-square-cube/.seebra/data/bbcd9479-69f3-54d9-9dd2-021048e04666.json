@@ -1,0 +1,10 @@
+{
+  "data/id": "bbcd9479-69f3-54d9-9dd2-021048e04666",
+  "data/name": "All 60 planets: population, diameter, climate, gravity data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 560
+  },
+  "data/parent": ["query/id", "3d62f8a1-6ec2-575e-aa9a-6bcbbc494edc"],
+  "data/type": "json"
+}

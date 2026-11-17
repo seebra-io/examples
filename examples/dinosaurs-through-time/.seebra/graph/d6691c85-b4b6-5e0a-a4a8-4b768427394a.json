@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/genera-per-stage-turnover-and-how-many-fossils.js"
+  },
+  "graph/id": "d6691c85-b4b6-5e0a-a4a8-4b768427394a",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Genera per stage, turnover, and how many fossils each stage has",
+  "graph/node": {
+    "node/x": 1460,
+    "node/y": 800
+  },
+  "graph/parent": ["data/id", "7998eba8-c68c-5a30-ab9a-bbb8879c0b5b"]
+}

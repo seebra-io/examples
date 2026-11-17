@@ -1,0 +1,11 @@
+{
+  "data/id": "5f1ea025-6705-591b-99e7-1dd00b88aea0",
+  "data/name": "O–H donors vs non-donors (Welch)",
+  "data/node": {
+    "node/x": 2070,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "1fa4130e-4346-53aa-9960-d1f2764c29c0"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

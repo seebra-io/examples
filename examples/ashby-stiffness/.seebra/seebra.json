@@ -1,0 +1,8 @@
+{
+  "file": {
+    "file/example": "ashby-stiffness"
+  },
+  "format": 2,
+  "root": ["dashboard/id", "673366f3-0390-585d-8268-1818d95d3207"],
+  "seebra": "board"
+}

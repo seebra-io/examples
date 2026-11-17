@@ -1,0 +1,16 @@
+{
+  "graph/content": {
+    "$file": "graphs/the-folding-rule-true-against-apparent-frequency.js"
+  },
+  "graph/id": "b26eae4f-397e-5d7f-8031-6f570821f089",
+  "graph/inputs": [
+    ["data/id", "314cd04f-abcf-5f67-a3ee-244f30450b45"]
+  ],
+  "graph/language": "javascript",
+  "graph/name": "The folding rule: true against apparent frequency",
+  "graph/node": {
+    "node/x": 2380,
+    "node/y": 560
+  },
+  "graph/parent": ["data/id", "c3b6cfda-29d3-5aec-b683-b9498e049bc2"]
+}

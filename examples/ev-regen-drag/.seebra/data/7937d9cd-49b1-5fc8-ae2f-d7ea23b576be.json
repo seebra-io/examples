@@ -1,0 +1,11 @@
+{
+  "data/id": "7937d9cd-49b1-5fc8-ae2f-d7ea23b576be",
+  "data/name": "Battery EVs by body type",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "bbcda0c1-353d-5c56-ba66-d284f1396fb5"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/maximum-likelihood-and-ks-distance-for-every-x.polars.py"
+  },
+  "transformation/data-child": ["data/id", "073596ac-a893-54ff-846f-d08a34252cf7"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "04510654-530a-5384-a9b1-0d9a291d5b51",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Maximum-likelihood α and KS distance for every x_min from 1 to 40",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 560
+  },
+  "transformation/parent": ["data/id", "4dda24fe-bb3d-597d-99f0-f996c2355244"],
+  "transformation/units": "{}"
+}

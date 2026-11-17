@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/daily-swing-at-both-gauges.polars.py"
+  },
+  "transformation/data-child": ["data/id", "84202084-e313-56af-9d76-d3845f905f73"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "7b123558-06a5-532a-85e0-966ee2a2f588",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Daily swing at both gauges",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 800
+  },
+  "transformation/parent": ["data/id", "bda1f067-2214-5da8-a325-19926df4903f"],
+  "transformation/units": "{}"
+}

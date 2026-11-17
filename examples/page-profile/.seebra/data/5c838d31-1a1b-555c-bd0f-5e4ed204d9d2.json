@@ -1,0 +1,10 @@
+{
+  "data/id": "5c838d31-1a1b-555c-bd0f-5e4ed204d9d2",
+  "data/name": "Scripts in long frames, by party data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 800
+  },
+  "data/parent": ["transformation/id", "64212ccd-ae70-561f-8b19-d85c8bfd1237"],
+  "data/type": "json"
+}

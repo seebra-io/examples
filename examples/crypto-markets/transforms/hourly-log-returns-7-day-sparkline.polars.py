@@ -1,0 +1,8 @@
+data.select("symbol", "name", "market_cap", price = col("sparkline_in_7d").struct.field("price"))
+    .explode("price")
+    .with_row_index("i")
+    .with_columns(hours_ago = col("i").max().over("symbol") - col("i"))
+    .sort("i")
+    .with_columns(log_return = (col("price") / col("price").shift(1).over("symbol")).log())
+    .filter(col("log_return").is_not_null())
+    .drop("i")

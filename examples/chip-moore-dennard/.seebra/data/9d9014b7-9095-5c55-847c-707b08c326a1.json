@@ -1,0 +1,10 @@
+{
+  "data/id": "9d9014b7-9095-5c55-847c-707b08c326a1",
+  "data/name": "Parse typical power (W) data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 560
+  },
+  "data/parent": ["transformation/id", "6b471b9a-36b1-5440-9649-5ce3d7bc19ad"],
+  "data/type": "json"
+}

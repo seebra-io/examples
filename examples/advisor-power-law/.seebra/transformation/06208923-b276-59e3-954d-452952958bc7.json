@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/advisors-per-student-histogram-and-ccdf.polars.py"
+  },
+  "transformation/data-child": ["data/id", "715da144-da6b-5674-9c9f-0255bf58673e"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "06208923-b276-59e3-954d-452952958bc7",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Advisors per student: histogram and CCDF",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "73be1b49-a8f7-56a1-b819-744a60e0e47d"],
+  "transformation/units": "{}"
+}

@@ -1,0 +1,10 @@
+{
+  "data/id": "bf77bf61-ffb3-5873-85c0-d1c25a2a17a0",
+  "data/name": "Mars' texture (NASA 3D Resources) data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 1760
+  },
+  "data/parent": ["query/id", "e7c0a060-27ec-5cec-9912-7e24609eb52b"],
+  "data/type": "json"
+}

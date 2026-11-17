@@ -1,0 +1,10 @@
+{
+  "data/id": "ee6c33c1-17da-5f84-9bfc-82e3e0229a60",
+  "data/name": "Irrigated land (% of agricultural land), latest data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 800
+  },
+  "data/parent": ["query/id", "938b6445-3de4-54cb-b007-f947ac8dafbd"],
+  "data/type": "json"
+}

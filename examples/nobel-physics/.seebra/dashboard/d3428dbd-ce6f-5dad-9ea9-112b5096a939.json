@@ -1,0 +1,31 @@
+{
+  "dashboard/id": "d3428dbd-ce6f-5dad-9ea9-112b5096a939",
+  "datas": [
+    ["data/id", "c802dcdd-1f95-519b-aa0a-a3a48f63803e"],
+    ["data/id", "9b540a8b-d766-5714-82e6-f73cefdd2ad6"],
+    ["data/id", "8f17146b-7d6c-521a-a51c-a2ac7f879519"],
+    ["data/id", "3d8b61fd-f54f-5048-9962-ef925bee9d31"]
+  ],
+  "datasources": [
+    ["datasource/id", "3fd5e169-fd28-5454-9af6-2c741d392483"]
+  ],
+  "description": "The Nobel Prize API's physics laureates, read as a table in Polars (one row per prize; John Bardeen has two), counted per decade and by country of birth. Statistics: a trend with an uncertainty band. The mean age at the award stayed near 50 until the 1960s and passed 70 in the 2020s; the band is the 95% interval of each decade's mean, and the ages' own spread is far wider. Caveats: age is award year minus birth year (within a year), a decade holds only 7 to 28 laureates (the 2020s are not over), and a rising age may reflect a longer wait between discovery and prize rather than older discoverers. Hover a dot for the laureate; click it for Wikipedia.",
+  "graphs": [
+    ["graph/id", "296f9a7d-2f07-5cab-b361-28e0e359070f"],
+    ["graph/id", "00424d79-c70f-5541-a559-fa10a1ff81f1"]
+  ],
+  "grids": [],
+  "name": "Nobel Prize in Physics",
+  "queries": [
+    ["query/id", "a95130d8-8894-51d4-bef7-a151c4897fa5"]
+  ],
+  "studies": [],
+  "tables": [],
+  "texts": [],
+  "timers": [],
+  "transformations": [
+    ["transformation/id", "6eed7961-e912-561f-bd07-600a1d7a63d9"],
+    ["transformation/id", "c68fb9e9-420c-5bf4-8667-02514af11d6e"],
+    ["transformation/id", "2216a1a9-45e2-576b-a780-930ef4a89370"]
+  ]
+}

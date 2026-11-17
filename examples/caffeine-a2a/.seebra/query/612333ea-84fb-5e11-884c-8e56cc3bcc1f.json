@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "27d26520-d071-59b6-a7fd-c19755565b34"],
+  "query/datasource": ["datasource/id", "a35eb1f1-26bf-5b55-93f9-ff70405257ec"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "612333ea-84fb-5e11-884c-8e56cc3bcc1f",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "A2A residues: segments and generic numbers",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 560
+  },
+  "query/params": "{}",
+  "query/path": "/residues/aa2ar_human/",
+  "query/request-body": "",
+  "query/units": "{}"
+}

@@ -1,0 +1,10 @@
+{
+  "data/id": "9f480698-f506-5d5d-a105-616a764888b4",
+  "data/name": "Rating shift: median residual per decade and flow class data",
+  "data/node": {
+    "node/x": 2070,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "4d41483c-552d-5d02-86ff-3ab75c04c0df"],
+  "data/type": "json"
+}

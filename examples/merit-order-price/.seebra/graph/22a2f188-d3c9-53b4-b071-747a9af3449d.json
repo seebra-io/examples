@@ -1,0 +1,16 @@
+{
+  "graph/content": {
+    "$file": "graphs/price-against-residual-load-the-merit-order.js"
+  },
+  "graph/id": "22a2f188-d3c9-53b4-b071-747a9af3449d",
+  "graph/inputs": [
+    ["data/id", "512f8087-b8da-50f3-b783-06c6c05799ce"]
+  ],
+  "graph/language": "javascript",
+  "graph/name": "Price against residual load: the merit order",
+  "graph/node": {
+    "node/x": 2380,
+    "node/y": 1040
+  },
+  "graph/parent": ["data/id", "b47f6168-5b57-55b0-9678-dca54b2e8bcd"]
+}

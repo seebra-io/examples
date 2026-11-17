@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "ac8fcad9-78dd-5b16-9adb-9a083632f7dd"],
+  "query/datasource": ["datasource/id", "93a2be66-2bac-5bcd-89e5-6271840b60e6"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "04301be6-a653-51dd-a129-33f955e3b075",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Annual peak discharge and stage",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 320
+  },
+  "query/params": "{\"f\":\"json\",\"monitoring_location_id\":\"USGS-06934500\",\"limit\":\"1000\",\"skipGeometry\":\"true\",\"properties\":\"water_year,parameter_code,value,time,qualifier,peak_since\"}",
+  "query/path": "/collections/peaks/items",
+  "query/request-body": "",
+  "query/units": "{}"
+}

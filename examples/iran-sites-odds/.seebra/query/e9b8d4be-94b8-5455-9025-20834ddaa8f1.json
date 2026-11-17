@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "998d8cf4-06e9-55f5-817d-5acca9eb470e"],
+  "query/datasource": ["datasource/id", "75bc5e88-6685-5319-9fde-4246934ec7b0"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "e9b8d4be-94b8-5455-9025-20834ddaa8f1",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Open Iran markets, by volume",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 1520
+  },
+  "query/params": "{\"tag_slug\":\"iran\",\"closed\":\"false\",\"limit\":\"20\",\"order\":\"volume\",\"ascending\":\"false\"}",
+  "query/path": "/events",
+  "query/request-body": "",
+  "query/units": "{}"
+}

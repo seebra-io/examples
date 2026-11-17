@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/carnot-curves-theory.polars.py"
+  },
+  "transformation/data-child": ["data/id", "341424d4-5fc3-5a3f-b0d0-6ac8ef31247d"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "e28426ce-590e-556c-86da-33fad7f8c086",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Carnot curves (theory)",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1920,
+    "node/y": 800
+  },
+  "transformation/parent": ["data/id", "b9a5e1a2-3f25-53ed-8582-0228fb139519"],
+  "transformation/units": "{}"
+}

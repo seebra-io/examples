@@ -1,0 +1,11 @@
+{
+  "data/id": "1b8262e1-4d53-57b8-865c-cae22210fabd",
+  "data/name": "Countries",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "cf8901f7-6a02-5c13-907f-c9f00a778480"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

@@ -1,0 +1,10 @@
+{
+  "data/id": "1aa238fc-5e8e-58a1-84fe-b78f2a69232f",
+  "data/name": "Jupiter trojans (orbital elements) data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 560
+  },
+  "data/parent": ["query/id", "98153760-cef4-5c8c-a908-7c5164b62513"],
+  "data/type": "json"
+}

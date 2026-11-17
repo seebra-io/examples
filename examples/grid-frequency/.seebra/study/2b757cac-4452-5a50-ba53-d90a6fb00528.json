@@ -1,0 +1,18 @@
+{
+  "study/hypothesis": "The mean |Δf| (and |df/dt|) in the first two minutes after each quarter-hour is larger than in the rest of it, because generation schedules step at the boundaries.",
+  "study/id": "2b757cac-4452-5a50-ba53-d90a6fb00528",
+  "study/name": "Does the frequency jump when the quarter-hour turns?",
+  "study/node": {
+    "node/x": 540,
+    "node/y": 320
+  },
+  "study/plan": {
+    "$file": ".seebra/study/2b757cac-4452-5a50-ba53-d90a6fb00528.plan.json",
+    "$json": true
+  },
+  "study/question": "Is the grid frequency further from 50 Hz in the first two minutes after each quarter-hour than in the rest of the quarter-hour, compared per quarter-hour of the day?",
+  "study/state": {
+    "$file": ".seebra/study/2b757cac-4452-5a50-ba53-d90a6fb00528.state.json",
+    "$json": true
+  }
+}

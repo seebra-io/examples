@@ -1,0 +1,10 @@
+{
+  "data/id": "37a577cc-3b82-5e96-a844-f778d6b33c56",
+  "data/name": "STL files (3D printing) data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 1040
+  },
+  "data/parent": ["query/id", "910b212e-68c9-530e-b019-5be4faf70bea"],
+  "data/type": "json"
+}

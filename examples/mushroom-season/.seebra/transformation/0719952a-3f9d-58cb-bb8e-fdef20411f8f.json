@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/fly-agaric-per-month.polars.py"
+  },
+  "transformation/data-child": ["data/id", "1246d7c5-459c-5b3e-a109-c4ce0c4f5ff8"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "0719952a-3f9d-58cb-bb8e-fdef20411f8f",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Fly agaric per month",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 1040
+  },
+  "transformation/parent": ["data/id", "ed4bed98-eac0-5d8a-bf64-10eb6477bfe5"],
+  "transformation/units": "{}"
+}

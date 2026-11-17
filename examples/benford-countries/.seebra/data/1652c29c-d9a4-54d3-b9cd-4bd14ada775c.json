@@ -1,0 +1,10 @@
+{
+  "data/id": "1652c29c-d9a4-54d3-b9cd-4bd14ada775c",
+  "data/name": "First digits per quantity data",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "cfe5f78f-8c45-5789-8b73-146e8031e3b6"],
+  "data/type": "json"
+}

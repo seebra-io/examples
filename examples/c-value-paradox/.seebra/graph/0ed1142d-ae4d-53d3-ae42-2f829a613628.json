@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/gene-density-falls-as-eukaryote-genomes-grow.js"
+  },
+  "graph/id": "0ed1142d-ae4d-53d3-ae42-2f829a613628",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Gene density falls as eukaryote genomes grow",
+  "graph/node": {
+    "node/x": 2380,
+    "node/y": 800
+  },
+  "graph/parent": ["data/id", "e798d48f-1ad8-581b-916f-3bf771ad434f"]
+}

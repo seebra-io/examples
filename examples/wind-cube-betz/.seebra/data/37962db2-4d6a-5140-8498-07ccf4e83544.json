@@ -1,0 +1,11 @@
+{
+  "data/id": "37962db2-4d6a-5140-8498-07ccf4e83544",
+  "data/name": "The two months in numbers",
+  "data/node": {
+    "node/x": 2070,
+    "node/y": 560
+  },
+  "data/parent": ["transformation/id", "1fd5b56b-486b-570a-a9ac-7862a096c2f2"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

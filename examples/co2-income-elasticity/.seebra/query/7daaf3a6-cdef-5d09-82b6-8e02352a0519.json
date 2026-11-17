@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "dfd251f7-6390-5fea-a2ae-46acaae0ba9d"],
+  "query/datasource": ["datasource/id", "546b1607-ad5a-584f-8f46-6e8e52f1fc9c"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "7daaf3a6-cdef-5d09-82b6-8e02352a0519",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "GDP per person (PPP), latest",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 320
+  },
+  "query/params": "{\"format\":\"json\",\"mrnev\":\"1\",\"per_page\":\"400\"}",
+  "query/path": "/country/all/indicator/NY.GDP.PCAP.PP.KD",
+  "query/request-body": "",
+  "query/units": "{}"
+}

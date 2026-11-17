@@ -1,0 +1,16 @@
+{
+  "graph/content": {
+    "$file": "graphs/how-well-one-threshold-separates-them.js"
+  },
+  "graph/id": "ac126319-e20c-5d8e-9797-57dee16f3c1f",
+  "graph/inputs": [
+    ["data/id", "53f3fd4e-d12a-5a27-891c-0543cd57818b"]
+  ],
+  "graph/language": "javascript",
+  "graph/name": "How well one Δχ threshold separates them",
+  "graph/node": {
+    "node/x": 1920,
+    "node/y": 560
+  },
+  "graph/parent": ["data/id", "f010f38d-090a-5db0-952b-b5bb3a2db40f"]
+}

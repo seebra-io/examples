@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "97007d94-e6f9-5f81-b8ef-d11e40fc38c2"],
+  "query/datasource": ["datasource/id", "5f2be838-8c34-5d9a-9ec5-b03948ff0957"],
+  "query/dynamic?": false,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "d9475b3d-127e-5511-8d53-08da1989e5ca",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "ERA5 at the farm: wind at 100 m, temperature, pressure",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 320
+  },
+  "query/params": "{\"latitude\":53.75,\"longitude\":0.25,\"start_date\":\"2026-09-01\",\"end_date\":\"2026-10-31\",\"hourly\":\"wind_speed_100m,temperature_2m,surface_pressure\",\"wind_speed_unit\":\"ms\",\"models\":\"era5\"}",
+  "query/path": "/archive",
+  "query/request-body": "",
+  "query/units": "{}"
+}

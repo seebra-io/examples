@@ -1,0 +1,18 @@
+{
+  "study/hypothesis": "ln(share poor) rises linearly with age over the first 45 years (doubling time near 7 years); at 40–59 years steel bridges rate lower than prestressed concrete ones.",
+  "study/id": "ee16a408-5bfa-548d-a0c4-d9005a3b991b",
+  "study/name": "Does the poor share grow exponentially with a bridge's age?",
+  "study/node": {
+    "node/x": 540,
+    "node/y": 1520
+  },
+  "study/plan": {
+    "$file": ".seebra/study/ee16a408-5bfa-548d-a0c4-d9005a3b991b.plan.json",
+    "$json": true
+  },
+  "study/question": "Across the 2025 National Bridge Inventory, does the share of bridges in poor condition grow exponentially with age (a constant doubling time), and does the main-span material matter once age is held fixed?",
+  "study/state": {
+    "$file": ".seebra/study/ee16a408-5bfa-548d-a0c4-d9005a3b991b.state.json",
+    "$json": true
+  }
+}

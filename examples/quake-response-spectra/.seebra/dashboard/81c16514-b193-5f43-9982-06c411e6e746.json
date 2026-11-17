@@ -1,0 +1,47 @@
+{
+  "dashboard/id": "81c16514-b193-5f43-9982-06c411e6e746",
+  "datas": [
+    ["data/id", "83d101ff-dd29-57dd-ac17-65362a8ed9e3"],
+    ["data/id", "0340e0ad-13eb-5dfc-826c-6e94efa31c1c"],
+    ["data/id", "2a657db1-f1f6-5471-850d-fbff1eaae0e2"],
+    ["data/id", "531d627e-5787-5798-9fda-40ecd3369a64"],
+    ["data/id", "25513557-46cd-56ec-b243-b2a99edc96c3"],
+    ["data/id", "b164ddcf-7010-5bb7-bf96-1d62c02248ab"],
+    ["data/id", "9758eeee-9d05-5142-ab09-085024a76001"],
+    ["data/id", "673b98dd-bf18-56a9-adf8-cb42668ae204"]
+  ],
+  "datasources": [
+    ["datasource/id", "9523a5e1-966f-5a5f-8c28-208a44aa46b3"]
+  ],
+  "description": "Question: why does a distant earthquake sway tall towers while low houses next to them barely notice, and why does the nearby one do the opposite? Data: USGS ShakeMap's station list for the M7.1 Ridgecrest, California earthquake of 6 July 2019 (event ci38457511, Caltech/USGS Southern California Seismic Network version): for about 900 strong-motion and broadband stations, the peak ground acceleration (PGA) and the pseudo-spectral acceleration SA at 0.3, 1 and 3 seconds per channel, with the distance to the rupture. USGS data is public domain. Idea: the response spectrum and resonance. A building is, to first order, a damped oscillator (a single degree of freedom) with a natural period of about N/10 seconds for N storeys. SA(T) is the peak acceleration a 5%-damped oscillator of period T reaches in the recorded shaking; SA(T)/PGA is how much it amplifies the ground. Steady shaking at its own period would amplify it 1/2ζ = 10 times; an earthquake's few seconds of broadband motion give about 2–2.5. Steps (Polars and SQL): the nested station list to one row per channel and measure; per station the larger horizontal value of each measure; the spectrum as rows; the median shape SA/PGA per distance bin; attenuation per period (ln(SA·r) on r, giving κ and the distance over which each period's shaking halves); the long-to-short ratio SA(3 s)/SA(0.3 s) against distance; the oscillator's theoretical amplification for 2, 5 and 20% damping. The aha: within 50 km a 0.3 s oscillator (a 3-storey house) feels 2.05 times the ground's acceleration and a 3 s one (a 30-storey tower) 0.24 times; at 400–550 km the numbers are 1.41 and 1.10, and the ratio SA(3 s)/SA(0.3 s) grows by a factor of 1.57 per 100 km (845 stations, r = 0.56). Short-period shaking halves every 77 km, 3 s shaking every 157 km. Near the fault the spectrum peaks at short periods (stiff, low buildings are hit hardest); far away the short periods have been absorbed (rock absorbs a fixed share per cycle, and short periods make more cycles per kilometre), so the spectrum shifts to long periods: tall buildings, long bridges and oil tanks feel distant earthquakes the most. Caveats: three periods only (ShakeMap 3 station lists); the 0 s point is PGA; site conditions (the Los Angeles basin amplifies long periods) and directivity along the rupture add scatter; distance is to the rupture as ShakeMap estimated it; the attenuation fit assumes 1/r spreading at all distances (long-period surface waves spread more slowly), so κ is an apparent value, good for comparing periods, not a material Q; stations below 0.02 %g PGA and beyond 550 km are dropped. Next: compare a smaller quake (the M6.4 foreshock, ci38443183) to see magnitude shift the spectrum, or join each station's Vs30 (site stiffness) to separate site from distance.",
+  "graphs": [
+    ["graph/id", "935338a1-aea6-56fe-a336-9795a6e3e726"],
+    ["graph/id", "607640cb-3556-5254-8bce-8b04b0040dc8"],
+    ["graph/id", "d85ef2e5-fdb9-5574-9086-0aab1c0f64fd"],
+    ["graph/id", "ca8f0831-7be7-5942-83c6-d5a70bdfacd4"]
+  ],
+  "grids": [],
+  "name": "Response spectra: which buildings an earthquake shakes",
+  "ontology": {
+    "$file": ".seebra/dashboard/81c16514-b193-5f43-9982-06c411e6e746.ontology.json",
+    "$json": true
+  },
+  "queries": [
+    ["query/id", "b9737cb0-d27b-5ff3-9de7-2b71b0cee0cd"]
+  ],
+  "studies": [
+    ["study/id", "f22f1aa9-f52c-53b0-926a-a883edd70d02"]
+  ],
+  "tables": [],
+  "texts": [],
+  "timers": [],
+  "transformations": [
+    ["transformation/id", "64484f2c-37f1-5cd4-91db-f42a333619e4"],
+    ["transformation/id", "4ce784f0-e6a7-5fed-a011-d6e824f20e75"],
+    ["transformation/id", "3a849bf4-ab92-50f7-9b15-5728204acc30"],
+    ["transformation/id", "ca2fa73b-678d-558a-98b0-3a52879104e0"],
+    ["transformation/id", "e26fae62-5754-56fd-a558-ece03e0a11d8"],
+    ["transformation/id", "45c3a7fd-5acc-5378-8181-bd72cea7c71f"],
+    ["transformation/id", "3c7ecb90-9239-5b8e-8aea-e76ae38b0b92"]
+  ]
+}

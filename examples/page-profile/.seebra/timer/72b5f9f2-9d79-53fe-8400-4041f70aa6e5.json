@@ -1,0 +1,12 @@
+{
+  "timer/children": [
+    ["query/id", "b6a9f66c-a762-5998-a86d-cd9ebf73201c"]
+  ],
+  "timer/enabled?": true,
+  "timer/id": "72b5f9f2-9d79-53fe-8400-4041f70aa6e5",
+  "timer/interval": 15,
+  "timer/node": {
+    "node/x": 540,
+    "node/y": 320
+  }
+}

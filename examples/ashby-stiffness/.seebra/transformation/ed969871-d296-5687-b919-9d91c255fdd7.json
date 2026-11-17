@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/candidates-per-design-tie-beam-panel.sql"
+  },
+  "transformation/data-child": ["data/id", "8c091b2a-2e87-5504-9ac1-e15e14ff549a"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "ed969871-d296-5687-b919-9d91c255fdd7",
+  "transformation/inputs": [],
+  "transformation/language": "sql",
+  "transformation/name": "Candidates per design (tie, beam, panel)",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 2840,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "c7a86f4c-55b2-5965-868e-ffb675466477"],
+  "transformation/units": "{}"
+}

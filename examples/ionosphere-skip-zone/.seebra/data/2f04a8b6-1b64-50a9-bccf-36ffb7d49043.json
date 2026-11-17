@@ -1,0 +1,10 @@
+{
+  "data/id": "2f04a8b6-1b64-50a9-bccf-36ffb7d49043",
+  "data/name": "Secant law: MUF against distance data",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "0d1e01af-128a-5e1f-a77d-2abb5956132a"],
+  "data/type": "json"
+}

@@ -1,0 +1,10 @@
+{
+  "data/id": "33d82a54-f88c-5ecb-8ba2-11a1f00eb84d",
+  "data/name": "L(t): runs in flight each minute data",
+  "data/node": {
+    "node/x": 2990,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "e3dbdf2a-f9b9-5e97-8357-d32dc81af935"],
+  "data/type": "json"
+}

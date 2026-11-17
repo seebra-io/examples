@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/r-herd-immunity-threshold-and-final-size-per.js"
+  },
+  "graph/id": "b958f7a9-2980-57e0-b489-ccf7de4aa1b2",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "R, herd-immunity threshold and final size per season",
+  "graph/node": {
+    "node/x": 2380,
+    "node/y": 320
+  },
+  "graph/parent": ["data/id", "8e703752-35a9-5b55-8c25-1559e2f76733"]
+}

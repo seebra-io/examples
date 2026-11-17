@@ -1,0 +1,10 @@
+{
+  "data/id": "ffeb3f9d-67e0-5628-a605-f0486181d7ee",
+  "data/name": "Daily rates since 2025 data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 80
+  },
+  "data/parent": ["query/id", "254b772d-0f26-52e2-8020-e38740c7052c"],
+  "data/type": "json"
+}

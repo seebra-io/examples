@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/days-newcastle-radiators.polars.py"
+  },
+  "transformation/data-child": ["data/id", "83c22050-b27c-52c3-a0b6-3edabe802ff4"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "75dacb65-e4a2-5d9e-be21-3561983d1e39",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Days: Newcastle (radiators)",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 560
+  },
+  "transformation/parent": ["data/id", "f40ea04b-d15a-5b8c-ac92-1fb7fe0533a0"],
+  "transformation/units": "{}"
+}

@@ -1,0 +1,11 @@
+{
+  "data/id": "d455f961-72d7-520c-bc6e-b38591d9fd7c",
+  "data/name": "Classes of life",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "5927fbf1-73b6-537f-b8db-a4224113750d"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

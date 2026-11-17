@@ -1,0 +1,193 @@
+{
+  "title": "Material selection for stiffness at low weight",
+  "summary": "Materials have a stiffness (Young's modulus) and a density; a part's shape and loading decide which combination of the two (a performance index) sets its mass. The Ashby chart plots both on log axes so each index is a family of straight lines.",
+  "concepts": [
+    {
+      "cid": "c1",
+      "label": "Material",
+      "kind": "entity",
+      "description": "A Wikidata item with mechanical properties: an alloy, a polymer, a wood, a composite, an element or a mineral.",
+      "fields": [
+        "label",
+        "item",
+        "class",
+        "description"
+      ],
+      "in_data": true,
+      "wikidata": "Q214609",
+      "children": [
+        {
+          "cid": "c2",
+          "label": "Material class",
+          "kind": "category",
+          "as": "property",
+          "description": "metal, element, wood, polymer, composite, ceramic or mineral, sorted from the label and description by keyword.",
+          "fields": [
+            "class"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c3",
+          "label": "Young's modulus",
+          "kind": "measure",
+          "as": "property",
+          "description": "Stiffness in tension, E (GPa): recorded (P5480) or computed from K and G.",
+          "fields": [
+            "e_gpa"
+          ],
+          "in_data": true,
+          "wikidata": "Q2091584",
+          "children": [
+            {
+              "cid": "c4",
+              "label": "Bulk and shear modulus",
+              "kind": "measure",
+              "as": "part",
+              "description": "K (P5668) and G (P5673); for an isotropic solid E = 9KG/(3K+G).",
+              "fields": [
+                "k_gpa",
+                "g_gpa"
+              ],
+              "in_data": true
+            },
+            {
+              "cid": "c5",
+              "label": "Poisson's ratio",
+              "kind": "measure",
+              "as": "property",
+              "description": "ν = (3K−2G)/(2(3K+G)); negative (auxetic) for silica here.",
+              "fields": [
+                "nu"
+              ],
+              "in_data": true,
+              "wikidata": "Q190453"
+            },
+            {
+              "cid": "c6",
+              "label": "Anisotropy",
+              "kind": "measure",
+              "as": "property",
+              "description": "Wood and fibre composites are stiff along the grain or fibres and several times softer across; single crystals differ by direction too. Not in the data.",
+              "fields": [],
+              "in_data": false
+            }
+          ]
+        },
+        {
+          "cid": "c7",
+          "label": "Density",
+          "kind": "measure",
+          "as": "property",
+          "description": "ρ in kg/m³ (P2054, SI-normalized).",
+          "fields": [
+            "rho_kgm3"
+          ],
+          "in_data": true,
+          "wikidata": "Q29539"
+        },
+        {
+          "cid": "c8",
+          "label": "Strength",
+          "kind": "measure",
+          "as": "property",
+          "description": "Yield (P5529) and tensile strength (P5479): sparse on Wikidata; the next set of indices (σ/ρ, σ^(2/3)/ρ) needs them.",
+          "fields": [],
+          "in_data": false
+        }
+      ]
+    },
+    {
+      "cid": "c9",
+      "label": "Performance index",
+      "kind": "measure",
+      "description": "The material combination that minimizes a part's mass for a required stiffness, from the part's loading and its free dimension (Ashby's method).",
+      "fields": [
+        "tie",
+        "beam",
+        "panel"
+      ],
+      "in_data": true,
+      "facts": [
+        {
+          "text": "Ashby's material-selection charts and indices: M. F. Ashby, Materials Selection in Mechanical Design (1992).",
+          "source": "https://en.wikipedia.org/wiki/Material_selection"
+        }
+      ],
+      "children": [
+        {
+          "cid": "c10",
+          "label": "Specific stiffness E/ρ",
+          "kind": "measure",
+          "as": "subtype",
+          "description": "Tie or strut in tension: mass ∝ ρ/E. In MJ/kg. Steel, aluminium and titanium all near 25.",
+          "fields": [
+            "tie",
+            "rank_tie",
+            "mass_vs_steel_tie"
+          ],
+          "in_data": true,
+          "wikidata": "Q1418451"
+        },
+        {
+          "cid": "c11",
+          "label": "Beam index E^½/ρ",
+          "kind": "measure",
+          "as": "subtype",
+          "description": "Beam in bending with a free cross-section size: mass ∝ ρ/E^½.",
+          "fields": [
+            "beam",
+            "rank_beam",
+            "mass_vs_steel_beam"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c12",
+          "label": "Panel index E^⅓/ρ",
+          "kind": "measure",
+          "as": "subtype",
+          "description": "Plate or panel in bending with a free thickness: mass ∝ ρ/E^⅓. Spruce, beryllium, carbon-fibre composite and magnesium lead.",
+          "fields": [
+            "panel",
+            "rank_panel",
+            "mass_vs_steel_panel"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c13",
+          "label": "Strength indices",
+          "kind": "measure",
+          "as": "subtype",
+          "description": "σ/ρ and σ^(2/3)/ρ for parts that must not yield: the next chart.",
+          "fields": [],
+          "in_data": false
+        }
+      ]
+    },
+    {
+      "cid": "c14",
+      "label": "Data provenance",
+      "kind": "source",
+      "description": "Wikidata statements: recorded values with units (normalized to SI by the query service), and unreferenced K/G values that look computed.",
+      "fields": [
+        "source",
+        "n_values",
+        "issue"
+      ],
+      "in_data": true,
+      "children": [
+        {
+          "cid": "c15",
+          "label": "DFT elastic constants",
+          "kind": "source",
+          "as": "part",
+          "description": "AFLOW's AEL-AGL elastic moduli for thousands of crystals (catalog: aflow), to compare with the computed-looking Wikidata K and G.",
+          "fields": [],
+          "in_data": false
+        }
+      ]
+    }
+  ]
+}

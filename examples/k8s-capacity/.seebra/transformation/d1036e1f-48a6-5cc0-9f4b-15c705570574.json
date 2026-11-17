@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/requests-per-node.sql"
+  },
+  "transformation/data-child": ["data/id", "c5a7bb95-5aa4-58c4-a8ee-526f02779d15"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "d1036e1f-48a6-5cc0-9f4b-15c705570574",
+  "transformation/inputs": [],
+  "transformation/language": "sql",
+  "transformation/name": "Requests per node",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "7e118221-b1e1-54da-88bc-9af3e888163d"],
+  "transformation/units": "{}"
+}

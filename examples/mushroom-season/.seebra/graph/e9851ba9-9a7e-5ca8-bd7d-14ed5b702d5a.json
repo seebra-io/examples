@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/which-chanterelle-names-and-confidence-on.js"
+  },
+  "graph/id": "e9851ba9-9a7e-5ca8-bd7d-14ed5b702d5a",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Which chanterelle? Names and confidence on Mushroom Observer",
+  "graph/node": {
+    "node/x": 1920,
+    "node/y": 320
+  },
+  "graph/parent": ["data/id", "eb087818-b815-504b-9c1e-5dba04db8329"]
+}

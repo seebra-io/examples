@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/frost-in-30-year-periods.sql"
+  },
+  "transformation/data-child": ["data/id", "15dde0c8-72d0-5164-8b2a-6a530b0ed22f"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "fc66e0d6-716f-5dc4-b4aa-f8556a488fad",
+  "transformation/inputs": [],
+  "transformation/language": "sql",
+  "transformation/name": "Frost in 30-year periods",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1920,
+    "node/y": 560
+  },
+  "transformation/parent": ["data/id", "77b4014b-5f4b-58b6-8d77-9acfa1a5d71c"],
+  "transformation/units": "{}"
+}

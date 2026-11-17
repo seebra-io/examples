@@ -1,0 +1,21 @@
+{
+  "transformation/content": {
+    "$file": "transforms/hour-by-hour-l-against-w.polars.py"
+  },
+  "transformation/data-child": ["data/id", "4f62528f-afd2-566e-9134-4f25aa8fd023"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "038e9d7c-9e04-5b66-b96e-ad9c882d4edf",
+  "transformation/inputs": [
+    ["data/id", "33d82a54-f88c-5ecb-8ba2-11a1f00eb84d"]
+  ],
+  "transformation/language": "polars",
+  "transformation/name": "Hour by hour: L against λW",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 2380,
+    "node/y": 560
+  },
+  "transformation/parent": ["data/id", "369cbb37-92fe-5f29-8542-4059685b66d6"],
+  "transformation/units": "{}"
+}

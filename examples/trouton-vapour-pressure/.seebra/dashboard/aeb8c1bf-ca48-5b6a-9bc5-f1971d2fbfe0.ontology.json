@@ -1,0 +1,182 @@
+{
+  "title": "Vapour pressure from the boiling point (Trouton's rule)",
+  "summary": "Pure liquids, their normal boiling point and vapour pressure, linked by Clausius–Clapeyron; Trouton's rule fixes the entropy of vaporisation, and hydrogen bonding breaks it.",
+  "concepts": [
+    {
+      "cid": "c1",
+      "label": "Pure substance",
+      "kind": "entity",
+      "description": "A chemical compound with a structure (SMILES) on Wikidata.",
+      "fields": [
+        "qid",
+        "name",
+        "smiles",
+        "cid"
+      ],
+      "in_data": true,
+      "wikidata": "Q11173",
+      "children": [
+        {
+          "cid": "c2",
+          "label": "Normal boiling point",
+          "kind": "measure",
+          "as": "property",
+          "description": "Temperature at which the vapour pressure is 1 atm (K; the median of the item's statements).",
+          "fields": [
+            "tb_k",
+            "tb_c",
+            "tb_spread_k"
+          ],
+          "in_data": true,
+          "wikidata": "Q124003"
+        },
+        {
+          "cid": "c3",
+          "label": "Vapour pressure",
+          "kind": "measure",
+          "as": "property",
+          "description": "Pressure of the vapour in equilibrium with the liquid at temperature T (Pa).",
+          "fields": [
+            "p_pa",
+            "t_k",
+            "t_c"
+          ],
+          "in_data": true,
+          "wikidata": "Q190656",
+          "children": [
+            {
+              "cid": "c4",
+              "label": "Antoine equation",
+              "kind": "measure",
+              "as": "subtype",
+              "description": "log₁₀ P = A − B/(C + T): a three-parameter fit that needs several readings per liquid.",
+              "fields": [],
+              "in_data": false,
+              "wikidata": "Q504707"
+            }
+          ]
+        },
+        {
+          "cid": "c5",
+          "label": "Hydrogen-bond donor",
+          "kind": "category",
+          "as": "property",
+          "description": "O–H (alcohols, acids, glycols) or N–H (amines, amides) groups, read from the SMILES with a pattern.",
+          "fields": [
+            "hbond"
+          ],
+          "in_data": true,
+          "wikidata": "Q169917"
+        }
+      ]
+    },
+    {
+      "cid": "c6",
+      "label": "Clausius–Clapeyron relation",
+      "kind": "event",
+      "description": "d ln P/d(1/T) = −ΔH_vap/R; with ΔH constant, ln(P/P0) = −(ΔS/R)(Tb/T − 1).",
+      "fields": [
+        "x",
+        "y"
+      ],
+      "in_data": true,
+      "wikidata": "Q858006",
+      "facts": [
+        {
+          "text": "Clapeyron stated the relation in 1834; Clausius derived it from thermodynamics in 1850.",
+          "source": "https://en.wikipedia.org/wiki/Clausius%E2%80%93Clapeyron_relation"
+        }
+      ],
+      "children": [
+        {
+          "cid": "c7",
+          "label": "Entropy of vaporisation",
+          "kind": "measure",
+          "as": "property",
+          "description": "ΔS_vap = ΔH_vap/Tb; here the value one reading implies, R ln(P0/P)/(Tb/T − 1), J/(mol·K).",
+          "fields": [
+            "ds_implied",
+            "ds_over_r",
+            "ds_fit"
+          ],
+          "in_data": true,
+          "wikidata": "Q1569624",
+          "children": [
+            {
+              "cid": "c8",
+              "label": "Trouton's rule",
+              "kind": "measure",
+              "as": "subtype",
+              "description": "ΔS_vap ≈ 10.5 R ≈ 85–88 J/(mol·K) at the normal boiling point for most non-associated liquids.",
+              "fields": [
+                "p_trouton_pa",
+                "log_ratio"
+              ],
+              "in_data": true,
+              "wikidata": "Q1361286",
+              "facts": [
+                {
+                  "text": "Frederick Trouton reported the near-constant ratio of latent heat to boiling temperature in 1884.",
+                  "source": "https://en.wikipedia.org/wiki/Trouton%27s_rule"
+                }
+              ]
+            },
+            {
+              "cid": "c9",
+              "label": "Heat of vaporisation varies with temperature",
+              "kind": "measure",
+              "as": "property",
+              "description": "ΔH_vap grows below Tb (Watson's correlation); why room-temperature readings imply about 11.9 R rather than 10.5 R.",
+              "fields": [],
+              "in_data": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cid": "c10",
+      "label": "Distillation design",
+      "kind": "event",
+      "description": "Separating liquids by volatility: relative volatility α = P₁/P₂ sets how many stages a column needs.",
+      "fields": [],
+      "in_data": false,
+      "wikidata": "Q101017",
+      "children": [
+        {
+          "cid": "c11",
+          "label": "Azeotrope",
+          "kind": "event",
+          "as": "subtype",
+          "description": "A mixture that boils without changing composition, common when H-bond donors meet non-donors.",
+          "fields": [],
+          "in_data": false,
+          "wikidata": "Q190594"
+        }
+      ]
+    },
+    {
+      "cid": "c12",
+      "label": "Data provenance",
+      "kind": "source",
+      "description": "Wikidata statements with their units and qualifiers, mostly from NIOSH and ICSC safety data; rounded and sometimes wrong.",
+      "fields": [
+        "wikidata",
+        "pubchem",
+        "plausible"
+      ],
+      "in_data": true,
+      "children": [
+        {
+          "cid": "c13",
+          "label": "PubChem experimental properties",
+          "kind": "source",
+          "as": "part",
+          "description": "PubChem's annotated vapour pressures and boiling points, to check the suspect readings.",
+          "fields": [],
+          "in_data": false
+        }
+      ]
+    }
+  ]
+}

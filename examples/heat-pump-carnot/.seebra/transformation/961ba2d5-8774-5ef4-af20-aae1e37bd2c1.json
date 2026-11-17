@@ -1,0 +1,23 @@
+{
+  "transformation/content": {
+    "$file": "transforms/all-days-with-the-carnot-cop.sql"
+  },
+  "transformation/data-child": ["data/id", "b9a5e1a2-3f25-53ed-8582-0228fb139519"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "961ba2d5-8774-5ef4-af20-aae1e37bd2c1",
+  "transformation/inputs": [
+    ["data/id", "a5c7878e-b76b-534a-8439-fa92428245ef"],
+    ["data/id", "83c22050-b27c-52c3-a0b6-3edabe802ff4"],
+    ["data/id", "233d4b88-d447-544a-b30d-00204b805109"]
+  ],
+  "transformation/language": "sql",
+  "transformation/name": "All days, with the Carnot COP",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "805b87ff-8541-5bb0-9364-56336342d2f3"],
+  "transformation/units": "{}"
+}

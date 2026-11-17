@@ -1,0 +1,33 @@
+{
+  "dashboard/id": "0b18a1e2-66aa-5413-ba6f-73899c54f62f",
+  "datas": [
+    ["data/id", "f66fabdb-039b-51db-9d8f-4ef9fc458a24"],
+    ["data/id", "0509d059-8916-59cc-bd2c-c032e1e90ced"],
+    ["data/id", "a4434fae-93e3-5fef-833f-88f318f2b63b"],
+    ["data/id", "b21865cf-6465-5b2d-88e5-1d712a0dbe65"],
+    ["data/id", "dead8837-fdff-5be7-bddb-f08bc87ffa69"]
+  ],
+  "datasources": [
+    ["datasource/id", "45a37cc0-f072-5fb6-9225-f30399a8fc4d"]
+  ],
+  "description": "NASA's NeoWs feed (JPL data) of near-Earth asteroids making their closest approach in the coming seven days: miss distance in lunar distances, estimated size and speed, and which are potentially hazardous (hover a dot for its record, click for its JPL page). Statistics: sizes span two orders of magnitude, so they are binned on a log scale, where the median and the geometric mean (the mean of the logs) describe a typical asteroid and the ordinary mean is pulled up by the few big ones. Sizes are modelled from brightness with an assumed albedo (min to max is a factor of about 2.2), small asteroids are only found when they pass close, and a week is a few dozen objects. Uses NASA's shared DEMO_KEY (30 requests an hour); put your own key in for more.",
+  "graphs": [
+    ["graph/id", "88111908-b5ba-58ba-981e-13c57029c0a1"],
+    ["graph/id", "72dff261-ed1c-5da3-b298-bb6e732c2caf"]
+  ],
+  "grids": [],
+  "name": "Asteroids passing Earth this week",
+  "queries": [
+    ["query/id", "1a27ee48-8622-5e71-a38a-f07d81e37dab"]
+  ],
+  "studies": [],
+  "tables": [],
+  "texts": [],
+  "timers": [],
+  "transformations": [
+    ["transformation/id", "14166986-37d3-5ed3-97eb-703384fa2a91"],
+    ["transformation/id", "d20d8d3d-9b39-5b1c-b931-aa832a7ece49"],
+    ["transformation/id", "40856fc2-c346-559d-be54-a5ce07a4d5be"],
+    ["transformation/id", "8e7cb3fd-3ddc-5aa1-b9ed-a37569e98623"]
+  ]
+}

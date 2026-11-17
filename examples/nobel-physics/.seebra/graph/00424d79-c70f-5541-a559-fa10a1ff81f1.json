@@ -1,0 +1,16 @@
+{
+  "graph/content": {
+    "$file": "graphs/age-at-the-award-a-trend-with-its-uncertainty.js"
+  },
+  "graph/id": "00424d79-c70f-5541-a559-fa10a1ff81f1",
+  "graph/inputs": [
+    ["data/id", "3d8b61fd-f54f-5048-9962-ef925bee9d31"]
+  ],
+  "graph/language": "javascript",
+  "graph/name": "Age at the award: a trend with its uncertainty band",
+  "graph/node": {
+    "node/x": 1460,
+    "node/y": 800
+  },
+  "graph/parent": ["data/id", "9b540a8b-d766-5714-82e6-f73cefdd2ad6"]
+}

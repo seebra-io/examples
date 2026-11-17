@@ -1,0 +1,16 @@
+{
+  "graph/content": {
+    "$file": "graphs/when-and-how-close-log-scale-dashed-the-moon.js"
+  },
+  "graph/id": "88111908-b5ba-58ba-981e-13c57029c0a1",
+  "graph/inputs": [
+    ["data/id", "b21865cf-6465-5b2d-88e5-1d712a0dbe65"]
+  ],
+  "graph/language": "javascript",
+  "graph/name": "When and how close (log scale; dashed: the Moon)",
+  "graph/node": {
+    "node/x": 1920,
+    "node/y": 320
+  },
+  "graph/parent": ["data/id", "a4434fae-93e3-5fef-833f-88f318f2b63b"]
+}

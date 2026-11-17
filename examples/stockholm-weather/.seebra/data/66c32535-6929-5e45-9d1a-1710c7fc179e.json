@@ -1,0 +1,11 @@
+{
+  "data/id": "66c32535-6929-5e45-9d1a-1710c7fc179e",
+  "data/name": "Daily mean against the normal",
+  "data/node": {
+    "node/x": 2070,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "94829934-5535-5721-8493-eca02a68ce72"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

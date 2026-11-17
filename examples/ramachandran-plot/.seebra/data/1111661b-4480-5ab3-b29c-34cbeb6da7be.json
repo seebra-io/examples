@@ -1,0 +1,10 @@
+{
+  "data/id": "1111661b-4480-5ab3-b29c-34cbeb6da7be",
+  "data/name": "1UBQ helices and strands data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 1280
+  },
+  "data/parent": ["query/id", "496d4ef9-293b-5ec0-9abe-c863bd4d3ba2"],
+  "data/type": "json"
+}

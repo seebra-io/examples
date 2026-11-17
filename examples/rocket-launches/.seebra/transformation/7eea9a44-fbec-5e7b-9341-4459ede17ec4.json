@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/per-provider.sql"
+  },
+  "transformation/data-child": ["data/id", "5131ee02-a38c-5087-b993-35270c404a12"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "7eea9a44-fbec-5e7b-9341-4459ede17ec4",
+  "transformation/inputs": [],
+  "transformation/language": "sql",
+  "transformation/name": "Per provider",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "77615bcc-af32-5346-bdbc-d8b661dca5e2"],
+  "transformation/units": "{}"
+}

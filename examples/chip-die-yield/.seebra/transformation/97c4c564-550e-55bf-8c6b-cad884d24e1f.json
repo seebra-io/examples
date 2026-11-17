@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/yield-curves-over-die-area-for-the-chart.sql"
+  },
+  "transformation/data-child": ["data/id", "7d1b8271-657a-51cc-9578-347d17a5d3d4"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "97c4c564-550e-55bf-8c6b-cad884d24e1f",
+  "transformation/inputs": [],
+  "transformation/language": "sql",
+  "transformation/name": "Yield curves over die area (for the chart)",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "7b0b4bad-b754-55aa-8b59-406ee020ac53"],
+  "transformation/units": "{}"
+}

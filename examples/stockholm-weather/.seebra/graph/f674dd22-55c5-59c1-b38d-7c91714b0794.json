@@ -1,0 +1,16 @@
+{
+  "graph/content": {
+    "$file": "graphs/temperature-c-and-rain-mm-h-by-the-hour.js"
+  },
+  "graph/id": "f674dd22-55c5-59c1-b38d-7c91714b0794",
+  "graph/inputs": [
+    ["data/id", "be18a0f2-0f65-5c83-b5fa-d505f9c794b3"]
+  ],
+  "graph/language": "javascript",
+  "graph/name": "Temperature (°C) and rain (mm/h) by the hour",
+  "graph/node": {
+    "node/x": 1460,
+    "node/y": 320
+  },
+  "graph/parent": ["data/id", "ce643a44-0024-57a8-b214-77096dadbf97"]
+}

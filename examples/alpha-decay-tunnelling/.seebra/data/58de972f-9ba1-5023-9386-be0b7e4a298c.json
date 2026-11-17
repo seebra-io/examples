@@ -1,0 +1,11 @@
+{
+  "data/id": "58de972f-9ba1-5023-9386-be0b7e4a298c",
+  "data/name": "Fit per parity",
+  "data/node": {
+    "node/x": 2990,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "a8766f50-645b-5f0b-90df-963361e1276d"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

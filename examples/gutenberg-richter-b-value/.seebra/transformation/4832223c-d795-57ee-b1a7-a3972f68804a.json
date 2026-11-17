@@ -1,0 +1,21 @@
+{
+  "transformation/content": {
+    "$file": "transforms/b-value-aki-utsu-with-aki-s-and-shi-bolt-s.polars.py"
+  },
+  "transformation/data-child": ["data/id", "6ce23e72-a4ba-5820-aba7-17eeb714fe60"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "4832223c-d795-57ee-b1a7-a3972f68804a",
+  "transformation/inputs": [
+    ["data/id", "c68dcf40-0061-5cef-b019-dd0a76de655a"]
+  ],
+  "transformation/language": "polars",
+  "transformation/name": "b-value (Aki–Utsu) with Aki's and Shi–Bolt's errors, and the a-value",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "fc913db3-ad6a-5ca1-a82a-e6ef2e9ba53b"],
+  "transformation/units": "{}"
+}

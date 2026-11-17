@@ -1,0 +1,10 @@
+{
+  "data/id": "1e4a3fc0-ba19-5a1b-b481-4d86e9b73725",
+  "data/name": "Curiosity images per sol: a rate needs an exposure data",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 1280
+  },
+  "data/parent": ["transformation/id", "dc53b35f-f40a-5d18-96d7-e5ade6aa73e5"],
+  "data/type": "json"
+}

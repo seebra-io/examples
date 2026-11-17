@@ -1,0 +1,11 @@
+{
+  "data/id": "da2dec66-21b8-5935-9bed-2f38eb5fd953",
+  "data/name": "Per airport: verdict, deciding group, METAR now",
+  "data/node": {
+    "node/x": 2070,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "53000f47-6b0c-54ee-9b4d-2866b758a0c5"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

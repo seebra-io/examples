@@ -1,0 +1,189 @@
+{
+  "title": "Stellar radii from Stefan–Boltzmann",
+  "question": "Per star (3,300–8,000 K, parallax better than 5%): is log₁₀ radius_sb a line of slope 1 in log₁₀ radius_gspphot, and what is α in log L = α log M + c for main-sequence stars?",
+  "review": {
+    "well_formed": true,
+    "issues": [
+      {
+        "kind": "causal",
+        "text": "The mass–luminosity slope uses FLAME masses, which come from models fitted to L and T.",
+        "fix": "Read α as the models' slope; a test needs dynamical masses (data)."
+      }
+    ],
+    "alternatives": [
+      {
+        "question": "Do giants and dwarfs at the same temperature differ in luminosity by the square of their radius ratio?",
+        "why": "Drills into one temperature band.",
+        "ready": true
+      },
+      {
+        "question": "Does α from eclipsing or astrometric binaries' dynamical masses match the FLAME slope?",
+        "why": "Expands to a model-free mass.",
+        "ready": false
+      }
+    ]
+  },
+  "hypotheses": [
+    {
+      "id": "H1",
+      "statement": "The Stefan–Boltzmann radius rises one-for-one with Gaia's spectral radius (log–log slope 1).",
+      "null": "The slope differs from 1.",
+      "outcome": {
+        "concept": "Stefan–Boltzmann radius",
+        "field": "log_r_sb"
+      },
+      "predictor": {
+        "concept": "Spectral radius",
+        "field": "log_r_gsp"
+      },
+      "subgroup": null,
+      "direction": "equal",
+      "test": {
+        "method": "regression",
+        "link": null,
+        "outcome_mode": "mean",
+        "outcome_field": "log_r_sb",
+        "predictor_field": "log_r_gsp",
+        "exposure_field": null,
+        "versus": null,
+        "against": 1
+      }
+    },
+    {
+      "id": "H2",
+      "statement": "On the main sequence, log L rises with log M with slope α between 3 and 5.",
+      "null": "α is outside 3–5.",
+      "outcome": {
+        "concept": "Luminosity",
+        "field": "log_l"
+      },
+      "predictor": {
+        "concept": "Stellar mass",
+        "field": "log_m"
+      },
+      "subgroup": {
+        "concept": "Evolutionary stage",
+        "category": "main sequence"
+      },
+      "direction": "increase",
+      "test": {
+        "method": "regression",
+        "link": null,
+        "outcome_mode": "mean",
+        "outcome_field": "log_l",
+        "predictor_field": "log_m",
+        "exposure_field": null,
+        "versus": null,
+        "against": 3
+      }
+    }
+  ],
+  "concepts": [
+    {
+      "label": "Star",
+      "kind": "entity",
+      "description": "A Gaia DR3 source.",
+      "why": "The unit.",
+      "have": true,
+      "categories": [],
+      "field": "star",
+      "strategy": null
+    },
+    {
+      "label": "Luminosity",
+      "kind": "measure",
+      "description": "Total power in solar units.",
+      "why": "Stefan–Boltzmann's left side.",
+      "have": false,
+      "categories": [],
+      "field": "lum",
+      "strategy": {
+        "how": "derive",
+        "detail": "10^(−0.4 (G + 5 log₁₀(ϖ/100) − A_G + BC_G − 4.74))"
+      }
+    },
+    {
+      "label": "Effective temperature",
+      "kind": "measure",
+      "description": "GSP-Phot Teff (K).",
+      "why": "Enters as T⁴.",
+      "have": true,
+      "categories": [],
+      "field": "teff",
+      "strategy": null
+    },
+    {
+      "label": "Stefan–Boltzmann radius",
+      "kind": "measure",
+      "description": "√L (5772/T)² in R☉.",
+      "why": "The outcome of H1.",
+      "have": false,
+      "categories": [],
+      "field": "radius_sb",
+      "strategy": {
+        "how": "derive",
+        "detail": "sqrt(lum) * (5772 / teff)^2"
+      }
+    },
+    {
+      "label": "Evolutionary stage",
+      "kind": "category",
+      "description": "FLAME's stage: main sequence, subgiant, giant.",
+      "why": "Subgroup of H2.",
+      "have": true,
+      "categories": [
+        "main sequence",
+        "subgiant",
+        "giant"
+      ],
+      "field": "stage",
+      "strategy": null
+    }
+  ],
+  "data": [
+    {
+      "concept": "Dynamical stellar mass",
+      "request": "Masses of stars in binaries from orbital solutions",
+      "source": "Gaia DR3 nss_two_body_orbit, or DEBCat (eclipsing binaries)",
+      "why": "A model-free mass for H2."
+    }
+  ],
+  "links": [],
+  "method": {
+    "id": "regression",
+    "summary": "Straight lines on log–log axes; the slope's posterior against 1 (H1) and the range 3–5 (H2)."
+  },
+  "steps": [
+    {
+      "kind": "data",
+      "title": "Sample Gaia DR3",
+      "detail": "random_index < 3,000,000, parallax_over_error > 20, with GSP-Phot Teff and radius."
+    },
+    {
+      "kind": "concept",
+      "title": "Derive L and R",
+      "detail": "lum from abs_g and bc_g; radius_sb = sqrt(lum)·(5772/teff)²."
+    },
+    {
+      "kind": "categorise",
+      "title": "Stages",
+      "detail": "evolstage_flame < 360 main sequence, < 420 subgiant, else giant."
+    },
+    {
+      "kind": "method",
+      "title": "Fit",
+      "detail": "log_r_sb on log_r_gsp; log_l on log_m for the main sequence."
+    },
+    {
+      "kind": "decide",
+      "title": "Slopes",
+      "detail": "Against 1 and against 3–5."
+    }
+  ],
+  "caveats": [
+    "Parallax-limited samples over-represent luminous stars.",
+    "BC_G is fitted for 3,300–8,000 K only.",
+    "FLAME masses are model-dependent.",
+    "Unresolved binaries look too bright for their temperature."
+  ]
+}

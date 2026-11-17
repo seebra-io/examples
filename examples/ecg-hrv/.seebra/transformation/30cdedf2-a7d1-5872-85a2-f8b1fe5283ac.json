@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/time-domain-hrv-per-record-every-beat-against.polars.py"
+  },
+  "transformation/data-child": ["data/id", "5d8dbce1-1030-5a2a-ba30-8b52427a1af4"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "30cdedf2-a7d1-5872-85a2-f8b1fe5283ac",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Time-domain HRV per record: every beat against normal-to-normal only",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1920,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "467a44c2-a8f6-5fe4-837e-545a685c1953"],
+  "transformation/units": "{}"
+}

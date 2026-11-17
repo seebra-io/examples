@@ -1,0 +1,21 @@
+{
+  "transformation/content": {
+    "$file": "transforms/three-fits-to-compare-students-per-advisor-over.sql"
+  },
+  "transformation/data-child": ["data/id", "f87531b5-393e-5ef2-869c-4e916255440a"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "d947c6f3-4b7b-5ae2-92a2-e4dbd6a99541",
+  "transformation/inputs": [
+    ["data/id", "fb3c0058-dcb4-5312-be3f-e28f84d8c6d5"]
+  ],
+  "transformation/language": "sql",
+  "transformation/name": "Three fits to compare: students per advisor over the whole range and over its tail, advisors per student",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1920,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "63796439-9e55-5fe9-a41a-0a85fa9060ee"],
+  "transformation/units": "{}"
+}

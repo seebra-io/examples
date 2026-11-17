@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "acc7d1d5-3d30-5ab1-a076-8dc9ee8bc771"],
+  "query/datasource": ["datasource/id", "8c4e5860-f59d-51de-b2b8-7355fc71c0b5"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "8f7816cf-8da7-55d8-bb32-10f832ca92ff",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "News on talks, the IAEA and sanctions (14 days)",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 2000
+  },
+  "query/params": "{\"query\":\"iran (talks OR negotiations OR ceasefire OR IAEA OR sanctions OR nuclear) sourcelang:english\",\"mode\":\"artlist\",\"format\":\"json\",\"maxrecords\":\"75\",\"timespan\":\"14d\",\"sort\":\"datedesc\"}",
+  "query/path": "/doc",
+  "query/request-body": "",
+  "query/units": "{}"
+}

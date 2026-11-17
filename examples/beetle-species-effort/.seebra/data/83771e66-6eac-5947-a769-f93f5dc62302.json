@@ -1,0 +1,11 @@
+{
+  "data/id": "83771e66-6eac-5947-a769-f93f5dc62302",
+  "data/name": "Species, effort and Chao1 per province",
+  "data/node": {
+    "node/x": 2070,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "95913a48-a0a2-5e1f-8801-6b9afd66b84e"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

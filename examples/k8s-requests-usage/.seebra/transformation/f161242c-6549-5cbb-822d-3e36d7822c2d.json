@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/requests-per-container.polars.py"
+  },
+  "transformation/data-child": ["data/id", "4c5e0173-ccb6-5c75-8077-660e35371dbc"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "f161242c-6549-5cbb-822d-3e36d7822c2d",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Requests per container",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "2dc223b6-17f0-5222-9d92-5cfe74730a39"],
+  "transformation/units": "{}"
+}

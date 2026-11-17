@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "fb164937-d5ad-514f-8f22-080235b27af8"],
+  "query/datasource": ["datasource/id", "48c6bdde-2deb-595f-aa40-7fc6a0ddcdc1"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "3320be80-9357-5078-a35e-19dd7cff6f7a",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Bacteria: annotated reference genomes",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 80
+  },
+  "query/params": "{\"filters.reference_only\":\"true\",\"filters.has_annotation\":\"true\",\"page_size\":\"200\"}",
+  "query/path": "/genome/taxon/2/dataset_report",
+  "query/request-body": "",
+  "query/units": "{}"
+}

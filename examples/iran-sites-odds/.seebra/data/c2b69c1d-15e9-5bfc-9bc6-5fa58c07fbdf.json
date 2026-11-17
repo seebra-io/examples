@@ -1,0 +1,10 @@
+{
+  "data/id": "c2b69c1d-15e9-5bfc-9bc6-5fa58c07fbdf",
+  "data/name": "Aircraft within 250 nm of Tehran data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 800
+  },
+  "data/parent": ["query/id", "1ad31351-9455-51c6-afec-5d9e6feda37c"],
+  "data/type": "json"
+}

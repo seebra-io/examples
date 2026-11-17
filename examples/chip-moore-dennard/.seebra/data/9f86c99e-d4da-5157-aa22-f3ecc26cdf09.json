@@ -1,0 +1,10 @@
+{
+  "data/id": "9f86c99e-d4da-5157-aa22-f3ecc26cdf09",
+  "data/name": "One line through all 50 years (no break), per measure data",
+  "data/node": {
+    "node/x": 2070,
+    "node/y": 560
+  },
+  "data/parent": ["transformation/id", "833c5bde-e957-5f5a-aa60-9f2e6c7a5761"],
+  "data/type": "json"
+}

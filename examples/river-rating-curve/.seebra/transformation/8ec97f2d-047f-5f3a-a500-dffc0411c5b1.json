@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/one-rating-curve-for-all-years-q-c-h-e-b.polars.py"
+  },
+  "transformation/data-child": ["data/id", "d38a2c77-f26a-51f7-bbb5-6d87969c7c2a"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "8ec97f2d-047f-5f3a-a500-dffc0411c5b1",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "One rating curve for all years: Q = C (h − e)^b",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "53b3944f-088d-5541-af4c-12295f8c0c00"],
+  "transformation/units": "{}"
+}

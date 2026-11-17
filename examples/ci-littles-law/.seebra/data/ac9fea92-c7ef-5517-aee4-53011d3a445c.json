@@ -1,0 +1,11 @@
+{
+  "data/id": "ac9fea92-c7ef-5517-aee4-53011d3a445c",
+  "data/name": "Little's law for the day",
+  "data/node": {
+    "node/x": 2530,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "24676c6d-fc3b-5cf5-a65d-ac822f1572be"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

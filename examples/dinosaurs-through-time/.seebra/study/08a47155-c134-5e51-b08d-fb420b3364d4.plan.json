@@ -1,0 +1,100 @@
+{
+  "title": "Diversity against sampling, per stage",
+  "review": {
+    "well_formed": true,
+    "issues": [
+      {
+        "kind": "causal",
+        "text": "A correlation can't say which way it runs: rich stages may have more genera because there were more dinosaurs, or more finds because more beds of that age are exposed and dug.",
+        "fix": "Read rho as a warning about the raw curve, not as a cause."
+      },
+      {
+        "kind": "scope",
+        "text": "29 stages is a small sample, and neighbouring stages share genera (range-through).",
+        "fix": "Report rho with its interval; a subsampled curve (shareholder quorum subsampling) is the real correction."
+      }
+    ],
+    "alternatives": [
+      {
+        "question": "Does the drop in genera found in the last stages of the Jurassic survive when each stage is cut to the same number of finds?",
+        "why": "Drills into the diversity curve: rarefaction against the finds table.",
+        "ready": false
+      },
+      {
+        "question": "Do theropods, sauropodomorphs and ornithischians rise and fall together across the stages?",
+        "why": "Drills into the groups, with the genus table already on the board.",
+        "ready": true
+      },
+      {
+        "question": "Did mammals, pterosaurs and marine reptiles lose as many genera at the K–Pg boundary as dinosaurs did?",
+        "why": "Expands to the other groups of the time: the big five extinctions.",
+        "ready": false
+      }
+    ]
+  },
+  "question": "Does the number of dinosaur genera found per stage follow the number of finds per stage?",
+  "hypotheses": [
+    {
+      "id": "h1",
+      "statement": "Stages with more fossil finds have more genera found in them.",
+      "direction": "increase",
+      "null": "Genera found per stage don't rise with finds per stage.",
+      "outcome": {
+        "concept": "Genera found",
+        "field": "sampled"
+      },
+      "predictor": {
+        "concept": "Fossil finds",
+        "field": "occurrences"
+      },
+      "test": {
+        "method": "spearman",
+        "outcome_field": "sampled",
+        "predictor_field": "occurrences"
+      }
+    }
+  ],
+  "concepts": [
+    {
+      "label": "Genera found",
+      "kind": "measure",
+      "field": "sampled",
+      "have": true
+    },
+    {
+      "label": "Fossil finds",
+      "kind": "measure",
+      "field": "occurrences",
+      "have": true
+    },
+    {
+      "label": "Stage",
+      "kind": "time",
+      "field": "stage",
+      "have": true
+    }
+  ],
+  "method": {
+    "id": "spearman",
+    "summary": "Rank correlation of genera found and finds over the 29 stages."
+  },
+  "steps": [
+    {
+      "kind": "data",
+      "title": "Genera and finds per stage from PBDB's diversity service"
+    },
+    {
+      "kind": "method",
+      "title": "Spearman's rho between the two columns"
+    },
+    {
+      "kind": "decide",
+      "title": "A strong positive rho: read the diversity curve with the sampling panel beside it"
+    }
+  ],
+  "caveats": [
+    "Stages differ in length (from about 2 to 12 million years): longer stages hold more of both.",
+    "Finds are counted at genus level; one rich quarry can dominate a stage.",
+    "Range-through counts fill gaps between a genus' first and last find; the found counts don't."
+  ]
+}

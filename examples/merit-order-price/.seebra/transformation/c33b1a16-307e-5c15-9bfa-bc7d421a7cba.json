@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/hourly-means-gw.polars.py"
+  },
+  "transformation/data-child": ["data/id", "b47f6168-5b57-55b0-9678-dca54b2e8bcd"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "c33b1a16-307e-5c15-9bfa-bc7d421a7cba",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Hourly means (GW)",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1920,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "3dd3cca5-8243-57c5-8575-7fa7c5d49b27"],
+  "transformation/units": "{}"
+}

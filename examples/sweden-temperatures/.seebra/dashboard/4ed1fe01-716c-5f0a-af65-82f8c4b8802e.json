@@ -1,0 +1,31 @@
+{
+  "dashboard/id": "4ed1fe01-716c-5f0a-af65-82f8c4b8802e",
+  "datas": [
+    ["data/id", "bdf7c0d6-3dec-53ba-999e-f17c6371f423"],
+    ["data/id", "58ae7275-070a-5c63-af91-0b199fa55a56"],
+    ["data/id", "e235e7ea-4241-5759-9678-5c6cb1f8bcd1"],
+    ["data/id", "50f30f7b-cd87-5234-a33f-de424c7f1c84"]
+  ],
+  "datasources": [
+    ["datasource/id", "3cc67204-5df2-5854-93ee-d9a26f9cbfc8"]
+  ],
+  "description": "SMHI's latest hourly air temperature from every reporting weather station in Sweden, on a map from Smygehuk to Abisko, with the warmest and coldest stations. Statistics: a straight-line trend of temperature against latitude, with a 95% band for the line (and a wider one for a single station), so you can see how much colder each degree north is this hour and how sure that slope is. One hour is a snapshot; height and coast also matter. Quality G is checked, Y is suspect or not yet checked.",
+  "graphs": [
+    ["graph/id", "92b45de8-3ed7-566a-8ccc-5727408f120d"],
+    ["graph/id", "797aca8f-18c2-58c6-98d4-de645723bffb"]
+  ],
+  "grids": [],
+  "name": "Temperature across Sweden now",
+  "queries": [
+    ["query/id", "00643dd1-2965-5f91-aa65-421a8fbfda6d"]
+  ],
+  "studies": [],
+  "tables": [],
+  "texts": [],
+  "timers": [],
+  "transformations": [
+    ["transformation/id", "49585ad9-f70a-59bc-a23f-c98c62349bd4"],
+    ["transformation/id", "5e76c9e5-9b18-59b3-aebe-64d45c8a0ad0"],
+    ["transformation/id", "5bd2f5b1-1ab4-56bb-9d59-7b4fbc3189ae"]
+  ]
+}

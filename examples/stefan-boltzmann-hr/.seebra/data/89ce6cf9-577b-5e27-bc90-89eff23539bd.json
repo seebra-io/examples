@@ -1,0 +1,10 @@
+{
+  "data/id": "89ce6cf9-577b-5e27-bc90-89eff23539bd",
+  "data/name": "3,000 random Gaia DR3 stars with good parallaxes (CSV) data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 80
+  },
+  "data/parent": ["query/id", "6ea314ee-af4b-5f92-9d38-31b83805ae1c"],
+  "data/type": "json"
+}

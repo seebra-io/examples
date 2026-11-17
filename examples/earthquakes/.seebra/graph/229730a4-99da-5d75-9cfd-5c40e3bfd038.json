@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/gutenberg-richter-a-power-law-is-a-straight-line.js"
+  },
+  "graph/id": "229730a4-99da-5d75-9cfd-5c40e3bfd038",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Gutenberg–Richter: a power law is a straight line on a log axis",
+  "graph/node": {
+    "node/x": 1920,
+    "node/y": 80
+  },
+  "graph/parent": ["data/id", "ad26b60b-24d5-50fb-b5a0-431357783366"]
+}

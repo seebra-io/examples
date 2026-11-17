@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/per-class.sql"
+  },
+  "transformation/data-child": ["data/id", "d455f961-72d7-520c-bc6e-b38591d9fd7c"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "5927fbf1-73b6-537f-b8db-a4224113750d",
+  "transformation/inputs": [],
+  "transformation/language": "sql",
+  "transformation/name": "Per class",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "0a4efc7b-90af-5610-af12-5ce5faac9217"],
+  "transformation/units": "{}"
+}

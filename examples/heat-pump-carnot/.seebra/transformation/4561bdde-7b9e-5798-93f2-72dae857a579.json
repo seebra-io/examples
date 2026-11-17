@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/the-year-per-house-scop.polars.py"
+  },
+  "transformation/data-child": ["data/id", "e1a93826-2642-5142-9c01-3354e9a7a772"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "4561bdde-7b9e-5798-93f2-72dae857a579",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "The year per house (SCOP)",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1920,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "b9a5e1a2-3f25-53ed-8582-0228fb139519"],
+  "transformation/units": "{}"
+}

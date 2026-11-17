@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/elements-valence-period-electronegativity.polars.py"
+  },
+  "transformation/data-child": ["data/id", "b862fc4b-d415-53ca-a25e-6422b5e898cf"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "2577b2e2-a47f-5d5f-9a33-9acd18465f6c",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Elements: valence, period, electronegativity",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "e22797a0-aef8-5a79-adbe-91886e5b64c8"],
+  "transformation/units": "{}"
+}

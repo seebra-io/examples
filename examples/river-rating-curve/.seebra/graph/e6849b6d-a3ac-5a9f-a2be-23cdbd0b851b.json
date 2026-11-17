@@ -1,0 +1,17 @@
+{
+  "graph/content": {
+    "$file": "graphs/the-rating-curve-4-000-measurements-one-power.js"
+  },
+  "graph/id": "e6849b6d-a3ac-5a9f-a2be-23cdbd0b851b",
+  "graph/inputs": [
+    ["data/id", "aea86b35-7f58-504a-951e-80fd27f859b8"],
+    ["data/id", "2285a219-60f2-5218-aea2-bc94c658438e"]
+  ],
+  "graph/language": "javascript",
+  "graph/name": "The rating curve: 4,000 measurements, one power law, the flood peaks",
+  "graph/node": {
+    "node/x": 1920,
+    "node/y": 800
+  },
+  "graph/parent": ["data/id", "1c48d3cb-c182-5c5d-8b55-1565150db2a0"]
+}

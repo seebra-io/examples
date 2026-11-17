@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/yearly-growth-per-country.js"
+  },
+  "graph/id": "e4680d1f-4679-55e9-9d9a-208f738ea13b",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Yearly growth per country",
+  "graph/node": {
+    "node/x": 1920,
+    "node/y": 320
+  },
+  "graph/parent": ["data/id", "e5f9abd8-358b-58d3-ba0d-31092afc8d58"]
+}

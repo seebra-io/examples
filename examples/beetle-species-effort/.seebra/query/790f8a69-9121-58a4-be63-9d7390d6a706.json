@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "08764a8e-5901-5089-b8a7-91cf8c580d69"],
+  "query/datasource": ["datasource/id", "39f16f7e-4b45-59b9-8571-88f2f36f894e"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "790f8a69-9121-58a4-be63-9d7390d6a706",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Beetle records per species, Norrbotten 2024",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 560
+  },
+  "query/params": "{\"country\":\"SE\",\"orderKey\":\"1470\",\"year\":\"2024\",\"stateProvince\":\"Norrbotten\",\"limit\":\"0\",\"facet\":\"speciesKey\",\"facetLimit\":\"3000\"}",
+  "query/path": "/occurrence/search",
+  "query/request-body": "",
+  "query/units": "{}"
+}

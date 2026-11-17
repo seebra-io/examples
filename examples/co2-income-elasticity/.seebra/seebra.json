@@ -1,0 +1,8 @@
+{
+  "file": {
+    "file/example": "co2-income-elasticity"
+  },
+  "format": 2,
+  "root": ["dashboard/id", "9db6e299-2025-5023-beb2-ae37ab289cdd"],
+  "seebra": "board"
+}

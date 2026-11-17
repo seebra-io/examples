@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "66960e22-3bdd-583c-9e28-add38a6ae356"],
+  "query/datasource": ["datasource/id", "7bdda083-1c18-5c90-a324-e896aef12006"],
+  "query/dynamic?": false,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "a05fe6a9-471f-570f-b6fc-ff917ddc3f4b",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "The planets' orbital elements (JPL, Standish) and the belt's resonances",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 80
+  },
+  "query/params": "{}",
+  "query/path": "/solar-system-elements.json",
+  "query/request-body": "",
+  "query/units": "{}"
+}

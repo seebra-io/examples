@@ -1,0 +1,16 @@
+{
+  "datasource/api-key-key": "api_key",
+  "datasource/auth-type": "none",
+  "datasource/headers": "{}",
+  "datasource/id": "093df41a-24c7-5d6d-83ee-5a05fc873a68",
+  "datasource/name": "NASA Exoplanet Archive TAP",
+  "datasource/node": {
+    "inputs": 1,
+    "node/x": 80,
+    "node/y": 80,
+    "outputs": 1
+  },
+  "datasource/params": "{}",
+  "datasource/type": "openapi",
+  "datasource/url": "https://exoplanetarchive.ipac.caltech.edu/TAP"
+}

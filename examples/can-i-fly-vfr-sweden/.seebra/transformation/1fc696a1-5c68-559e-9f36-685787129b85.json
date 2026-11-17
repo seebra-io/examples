@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/the-route-edit-here-essa-esgg-alternates-esoe.polars.py"
+  },
+  "transformation/data-child": ["data/id", "ae7d4001-5de8-5a40-930c-0a4ddece8a3c"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "1fc696a1-5c68-559e-9f36-685787129b85",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "The route (edit here): ESSA → ESGG, alternates ESOE, ESGJ, ETD now + 2 h",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "9ca10029-f19b-5ec3-9f67-ca7403a2f2a0"],
+  "transformation/units": "{}"
+}

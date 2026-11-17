@@ -1,0 +1,37 @@
+{
+  "dashboard/id": "bf15f232-0f22-52a1-bebb-547dd40a15dd",
+  "datas": [
+    ["data/id", "63b13c42-d499-579b-b477-3c227fc1ae99"],
+    ["data/id", "2dc223b6-17f0-5222-9d92-5cfe74730a39"],
+    ["data/id", "ff1e9e00-35f7-5c34-bcf5-a64514969673"],
+    ["data/id", "4c5e0173-ccb6-5c75-8077-660e35371dbc"],
+    ["data/id", "9717b6c3-d3f8-5221-b28b-6b0aac093d68"],
+    ["data/id", "f1df191d-ba30-5766-a592-63367321bf74"],
+    ["data/id", "0aedab75-face-5765-b7f3-344147ab3fc2"]
+  ],
+  "datasources": [
+    ["datasource/id", "3a3fcd90-2fad-5169-a3b7-2e8bad4fc4e3"]
+  ],
+  "description": "What containers ask for against what they use right now: CPU and memory usage from the metrics API (/apis/metrics.k8s.io/v1beta1/pods, served by metrics-server, which many clusters have and some don't: without it the usage query answers 404) joined with the requests in the pod specs (/api/v1/pods). Statistics: a ratio and its spread. Usage over request is read on a log scale (half and double are equally far from 1), and per namespace by its quantiles (the box: middle half; whiskers and dots: the rest), not its mean, which a few idle giants or one hot container drag around. The pooled ratio (all usage over all requests) is what the cluster pays for; the median is what a typical container does; they differ when big requests are idle. Below 1/4 a container asks for four times what it uses (over-provisioned: its request blocks the node for others); above 1 it uses more than it asked for (under-provisioned: CPU gets throttled when the node is busy, memory risks eviction or an OOM kill at its limit). Hover a dot for the container, its request and usage. Caveats: usage is one sample over metrics-server's window (about 15 to 30 seconds), not a peak or a percentile over a day (use Prometheus for that); containers without a request are left out of the ratio (counted in the caption); up to 500 pods. Needs signing in and a connected cluster: the datasource is https://kubernetes.default.svc, the in-cluster address of the Kubernetes API, reached through your organization's own Seebra gateway running in that cluster (Settings → Organization), with a read-only service-account token kept in the gateway's Secret under the name k8s-token (sent as a bearer token). Signed out, or through Seebra's hosted gateway, no cluster can be reached, so this example shows errors there. The datasource shows \"key ?\" because the token lives on the gateway, not among your Seebra secrets. Setup, RBAC and the kubectl proxy route: docs, Use cases → Kubernetes.",
+  "graphs": [
+    ["graph/id", "5b0e0e73-12a7-5b17-b712-735b83ed7059"],
+    ["graph/id", "dda466c5-6a8c-525f-8db1-a62b6b44cd32"]
+  ],
+  "grids": [],
+  "name": "Kubernetes requests vs usage",
+  "queries": [
+    ["query/id", "6440582e-2a80-516a-ab0c-15a7edb00be9"],
+    ["query/id", "bdbf8960-8313-5abe-9efc-c5408488b0c9"]
+  ],
+  "studies": [],
+  "tables": [],
+  "texts": [],
+  "timers": [],
+  "transformations": [
+    ["transformation/id", "a4dabe56-05cc-527b-a1dc-abacaf4aa07d"],
+    ["transformation/id", "f161242c-6549-5cbb-822d-3e36d7822c2d"],
+    ["transformation/id", "4eb8e892-ad1c-51ce-a1b9-23f7232149c1"],
+    ["transformation/id", "4561a63e-4b87-5f27-8e19-adaf8b7613c8"],
+    ["transformation/id", "85994f74-607b-503a-a0d5-fe962b85f640"]
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/terrain-grid.js"
+  },
+  "transformation/data-child": ["data/id", "45e8faa2-51b1-5ba0-b88b-996539f84b0d"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "js-web-worker",
+  "transformation/id": "9e59dfd6-e7ea-5085-81e8-bfc952718246",
+  "transformation/inputs": [],
+  "transformation/language": "javascript",
+  "transformation/name": "Terrain grid",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "67299649-4a44-57a1-a7ad-a6ff2f9fc049"],
+  "transformation/units": "{\"z\":\"m\"}"
+}

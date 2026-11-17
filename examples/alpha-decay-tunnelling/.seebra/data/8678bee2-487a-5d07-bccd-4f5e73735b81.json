@@ -1,0 +1,10 @@
+{
+  "data/id": "8678bee2-487a-5d07-bccd-4f5e73735b81",
+  "data/name": "All nuclides' ground states (CSV) data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 80
+  },
+  "data/parent": ["query/id", "f659c753-bd36-59f2-b23f-b3b86f8ef68e"],
+  "data/type": "json"
+}

@@ -1,0 +1,10 @@
+{
+  "data/id": "ad26b60b-24d5-50fb-b5a0-431357783366",
+  "data/name": "Gutenberg–Richter: quakes at least this strong (power law, b-value) data",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 560
+  },
+  "data/parent": ["transformation/id", "afd05965-81f8-5774-adcf-6a3c3b46bfd4"],
+  "data/type": "json"
+}

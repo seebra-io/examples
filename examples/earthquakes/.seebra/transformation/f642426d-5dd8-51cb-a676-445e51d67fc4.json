@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/quakes.polars.py"
+  },
+  "transformation/data-child": ["data/id", "1df8e777-5c4b-5a23-a71f-1d25e820f553"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "f642426d-5dd8-51cb-a676-445e51d67fc4",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Quakes",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "41aed811-0731-5faa-91bf-c7a8e7860dd0"],
+  "transformation/units": "{}"
+}

@@ -1,0 +1,32 @@
+{
+  "dashboard/id": "a1d34bf5-ccf9-59aa-9f1a-b3967b0320d1",
+  "datas": [
+    ["data/id", "9a950e6f-599d-5ddb-b4cd-1a234a340bf5"],
+    ["data/id", "da17c55b-e0a1-5daa-9102-d722229fd1b2"],
+    ["data/id", "a2e0a938-626c-55e2-85dd-de255ed0de4f"],
+    ["data/id", "b95930de-d635-5fe8-b49b-118bd682590f"]
+  ],
+  "datasources": [
+    ["datasource/id", "7cc78219-782e-5724-95cf-c351f4673020"]
+  ],
+  "description": "The 50 'hot' Python questions on Stack Overflow from the Stack Exchange API: views against age, whether they have an answer yet, and which other tags travel with Python right now (exploded and counted in Polars). Statistics idea: correlation is not causation. Spearman rank correlations of score, answers, views and age show what rises together, but age drives all of them, and the 'hot' list was chosen on those same numbers, so the sample is selected on the outcome (50 questions). Without a key the API allows 300 requests a day per IP.",
+  "graphs": [
+    ["graph/id", "65e827af-eda9-5626-b097-0458bad38cf4"],
+    ["graph/id", "a55e88d0-1d0f-5a42-ac34-369c86225386"],
+    ["graph/id", "d0c6c146-305f-5070-be18-d133bf7af3a4"]
+  ],
+  "grids": [],
+  "name": "Hot Python questions on Stack Overflow",
+  "queries": [
+    ["query/id", "a3952737-a13e-5d05-a8cb-a4d4b898f990"]
+  ],
+  "studies": [],
+  "tables": [],
+  "texts": [],
+  "timers": [],
+  "transformations": [
+    ["transformation/id", "bae16e0b-cfdc-5a29-9be3-a7c6794ddde4"],
+    ["transformation/id", "4964b81b-d678-50fb-8768-a30f7cf75daa"],
+    ["transformation/id", "b06eb3f8-ece4-51a2-855d-78615c495024"]
+  ]
+}

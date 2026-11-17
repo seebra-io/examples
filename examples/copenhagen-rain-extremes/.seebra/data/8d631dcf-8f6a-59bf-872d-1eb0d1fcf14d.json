@@ -1,0 +1,11 @@
+{
+  "data/id": "8d631dcf-8f6a-59bf-872d-1eb0d1fcf14d",
+  "data/name": "Wettest day per year",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "6a80600c-f4e2-5187-8c4c-29e3df9a3dc2"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

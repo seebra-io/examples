@@ -1,0 +1,10 @@
+{
+  "data/id": "dead8837-fdff-5be7-bddb-f08bc87ffa69",
+  "data/name": "Sizes on a log scale: quarter-decade bins, median and geometric mean data",
+  "data/node": {
+    "node/x": 2070,
+    "node/y": 560
+  },
+  "data/parent": ["transformation/id", "8e7cb3fd-3ddc-5aa1-b9ed-a37569e98623"],
+  "data/type": "json"
+}

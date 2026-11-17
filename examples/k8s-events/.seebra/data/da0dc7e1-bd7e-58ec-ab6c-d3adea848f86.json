@@ -1,0 +1,10 @@
+{
+  "data/id": "da0dc7e1-bd7e-58ec-ab6c-d3adea848f86",
+  "data/name": "Recurring warnings: occurrences per hour data",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 560
+  },
+  "data/parent": ["transformation/id", "7155e4e6-7acc-5b9c-bbd6-aabd42797c2f"],
+  "data/type": "json"
+}

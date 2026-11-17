@@ -1,0 +1,11 @@
+{
+  "data/id": "b8fff4c3-6097-5c5e-9d72-e43abdd2d32c",
+  "data/name": "Flood measurements per foot of stage",
+  "data/node": {
+    "node/x": 2070,
+    "node/y": 560
+  },
+  "data/parent": ["transformation/id", "f1e2518f-4c15-5efb-80aa-0d8eafa63c2e"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

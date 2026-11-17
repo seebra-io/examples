@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/the-30-most-prolific-doctoral-advisors.js"
+  },
+  "graph/id": "35b39f44-a69f-5148-8520-99b83dc4b837",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "The 30 most prolific doctoral advisors",
+  "graph/node": {
+    "node/x": 1460,
+    "node/y": 1520
+  },
+  "graph/parent": ["data/id", "35b0cb75-7bfc-5c93-806f-1c777ee47107"]
+}

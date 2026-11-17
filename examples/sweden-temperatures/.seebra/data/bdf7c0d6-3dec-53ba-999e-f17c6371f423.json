@@ -1,0 +1,10 @@
+{
+  "data/id": "bdf7c0d6-3dec-53ba-999e-f17c6371f423",
+  "data/name": "Air temperature, latest hour data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 80
+  },
+  "data/parent": ["query/id", "00643dd1-2965-5f91-aa65-421a8fbfda6d"],
+  "data/type": "json"
+}

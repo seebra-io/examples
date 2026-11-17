@@ -1,0 +1,8 @@
+{
+  "file": {
+    "file/example": "sci-fi-books"
+  },
+  "format": 2,
+  "root": ["dashboard/id", "5cf485e7-dde7-5f4c-8b22-17493b6c1e4f"],
+  "seebra": "board"
+}

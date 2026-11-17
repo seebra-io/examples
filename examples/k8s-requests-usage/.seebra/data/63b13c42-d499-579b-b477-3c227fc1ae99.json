@@ -1,0 +1,10 @@
+{
+  "data/id": "63b13c42-d499-579b-b477-3c227fc1ae99",
+  "data/name": "Pod usage (metrics-server) data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 80
+  },
+  "data/parent": ["query/id", "6440582e-2a80-516a-ab0c-15a7edb00be9"],
+  "data/type": "json"
+}

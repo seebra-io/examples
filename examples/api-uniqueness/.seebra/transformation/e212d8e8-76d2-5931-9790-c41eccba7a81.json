@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/tf-idf-over-the-descriptions-and-each-api-s-10.js"
+  },
+  "transformation/data-child": ["data/id", "52643f1d-d9e6-5a6b-8a78-b76a0b0a97f8"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "js-web-worker",
+  "transformation/id": "e212d8e8-76d2-5931-9790-c41eccba7a81",
+  "transformation/inputs": [],
+  "transformation/language": "javascript",
+  "transformation/name": "TF-IDF over the descriptions, and each API's 10 nearest (places removed, and kept)",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 560
+  },
+  "transformation/parent": ["data/id", "1bdaac2c-8be9-5204-8d39-7e13b18e7240"],
+  "transformation/units": "{}"
+}

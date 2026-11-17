@@ -1,0 +1,10 @@
+{
+  "data/id": "58ae7275-070a-5c63-af91-0b199fa55a56",
+  "data/name": "Stations data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "49585ad9-f70a-59bc-a23f-c98c62349bd4"],
+  "data/type": "json"
+}

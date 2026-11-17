@@ -1,0 +1,6 @@
+data.group_by("year")
+    .agg(months = len(), ssn = col("ssn").mean(), signed = col("signed").mean(), cycle = col("cycle").first())
+    .filter(col("months") == 12)
+    .with_columns(t = col("year").cast(Float64) + 0.5)
+    .with_columns(x = col("ssn") - col("ssn").mean(), xs = col("signed") - col("signed").mean())
+    .sort("year")

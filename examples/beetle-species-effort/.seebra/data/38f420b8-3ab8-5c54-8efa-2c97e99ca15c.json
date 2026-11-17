@@ -1,0 +1,10 @@
+{
+  "data/id": "38f420b8-3ab8-5c54-8efa-2c97e99ca15c",
+  "data/name": "Beetle records per species, Skåne 2024 data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 80
+  },
+  "data/parent": ["query/id", "58fb2c78-5262-5473-829d-0372fb86f79c"],
+  "data/type": "json"
+}

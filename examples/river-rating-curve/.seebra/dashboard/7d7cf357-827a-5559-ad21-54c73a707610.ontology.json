@@ -1,0 +1,185 @@
+{
+  "title": "Stage-discharge rating at the Missouri River at Hermann",
+  "summary": "A gage reads the stage; a rating curve fitted to field measurements turns it into discharge. The curve moves as the bed changes and is least known at the floods it matters most for.",
+  "concepts": [
+    {
+      "cid": "c1",
+      "label": "Stream gage",
+      "kind": "place",
+      "description": "USGS 06934500, Missouri River at Hermann, MO: a stage sensor and the section where flow is measured.",
+      "fields": [
+        "link"
+      ],
+      "in_data": true,
+      "facts": [
+        {
+          "text": "Hermann is the last USGS gage on the Missouri before it joins the Mississippi, draining about 522,500 square miles.",
+          "source": "https://waterdata.usgs.gov/monitoring-location/USGS-06934500/"
+        }
+      ],
+      "children": [
+        {
+          "cid": "c2",
+          "label": "Stage",
+          "kind": "measure",
+          "as": "property",
+          "description": "Gage height in ft above the gage datum, recorded continuously.",
+          "fields": [
+            "stage_ft",
+            "peak_stage_ft"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c3",
+          "label": "Gage datum",
+          "kind": "measure",
+          "as": "property",
+          "description": "The reference level stages are read from; a change shifts every stage.",
+          "fields": [],
+          "in_data": false
+        }
+      ]
+    },
+    {
+      "cid": "c4",
+      "label": "Field measurement",
+      "kind": "event",
+      "description": "A hydrographer's discharge measurement (current meter or ADCP across the section) with the stage read at the time.",
+      "fields": [
+        "visit",
+        "date",
+        "discharge_cfs",
+        "stage_ft",
+        "rated"
+      ],
+      "in_data": true,
+      "children": [
+        {
+          "cid": "c5",
+          "label": "Measurement quality",
+          "kind": "category",
+          "as": "property",
+          "description": "Excellent (±2%), Good (±5%), Fair (±8%), Poor (>8%).",
+          "fields": [
+            "rated"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c6",
+          "label": "Hysteresis",
+          "kind": "event",
+          "as": "subtype",
+          "description": "On a rising flood the water surface is steeper and the same stage carries more water than on the falling limb.",
+          "fields": [],
+          "in_data": false
+        }
+      ]
+    },
+    {
+      "cid": "c7",
+      "label": "Rating curve",
+      "kind": "event",
+      "description": "Q = C (h − e)^b, fitted to the field measurements; turns every stage reading into a discharge.",
+      "fields": [
+        "e",
+        "b",
+        "C",
+        "sigma_log"
+      ],
+      "in_data": true,
+      "wikidata": "Q3487242",
+      "facts": [
+        {
+          "text": "USGS computes streamflow from stage through ratings developed from discharge measurements, with shifts applied between measurements.",
+          "source": "https://pubs.usgs.gov/tm/tm3-a10/"
+        }
+      ],
+      "children": [
+        {
+          "cid": "c8",
+          "label": "Hydraulic control",
+          "kind": "category",
+          "as": "property",
+          "description": "What sets the stage: a section control (riffle, weir, b ≈ 1.5–2.5) or the channel's friction (Manning, b ≈ 5/3 for a wide channel).",
+          "fields": [
+            "b"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c9",
+          "label": "Rating shift",
+          "kind": "event",
+          "as": "subtype",
+          "description": "The curve moving with scour, fill, vegetation or dredging; seen as residuals drifting by decade.",
+          "fields": [
+            "res_pct",
+            "res_log",
+            "stage_at_40k",
+            "median_res_pct"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c10",
+          "label": "Extrapolation",
+          "kind": "measure",
+          "as": "property",
+          "description": "The curve above the highest measured stage; where the equally good curves (e in its 95% interval) disagree most.",
+          "fields": [
+            "q_curve_lo",
+            "q_curve_hi",
+            "spread_at_record_pct",
+            "above_measured"
+          ],
+          "in_data": true
+        }
+      ]
+    },
+    {
+      "cid": "c11",
+      "label": "Annual flood peak",
+      "kind": "event",
+      "description": "Each water year's highest discharge and its stage, as published.",
+      "fields": [
+        "water_year",
+        "peak_cfs",
+        "peak_stage_ft",
+        "flags"
+      ],
+      "in_data": true,
+      "children": [
+        {
+          "cid": "c12",
+          "label": "Flood frequency",
+          "kind": "measure",
+          "as": "property",
+          "description": "The 100-year flood: the discharge exceeded with 1% chance a year, fitted to the annual peaks (Bulletin 17C, log-Pearson III).",
+          "fields": [],
+          "in_data": false
+        },
+        {
+          "cid": "c13",
+          "label": "Historic flood",
+          "kind": "event",
+          "as": "subtype",
+          "description": "Peaks before systematic gaging (1844, 1903), estimated from flood marks.",
+          "fields": [
+            "flags"
+          ],
+          "in_data": true
+        }
+      ]
+    },
+    {
+      "cid": "c14",
+      "label": "Channel change",
+      "kind": "event",
+      "description": "Bed degradation of the lower Missouri from commercial sand dredging and sediment trapped behind upstream dams.",
+      "fields": [],
+      "in_data": false
+    }
+  ]
+}

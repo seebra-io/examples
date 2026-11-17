@@ -1,0 +1,11 @@
+{
+  "data/id": "796ad969-aa5d-5129-a293-c427aa1d6ba2",
+  "data/name": "The genetic code (64 codons)",
+  "data/node": {
+    "node/x": 2530,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "4a7ffde8-978e-56d5-b695-9c86649ed82b"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

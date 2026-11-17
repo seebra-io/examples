@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/materials-at-the-same-age.js"
+  },
+  "graph/id": "018823bf-dede-573c-b165-7a5c7e94882b",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Materials at the same age",
+  "graph/node": {
+    "node/x": 1460,
+    "node/y": 800
+  },
+  "graph/parent": ["data/id", "c52355ed-35e2-5bce-acbd-d46e45e2850d"]
+}

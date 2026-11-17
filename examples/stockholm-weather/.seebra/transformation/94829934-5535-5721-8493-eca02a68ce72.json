@@ -1,0 +1,21 @@
+{
+  "transformation/content": {
+    "$file": "transforms/anomaly-as-a-z-score-against-the-normal.polars.py"
+  },
+  "transformation/data-child": ["data/id", "66c32535-6929-5e45-9d1a-1710c7fc179e"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "94829934-5535-5721-8493-eca02a68ce72",
+  "transformation/inputs": [
+    ["data/id", "239444bc-9e14-5f92-8e62-c4482e88b447"]
+  ],
+  "transformation/language": "polars",
+  "transformation/name": "Anomaly as a z-score against the normal",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1920,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "be18a0f2-0f65-5c83-b5fa-d505f9c794b3"],
+  "transformation/units": "{}"
+}

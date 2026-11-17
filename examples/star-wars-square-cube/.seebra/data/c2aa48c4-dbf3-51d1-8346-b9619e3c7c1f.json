@@ -1,0 +1,10 @@
+{
+  "data/id": "c2aa48c4-dbf3-51d1-8346-b9619e3c7c1f",
+  "data/name": "All 36 starships: cost, length, crew, hyperdrive class data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 1040
+  },
+  "data/parent": ["query/id", "1b6a5d5e-0169-5451-9e56-77379309be42"],
+  "data/type": "json"
+}

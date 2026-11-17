@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/cloudflare-components.polars.py"
+  },
+  "transformation/data-child": ["data/id", "abd4cf7c-7c4c-5238-8f40-7cbbc3a83fe9"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "63c075a7-f5a9-5d1a-9462-12fd3f4e0f0d",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Cloudflare components",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "e497c999-ab5d-56ee-a2a0-0b4d3ad60268"],
+  "transformation/units": "{}"
+}

@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "7bbb4856-f658-5e2c-9ea6-6edbc3124a72"],
+  "query/datasource": ["datasource/id", "0b3f16fe-f485-5aa8-9536-a809a6a96d00"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "066e7fa5-3759-59ca-a1ad-c977fa46dbf1",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "E. coli K-12 DNA-binding transcription regulators (KW-0805 and KW-0238)",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 320
+  },
+  "query/params": "{\"query\":\"organism_id:83333 AND reviewed:true AND keyword:KW-0805 AND keyword:KW-0238\",\"fields\":\"accession,gene_primary,gene_oln,protein_name,length,sequence\",\"format\":\"json\",\"size\":\"500\"}",
+  "query/path": "/uniprotkb/search",
+  "query/request-body": "",
+  "query/units": "{}"
+}

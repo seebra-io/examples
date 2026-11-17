@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "c676d561-19b6-5ed4-bed9-44dc7767ae39"],
+  "query/datasource": ["datasource/id", "65cebe6f-8b7f-522f-8542-f04139f882d2"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "cf877c6f-bed0-5995-abfb-986ce2685795",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Temperature and geopotential height at 13 pressure levels, 17 places along 20° E",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 80
+  },
+  "query/params": "{\"latitude\":\"-80,-70,-60,-50,-40,-30,-20,-10,0,10,20,30,40,50,60,70,80\",\"longitude\":\"20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20\",\"current\":\"temperature_1000hPa,geopotential_height_1000hPa,temperature_925hPa,geopotential_height_925hPa,temperature_850hPa,geopotential_height_850hPa,temperature_700hPa,geopotential_height_700hPa,temperature_600hPa,geopotential_height_600hPa,temperature_500hPa,geopotential_height_500hPa,temperature_400hPa,geopotential_height_400hPa,temperature_300hPa,geopotential_height_300hPa,temperature_250hPa,geopotential_height_250hPa,temperature_200hPa,geopotential_height_200hPa,temperature_150hPa,geopotential_height_150hPa,temperature_100hPa,geopotential_height_100hPa,temperature_50hPa,geopotential_height_50hPa,surface_pressure,temperature_2m\"}",
+  "query/path": "/forecast",
+  "query/request-body": "",
+  "query/units": "{}"
+}

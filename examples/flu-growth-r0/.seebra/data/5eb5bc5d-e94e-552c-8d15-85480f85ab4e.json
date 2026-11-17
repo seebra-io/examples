@@ -1,0 +1,10 @@
+{
+  "data/id": "5eb5bc5d-e94e-552c-8d15-85480f85ab4e",
+  "data/name": "Weekly ILI+ per season data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "51124622-1b4a-5530-96ff-4d9d99179b4c"],
+  "data/type": "json"
+}

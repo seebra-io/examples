@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/outcome-curves-by-deadline-consistency.polars.py"
+  },
+  "transformation/data-child": ["data/id", "eb6e2240-01af-5ed6-b829-c118cd2311ed"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "50d2c490-327e-5afc-a635-d2975fd92562",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Outcome curves (by deadline, consistency)",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "c07eebd7-842e-50e1-ab15-76afbabf4aed"],
+  "transformation/units": "{}"
+}

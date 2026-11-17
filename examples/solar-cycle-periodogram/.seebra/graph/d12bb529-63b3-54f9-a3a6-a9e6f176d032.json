@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/strong-cycles-rise-faster-waldmeier-effect.js"
+  },
+  "graph/id": "d12bb529-63b3-54f9-a3a6-a9e6f176d032",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Strong cycles rise faster (Waldmeier effect)",
+  "graph/node": {
+    "node/x": 2380,
+    "node/y": 560
+  },
+  "graph/parent": ["data/id", "48d561f1-7859-5974-9f55-685cccb5e760"]
+}

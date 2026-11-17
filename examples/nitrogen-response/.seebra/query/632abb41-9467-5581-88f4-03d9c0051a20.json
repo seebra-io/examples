@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "35cde488-7dd1-5e32-b28e-0d8d8388ca80"],
+  "query/datasource": ["datasource/id", "7b2cdefc-274b-5b4b-9bb4-70bb3ad2ef26"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "632abb41-9467-5581-88f4-03d9c0051a20",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Fertiliser use 2000-2024, eight countries",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 1280
+  },
+  "query/params": "{\"format\":\"json\",\"date\":\"2000:2024\",\"per_page\":\"1000\"}",
+  "query/path": "/country/CHN;IND;USA;FRA;BRA;NGA;VNM;EGY/indicator/AG.CON.FERT.ZS",
+  "query/request-body": "",
+  "query/units": "{}"
+}

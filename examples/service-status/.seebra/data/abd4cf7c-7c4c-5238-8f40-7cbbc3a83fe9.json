@@ -1,0 +1,11 @@
+{
+  "data/id": "abd4cf7c-7c4c-5238-8f40-7cbbc3a83fe9",
+  "data/name": "Cloudflare components",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "63c075a7-f5a9-5d1a-9462-12fd3f4e0f0d"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

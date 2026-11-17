@@ -1,0 +1,11 @@
+{
+  "data/id": "e50d7f7d-1983-5368-b7e0-b905d136f699",
+  "data/name": "Columns: height, thickness, mean temperature",
+  "data/node": {
+    "node/x": 2070,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "6940ef57-3f8f-5190-8789-c0f423f1c8fd"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/chao1-coverage-and-species-at-equal-effort.polars.py"
+  },
+  "transformation/data-child": ["data/id", "83771e66-6eac-5947-a769-f93f5dc62302"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "95913a48-a0a2-5e1f-8801-6b9afd66b84e",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Chao1, coverage and species at equal effort",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1920,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "1a5fe429-3458-50d3-bc68-fcab45caf36c"],
+  "transformation/units": "{}"
+}

@@ -1,0 +1,10 @@
+{
+  "data/id": "6da594c7-178c-5895-950e-617f35a27da5",
+  "data/name": "Periodic table (electron configurations, electronegativity) data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 320
+  },
+  "data/parent": ["query/id", "d3cd78ca-9016-52e7-8ad5-d5e2d6e33556"],
+  "data/type": "json"
+}

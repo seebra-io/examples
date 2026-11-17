@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/markets-probability-by-deadline.js"
+  },
+  "transformation/data-child": ["data/id", "c99d70be-de13-517b-a1c4-e294b578b334"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "js-web-worker",
+  "transformation/id": "75c2578c-ff9b-52f4-aa80-f6852b2d5980",
+  "transformation/inputs": [],
+  "transformation/language": "javascript",
+  "transformation/name": "Markets: probability by deadline",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 1040
+  },
+  "transformation/parent": ["data/id", "f27c1ebb-b141-57b1-b2d1-3ed5490cf66f"],
+  "transformation/units": "{\"yes\":\"1\",\"bid\":\"1\",\"ask\":\"1\",\"spread\":\"1\",\"volume_usd\":\"USD\",\"liquidity_usd\":\"USD\"}"
+}

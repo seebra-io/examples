@@ -1,0 +1,10 @@
+{
+  "data/id": "a8a4e4d5-7c9d-5b43-ae2a-087b4fe91ade",
+  "data/name": "Bonds with their lengths data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "75b9a909-0ced-5751-8d3a-ec8d8ae21ed4"],
+  "data/type": "json"
+}

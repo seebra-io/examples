@@ -1,0 +1,11 @@
+{
+  "data/id": "3914b04f-11a5-5421-9306-5c82ab0793b2",
+  "data/name": "Most restarted containers",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 560
+  },
+  "data/parent": ["transformation/id", "64b03281-d439-55da-8b99-98de8335fb50"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

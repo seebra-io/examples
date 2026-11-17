@@ -1,0 +1,10 @@
+{
+  "data/id": "bb4980c9-d85a-5c6c-b106-e3680885eeaa",
+  "data/name": "All components data",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "2b483250-57df-5590-925a-b66ca7decec6"],
+  "data/type": "json"
+}

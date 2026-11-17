@@ -1,0 +1,10 @@
+{
+  "data/id": "a99117b0-0140-5f57-89b3-5f9b4556d9b1",
+  "data/name": "Animals (Metazoa): size and genes data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 1040
+  },
+  "data/parent": ["transformation/id", "ada34e96-b9f1-5118-9c79-a3f62ff55ccf"],
+  "data/type": "json"
+}

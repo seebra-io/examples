@@ -1,0 +1,10 @@
+{
+  "data/id": "ba464048-521f-54b9-b392-9b503f2b8618",
+  "data/name": "Price to rows data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "3a8aba9f-fcd2-5b52-903a-6a68d7de6d6a"],
+  "data/type": "json"
+}

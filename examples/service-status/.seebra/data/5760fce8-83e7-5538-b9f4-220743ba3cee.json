@@ -1,0 +1,11 @@
+{
+  "data/id": "5760fce8-83e7-5538-b9f4-220743ba3cee",
+  "data/name": "GitHub components",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "c22b72fd-4915-5fda-8e9c-9b13d4340cf5"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

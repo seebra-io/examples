@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/the-frost-free-season-1840-2025.js"
+  },
+  "graph/id": "db4e1ea1-cb62-54de-9b2c-c32ad7955eca",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "The frost-free season, 1840–2025",
+  "graph/node": {
+    "node/x": 1920,
+    "node/y": 800
+  },
+  "graph/parent": ["data/id", "77b4014b-5f4b-58b6-8d77-9acfa1a5d71c"]
+}

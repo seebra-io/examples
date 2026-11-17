@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/each-issue-closed-or-censored.js"
+  },
+  "graph/id": "166f3426-3969-5809-a495-5ebcaeb97251",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Each issue: closed or censored",
+  "graph/node": {
+    "node/x": 1460,
+    "node/y": 320
+  },
+  "graph/parent": ["data/id", "d3091a36-9cc9-5d27-abe1-a3d0960b42d9"]
+}

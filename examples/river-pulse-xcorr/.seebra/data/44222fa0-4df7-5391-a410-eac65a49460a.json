@@ -1,0 +1,10 @@
+{
+  "data/id": "44222fa0-4df7-5391-a410-eac65a49460a",
+  "data/name": "Cross-correlation per lag data",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "bbc7be3b-440a-5721-bcca-d5cec7c63ccc"],
+  "data/type": "json"
+}

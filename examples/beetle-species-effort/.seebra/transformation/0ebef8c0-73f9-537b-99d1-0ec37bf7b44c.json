@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/species-norrbotten.polars.py"
+  },
+  "transformation/data-child": ["data/id", "c42e3e22-d167-50d7-855c-012a3e70f018"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "0ebef8c0-73f9-537b-99d1-0ec37bf7b44c",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Species, Norrbotten",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 560
+  },
+  "transformation/parent": ["data/id", "08764a8e-5901-5089-b8a7-91cf8c580d69"],
+  "transformation/units": "{}"
+}

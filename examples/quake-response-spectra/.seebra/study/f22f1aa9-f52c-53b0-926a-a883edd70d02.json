@@ -1,0 +1,18 @@
+{
+  "study/hypothesis": "ln(SA(3 s)/SA(0.3 s)) increases with distance, because anelastic attenuation removes short periods faster.",
+  "study/id": "f22f1aa9-f52c-53b0-926a-a883edd70d02",
+  "study/name": "Does distance shift shaking to long periods?",
+  "study/node": {
+    "node/x": 540,
+    "node/y": 320
+  },
+  "study/plan": {
+    "$file": ".seebra/study/f22f1aa9-f52c-53b0-926a-a883edd70d02.plan.json",
+    "$json": true
+  },
+  "study/question": "Across the Ridgecrest M7.1 stations, does the ratio of long-period (3 s) to short-period (0.3 s) spectral acceleration grow with distance from the rupture?",
+  "study/state": {
+    "$file": ".seebra/study/f22f1aa9-f52c-53b0-926a-a883edd70d02.state.json",
+    "$json": true
+  }
+}

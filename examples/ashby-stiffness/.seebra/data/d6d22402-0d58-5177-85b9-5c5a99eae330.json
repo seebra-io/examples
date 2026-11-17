@@ -1,0 +1,11 @@
+{
+  "data/id": "d6d22402-0d58-5177-85b9-5c5a99eae330",
+  "data/name": "Set aside by the sanity check",
+  "data/node": {
+    "node/x": 2070,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "3aaf8ca6-8d9b-5fc5-8356-78cea6663e3f"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

@@ -1,0 +1,21 @@
+{
+  "transformation/content": {
+    "$file": "transforms/bonds-with-their-lengths.polars.py"
+  },
+  "transformation/data-child": ["data/id", "a8a4e4d5-7c9d-5b43-ae2a-087b4fe91ade"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "75b9a909-0ced-5751-8d3a-ec8d8ae21ed4",
+  "transformation/inputs": [
+    ["data/id", "8e45da5a-d35e-5afe-91df-b524be08afca"]
+  ],
+  "transformation/language": "polars",
+  "transformation/name": "Bonds with their lengths",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "fa8ca6d4-4e9b-588c-9d5b-2c12888ce4ea"],
+  "transformation/units": "{}"
+}

@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/animals-metazoa-size-and-genes.polars.py"
+  },
+  "transformation/data-child": ["data/id", "a99117b0-0140-5f57-89b3-5f9b4556d9b1"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "ada34e96-b9f1-5118-9c79-a3f62ff55ccf",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Animals (Metazoa): size and genes",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 1040
+  },
+  "transformation/parent": ["data/id", "6e1fa7e0-4b4e-519f-92f6-5c0911f551bd"],
+  "transformation/units": "{}"
+}

@@ -1,0 +1,8 @@
+{
+  "file": {
+    "file/example": "life-expectancy"
+  },
+  "format": 2,
+  "root": ["dashboard/id", "9cdaba2a-b1b8-504c-b08c-34d8f8e053bd"],
+  "seebra": "board"
+}

@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/rating-shift-median-residual-per-decade-and-flow.polars.py"
+  },
+  "transformation/data-child": ["data/id", "9f480698-f506-5d5d-a105-616a764888b4"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "4d41483c-552d-5d02-86ff-3ab75c04c0df",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Rating shift: median residual per decade and flow class",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1920,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "1c48d3cb-c182-5c5d-8b55-1565150db2a0"],
+  "transformation/units": "{}"
+}

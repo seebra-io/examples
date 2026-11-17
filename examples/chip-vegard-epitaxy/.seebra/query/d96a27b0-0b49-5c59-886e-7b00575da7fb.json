@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "1177b496-db01-5ead-b3d4-1694167e6928"],
+  "query/datasource": ["datasource/id", "d5a9dede-364d-5eda-bab7-e7b894198d30"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "d96a27b0-0b49-5c59-886e-7b00575da7fb",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "COD entries for GaAs (measured)",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 560
+  },
+  "query/params": "{\"format\":\"json\",\"formula\":\"As Ga\"}",
+  "query/path": "/result",
+  "query/request-body": "",
+  "query/units": "{}"
+}

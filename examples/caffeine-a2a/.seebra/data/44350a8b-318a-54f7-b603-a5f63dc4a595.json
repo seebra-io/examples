@@ -1,0 +1,11 @@
+{
+  "data/id": "44350a8b-318a-54f7-b603-a5f63dc4a595",
+  "data/name": "Caffeine against adenosine",
+  "data/node": {
+    "node/x": 3450,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "1e1b48ea-c057-52f8-8910-82ab600a5976"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

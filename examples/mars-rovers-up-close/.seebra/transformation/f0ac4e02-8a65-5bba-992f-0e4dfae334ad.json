@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/parts-per-rover-for-reading.sql"
+  },
+  "transformation/data-child": ["data/id", "8f13bd63-b103-532f-8f54-0178b31e2612"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "f0ac4e02-8a65-5bba-992f-0e4dfae334ad",
+  "transformation/inputs": [],
+  "transformation/language": "sql",
+  "transformation/name": "Parts per rover, for reading",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 800
+  },
+  "transformation/parent": ["data/id", "5533be3a-66fa-5b62-9447-90ae124c7772"],
+  "transformation/units": "{}"
+}

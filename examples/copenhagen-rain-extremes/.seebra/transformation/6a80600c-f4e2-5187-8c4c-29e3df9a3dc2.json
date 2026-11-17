@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/each-year-s-wettest-day.polars.py"
+  },
+  "transformation/data-child": ["data/id", "8d631dcf-8f6a-59bf-872d-1eb0d1fcf14d"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "6a80600c-f4e2-5187-8c4c-29e3df9a3dc2",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Each year's wettest day",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "745c29c7-0e20-54dc-ab52-1db958bdc0ed"],
+  "transformation/units": "{}"
+}

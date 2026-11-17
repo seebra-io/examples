@@ -1,0 +1,16 @@
+{
+  "datasource/api-key-key": "api_key",
+  "datasource/auth-type": "none",
+  "datasource/headers": "{}",
+  "datasource/id": "c5f79e5c-5679-50da-9d4d-849248470a25",
+  "datasource/name": "Alexandria (PBE) OPTIMADE API",
+  "datasource/node": {
+    "inputs": 1,
+    "node/x": 80,
+    "node/y": 80,
+    "outputs": 1
+  },
+  "datasource/params": "{}",
+  "datasource/type": "openapi",
+  "datasource/url": "https://alexandria.icams.rub.de/pbe/v1"
+}

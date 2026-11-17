@@ -1,0 +1,10 @@
+{
+  "data/id": "bda1f067-2214-5da8-a325-19926df4903f",
+  "data/name": "Both gauges on one clock (m³/s) data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "a604b9af-a82f-5313-a3ec-221405be4c06"],
+  "data/type": "json"
+}

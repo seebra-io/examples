@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "0155e03c-843c-5c43-b783-ba5b762d2559"],
+  "query/datasource": ["datasource/id", "9ea7504d-c434-593d-af13-d7fceb5a6878"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "4daf4cfd-5cff-5fa7-8546-1ca865779a96",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "GET /users",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 320
+  },
+  "query/params": "{}",
+  "query/path": "/users",
+  "query/request-body": "",
+  "query/units": "{}"
+}

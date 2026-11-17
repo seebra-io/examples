@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "c59c0a9d-1548-5230-826f-8809b4f873e1"],
+  "query/datasource": ["datasource/id", "1424235d-19c5-5fc5-a6b7-8c79be4f231e"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "a7e3804a-2b5f-5375-a58f-12918bed4388",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "The 30 advisors with the most doctoral students",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 560
+  },
+  "query/params": "{\"query\":\"SELECT ?adv ?advLabel ?students WHERE { { SELECT ?adv (COUNT(?s) AS ?students) WHERE { ?s wdt:P184 ?adv } GROUP BY ?adv ORDER BY DESC(?students) LIMIT 30 } SERVICE wikibase:label { bd:serviceParam wikibase:language \\\"en\\\". } } ORDER BY DESC(?students)\",\"format\":\"json\"}",
+  "query/path": "/sparql",
+  "query/request-body": "",
+  "query/units": "{}"
+}

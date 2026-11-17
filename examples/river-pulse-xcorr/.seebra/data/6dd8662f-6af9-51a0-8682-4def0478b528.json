@@ -1,0 +1,10 @@
+{
+  "data/id": "6dd8662f-6af9-51a0-8682-4def0478b528",
+  "data/name": "Colorado River near Grand Canyon, 15-min discharge data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 320
+  },
+  "data/parent": ["query/id", "5806dcac-8c7f-504c-8159-b6772be2e4a6"],
+  "data/type": "json"
+}

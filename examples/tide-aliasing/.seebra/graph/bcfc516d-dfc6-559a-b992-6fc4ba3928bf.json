@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/the-tide-and-what-a-once-a-day-reading-makes-of.js"
+  },
+  "graph/id": "bcfc516d-dfc6-559a-b992-6fc4ba3928bf",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "The tide, and what a once-a-day reading makes of it",
+  "graph/node": {
+    "node/x": 2380,
+    "node/y": 320
+  },
+  "graph/parent": ["data/id", "b0f9dd8d-4696-56d4-8d95-7b5fc69db084"]
+}

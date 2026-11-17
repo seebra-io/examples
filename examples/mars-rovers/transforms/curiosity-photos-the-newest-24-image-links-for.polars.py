@@ -1,0 +1,5 @@
+# the newest 24 images that are pictures (jpg or png)
+data.rows("items")
+    .select(url = when(col("https_url").is_null()).then(col("url")).otherwise(col("https_url")), sol = col("sol"))
+    .filter(col("url").str.to_lowercase().str.contains("\\.(jpe?g|png)$"))
+    .head(24)

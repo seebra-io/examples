@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "4c384403-ef93-5abc-9e92-21c8f0813240"],
+  "query/datasource": ["datasource/id", "3b316dd2-f7ac-5073-81bd-4d053efeaa65"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "1937b329-be0e-588f-9c56-ce8345966a44",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Polars issues opened 1–15 March 2025",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 80
+  },
+  "query/params": "{\"q\":\"repo:pola-rs/polars type:issue created:2025-03-01..2025-03-15\",\"per_page\":\"100\"}",
+  "query/path": "/search/issues",
+  "query/request-body": "",
+  "query/units": "{}"
+}

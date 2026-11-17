@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "a8e33c08-5bd5-5fd3-bc5f-da82d633de0f"],
+  "query/datasource": ["datasource/id", "546b1607-ad5a-584f-8f46-6e8e52f1fc9c"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "08e11300-f369-51f7-8c76-a54213355354",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "CO₂ per person, latest",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 80
+  },
+  "query/params": "{\"format\":\"json\",\"mrnev\":\"1\",\"per_page\":\"400\"}",
+  "query/path": "/country/all/indicator/EN.GHG.CO2.PC.CE.AR5",
+  "query/request-body": "",
+  "query/units": "{}"
+}

@@ -1,0 +1,10 @@
+{
+  "data/id": "ebf0b39b-7d26-5daa-9356-72d1e277273c",
+  "data/name": "Ordered (In,Ga)As and (Al,Ga)As alloys data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 320
+  },
+  "data/parent": ["query/id", "42030a89-72db-5f6b-889a-610afd34ccbe"],
+  "data/type": "json"
+}

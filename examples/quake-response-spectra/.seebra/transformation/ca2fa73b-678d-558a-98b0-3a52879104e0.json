@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/median-spectral-shape-per-distance.polars.py"
+  },
+  "transformation/data-child": ["data/id", "25513557-46cd-56ec-b243-b2a99edc96c3"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "ca2fa73b-678d-558a-98b0-3a52879104e0",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Median spectral shape per distance",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 2380,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "531d627e-5787-5798-9fda-40ecd3369a64"],
+  "transformation/units": "{}"
+}

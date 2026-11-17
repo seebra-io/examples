@@ -1,0 +1,6 @@
+data.with_columns(md = col("day").str.slice(5, 5))
+    .join(data1, on="md", how="left")
+    .with_columns(anomaly = (col("mean") - col("normal")).round(1))
+    .with_columns(z = (col("anomaly") / col("sd")).round(2))
+    .select("day", "mean", "normal", "sd", "p10", "p90", "years", "anomaly", "z")
+    .sort("day")

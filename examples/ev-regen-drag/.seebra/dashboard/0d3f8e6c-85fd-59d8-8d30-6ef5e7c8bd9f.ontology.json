@@ -1,0 +1,167 @@
+{
+  "title": "Vehicle energy use: road load and regeneration",
+  "summary": "Where a car's energy goes on city and highway driving, and why regenerative braking reverses the city/highway order for electric cars.",
+  "concepts": [
+    {
+      "cid": "c1",
+      "label": "Vehicle",
+      "kind": "entity",
+      "description": "A car, SUV, van or pickup variant tested by the EPA.",
+      "fields": [
+        "make",
+        "model",
+        "year",
+        "vclass",
+        "body"
+      ],
+      "in_data": true,
+      "facts": [
+        {
+          "text": "fueleconomy.gov publishes the EPA test results for every US model since 1984.",
+          "source": "https://www.fueleconomy.gov/feg/ws/index.shtml"
+        }
+      ],
+      "children": [
+        {
+          "cid": "c2",
+          "label": "Powertrain",
+          "kind": "category",
+          "as": "property",
+          "description": "Petrol, diesel, hybrid or battery electric.",
+          "fields": [
+            "powertrain"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c3",
+          "label": "Body type",
+          "kind": "category",
+          "as": "property",
+          "description": "Car, SUV, van or pickup: a proxy for frontal area and drag coefficient.",
+          "fields": [
+            "body",
+            "vclass"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c4",
+          "label": "Drag area CdA",
+          "kind": "measure",
+          "as": "property",
+          "description": "Drag coefficient times frontal area, m²: what sets the drag at a given speed. Not in the EPA data.",
+          "in_data": false
+        }
+      ]
+    },
+    {
+      "cid": "c5",
+      "label": "Energy per distance",
+      "kind": "measure",
+      "description": "kWh per 100 km on a test cycle.",
+      "fields": [
+        "city_kwh_100km",
+        "hwy_kwh_100km"
+      ],
+      "in_data": true,
+      "children": [
+        {
+          "cid": "c6",
+          "label": "Highway/city ratio",
+          "kind": "measure",
+          "as": "property",
+          "description": "Highway energy over city energy per km: below 1 the highway is cheaper.",
+          "fields": [
+            "hwy_over_city",
+            "median_ratio"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c7",
+          "label": "Highway penalty",
+          "kind": "measure",
+          "as": "property",
+          "description": "Highway minus city energy per 100 km, mostly drag for an EV.",
+          "fields": [
+            "hwy_minus_city",
+            "extra_kwh_100km"
+          ],
+          "in_data": true
+        }
+      ]
+    },
+    {
+      "cid": "c8",
+      "label": "Road load",
+      "kind": "entity",
+      "description": "The force needed to drive: F = A + B v + C v² (rolling resistance, drivetrain, air drag).",
+      "in_data": true,
+      "wikidata": "Q206621",
+      "facts": [
+        {
+          "text": "EPA test cars carry road-load coefficients A, B, C from coast-down tests.",
+          "source": "https://www.epa.gov/compliance-and-fuel-economy-data/data-cars-used-testing-fuel-economy"
+        }
+      ],
+      "children": [
+        {
+          "cid": "c9",
+          "label": "Aerodynamic drag",
+          "kind": "measure",
+          "as": "part",
+          "description": "½ ρ Cd A v²: per km it grows with v².",
+          "fields": [
+            "drag_per_km_vs_city"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c10",
+          "label": "Braking losses",
+          "kind": "measure",
+          "as": "part",
+          "description": "½ m v² per stop: lost in friction brakes, mostly recovered by regenerative braking.",
+          "fields": [
+            "stops",
+            "stops_per_km"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c11",
+          "label": "Rolling resistance",
+          "kind": "measure",
+          "as": "part",
+          "description": "Tyre losses, roughly constant per km (Crr · m · g).",
+          "in_data": false
+        }
+      ]
+    },
+    {
+      "cid": "c12",
+      "label": "Test cycle",
+      "kind": "event",
+      "description": "EPA's UDDS (city) and HWFET (highway) speed traces.",
+      "fields": [
+        "cycle",
+        "mean_kmh"
+      ],
+      "in_data": true,
+      "facts": [
+        {
+          "text": "UDDS: 12.07 km in 1369 s; HWFET: 16.45 km in 765 s.",
+          "source": "https://www.epa.gov/vehicle-and-fuel-emissions-testing/dynamometer-drive-schedules"
+        }
+      ]
+    },
+    {
+      "cid": "c13",
+      "label": "Temperature",
+      "kind": "measure",
+      "description": "Cold air raises drag and rolling resistance a little and EV heating loads a lot; not in this data.",
+      "in_data": false
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "dashboard/id": "edc583e0-cb31-5958-9a05-47fc8435defe",
+  "datas": [
+    ["data/id", "1dcb21c8-6095-5cf4-8931-86ff90bdbf88"],
+    ["data/id", "02f157fd-aec8-5faf-a725-5e22a55a7d28"],
+    ["data/id", "231f5f26-57f0-5a2d-a478-353ae17710f4"],
+    ["data/id", "537b8fc8-d58f-5406-99c1-ce0a81dfbabf"],
+    ["data/id", "6d24ffa6-eb5b-564d-849a-63f12d87846d"],
+    ["data/id", "97828803-16db-50bd-b6f4-43126cfb0caa"]
+  ],
+  "datasources": [
+    ["datasource/id", "a32ef27f-9c3e-51e9-a973-4aa7b31099cb"]
+  ],
+  "description": "The 100 most recently reported drug recalls in openFDA's enforcement reports: which firms, how serious (Class I: may cause serious harm or death; II: temporary or reversible harm; III: unlikely to harm) and why. A count needs an exposure: all recalls per route of administration are divided by the products listed per route in the NDC directory, with a 95% Poisson interval, so a route with many products doesn't look riskier just for being big. A firm's count has no such denominator here. Reports are weekly; openFDA data are not for medical decisions.",
+  "graphs": [
+    ["graph/id", "4bad04da-de88-5230-bc92-bf966badb055"],
+    ["graph/id", "10971506-4bb1-577e-9224-f9048d82e8ad"]
+  ],
+  "grids": [],
+  "name": "US drug recalls",
+  "queries": [
+    ["query/id", "6e2ed921-c8dd-51e0-ac92-88722d7c6b90"],
+    ["query/id", "ef0c09f5-897e-5c66-a67c-a8e45ac1b96a"],
+    ["query/id", "4075c7f0-0883-55f1-8abf-a1b07fca4128"]
+  ],
+  "studies": [],
+  "tables": [],
+  "texts": [],
+  "timers": [],
+  "transformations": [
+    ["transformation/id", "b273ae04-8f72-51ae-834f-5f5928e0cc9c"],
+    ["transformation/id", "cfebc268-1af6-5d5f-8969-7890ecfa210b"],
+    ["transformation/id", "e2a1ce41-04b8-5626-91eb-9f4100bcbe65"]
+  ]
+}

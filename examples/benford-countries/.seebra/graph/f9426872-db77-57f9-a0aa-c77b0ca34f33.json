@@ -1,0 +1,16 @@
+{
+  "graph/content": {
+    "$file": "graphs/benford-s-law-first-digits-against-log10-1-1-d.js"
+  },
+  "graph/id": "f9426872-db77-57f9-a0aa-c77b0ca34f33",
+  "graph/inputs": [
+    ["data/id", "1b8262e1-4d53-57b8-865c-cae22210fabd"]
+  ],
+  "graph/language": "javascript",
+  "graph/name": "Benford's law: first digits against log10(1 + 1/d)",
+  "graph/node": {
+    "node/x": 2380,
+    "node/y": 320
+  },
+  "graph/parent": ["data/id", "231e0fb0-60ed-5cee-a35c-f98e446992af"]
+}

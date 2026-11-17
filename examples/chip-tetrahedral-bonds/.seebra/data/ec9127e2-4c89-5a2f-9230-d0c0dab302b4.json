@@ -1,0 +1,10 @@
+{
+  "data/id": "ec9127e2-4c89-5a2f-9230-d0c0dab302b4",
+  "data/name": "Stable binary compounds AB with 2 or 4 atoms per cell data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 80
+  },
+  "data/parent": ["query/id", "8f40f19a-619b-519b-ba7e-c17ff97b96e2"],
+  "data/type": "json"
+}

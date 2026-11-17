@@ -1,0 +1,162 @@
+{
+  "title": "Main-thread time and network in a Seebra session",
+  "summary": "Long animation frames, the scripts and spans in them, canvas moves, interactions, page fetches and resources from one browser session, and which of them cost the frame budget.",
+  "concepts": [
+    {
+      "cid": "c1",
+      "label": "Frame budget",
+      "kind": "measure",
+      "description": "16.7 ms per frame at 60 Hz: input, script, style, layout and paint must fit in it for motion to look smooth.",
+      "fields": [],
+      "in_data": false,
+      "children": [
+        {
+          "cid": "c2",
+          "label": "Long animation frame",
+          "kind": "event",
+          "as": "subtype",
+          "description": "A frame that took 50 ms or more from its start to its paint (LoAF API).",
+          "fields": [
+            "duration_ms",
+            "blocking_ms",
+            "span",
+            "t_s"
+          ],
+          "in_data": true,
+          "facts": [
+            {
+              "text": "The Long Animation Frames API reports frames of 50 ms or more with the scripts that ran in them.",
+              "source": "https://developer.mozilla.org/en-US/docs/Web/API/Performance_API/Long_animation_frame_timing"
+            }
+          ]
+        },
+        {
+          "cid": "c3",
+          "label": "Blocking time",
+          "kind": "measure",
+          "as": "property",
+          "description": "The part of a long frame over 50 ms during which input had to wait.",
+          "fields": [
+            "blocking_ms"
+          ],
+          "in_data": true
+        }
+      ]
+    },
+    {
+      "cid": "c4",
+      "label": "Script attribution",
+      "kind": "entity",
+      "description": "Which script spent a long frame: its source URL, function, how it was invoked, and its forced style and layout.",
+      "fields": [
+        "origin",
+        "file",
+        "name",
+        "invoker_type",
+        "party",
+        "total_ms",
+        "forced_layout_ms"
+      ],
+      "in_data": true,
+      "children": [
+        {
+          "cid": "c5",
+          "label": "Third-party script",
+          "kind": "category",
+          "as": "subtype",
+          "description": "Code from another origin: analytics, consent, payments, fonts, trackers.",
+          "fields": [
+            "party"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c6",
+          "label": "Seebra span",
+          "kind": "event",
+          "as": "part",
+          "description": "A named piece of Seebra's own work (a graph draw, the runtime's spec) marked by perf.cljs; the frame's longest span names the component.",
+          "fields": [
+            "span"
+          ],
+          "in_data": true
+        }
+      ]
+    },
+    {
+      "cid": "c7",
+      "label": "Canvas interaction",
+      "kind": "event",
+      "description": "Pans, zooms and drags of the canvas (perf/interacting!), and clicks and keys (Event Timing).",
+      "fields": [
+        "moving",
+        "moving_s",
+        "slowest_interaction_ms"
+      ],
+      "in_data": true,
+      "children": [
+        {
+          "cid": "c8",
+          "label": "Interaction to Next Paint",
+          "kind": "measure",
+          "as": "property",
+          "description": "How long an interaction waited for the next paint; the slowest one estimates INP.",
+          "fields": [
+            "slowest_interaction_ms"
+          ],
+          "in_data": true,
+          "facts": [
+            {
+              "text": "INP of 200 ms or less is good; over 500 ms is poor.",
+              "source": "https://web.dev/articles/inp"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cid": "c9",
+      "label": "Network resource",
+      "kind": "entity",
+      "description": "A file or answer the browser fetched (Resource Timing): origin, initiator type, duration, time to first byte, size.",
+      "fields": [
+        "origin",
+        "type",
+        "duration_ms",
+        "wait_ms",
+        "kib"
+      ],
+      "in_data": true,
+      "children": [
+        {
+          "cid": "c10",
+          "label": "Page fetch",
+          "kind": "event",
+          "as": "subtype",
+          "description": "A fetch() from the page itself (not the data worker); during a canvas move it is a bug.",
+          "fields": [
+            "page_requests"
+          ],
+          "in_data": true
+        }
+      ]
+    },
+    {
+      "cid": "c11",
+      "label": "Page load milestones",
+      "kind": "time",
+      "description": "Time to first byte, first paint, first contentful paint, largest contentful paint.",
+      "fields": [
+        "metric",
+        "ms"
+      ],
+      "in_data": true,
+      "facts": [
+        {
+          "text": "LCP of 2.5 s or less is good.",
+          "source": "https://web.dev/articles/lcp"
+        }
+      ]
+    }
+  ]
+}

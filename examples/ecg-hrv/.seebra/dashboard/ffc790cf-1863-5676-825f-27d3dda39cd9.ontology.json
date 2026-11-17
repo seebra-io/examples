@@ -1,0 +1,204 @@
+{
+  "title": "Heart-rate variability from ECG beat annotations",
+  "summary": "A Holter ECG is a voltage trace; cardiologists label each beat; the intervals between normal beats carry the autonomic nervous system's control of the heart, and ectopic beats or gaps must be removed before measuring it.",
+  "concepts": [
+    {
+      "cid": "c1",
+      "label": "ECG record",
+      "kind": "entity",
+      "description": "One person's ambulatory (Holter) ECG in a PhysioNet database: signals, sampling rate, header notes.",
+      "fields": [
+        "record",
+        "db",
+        "label",
+        "fs"
+      ],
+      "in_data": true,
+      "wikidata": "Q174422",
+      "facts": [
+        {
+          "text": "The MIT-BIH Arrhythmia Database (1980) has 48 half-hour two-lead records at 360 Hz, each beat labelled by two or more cardiologists.",
+          "source": "https://physionet.org/content/mitdb/1.0.0/"
+        }
+      ],
+      "children": [
+        {
+          "cid": "c2",
+          "label": "ECG signal",
+          "kind": "measure",
+          "as": "part",
+          "description": "Lead MLII voltage in mV: (ADC units − 1024) / 200 for mitdb; LightWAVE sends it delta-coded.",
+          "fields": [
+            "mv",
+            "adu",
+            "sample"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c3",
+          "label": "Beat annotation",
+          "kind": "event",
+          "as": "part",
+          "description": "A labelled beat at a sample time: N normal, A atrial premature, V ventricular premature, F fusion; plus rhythm (+), noise (~) and artefact (|) marks.",
+          "fields": [
+            "t",
+            "a",
+            "kind"
+          ],
+          "in_data": true,
+          "facts": [
+            {
+              "text": "PhysioNet's annotation codes (N, A, V, F, ...) are listed in the WFDB documentation.",
+              "source": "https://archive.physionet.org/physiobank/annotations.shtml"
+            }
+          ],
+          "children": [
+            {
+              "cid": "c4",
+              "label": "Premature ventricular contraction",
+              "kind": "event",
+              "as": "subtype",
+              "description": "A beat started in the ventricles before the sinus beat was due; wide QRS, followed by a compensatory pause.",
+              "fields": [
+                "coupling_ms",
+                "pause_ms",
+                "compensation"
+              ],
+              "in_data": true,
+              "wikidata": "Q1415963"
+            },
+            {
+              "cid": "c5",
+              "label": "Noise and artefact segments",
+              "kind": "event",
+              "as": "subtype",
+              "description": "Stretches the annotators could not read; a gap in beats becomes one false long interval.",
+              "fields": [
+                "a"
+              ],
+              "in_data": true
+            }
+          ]
+        },
+        {
+          "cid": "c6",
+          "label": "Subject (age, sex, medication)",
+          "kind": "entity",
+          "as": "property",
+          "description": "Who was recorded; HRV depends strongly on age and medication. Only in the header notes, not fetched here.",
+          "fields": [],
+          "in_data": false
+        }
+      ]
+    },
+    {
+      "cid": "c7",
+      "label": "Heart-rate variability",
+      "kind": "measure",
+      "description": "Variation of the interval between heartbeats, a window on autonomic (vagal and sympathetic) control of the sinus node.",
+      "fields": [
+        "rr_ms",
+        "sdnn_nn",
+        "rmssd_nn",
+        "pnn50_nn"
+      ],
+      "in_data": true,
+      "wikidata": "Q1414516",
+      "facts": [
+        {
+          "text": "The 1996 Task Force of the European Society of Cardiology and NASPE standardised SDNN, RMSSD, pNN50 and the LF/HF spectral bands.",
+          "source": "https://doi.org/10.1161/01.CIR.93.5.1043"
+        }
+      ],
+      "children": [
+        {
+          "cid": "c8",
+          "label": "RR and NN intervals",
+          "kind": "measure",
+          "as": "part",
+          "description": "Time between successive beats; NN when both beats are normal (and the interval plausible).",
+          "fields": [
+            "rr_ms",
+            "nn",
+            "pair"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c9",
+          "label": "Time-domain HRV",
+          "kind": "measure",
+          "as": "subtype",
+          "description": "SDNN (overall), RMSSD and pNN50 (beat-to-beat, vagal).",
+          "fields": [
+            "sdnn_nn",
+            "rmssd_nn",
+            "pnn50_nn",
+            "sdnn_all",
+            "rmssd_all"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c10",
+          "label": "Poincaré plot (SD1, SD2)",
+          "kind": "measure",
+          "as": "subtype",
+          "description": "RRₙ₊₁ against RRₙ; SD1 = RMSSD/√2 across the identity line, SD2 along it.",
+          "fields": [
+            "sd1",
+            "sd2",
+            "sd1_sd2",
+            "sd1_times_sqrt2"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c11",
+          "label": "Frequency-domain HRV (LF, HF, LF/HF)",
+          "kind": "measure",
+          "as": "subtype",
+          "description": "Power of the resampled tachogram in 0.04–0.15 Hz and 0.15–0.4 Hz bands (breathing); needs a spectrum (Python step).",
+          "fields": [],
+          "in_data": false
+        },
+        {
+          "cid": "c12",
+          "label": "Nonlinear HRV (DFA α1, sample entropy)",
+          "kind": "measure",
+          "as": "subtype",
+          "description": "Fractal and complexity measures of the NN series.",
+          "fields": [],
+          "in_data": false
+        }
+      ]
+    },
+    {
+      "cid": "c13",
+      "label": "Compensatory pause",
+      "kind": "event",
+      "description": "After a PVC the sinus node keeps its rhythm, so coupling + pause ≈ 2 × NN.",
+      "fields": [
+        "coupling_ms",
+        "pause_ms",
+        "compensation"
+      ],
+      "in_data": true,
+      "facts": [
+        {
+          "text": "A full compensatory pause is typical of ventricular premature beats, which usually don't conduct back to reset the sinus node; atrial premature beats usually do reset it.",
+          "source": "https://en.wikipedia.org/wiki/Premature_ventricular_contraction"
+        }
+      ]
+    },
+    {
+      "cid": "c14",
+      "label": "Beat detection (device side)",
+      "kind": "source",
+      "description": "How a monitor finds R peaks itself (Pan–Tompkins); its errors are what NN editing must clean in real devices.",
+      "fields": [],
+      "in_data": false
+    }
+  ]
+}

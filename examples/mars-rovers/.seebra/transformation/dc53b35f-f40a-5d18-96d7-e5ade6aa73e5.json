@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/curiosity-images-per-sol-a-rate-needs-an.polars.py"
+  },
+  "transformation/data-child": ["data/id", "1e4a3fc0-ba19-5a1b-b481-4d86e9b73725"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "dc53b35f-f40a-5d18-96d7-e5ade6aa73e5",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Curiosity images per sol: a rate needs an exposure",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 1280
+  },
+  "transformation/parent": ["data/id", "199470ff-5a4a-536f-9ce0-2070b2a2d7f1"],
+  "transformation/units": "{}"
+}

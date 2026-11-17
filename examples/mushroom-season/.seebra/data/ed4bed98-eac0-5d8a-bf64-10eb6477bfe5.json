@@ -1,0 +1,10 @@
+{
+  "data/id": "ed4bed98-eac0-5d8a-bf64-10eb6477bfe5",
+  "data/name": "Fly agaric (Amanita muscaria): Swedish records per month, 2000–2025 data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 1040
+  },
+  "data/parent": ["query/id", "df07fa4e-4150-56ca-8531-e7e5d7c2e646"],
+  "data/type": "json"
+}

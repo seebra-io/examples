@@ -1,0 +1,10 @@
+{
+  "data/id": "fd182042-96cf-5f85-b226-a71c3a3578a7",
+  "data/name": "Germany: public net generation and load, 15 min, 24 Aug – 18 Oct 2026 data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 80
+  },
+  "data/parent": ["query/id", "36e86d3f-0b60-5b1b-8db5-c5ba418d2a4c"],
+  "data/type": "json"
+}

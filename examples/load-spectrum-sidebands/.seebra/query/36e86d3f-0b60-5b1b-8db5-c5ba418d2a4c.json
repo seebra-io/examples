@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "fd182042-96cf-5f85-b226-a71c3a3578a7"],
+  "query/datasource": ["datasource/id", "7fd68328-c4b9-5c4d-835f-c3ba22a504d3"],
+  "query/dynamic?": false,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "36e86d3f-0b60-5b1b-8db5-c5ba418d2a4c",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Germany: public net generation and load, 15 min, 24 Aug – 18 Oct 2026",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 80
+  },
+  "query/params": "{\"country\":\"de\",\"start\":\"2026-08-24\",\"end\":\"2026-10-18\"}",
+  "query/path": "/public_power",
+  "query/request-body": "",
+  "query/units": "{}"
+}

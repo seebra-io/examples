@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "f1dc322d-34a3-553e-951d-ec4658fa62ae"],
+  "query/datasource": ["datasource/id", "f9522c9e-2dae-5aea-8a67-78b91d66c7b8"],
+  "query/dynamic?": false,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "84f92ab7-cfd4-5961-8718-863b06f0c73a",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Daily precipitation 1940–2025, Copenhagen",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 80
+  },
+  "query/params": "{\"latitude\":\"55.68\",\"longitude\":\"12.57\",\"start_date\":\"1940-01-01\",\"end_date\":\"2025-12-31\",\"daily\":\"precipitation_sum\",\"timezone\":\"Europe/Copenhagen\"}",
+  "query/path": "/archive",
+  "query/request-body": "",
+  "query/units": "{}"
+}

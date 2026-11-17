@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "f886244a-b41e-507e-a232-f00798df2e2c"],
+  "query/datasource": ["datasource/id", "512f9cda-87ff-56fd-861f-4c419dc6b5ad"],
+  "query/dynamic?": false,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "00658aad-16f5-52b4-a0e0-a7f75b37df0b",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "System 254, Angus (radiators): daily stats, Nov 2025 – Oct 2026",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 320
+  },
+  "query/params": "{\"id\":\"254\",\"start\":\"1761955200\",\"end\":\"1793491200\",\"fields\":\"timestamp,space_heat_kwh,space_elec_kwh,space_flowT_mean,space_returnT_mean,space_outsideT_mean,space_roomT_mean\"}",
+  "query/path": "/system/stats/daily",
+  "query/request-body": "",
+  "query/units": "{\"space_heat_kwh\":\"kWh\",\"space_elec_kwh\":\"kWh\",\"space_flowT_mean\":\"Cel\",\"space_returnT_mean\":\"Cel\",\"space_outsideT_mean\":\"Cel\",\"space_roomT_mean\":\"Cel\"}"
+}

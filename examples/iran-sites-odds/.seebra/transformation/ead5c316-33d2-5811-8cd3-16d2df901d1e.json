@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/sites-with-coordinates.js"
+  },
+  "transformation/data-child": ["data/id", "e088db56-5f46-5651-bbe5-6d86eba5f20a"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "js-web-worker",
+  "transformation/id": "ead5c316-33d2-5811-8cd3-16d2df901d1e",
+  "transformation/inputs": [],
+  "transformation/language": "javascript",
+  "transformation/name": "Sites with coordinates",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "436b433b-99e0-54fd-b51b-4ebe28abb62f"],
+  "transformation/units": "{}"
+}

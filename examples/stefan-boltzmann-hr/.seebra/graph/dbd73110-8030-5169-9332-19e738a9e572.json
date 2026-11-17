@@ -1,0 +1,16 @@
+{
+  "graph/content": {
+    "$file": "graphs/stefan-boltzmann-radius-against-gaia-s-spectral.js"
+  },
+  "graph/id": "dbd73110-8030-5169-9332-19e738a9e572",
+  "graph/inputs": [
+    ["data/id", "396919a3-ee8f-5b99-bbb5-f6e75a5a2432"]
+  ],
+  "graph/language": "javascript",
+  "graph/name": "Stefan–Boltzmann radius against Gaia's spectral radius",
+  "graph/node": {
+    "node/x": 1460,
+    "node/y": 1040
+  },
+  "graph/parent": ["data/id", "4ef98efb-15e1-5afd-8f12-cc032664e04b"]
+}

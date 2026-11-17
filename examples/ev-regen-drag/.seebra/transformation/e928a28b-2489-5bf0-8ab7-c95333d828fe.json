@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/the-two-test-cycles.polars.py"
+  },
+  "transformation/data-child": ["data/id", "d4600594-57b4-53a7-b715-a9f7db2410d2"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "e928a28b-2489-5bf0-8ab7-c95333d828fe",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "The two test cycles",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 800
+  },
+  "transformation/parent": ["data/id", "6b3cc1c5-69ee-57d8-af5c-85c30944a793"],
+  "transformation/units": "{}"
+}

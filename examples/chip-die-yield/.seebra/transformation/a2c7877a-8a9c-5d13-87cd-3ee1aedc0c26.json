@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/dies-per-300-mm-wafer-and-yield-under-three.sql"
+  },
+  "transformation/data-child": ["data/id", "81f6264b-ec5d-52a8-823d-eb992c6e6420"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "a2c7877a-8a9c-5d13-87cd-3ee1aedc0c26",
+  "transformation/inputs": [],
+  "transformation/language": "sql",
+  "transformation/name": "Dies per 300 mm wafer and yield under three defect models",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "7b0b4bad-b754-55aa-8b59-406ee020ac53"],
+  "transformation/units": "{}"
+}

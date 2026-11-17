@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "d0b9c7de-4345-5ebb-9bb1-b8d1ed7b0d2b"],
+  "query/datasource": ["datasource/id", "725534a8-c335-502a-93a2-d5c96060fc3a"],
+  "query/dynamic?": false,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "4f176fec-d4df-5d91-8d87-74ff213ff691",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Westermost Rough metered output (B1610), Sep–Oct 2026",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 80
+  },
+  "query/params": "{\"settlementDateFrom\":\"2026-09-01\",\"settlementDateTo\":\"2026-10-31\",\"bmUnit\":\"T_WTMSO-1\"}",
+  "query/path": "/datasets/B1610/stream",
+  "query/request-body": "",
+  "query/units": "{}"
+}

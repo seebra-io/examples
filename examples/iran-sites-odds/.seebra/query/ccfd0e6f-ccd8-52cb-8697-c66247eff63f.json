@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "67299649-4a44-57a1-a7ad-a6ff2f9fc049"],
+  "query/datasource": ["datasource/id", "5adfae0f-d0c1-5836-9a4d-b48c78bf8b0d"],
+  "query/dynamic?": true,
+  "query/format": "text",
+  "query/headers": "{}",
+  "query/id": "ccfd0e6f-ccd8-52cb-8697-c66247eff63f",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Elevation grid around Iran (ESRI ASCII, ~4 km)",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 80
+  },
+  "query/params": "{\"minlongitude\":\"40.5\",\"maxlongitude\":\"66.5\",\"minlatitude\":\"24\",\"maxlatitude\":\"40.5\",\"format\":\"esriascii\",\"resolution\":\"low\"}",
+  "query/path": "/GridServer",
+  "query/request-body": "",
+  "query/units": "{}"
+}

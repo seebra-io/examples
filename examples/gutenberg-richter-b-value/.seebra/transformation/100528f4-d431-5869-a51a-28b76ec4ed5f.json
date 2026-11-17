@@ -1,0 +1,21 @@
+{
+  "transformation/content": {
+    "$file": "transforms/b-per-depth-class.polars.py"
+  },
+  "transformation/data-child": ["data/id", "b892e91e-f558-53c6-84dd-865607c7c387"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "100528f4-d431-5869-a51a-28b76ec4ed5f",
+  "transformation/inputs": [
+    ["data/id", "c68dcf40-0061-5cef-b019-dd0a76de655a"]
+  ],
+  "transformation/language": "polars",
+  "transformation/name": "b per depth class",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 800
+  },
+  "transformation/parent": ["data/id", "fc913db3-ad6a-5ca1-a82a-e6ef2e9ba53b"],
+  "transformation/units": "{}"
+}

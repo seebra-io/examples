@@ -1,0 +1,8 @@
+{
+  "file": {
+    "file/example": "can-i-fly-vfr-sweden"
+  },
+  "format": 2,
+  "root": ["dashboard/id", "6cd2e808-f4fe-52dd-86f8-925962cf82c5"],
+  "seebra": "board"
+}

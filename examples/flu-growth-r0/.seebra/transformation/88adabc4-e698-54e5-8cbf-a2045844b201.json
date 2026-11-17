@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/exponential-growth-per-season-log-linear-fit.polars.py"
+  },
+  "transformation/data-child": ["data/id", "d0808e6a-05d3-5d49-afda-78864660167b"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "88adabc4-e698-54e5-8cbf-a2045844b201",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Exponential growth per season (log-linear fit)",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "5eb5bc5d-e94e-552c-8d15-85480f85ab4e"],
+  "transformation/units": "{}"
+}

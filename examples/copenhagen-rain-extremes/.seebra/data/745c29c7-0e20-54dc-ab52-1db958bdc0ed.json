@@ -1,0 +1,10 @@
+{
+  "data/id": "745c29c7-0e20-54dc-ab52-1db958bdc0ed",
+  "data/name": "Days data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "dca4fc29-c847-5768-9da8-d846159a3a51"],
+  "data/type": "json"
+}

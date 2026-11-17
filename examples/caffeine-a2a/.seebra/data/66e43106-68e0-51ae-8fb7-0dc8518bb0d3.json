@@ -1,0 +1,10 @@
+{
+  "data/id": "66e43106-68e0-51ae-8fb7-0dc8518bb0d3",
+  "data/name": "Caffeine and adenosine properties data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 1040
+  },
+  "data/parent": ["query/id", "954fc57b-8b37-5815-8ca1-63dec782b398"],
+  "data/type": "json"
+}

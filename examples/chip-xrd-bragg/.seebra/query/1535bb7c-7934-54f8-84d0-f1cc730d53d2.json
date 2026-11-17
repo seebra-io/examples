@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "1d60a1ae-98fd-5f97-8606-8d909ecdbbc6"],
+  "query/datasource": ["datasource/id", "6c08161c-1a0a-5236-85b5-183eaafcf902"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "1535bb7c-7934-54f8-84d0-f1cc730d53d2",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "COD entries with formula C",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 560
+  },
+  "query/params": "{\"format\":\"json\",\"formula\":\"C\"}",
+  "query/path": "/result",
+  "query/request-body": "",
+  "query/units": "{}"
+}

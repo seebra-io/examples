@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/pm2-5-by-the-hour-g-m3-dashed-who-24-hour.js"
+  },
+  "graph/id": "0f7afc1f-3cb7-5988-addb-77be1961c794",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "PM2.5 by the hour (µg/m³; dashed: WHO 24-hour guideline)",
+  "graph/node": {
+    "node/x": 1460,
+    "node/y": 560
+  },
+  "graph/parent": ["data/id", "744c1f80-1f7f-5bbf-9614-cf17fa05a3ee"]
+}

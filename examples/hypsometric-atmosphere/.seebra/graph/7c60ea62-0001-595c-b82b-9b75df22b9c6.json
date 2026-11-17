@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/the-17-columns-along-20-e.js"
+  },
+  "graph/id": "7c60ea62-0001-595c-b82b-9b75df22b9c6",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "The 17 columns along 20° E",
+  "graph/node": {
+    "node/x": 2380,
+    "node/y": 1040
+  },
+  "graph/parent": ["data/id", "e50d7f7d-1983-5368-b7e0-b905d136f699"]
+}

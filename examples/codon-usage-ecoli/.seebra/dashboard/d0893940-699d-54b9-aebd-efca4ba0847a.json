@@ -1,0 +1,53 @@
+{
+  "dashboard/id": "d0893940-699d-54b9-aebd-efca4ba0847a",
+  "datas": [
+    ["data/id", "17ea9782-ad71-574d-a297-939dec181cfa"],
+    ["data/id", "7bbb4856-f658-5e2c-9ea6-6edbc3124a72"],
+    ["data/id", "f968b57f-9420-5765-887e-fdf695861317"],
+    ["data/id", "bc686a68-db6e-567d-bc79-f6f606f788eb"],
+    ["data/id", "77ec4c47-7d35-5b66-b376-36acf32c903b"],
+    ["data/id", "ab9f2657-0b91-5a6f-8c04-a19830a34a1d"],
+    ["data/id", "be33ddfb-90d4-5255-8518-4d20ee8545af"],
+    ["data/id", "013347ed-d64f-5f64-88f7-03889c34c912"],
+    ["data/id", "796ad969-aa5d-5129-a293-c427aa1d6ba2"],
+    ["data/id", "fc593c1e-43ff-587d-8c66-905062d2c4cd"],
+    ["data/id", "34978a38-6f9b-5c64-8ba3-ca2f23e54623"],
+    ["data/id", "b0b2d19d-6e28-5448-ae5e-db09d367650d"]
+  ],
+  "datasources": [
+    ["datasource/id", "0b3f16fe-f485-5aa8-9536-a809a6a96d00"],
+    ["datasource/id", "e4f7f4b2-9303-5adc-9e54-2464388d52c7"]
+  ],
+  "description": "Question: the genetic code has 61 sense codons for 20 amino acids, so most amino acids can be written several ways. Does a cell care which synonym it uses? Data: 99 Escherichia coli K-12 genes, their coding DNA from Ensembl and their proteins from UniProt: the 56 ribosomal proteins (among the most-made proteins in a growing cell) against 43 DNA-binding transcription regulators (made at a few copies per cell; the first 44 in genome order of UniProt's 304). Steps: each codon is paired with the residue at the same place in the protein, which reads the genetic code (64 codons, the degeneracy of each amino acid) off the two databases; then relative synonymous codon usage (RSCU) per set, and per gene Wright's effective number of codons, Nc (20: one codon per amino acid, 61: all used equally), against the curve that mutation bias in G+C alone would give. The code comes out whole: all 64 codons, each opposite one amino acid (or stop) in every place but one (a TAA opposite Glu, an annotation difference). Aha: the regulators sit near the mutation-only curve (median Nc 51.3, 6 below it), while the ribosomal proteins fall far below it (median Nc 36.7, 23 below): they use a restricted dialect of preferred codons (Leu CTG, Arg CGT, Gly GGT; 63% of their synonymous codons against 36% in the regulators) and all but avoid the rare ones (RSCU of AGA 0.05, AGG 0, CTA 0.02, ATA 0.01, against 0.2–0.4 in the regulators). Synonymous is not neutral: selection for fast, accurate translation shapes the codons of highly expressed genes (Ikemura 1981, Sharp & Li 1987). Caveats: expression is not measured here, the gene sets stand for high and low expression; short genes give noisy Nc; the regulators were picked by genome order, not at random; ykgM is a paralogue of L31 made under zinc starvation, and cspE (a cold-shock protein) is abundant, so both sets have exceptions. tRNA gene copy numbers, the other half of the story, are not in this data. Next: hover a codon or a gene; drill into one amino acid's synonyms, or expand to another organism (Ensembl has yeast and human) or to measured protein abundance (PaxDb).",
+  "graphs": [
+    ["graph/id", "7299b49f-a0f2-5788-8226-6c6cb81c5743"],
+    ["graph/id", "c26bf329-1683-5e3d-b35f-5b76df5d0108"],
+    ["graph/id", "3c672236-5dcd-5ea0-bf31-a77e624380fd"]
+  ],
+  "grids": [],
+  "name": "Codon usage bias: synonymous is not neutral",
+  "ontology": {
+    "$file": ".seebra/dashboard/d0893940-699d-54b9-aebd-efca4ba0847a.ontology.json",
+    "$json": true
+  },
+  "queries": [
+    ["query/id", "43bf989a-dc3d-581d-900e-70026463c287"],
+    ["query/id", "066e7fa5-3759-59ca-a1ad-c977fa46dbf1"],
+    ["query/id", "17ea2bf6-044e-5f4d-8847-4e543af04e37"],
+    ["query/id", "0b81a126-a005-5272-b403-93eb5f46d498"]
+  ],
+  "studies": [],
+  "tables": [],
+  "texts": [],
+  "timers": [],
+  "transformations": [
+    ["transformation/id", "059f070f-dca2-5c04-a230-90d849988dca"],
+    ["transformation/id", "bd94d6d5-53ce-54f2-a89b-1af786759b81"],
+    ["transformation/id", "8d489683-c7bc-5128-8839-93bf5557c2da"],
+    ["transformation/id", "a9a19edf-f36e-5e1e-93c4-1b56c6e943be"],
+    ["transformation/id", "4a7ffde8-978e-56d5-b695-9c86649ed82b"],
+    ["transformation/id", "31a8584a-56d8-5e40-9fa1-1c2e058da610"],
+    ["transformation/id", "a9fd35c8-c790-5189-9caa-b56badeafd5f"],
+    ["transformation/id", "5e1162f1-ad53-57fb-98fb-35113ebf12f0"]
+  ]
+}

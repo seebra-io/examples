@@ -1,0 +1,18 @@
+{
+  "graph/content": {
+    "$file": "graphs/the-route-over-sweden-metar-flight-categories.js"
+  },
+  "graph/id": "d05de3f4-3aee-5357-b034-972a6ba2fa9f",
+  "graph/inputs": [
+    ["data/id", "7cef94af-4deb-5afd-818e-752ef8355b4c"],
+    ["data/id", "2f4d6f7b-e805-54ff-a826-8c4c6da04a75"],
+    ["data/id", "4279161b-91da-5f44-9794-587259bb377b"]
+  ],
+  "graph/language": "javascript",
+  "graph/name": "The route over Sweden: METAR flight categories now, SMHI model points, SIGMETs",
+  "graph/node": {
+    "node/x": 1460,
+    "node/y": 1280
+  },
+  "graph/parent": ["data/id", "919d382b-e996-566a-832b-09a02c9cdc26"]
+}

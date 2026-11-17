@@ -1,0 +1,11 @@
+{
+  "data/id": "d3091a36-9cc9-5d27-abe1-a3d0960b42d9",
+  "data/name": "Issues",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "02eacddb-db80-5007-8985-4f13ab8d51ce"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

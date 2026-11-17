@@ -1,0 +1,21 @@
+{
+  "transformation/content": {
+    "$file": "transforms/hardy-weinberg-test-per-variant-and-sample.polars.py"
+  },
+  "transformation/data-child": ["data/id", "d505a290-3607-55b0-b2aa-2db18e12d3f6"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "aeef1792-1e0f-5a22-a74b-3039b8d0a8ee",
+  "transformation/inputs": [
+    ["data/id", "24d28f8c-32fb-5e16-ac70-590abd6b91c3"]
+  ],
+  "transformation/language": "polars",
+  "transformation/name": "Hardy–Weinberg test per variant and sample",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1920,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "75ae6a48-13c1-5331-9b8c-460ddd0f3478"],
+  "transformation/units": "{}"
+}

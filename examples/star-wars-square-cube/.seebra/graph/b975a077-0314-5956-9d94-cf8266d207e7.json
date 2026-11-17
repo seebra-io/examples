@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/heavier-or-lighter-than-a-star-wars-body-of-the.js"
+  },
+  "graph/id": "b975a077-0314-5956-9d94-cf8266d207e7",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Heavier or lighter than a Star Wars body of the same height",
+  "graph/node": {
+    "node/x": 1920,
+    "node/y": 560
+  },
+  "graph/parent": ["data/id", "f382e98f-0834-5e27-9488-8428afe03218"]
+}

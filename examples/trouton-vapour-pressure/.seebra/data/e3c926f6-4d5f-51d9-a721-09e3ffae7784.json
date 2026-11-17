@@ -1,0 +1,11 @@
+{
+  "data/id": "e3c926f6-4d5f-51d9-a721-09e3ffae7784",
+  "data/name": "Readings to check on Wikidata",
+  "data/node": {
+    "node/x": 2070,
+    "node/y": 560
+  },
+  "data/parent": ["transformation/id", "b3c16ca5-2c64-59af-9b43-5c6603a93ea7"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

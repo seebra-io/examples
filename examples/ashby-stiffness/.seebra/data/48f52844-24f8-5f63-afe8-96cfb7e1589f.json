@@ -1,0 +1,10 @@
+{
+  "data/id": "48f52844-24f8-5f63-afe8-96cfb7e1589f",
+  "data/name": "Same material in both lists: measured E against 9KG/(3K+G) data",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "4db69168-066f-5aff-b737-16e4a863cb45"],
+  "data/type": "json"
+}

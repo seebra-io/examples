@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/parse-typical-power-w.polars.py"
+  },
+  "transformation/data-child": ["data/id", "9d9014b7-9095-5c55-847c-707b08c326a1"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "6b471b9a-36b1-5440-9649-5ce3d7bc19ad",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Parse typical power (W)",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 560
+  },
+  "transformation/parent": ["data/id", "518be0e1-e934-5fd8-8f09-05899efe5e19"],
+  "transformation/units": "{}"
+}

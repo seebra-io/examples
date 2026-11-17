@@ -1,0 +1,21 @@
+{
+  "transformation/content": {
+    "$file": "transforms/all-components.sql"
+  },
+  "transformation/data-child": ["data/id", "bb4980c9-d85a-5c6c-b106-e3680885eeaa"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "2b483250-57df-5590-925a-b66ca7decec6",
+  "transformation/inputs": [
+    ["data/id", "abd4cf7c-7c4c-5238-8f40-7cbbc3a83fe9"]
+  ],
+  "transformation/language": "sql",
+  "transformation/name": "All components",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "5760fce8-83e7-5538-b9f4-220743ba3cee"],
+  "transformation/units": "{}"
+}

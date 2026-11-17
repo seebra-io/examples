@@ -1,0 +1,10 @@
+{
+  "data/id": "d20f0e30-a0fb-55a2-a5a5-08b17ed6d123",
+  "data/name": "Against a Poisson rate (dispersion, P(at least)) data",
+  "data/node": {
+    "node/x": 2530,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "d6bd4bd7-3725-5ec9-bf5b-397d7a34a652"],
+  "data/type": "json"
+}

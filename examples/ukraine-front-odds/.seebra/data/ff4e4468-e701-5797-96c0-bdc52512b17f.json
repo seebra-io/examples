@@ -1,0 +1,10 @@
+{
+  "data/id": "ff4e4468-e701-5797-96c0-bdc52512b17f",
+  "data/name": "News on talks, ceasefire and sanctions (14 days) data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 1520
+  },
+  "data/parent": ["query/id", "b8a1e97e-4b97-5a7f-baf0-96257c6219c5"],
+  "data/type": "json"
+}

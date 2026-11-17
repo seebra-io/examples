@@ -1,0 +1,1 @@
+data.with_columns(x = col("temp_c") - col("temp_c").mean().over("layer"))

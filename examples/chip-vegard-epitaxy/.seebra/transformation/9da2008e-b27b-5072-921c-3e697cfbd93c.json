@@ -1,0 +1,21 @@
+{
+  "transformation/content": {
+    "$file": "transforms/lattice-matching-the-composition-whose-cell-fits.sql"
+  },
+  "transformation/data-child": ["data/id", "53269d57-8070-55b4-897a-0ee8400bf657"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "9da2008e-b27b-5072-921c-3e697cfbd93c",
+  "transformation/inputs": [
+    ["data/id", "f81157af-6604-5097-a7f0-bf45b9ebc87e"]
+  ],
+  "transformation/language": "sql",
+  "transformation/name": "Lattice matching: the composition whose cell fits the substrate",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 560
+  },
+  "transformation/parent": ["data/id", "b0e54ae6-54b1-5150-89a8-3d2e06237517"],
+  "transformation/units": "{}"
+}

@@ -1,0 +1,10 @@
+{
+  "data/id": "467a44c2-a8f6-5fe4-837e-545a685c1953",
+  "data/name": "RR intervals of the three records (first 15 min each) data",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "a5907521-b94e-53cb-91bd-296330370bae"],
+  "data/type": "json"
+}

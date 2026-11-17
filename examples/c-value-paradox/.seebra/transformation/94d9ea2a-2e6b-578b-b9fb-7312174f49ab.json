@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/archaea-size-and-genes.polars.py"
+  },
+  "transformation/data-child": ["data/id", "1257a31e-e15e-50da-82bc-5080aa4e2f5e"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "94d9ea2a-2e6b-578b-b9fb-7312174f49ab",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Archaea: size and genes",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "02ebe31b-db06-5805-a287-6c8f2bc17c76"],
+  "transformation/units": "{}"
+}

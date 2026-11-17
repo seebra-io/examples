@@ -1,0 +1,8 @@
+{
+  "file": {
+    "file/example": "cleveland-art"
+  },
+  "format": 2,
+  "root": ["dashboard/id", "3dd8b668-ad92-55b8-9e4e-91ad9c7a3317"],
+  "seebra": "board"
+}

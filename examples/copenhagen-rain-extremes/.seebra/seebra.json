@@ -1,0 +1,8 @@
+{
+  "file": {
+    "file/example": "copenhagen-rain-extremes"
+  },
+  "format": 2,
+  "root": ["dashboard/id", "0591d18d-d848-57e0-9972-c47bfa54fa12"],
+  "seebra": "board"
+}

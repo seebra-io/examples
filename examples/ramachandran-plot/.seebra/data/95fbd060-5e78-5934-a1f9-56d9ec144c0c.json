@@ -1,0 +1,10 @@
+{
+  "data/id": "95fbd060-5e78-5934-a1f9-56d9ec144c0c",
+  "data/name": "1EMA residues: φ, ψ and secondary structure data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 800
+  },
+  "data/parent": ["transformation/id", "0c6e0ed6-d9d4-5a94-817f-5ab53fbd1e69"],
+  "data/type": "json"
+}

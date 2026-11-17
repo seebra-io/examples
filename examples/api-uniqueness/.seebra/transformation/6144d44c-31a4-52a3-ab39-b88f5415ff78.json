@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/hypothesis-are-energy-and-market-apis-less.polars.py"
+  },
+  "transformation/data-child": ["data/id", "2ba3c796-f877-58dd-a905-462be7b2264e"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "6144d44c-31a4-52a3-ab39-b88f5415ff78",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Hypothesis: are energy and market APIs less distinct, and is it the place names?",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 2380,
+    "node/y": 800
+  },
+  "transformation/parent": ["data/id", "f2999a8c-0252-5608-9a77-fc5e649c121e"],
+  "transformation/units": "{}"
+}

@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/resources-by-origin-and-type.sql"
+  },
+  "transformation/data-child": ["data/id", "eab3c9f5-1730-557a-8f44-f708de3f1698"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "dadc653c-d8cf-5911-866e-f629a1665287",
+  "transformation/inputs": [],
+  "transformation/language": "sql",
+  "transformation/name": "Resources by origin and type",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 1040
+  },
+  "transformation/parent": ["data/id", "ef5542e6-4f2c-59fa-ba45-375fd0199e08"],
+  "transformation/units": "{}"
+}

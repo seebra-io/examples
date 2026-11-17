@@ -1,0 +1,16 @@
+{
+  "graph/content": {
+    "$file": "graphs/mass-against-height-on-log-axes-star-wars-bodies.js"
+  },
+  "graph/id": "3b635060-56bc-5752-8cc3-1cebcf4cb767",
+  "graph/inputs": [
+    ["data/id", "b6df0e9e-c188-56d4-8eaa-68b036396e6d"]
+  ],
+  "graph/language": "javascript",
+  "graph/name": "Mass against height on log axes: Star Wars bodies against the square-cube law",
+  "graph/node": {
+    "node/x": 1920,
+    "node/y": 320
+  },
+  "graph/parent": ["data/id", "f382e98f-0834-5e27-9488-8428afe03218"]
+}

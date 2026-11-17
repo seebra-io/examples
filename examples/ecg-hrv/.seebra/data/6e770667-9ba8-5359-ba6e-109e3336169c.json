@@ -1,0 +1,11 @@
+{
+  "data/id": "6e770667-9ba8-5359-ba6e-109e3336169c",
+  "data/name": "Compensatory pause per record",
+  "data/node": {
+    "node/x": 2530,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "2d4e1ee7-3ff3-50c3-af35-2a83f5533541"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

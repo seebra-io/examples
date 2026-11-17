@@ -1,0 +1,10 @@
+{
+  "data/id": "c676d561-19b6-5ed4-bed9-44dc7767ae39",
+  "data/name": "Temperature and geopotential height at 13 pressure levels, 17 places along 20° E data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 80
+  },
+  "data/parent": ["query/id", "cf877c6f-bed0-5995-abfb-986ce2685795"],
+  "data/type": "json"
+}

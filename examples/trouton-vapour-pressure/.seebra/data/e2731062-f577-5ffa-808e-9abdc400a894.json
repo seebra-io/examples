@@ -1,0 +1,10 @@
+{
+  "data/id": "e2731062-f577-5ffa-808e-9abdc400a894",
+  "data/name": "Vapour pressures with their temperature, and boiling points (Wikidata, as entered) data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 80
+  },
+  "data/parent": ["query/id", "3442c3c7-78b2-5a13-97b0-464aeb44affc"],
+  "data/type": "json"
+}

@@ -1,0 +1,8 @@
+{
+  "file": {
+    "file/example": "page-profile"
+  },
+  "format": 2,
+  "root": ["dashboard/id", "0694c8ab-9285-5eca-b0af-275593934a17"],
+  "seebra": "board"
+}

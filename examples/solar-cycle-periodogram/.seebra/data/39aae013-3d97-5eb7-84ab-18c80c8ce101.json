@@ -1,0 +1,10 @@
+{
+  "data/id": "39aae013-3d97-5eb7-84ab-18c80c8ce101",
+  "data/name": "Periodogram terms: x(t)·cos and x(t)·sin at each trial period data",
+  "data/node": {
+    "node/x": 2530,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "15507449-40aa-5884-ae95-fe0d6e377aeb"],
+  "data/type": "json"
+}

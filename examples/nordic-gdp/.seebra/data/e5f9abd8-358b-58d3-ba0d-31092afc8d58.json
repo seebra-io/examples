@@ -1,0 +1,11 @@
+{
+  "data/id": "e5f9abd8-358b-58d3-ba0d-31092afc8d58",
+  "data/name": "Yearly growth",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "adf1ac69-9604-547e-9fd2-b26da33ae462"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

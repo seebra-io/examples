@@ -1,0 +1,8 @@
+{
+  "file": {
+    "file/example": "hardy-weinberg-wahlund"
+  },
+  "format": 2,
+  "root": ["dashboard/id", "2b5fa5f0-5a86-5bb4-9742-00e916960790"],
+  "seebra": "board"
+}

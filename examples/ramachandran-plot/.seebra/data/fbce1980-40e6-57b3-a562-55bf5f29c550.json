@@ -1,0 +1,10 @@
+{
+  "data/id": "fbce1980-40e6-57b3-a562-55bf5f29c550",
+  "data/name": "1EMA helices and strands data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 1760
+  },
+  "data/parent": ["query/id", "a0a403d6-6a12-5215-a769-ad5f3b68f20c"],
+  "data/type": "json"
+}

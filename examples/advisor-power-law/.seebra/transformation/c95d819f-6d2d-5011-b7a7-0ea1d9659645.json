@@ -1,0 +1,21 @@
+{
+  "transformation/content": {
+    "$file": "transforms/observed-ccdf-with-the-fitted-power-laws-and-a.polars.py"
+  },
+  "transformation/data-child": ["data/id", "adfe7c8a-c764-5d81-8cba-8c598c2b5ef2"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "c95d819f-6d2d-5011-b7a7-0ea1d9659645",
+  "transformation/inputs": [
+    ["data/id", "073596ac-a893-54ff-846f-d08a34252cf7"]
+  ],
+  "transformation/language": "polars",
+  "transformation/name": "Observed CCDF with the fitted power laws and a geometric distribution of the same mean",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1920,
+    "node/y": 560
+  },
+  "transformation/parent": ["data/id", "63796439-9e55-5fe9-a41a-0a85fa9060ee"],
+  "transformation/units": "{}"
+}

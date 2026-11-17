@@ -1,0 +1,10 @@
+{
+  "data/id": "ec1ebdcf-fde3-54bb-b106-cf903a4a2b40",
+  "data/name": "COD entries for InP (measured) data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 1280
+  },
+  "data/parent": ["query/id", "3902bf4a-9676-5f59-8ba2-3b74c6153547"],
+  "data/type": "json"
+}

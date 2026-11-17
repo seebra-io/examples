@@ -1,0 +1,11 @@
+{
+  "data/id": "e4f7d222-046f-598f-827d-064eeb467670",
+  "data/name": "Strongest line per scheme, against the M2 alias",
+  "data/node": {
+    "node/x": 2990,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "a4b1484c-caa2-5a98-ac32-5ac850e66876"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

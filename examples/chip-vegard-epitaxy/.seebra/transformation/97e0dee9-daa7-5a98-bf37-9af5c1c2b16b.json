@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/ordered-alloys-composition-x-and-effective.polars.py"
+  },
+  "transformation/data-child": ["data/id", "28b7938e-95f4-546b-92be-2d2562215d8c"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "97e0dee9-daa7-5a98-bf37-9af5c1c2b16b",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Ordered alloys: composition x and effective lattice constant",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "ebf0b39b-7d26-5daa-9356-72d1e277273c"],
+  "transformation/units": "{}"
+}

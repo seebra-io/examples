@@ -1,0 +1,10 @@
+{
+  "data/id": "1037c617-4ec1-5c06-a426-cd7201ed7d31",
+  "data/name": "Next 7 days, worldwide data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 80
+  },
+  "data/parent": ["query/id", "9ffbbfad-6ae6-5d4b-8328-84419992de29"],
+  "data/type": "json"
+}

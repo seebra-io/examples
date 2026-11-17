@@ -1,0 +1,11 @@
+{
+  "data/id": "8b210f32-8f48-5005-b0a6-7500f0e449d1",
+  "data/name": "Coordination per family",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 800
+  },
+  "data/parent": ["transformation/id", "5fc40053-91af-5298-8e2f-73e26214e97d"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

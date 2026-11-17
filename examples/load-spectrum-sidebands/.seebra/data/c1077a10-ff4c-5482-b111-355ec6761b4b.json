@@ -1,0 +1,10 @@
+{
+  "data/id": "c1077a10-ff4c-5482-b111-355ec6761b4b",
+  "data/name": "Amplitude spectra (DFT) data",
+  "data/node": {
+    "node/x": 2070,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "8ea63af6-5c1e-5ac1-8a67-954b7a620675"],
+  "data/type": "json"
+}

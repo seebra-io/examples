@@ -1,0 +1,240 @@
+{
+  "title": "VFR flight weather: METAR, TAF, SIGMET and VMC minima",
+  "summary": "A VFR flight is planned against visual meteorological condition minima at each aerodrome when it is used and along the route. Observations (METAR) say now; forecasts (TAF, with prevailing and temporary change groups; SIGMET for hazards in a FIR) say later.",
+  "concepts": [
+    {
+      "cid": "c1",
+      "label": "Flight",
+      "kind": "event",
+      "description": "A VFR flight from a departure to a destination aerodrome at a planned time.",
+      "fields": [
+        "role",
+        "etd",
+        "eta",
+        "t_use"
+      ],
+      "in_data": true,
+      "children": [
+        {
+          "cid": "c2",
+          "label": "Aerodrome",
+          "kind": "place",
+          "as": "part",
+          "description": "An airport with an ICAO code; departure, destination or alternate.",
+          "fields": [
+            "icao",
+            "name",
+            "lat",
+            "lon"
+          ],
+          "in_data": true,
+          "wikidata": "Q62447"
+        },
+        {
+          "cid": "c3",
+          "label": "Route",
+          "kind": "place",
+          "as": "part",
+          "description": "The great circle from departure to destination; distance, time en route.",
+          "fields": [
+            "dist_nm",
+            "flight_h",
+            "along",
+            "off_km"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c4",
+          "label": "Flight Information Region (FIR)",
+          "kind": "place",
+          "as": "part",
+          "description": "The airspace a SIGMET is issued for; Sweden is ESAA.",
+          "fields": [
+            "fir"
+          ],
+          "in_data": true
+        }
+      ]
+    },
+    {
+      "cid": "c5",
+      "label": "METAR",
+      "kind": "source",
+      "description": "Routine aerodrome observation, usually every 30 min in Sweden.",
+      "fields": [
+        "raw",
+        "obs",
+        "wdir",
+        "wspd_kt",
+        "gust_kt",
+        "vis",
+        "wx",
+        "clouds",
+        "qnh_hpa"
+      ],
+      "in_data": true,
+      "wikidata": "Q476773",
+      "facts": [
+        {
+          "text": "METAR visibility 9999 means 10 km or more; NOAA's JSON gives it in statute miles with a '+'.",
+          "source": "https://aviationweather.gov/data/api/"
+        }
+      ]
+    },
+    {
+      "cid": "c6",
+      "label": "TAF",
+      "kind": "source",
+      "description": "Terminal aerodrome forecast, 9 to 30 h, in change groups.",
+      "fields": [
+        "raw",
+        "group",
+        "t_from",
+        "t_to"
+      ],
+      "in_data": true,
+      "children": [
+        {
+          "cid": "c7",
+          "label": "Prevailing group (BASE, FM, BECMG)",
+          "kind": "category",
+          "as": "subtype",
+          "description": "What is expected; BECMG changes gradually between its two times.",
+          "fields": [
+            "kind",
+            "category",
+            "ok_prev"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c8",
+          "label": "Temporary group (TEMPO, PROB30/40)",
+          "kind": "category",
+          "as": "subtype",
+          "description": "Fluctuations for less than half the period, or a 30/40% chance; lists only what changes.",
+          "fields": [
+            "temp_cat",
+            "temp_text",
+            "ok_all"
+          ],
+          "in_data": true
+        }
+      ]
+    },
+    {
+      "cid": "c9",
+      "label": "SIGMET",
+      "kind": "source",
+      "description": "Warning of en-route hazards (thunderstorms, icing, turbulence, volcanic ash) for a FIR.",
+      "fields": [
+        "hazard",
+        "base_ft",
+        "top_ft",
+        "ring"
+      ],
+      "in_data": true
+    },
+    {
+      "cid": "c10",
+      "label": "AIRMET",
+      "kind": "source",
+      "description": "Lower-level hazards for light aircraft; issued in Europe per FIR, not in NOAA's international feed.",
+      "fields": [],
+      "in_data": false
+    },
+    {
+      "cid": "c11",
+      "label": "Ceiling",
+      "kind": "measure",
+      "description": "Height of the lowest BKN or OVC layer, or vertical visibility (ft above the aerodrome).",
+      "fields": [
+        "ceiling_ft"
+      ],
+      "in_data": true
+    },
+    {
+      "cid": "c12",
+      "label": "Visibility",
+      "kind": "measure",
+      "description": "Prevailing horizontal visibility (m).",
+      "fields": [
+        "vis_m",
+        "vis_sm"
+      ],
+      "in_data": true
+    },
+    {
+      "cid": "c13",
+      "label": "Flight category",
+      "kind": "category",
+      "description": "VFR, MVFR, IFR, LIFR from ceiling and visibility (US convention, AWC's colours).",
+      "fields": [
+        "category",
+        "worst",
+        "awc_cat"
+      ],
+      "in_data": true
+    },
+    {
+      "cid": "c14",
+      "label": "VMC minima",
+      "kind": "measure",
+      "description": "SERA visual meteorological condition minima; 1500 ft and 5 km at a controlled aerodrome, special VFR 600 ft and 1500 m.",
+      "fields": [
+        "vmc",
+        "svfr",
+        "minima",
+        "verdict"
+      ],
+      "in_data": true,
+      "facts": [
+        {
+          "text": "SERA.5005(b): VFR flights shall not take off or land at an aerodrome within a control zone when the ceiling is below 1500 ft or the ground visibility below 5 km.",
+          "source": "https://eur-lex.europa.eu/eli/reg_impl/2012/923/oj"
+        }
+      ]
+    },
+    {
+      "cid": "c15",
+      "label": "Numerical weather forecast",
+      "kind": "source",
+      "description": "SMHI's model (snow1g) at points on the route: cloud base, cover, visibility, gusts, precipitation, thunder.",
+      "fields": [
+        "ceiling_ft",
+        "cover_okta",
+        "vis_m",
+        "gust_kt",
+        "thunder_pct"
+      ],
+      "in_data": true
+    },
+    {
+      "cid": "c16",
+      "label": "NOTAM",
+      "kind": "source",
+      "description": "Notices to airmen: closed runways, restricted areas. Not in this data.",
+      "fields": [],
+      "in_data": false
+    },
+    {
+      "cid": "c17",
+      "label": "Winds and temperatures aloft",
+      "kind": "measure",
+      "description": "Wind at cruise level for ground speed and drift. Not in this data: no wind is applied.",
+      "fields": [],
+      "in_data": false
+    },
+    {
+      "cid": "c18",
+      "label": "Icing and freezing level",
+      "kind": "measure",
+      "description": "In cloud or precipitation below 0 °C; matters in November. Only the frozen share of precipitation is here.",
+      "fields": [
+        "frozen_pct"
+      ],
+      "in_data": false
+    }
+  ]
+}

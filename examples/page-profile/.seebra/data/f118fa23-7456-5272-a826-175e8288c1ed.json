@@ -1,0 +1,11 @@
+{
+  "data/id": "f118fa23-7456-5272-a826-175e8288c1ed",
+  "data/name": "Slowest resources",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 1280
+  },
+  "data/parent": ["transformation/id", "65da0f4f-6fb9-5f15-82ae-5c20c744d32b"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

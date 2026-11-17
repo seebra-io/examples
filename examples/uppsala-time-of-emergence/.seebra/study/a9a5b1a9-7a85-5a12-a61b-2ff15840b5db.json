@@ -1,0 +1,18 @@
+{
+  "study/hypothesis": "The signal-to-noise ratio (warming / σ of 1850–1900) of summer (JJA) is more than twice that of winter (DJF).",
+  "study/id": "a9a5b1a9-7a85-5a12-a61b-2ff15840b5db",
+  "study/name": "Has summer emerged from its noise, and winter not?",
+  "study/node": {
+    "node/x": 540,
+    "node/y": 320
+  },
+  "study/plan": {
+    "$file": ".seebra/study/a9a5b1a9-7a85-5a12-a61b-2ff15840b5db.plan.json",
+    "$json": true
+  },
+  "study/question": "At Uppsala, is the warming of the mean daily minimum since 1850–1900 larger against the year-to-year spread in summer than in winter, although winter warmed at least as much?",
+  "study/state": {
+    "$file": ".seebra/study/a9a5b1a9-7a85-5a12-a61b-2ff15840b5db.state.json",
+    "$json": true
+  }
+}

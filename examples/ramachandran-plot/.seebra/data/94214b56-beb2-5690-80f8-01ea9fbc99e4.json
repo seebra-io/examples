@@ -1,0 +1,10 @@
+{
+  "data/id": "94214b56-beb2-5690-80f8-01ea9fbc99e4",
+  "data/name": "1UBQ residues: φ, ψ and secondary structure data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 560
+  },
+  "data/parent": ["transformation/id", "68498c11-fd12-5135-acef-f5b08b82d0f3"],
+  "data/type": "json"
+}

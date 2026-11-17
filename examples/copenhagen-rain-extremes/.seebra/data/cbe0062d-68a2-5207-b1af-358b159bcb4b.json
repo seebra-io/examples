@@ -1,0 +1,10 @@
+{
+  "data/id": "cbe0062d-68a2-5207-b1af-358b159bcb4b",
+  "data/name": "All years and the two halves data",
+  "data/node": {
+    "node/x": 2070,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "80234a2c-adb1-5149-a0ca-9024f96c1476"],
+  "data/type": "json"
+}

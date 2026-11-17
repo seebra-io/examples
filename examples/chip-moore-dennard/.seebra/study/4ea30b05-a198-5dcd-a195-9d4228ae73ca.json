@@ -1,0 +1,18 @@
+{
+  "study/hypothesis": "Clock frequency's doublings per year fall from roughly 0.35 (a doubling every three years or less) to near 0 after the mid-2000s, while transistor count keeps doubling about every two years.",
+  "study/id": "4ea30b05-a198-5dcd-a195-9d4228ae73ca",
+  "study/name": "Did the clock stop doubling while transistors kept doubling?",
+  "study/node": {
+    "node/x": 540,
+    "node/y": 1280
+  },
+  "study/plan": {
+    "$file": ".seebra/study/4ea30b05-a198-5dcd-a195-9d4228ae73ca.plan.json",
+    "$json": true
+  },
+  "study/question": "Is the growth rate of clock frequency (doublings per year of the clock in MHz, per processor) lower from the break year on than before it, while the growth rate of transistor count is not?",
+  "study/state": {
+    "$file": ".seebra/study/4ea30b05-a198-5dcd-a195-9d4228ae73ca.state.json",
+    "$json": true
+  }
+}

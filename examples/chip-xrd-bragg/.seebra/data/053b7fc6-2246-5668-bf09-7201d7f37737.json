@@ -1,0 +1,10 @@
+{
+  "data/id": "053b7fc6-2246-5668-bf09-7201d7f37737",
+  "data/name": "COD entries with formula Ge data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 320
+  },
+  "data/parent": ["query/id", "13d988c9-44af-5219-b336-c89f08edd3ca"],
+  "data/type": "json"
+}

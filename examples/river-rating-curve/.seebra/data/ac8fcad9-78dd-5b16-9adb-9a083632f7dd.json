@@ -1,0 +1,10 @@
+{
+  "data/id": "ac8fcad9-78dd-5b16-9adb-9a083632f7dd",
+  "data/name": "Annual peak discharge and stage data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 320
+  },
+  "data/parent": ["query/id", "04301be6-a653-51dd-a129-33f955e3b075"],
+  "data/type": "json"
+}

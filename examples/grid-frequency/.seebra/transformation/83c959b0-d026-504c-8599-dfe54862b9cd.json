@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/seconds-f-df-dt-and-implied-primary-control.polars.py"
+  },
+  "transformation/data-child": ["data/id", "6e8b59ff-56f7-5662-89f0-01749a9a91fb"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "83c959b0-d026-504c-8599-dfe54862b9cd",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Seconds: Δf, df/dt and implied primary control",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "01988eb2-0f44-5dae-b36f-efc4d86f98e0"],
+  "transformation/units": "{}"
+}

@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "81938dd7-e081-5c04-8601-355a2bd72352"],
+  "query/datasource": ["datasource/id", "7b2cdefc-274b-5b4b-9bb4-70bb3ad2ef26"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "46beb997-93f6-5806-9efb-83335779679d",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Countries (region, income)",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 1040
+  },
+  "query/params": "{\"format\":\"json\",\"per_page\":\"400\"}",
+  "query/path": "/country",
+  "query/request-body": "",
+  "query/units": "{}"
+}

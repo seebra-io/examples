@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/gamow-s-tunnelling-exponent-wkb.sql"
+  },
+  "transformation/data-child": ["data/id", "8134e6d4-086b-5583-8e5f-dde534c937ff"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "47356001-c788-5294-8a36-78f970501adc",
+  "transformation/inputs": [],
+  "transformation/language": "sql",
+  "transformation/name": "Gamow's tunnelling exponent (WKB)",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 2380,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "8d82bb4e-c7aa-5033-b656-30e8d6cb3e17"],
+  "transformation/units": "{}"
+}

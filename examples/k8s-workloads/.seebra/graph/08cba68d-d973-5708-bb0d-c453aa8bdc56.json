@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/restarts-are-a-heavy-tail-log-log.js"
+  },
+  "graph/id": "08cba68d-d973-5708-bb0d-c453aa8bdc56",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Restarts are a heavy tail (log-log)",
+  "graph/node": {
+    "node/x": 1920,
+    "node/y": 320
+  },
+  "graph/parent": ["data/id", "9ce5f2c8-f782-5282-b0f8-0c697ee58ad6"]
+}

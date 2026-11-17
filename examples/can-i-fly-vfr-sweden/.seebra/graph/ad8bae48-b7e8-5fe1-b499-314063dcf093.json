@@ -1,0 +1,16 @@
+{
+  "graph/content": {
+    "$file": "graphs/why-read-past-the-taf-s-first-line-airports.js"
+  },
+  "graph/id": "ad8bae48-b7e8-5fe1-b499-314063dcf093",
+  "graph/inputs": [
+    ["data/id", "1050e086-fa5a-533a-a8f0-8b7ec2ed74bb"]
+  ],
+  "graph/language": "javascript",
+  "graph/name": "Why read past the TAF's first line: airports below VMC minima, prevailing vs everything the TAF allows",
+  "graph/node": {
+    "node/x": 2380,
+    "node/y": 320
+  },
+  "graph/parent": ["data/id", "fccca149-68e0-5781-9bdf-901690c59bbc"]
+}

@@ -1,0 +1,21 @@
+{
+  "transformation/content": {
+    "$file": "transforms/secant-law-muf-against-distance.sql"
+  },
+  "transformation/data-child": ["data/id", "2f04a8b6-1b64-50a9-bccf-36ffb7d49043"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "0d1e01af-128a-5e1f-a77d-2abb5956132a",
+  "transformation/inputs": [
+    ["data/id", "f40d6735-f2cc-5b7c-9cbf-3712e0713e31"]
+  ],
+  "transformation/language": "sql",
+  "transformation/name": "Secant law: MUF against distance",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "0b2b6767-8b75-55ec-a385-43fe89d8f6a2"],
+  "transformation/units": "{}"
+}

@@ -1,0 +1,10 @@
+{
+  "data/id": "810b5f3c-9053-5949-a695-b2eb34a6cdbb",
+  "data/name": "A2A with caffeine, 5MZP (PDB) data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 80
+  },
+  "data/parent": ["query/id", "f48e173c-1607-57b2-82b9-fb64ad3a2981"],
+  "data/type": "json"
+}

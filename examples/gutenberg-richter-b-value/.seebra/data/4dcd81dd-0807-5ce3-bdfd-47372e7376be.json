@@ -1,0 +1,10 @@
+{
+  "data/id": "4dcd81dd-0807-5ce3-bdfd-47372e7376be",
+  "data/name": "Frequency–magnitude distribution: per bin and cumulative data",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "6e515d71-2d2d-50fc-a525-6dd34b649f2c"],
+  "data/type": "json"
+}

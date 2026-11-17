@@ -1,0 +1,10 @@
+{
+  "data/id": "286483a4-3024-5d58-8c0c-9f1b90c05b3a",
+  "data/name": "The fitted curve and its slope, 0-800 kg/ha data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "8981024d-b717-5fba-8604-1a625f2679e9"],
+  "data/type": "json"
+}

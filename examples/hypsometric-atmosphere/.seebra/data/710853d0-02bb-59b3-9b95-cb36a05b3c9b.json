@@ -1,0 +1,10 @@
+{
+  "data/id": "710853d0-02bb-59b3-9b95-cb36a05b3c9b",
+  "data/name": "One row per column and pressure level data",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "4b6df408-c449-504d-962a-93af0e11775d"],
+  "data/type": "json"
+}

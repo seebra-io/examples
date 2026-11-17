@@ -1,0 +1,10 @@
+{
+  "data/id": "bda4f65b-05ca-538b-9a34-79a094730094",
+  "data/name": "The naive way: least-squares lines on log-log plots data",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 800
+  },
+  "data/parent": ["transformation/id", "16544e4f-4302-5280-b8e2-61c29b2bb0e1"],
+  "data/type": "json"
+}

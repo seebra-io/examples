@@ -1,0 +1,1 @@
+SELECT rank, article, views, link FROM data ORDER BY views DESC LIMIT 25

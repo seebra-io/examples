@@ -1,0 +1,10 @@
+{
+  "data/id": "98e5398b-4dde-520d-9623-1d08484ec4ec",
+  "data/name": "Bond length per kind (distribution) data",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "b3666bf1-ca73-5c3a-ab6f-12cf493ef2fd"],
+  "data/type": "json"
+}

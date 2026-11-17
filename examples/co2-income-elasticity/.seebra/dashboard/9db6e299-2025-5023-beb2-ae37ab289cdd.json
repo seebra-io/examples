@@ -1,0 +1,43 @@
+{
+  "dashboard/id": "9db6e299-2025-5023-beb2-ae37ab289cdd",
+  "datas": [
+    ["data/id", "a8e33c08-5bd5-5fd3-bc5f-da82d633de0f"],
+    ["data/id", "dfd251f7-6390-5fea-a2ae-46acaae0ba9d"],
+    ["data/id", "0fece79b-3665-53dc-89a0-b096d415476f"],
+    ["data/id", "763c6fc4-c856-5175-a1e7-b4218ff89dbb"],
+    ["data/id", "c7048e21-ff21-5aba-9a44-87434fd7b302"],
+    ["data/id", "281bc1ba-e03b-5809-bb13-93146219812c"],
+    ["data/id", "bf55dbfe-5cf9-5c8a-ad60-d70f626feec2"],
+    ["data/id", "33245d82-55c7-5b65-9495-dab6fe418a93"],
+    ["data/id", "3abf8019-6730-5d30-b975-437423846072"],
+    ["data/id", "4ea62897-918f-5442-8a24-22c454ce130c"]
+  ],
+  "datasources": [
+    ["datasource/id", "546b1607-ad5a-584f-8f46-6e8e52f1fc9c"]
+  ],
+  "description": "CO₂ emissions per person against GDP per person (PPP) for every country of a million people or more, from the World Bank, and the paths of six countries since 1990. Statistics idea: an elasticity is a slope on log–log axes. Least squares of ln CO₂ on ln GDP gives the % change in emissions per 1% of income across countries, with a t interval and R². Within countries the slope over time is different, negative for Sweden, the UK, Germany and the US: a slope between groups is not the relation within them (ecological fallacy), and neither is a cause. Caveats: territorial emissions (imports not counted), latest year per country, PPP GDP in constant 2021 dollars.",
+  "graphs": [
+    ["graph/id", "5bfd17b3-cf87-5fe0-9e0c-67f541c4de25"],
+    ["graph/id", "f769279d-f3d4-5f2b-80cb-649a93fa9c71"]
+  ],
+  "grids": [],
+  "name": "CO₂ and income: elasticity on log–log axes",
+  "queries": [
+    ["query/id", "08e11300-f369-51f7-8c76-a54213355354"],
+    ["query/id", "7daaf3a6-cdef-5d09-82b6-8e02352a0519"],
+    ["query/id", "54c2745b-6f47-574a-b9f6-50385ec6b1f7"],
+    ["query/id", "0803fe23-50ec-56b9-9b4a-fd4eeb8edcde"],
+    ["query/id", "1c678a2a-b2e7-5968-9623-5a0e658aef07"],
+    ["query/id", "b1ed26cd-87ec-5f16-83e1-f9e61ab8d185"]
+  ],
+  "studies": [],
+  "tables": [],
+  "texts": [],
+  "timers": [],
+  "transformations": [
+    ["transformation/id", "cc2ab9d9-8fe7-5a07-9566-72fee86ac720"],
+    ["transformation/id", "c1bc2455-3e95-52ed-b672-c598e6bafb3f"],
+    ["transformation/id", "5265745a-c59e-58eb-97ca-cbbb79a79938"],
+    ["transformation/id", "2baaa426-9865-5fa1-96a3-081789bcd641"]
+  ]
+}

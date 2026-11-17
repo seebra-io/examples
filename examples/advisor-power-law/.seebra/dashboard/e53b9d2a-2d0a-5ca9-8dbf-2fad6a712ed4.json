@@ -1,0 +1,62 @@
+{
+  "dashboard/id": "e53b9d2a-2d0a-5ca9-8dbf-2fad6a712ed4",
+  "datas": [
+    ["data/id", "e5810274-512f-5ae8-84c0-552967e80abb"],
+    ["data/id", "73be1b49-a8f7-56a1-b819-744a60e0e47d"],
+    ["data/id", "c59c0a9d-1548-5230-826f-8809b4f873e1"],
+    ["data/id", "4dda24fe-bb3d-597d-99f0-f996c2355244"],
+    ["data/id", "715da144-da6b-5674-9c9f-0255bf58673e"],
+    ["data/id", "63796439-9e55-5fe9-a41a-0a85fa9060ee"],
+    ["data/id", "9248d691-c0fe-5b92-8901-01d88c6fdc8c"],
+    ["data/id", "073596ac-a893-54ff-846f-d08a34252cf7"],
+    ["data/id", "fb3c0058-dcb4-5312-be3f-e28f84d8c6d5"],
+    ["data/id", "bda4f65b-05ca-538b-9a34-79a094730094"],
+    ["data/id", "f87531b5-393e-5ef2-869c-4e916255440a"],
+    ["data/id", "30a5bc9d-51e3-5d9b-b54b-4b91a1051198"],
+    ["data/id", "adfe7c8a-c764-5d81-8cba-8c598c2b5ef2"],
+    ["data/id", "35b0cb75-7bfc-5c93-806f-1c777ee47107"],
+    ["data/id", "bc956ea6-9817-565c-805a-93de0796aa9e"]
+  ],
+  "datasources": [
+    ["datasource/id", "1424235d-19c5-5fc5-a6b7-8c79be4f231e"]
+  ],
+  "description": "Question: in the network of who supervised whose doctorate, do a few advisors really collect most of the students, and is it a power law? Idea: heavy-tailed degree distributions and how to test a power law properly (Clauset, Shalizi & Newman 2009). Wikidata's doctoral-advisor relation (P184) links 334,857 students to 118,046 advisors (407,946 supervisions). Half the advisors have one recorded student, the mean is 3.46, yet 7 have 100 or more (C.-C. Jay Kuo 149): a geometric distribution with the same mean would expect 2×10⁻¹⁰ such advisors, and 0.006 with 50 or more where there are 194. The other direction, advisors per student, is thin-tailed (81% have one, at most 12) and an exponential beats a power law on it (likelihood-ratio z = −362). The method: plot the CCDF P(K ≥ k), not the histogram; estimate α by maximum likelihood, α = 1 + n / Σ ln(k/(x_min − ½)); choose x_min by the smallest KS distance; test against an alternative with Vuong's likelihood ratio. Aha: a straight line through the log-log histogram gives α = 2.79 (a line through the CCDF, 3.56), the MLE gives 1.71 from k = 1 and 4.04 ± 0.17 from the best x_min = 27, and α keeps rising with x_min: the curve bends, so the tail is heavy (cumulative advantage: the top 1% of advisors hold 11.6% of supervisions) but not a clean power law, and in the tail (1,158 advisors) a power law and an exponential can't be told apart (z = −0.65). Caveats: Wikidata records what editors entered (famous and recent academics, bulk imports from genealogy projects), so coverage, not only sociology, shapes the tail; the discrete fit uses the continuous ½-offset approximation; a lognormal or a power law with cutoff (not computed) may fit better; supervisions are counted over whole careers and centuries. Next: drill into one field (P101) or one era (the students' P569 birth dates); expand with the Mathematics Genealogy Project's own counts, or OpenAlex co-authorship degrees.",
+  "graphs": [
+    ["graph/id", "81302ea8-1c7c-55b0-9315-d2035dea9e27"],
+    ["graph/id", "fe8b9626-0427-5aa2-884e-dacacc209ae1"],
+    ["graph/id", "468d5e9b-0289-5e8b-bec2-20679c0e245b"],
+    ["graph/id", "35b39f44-a69f-5148-8520-99b83dc4b837"],
+    ["graph/id", "78abfa8f-7721-52f3-975e-5aabe63eaf4a"]
+  ],
+  "grids": [],
+  "name": "Power laws in the doctoral-advisor network",
+  "ontology": {
+    "$file": ".seebra/dashboard/e53b9d2a-2d0a-5ca9-8dbf-2fad6a712ed4.ontology.json",
+    "$json": true
+  },
+  "queries": [
+    ["query/id", "4c6857f2-5b1a-5b1c-8862-4b3ce24f8e02"],
+    ["query/id", "3d338cdc-367a-53e1-beb7-06dc7d93cc9d"],
+    ["query/id", "a7e3804a-2b5f-5375-a58f-12918bed4388"]
+  ],
+  "studies": [
+    ["study/id", "7e075b51-c111-5f4c-9a45-ce8a977879ca"]
+  ],
+  "tables": [],
+  "texts": [],
+  "timers": [],
+  "transformations": [
+    ["transformation/id", "5fcf7ae4-2520-5fcf-9f98-c167d8e10bd0"],
+    ["transformation/id", "06208923-b276-59e3-954d-452952958bc7"],
+    ["transformation/id", "f937d1b7-6753-58bc-a40c-ff71d08498cb"],
+    ["transformation/id", "e316c821-9f16-53e5-b3ea-bfcb6dda9a77"],
+    ["transformation/id", "04510654-530a-5384-a9b1-0d9a291d5b51"],
+    ["transformation/id", "bd6631e6-4573-5ac1-bd2f-0b87f66f6055"],
+    ["transformation/id", "16544e4f-4302-5280-b8e2-61c29b2bb0e1"],
+    ["transformation/id", "d947c6f3-4b7b-5ae2-92a2-e4dbd6a99541"],
+    ["transformation/id", "e03e6b48-c503-56fc-9750-a3ac29313512"],
+    ["transformation/id", "c95d819f-6d2d-5011-b7a7-0ea1d9659645"],
+    ["transformation/id", "b9a343a8-96d6-53d8-acbf-6cb78497ff6d"],
+    ["transformation/id", "f0256f65-465b-5e10-9c60-6e8ac7f97ba1"]
+  ]
+}

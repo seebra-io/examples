@@ -1,0 +1,11 @@
+{
+  "data/id": "0d1596fc-1ecb-5def-8852-f8b14f1c2632",
+  "data/name": "Moving against still",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "910af924-fede-5266-895a-f4c464edfec8"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

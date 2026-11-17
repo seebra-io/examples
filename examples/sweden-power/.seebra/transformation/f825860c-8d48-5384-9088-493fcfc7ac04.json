@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/source-per-quarter-hour.polars.py"
+  },
+  "transformation/data-child": ["data/id", "cc0e11cf-5809-5f4c-ba08-a8db36c85a1d"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "f825860c-8d48-5384-9088-493fcfc7ac04",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Source per quarter hour",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "88fd56f1-0235-5a70-9b9a-66dd0f076866"],
+  "transformation/units": "{}"
+}

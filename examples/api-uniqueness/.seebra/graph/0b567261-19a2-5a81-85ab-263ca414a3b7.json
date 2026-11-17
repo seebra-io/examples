@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/how-unique-are-the-apis-the-score-s-distribution.js"
+  },
+  "graph/id": "0b567261-19a2-5a81-85ab-263ca414a3b7",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "How unique are the APIs? The score's distribution, by top-level field",
+  "graph/node": {
+    "node/x": 2380,
+    "node/y": 1280
+  },
+  "graph/parent": ["data/id", "f2999a8c-0252-5608-9a77-fc5e649c121e"]
+}

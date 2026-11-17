@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/spotify-played-a-lot-skipped-a-lot.js"
+  },
+  "graph/id": "c0d57e63-0649-57e3-b90e-40e163264838",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Spotify: played a lot, skipped a lot?",
+  "graph/node": {
+    "node/x": 1920,
+    "node/y": 80
+  },
+  "graph/parent": ["data/id", "a51dc755-c703-5fd5-9bef-994dd0f56535"]
+}

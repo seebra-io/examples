@@ -1,0 +1,212 @@
+{
+  "title": "Wahlund effect in 1000 Genomes",
+  "question": "Per variant and pooled sample (ALL, each super-population), is the observed heterozygote deficit F explained by F_ST, the variance of the pooled populations' allele frequencies over p̄(1 − p̄)?",
+  "hypotheses": [
+    {
+      "id": "H1",
+      "statement": "In pooled samples the heterozygote deficit F rises one for one with F_ST predicted from the populations' allele frequencies.",
+      "null": "F in pooled samples is unrelated to F_ST (pooling does not explain the departures).",
+      "outcome": {
+        "concept": "Heterozygote deficit (F)",
+        "field": "wahlund.F_observed"
+      },
+      "predictor": {
+        "concept": "Population differentiation (F_ST)",
+        "field": "wahlund.fst"
+      },
+      "subgroup": null,
+      "direction": "equal",
+      "test": {
+        "method": "regression",
+        "link": null,
+        "outcome_mode": "mean",
+        "outcome_field": "F_observed",
+        "predictor_field": "fst",
+        "exposure_field": null,
+        "versus": null,
+        "against": 1
+      }
+    },
+    {
+      "id": "H2",
+      "statement": "Within single populations the genotypes follow Hardy–Weinberg: F is near 0 and p < 0.05 no more often than chance (5%).",
+      "null": "Single populations depart from Hardy–Weinberg more often than chance.",
+      "outcome": {
+        "concept": "Hardy–Weinberg departure",
+        "field": "hwe.p_value"
+      },
+      "predictor": {
+        "concept": "Sample level",
+        "field": "hwe.level"
+      },
+      "subgroup": {
+        "concept": "Sample level",
+        "category": "population"
+      },
+      "direction": "any",
+      "test": {
+        "method": "means",
+        "link": null,
+        "outcome_mode": "mean",
+        "outcome_field": "F",
+        "predictor_field": "level",
+        "exposure_field": null,
+        "versus": "all 26 pooled"
+      }
+    },
+    {
+      "id": "H3",
+      "statement": "The sickle-cell allele (rs334) has more heterozygotes than Hardy–Weinberg expects in African populations (F < 0): HbS homozygotes are rare because sickle-cell disease is severe, while carriers are protected from malaria.",
+      "null": "rs334 genotypes in African populations follow Hardy–Weinberg (F = 0).",
+      "outcome": {
+        "concept": "Heterozygote deficit (F)",
+        "field": "hwe.F"
+      },
+      "predictor": {
+        "concept": "Variant",
+        "field": "hwe.rsid"
+      },
+      "subgroup": {
+        "concept": "Super-population",
+        "category": "AFR"
+      },
+      "direction": "decrease",
+      "test": {
+        "method": "means",
+        "link": null,
+        "outcome_mode": "mean",
+        "outcome_field": "F",
+        "predictor_field": "rsid",
+        "exposure_field": null,
+        "versus": null
+      }
+    }
+  ],
+  "concepts": [
+    {
+      "label": "Hardy–Weinberg equilibrium",
+      "kind": "measure",
+      "description": "Genotype frequencies p², 2pq, q² under random mating.",
+      "why": "The null model each sample is tested against.",
+      "have": true,
+      "categories": [],
+      "field": null,
+      "strategy": null
+    },
+    {
+      "label": "Heterozygote deficit (F)",
+      "kind": "measure",
+      "description": "1 − observed/expected heterozygotes.",
+      "why": "The outcome.",
+      "have": true,
+      "categories": [],
+      "field": null,
+      "strategy": null
+    },
+    {
+      "label": "Population differentiation (F_ST)",
+      "kind": "measure",
+      "description": "Variance of allele frequency between populations over p̄(1 − p̄).",
+      "why": "The predictor: Wahlund's F.",
+      "have": true,
+      "categories": [],
+      "field": null,
+      "strategy": null
+    },
+    {
+      "label": "Sample level",
+      "kind": "category",
+      "description": "Population, super-population pooled, all pooled.",
+      "why": "Pooling is the treatment.",
+      "have": true,
+      "categories": [
+        "population",
+        "super-population pooled",
+        "all 26 pooled"
+      ],
+      "field": "hwe.level",
+      "strategy": null
+    },
+    {
+      "label": "Natural selection",
+      "kind": "event",
+      "description": "Selection on the variant (lactase persistence, skin colour, malaria resistance).",
+      "why": "Drives the frequency differences behind F_ST, and for HbS the heterozygote excess.",
+      "have": false,
+      "categories": [],
+      "field": null,
+      "strategy": {
+        "how": "fetch",
+        "detail": "Selection scans (e.g. iHS, PBS) per variant from the literature or Ensembl's variant pages."
+      }
+    }
+  ],
+  "review": {
+    "well_formed": true,
+    "issues": [
+      {
+        "kind": "scope",
+        "text": "Five variants and six pooled samples per variant give 30 points for H1; populations of about 100 people have little power to see small departures within populations.",
+        "fix": "Read H2 as 'no large departures'; add variants (any rsID works) to widen H1."
+      },
+      {
+        "kind": "causal",
+        "text": "Departures from Hardy–Weinberg can also come from genotyping errors, relatives in the sample or selection, not only pooling.",
+        "fix": "H1 says how much pooling explains; the gap column holds the rest."
+      }
+    ],
+    "alternatives": [
+      {
+        "question": "Does the pooled deficit in each super-population match F_ST among its own populations?",
+        "why": "Drill down: the same law at a finer scale.",
+        "ready": true
+      },
+      {
+        "question": "Do variants under known selection (LCT, SLC24A5) have higher F_ST than random common variants?",
+        "why": "Expand: needs a sample of random variants.",
+        "ready": false
+      }
+    ]
+  },
+  "data": [
+    {
+      "concept": "Random common variants",
+      "request": "Genotype counts per 1000 Genomes population for a random sample of common SNPs (MAF > 5%).",
+      "source": "Ensembl REST /variation/human/:id?population_genotypes=1",
+      "why": "A neutral baseline for F_ST."
+    }
+  ],
+  "links": [],
+  "method": {
+    "id": "regression",
+    "summary": "Regress F_observed on fst across the 30 pooled samples (5 variants × ALL and 5 super-populations); Wahlund predicts slope 1 and intercept 0."
+  },
+  "steps": [
+    {
+      "kind": "method",
+      "title": "Hardy–Weinberg per sample",
+      "detail": "hwe: p, expected counts, chi2 (1 df), p_value and F per variant and sample."
+    },
+    {
+      "kind": "method",
+      "title": "F_ST from the populations",
+      "detail": "wahlund: size-weighted variance of p among the populations pooled, over p̄(1 − p̄)."
+    },
+    {
+      "kind": "method",
+      "title": "Regress F_observed on fst",
+      "detail": "30 rows of wahlund; read the slope against 1."
+    },
+    {
+      "kind": "decide",
+      "title": "Pooling or something else?",
+      "detail": "Accept H1 when the slope is near 1; read gap = F_observed − fst for what pooling leaves; check H3 on rs334's African rows of hwe."
+    }
+  ],
+  "caveats": [
+    "The five variants were chosen because they are known to differ between populations or be under selection: they are not a random sample.",
+    "1000 Genomes populations have about 60–113 people: a population chi-square has little power, and rare genotypes make it unreliable (expected counts under 5).",
+    "Genotypes are imputed and phased calls, not direct assays; errors show as departures from Hardy–Weinberg too.",
+    "F_ST here is the simple variance ratio over the populations pooled (no sample-size correction, as in Weir & Cockerham)."
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "1b6cc565-10a9-570c-aeac-361f88115c6c"],
+  "query/datasource": ["datasource/id", "7b2cdefc-274b-5b4b-9bb4-70bb3ad2ef26"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "ba9019d0-f1e7-5da6-8295-c87f7b651213",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Arable land (ha), latest",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 560
+  },
+  "query/params": "{\"format\":\"json\",\"mrnev\":\"1\",\"per_page\":\"400\"}",
+  "query/path": "/country/all/indicator/AG.LND.ARBL.HA",
+  "query/request-body": "",
+  "query/units": "{}"
+}

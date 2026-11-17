@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/allocatable-per-node.polars.py"
+  },
+  "transformation/data-child": ["data/id", "9e52cdec-e2bb-504e-85bd-d740852f4bbd"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "03c9d4f4-76a8-5de5-bcc4-84de9f2c9805",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Allocatable per node",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "49e58f2f-aac9-5200-8f07-7a6f09a20ce4"],
+  "transformation/units": "{}"
+}

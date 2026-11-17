@@ -1,0 +1,21 @@
+{
+  "transformation/content": {
+    "$file": "transforms/periodogram-terms-x-t-cos-and-x-t-sin-at-each.sql"
+  },
+  "transformation/data-child": ["data/id", "39aae013-3d97-5eb7-84ab-18c80c8ce101"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "15507449-40aa-5884-ae95-fe0d6e377aeb",
+  "transformation/inputs": [
+    ["data/id", "d085cc76-a44f-5978-883a-f096470c225e"]
+  ],
+  "transformation/language": "sql",
+  "transformation/name": "Periodogram terms: x(t)·cos and x(t)·sin at each trial period",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 2380,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "a919038b-eb6e-5fd8-97df-2941fadef72d"],
+  "transformation/units": "{}"
+}

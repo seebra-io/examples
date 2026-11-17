@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/highway-against-city-energy.js"
+  },
+  "graph/id": "3cec8f30-c0c8-5ed4-9d41-63f643a2584f",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Highway against city energy",
+  "graph/node": {
+    "node/x": 1460,
+    "node/y": 1040
+  },
+  "graph/parent": ["data/id", "6b3cc1c5-69ee-57d8-af5c-85c30944a793"]
+}

@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/hourly-log-returns-7-day-sparkline.polars.py"
+  },
+  "transformation/data-child": ["data/id", "608eb311-d319-5c38-b5d6-73f884cefe0f"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "6dfc4c2f-7c90-5c72-b3dd-01d06a72d5b9",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Hourly log returns (7-day sparkline)",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "7947c4b2-936f-5146-96dc-a47338a9b6e8"],
+  "transformation/units": "{}"
+}

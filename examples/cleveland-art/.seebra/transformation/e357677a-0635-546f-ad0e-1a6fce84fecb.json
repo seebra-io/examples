@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/catalog.polars.py"
+  },
+  "transformation/data-child": ["data/id", "191c93bf-c560-5939-8583-7787bbbd74ad"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "e357677a-0635-546f-ad0e-1a6fce84fecb",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Catalog",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "2ffed433-54bb-56e6-ae93-17a1fa8406ab"],
+  "transformation/units": "{}"
+}

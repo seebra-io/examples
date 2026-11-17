@@ -1,0 +1,33 @@
+{
+  "dashboard/id": "d6e77565-129b-53d5-8007-a1f0135f9c81",
+  "datas": [
+    ["data/id", "4c384403-ef93-5abc-9e92-21c8f0813240"],
+    ["data/id", "d3091a36-9cc9-5d27-abe1-a3d0960b42d9"],
+    ["data/id", "31aaa9d1-397c-5c51-9335-d52339c694e4"],
+    ["data/id", "edaf4a65-61da-53a2-bdc9-210905e61878"],
+    ["data/id", "0437c273-a247-565c-b4e2-5cef9315b449"]
+  ],
+  "datasources": [
+    ["datasource/id", "3b316dd2-f7ac-5073-81bd-4d053efeaa65"]
+  ],
+  "description": "The 100 issues opened in the Polars repository in the first half of March 2025, from GitHub's search API: when each was closed, or that it is still open. Statistics idea: survival analysis with censoring. An issue still open is censored: it lasted at least this long. The Kaplan–Meier estimator (with Greenwood's 95% band) gives the share still open after t days, for all issues and for bugs against enhancements, and its median is compared with the median of the closed issues only, which is biased low. Caveats: one repository and two weeks; 'closed' includes 'not planned'; unauthenticated GitHub search allows 10 requests a minute.",
+  "graphs": [
+    ["graph/id", "8afdc64f-b80c-5784-adc3-aa0bb69b3193"],
+    ["graph/id", "166f3426-3969-5809-a495-5ebcaeb97251"]
+  ],
+  "grids": [],
+  "name": "How long issues stay open",
+  "queries": [
+    ["query/id", "1937b329-be0e-588f-9c56-ce8345966a44"]
+  ],
+  "studies": [],
+  "tables": [],
+  "texts": [],
+  "timers": [],
+  "transformations": [
+    ["transformation/id", "02eacddb-db80-5007-8985-4f13ab8d51ce"],
+    ["transformation/id", "034b27cf-cff3-583d-8445-cd154d4769b9"],
+    ["transformation/id", "29a12f06-7097-5e50-899c-4a2391560337"],
+    ["transformation/id", "80145039-03e1-521d-953c-d8c3fd9cbfe7"]
+  ]
+}

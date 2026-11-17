@@ -1,0 +1,21 @@
+{
+  "transformation/content": {
+    "$file": "transforms/1ubq-residues-and-secondary-structure.polars.py"
+  },
+  "transformation/data-child": ["data/id", "94214b56-beb2-5690-80f8-01ea9fbc99e4"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "68498c11-fd12-5135-acef-f5b08b82d0f3",
+  "transformation/inputs": [
+    ["data/id", "1111661b-4480-5ab3-b29c-34cbeb6da7be"]
+  ],
+  "transformation/language": "polars",
+  "transformation/name": "1UBQ residues: φ, ψ and secondary structure",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 560
+  },
+  "transformation/parent": ["data/id", "488c6073-7b03-5cc3-a5f4-835cc584d907"],
+  "transformation/units": "{}"
+}

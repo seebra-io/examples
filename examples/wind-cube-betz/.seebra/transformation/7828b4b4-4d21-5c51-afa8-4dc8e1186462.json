@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/cube-law-ln-p-on-ln-v.polars.py"
+  },
+  "transformation/data-child": ["data/id", "6754948d-5eb0-5d4c-81ea-79305b027d62"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "7828b4b4-4d21-5c51-afa8-4dc8e1186462",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Cube law: ln P on ln v",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1920,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "b67bf7f9-f413-5c91-a626-8c2ad1ca715b"],
+  "transformation/units": "{}"
+}

@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/scaling-law-per-group-genes-a-size-b.polars.py"
+  },
+  "transformation/data-child": ["data/id", "df9ed219-f6a1-539f-b9ea-aa7d38b65903"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "b04421aa-d184-5efc-959f-8935d5de88f8",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Scaling law per group: genes = a · size^b",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 2380,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "e798d48f-1ad8-581b-916f-3bf771ad434f"],
+  "transformation/units": "{}"
+}

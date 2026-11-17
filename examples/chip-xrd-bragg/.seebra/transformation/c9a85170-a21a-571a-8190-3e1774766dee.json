@@ -1,0 +1,22 @@
+{
+  "transformation/content": {
+    "$file": "transforms/powder-pattern-bragg-angles-and-intensities-cu-k.sql"
+  },
+  "transformation/data-child": ["data/id", "cabddb2f-6867-5e76-bc97-3df1e62350bb"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "c9a85170-a21a-571a-8190-3e1774766dee",
+  "transformation/inputs": [
+    ["data/id", "44d8c465-14c5-5a0c-bf9e-6ba8b3e67d38"],
+    ["data/id", "b9e8842f-54b6-59fd-a3d4-bd4e94bf83f3"]
+  ],
+  "transformation/language": "sql",
+  "transformation/name": "Powder pattern: Bragg angles and intensities (Cu Kα1)",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1920,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "6c626d44-2db1-5859-b2d8-033cfc58c2ce"],
+  "transformation/units": "{}"
+}

@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/distribution-of-first-publication-decades.js"
+  },
+  "graph/id": "bff00902-c1de-5e71-ada5-f6544da0884a",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Distribution of first-publication decades",
+  "graph/node": {
+    "node/x": 1920,
+    "node/y": 80
+  },
+  "graph/parent": ["data/id", "59207d80-dd94-579a-bc1e-8c1b994a930a"]
+}

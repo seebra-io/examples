@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "6a34c283-64b0-542f-9a25-1ff3056a734c"],
+  "query/datasource": ["datasource/id", "cb5e61e3-61d7-5349-ac10-33bfc1ff8ecc"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "9b11b3e1-771b-5777-afcf-9dd0e5acaf1b",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Bridges and mean lowest rating per main-span material and year built",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 320
+  },
+  "query/params": "{\"where\":\"LOWEST_RATING>=0\",\"groupByFieldsForStatistics\":\"STRUCTURE_KIND_043A,YEAR_BUILT_027\",\"outStatistics\":\"[{\\\"statisticType\\\":\\\"count\\\",\\\"onStatisticField\\\":\\\"OBJECTID\\\",\\\"outStatisticFieldName\\\":\\\"n\\\"},{\\\"statisticType\\\":\\\"avg\\\",\\\"onStatisticField\\\":\\\"LOWEST_RATING\\\",\\\"outStatisticFieldName\\\":\\\"mean_rating\\\"}]\",\"f\":\"json\"}",
+  "query/path": "/query",
+  "query/request-body": "",
+  "query/units": "{}"
+}

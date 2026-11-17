@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/per-film-characters-swapi-can-and-can-t-weigh.js"
+  },
+  "graph/id": "c09e0fb9-97a4-5f37-8a81-ae4199c6263d",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Per film: characters SWAPI can and can't weigh",
+  "graph/node": {
+    "node/x": 1460,
+    "node/y": 1280
+  },
+  "graph/parent": ["data/id", "8d861105-dd24-52e1-8e5b-c48e4740596f"]
+}

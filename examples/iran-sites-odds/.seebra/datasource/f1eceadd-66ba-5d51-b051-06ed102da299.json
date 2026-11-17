@@ -1,0 +1,16 @@
+{
+  "datasource/api-key-key": "api_key",
+  "datasource/auth-type": "none",
+  "datasource/headers": "{}",
+  "datasource/id": "f1eceadd-66ba-5d51-b051-06ed102da299",
+  "datasource/name": "Manifold Markets",
+  "datasource/node": {
+    "inputs": 1,
+    "node/x": 80,
+    "node/y": 1280,
+    "outputs": 1
+  },
+  "datasource/params": "{}",
+  "datasource/type": "openapi",
+  "datasource/url": "https://api.manifold.markets/v0"
+}

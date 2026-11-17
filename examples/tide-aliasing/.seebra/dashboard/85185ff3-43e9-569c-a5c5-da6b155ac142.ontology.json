@@ -1,0 +1,124 @@
+{
+  "title": "Sampling and aliasing",
+  "summary": "A tide gauge's water levels as a sampled signal: the tidal constituents it contains, the sampling theorem that says which of them a sampling rate can see, and the aliasing and filtering that follow.",
+  "concepts": [
+    {
+      "cid": "c1",
+      "label": "Tide",
+      "kind": "event",
+      "description": "The periodic rise and fall of sea level from the Moon's and Sun's gravity.",
+      "fields": [
+        "level_m"
+      ],
+      "in_data": true,
+      "wikidata": "Q23384",
+      "facts": [
+        {
+          "text": "Station 9414290, San Francisco, has recorded water levels since 1854.",
+          "source": "https://tidesandcurrents.noaa.gov/stationhome.html?id=9414290"
+        }
+      ],
+      "children": [
+        {
+          "cid": "c2",
+          "label": "Tidal constituent",
+          "kind": "category",
+          "as": "part",
+          "description": "One sinusoid of the tide with a fixed astronomical speed (M2, S2, N2, K1, O1).",
+          "fields": [
+            "constituent",
+            "f_cpd"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c3",
+          "label": "Spring–neap cycle",
+          "kind": "event",
+          "as": "property",
+          "description": "The 14.77-day beat of M2 and S2: real, and close in period to the daily-sampling alias of M2.",
+          "in_data": false
+        },
+        {
+          "cid": "c4",
+          "label": "Harmonic prediction",
+          "kind": "measure",
+          "as": "property",
+          "description": "NOAA's predicted tide from the station's constituents (product=predictions): the expected signal to compare with.",
+          "in_data": false
+        }
+      ]
+    },
+    {
+      "cid": "c5",
+      "label": "Sampling",
+      "kind": "entity",
+      "description": "Reading a continuous signal at discrete times.",
+      "fields": [
+        "scheme",
+        "step_h",
+        "fs_cpd"
+      ],
+      "in_data": true,
+      "children": [
+        {
+          "cid": "c6",
+          "label": "Nyquist frequency",
+          "kind": "measure",
+          "as": "property",
+          "description": "Half the sampling rate: the highest frequency a sampler can represent.",
+          "fields": [
+            "nyquist_cpd"
+          ],
+          "in_data": true,
+          "wikidata": "Q1061887"
+        },
+        {
+          "cid": "c7",
+          "label": "Aliasing",
+          "kind": "event",
+          "as": "property",
+          "description": "A frequency above Nyquist reappearing at |f − k·fs|.",
+          "fields": [
+            "alias_cpd",
+            "apparent_period_days"
+          ],
+          "in_data": true,
+          "wikidata": "Q868732"
+        },
+        {
+          "cid": "c8",
+          "label": "Anti-aliasing filter",
+          "kind": "entity",
+          "as": "part",
+          "description": "A low-pass filter before the sampler; here the daily mean.",
+          "fields": [
+            "scheme"
+          ],
+          "in_data": true
+        }
+      ]
+    },
+    {
+      "cid": "c9",
+      "label": "Spectrum",
+      "kind": "measure",
+      "description": "Amplitude per frequency, from a discrete Fourier transform.",
+      "fields": [
+        "f_cpd",
+        "amplitude_m"
+      ],
+      "in_data": true,
+      "children": [
+        {
+          "cid": "c10",
+          "label": "Spectral leakage",
+          "kind": "measure",
+          "as": "property",
+          "description": "Energy of a line spreading to neighbouring frequencies when the record is finite and unwindowed.",
+          "in_data": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "fd11323e-6571-570c-b195-d1f5eff25721"],
+  "query/datasource": ["datasource/id", "23b72160-7ab1-5dec-b6cc-a89c4f0432e2"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "24a9c25d-90c2-5193-ad54-6af7d564ba8e",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Periodic table (atomic numbers)",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 1520
+  },
+  "query/params": "{}",
+  "query/path": "/periodictable/JSON",
+  "query/request-body": "",
+  "query/units": "{}"
+}

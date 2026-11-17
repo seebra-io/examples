@@ -1,0 +1,21 @@
+{
+  "transformation/content": {
+    "$file": "transforms/caffeine-against-adenosine-per-residue.polars.py"
+  },
+  "transformation/data-child": ["data/id", "44350a8b-318a-54f7-b603-a5f63dc4a595"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "1e1b48ea-c057-52f8-8910-82ab600a5976",
+  "transformation/inputs": [
+    ["data/id", "3f88e9b1-66f9-5652-95af-daf2f11884d7"]
+  ],
+  "transformation/language": "polars",
+  "transformation/name": "Caffeine against adenosine, per residue",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 3300,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "87fe7e6f-81c4-51e9-8149-b2e25930233e"],
+  "transformation/units": "{}"
+}

@@ -1,0 +1,10 @@
+{
+  "data/id": "54f0eb1a-d332-5dd8-90c5-85f1ab67919e",
+  "data/name": "How well the hypsometric equation matches the model data",
+  "data/node": {
+    "node/x": 2530,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "6392b4b5-a2b0-5fec-b46a-9947d8020c5e"],
+  "data/type": "json"
+}

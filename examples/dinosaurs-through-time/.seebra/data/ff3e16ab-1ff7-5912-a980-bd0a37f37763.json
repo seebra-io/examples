@@ -1,0 +1,10 @@
+{
+  "data/id": "ff3e16ab-1ff7-5912-a980-bd0a37f37763",
+  "data/name": "Genera: group, first and last appearance data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "25b930b9-0cc7-51f4-bb77-6ebc453fd1e8"],
+  "data/type": "json"
+}

@@ -1,0 +1,10 @@
+{
+  "data/id": "00cbc63b-b05a-544c-9a6c-1e6fa96724ab",
+  "data/name": "SMHI forecast at ESGG (57.66°N 12.28°E) data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 1760
+  },
+  "data/parent": ["query/id", "ced0fa77-083c-5954-abf7-03eb5eda5580"],
+  "data/type": "json"
+}

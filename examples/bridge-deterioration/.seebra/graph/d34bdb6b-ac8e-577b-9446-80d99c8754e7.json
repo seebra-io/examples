@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/condition-ratings-by-age-the-whole-inventory-as.js"
+  },
+  "graph/id": "d34bdb6b-ac8e-577b-9446-80d99c8754e7",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Condition ratings by age: the whole inventory as a distribution",
+  "graph/node": {
+    "node/x": 1460,
+    "node/y": 560
+  },
+  "graph/parent": ["data/id", "f79a1049-8ff9-5a2f-8d0c-9b200eea121b"]
+}

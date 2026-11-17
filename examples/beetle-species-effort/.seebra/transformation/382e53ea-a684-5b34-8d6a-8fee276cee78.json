@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/species-gotland.polars.py"
+  },
+  "transformation/data-child": ["data/id", "839f0998-095d-528c-b656-86b08e5a2184"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "382e53ea-a684-5b34-8d6a-8fee276cee78",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Species, Gotland",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "92e5591b-b979-5a49-a8de-0caa3aa32e86"],
+  "transformation/units": "{}"
+}

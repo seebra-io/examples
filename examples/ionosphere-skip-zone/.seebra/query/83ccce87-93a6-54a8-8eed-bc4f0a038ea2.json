@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "928a878e-8ccc-5221-90cc-cec0a6e4f4e1"],
+  "query/datasource": ["datasource/id", "a1678161-2b8f-5c4a-bb88-b509f34412d9"],
+  "query/dynamic?": false,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "83ccce87-93a6-54a8-8eed-bc4f0a038ea2",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Newest ionogram per station",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 80
+  },
+  "query/params": "{}",
+  "query/path": "/api/stations.json",
+  "query/request-body": "",
+  "query/units": "{}"
+}

@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/aircraft-per-circle.js"
+  },
+  "transformation/data-child": ["data/id", "e94f5cb9-618f-5f55-bbef-712ba036feaa"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "js-web-worker",
+  "transformation/id": "dcd70a99-b3f9-58f3-88a0-e58ba9ef0afc",
+  "transformation/inputs": [],
+  "transformation/language": "javascript",
+  "transformation/name": "Aircraft per circle",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "3212d1a0-78f1-5d28-830c-f4a85884d40a"],
+  "transformation/units": "{}"
+}

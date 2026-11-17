@@ -1,0 +1,132 @@
+{
+  "title": "The Ramachandran plot",
+  "summary": "Backbone dihedral angles φ and ψ are confined to a few sterically allowed regions, and secondary structures are those regions.",
+  "concepts": [
+    {
+      "cid": "c1",
+      "label": "Protein structure",
+      "kind": "entity",
+      "description": "A PDB entry: atomic coordinates of a protein.",
+      "fields": [
+        "regions.entry"
+      ],
+      "in_data": true,
+      "wikidata": "Q735188",
+      "children": [
+        {
+          "cid": "c2",
+          "label": "Residue",
+          "kind": "entity",
+          "as": "part",
+          "description": "One amino acid in the chain.",
+          "fields": [
+            "regions.res",
+            "regions.num"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c3",
+          "label": "Backbone dihedral angle",
+          "kind": "measure",
+          "as": "property",
+          "description": "φ (C–N–Cα–C) and ψ (N–Cα–C–N) in degrees.",
+          "fields": [
+            "regions.phi",
+            "regions.psi"
+          ],
+          "in_data": true,
+          "wikidata": "Q1197770"
+        },
+        {
+          "cid": "c4",
+          "label": "Secondary structure",
+          "kind": "category",
+          "as": "property",
+          "description": "Helix, strand or loop, from PDBe.",
+          "fields": [
+            "regions.ss"
+          ],
+          "in_data": true,
+          "wikidata": "Q898362",
+          "children": [
+            {
+              "cid": "c5",
+              "label": "Alpha helix",
+              "kind": "category",
+              "as": "subtype",
+              "description": "Residues near φ −63°, ψ −42°; i → i+4 hydrogen bonds.",
+              "in_data": true,
+              "wikidata": "Q123191"
+            },
+            {
+              "cid": "c6",
+              "label": "Beta strand",
+              "kind": "category",
+              "as": "subtype",
+              "description": "Extended residues near φ −120°, ψ +130°, paired into sheets.",
+              "in_data": true,
+              "wikidata": "Q425186"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cid": "c7",
+      "label": "Ramachandran plot",
+      "kind": "measure",
+      "description": "The φ–ψ plane and its allowed regions.",
+      "fields": [
+        "regions.region",
+        "occupancy.cum_share"
+      ],
+      "in_data": true,
+      "wikidata": "Q1273669",
+      "facts": [
+        {
+          "text": "Ramachandran, Ramakrishnan and Sasisekharan derived the allowed regions from hard-sphere contacts in 1963.",
+          "source": "https://doi.org/10.1016/S0022-2836(63)80023-6"
+        }
+      ],
+      "children": [
+        {
+          "cid": "c8",
+          "label": "Steric clash",
+          "kind": "concept",
+          "as": "property",
+          "description": "Atoms closer than their van der Waals radii allow: what forbids most of the plane.",
+          "in_data": false
+        },
+        {
+          "cid": "c9",
+          "label": "Structure validation",
+          "kind": "measure",
+          "as": "property",
+          "description": "MolProbity's Favored / Allowed / Outlier verdict per residue.",
+          "fields": [
+            "regions.rama"
+          ],
+          "in_data": true
+        }
+      ]
+    },
+    {
+      "cid": "c10",
+      "label": "Amino acid type",
+      "kind": "category",
+      "description": "Glycine (no side chain) and proline (ring) have their own allowed regions.",
+      "fields": [
+        "regions.kind"
+      ],
+      "in_data": true
+    },
+    {
+      "cid": "c11",
+      "label": "Protein dynamics",
+      "kind": "concept",
+      "description": "Angles move in solution; NMR ensembles and MD show the spread a crystal hides.",
+      "in_data": false
+    }
+  ]
+}

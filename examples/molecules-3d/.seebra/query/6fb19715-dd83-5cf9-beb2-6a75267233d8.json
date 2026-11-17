@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "fa8ca6d4-4e9b-588c-9d5b-2c12888ce4ea"],
+  "query/datasource": ["datasource/id", "9962eda6-0f45-5a81-bd30-41937bbd2284"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "6fb19715-dd83-5cf9-beb2-6a75267233d8",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Caffeine 3D conformer",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 80
+  },
+  "query/params": "{\"record_type\":\"3d\"}",
+  "query/path": "/compound/name/caffeine/JSON",
+  "query/request-body": "",
+  "query/units": "{}"
+}

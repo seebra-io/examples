@@ -1,0 +1,11 @@
+{
+  "data/id": "f65d7d45-f930-5497-b4d1-6280e2fb201d",
+  "data/name": "Materials",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "7c09ff14-626d-501f-8e73-c1fcb6874961"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

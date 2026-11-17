@@ -1,0 +1,10 @@
+{
+  "data/id": "37b963bf-8c13-5473-8e6a-ced28ec8a8a1",
+  "data/name": "Where did the clock stop doubling? A two-line fit for every break year data",
+  "data/node": {
+    "node/x": 2070,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "5257f5de-583a-598a-9c8d-64c3ce28d7a9"],
+  "data/type": "json"
+}

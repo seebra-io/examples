@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/elasticity-least-squares-of-ln-co2-on-ln-gdp.polars.py"
+  },
+  "transformation/data-child": ["data/id", "33245d82-55c7-5b65-9495-dab6fe418a93"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "c1bc2455-3e95-52ed-b672-c598e6bafb3f",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Elasticity: least squares of ln CO₂ on ln GDP, with a t interval",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "bf55dbfe-5cf9-5c8a-ad60-d70f626feec2"],
+  "transformation/units": "{}"
+}

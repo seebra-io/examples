@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/books.polars.py"
+  },
+  "transformation/data-child": ["data/id", "7107c97b-7b51-5bcb-a4c0-5400fc717c82"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "8fcb908c-1fc3-59f1-880d-b1f9b561e853",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Books",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "a1c08195-858c-5569-8768-5f65d8b3face"],
+  "transformation/units": "{}"
+}

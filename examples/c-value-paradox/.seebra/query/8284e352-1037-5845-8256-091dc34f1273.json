@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "2ffb9345-6d0b-5795-9688-617b509adac1"],
+  "query/datasource": ["datasource/id", "48c6bdde-2deb-595f-aa40-7fc6a0ddcdc1"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "8284e352-1037-5845-8256-091dc34f1273",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Plants (Viridiplantae): annotated reference genomes",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 800
+  },
+  "query/params": "{\"filters.reference_only\":\"true\",\"filters.has_annotation\":\"true\",\"page_size\":\"200\"}",
+  "query/path": "/genome/taxon/33090/dataset_report",
+  "query/request-body": "",
+  "query/units": "{}"
+}

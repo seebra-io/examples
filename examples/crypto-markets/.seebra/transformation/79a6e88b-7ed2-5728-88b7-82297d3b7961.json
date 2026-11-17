@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/correlation-of-hourly-log-returns-every-pair.polars.py"
+  },
+  "transformation/data-child": ["data/id", "46dc2902-f6c4-51b2-8322-b73414787669"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "79a6e88b-7ed2-5728-88b7-82297d3b7961",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Correlation of hourly log returns (every pair)",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "608eb311-d319-5c38-b5d6-73f884cefe0f"],
+  "transformation/units": "{}"
+}

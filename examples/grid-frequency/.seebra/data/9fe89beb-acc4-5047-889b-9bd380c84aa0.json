@@ -1,0 +1,11 @@
+{
+  "data/id": "9fe89beb-acc4-5047-889b-9bd380c84aa0",
+  "data/name": "The day in numbers",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 800
+  },
+  "data/parent": ["transformation/id", "4b1a1be0-1850-50a2-beb3-2c711dc56be1"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

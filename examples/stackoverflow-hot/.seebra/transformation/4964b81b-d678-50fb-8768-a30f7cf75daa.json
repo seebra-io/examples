@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/tags-with-python.polars.py"
+  },
+  "transformation/data-child": ["data/id", "a2e0a938-626c-55e2-85dd-de255ed0de4f"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "4964b81b-d678-50fb-8768-a30f7cf75daa",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Tags with Python",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "da17c55b-e0a1-5daa-9102-d722229fd1b2"],
+  "transformation/units": "{}"
+}

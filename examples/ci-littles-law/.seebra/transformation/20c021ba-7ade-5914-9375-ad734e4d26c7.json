@@ -1,0 +1,24 @@
+{
+  "transformation/content": {
+    "$file": "transforms/the-day-s-runs.sql"
+  },
+  "transformation/data-child": ["data/id", "92494ad0-69f3-50fb-b236-ddd215e6c8b5"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "20c021ba-7ade-5914-9375-ad734e4d26c7",
+  "transformation/inputs": [
+    ["data/id", "d4efb546-1180-5fe5-8ce6-3a0a76d400fa"],
+    ["data/id", "490fceb1-661f-583b-bbce-e7f4eb7c3811"],
+    ["data/id", "d78d6afa-fbc6-5b94-9b38-4a8d11f2f70b"],
+    ["data/id", "fe5fde25-9bcf-558a-a106-cbd3023537c1"]
+  ],
+  "transformation/language": "sql",
+  "transformation/name": "The day's runs",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "122e9d40-dc49-508a-bfe2-a1064751061d"],
+  "transformation/units": "{}"
+}

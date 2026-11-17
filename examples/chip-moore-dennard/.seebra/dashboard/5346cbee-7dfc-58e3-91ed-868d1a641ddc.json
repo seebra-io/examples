@@ -1,0 +1,62 @@
+{
+  "dashboard/id": "5346cbee-7dfc-58e3-91ed-868d1a641ddc",
+  "datas": [
+    ["data/id", "9cefe24e-ebbd-52a7-974b-84ea362c1948"],
+    ["data/id", "7872d118-1f2b-51dd-9bcf-a766b215f230"],
+    ["data/id", "518be0e1-e934-5fd8-8f09-05899efe5e19"],
+    ["data/id", "e4bf8c27-4126-5ca7-b81b-c0f31c2a01fd"],
+    ["data/id", "1d30c932-f53a-5279-aada-930efd7702eb"],
+    ["data/id", "fac31129-7fea-5c27-b542-c3938347052c"],
+    ["data/id", "33bfd6ad-bd1c-51b6-8fb3-1c7ecc4cd56d"],
+    ["data/id", "9d9014b7-9095-5c55-847c-707b08c326a1"],
+    ["data/id", "d4fa9ceb-9a25-558d-ab44-cf4deea2b4f4"],
+    ["data/id", "c8d008ab-f822-5902-b662-d661d8d0323b"],
+    ["data/id", "48f6a0ae-2b11-5acd-bcef-3d682037d013"],
+    ["data/id", "37b963bf-8c13-5473-8e6a-ced28ec8a8a1"],
+    ["data/id", "ad2da19a-511a-5208-b056-5c9b6cea6f94"],
+    ["data/id", "9f86c99e-d4da-5157-aa22-f3ecc26cdf09"],
+    ["data/id", "97a230de-4684-56a2-bf5c-63b8c517a4f6"],
+    ["data/id", "0921387f-28ad-55fe-8ba2-e1a3c684ecc4"]
+  ],
+  "datasources": [
+    ["datasource/id", "4cdbcf20-8660-555a-8ab4-7415f9a0f5fc"]
+  ],
+  "description": "Question: transistors kept doubling for fifty years, so why did clock speed stop rising around 2005, and where did the extra transistors go? Data: Karl Rupp's microprocessor trend data (CC BY 4.0; transistors, clock, typical power, single-thread SpecINT and logical cores for about 100 CPUs, 1971–2021). Steps: each measure as log2 of its value against year, so a straight line is a constant doubling time; for the clock, a two-line fit for every candidate break year from 1995 to 2014 (the year with the smallest squared error wins); each measure fitted before and after that year with 95% intervals; a Chow F-test of one line against two; and Dennard's budget: dynamic power P ≈ N·C·V²·f, so the doublings per year of transistors × clock minus those of power is how fast the switching energy C·V² had to fall. Aha: the transistor line barely bends at the break, but the clock and power lines go flat: until the mid-2000s each shrink lowered the voltage, paying for faster clocks at constant power density (Dennard scaling); when leakage stopped the voltage from falling, the clock froze at the cooling limit and the extra transistors became cores. Caveats: points before 2010 were digitised from a published plot (Horowitz, Labonte, Shacham, Olukotun, Hammond, Batten), later ones collected by Rupp; the sample is high-end Intel/AMD/IBM CPUs, not phones or GPUs; power is TDP; the break year is chosen on the clock data, so the clock's Chow p-value is optimistic; each file's first line (the 1971 Intel 4004) is read as a CSV header and dropped. Next: the voltage data that would test the mechanism (in the study), die area for power density, and Rupp's blog post for the story.",
+  "graphs": [
+    ["graph/id", "310dcf27-dd43-57bf-a91c-c900b07d1ede"],
+    ["graph/id", "e2f112ad-e247-5b27-9e9c-b2c92dec535a"],
+    ["graph/id", "2c6e24d7-8853-516b-ab1b-1b4c021f04f1"]
+  ],
+  "grids": [],
+  "name": "Moore's law and the end of Dennard scaling",
+  "ontology": {
+    "$file": ".seebra/dashboard/5346cbee-7dfc-58e3-91ed-868d1a641ddc.ontology.json",
+    "$json": true
+  },
+  "queries": [
+    ["query/id", "dfb94953-013c-5ae5-af0c-5455c162e36c"],
+    ["query/id", "92992c32-a644-5574-88d7-f35c9dc9689a"],
+    ["query/id", "ff8286db-f9a7-5705-a7df-363dd01fe3a9"],
+    ["query/id", "cf2d4ae8-ecfb-51c2-a174-7bade9b79ffc"],
+    ["query/id", "7337c92d-37d2-5797-8f5e-da1cb5748e14"]
+  ],
+  "studies": [
+    ["study/id", "4ea30b05-a198-5dcd-a195-9d4228ae73ca"]
+  ],
+  "tables": [],
+  "texts": [],
+  "timers": [],
+  "transformations": [
+    ["transformation/id", "0f5e04dd-c8c7-5b2a-b28c-761df7a1710d"],
+    ["transformation/id", "db9e9474-bb98-5165-a91f-c822ef010b00"],
+    ["transformation/id", "6b471b9a-36b1-5440-9649-5ce3d7bc19ad"],
+    ["transformation/id", "f410be00-5476-59b5-a740-302a6384709e"],
+    ["transformation/id", "ac2b4d13-80aa-5c76-a315-228cd73314c5"],
+    ["transformation/id", "d2aef93c-4a0e-5e5d-a9c1-62e6703bae1d"],
+    ["transformation/id", "5257f5de-583a-598a-9c8d-64c3ce28d7a9"],
+    ["transformation/id", "1c330995-accf-57e8-8ebe-c0cce830db6f"],
+    ["transformation/id", "833c5bde-e957-5f5a-aa60-9f2e6c7a5761"],
+    ["transformation/id", "0741c40a-630d-5399-9078-208ab9a5cbac"],
+    ["transformation/id", "a255fbcd-7459-5252-b320-d4a0a10e59ba"]
+  ]
+}

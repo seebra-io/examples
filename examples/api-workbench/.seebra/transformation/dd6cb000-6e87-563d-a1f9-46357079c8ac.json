@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/post-body-length-with-quantiles.polars.py"
+  },
+  "transformation/data-child": ["data/id", "b75e8534-8566-56f9-a3ab-0a37b0117d4b"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "dd6cb000-6e87-563d-a1f9-46357079c8ac",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Post body length with quantiles",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "36170991-0450-5e9c-ad88-6aff26eac88d"],
+  "transformation/units": "{}"
+}

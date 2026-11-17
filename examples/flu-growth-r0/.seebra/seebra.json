@@ -1,0 +1,8 @@
+{
+  "file": {
+    "file/example": "flu-growth-r0"
+  },
+  "format": 2,
+  "root": ["dashboard/id", "cc35fbcc-c2a1-5edc-a1d3-cf9f41d870be"],
+  "seebra": "board"
+}

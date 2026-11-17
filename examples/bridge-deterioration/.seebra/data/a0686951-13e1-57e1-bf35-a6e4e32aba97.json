@@ -1,0 +1,10 @@
+{
+  "data/id": "a0686951-13e1-57e1-bf35-a6e4e32aba97",
+  "data/name": "Which clock does a reconstructed bridge follow? Mean rating per 10 years since built, and since reconstruction data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 800
+  },
+  "data/parent": ["transformation/id", "3c02461c-c5e0-5a72-8457-6d58746b20d6"],
+  "data/type": "json"
+}

@@ -1,0 +1,10 @@
+{
+  "data/id": "bb71498f-516a-5ce2-a95e-402897f8aaa5",
+  "data/name": "Sources side by side, per quarter hour data",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "77c14bb6-5998-501e-a296-ea3ce878ee12"],
+  "data/type": "json"
+}

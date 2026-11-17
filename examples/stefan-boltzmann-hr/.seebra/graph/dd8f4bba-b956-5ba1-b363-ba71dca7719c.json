@@ -1,0 +1,16 @@
+{
+  "graph/content": {
+    "$file": "graphs/the-main-sequence-is-a-mass-sequence.js"
+  },
+  "graph/id": "dd8f4bba-b956-5ba1-b363-ba71dca7719c",
+  "graph/inputs": [
+    ["data/id", "07d9320f-3f8a-5820-938c-c0049bb8f20a"]
+  ],
+  "graph/language": "javascript",
+  "graph/name": "The main sequence is a mass sequence",
+  "graph/node": {
+    "node/x": 1460,
+    "node/y": 1280
+  },
+  "graph/parent": ["data/id", "4ef98efb-15e1-5afd-8f12-cc032664e04b"]
+}

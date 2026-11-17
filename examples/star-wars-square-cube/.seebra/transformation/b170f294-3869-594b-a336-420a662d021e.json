@@ -1,0 +1,21 @@
+{
+  "transformation/content": {
+    "$file": "transforms/homeworlds-population-size-gravity-and-their.polars.py"
+  },
+  "transformation/data-child": ["data/id", "de1d759a-a2c6-5119-81e0-73676b5294d6"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "b170f294-3869-594b-a336-420a662d021e",
+  "transformation/inputs": [
+    ["data/id", "f382e98f-0834-5e27-9488-8428afe03218"]
+  ],
+  "transformation/language": "polars",
+  "transformation/name": "Homeworlds: population, size, gravity, and their characters' weight",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 800
+  },
+  "transformation/parent": ["data/id", "bbcd9479-69f3-54d9-9dd2-021048e04666"],
+  "transformation/units": "{}"
+}

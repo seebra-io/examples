@@ -1,0 +1,10 @@
+{
+  "data/id": "a0cfb2dc-66ff-5b7b-be95-7335b6fc8054",
+  "data/name": "Genomes of five groups data",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "84e57029-21a3-5de8-a60c-30f8efd4f18d"],
+  "data/type": "json"
+}

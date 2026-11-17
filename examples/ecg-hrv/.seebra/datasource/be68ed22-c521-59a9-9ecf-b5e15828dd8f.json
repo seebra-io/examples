@@ -1,0 +1,16 @@
+{
+  "datasource/api-key-key": "api_key",
+  "datasource/auth-type": "none",
+  "datasource/headers": "{}",
+  "datasource/id": "be68ed22-c521-59a9-9ecf-b5e15828dd8f",
+  "datasource/name": "PhysioNet LightWAVE (WFDB records, ODC-By 1.0)",
+  "datasource/node": {
+    "inputs": 1,
+    "node/x": 80,
+    "node/y": 80,
+    "outputs": 1
+  },
+  "datasource/params": "{}",
+  "datasource/type": "openapi",
+  "datasource/url": "https://physionet.org/lightwave"
+}

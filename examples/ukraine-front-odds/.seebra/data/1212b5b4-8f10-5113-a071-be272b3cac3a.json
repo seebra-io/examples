@@ -1,0 +1,10 @@
+{
+  "data/id": "1212b5b4-8f10-5113-a071-be272b3cac3a",
+  "data/name": "UN News: Europe data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 1760
+  },
+  "data/parent": ["query/id", "cfc0a451-49ca-5081-b296-6e408f65dbbe"],
+  "data/type": "json"
+}

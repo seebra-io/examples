@@ -1,0 +1,8 @@
+{
+  "file": {
+    "file/example": "issue-survival"
+  },
+  "format": 2,
+  "root": ["dashboard/id", "d6e77565-129b-53d5-8007-a1f0135f9c81"],
+  "seebra": "board"
+}

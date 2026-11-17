@@ -1,0 +1,16 @@
+{
+  "graph/content": {
+    "$file": "graphs/275-years-of-sunspots-cycle-by-cycle.js"
+  },
+  "graph/id": "2c0e91b9-5bab-54ae-86a0-1bf0a024077b",
+  "graph/inputs": [
+    ["data/id", "48d561f1-7859-5974-9f55-685cccb5e760"]
+  ],
+  "graph/language": "javascript",
+  "graph/name": "275 years of sunspots, cycle by cycle",
+  "graph/node": {
+    "node/x": 1920,
+    "node/y": 560
+  },
+  "graph/parent": ["data/id", "7d659727-dc39-5206-9933-15870224716a"]
+}

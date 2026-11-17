@@ -1,0 +1,18 @@
+{
+  "study/hypothesis": "Liquids with an O–H group have a higher implied ΔS_vap (ds_implied) than liquids without a donor, so their vapour pressure lies below the boiling-point prediction.",
+  "study/id": "f352d160-c271-56ee-b918-b7027b06baa2",
+  "study/name": "Do hydrogen-bond donors evaporate less than Trouton predicts?",
+  "study/node": {
+    "node/x": 540,
+    "node/y": 320
+  },
+  "study/plan": {
+    "$file": ".seebra/study/f352d160-c271-56ee-b918-b7027b06baa2.plan.json",
+    "$json": true
+  },
+  "study/question": "Among pure liquids on Wikidata, is the entropy of vaporisation implied by a room-temperature vapour pressure higher for liquids with an O–H donor than for liquids with no hydrogen-bond donor?",
+  "study/state": {
+    "$file": ".seebra/study/f352d160-c271-56ee-b918-b7027b06baa2.state.json",
+    "$json": true
+  }
+}

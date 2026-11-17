@@ -1,0 +1,11 @@
+{
+  "data/id": "f0e649fe-d71f-5a1d-b082-8bcbd08f21fc",
+  "data/name": "Sources today (MW)",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "0b44f8bc-b2e1-565f-9e35-ac38b3a99473"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

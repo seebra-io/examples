@@ -1,0 +1,11 @@
+{
+  "data/id": "9b66b4c6-43f5-5c34-bebd-5f5798cbd288",
+  "data/name": "Collections",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "c4fd0864-0d8d-532f-a8e8-96b30f160bd2"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

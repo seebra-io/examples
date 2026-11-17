@@ -1,0 +1,1 @@
+SELECT chain, record, COUNT(*) AS atoms, COUNT(DISTINCT resSeq) AS residues FROM data GROUP BY chain, record ORDER BY chain, record

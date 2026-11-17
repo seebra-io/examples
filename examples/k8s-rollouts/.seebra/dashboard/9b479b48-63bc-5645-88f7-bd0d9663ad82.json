@@ -1,0 +1,35 @@
+{
+  "dashboard/id": "9b479b48-63bc-5645-88f7-bd0d9663ad82",
+  "datas": [
+    ["data/id", "caa982b2-e189-53bd-b996-1aab4dae2ba2"],
+    ["data/id", "f28c6111-72d6-5a4c-a723-8c9bf2fa1d29"],
+    ["data/id", "d002842a-9b28-5bff-bb7c-ee9a2d2163fe"],
+    ["data/id", "1b7516b8-3668-54e5-aeab-da7ac82f35ba"],
+    ["data/id", "c4a11228-501f-51e9-9191-f312325bcd16"],
+    ["data/id", "d6a18d6a-35ec-5d77-ae11-8f75fb5bb74c"]
+  ],
+  "datasources": [
+    ["datasource/id", "48ddc727-9d21-5c6e-a3e3-6744c037459f"]
+  ],
+  "description": "Your deployments (/apis/apps/v1/deployments): desired replicas against updated, ready and available ones, and the state each rollout is in (complete, rolling out, old pods terminating, stuck past its progress deadline); which image versions they run; and which running pods (/api/v1/pods) still run something other than their deployment's template. Statistics: a version distribution per image. Many deployments use the same image repository (an Envoy sidecar, a base image); its versions are a categorical distribution, summed up by the share on the most common version (the mode) and by Simpson's diversity, 1 − Σp², the chance that two random uses of that image run different versions. 0 means everyone is on one version; drift grows towards 1. Hover a deployment for its counts, generation and conditions, and the kubectl command to follow it. Caveats: tags are names, not contents (latest and other mutable tags can point anywhere: compare imageIDs for that); a pod's owner is matched to its deployment by its ReplicaSet's name; up to 500 deployments and 500 pods. Needs signing in and a connected cluster: the datasource is https://kubernetes.default.svc, the in-cluster address of the Kubernetes API, reached through your organization's own Seebra gateway running in that cluster (Settings → Organization), with a read-only service-account token kept in the gateway's Secret under the name k8s-token (sent as a bearer token). Signed out, or through Seebra's hosted gateway, no cluster can be reached, so this example shows errors there. The datasource shows \"key ?\" because the token lives on the gateway, not among your Seebra secrets. Setup, RBAC and the kubectl proxy route: docs, Use cases → Kubernetes.",
+  "graphs": [
+    ["graph/id", "21339610-0856-54d0-9151-8a1e0a6ef3a1"],
+    ["graph/id", "9a9d8610-df5e-57e5-a02c-f064b0e41ec6"]
+  ],
+  "grids": [],
+  "name": "Kubernetes rollouts and image drift",
+  "queries": [
+    ["query/id", "b4f26ecb-9db0-56d4-82d0-54742ce9e791"],
+    ["query/id", "2c05b48e-6bd8-59fe-9081-ce385263e7f5"]
+  ],
+  "studies": [],
+  "tables": [],
+  "texts": [],
+  "timers": [],
+  "transformations": [
+    ["transformation/id", "a9cb579d-cc9a-5715-84f5-fb4481a56e17"],
+    ["transformation/id", "bd226c8e-6a8b-5550-ba9d-f575ef1c08c7"],
+    ["transformation/id", "20becb9e-37fd-5201-9953-2b42384f49bd"],
+    ["transformation/id", "0ae80fe2-c35a-5521-a3e9-e5e5fe35fbaa"]
+  ]
+}

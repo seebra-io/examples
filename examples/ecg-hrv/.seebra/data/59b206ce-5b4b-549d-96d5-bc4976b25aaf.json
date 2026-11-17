@@ -1,0 +1,10 @@
+{
+  "data/id": "59b206ce-5b4b-549d-96d5-bc4976b25aaf",
+  "data/name": "MIT-BIH 119: all beat annotations (360 Hz) data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 560
+  },
+  "data/parent": ["query/id", "781f1aff-4f86-5871-8e6c-339802b8a3cd"],
+  "data/type": "json"
+}

@@ -1,0 +1,23 @@
+{
+  "transformation/content": {
+    "$file": "transforms/residues-of-four-proteins.sql"
+  },
+  "transformation/data-child": ["data/id", "223007af-7571-54d7-9352-c7b7d8061e94"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "d1036c86-7450-54f9-96b5-c11d0f67bbc9",
+  "transformation/inputs": [
+    ["data/id", "50ee85b3-6430-5252-8845-14b081f2dba8"],
+    ["data/id", "94214b56-beb2-5690-80f8-01ea9fbc99e4"],
+    ["data/id", "95fbd060-5e78-5934-a1f9-56d9ec144c0c"]
+  ],
+  "transformation/language": "sql",
+  "transformation/name": "Residues of four proteins",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "e59e69e9-5235-55ee-a9f1-e0454d1736b9"],
+  "transformation/units": "{}"
+}

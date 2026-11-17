@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/pca-what-each-component-is-made-of.polars.py"
+  },
+  "transformation/data-child": ["data/id", "4d33d185-ee7a-5ad5-9113-ca2e819db0bd"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "8d5e0f19-aa4a-5871-932a-4c119049c72c",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "PCA: what each component is made of",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 2380,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "67e8a804-646d-5672-bc2e-48285b0ff62f"],
+  "transformation/units": "{}"
+}

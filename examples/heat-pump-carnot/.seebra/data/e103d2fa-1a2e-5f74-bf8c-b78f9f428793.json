@@ -1,0 +1,11 @@
+{
+  "data/id": "e103d2fa-1a2e-5f74-bf8c-b78f9f428793",
+  "data/name": "One law: COP ≈ η × Carnot",
+  "data/node": {
+    "node/x": 2070,
+    "node/y": 560
+  },
+  "data/parent": ["transformation/id", "670b4af9-e009-5062-af1d-5c2a2033383b"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

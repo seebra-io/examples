@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "0a9ddcd3-311c-5000-90e5-1d6317b50221"],
+  "query/datasource": ["datasource/id", "ea9e930a-b2ee-5f67-83db-6b1012a63a68"],
+  "query/dynamic?": false,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "403cbb12-01a5-5176-9bd0-73f4dbc10168",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "San Francisco hourly heights, Jul–Oct 2025",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 80
+  },
+  "query/params": "{\"product\":\"hourly_height\",\"application\":\"seebra\",\"begin_date\":\"20250701\",\"end_date\":\"20251031\",\"datum\":\"MLLW\",\"station\":\"9414290\",\"time_zone\":\"gmt\",\"units\":\"metric\",\"format\":\"json\"}",
+  "query/path": "/datagetter",
+  "query/request-body": "",
+  "query/units": "{}"
+}

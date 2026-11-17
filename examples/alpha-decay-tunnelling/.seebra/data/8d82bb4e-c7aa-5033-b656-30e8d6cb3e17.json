@@ -1,0 +1,10 @@
+{
+  "data/id": "8d82bb4e-c7aa-5033-b656-30e8d6cb3e17",
+  "data/name": "α emitters: daughter, reduced mass, radius and turning point data",
+  "data/node": {
+    "node/x": 2070,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "478073f4-3352-5ece-bf44-7cb21efe3e36"],
+  "data/type": "json"
+}

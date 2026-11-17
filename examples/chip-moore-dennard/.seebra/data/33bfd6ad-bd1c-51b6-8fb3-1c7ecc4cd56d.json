@@ -1,0 +1,10 @@
+{
+  "data/id": "33bfd6ad-bd1c-51b6-8fb3-1c7ecc4cd56d",
+  "data/name": "Parse clock frequency (MHz) data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "db9e9474-bb98-5165-a91f-c822ef010b00"],
+  "data/type": "json"
+}

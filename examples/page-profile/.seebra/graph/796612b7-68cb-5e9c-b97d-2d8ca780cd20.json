@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/who-spent-the-long-frames.js"
+  },
+  "graph/id": "796612b7-68cb-5e9c-b97d-2d8ca780cd20",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Who spent the long frames",
+  "graph/node": {
+    "node/x": 1460,
+    "node/y": 320
+  },
+  "graph/parent": ["data/id", "5c838d31-1a1b-555c-bd0f-5e4ed204d9d2"]
+}

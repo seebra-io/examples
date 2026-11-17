@@ -1,0 +1,8 @@
+{
+  "file": {
+    "file/example": "k8s-rollouts"
+  },
+  "format": 2,
+  "root": ["dashboard/id", "9b479b48-63bc-5645-88f7-bd0d9663ad82"],
+  "seebra": "board"
+}

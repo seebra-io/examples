@@ -1,0 +1,16 @@
+{
+  "graph/content": {
+    "$file": "graphs/the-population-depths-of-a-month-s-quakes.js"
+  },
+  "graph/id": "8d192682-6a13-5611-b585-e53f0e2370ae",
+  "graph/inputs": [
+    ["data/id", "27ef336b-56e4-5d1d-8c79-9756056c959f"]
+  ],
+  "graph/language": "javascript",
+  "graph/name": "The population: depths of a month's quakes",
+  "graph/node": {
+    "node/x": 1460,
+    "node/y": 560
+  },
+  "graph/parent": ["data/id", "c15a5a4a-f72f-5da6-bd6b-7934a7fae6b4"]
+}

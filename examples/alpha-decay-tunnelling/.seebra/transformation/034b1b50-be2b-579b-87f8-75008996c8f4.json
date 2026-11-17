@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/csv-rows-the-columns-types-change-after-row-100.js"
+  },
+  "transformation/data-child": ["data/id", "720d1e0f-d7a0-552b-96c8-ab744b23aef7"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "js-web-worker",
+  "transformation/id": "034b1b50-be2b-579b-87f8-75008996c8f4",
+  "transformation/inputs": [],
+  "transformation/language": "javascript",
+  "transformation/name": "CSV rows (the columns' types change after row 100)",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "8678bee2-487a-5d07-bccd-4f5e73735b81"],
+  "transformation/units": "{}"
+}

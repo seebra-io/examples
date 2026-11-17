@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/mean-and-peak-per-source.polars.py"
+  },
+  "transformation/data-child": ["data/id", "f0e649fe-d71f-5a1d-b082-8bcbd08f21fc"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "0b44f8bc-b2e1-565f-9e35-ac38b3a99473",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Mean and peak per source",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "cc0e11cf-5809-5f4c-ba08-a8db36c85a1d"],
+  "transformation/units": "{}"
+}

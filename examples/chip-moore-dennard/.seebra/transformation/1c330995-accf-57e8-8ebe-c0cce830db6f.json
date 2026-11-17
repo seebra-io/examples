@@ -1,0 +1,21 @@
+{
+  "transformation/content": {
+    "$file": "transforms/doubling-time-of-each-measure-before-and-after.polars.py"
+  },
+  "transformation/data-child": ["data/id", "ad2da19a-511a-5208-b056-5c9b6cea6f94"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "1c330995-accf-57e8-8ebe-c0cce830db6f",
+  "transformation/inputs": [
+    ["data/id", "37b963bf-8c13-5473-8e6a-ced28ec8a8a1"]
+  ],
+  "transformation/language": "polars",
+  "transformation/name": "Doubling time of each measure, before and after the clock's break",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1920,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "48f6a0ae-2b11-5acd-bcef-3d682037d013"],
+  "transformation/units": "{}"
+}

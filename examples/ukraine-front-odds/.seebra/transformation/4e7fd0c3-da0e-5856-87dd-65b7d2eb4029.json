@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/control-on-31-december-2025.js"
+  },
+  "transformation/data-child": ["data/id", "33b3f2a0-616b-52c9-84a9-50311383f4ce"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "js-web-worker",
+  "transformation/id": "4e7fd0c3-da0e-5856-87dd-65b7d2eb4029",
+  "transformation/inputs": [],
+  "transformation/language": "javascript",
+  "transformation/name": "Control on 31 December 2025",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 560
+  },
+  "transformation/parent": ["data/id", "94898b48-0eb3-56c6-95e4-8e4243dee3b2"],
+  "transformation/units": "{}"
+}

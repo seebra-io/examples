@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/normal-per-calendar-day-1991-2020.polars.py"
+  },
+  "transformation/data-child": ["data/id", "239444bc-9e14-5f92-8e62-c4482e88b447"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "d6bd7863-e021-5a5a-8638-f80083710c01",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Normal per calendar day (1991–2020)",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "8972725e-1666-5797-9ca0-5dc9af05b766"],
+  "transformation/units": "{}"
+}

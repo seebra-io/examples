@@ -1,0 +1,18 @@
+{
+  "study/hypothesis": "Yield rises with fertiliser use with diminishing returns: a saturating (Mitscherlich) curve fits better than a straight line, and the average grain per kg of fertiliser falls with the rate.",
+  "study/id": "bf90f22a-c482-55c9-bb9e-452bd1240f58",
+  "study/name": "Does extra fertiliser buy less and less grain?",
+  "study/node": {
+    "node/x": 540,
+    "node/y": 1760
+  },
+  "study/plan": {
+    "$file": ".seebra/study/bf90f22a-c482-55c9-bb9e-452bd1240f58.plan.json",
+    "$json": true
+  },
+  "study/question": "Across countries, does cereal yield rise with fertiliser use per hectare, and does the grain per extra kilogram fall as use rises (diminishing returns), once irrigation is considered?",
+  "study/state": {
+    "$file": ".seebra/study/bf90f22a-c482-55c9-bb9e-452bd1240f58.state.json",
+    "$json": true
+  }
+}

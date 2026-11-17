@@ -1,0 +1,50 @@
+{
+  "dashboard/id": "36940ea9-c4ab-596c-b513-0458e2d9b793",
+  "datas": [
+    ["data/id", "43e4dfb0-3be6-5dad-81ee-eb04bbc91735"],
+    ["data/id", "a759a3ad-61d1-54e0-b000-71bfee29e8b1"],
+    ["data/id", "960d7d8b-d2e8-52ba-a789-7860de402d74"],
+    ["data/id", "ba464048-521f-54b9-b392-9b503f2b8618"],
+    ["data/id", "3dd3cca5-8243-57c5-8575-7fa7c5d49b27"],
+    ["data/id", "b47f6168-5b57-55b0-9678-dca54b2e8bcd"],
+    ["data/id", "512f8087-b8da-50f3-b783-06c6c05799ce"],
+    ["data/id", "2ff292dd-456f-5a6a-aad5-f622c36999aa"],
+    ["data/id", "ffab0ea3-5bee-5f6c-ac28-a12df8c68f90"],
+    ["data/id", "7319d58e-876e-5de2-9cb8-a04f551c36a8"]
+  ],
+  "datasources": [
+    ["datasource/id", "0a5949b6-edd3-562b-a00d-49f1de5bf49b"]
+  ],
+  "description": "Question: Germany uses about as much electricity at 1 pm as at 8 pm, so why is the wholesale price often below zero at 1 pm and at its highest at 8 pm? Data: two months (May and June 2026) of quarter-hourly public net generation, load and residual load for Germany, and the DE-LU day-ahead price, from Energy-Charts (Fraunhofer ISE; generation from ENTSO-E, prices from Bundesnetzagentur | SMARD.de, CC BY 4.0). Idea: the merit order. A power market sorts plants by their running (marginal) cost: wind, sun and run-of-river cost almost nothing per MWh, lignite and nuclear little, hard coal more, gas the most; the plant that is needed last to meet demand sets the uniform price for everyone. So the price follows the residual load (load minus wind and solar: what dispatchable plants must cover), not the load. Steps (Polars and SQL): the source arrays to rows; one row per quarter-hour with the price; hourly means; the hours binned by residual load (the empirical supply curve: median price, 10-90% band, and which plants run in each bin); the average day; least-squares fits of the price on load, on residual load and on wind+solar; and the slope in three ranges of residual load. The aha: plotted against load the price is a cloud (R² 0.03 over 1,464 hours); against residual load it is a rising curve (R² 0.70): at or below zero where wind and sun cover the whole load, a steep step as the first dispatchable plants are needed, a gentle plateau from 20 to 35 GW where lignite, coal and imports fill in (about 2 EUR/MWh per GW), and steep again above 35 GW where gas and pumped hydro run (about 11 EUR/MWh per GW, up to 666 EUR/MWh). The midday 'duck' in the residual load and the evening price peak are the same curve seen through the clock. Caveats: two months of one bidding zone; the price is the day-ahead auction (intraday and balancing prices differ); hourly means smooth quarter-hour spikes; fuel and CO₂ prices (which move the whole curve) and cross-border flows are not modelled; negative prices come from must-run plants and subsidies paid per MWh, not from the merit order alone. Next: change start and end to a winter month (the curve moves up with gas prices), or the bidding zone (bzn=FR, NO2, SE3) to see a hydro- or nuclear-shaped curve.",
+  "graphs": [
+    ["graph/id", "22a2f188-d3c9-53b4-b071-747a9af3449d"],
+    ["graph/id", "4b907856-a0e3-5032-8de9-6be53f22bf58"],
+    ["graph/id", "e136a6a2-3194-531c-adb4-876745207eb1"]
+  ],
+  "grids": [],
+  "name": "The merit order: why sunny noons are cheap",
+  "ontology": {
+    "$file": ".seebra/dashboard/36940ea9-c4ab-596c-b513-0458e2d9b793.ontology.json",
+    "$json": true
+  },
+  "queries": [
+    ["query/id", "5328bbc1-8514-519f-b6cf-56e8937d9a62"],
+    ["query/id", "808d593b-243c-5335-9c83-6911d0fd4f2d"]
+  ],
+  "studies": [
+    ["study/id", "810f4966-18e3-5783-995f-8dbe4334e0ed"]
+  ],
+  "tables": [],
+  "texts": [],
+  "timers": [],
+  "transformations": [
+    ["transformation/id", "e0fd4ac3-a667-566e-a1e0-319b78280633"],
+    ["transformation/id", "3a8aba9f-fcd2-5b52-903a-6a68d7de6d6a"],
+    ["transformation/id", "9c97fdfc-edc4-533e-aa4f-3e022483909a"],
+    ["transformation/id", "c33b1a16-307e-5c15-9bfa-bc7d421a7cba"],
+    ["transformation/id", "116c61d4-86d1-5f82-bf5c-752ff4408014"],
+    ["transformation/id", "a4c664d4-0a52-5cfa-929d-8fa952b9d272"],
+    ["transformation/id", "0e60fda7-1d75-5194-86b1-5a00d0785c3e"],
+    ["transformation/id", "be471354-bd28-53e9-bb35-0d7565ac9269"]
+  ]
+}

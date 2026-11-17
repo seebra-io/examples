@@ -1,0 +1,21 @@
+{
+  "transformation/content": {
+    "$file": "transforms/1a6m-residues-and-secondary-structure.polars.py"
+  },
+  "transformation/data-child": ["data/id", "e59e69e9-5235-55ee-a9f1-e0454d1736b9"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "d57c750e-a925-55e9-af7b-7112476e30b8",
+  "transformation/inputs": [
+    ["data/id", "1b613d4f-d4d9-5857-a8a3-e5a61fa7f06c"]
+  ],
+  "transformation/language": "polars",
+  "transformation/name": "1A6M residues: φ, ψ and secondary structure",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "295c92d3-d0a6-528d-9b44-d2928bdf70e5"],
+  "transformation/units": "{}"
+}

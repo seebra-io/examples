@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "a7fe7235-df29-5ea4-9134-1ef8a0438b8f"],
+  "query/datasource": ["datasource/id", "8bc12484-a3c5-5d4e-b673-7df7ba3d1541"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "da934f9d-baf8-50ca-a929-96240bd9f53f",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Orbits of NEOs within 0.05 au of Earth's orbit (SBDB)",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 560
+  },
+  "query/params": "{\"fields\":\"pdes,a,e,i,om,w,ma,epoch,H,moid\",\"sb-kind\":\"a\",\"sb-group\":\"neo\",\"sb-cdata\":\"{\\\"AND\\\":[\\\"moid|LT|0.05\\\"]}\"}",
+  "query/path": "/sbdb_query.api",
+  "query/request-body": "",
+  "query/units": "{}"
+}

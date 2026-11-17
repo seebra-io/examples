@@ -1,0 +1,21 @@
+{
+  "transformation/content": {
+    "$file": "transforms/all-curves.sql"
+  },
+  "transformation/data-child": ["data/id", "3ee9bafd-58b1-5d6d-9be9-b1c27f8bb386"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "85f6e1df-3d20-51bd-9d94-a5063953bfdf",
+  "transformation/inputs": [
+    ["data/id", "722d87cb-bf99-54bb-bdf0-f81111c4a619"]
+  ],
+  "transformation/language": "sql",
+  "transformation/name": "All curves",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1920,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "d38a2c77-f26a-51f7-bbb5-6d87969c7c2a"],
+  "transformation/units": "{}"
+}

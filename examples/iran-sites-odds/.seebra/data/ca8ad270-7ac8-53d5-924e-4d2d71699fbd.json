@@ -1,0 +1,11 @@
+{
+  "data/id": "ca8ad270-7ac8-53d5-924e-4d2d71699fbd",
+  "data/name": "News on talks, the IAEA and sanctions (GDELT)",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 1760
+  },
+  "data/parent": ["transformation/id", "e65fd00b-0a8c-5348-995a-203bb25aef9d"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

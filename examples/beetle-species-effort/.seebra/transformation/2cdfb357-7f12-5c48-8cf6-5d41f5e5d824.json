@@ -1,0 +1,22 @@
+{
+  "transformation/content": {
+    "$file": "transforms/records-per-species-three-provinces.sql"
+  },
+  "transformation/data-child": ["data/id", "1a5fe429-3458-50d3-bc68-fcab45caf36c"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "2cdfb357-7f12-5c48-8cf6-5d41f5e5d824",
+  "transformation/inputs": [
+    ["data/id", "839f0998-095d-528c-b656-86b08e5a2184"],
+    ["data/id", "c42e3e22-d167-50d7-855c-012a3e70f018"]
+  ],
+  "transformation/language": "sql",
+  "transformation/name": "Records per species, three provinces",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "676a2595-26bf-56cd-82d4-c57cfad5c906"],
+  "transformation/units": "{}"
+}

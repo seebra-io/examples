@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/starships-cost-against-length-coloured-by.js"
+  },
+  "graph/id": "2867c45d-0f62-52f0-93f0-45742fad0087",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Starships: cost against length, coloured by hyperdrive class",
+  "graph/node": {
+    "node/x": 1460,
+    "node/y": 1040
+  },
+  "graph/parent": ["data/id", "89eb4ed4-cb2f-5045-9f64-a0d54744874e"]
+}

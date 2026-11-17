@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/power-per-period-re-2-im-2-per-year.polars.py"
+  },
+  "transformation/data-child": ["data/id", "a6e8d884-0060-5e41-970a-45b68536577a"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "66d3f5e6-22a4-5670-b770-130250d8bc17",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Power per period: (Σ re)² + (Σ im)², per year",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 2840,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "39aae013-3d97-5eb7-84ab-18c80c8ce101"],
+  "transformation/units": "{}"
+}

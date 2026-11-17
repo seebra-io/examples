@@ -1,0 +1,11 @@
+{
+  "datasource/id": "2ae23d5b-3111-568a-9d05-a9680f738c4b",
+  "datasource/name": "This page (JavaScript variables)",
+  "datasource/node": {
+    "inputs": 1,
+    "node/x": 80,
+    "node/y": 80,
+    "outputs": 1
+  },
+  "datasource/type": "variable"
+}

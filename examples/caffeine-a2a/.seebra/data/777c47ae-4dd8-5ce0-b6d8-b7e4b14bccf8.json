@@ -1,0 +1,10 @@
+{
+  "data/id": "777c47ae-4dd8-5ce0-b6d8-b7e4b14bccf8",
+  "data/name": "H-bond candidates (N/O pairs under 3.5 Å) data",
+  "data/node": {
+    "node/x": 2530,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "5ad631a7-e198-5a5b-b12c-07505b1fe468"],
+  "data/type": "json"
+}

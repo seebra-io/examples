@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/what-yield-does-to-cost-smallest-against-largest.polars.py"
+  },
+  "transformation/data-child": ["data/id", "2f36cc28-f2bb-50ff-bdc5-fae61d17b09b"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "9a3b486d-30f2-53a4-968e-2cc2e7826b10",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "What yield does to cost: smallest against largest logic die",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1920,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "81f6264b-ec5d-52a8-823d-eb992c6e6420"],
+  "transformation/units": "{}"
+}

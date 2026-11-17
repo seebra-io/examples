@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/per-firm.sql"
+  },
+  "transformation/data-child": ["data/id", "6d24ffa6-eb5b-564d-849a-63f12d87846d"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "cfebc268-1af6-5d5f-8969-7890ecfa210b",
+  "transformation/inputs": [],
+  "transformation/language": "sql",
+  "transformation/name": "Per firm",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "537b8fc8-d58f-5406-99c1-ce0a81dfbabf"],
+  "transformation/units": "{}"
+}

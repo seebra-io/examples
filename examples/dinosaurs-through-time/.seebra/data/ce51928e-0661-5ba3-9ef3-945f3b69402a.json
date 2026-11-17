@@ -1,0 +1,10 @@
+{
+  "data/id": "ce51928e-0661-5ba3-9ef3-945f3b69402a",
+  "data/name": "Every dinosaur find at genus level, with palaeo-positions data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 1040
+  },
+  "data/parent": ["query/id", "2b0cecdd-2e1a-5faf-9361-0106878bc9d4"],
+  "data/type": "json"
+}

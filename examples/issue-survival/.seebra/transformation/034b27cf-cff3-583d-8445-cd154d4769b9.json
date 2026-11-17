@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/all-issues-and-per-kind.sql"
+  },
+  "transformation/data-child": ["data/id", "31aaa9d1-397c-5c51-9335-d52339c694e4"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "034b27cf-cff3-583d-8445-cd154d4769b9",
+  "transformation/inputs": [],
+  "transformation/language": "sql",
+  "transformation/name": "All issues and per kind",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "d3091a36-9cc9-5d27-abe1-a3d0960b42d9"],
+  "transformation/units": "{}"
+}

@@ -1,0 +1,10 @@
+{
+  "data/id": "231e0fb0-60ed-5cee-a35c-f98e446992af",
+  "data/name": "Benford's law: observed against log10(1 + 1/d), chi-square and MAD data",
+  "data/node": {
+    "node/x": 2070,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "b92dabea-ed52-5227-a441-b266230659bc"],
+  "data/type": "json"
+}

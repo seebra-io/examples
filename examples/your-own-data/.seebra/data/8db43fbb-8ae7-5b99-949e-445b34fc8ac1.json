@@ -1,0 +1,13 @@
+{
+  "data/file": {
+    "$file": "data/sample-netflix-viewing-history-made-up-data.csv"
+  },
+  "data/id": "8db43fbb-8ae7-5b99-949e-445b34fc8ac1",
+  "data/name": "Sample: Netflix viewing history (made up) data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 560
+  },
+  "data/parent": ["query/id", "01d806d8-c4b3-52c8-859a-0e38aa0b4b37"],
+  "data/type": "json"
+}

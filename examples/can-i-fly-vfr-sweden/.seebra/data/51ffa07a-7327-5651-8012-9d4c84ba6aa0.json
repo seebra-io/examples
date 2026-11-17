@@ -1,0 +1,10 @@
+{
+  "data/id": "51ffa07a-7327-5651-8012-9d4c84ba6aa0",
+  "data/name": "The hour grid (UTC, next 30 h) data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 800
+  },
+  "data/parent": ["transformation/id", "9372368c-ff50-5fa7-887e-739620209f29"],
+  "data/type": "json"
+}

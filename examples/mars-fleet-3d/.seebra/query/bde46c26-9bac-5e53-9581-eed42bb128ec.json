@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "bb5c080f-bddb-5d98-970c-843162a8505c"],
+  "query/datasource": ["datasource/id", "c448180a-597e-5dde-ac17-7626318a9f5e"],
+  "query/dynamic?": false,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "bde46c26-9bac-5e53-9581-eed42bb128ec",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Ingenuity, NASA's 3D model",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 800
+  },
+  "query/params": "{}",
+  "query/path": "/cds/3d/resources/model/ingenuity-mars-helicopter/Ingenuity%20Mars%20Helicopter.glb",
+  "query/request-body": "",
+  "query/units": "{}"
+}

@@ -1,0 +1,16 @@
+{
+  "graph/content": {
+    "$file": "graphs/eight-countries-paths-along-the-curve.js"
+  },
+  "graph/id": "7b1330f5-ea68-5fa2-9bf8-ee80e6d8db84",
+  "graph/inputs": [
+    ["data/id", "286483a4-3024-5d58-8c0c-9f1b90c05b3a"]
+  ],
+  "graph/language": "javascript",
+  "graph/name": "Eight countries' paths along the curve",
+  "graph/node": {
+    "node/x": 1460,
+    "node/y": 1040
+  },
+  "graph/parent": ["data/id", "111936d0-dee6-5de2-b621-bdeb7677a955"]
+}

@@ -1,0 +1,1 @@
+data.explode("tags").filter(col("tags") != "python").group_by("tags").agg(questions = len(), views = col("views").sum(), unanswered = (1 - col("answered")).sum()).sort(["questions", "views"], descending=True).head(20)

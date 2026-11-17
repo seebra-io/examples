@@ -1,0 +1,13 @@
+{
+  "data/file": {
+    "$file": "data/mars-landing-attempts-curated-from-wikipedia.json"
+  },
+  "data/id": "966da2fe-19e0-53fb-907f-2e021e8d0d05",
+  "data/name": "Mars landing attempts (curated from Wikipedia, with sources) data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 80
+  },
+  "data/parent": ["query/id", "0f1ba67f-1437-52b3-a4ac-0a100a898173"],
+  "data/type": "json"
+}

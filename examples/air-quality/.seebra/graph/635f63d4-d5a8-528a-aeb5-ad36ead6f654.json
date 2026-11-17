@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/distribution-and-exceedance-quantiles-of-hourly.js"
+  },
+  "graph/id": "635f63d4-d5a8-528a-aeb5-ad36ead6f654",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Distribution and exceedance: quantiles of hourly PM2.5 per city",
+  "graph/node": {
+    "node/x": 1920,
+    "node/y": 80
+  },
+  "graph/parent": ["data/id", "d739ffcb-3327-5681-9fdc-d2e4a196ffc7"]
+}

@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/doublings-per-year-before-and-after-the-break.js"
+  },
+  "graph/id": "2c6e24d7-8853-516b-ab1b-1b4c021f04f1",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Doublings per year, before and after the break",
+  "graph/node": {
+    "node/x": 2380,
+    "node/y": 800
+  },
+  "graph/parent": ["data/id", "ad2da19a-511a-5208-b056-5c9b6cea6f94"]
+}

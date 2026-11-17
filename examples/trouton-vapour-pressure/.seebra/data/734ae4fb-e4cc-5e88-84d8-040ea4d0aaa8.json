@@ -1,0 +1,11 @@
+{
+  "data/id": "734ae4fb-e4cc-5e88-84d8-040ea4d0aaa8",
+  "data/name": "Liquids",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "630148af-b7f2-5049-bd99-ddd401479a57"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

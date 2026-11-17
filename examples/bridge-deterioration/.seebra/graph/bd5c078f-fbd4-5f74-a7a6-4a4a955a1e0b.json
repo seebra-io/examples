@@ -1,0 +1,16 @@
+{
+  "graph/content": {
+    "$file": "graphs/poor-share-against-age-exponential-wear-in-then.js"
+  },
+  "graph/id": "bd5c078f-fbd4-5f74-a7a6-4a4a955a1e0b",
+  "graph/inputs": [
+    ["data/id", "d77fa792-0dab-5511-9183-efd71234d095"]
+  ],
+  "graph/language": "javascript",
+  "graph/name": "Poor share against age: exponential wear-in, then the bend",
+  "graph/node": {
+    "node/x": 1920,
+    "node/y": 560
+  },
+  "graph/parent": ["data/id", "75fdc520-1367-5935-9145-542b8a6fb8d8"]
+}

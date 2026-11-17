@@ -1,0 +1,21 @@
+{
+  "transformation/content": {
+    "$file": "transforms/codon-usage-rscu-per-gene-set.polars.py"
+  },
+  "transformation/data-child": ["data/id", "fc593c1e-43ff-587d-8c66-905062d2c4cd"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "31a8584a-56d8-5e40-9fa1-1c2e058da610",
+  "transformation/inputs": [
+    ["data/id", "796ad969-aa5d-5129-a293-c427aa1d6ba2"]
+  ],
+  "transformation/language": "polars",
+  "transformation/name": "Codon usage (RSCU) per gene set",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 2380,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "013347ed-d64f-5f64-88f7-03889c34c912"],
+  "transformation/units": "{}"
+}

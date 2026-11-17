@@ -1,0 +1,10 @@
+{
+  "data/id": "b1c812b0-0668-5091-8517-c0fa75ff4f15",
+  "data/name": "Per species: characters against the species' average height data",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 560
+  },
+  "data/parent": ["transformation/id", "19a04464-3f37-52ae-8db2-23fa53f83ae4"],
+  "data/type": "json"
+}

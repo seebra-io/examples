@@ -1,0 +1,1 @@
+data.corr(["nuclear", "hydro", "wind", "solar", "load", "net_export"], method="pearson")

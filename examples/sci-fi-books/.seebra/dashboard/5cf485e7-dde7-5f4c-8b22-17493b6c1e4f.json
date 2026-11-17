@@ -1,0 +1,36 @@
+{
+  "dashboard/id": "5cf485e7-dde7-5f4c-8b22-17493b6c1e4f",
+  "datas": [
+    ["data/id", "a1c08195-858c-5569-8768-5f65d8b3face"],
+    ["data/id", "c8516f8d-83e7-5986-9095-cbca16e6c110"],
+    ["data/id", "7107c97b-7b51-5bcb-a4c0-5400fc717c82"],
+    ["data/id", "59207d80-dd94-579a-bc1e-8c1b994a930a"],
+    ["data/id", "ba1d0eb3-de34-5f82-bd18-1ba70f49c163"]
+  ],
+  "datasources": [
+    ["datasource/id", "b10d2c7c-91a2-54c2-af5f-f2243f7768b0"]
+  ],
+  "description": "Open Library's science-fiction subject: the 48 works with the most editions, their covers, when they first appeared and how often they were reprinted, and which decades they come from. Statistics: a rate needs an exposure, and the sample is selected on the outcome. Ranked by editions, old works win because they have had longer to collect reprints; editions per year in print (counted to 2026) reorders the list. A few works carry no usable first-publication year (Open Library records 0); they stay in the table but are left out of the charts. Edition counts include translations and reprints that Open Library merged into one work, so they are a rough measure.",
+  "graphs": [
+    ["graph/id", "f46e1e10-0e48-5f7f-bedb-0b739f6ff115"],
+    ["graph/id", "bff00902-c1de-5e71-ada5-f6544da0884a"],
+    ["graph/id", "89870db7-f4af-5c3f-b386-b2fe70f3c10d"]
+  ],
+  "grids": [
+    ["grid/id", "2cc67e0d-8ebc-5b55-9ddd-a759103b6c95"]
+  ],
+  "name": "The most-edited science fiction",
+  "queries": [
+    ["query/id", "bb5b1a5f-9f92-5f30-86be-93ddd6d1f501"]
+  ],
+  "studies": [],
+  "tables": [],
+  "texts": [],
+  "timers": [],
+  "transformations": [
+    ["transformation/id", "74cee61f-0ec8-5989-a9df-40a7b4a96baa"],
+    ["transformation/id", "8fcb908c-1fc3-59f1-880d-b1f9b561e853"],
+    ["transformation/id", "f77a4ad0-95d5-5619-86cf-57ab7aef86a6"],
+    ["transformation/id", "45188eb6-af03-5baf-9200-4e33e2396aa4"]
+  ]
+}

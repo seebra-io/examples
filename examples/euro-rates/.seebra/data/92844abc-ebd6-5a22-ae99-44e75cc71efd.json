@@ -1,0 +1,11 @@
+{
+  "data/id": "92844abc-ebd6-5a22-ae99-44e75cc71efd",
+  "data/name": "Per currency (units per euro; volatility in %)",
+  "data/node": {
+    "node/x": 2070,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "8d3b228d-dde7-513c-b3e8-424e2b845847"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

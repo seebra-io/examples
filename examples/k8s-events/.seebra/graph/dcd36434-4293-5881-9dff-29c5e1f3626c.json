@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/recurring-warnings-per-hour.js"
+  },
+  "graph/id": "dcd36434-4293-5881-9dff-29c5e1f3626c",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Recurring warnings, per hour",
+  "graph/node": {
+    "node/x": 1920,
+    "node/y": 560
+  },
+  "graph/parent": ["data/id", "da0dc7e1-bd7e-58ec-ab6c-d3adea848f86"]
+}

@@ -1,0 +1,10 @@
+{
+  "data/id": "3fb34ce6-294a-52c7-8830-f5e3d1b15f2b",
+  "data/name": "PodDisruptionBudgets data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 320
+  },
+  "data/parent": ["query/id", "93cba030-5395-5ecb-85d2-81c2d20a08d0"],
+  "data/type": "json"
+}

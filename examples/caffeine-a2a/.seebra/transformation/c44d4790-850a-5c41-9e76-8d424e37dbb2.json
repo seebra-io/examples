@@ -1,0 +1,21 @@
+{
+  "transformation/content": {
+    "$file": "transforms/pocket-c-pairs-for-the-fit-of-2ydo-onto-5mzp.polars.py"
+  },
+  "transformation/data-child": ["data/id", "3c42b5e6-16a8-5169-9132-cc746302c1c4"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "c44d4790-850a-5c41-9e76-8d424e37dbb2",
+  "transformation/inputs": [
+    ["data/id", "44350a8b-318a-54f7-b603-a5f63dc4a595"]
+  ],
+  "transformation/language": "polars",
+  "transformation/name": "Pocket Cα pairs for the fit of 2YDO onto 5MZP",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1920,
+    "node/y": 800
+  },
+  "transformation/parent": ["data/id", "3f88e9b1-66f9-5652-95af-daf2f11884d7"],
+  "transformation/units": "{}"
+}

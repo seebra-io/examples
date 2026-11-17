@@ -1,0 +1,10 @@
+{
+  "data/id": "88aa88ba-42a6-5120-a84a-415e3d169272",
+  "data/name": "A 48-hour clock, minute by minute data",
+  "data/node": {
+    "node/x": 2530,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "46c80608-0ddb-591a-ac07-1d7dd3297693"],
+  "data/type": "json"
+}

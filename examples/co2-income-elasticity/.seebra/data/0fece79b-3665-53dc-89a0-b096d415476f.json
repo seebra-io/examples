@@ -1,0 +1,10 @@
+{
+  "data/id": "0fece79b-3665-53dc-89a0-b096d415476f",
+  "data/name": "Countries data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 560
+  },
+  "data/parent": ["query/id", "54c2745b-6f47-574a-b9f6-50385ec6b1f7"],
+  "data/type": "json"
+}

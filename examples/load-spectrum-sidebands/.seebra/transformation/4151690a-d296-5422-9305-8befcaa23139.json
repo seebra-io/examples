@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/hourly-load-centred-and-detrended.polars.py"
+  },
+  "transformation/data-child": ["data/id", "db471de8-4203-5cef-bf4b-e21489e39cdf"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "4151690a-d296-5422-9305-8befcaa23139",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Hourly load, centred and detrended",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "fd182042-96cf-5f85-b226-a71c3a3578a7"],
+  "transformation/units": "{}"
+}

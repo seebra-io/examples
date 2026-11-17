@@ -1,0 +1,5 @@
+# the day-ahead price of the DE-LU bidding zone, one value per quarter-hour (EUR/MWh)
+data.rows("unix_seconds").rename({"value": "t"}).with_row_index("i")
+    .join(data.rows("price").rename({"value": "price"}).with_row_index("i"), on="i")
+    .filter(col("price").is_not_null())
+    .select("t", "price")

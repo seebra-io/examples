@@ -1,0 +1,8 @@
+data.join(data1.select("mc"), how="cross")
+    .filter(col("m") >= col("mc") - 1e-9)
+    .group_by("depth_class")
+    .agg(quakes = len(), mean_m = col("m").mean(), mc = col("mc").first(), largest = col("m").max())
+    .with_columns(b = 0.4342945 / (col("mean_m") - (col("mc") - 0.05)))
+    .with_columns(b_se = col("b") / col("quakes").cast(Float64).sqrt())
+    .with_columns(b = col("b").round(3), b_se = col("b_se").round(3), mean_m = col("mean_m").round(3))
+    .sort("quakes", descending=True)

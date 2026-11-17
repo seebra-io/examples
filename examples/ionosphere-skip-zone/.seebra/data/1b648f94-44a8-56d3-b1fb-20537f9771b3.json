@@ -1,0 +1,10 @@
+{
+  "data/id": "1b648f94-44a8-56d3-b1fb-20537f9771b3",
+  "data/name": "Skip distance per band and station data",
+  "data/node": {
+    "node/x": 2070,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "59a3d5f3-f7e8-50d7-85a5-1e23dac83e1f"],
+  "data/type": "json"
+}

@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "231f5f26-57f0-5a2d-a478-353ae17710f4"],
+  "query/datasource": ["datasource/id", "a32ef27f-9c3e-51e9-a973-4aa7b31099cb"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "4075c7f0-0883-55f1-8abf-a1b07fca4128",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Listed products per route (NDC directory)",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 560
+  },
+  "query/params": "{\"count\":\"route.exact\",\"limit\":\"1000\"}",
+  "query/path": "/drug/ndc.json",
+  "query/request-body": "",
+  "query/units": "{}"
+}

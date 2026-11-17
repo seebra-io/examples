@@ -1,0 +1,18 @@
+{
+  "study/hypothesis": "The hourly price increases with residual load, and the share of price variance explained by residual load is larger than by load.",
+  "study/id": "810f4966-18e3-5783-995f-8dbe4334e0ed",
+  "study/name": "Does residual load, not load, set the price?",
+  "study/node": {
+    "node/x": 540,
+    "node/y": 560
+  },
+  "study/plan": {
+    "$file": ".seebra/study/810f4966-18e3-5783-995f-8dbe4334e0ed.plan.json",
+    "$json": true
+  },
+  "study/question": "Over May and June 2026, does the German day-ahead price rise with residual load (load minus wind and solar), hour by hour, and does residual load explain the price better than load does?",
+  "study/state": {
+    "$file": ".seebra/study/810f4966-18e3-5783-995f-8dbe4334e0ed.state.json",
+    "$json": true
+  }
+}

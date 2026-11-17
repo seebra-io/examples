@@ -1,0 +1,1 @@
+SELECT decade, COUNT(*) AS books, SUM(editions) AS editions, MAX(editions) AS most_editions FROM data WHERE decade IS NOT NULL GROUP BY decade ORDER BY decade

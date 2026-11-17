@@ -1,0 +1,42 @@
+{
+  "dashboard/id": "0d29c0db-f89b-5a49-980d-d74a062b3868",
+  "datas": [
+    ["data/id", "ad230538-dfb3-54ce-a39b-1db1b4435ee2"],
+    ["data/id", "da03da8d-2739-5ed3-9c84-3508becb4858"],
+    ["data/id", "25256e20-e0d4-506d-b309-5053c384744e"],
+    ["data/id", "d7759813-e572-5667-9367-8b26b930d73a"],
+    ["data/id", "64cb09ae-674b-504f-9412-67e37f71b667"],
+    ["data/id", "8513dac9-fe56-547f-9058-28871f829c62"]
+  ],
+  "datasources": [
+    ["datasource/id", "093df41a-24c7-5d6d-83ee-5a05fc873a68"]
+  ],
+  "description": "Question: does one law of motion fix the orbit of every planet we know? Idea: Kepler's third law, from Newton's gravity, P² = 4π²a³/(G(M★ + m)); in years, astronomical units and solar masses it is P² = a³/M★. The NASA Exoplanet Archive's composite table (pscomppars, one row per planet with the best values) gives the period P, the semi-major axis a and the star's mass for about 5,600 planets. Polars fits log P on log a (slope 1.466 ± 0.002, not 1.5: heavier stars hold wider planets, so the raw fit mixes stars) and log P² on log(a³/M★): slope 0.9985 ± 0.0005 across nearly 10 decades of period (2 hours to a million years), and the star's mass can be read off any one orbit as M = a³/P². Forensic twist: about 55% of the planets agree to better than 1%, because the archive's a for transiting planets is usually computed from P and M★ with this very law; the other half scatter by about ±18% (0.071 dex standard deviation), the disagreement between the papers the period, the orbit and the stellar mass come from. Caveats: the planet's mass is neglected (Jupiter is 0.1% of the Sun); a composite row mixes references; imaging and microlensing semi-major axes are projected separations or model-based. Next: the ps table's per-paper rows (one solution per reference) to see which stellar models disagree; the transit stellar density (a/R★)³/P².",
+  "graphs": [
+    ["graph/id", "0edf55ba-ca1f-51f3-a973-f637c3a7b3b1"],
+    ["graph/id", "968759e4-f505-5bdd-883e-a6aa6fb2713e"],
+    ["graph/id", "b3c3a52c-9071-5582-81c1-c4aedbfd37df"]
+  ],
+  "grids": [],
+  "name": "Kepler's third law in 5,600 exoplanets",
+  "ontology": {
+    "$file": ".seebra/dashboard/0d29c0db-f89b-5a49-980d-d74a062b3868.ontology.json",
+    "$json": true
+  },
+  "queries": [
+    ["query/id", "1f6356a5-d3fd-5b63-966a-2d1a26cd36d3"]
+  ],
+  "studies": [
+    ["study/id", "a35bc11c-e8b5-5762-aa37-306209db5d62"]
+  ],
+  "tables": [],
+  "texts": [],
+  "timers": [],
+  "transformations": [
+    ["transformation/id", "69eda588-5aa3-5438-9c72-56d8f3e66af1"],
+    ["transformation/id", "13bc5c1b-d44a-5bba-b5a3-c9edd544b852"],
+    ["transformation/id", "f8b5fe70-3802-5acc-adc3-0fe215bcb93f"],
+    ["transformation/id", "9be7dbbf-7a3d-5cf2-87da-f9de9a00834e"],
+    ["transformation/id", "ef4586cc-3214-5bcf-a6f8-2eb669f7f854"]
+  ]
+}

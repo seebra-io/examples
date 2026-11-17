@@ -1,0 +1,1 @@
+data.pca(["Denmark", "Finland", "Iceland", "Norway", "Sweden"], k=5, scale=True, output="variance")

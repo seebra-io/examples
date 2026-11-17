@@ -1,0 +1,10 @@
+{
+  "data/id": "233d4b88-d447-544a-b30d-00204b805109",
+  "data/name": "Days: London (radiators) data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 800
+  },
+  "data/parent": ["transformation/id", "2a765ed7-e11b-592e-ba22-793b61262aad"],
+  "data/type": "json"
+}

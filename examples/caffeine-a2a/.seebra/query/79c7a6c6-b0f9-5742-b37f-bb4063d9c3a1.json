@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "ed709401-6c0b-50c8-9c69-cdf80dde55d1"],
+  "query/datasource": ["datasource/id", "3822f755-3728-5088-abfd-470b9461248e"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "79c7a6c6-b0f9-5742-b37f-bb4063d9c3a1",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "P29274 features (binding sites, helices)",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 800
+  },
+  "query/params": "{\"fields\":\"ft_binding,ft_transmem,ft_mutagen\"}",
+  "query/path": "/uniprotkb/P29274.json",
+  "query/request-body": "",
+  "query/units": "{}"
+}

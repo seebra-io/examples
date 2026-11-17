@@ -1,0 +1,10 @@
+{
+  "data/id": "f1dc322d-34a3-553e-951d-ec4658fa62ae",
+  "data/name": "Daily precipitation 1940–2025, Copenhagen data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 80
+  },
+  "data/parent": ["query/id", "84f92ab7-cfd4-5961-8718-863b06f0c73a"],
+  "data/type": "json"
+}

@@ -1,0 +1,8 @@
+{
+  "file": {
+    "file/example": "river-pulse-xcorr"
+  },
+  "format": 2,
+  "root": ["dashboard/id", "57155ecc-0020-5769-8f18-fafb28a405d1"],
+  "seebra": "board"
+}

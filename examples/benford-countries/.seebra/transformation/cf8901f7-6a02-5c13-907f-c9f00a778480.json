@@ -1,0 +1,24 @@
+{
+  "transformation/content": {
+    "$file": "transforms/countries-with-their-first-digits.polars.py"
+  },
+  "transformation/data-child": ["data/id", "1b8262e1-4d53-57b8-865c-cae22210fabd"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "cf8901f7-6a02-5c13-907f-c9f00a778480",
+  "transformation/inputs": [
+    ["data/id", "9f152be6-fa55-5f55-a3b8-d1bc93f8fc05"],
+    ["data/id", "7dbe09ee-75e0-50c0-8d08-67cab2eba6b1"],
+    ["data/id", "54f4c137-c96e-5e7f-bc05-f1ebc8e7f104"],
+    ["data/id", "1ac57976-1397-5f1d-a5af-a209c2d34a07"]
+  ],
+  "transformation/language": "polars",
+  "transformation/name": "Countries with their first digits",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "1fedc298-5ff2-556f-b232-36fbb6cae166"],
+  "transformation/units": "{}"
+}

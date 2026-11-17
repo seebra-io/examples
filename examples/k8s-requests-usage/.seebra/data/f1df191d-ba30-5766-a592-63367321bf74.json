@@ -1,0 +1,10 @@
+{
+  "data/id": "f1df191d-ba30-5766-a592-63367321bf74",
+  "data/name": "Request and usage, CPU and memory as rows data",
+  "data/node": {
+    "node/x": 2070,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "4561a63e-4b87-5f27-8e19-adaf8b7613c8"],
+  "data/type": "json"
+}

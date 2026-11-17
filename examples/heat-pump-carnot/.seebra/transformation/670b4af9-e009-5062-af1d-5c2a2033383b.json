@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/cop-against-carnot-and-lift.polars.py"
+  },
+  "transformation/data-child": ["data/id", "e103d2fa-1a2e-5f74-bf8c-b78f9f428793"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "670b4af9-e009-5062-af1d-5c2a2033383b",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "COP against Carnot and lift",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1920,
+    "node/y": 560
+  },
+  "transformation/parent": ["data/id", "b9a5e1a2-3f25-53ed-8582-0228fb139519"],
+  "transformation/units": "{}"
+}

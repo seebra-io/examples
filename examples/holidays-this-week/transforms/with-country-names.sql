@@ -1,0 +1,1 @@
+SELECT h.date, h.code, c.name AS country, h.holiday, h.local_name, h.nationwide, h.regions, h.types FROM data h LEFT JOIN data1 c ON h.code = c.countryCode ORDER BY h.date, country

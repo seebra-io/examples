@@ -1,0 +1,10 @@
+{
+  "data/id": "013347ed-d64f-5f64-88f7-03889c34c912",
+  "data/name": "Codons beside their amino acids data",
+  "data/node": {
+    "node/x": 2070,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "a9a19edf-f36e-5e1e-93c4-1b56c6e943be"],
+  "data/type": "json"
+}

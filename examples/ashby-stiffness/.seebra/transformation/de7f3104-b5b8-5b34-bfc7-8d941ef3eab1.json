@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/elements-and-minerals-young-s-modulus-and.polars.py"
+  },
+  "transformation/data-child": ["data/id", "de2d6ded-0b32-5f5d-922a-d8080dc18e9f"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "de7f3104-b5b8-5b34-bfc7-8d941ef3eab1",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Elements and minerals: Young's modulus and Poisson's ratio from K and G",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "72a75de8-62c1-5ac6-9673-813941cb5720"],
+  "transformation/units": "{}"
+}

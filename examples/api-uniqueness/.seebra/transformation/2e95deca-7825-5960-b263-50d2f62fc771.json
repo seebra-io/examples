@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/percentile-the-share-of-apis-that-score-lower.polars.py"
+  },
+  "transformation/data-child": ["data/id", "f2999a8c-0252-5608-9a77-fc5e649c121e"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "2e95deca-7825-5960-b263-50d2f62fc771",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Percentile: the share of APIs that score lower",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1920,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "58436b7c-a62e-5afd-9806-7c0b3efb05b1"],
+  "transformation/units": "{}"
+}

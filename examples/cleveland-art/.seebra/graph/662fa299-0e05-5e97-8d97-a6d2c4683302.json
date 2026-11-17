@@ -1,0 +1,16 @@
+{
+  "graph/content": {
+    "$file": "graphs/when-they-were-made-date-ranges-median-and.js"
+  },
+  "graph/id": "662fa299-0e05-5e97-8d97-a6d2c4683302",
+  "graph/inputs": [
+    ["data/id", "b7a0c028-e036-5510-81ca-867ba9ea6e4e"]
+  ],
+  "graph/language": "javascript",
+  "graph/name": "When they were made: date ranges, median and middle half",
+  "graph/node": {
+    "node/x": 1460,
+    "node/y": 560
+  },
+  "graph/parent": ["data/id", "191c93bf-c560-5939-8583-7787bbbd74ad"]
+}

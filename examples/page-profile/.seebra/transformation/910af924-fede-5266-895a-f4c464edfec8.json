@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/moving-against-still-the-verdict.sql"
+  },
+  "transformation/data-child": ["data/id", "0d1596fc-1ecb-5def-8852-f8b14f1c2632"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "910af924-fede-5266-895a-f4c464edfec8",
+  "transformation/inputs": [],
+  "transformation/language": "sql",
+  "transformation/name": "Moving against still: the verdict",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "ef5542e6-4f2c-59fa-ba45-375fd0199e08"],
+  "transformation/units": "{}"
+}

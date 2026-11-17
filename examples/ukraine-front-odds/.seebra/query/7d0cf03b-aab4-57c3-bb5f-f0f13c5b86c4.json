@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "e140d89b-ec4b-5ce1-b29d-d462cbb0ecab"],
+  "query/datasource": ["datasource/id", "d348e3de-c603-5b89-a9de-59bd3e05afc8"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "7d0cf03b-aab4-57c3-bb5f-f0f13c5b86c4",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Open Ukraine markets (play money)",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 1280
+  },
+  "query/params": "{\"term\":\"ukraine\",\"limit\":\"40\",\"filter\":\"open\",\"sort\":\"liquidity\"}",
+  "query/path": "/search-markets",
+  "query/request-body": "",
+  "query/units": "{}"
+}

@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/per-class-s-vap-and-how-often-the-boiling-point.polars.py"
+  },
+  "transformation/data-child": ["data/id", "f2c95e97-61e9-590e-a2fe-3a824b443f01"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "d4d416de-3e08-5288-b290-23a385461f8e",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Per class: ΔS_vap and how often the boiling point predicts P within ×2",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1920,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "734ae4fb-e4cc-5e88-84d8-040ea4d0aaa8"],
+  "transformation/units": "{}"
+}

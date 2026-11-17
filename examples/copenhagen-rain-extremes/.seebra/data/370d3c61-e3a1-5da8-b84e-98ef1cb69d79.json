@@ -1,0 +1,10 @@
+{
+  "data/id": "370d3c61-e3a1-5da8-b84e-98ef1cb69d79",
+  "data/name": "Extreme values: Gumbel fit and plotting positions data",
+  "data/node": {
+    "node/x": 2530,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "c9c634c5-c07d-5f0a-b550-e970fd9a4bef"],
+  "data/type": "json"
+}

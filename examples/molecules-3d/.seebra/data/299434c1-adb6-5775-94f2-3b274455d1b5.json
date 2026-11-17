@@ -1,0 +1,11 @@
+{
+  "data/id": "299434c1-adb6-5775-94f2-3b274455d1b5",
+  "data/name": "Properties",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 560
+  },
+  "data/parent": ["transformation/id", "87cb6765-22ae-5746-bf3f-a3aff06476f6"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

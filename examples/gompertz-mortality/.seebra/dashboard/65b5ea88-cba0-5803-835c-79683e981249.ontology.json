@@ -1,0 +1,130 @@
+{
+  "title": "Gompertz's law of mortality",
+  "summary": "Adult death rates rise exponentially with age; countries differ in the level, much less in the rate of ageing.",
+  "concepts": [
+    {
+      "cid": "c1",
+      "label": "Life table",
+      "kind": "entity",
+      "description": "A population's death rates by single year of age (Eurostat demo_mlifetable).",
+      "fields": [
+        "rates.geo",
+        "rates.year"
+      ],
+      "in_data": true,
+      "wikidata": "Q1197453",
+      "children": [
+        {
+          "cid": "c2",
+          "label": "Death rate m(x)",
+          "kind": "measure",
+          "as": "property",
+          "description": "Deaths per person-year lived at age x.",
+          "fields": [
+            "rates.mx"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c3",
+          "label": "Age",
+          "kind": "measure",
+          "as": "property",
+          "description": "Single years; the last group is open (85+ or 95+).",
+          "fields": [
+            "rates.age"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c4",
+          "label": "Sex",
+          "kind": "category",
+          "as": "property",
+          "description": "Women and men.",
+          "fields": [
+            "rates.sex"
+          ],
+          "in_data": true
+        }
+      ]
+    },
+    {
+      "cid": "c5",
+      "label": "Gompertz law",
+      "kind": "concept",
+      "description": "m(x) = a·e^(bx): adult mortality rises exponentially with age.",
+      "fields": [
+        "fits.b",
+        "fits.ln_a"
+      ],
+      "in_data": true,
+      "wikidata": "Q1193640",
+      "facts": [
+        {
+          "text": "Benjamin Gompertz proposed the law in 1825.",
+          "source": "https://doi.org/10.1098/rstl.1825.0026"
+        }
+      ],
+      "children": [
+        {
+          "cid": "c6",
+          "label": "Mortality-rate doubling time",
+          "kind": "measure",
+          "as": "property",
+          "description": "ln 2 / b, in years.",
+          "fields": [
+            "fits.mrdt"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c7",
+          "label": "Strehler–Mildvan correlation",
+          "kind": "concept",
+          "as": "property",
+          "description": "Across populations, a lower level a goes with a steeper slope b.",
+          "fields": [
+            "fits.m60",
+            "fits.mrdt"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c8",
+          "label": "Accident hump",
+          "kind": "event",
+          "as": "part",
+          "description": "Excess deaths of young adults, mostly men, above the line.",
+          "fields": [
+            "residuals.ratio"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c9",
+          "label": "Mortality deceleration",
+          "kind": "concept",
+          "as": "part",
+          "description": "The slowing of the rise at the oldest ages (plateau debated).",
+          "in_data": false
+        }
+      ]
+    },
+    {
+      "cid": "c10",
+      "label": "Cause of death",
+      "kind": "category",
+      "description": "What the deaths at each age are (Eurostat hlth_cd_aro): would explain the hump and the level.",
+      "in_data": false
+    },
+    {
+      "cid": "c11",
+      "label": "Biological ageing",
+      "kind": "concept",
+      "description": "The decline of the body's repair and reserve that the slope b measures.",
+      "in_data": false,
+      "wikidata": "Q11904"
+    }
+  ]
+}

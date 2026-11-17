@@ -1,0 +1,10 @@
+{
+  "data/id": "bd4b312d-e435-5e63-a944-1e08fc510644",
+  "data/name": "System 802, Cheshire (underfloor + radiators): daily stats, Nov 2025 – Oct 2026 data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 80
+  },
+  "data/parent": ["query/id", "1c137472-8dc0-53eb-baf6-0414bd5f8788"],
+  "data/type": "json"
+}

@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "966da2fe-19e0-53fb-907f-2e021e8d0d05"],
+  "query/datasource": ["datasource/id", "5a9bd1bc-6870-574c-9ead-357fedee9185"],
+  "query/dynamic?": false,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "0f1ba67f-1437-52b3-a4ac-0a100a898173",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Mars landing attempts (curated from Wikipedia, with sources)",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 80
+  },
+  "query/params": "{}",
+  "query/path": "/mars-landings.json",
+  "query/request-body": "",
+  "query/units": "{}"
+}

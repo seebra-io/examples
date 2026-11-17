@@ -1,0 +1,214 @@
+{
+  "title": "Bridge wear-in with age",
+  "question": "Per 5-year age cohort of the 2025 inventory: is ln(share of bridges with lowest rating ≤ 4) a straight line in age from 5 to 44 years, and per material and 10-year age band, is the mean lowest rating of steel bridges below that of prestressed concrete ones at the same age?",
+  "review": {
+    "well_formed": false,
+    "issues": [
+      {
+        "kind": "causal",
+        "text": "Age in a single inventory is a cohort difference, not one bridge ageing: older cohorts were built to other standards and the worst were already replaced.",
+        "fix": "Read the slope as the cross-sectional wear-in of today's stock; the reconstruction clock and the materials at equal age are the checks; annual NBI files would give the panel."
+      },
+      {
+        "kind": "grain",
+        "text": "The server aggregates: the data are counts per year built and rating, not bridges.",
+        "fix": "The regression runs on cohorts (5-year bands), weighted implicitly by sizes of 600-47,000 bridges."
+      },
+      {
+        "kind": "concept",
+        "text": "Overall poor shares per material compare materials of different ages (prestressed concrete averages 35 years, steel 54).",
+        "fix": "Compare the mean rating within the same 10-year age band (materials step), not the overall share."
+      }
+    ],
+    "alternatives": [
+      {
+        "question": "Does the doubling time differ between steel and prestressed concrete cohorts?",
+        "why": "Drills into material; needs counts per material, year built and rating (paged server query).",
+        "ready": false
+      },
+      {
+        "question": "Do reconstructed bridges age from the year of reconstruction at the same rate as new ones?",
+        "why": "Drills into item 106; the clocks step has both curves.",
+        "ready": true
+      },
+      {
+        "question": "Do average daily traffic, truck share or freeze-thaw climate (state) speed up the wear-in?",
+        "why": "Expands with ADT_029, PERCENT_ADT_TRUCK_109 and STATE_CODE_001 from the same server.",
+        "ready": false
+      }
+    ]
+  },
+  "hypotheses": [
+    {
+      "id": "H1",
+      "statement": "The log share of poor bridges rises linearly with age from 5 to 44 years.",
+      "null": "The log poor share does not change with age.",
+      "outcome": {
+        "concept": "Poor share",
+        "field": "log_poor"
+      },
+      "predictor": {
+        "concept": "Bridge age",
+        "field": "age_mid"
+      },
+      "subgroup": null,
+      "direction": "increase",
+      "test": {
+        "method": "regression",
+        "link": null,
+        "outcome_mode": "mean",
+        "outcome_field": "log_poor",
+        "predictor_field": "age_mid",
+        "exposure_field": null,
+        "versus": null
+      }
+    },
+    {
+      "id": "H2",
+      "statement": "At the same age, steel bridges have a lower mean lowest rating than prestressed concrete bridges.",
+      "null": "Steel and prestressed concrete bridges of the same age rate the same.",
+      "outcome": {
+        "concept": "Condition rating",
+        "field": "mean_rating"
+      },
+      "predictor": {
+        "concept": "Main-span material",
+        "field": "material"
+      },
+      "subgroup": {
+        "concept": "Main-span material",
+        "category": "steel"
+      },
+      "direction": "decrease",
+      "test": {
+        "method": "means",
+        "link": null,
+        "outcome_mode": "mean",
+        "outcome_field": "mean_rating",
+        "predictor_field": "material",
+        "exposure_field": null,
+        "versus": "prestressed concrete"
+      }
+    }
+  ],
+  "concepts": [
+    {
+      "label": "Bridge cohort",
+      "kind": "entity",
+      "description": "Bridges built in the same 5-year span (year built, NBI item 27).",
+      "why": "The unit the server's counts allow.",
+      "have": true,
+      "categories": [],
+      "field": "built",
+      "strategy": null
+    },
+    {
+      "label": "Bridge age",
+      "kind": "time",
+      "description": "2025 minus year built; the inventory is as of June 2025.",
+      "why": "The predictor.",
+      "have": true,
+      "categories": [],
+      "field": "age_mid",
+      "strategy": null
+    },
+    {
+      "label": "Condition rating",
+      "kind": "measure",
+      "description": "The lowest of the deck, superstructure, substructure and culvert ratings (0-9).",
+      "why": "What wears.",
+      "have": true,
+      "categories": [],
+      "field": "rating",
+      "strategy": null
+    },
+    {
+      "label": "Poor share",
+      "kind": "measure",
+      "description": "Share of a cohort with lowest rating ≤ 4 (FHWA's poor class).",
+      "why": "The outcome.",
+      "have": true,
+      "categories": [],
+      "field": "share_poor",
+      "strategy": null
+    },
+    {
+      "label": "Main-span material",
+      "kind": "category",
+      "description": "NBI item 43A: concrete, steel, prestressed concrete, timber, masonry, ...",
+      "why": "A candidate for different wear rates.",
+      "have": true,
+      "categories": [
+        "steel",
+        "prestressed concrete"
+      ],
+      "field": "material",
+      "strategy": null
+    },
+    {
+      "label": "Rating history",
+      "kind": "measure",
+      "description": "Each bridge's rating year by year.",
+      "why": "A panel would separate wear from survivor bias and fit Markov transition probabilities.",
+      "have": false,
+      "categories": [],
+      "field": null,
+      "strategy": {
+        "how": "fetch",
+        "detail": "FHWA's annual NBI ASCII files 1992-2025, joined on STRUCTURE_NUMBER_008 and STATE_CODE_001."
+      }
+    }
+  ],
+  "data": [
+    {
+      "concept": "Rating history",
+      "request": "Lowest condition rating per bridge and inventory year, 1992-2025",
+      "source": "FHWA NBI annual files (https://www.fhwa.dot.gov/bridge/nbi/ascii.cfm)",
+      "why": "Year-to-year transitions give the Markov deterioration model without survivor bias."
+    }
+  ],
+  "links": [],
+  "method": {
+    "id": "regression",
+    "summary": "H1: a straight line of log_poor on age_mid over the cohorts aged 5-44 (the hazard step gives the least-squares fit); H2: the means method compares steel and prestressed concrete mean_rating within age bands."
+  },
+  "steps": [
+    {
+      "kind": "data",
+      "title": "Counts per year built and rating",
+      "detail": "by_rating: the server's count per YEAR_BUILT_027 and LOWEST_RATING."
+    },
+    {
+      "kind": "concept",
+      "title": "Cohorts and poor share",
+      "detail": "ratings and cohorts: 5-year age bands, share_poor = bridges with rating ≤ 4 / bridges, log_poor."
+    },
+    {
+      "kind": "method",
+      "title": "Fit the wear-in",
+      "detail": "hazard: log_poor on age_mid for bands 5-40, growth_per_year and doubling_years."
+    },
+    {
+      "kind": "categorise",
+      "title": "Materials",
+      "detail": "materials: STRUCTURE_KIND_043A codes 1-9 into names, 10-year bands."
+    },
+    {
+      "kind": "method",
+      "title": "Steel against prestressed concrete at equal age",
+      "detail": "means of mean_rating per band for material steel versus prestressed concrete."
+    },
+    {
+      "kind": "decide",
+      "title": "Accept, reject, or extend to the panel",
+      "detail": "If the fit bends past 45 years, the bend is maintenance and survivor bias: fetch the annual files."
+    }
+  ],
+  "caveats": [
+    "One inventory, not bridges followed over time: old cohorts are the survivors.",
+    "Ratings are inspectors' judgements on a 0-9 scale every 24 months (some 12 or 48).",
+    "The lowest rating of four components hides which one is poor.",
+    "Year built is the original construction; item 106 records only the latest reconstruction.",
+    "Cohort counts weigh unevenly: the 1906-1910 band has 2,000 bridges, 1966-1970 47,000."
+  ]
+}

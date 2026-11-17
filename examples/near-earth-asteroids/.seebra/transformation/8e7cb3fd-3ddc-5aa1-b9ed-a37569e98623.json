@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/sizes-on-a-log-scale-quarter-decade-bins-median.polars.py"
+  },
+  "transformation/data-child": ["data/id", "dead8837-fdff-5be7-bddb-f08bc87ffa69"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "8e7cb3fd-3ddc-5aa1-b9ed-a37569e98623",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Sizes on a log scale: quarter-decade bins, median and geometric mean",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1920,
+    "node/y": 560
+  },
+  "transformation/parent": ["data/id", "a4434fae-93e3-5fef-833f-88f318f2b63b"],
+  "transformation/units": "{}"
+}

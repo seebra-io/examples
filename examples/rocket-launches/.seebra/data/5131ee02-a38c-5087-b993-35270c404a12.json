@@ -1,0 +1,10 @@
+{
+  "data/id": "5131ee02-a38c-5087-b993-35270c404a12",
+  "data/name": "Per provider data",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "7eea9a44-fbec-5e7b-9341-4459ede17ec4"],
+  "data/type": "json"
+}

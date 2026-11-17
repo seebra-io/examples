@@ -1,0 +1,21 @@
+{
+  "query/data-child": ["data/id", "d7fc9a8c-290b-515b-91b0-bb65d7196643"],
+  "query/datasource": ["datasource/id", "7a0a254a-389d-5cca-bc8a-a53c5f739dfa"],
+  "query/dynamic?": false,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "94e34bdd-611c-5ca2-9f80-5e876140ffe8",
+  "query/key": "",
+  "query/method": "POST",
+  "query/name": "⚠ Evict (deletes the pod)",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 800
+  },
+  "query/params": "{}",
+  "query/path": "/api/v1/namespaces/{{namespace}}/pods/{{pod}}/eviction",
+  "query/request-body": {
+    "$file": "queries/evict-deletes-the-pod.json"
+  },
+  "query/units": "{}"
+}

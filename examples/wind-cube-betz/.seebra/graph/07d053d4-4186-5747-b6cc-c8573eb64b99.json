@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/power-coefficient-against-the-betz-limit.js"
+  },
+  "graph/id": "07d053d4-4186-5747-b6cc-c8573eb64b99",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Power coefficient against the Betz limit",
+  "graph/node": {
+    "node/x": 2380,
+    "node/y": 80
+  },
+  "graph/parent": ["data/id", "e61e9cf8-7d60-5722-9f24-f7b5631f4f7b"]
+}

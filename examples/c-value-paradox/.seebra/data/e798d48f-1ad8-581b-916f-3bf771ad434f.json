@@ -1,0 +1,10 @@
+{
+  "data/id": "e798d48f-1ad8-581b-916f-3bf771ad434f",
+  "data/name": "Genome size, genes and gene density data",
+  "data/node": {
+    "node/x": 2070,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "7f010c30-16e5-55d8-9dde-cf274a096c6e"],
+  "data/type": "json"
+}

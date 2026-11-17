@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/how-well-do-the-rules-separate-the-structures.sql"
+  },
+  "transformation/data-child": ["data/id", "53f3fd4e-d12a-5a27-891c-0543cd57818b"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "8d7619f6-b57e-516b-97c7-da6afe831c19",
+  "transformation/inputs": [],
+  "transformation/language": "sql",
+  "transformation/name": "How well do the rules separate the structures?",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1920,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "653d1f80-2665-526f-b04e-3c8858293ca3"],
+  "transformation/units": "{}"
+}

@@ -1,0 +1,17 @@
+{
+  "graph/content": {
+    "$file": "graphs/usage-over-request-per-namespace-the-spread.js"
+  },
+  "graph/id": "dda466c5-6a8c-525f-8db1-a62b6b44cd32",
+  "graph/inputs": [
+    ["data/id", "9717b6c3-d3f8-5221-b28b-6b0aac093d68"],
+    ["data/id", "0aedab75-face-5765-b7f3-344147ab3fc2"]
+  ],
+  "graph/language": "javascript",
+  "graph/name": "Usage over request per namespace: the spread",
+  "graph/node": {
+    "node/x": 2380,
+    "node/y": 560
+  },
+  "graph/parent": ["data/id", "f1df191d-ba30-5766-a592-63367321bf74"]
+}

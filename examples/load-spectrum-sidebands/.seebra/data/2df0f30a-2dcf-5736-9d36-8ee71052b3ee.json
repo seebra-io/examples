@@ -1,0 +1,11 @@
+{
+  "data/id": "2df0f30a-2dcf-5736-9d36-8ee71052b3ee",
+  "data/name": "Peaks and the lines they match",
+  "data/node": {
+    "node/x": 2530,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "31d24115-75f3-5f21-8348-2848bff210b1"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

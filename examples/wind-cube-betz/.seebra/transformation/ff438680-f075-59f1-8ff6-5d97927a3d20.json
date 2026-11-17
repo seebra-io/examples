@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/measured-power-curve-and-cp.polars.py"
+  },
+  "transformation/data-child": ["data/id", "e61e9cf8-7d60-5722-9f24-f7b5631f4f7b"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "ff438680-f075-59f1-8ff6-5d97927a3d20",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Measured power curve and Cp",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1920,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "b67bf7f9-f413-5c91-a626-8c2ad1ca715b"],
+  "transformation/units": "{}"
+}

@@ -1,0 +1,15 @@
+data.rows("features")
+    .select(kind_code = col("attributes").struct.field("STRUCTURE_KIND_043A"), year_built = col("attributes").struct.field("YEAR_BUILT_027"),
+            n = col("attributes").struct.field("n"), mean_rating = col("attributes").struct.field("mean_rating").cast(Float64))
+    .filter((col("year_built") >= 1906) & (col("year_built") <= 2025))
+    .with_columns(material = when(col("kind_code") == "1").then(lit("concrete")).when(col("kind_code") == "2").then(lit("concrete, continuous"))
+                  .when(col("kind_code") == "3").then(lit("steel")).when(col("kind_code") == "4").then(lit("steel, continuous"))
+                  .when(col("kind_code") == "5").then(lit("prestressed concrete")).when(col("kind_code") == "6").then(lit("prestressed concrete, continuous"))
+                  .when(col("kind_code") == "7").then(lit("timber")).when(col("kind_code") == "8").then(lit("masonry"))
+                  .when(col("kind_code") == "9").then(lit("aluminium, wrought or cast iron")).otherwise(lit("other")),
+                  band = (((2025 - col("year_built")) / 10).floor() * 10).cast(Int64))
+    .group_by("material", "band")
+    .agg(bridges = col("n").sum(), mean_rating = (col("mean_rating") * col("n")).sum() / col("n").sum())
+    .filter(col("bridges") >= 200)
+    .with_columns(mean_rating = col("mean_rating").round(3), age_mid = col("band") + 5)
+    .sort("material", "band")

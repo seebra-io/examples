@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/guide-where-and-how-to-export.js"
+  },
+  "transformation/data-child": ["data/id", "ece65900-9e7b-57f9-a300-8f754f676f59"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "js-web-worker",
+  "transformation/id": "2defa771-d901-513f-8daa-7266593a791b",
+  "transformation/inputs": [],
+  "transformation/language": "javascript",
+  "transformation/name": "Guide: where and how to export",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "b4c95036-6123-59c3-b2e2-bebae986b4c5"],
+  "transformation/units": "{}"
+}

@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/uniqueness-by-field-crowded-categories-against.js"
+  },
+  "graph/id": "1588e564-c90f-52bb-8ef5-da9788350412",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Uniqueness by field: crowded categories against lonely ones",
+  "graph/node": {
+    "node/x": 2840,
+    "node/y": 320
+  },
+  "graph/parent": ["data/id", "03cb2a02-4787-52ee-bb47-f6f2ecd59377"]
+}

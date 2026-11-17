@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "17ea9782-ad71-574d-a297-939dec181cfa"],
+  "query/datasource": ["datasource/id", "0b3f16fe-f485-5aa8-9536-a809a6a96d00"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "43bf989a-dc3d-581d-900e-70026463c287",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "E. coli K-12 ribosomal proteins (UniProt, keyword KW-0689)",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 80
+  },
+  "query/params": "{\"query\":\"organism_id:83333 AND reviewed:true AND keyword:KW-0689\",\"fields\":\"accession,gene_primary,gene_oln,protein_name,length,sequence\",\"format\":\"json\",\"size\":\"500\"}",
+  "query/path": "/uniprotkb/search",
+  "query/request-body": "",
+  "query/units": "{}"
+}

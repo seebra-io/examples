@@ -1,0 +1,10 @@
+{
+  "data/id": "954b25dd-ef16-5e96-ac67-b497ee7534cf",
+  "data/name": "Sightings with photos data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 80
+  },
+  "data/parent": ["query/id", "fca9fa50-d9ed-57fa-beed-263895df6b23"],
+  "data/type": "json"
+}

@@ -1,0 +1,11 @@
+{
+  "data/id": "bcedfbd1-053f-5821-a795-794a9458f9ae",
+  "data/name": "Warnings per reason",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "bff48d88-3018-51f4-a3bf-975837652e4a"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

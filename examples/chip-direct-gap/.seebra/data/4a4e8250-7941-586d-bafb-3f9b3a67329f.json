@@ -1,0 +1,10 @@
+{
+  "data/id": "4a4e8250-7941-586d-bafb-3f9b3a67329f",
+  "data/name": "Two-proportion test: III-V and II-VI against the rest data",
+  "data/node": {
+    "node/x": 2070,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "ab139afe-cc10-5c67-9730-7446874fd941"],
+  "data/type": "json"
+}

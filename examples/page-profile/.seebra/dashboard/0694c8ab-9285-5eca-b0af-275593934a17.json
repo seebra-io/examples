@@ -1,0 +1,48 @@
+{
+  "dashboard/id": "0694c8ab-9285-5eca-b0af-275593934a17",
+  "datas": [
+    ["data/id", "ef5542e6-4f2c-59fa-ba45-375fd0199e08"],
+    ["data/id", "c6cbd2f0-b13e-5ed1-a97f-eacadfccd58d"],
+    ["data/id", "0d1596fc-1ecb-5def-8852-f8b14f1c2632"],
+    ["data/id", "e5acd122-71a0-58f0-957c-0fd865f2181c"],
+    ["data/id", "5c838d31-1a1b-555c-bd0f-5e4ed204d9d2"],
+    ["data/id", "eab3c9f5-1730-557a-8f44-f708de3f1698"],
+    ["data/id", "f118fa23-7456-5272-a826-175e8288c1ed"],
+    ["data/id", "764e4999-6c2f-5eef-bbca-8eaaae1fc171"]
+  ],
+  "datasources": [
+    ["datasource/id", "2ae23d5b-3111-568a-9d05-a9680f738c4b"]
+  ],
+  "description": "Question: when Seebra's canvas stutters during a pan, what is the main thread doing: Seebra's own code (which graph or step), a third-party script, or a request that should not run at all? Data: the page profiles itself. Seebra keeps a rolling record of its own performance (frontend/src/main/perf.cljs) in the JavaScript variable window.__seebraPerf, read here by a Javascript Variable datasource: long animation frames (LoAF: every frame of 50 ms or more) with the scripts that ran in them (source URL, function, invoker, forced layout), Seebra's own spans (graph draws, the runtime's spec), canvas moves, interactions (Event Timing), the page's fetches, LCP, and the browser's navigation, paint and resource entries, one row per entry. A timer re-reads it every 15 s. Idea: frame budget and attribution. At 60 Hz a frame has 16.7 ms; anything over 50 ms is a long frame users feel, and its blocking time (the part over 50 ms) is what delays their input. Joining long frames to the scripts inside them and to the moments the canvas moved says who spent the budget. Try it: pan and zoom the canvas for a few seconds, open a dialog, run a query, then wait for the timer (or press Run on the query). Aha (in the recorded sample, a signed-out visit to an example on www.seebra.io in headless Chromium): all 9 long frames came in the first 2.5 s, while the page loaded; five seconds of panning and zooming afterwards added none, and no fetch started during a move. Of the 1.3 s of script time in those frames, 63% was Seebra's own: evaluating the main bundle (525 ms, one 546 ms frame that blocked input for 495 ms) and a single Response.json() callback (266 ms, a large JSON answer parsed on the main thread); 37% was third parties (Cloudflare's bot check, the consent banner, Google Tag Manager). So the jank to fix there is at start-up, not in the canvas. Your session will differ: that is the point. Next steps: hover a bar for the entry behind it, click a resource to open it, read the scripts table by party, and compare a session on a big dashboard with one on a small one. Caveats: long-animation-frame and Event Timing are Chrome/Edge APIs (Chromium 123+); elsewhere the frames fall back to long tasks without scripts, and interactions are missing. Numbers depend on the machine, its other tabs and extensions, and on what else this dashboard draws (the profile watches itself: its own graph redraws appear as spans). Graph code runs in a sandboxed frame, whose work may not be attributed to the page's frames. Cross-origin resources without Timing-Allow-Origin report no sizes or first-byte times. The total blocking time here sums every long frame of the session, not only those between first paint and interactive as Lighthouse's TBT does. Javascript Variable datasources are disabled in shared dashboards: a share must never read its viewer's page.",
+  "graphs": [
+    ["graph/id", "6ad41be7-064e-522a-9fef-f0f4664f46df"],
+    ["graph/id", "796612b7-68cb-5e9c-b97d-2d8ca780cd20"],
+    ["graph/id", "4c79aa45-0aa7-5206-b6de-8d0815d708b8"]
+  ],
+  "grids": [],
+  "name": "Profile this page: where the main thread's time goes",
+  "ontology": {
+    "$file": ".seebra/dashboard/0694c8ab-9285-5eca-b0af-275593934a17.ontology.json",
+    "$json": true
+  },
+  "queries": [
+    ["query/id", "b6a9f66c-a762-5998-a86d-cd9ebf73201c"]
+  ],
+  "studies": [
+    ["study/id", "da7c6717-e732-5612-8efe-5602ce6dc2c7"]
+  ],
+  "tables": [],
+  "texts": [],
+  "timers": [
+    ["timer/id", "72b5f9f2-9d79-53fe-8400-4041f70aa6e5"]
+  ],
+  "transformations": [
+    ["transformation/id", "1708438c-abf7-5b6e-816f-dc13c8232bca"],
+    ["transformation/id", "910af924-fede-5266-895a-f4c464edfec8"],
+    ["transformation/id", "8cd183b3-1828-5b34-bb37-be3451828de8"],
+    ["transformation/id", "64212ccd-ae70-561f-8b19-d85c8bfd1237"],
+    ["transformation/id", "dadc653c-d8cf-5911-866e-f629a1665287"],
+    ["transformation/id", "65da0f4f-6fb9-5f15-82ae-5c20c744d32b"],
+    ["transformation/id", "236409de-53a2-598e-af37-87c69b937b46"]
+  ]
+}

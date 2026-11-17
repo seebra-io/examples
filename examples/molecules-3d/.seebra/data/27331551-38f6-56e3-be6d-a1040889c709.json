@@ -1,0 +1,10 @@
+{
+  "data/id": "27331551-38f6-56e3-be6d-a1040889c709",
+  "data/name": "Atoms data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 800
+  },
+  "data/parent": ["transformation/id", "8317607a-fb22-5477-bd60-97aa3fb17e80"],
+  "data/type": "json"
+}

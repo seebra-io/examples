@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/per-decade.polars.py"
+  },
+  "transformation/data-child": ["data/id", "8f17146b-7d6c-521a-a51c-a2ac7f879519"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "c68fb9e9-420c-5bf4-8667-02514af11d6e",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Per decade",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "9b540a8b-d766-5714-82e6-f73cefdd2ad6"],
+  "transformation/units": "{}"
+}

@@ -1,0 +1,10 @@
+{
+  "data/id": "81c49bbd-ee8f-5a06-83e6-625dcef2e842",
+  "data/name": "Cereal yield (kg/ha), latest data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 320
+  },
+  "data/parent": ["query/id", "b1bb385f-454c-563b-a35c-14f5af9c977a"],
+  "data/type": "json"
+}

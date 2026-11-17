@@ -1,0 +1,10 @@
+{
+  "data/id": "0991bfc8-4871-526a-a3e0-c40691791354",
+  "data/name": "Cereal yield 2000-2024, eight countries data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 1520
+  },
+  "data/parent": ["query/id", "e2433166-bd77-5055-bd72-b9a5703d964f"],
+  "data/type": "json"
+}

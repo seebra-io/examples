@@ -1,0 +1,21 @@
+{
+  "transformation/content": {
+    "$file": "transforms/area-by-status-now-and-on-1-january-km2.js"
+  },
+  "transformation/data-child": ["data/id", "9c9239a2-ea3f-5728-96c7-de58d43c5b6a"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "js-web-worker",
+  "transformation/id": "eb297efa-1d7a-5858-aae7-29103e7d7440",
+  "transformation/inputs": [
+    ["data/id", "33b3f2a0-616b-52c9-84a9-50311383f4ce"]
+  ],
+  "transformation/language": "javascript",
+  "transformation/name": "Area by status, now and on 1 January (km²)",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "4a40a0dd-8835-52eb-b63f-903a70054ff5"],
+  "transformation/units": "{\"km2_now\":\"km2\",\"km2_baseline\":\"km2\",\"change_km2\":\"km2\"}"
+}

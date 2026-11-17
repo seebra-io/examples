@@ -1,0 +1,11 @@
+{
+  "data/id": "58d76c0e-3a9e-5821-9e8f-c9c7d6c0f018",
+  "data/name": "COP per outdoor temperature band",
+  "data/node": {
+    "node/x": 2070,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "5fbd17f4-b8c7-55ce-b9c1-de3b5bccbae0"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

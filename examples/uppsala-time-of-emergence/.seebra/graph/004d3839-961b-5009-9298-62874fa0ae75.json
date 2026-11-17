@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/every-season-warmed-about-3-c.js"
+  },
+  "graph/id": "004d3839-961b-5009-9298-62874fa0ae75",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Every season warmed about 3 °C",
+  "graph/node": {
+    "node/x": 2380,
+    "node/y": 80
+  },
+  "graph/parent": ["data/id", "2a23eceb-2571-5d7f-b534-d41cf430c83b"]
+}

@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/first-digits-per-quantity.sql"
+  },
+  "transformation/data-child": ["data/id", "1652c29c-d9a4-54d3-b9cd-4bd14ada775c"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "cfe5f78f-8c45-5789-8b73-146e8031e3b6",
+  "transformation/inputs": [],
+  "transformation/language": "sql",
+  "transformation/name": "First digits per quantity",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "1b8262e1-4d53-57b8-865c-cae22210fabd"],
+  "transformation/units": "{}"
+}

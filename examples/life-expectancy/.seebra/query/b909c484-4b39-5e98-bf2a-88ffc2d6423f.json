@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "7260ea52-577c-525f-8ce6-fb8621470383"],
+  "query/datasource": ["datasource/id", "3a28b207-a223-562e-923d-494c4d43f64e"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "b909c484-4b39-5e98-bf2a-88ffc2d6423f",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Life expectancy, latest",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 80
+  },
+  "query/params": "{\"format\":\"json\",\"mrnev\":\"1\",\"per_page\":\"400\"}",
+  "query/path": "/country/all/indicator/SP.DYN.LE00.IN",
+  "query/request-body": "",
+  "query/units": "{}"
+}

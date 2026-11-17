@@ -1,0 +1,47 @@
+{
+  "dashboard/id": "36c03622-7f36-5687-8cdc-747cc4205161",
+  "datas": [
+    ["data/id", "9ac2c80e-45df-5e53-8294-ee62c07c6f9f"],
+    ["data/id", "6da594c7-178c-5895-950e-617f35a27da5"],
+    ["data/id", "0be18eec-9ab7-52f6-90a6-31da6ed5919e"],
+    ["data/id", "f2ddea9e-0794-5420-a31b-e9c46a947606"],
+    ["data/id", "f65d7d45-f930-5497-b4d1-6280e2fb201d"],
+    ["data/id", "4d5dfed2-6fe0-50cb-823a-313e37525d86"],
+    ["data/id", "4a4e8250-7941-586d-bafb-3f9b3a67329f"],
+    ["data/id", "37cde7df-7ddc-57d4-8c06-da63efd12625"]
+  ],
+  "datasources": [
+    ["datasource/id", "c5f79e5c-5679-50da-9d4d-849248470a25"],
+    ["datasource/id", "afcdcf2b-c182-50e1-83a2-831f54fcd997"]
+  ],
+  "description": "Question: why are LEDs and laser diodes made of III-V and II-VI compounds (GaAs, InP, GaN, ZnSe) and not of silicon, the best-understood semiconductor there is? Data: every stable element and binary compound with a band gap and at most 4 atoms per cell in Alexandria (PBE density-functional calculations, Ruhr University Bochum, via its keyless OPTIMADE API): the fundamental gap and the smallest direct gap; and PubChem's periodic table for each element's valence electrons and electronegativity. Steps: the gap is direct when the smallest vertical gap equals the fundamental one (within 0.005 eV); each material gets a family from its elements' valences (III-V: 3 and 5 in a 1:1 compound; II-VI and I-VII split by whether the metal has a full d shell, Zn/Cd/Hg and Cu/Ag, or is an alkaline-earth/alkali metal); shares of direct gaps per family with Wilson 95% intervals; a two-proportion z-test of III-V and II-VI against the rest. Aha: an electron in an indirect-gap material (Si: the direct gap is about 1.9 eV above the fundamental one) can only fall across the gap if a lattice vibration takes up its momentum, so it emits light a million times more slowly than it loses its energy as heat; in GaAs or GaN the band edges line up and a photon is emitted directly. Caveats: PBE underestimates band gaps by 30 to 100% (Si 0.65 eV here against 1.12 measured; GaAs 0.20 against 1.42), and Ge, InAs and InSb come out metallic and are missing; the direct/indirect character is more robust than the value but near-direct materials (GaP, margin 0.02 eV) can flip; families with few members have wide intervals; the photon wavelengths in the tooltips use PBE gaps and are too long. Next: drill into III-V (why AlAs and GaP are indirect), expand to alloys (AlGaAs, GaAsP turn indirect at a crossover composition) and to measured gaps.",
+  "graphs": [
+    ["graph/id", "b9c4798c-de89-5c66-8922-a814127215ed"],
+    ["graph/id", "5d4f3303-8cd3-5f34-a72a-00a722d0a762"],
+    ["graph/id", "d0f39a27-ba60-5b49-9a65-214d67585d4c"]
+  ],
+  "grids": [],
+  "name": "Direct and indirect band gaps: why LEDs are not silicon",
+  "ontology": {
+    "$file": ".seebra/dashboard/36c03622-7f36-5687-8cdc-747cc4205161.ontology.json",
+    "$json": true
+  },
+  "queries": [
+    ["query/id", "123ab969-9919-531a-94df-f2c4f71a8e87"],
+    ["query/id", "d3cd78ca-9016-52e7-8ad5-d5e2d6e33556"]
+  ],
+  "studies": [
+    ["study/id", "6cc25f70-b39a-5395-b97f-6f7ee94fdd61"]
+  ],
+  "tables": [],
+  "texts": [],
+  "timers": [],
+  "transformations": [
+    ["transformation/id", "8da6c6ab-0350-50cd-9265-726b380785f5"],
+    ["transformation/id", "6d07ce13-d2af-5f4f-b925-9a39c9ddba53"],
+    ["transformation/id", "7c09ff14-626d-501f-8e73-c1fcb6874961"],
+    ["transformation/id", "a0dc48ec-18c4-5264-89b1-5358e7e6edbb"],
+    ["transformation/id", "ab139afe-cc10-5c67-9730-7446874fd941"],
+    ["transformation/id", "b2b29664-3b86-5d19-b577-3688e71e64ba"]
+  ]
+}

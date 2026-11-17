@@ -1,0 +1,10 @@
+{
+  "data/id": "64cb09ae-674b-504f-9412-67e37f71b667",
+  "data/name": "Two views of the same planets (every third) data",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 560
+  },
+  "data/parent": ["transformation/id", "9be7dbbf-7a3d-5cf2-87da-f9de9a00834e"],
+  "data/type": "json"
+}

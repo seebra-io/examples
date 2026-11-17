@@ -1,0 +1,41 @@
+{
+  "dashboard/id": "e46f7695-62f4-52d0-a3e7-0d1a7f21e297",
+  "datas": [
+    ["data/id", "954b25dd-ef16-5e96-ac67-b497ee7534cf"],
+    ["data/id", "56927553-a906-5273-bcf7-e063e3be7649"],
+    ["data/id", "0a4efc7b-90af-5610-af12-5ce5faac9217"],
+    ["data/id", "d455f961-72d7-520c-bc6e-b38591d9fd7c"],
+    ["data/id", "ca2855ee-01fb-513c-a7e1-1b14607a8eed"],
+    ["data/id", "9122a129-07dd-5083-b455-f619816701a4"],
+    ["data/id", "1637da99-5af1-506f-80f9-9e9fb9160bd8"],
+    ["data/id", "854a28d4-5b97-54cb-8f90-7c27536c40ee"]
+  ],
+  "datasources": [
+    ["datasource/id", "b35cb9b7-98f7-5f8c-aa72-c390c971a140"]
+  ],
+  "description": "Recent photographed sightings in Sweden from GBIF (many from iNaturalist): the photos as a grid, which classes of life they show and who took them. Statistics: a count of sightings is not abundance, it follows observer effort. Bird records per province are divided by all photographed records there (the exposure) into a share with a 95% interval; the big provinces lead in counts, not in share. Caveats: a share is still not abundance, and GBIF's province names mix counties and historical provinces.",
+  "graphs": [
+    ["graph/id", "e378cffe-d6af-5299-b814-80f63aef64fb"],
+    ["graph/id", "a38a77e2-77ed-56d1-9ccc-b444cb5062aa"]
+  ],
+  "grids": [
+    ["grid/id", "5c40d568-d844-5de6-9378-d829ad114ace"]
+  ],
+  "name": "Wildlife seen in Sweden",
+  "queries": [
+    ["query/id", "fca9fa50-d9ed-57fa-beed-263895df6b23"],
+    ["query/id", "fee71895-d7c2-5fed-9690-7e907a9bd608"],
+    ["query/id", "14d6ca7b-1495-5c36-b707-bdb43d79267b"]
+  ],
+  "studies": [],
+  "tables": [],
+  "texts": [],
+  "timers": [],
+  "transformations": [
+    ["transformation/id", "9003d85d-adba-5dbb-b7c1-4f0f39ccceb0"],
+    ["transformation/id", "dc9c926f-3486-5858-87d1-c50c6a329bef"],
+    ["transformation/id", "5927fbf1-73b6-537f-b8db-a4224113750d"],
+    ["transformation/id", "13e82c9c-472b-5e3e-a251-710fbee28953"],
+    ["transformation/id", "b6121291-a6b7-5876-80ac-3f385f471458"]
+  ]
+}

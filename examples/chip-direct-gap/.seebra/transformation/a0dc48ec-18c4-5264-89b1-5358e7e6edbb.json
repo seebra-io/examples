@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/share-of-direct-gap-materials-per-family-wilson.polars.py"
+  },
+  "transformation/data-child": ["data/id", "4d5dfed2-6fe0-50cb-823a-313e37525d86"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "a0dc48ec-18c4-5264-89b1-5358e7e6edbb",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Share of direct-gap materials per family (Wilson 95%)",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1920,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "f65d7d45-f930-5497-b4d1-6280e2fb201d"],
+  "transformation/units": "{}"
+}

@@ -1,0 +1,49 @@
+{
+  "dashboard/id": "5312b48f-22da-5c77-8916-1381514cfa04",
+  "datas": [
+    ["data/id", "01988eb2-0f44-5dae-b36f-efc4d86f98e0"],
+    ["data/id", "6e8b59ff-56f7-5662-89f0-01749a9a91fb"],
+    ["data/id", "c294d8d2-fb89-56bd-b598-76493569b0a5"],
+    ["data/id", "83622778-ee95-5e04-9331-b85995d0ece5"],
+    ["data/id", "8d2d055a-4c19-59b3-8691-a18134a13477"],
+    ["data/id", "9fe89beb-acc4-5047-889b-9bd380c84aa0"],
+    ["data/id", "daa6eaf6-7618-53de-a2ce-b84ac6bbb00b"],
+    ["data/id", "10c14aec-bd1e-5bcd-9700-8d53e5c9f883"],
+    ["data/id", "c9452a9e-5cbc-56f9-b71d-1ebad2760f42"]
+  ],
+  "datasources": [
+    ["datasource/id", "9a3cfe51-da69-5122-84e4-75b176d69c1f"]
+  ],
+  "description": "One day of the European grid's frequency, every second (Energy-Charts, Fraunhofer ISE, measured in Freiburg, Germany). Control idea: in an AC grid the frequency is the balance meter. Every generator spins in step, so a surplus of power speeds them all up and a deficit slows them down; primary control (FCR) then acts like a proportional controller, 3000 MW across Continental Europe in proportion to the deviation, fully used at ±200 mHz, and leaves a small steady error that slower secondary control removes. The steps: seconds → deviation, df/dt and implied FCR power (Polars); minutes for the day chart; the day folded at the quarter-hour; and a paired test, quarter-hour by quarter-hour, of whether the frequency jumps when a quarter-hour turns. The aha: folded at 15 minutes the noise averages out and a sawtooth appears, steepest at the full hour: electricity is traded and scheduled in 15-minute blocks, power plants step their output at the boundaries while demand changes smoothly, and the mismatch is visible as frequency. Caveats: one day and one measuring point (the synchronous area shares one frequency, but local measurements differ by a few mHz in fast events); the FCR power is implied from the standard droop, not measured, and FCR has a ±10 mHz insensitivity; how fast the frequency moves for a given imbalance depends on the grid's inertia (rotating mass), which this data doesn't hold. Change start and end in the query for another day.",
+  "graphs": [
+    ["graph/id", "2b0279bd-0be7-5be9-90b6-6ec1dfd911c2"],
+    ["graph/id", "aeb87c72-4314-5827-a5bd-3596904bdb0e"],
+    ["graph/id", "6682b803-7953-59dd-bc06-18d120b3a103"],
+    ["graph/id", "34136fca-35cf-5159-ada0-e00e90c97f33"]
+  ],
+  "grids": [],
+  "name": "Grid frequency: the power balance meter",
+  "ontology": {
+    "$file": ".seebra/dashboard/5312b48f-22da-5c77-8916-1381514cfa04.ontology.json",
+    "$json": true
+  },
+  "queries": [
+    ["query/id", "4c1afc4e-82f9-5adc-8315-31bee406031c"]
+  ],
+  "studies": [
+    ["study/id", "2b757cac-4452-5a50-ba53-d90a6fb00528"]
+  ],
+  "tables": [],
+  "texts": [],
+  "timers": [],
+  "transformations": [
+    ["transformation/id", "83c959b0-d026-504c-8599-dfe54862b9cd"],
+    ["transformation/id", "a116818f-ad77-54dc-958d-d8ff1f1af378"],
+    ["transformation/id", "da54a579-0c4b-56f2-b141-c8705f0f5828"],
+    ["transformation/id", "821bbe97-68e7-5137-ba66-c35e99d63c9f"],
+    ["transformation/id", "4b1a1be0-1850-50a2-beb3-2c711dc56be1"],
+    ["transformation/id", "408edf81-2f17-58ee-8476-f7c9058a7199"],
+    ["transformation/id", "258c8d18-8ddd-5c62-8139-183b012bfb15"],
+    ["transformation/id", "c9631f56-ad32-50a1-a222-bb8bbfb97375"]
+  ]
+}

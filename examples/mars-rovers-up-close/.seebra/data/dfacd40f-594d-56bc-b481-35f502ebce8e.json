@@ -1,0 +1,11 @@
+{
+  "data/id": "dfacd40f-594d-56bc-b481-35f502ebce8e",
+  "data/name": "The rovers",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "451e50e3-202a-5e33-bb15-6ee842934ce2"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

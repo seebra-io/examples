@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/properties.polars.py"
+  },
+  "transformation/data-child": ["data/id", "299434c1-adb6-5775-94f2-3b274455d1b5"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "87cb6765-22ae-5746-bf3f-a3aff06476f6",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Properties",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 560
+  },
+  "transformation/parent": ["data/id", "aad44ad1-a37f-589d-8fab-c4266d04d034"],
+  "transformation/units": "{}"
+}

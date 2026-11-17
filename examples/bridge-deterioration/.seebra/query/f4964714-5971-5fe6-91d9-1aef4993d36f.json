@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "26cdadb2-d00a-5510-9fb8-a63223bce27f"],
+  "query/datasource": ["datasource/id", "cb5e61e3-61d7-5349-ac10-33bfc1ff8ecc"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "f4964714-5971-5fe6-91d9-1aef4993d36f",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Never-reconstructed bridges: mean lowest rating per year built",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 1280
+  },
+  "query/params": "{\"where\":\"YEAR_RECONSTRUCTED_106=0 AND LOWEST_RATING>=0\",\"groupByFieldsForStatistics\":\"YEAR_BUILT_027\",\"outStatistics\":\"[{\\\"statisticType\\\":\\\"count\\\",\\\"onStatisticField\\\":\\\"OBJECTID\\\",\\\"outStatisticFieldName\\\":\\\"n\\\"},{\\\"statisticType\\\":\\\"avg\\\",\\\"onStatisticField\\\":\\\"LOWEST_RATING\\\",\\\"outStatisticFieldName\\\":\\\"mean_rating\\\"}]\",\"f\":\"json\"}",
+  "query/path": "/query",
+  "query/request-body": "",
+  "query/units": "{}"
+}

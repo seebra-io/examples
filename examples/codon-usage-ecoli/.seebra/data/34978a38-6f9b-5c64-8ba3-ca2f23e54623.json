@@ -1,0 +1,10 @@
+{
+  "data/id": "34978a38-6f9b-5c64-8ba3-ca2f23e54623",
+  "data/name": "Effective number of codons (Nc) per gene data",
+  "data/node": {
+    "node/x": 2530,
+    "node/y": 560
+  },
+  "data/parent": ["transformation/id", "a9fd35c8-c790-5189-9caa-b56badeafd5f"],
+  "data/type": "json"
+}

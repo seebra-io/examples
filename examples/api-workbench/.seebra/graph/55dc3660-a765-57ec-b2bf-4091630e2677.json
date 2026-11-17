@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/field-coverage-check-the-response-shape.js"
+  },
+  "graph/id": "55dc3660-a765-57ec-b2bf-4091630e2677",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Field coverage (check the response shape)",
+  "graph/node": {
+    "node/x": 1920,
+    "node/y": 80
+  },
+  "graph/parent": ["data/id", "a40ca34d-b6c6-5a85-b2b0-09a4404079f2"]
+}

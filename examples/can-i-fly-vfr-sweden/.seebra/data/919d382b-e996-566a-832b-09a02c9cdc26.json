@@ -1,0 +1,11 @@
+{
+  "data/id": "919d382b-e996-566a-832b-09a02c9cdc26",
+  "data/name": "All METARs in the box, decoded",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "d1649998-b3e7-5054-af4c-000745e8b9d0"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

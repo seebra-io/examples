@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/per-group-how-many-where.polars.py"
+  },
+  "transformation/data-child": ["data/id", "4d4b5898-2ebb-5ab9-a219-239ee0dcecbf"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "eb188283-f6c6-5fa0-96a6-90726ed3e91e",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Per group: how many, where",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "8e5cf7dd-ad91-56d2-903e-bca7b603d50a"],
+  "transformation/units": "{\"a_median\":\"AU\",\"a_min\":\"AU\",\"a_max\":\"AU\",\"i_median\":\"°\"}"
+}

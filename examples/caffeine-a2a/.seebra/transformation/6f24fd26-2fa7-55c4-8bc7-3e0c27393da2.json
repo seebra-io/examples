@@ -1,0 +1,21 @@
+{
+  "transformation/content": {
+    "$file": "transforms/stacking-ring-centroids-within-5-5-a.polars.py"
+  },
+  "transformation/data-child": ["data/id", "8a990b26-88b9-5976-af67-6e3c5cfefab6"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "6f24fd26-2fa7-55c4-8bc7-3e0c27393da2",
+  "transformation/inputs": [
+    ["data/id", "3f88e9b1-66f9-5652-95af-daf2f11884d7"]
+  ],
+  "transformation/language": "polars",
+  "transformation/name": "π-stacking: ring centroids within 5.5 Å",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1920,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "82748b79-0218-50bb-9cb2-2d2b05dd2fe8"],
+  "transformation/units": "{}"
+}

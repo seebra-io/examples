@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "1037c617-4ec1-5c06-a426-cd7201ed7d31"],
+  "query/datasource": ["datasource/id", "e8e07973-508d-5ada-b3e9-876fd5620684"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "9ffbbfad-6ae6-5d4b-8328-84419992de29",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Next 7 days, worldwide",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 80
+  },
+  "query/params": "{}",
+  "query/path": "/NextPublicHolidaysWorldwide",
+  "query/request-body": "",
+  "query/units": "{}"
+}

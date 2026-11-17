@@ -1,0 +1,21 @@
+{
+  "transformation/content": {
+    "$file": "transforms/standardised-means-z-mean-n.polars.py"
+  },
+  "transformation/data-child": ["data/id", "e1f53843-3caa-5700-8030-52219e521cf7"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "fd1a336f-2311-5625-883f-4d0b093ff208",
+  "transformation/inputs": [
+    ["data/id", "27ef336b-56e4-5d1d-8c79-9756056c959f"]
+  ],
+  "transformation/language": "polars",
+  "transformation/name": "Standardised means z = (mean − μ) / (σ/√n)",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1920,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "bccd5f31-a0ae-52b2-baa7-63f2a5ae8c87"],
+  "transformation/units": "{}"
+}

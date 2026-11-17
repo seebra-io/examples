@@ -1,0 +1,10 @@
+{
+  "data/id": "9ca87711-25ce-50ed-91a9-2108481e2f6a",
+  "data/name": "Peak splitting of a layer on its substrate: Δ2θ = −2 tan θ · Δa/a data",
+  "data/node": {
+    "node/x": 2530,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "d2905e49-8168-5d8e-b0ce-5894d19abd41"],
+  "data/type": "json"
+}

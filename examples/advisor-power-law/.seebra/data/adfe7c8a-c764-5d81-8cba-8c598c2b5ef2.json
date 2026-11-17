@@ -1,0 +1,10 @@
+{
+  "data/id": "adfe7c8a-c764-5d81-8cba-8c598c2b5ef2",
+  "data/name": "Observed CCDF with the fitted power laws and a geometric distribution of the same mean data",
+  "data/node": {
+    "node/x": 2070,
+    "node/y": 560
+  },
+  "data/parent": ["transformation/id", "c95d819f-6d2d-5011-b7a7-0ea1d9659645"],
+  "data/type": "json"
+}

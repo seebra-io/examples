@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/gutenberg-richter-quakes-at-least-this-strong.polars.py"
+  },
+  "transformation/data-child": ["data/id", "ad26b60b-24d5-50fb-b5a0-431357783366"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "afd05965-81f8-5774-adcf-6a3c3b46bfd4",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Gutenberg–Richter: quakes at least this strong (power law, b-value)",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 560
+  },
+  "transformation/parent": ["data/id", "1df8e777-5c4b-5a23-a71f-1d25e820f553"],
+  "transformation/units": "{}"
+}

@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "88fd56f1-0235-5a70-9b9a-66dd0f076866"],
+  "query/datasource": ["datasource/id", "608b52bf-dc39-526e-b0b8-a4f506937ee8"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "0e30b9f3-1f4b-5e65-98ba-c8ad63de1917",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Public power, Sweden",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 80
+  },
+  "query/params": "{\"country\":\"se\"}",
+  "query/path": "/public_power",
+  "query/request-body": "",
+  "query/units": "{}"
+}

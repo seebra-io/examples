@@ -1,0 +1,10 @@
+{
+  "data/id": "88da9ec7-bb6d-5e24-a080-db27f2069a28",
+  "data/name": "Receptor atoms within 5 Å of a ligand data",
+  "data/node": {
+    "node/x": 2070,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "cea513aa-6b1e-510c-9bc9-9acc631c6eb6"],
+  "data/type": "json"
+}

@@ -1,0 +1,42 @@
+{
+  "dashboard/id": "aeb8c1bf-ca48-5b6a-9bc5-f1971d2fbfe0",
+  "datas": [
+    ["data/id", "e2731062-f577-5ffa-808e-9abdc400a894"],
+    ["data/id", "18d8e3f0-495b-5989-93f8-40a6bfe44d9d"],
+    ["data/id", "734ae4fb-e4cc-5e88-84d8-040ea4d0aaa8"],
+    ["data/id", "f2c95e97-61e9-590e-a2fe-3a824b443f01"],
+    ["data/id", "5f1ea025-6705-591b-99e7-1dd00b88aea0"],
+    ["data/id", "e3c926f6-4d5f-51d9-a721-09e3ffae7784"]
+  ],
+  "datasources": [
+    ["datasource/id", "bd84f75e-5de7-5c70-8c26-7fd84d13094e"]
+  ],
+  "description": "Question: can you know how volatile a liquid is at room temperature from its boiling point alone? Idea: Clausius–Clapeyron with a constant heat of vaporisation gives ln(P/1 atm) = −(ΔS_vap/R)·(Tb/T − 1), and Trouton's rule says the entropy of vaporisation ΔS_vap = ΔH_vap/Tb is nearly the same for every liquid (about 10.5 R ≈ 87 J/(mol·K)), because a mole of vapour at 1 atm is about equally disordered whatever it came from. So on the axes Tb/T − 1 against log₁₀(P/1 atm) every liquid should fall on one line through the origin, and the boiling point alone gives the whole vapour-pressure curve: the reason shortcut distillation design and solvent volatility rankings start from boiling points. Data: every Wikidata substance with a vapour pressure, its temperature and a boiling point (SPARQL, values as entered, converted here from mmHg, torr, kPa, hPa, atm, bar, °F and °C; boiling points at reduced pressure dropped). Polars keeps one reading per pure substance (a SMILES) nearest 25 °C, 10 K or more below its boiling point (326 liquids), backs out the ΔS_vap each reading implies, R ln(P0/P)/(Tb/T − 1), and sorts the liquids by hydrogen-bond donors read from the SMILES. Aha: the 229 liquids without a donor cluster tightly (median 99.3 J/(mol·K) = 11.9 R, middle half 94–105) and one number predicts 84% of their vapour pressures within a factor of 2 across nine orders of magnitude; the 59 O–H donors (alcohols, glycols, phenols, acids) imply 16 J/(mol·K) more (Welch t = 7.2) and evaporate about half as readily as their boiling point suggests, because hydrogen bonds order the liquid (ethanol 119, ethylene glycol 130, glycerol 142). Caveats: the room-temperature constant is above Trouton's 10.5 R because ΔH_vap grows as T falls below Tb (a constant ΔH is an approximation; Watson's correlation fixes it); carboxylic acids dimerise in the vapour, which lowers their ΔS (formic acid 94); Wikidata values are crowd-curated from safety data sheets (NIOSH, ICSC), often rounded (\"1 mmHg\"), and 11 readings imply impossible ΔS (under 50 or over 200 J/(mol·K): a unit or qualifier error, a solid, a mixture), listed in the data check; the donor class is a SMILES pattern, not a measured property; water has no vapour pressure with a temperature in Wikidata. Next: check the suspect readings against PubChem's experimental vapour pressures; add a second reading per liquid to fit Antoine's equation; compute relative volatilities of pairs (the distillation question) and look for azeotropes where donors meet non-donors.",
+  "graphs": [
+    ["graph/id", "22888250-4cc0-5975-9013-df6a7f3af09f"],
+    ["graph/id", "4eb09681-1feb-5cbb-ab43-eaae1323071e"],
+    ["graph/id", "83b95786-9c76-5f11-9f33-d6f8e0acbf1c"]
+  ],
+  "grids": [],
+  "name": "Trouton's rule: the vapour pressure from the boiling point",
+  "ontology": {
+    "$file": ".seebra/dashboard/aeb8c1bf-ca48-5b6a-9bc5-f1971d2fbfe0.ontology.json",
+    "$json": true
+  },
+  "queries": [
+    ["query/id", "3442c3c7-78b2-5a13-97b0-464aeb44affc"]
+  ],
+  "studies": [
+    ["study/id", "f352d160-c271-56ee-b918-b7027b06baa2"]
+  ],
+  "tables": [],
+  "texts": [],
+  "timers": [],
+  "transformations": [
+    ["transformation/id", "a7dc365f-0434-5c28-bd22-7a502c012983"],
+    ["transformation/id", "630148af-b7f2-5049-bd99-ddd401479a57"],
+    ["transformation/id", "d4d416de-3e08-5288-b290-23a385461f8e"],
+    ["transformation/id", "1fa4130e-4346-53aa-9960-d1f2764c29c0"],
+    ["transformation/id", "b3c16ca5-2c64-59af-9b43-5c6603a93ea7"]
+  ]
+}

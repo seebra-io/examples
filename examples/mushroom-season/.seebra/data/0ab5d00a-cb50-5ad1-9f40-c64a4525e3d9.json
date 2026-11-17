@@ -1,0 +1,11 @@
+{
+  "data/id": "0ab5d00a-cb50-5ad1-9f40-c64a4525e3d9",
+  "data/name": "The season per species (day of year; links to GBIF)",
+  "data/node": {
+    "node/x": 2990,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "15e64df2-3d8b-5043-bdd2-5b20fdd57c2b"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

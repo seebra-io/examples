@@ -1,0 +1,8 @@
+{
+  "file": {
+    "file/example": "heat-pump-carnot"
+  },
+  "format": 2,
+  "root": ["dashboard/id", "65590155-eb87-56a3-ab0b-d9fed4954a34"],
+  "seebra": "board"
+}

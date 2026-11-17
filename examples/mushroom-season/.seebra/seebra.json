@@ -1,0 +1,8 @@
+{
+  "file": {
+    "file/example": "mushroom-season"
+  },
+  "format": 2,
+  "root": ["dashboard/id", "e5a24450-666a-5015-9248-c87fbb39b51d"],
+  "seebra": "board"
+}

@@ -1,0 +1,22 @@
+{
+  "transformation/content": {
+    "$file": "transforms/verdict-per-airport-in-its-window-taf-1-h-metar.polars.py"
+  },
+  "transformation/data-child": ["data/id", "da2dec66-21b8-5935-9bed-2f38eb5fd953"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "53000f47-6b0c-54ee-9b4d-2866b758a0c5",
+  "transformation/inputs": [
+    ["data/id", "945f4dd4-e6c2-5362-b744-6cbf09f41052"],
+    ["data/id", "919d382b-e996-566a-832b-09a02c9cdc26"]
+  ],
+  "transformation/language": "polars",
+  "transformation/name": "Verdict per airport in its window (TAF ± 1 h, METAR now)",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1920,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "7cef94af-4deb-5afd-818e-752ef8355b4c"],
+  "transformation/units": "{}"
+}

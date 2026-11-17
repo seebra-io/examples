@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/theory-k-j-7-per-day.polars.py"
+  },
+  "transformation/data-child": ["data/id", "1c446e43-ed1c-525d-97ac-dbe9f4a2429c"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "0698d3e6-7417-56c9-88e9-62afe9ce4ef0",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Theory: k ± j/7 per day",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 560
+  },
+  "transformation/parent": ["data/id", "db471de8-4203-5cef-bf4b-e21489e39cdf"],
+  "transformation/units": "{}"
+}

@@ -1,0 +1,10 @@
+{
+  "data/id": "71cd377b-8ef7-5bbe-9554-5071068ad8e1",
+  "data/name": "Ornithischian genera (horned, armoured, duck-billed) data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 560
+  },
+  "data/parent": ["query/id", "bc15d49c-3450-5fa7-b183-bebed0071adf"],
+  "data/type": "json"
+}

@@ -1,0 +1,8 @@
+{
+  "file": {
+    "file/example": "neo-3d"
+  },
+  "format": 2,
+  "root": ["dashboard/id", "3ec2799f-a1d7-5493-8664-3b8a2971ffad"],
+  "seebra": "board"
+}

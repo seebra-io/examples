@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/folded-at-the-quarter-hour-the-schedule-sawtooth.js"
+  },
+  "graph/id": "aeb87c72-4314-5827-a5bd-3596904bdb0e",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Folded at the quarter-hour: the schedule sawtooth",
+  "graph/node": {
+    "node/x": 1920,
+    "node/y": 560
+  },
+  "graph/parent": ["data/id", "83622778-ee95-5e04-9331-b85995d0ece5"]
+}

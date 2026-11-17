@@ -1,0 +1,162 @@
+{
+  "title": "Direct gaps by family",
+  "question": "Among stable elements and binary compounds with a band gap (Alexandria, PBE), is the share with a direct gap higher for III-V and II-VI compounds than for the rest?",
+  "review": {
+    "well_formed": true,
+    "issues": [
+      {
+        "kind": "unmeasured",
+        "text": "'Good light emitter' is not measured; the direct gap is a proxy for radiative efficiency.",
+        "fix": "The plan tests the direct gap and names internal quantum efficiency as what it misses (defects, surface recombination)."
+      },
+      {
+        "kind": "scope",
+        "text": "Families are small (a handful of group IV elements), and the sample is limited to cells of up to 4 atoms.",
+        "fix": "Wilson intervals per family; the contrast pools III-V and II-VI against the rest."
+      },
+      {
+        "kind": "causal",
+        "text": "Family stands for band structure (ionicity, which band edges sit where), not a cause by itself.",
+        "fix": "Read it as an association; the diagonal chart shows the mechanism (where the conduction-band minimum is)."
+      }
+    ],
+    "alternatives": [
+      {
+        "question": "Within II-VI, are the Zn, Cd and Hg chalcogenides (tetrahedral) direct more often than the alkaline-earth ones (rock salt)?",
+        "why": "Drill down: the split was made after looking at the data, so it is a new hypothesis, not a test.",
+        "ready": true
+      },
+      {
+        "question": "Within III-V, are the nitrides and arsenides direct and the phosphides of Al and B indirect?",
+        "why": "Drill down: the anion and cation size decide where the conduction band minimum lies.",
+        "ready": true
+      },
+      {
+        "question": "Does the direct − fundamental margin shrink as electronegativity difference grows?",
+        "why": "Expand: ionicity as a numeric predictor (delta_chi).",
+        "ready": true
+      },
+      {
+        "question": "Do measured gaps confirm the direct/indirect labels?",
+        "why": "Expand: experimental band gaps (e.g. Madelung's Semiconductors: Data Handbook) against PBE.",
+        "ready": false
+      }
+    ]
+  },
+  "hypotheses": [
+    {
+      "id": "H1",
+      "statement": "III-V and II-VI compounds have a direct gap more often than the other materials.",
+      "null": "The share of direct gaps is the same in III-V and II-VI compounds as in the rest.",
+      "outcome": {
+        "concept": "Direct band gap",
+        "field": "gap_type"
+      },
+      "predictor": {
+        "concept": "Semiconductor family",
+        "field": "family"
+      },
+      "subgroup": null,
+      "direction": "increase",
+      "test": {
+        "method": "rates",
+        "link": null,
+        "outcome_mode": "mean",
+        "outcome_field": "n_direct",
+        "predictor_field": "grp",
+        "exposure_field": "n",
+        "versus": "rest"
+      }
+    }
+  ],
+  "concepts": [
+    {
+      "label": "Direct band gap",
+      "kind": "category",
+      "description": "The valence-band top and conduction-band bottom at the same k; here: direct gap − gap ≤ 0.005 eV.",
+      "why": "The outcome.",
+      "have": true,
+      "categories": [
+        "direct",
+        "indirect"
+      ],
+      "field": "gap_type",
+      "strategy": null
+    },
+    {
+      "label": "Semiconductor family",
+      "kind": "category",
+      "description": "Groups of the two elements in a 1:1 compound (III-V, II-VI, ...), from PubChem's electron configurations.",
+      "why": "The predictor.",
+      "have": true,
+      "categories": [
+        "IV element",
+        "IV-IV",
+        "III-V",
+        "II-VI (Zn, Cd, Hg)",
+        "II-VI (Be to Ba)",
+        "I-VII (Cu, Ag)",
+        "I-VII (alkali)",
+        "IV-VI",
+        "other"
+      ],
+      "field": "family",
+      "strategy": null
+    },
+    {
+      "label": "Radiative efficiency",
+      "kind": "measure",
+      "description": "Share of electron-hole recombinations that emit a photon.",
+      "why": "What the direct gap stands in for.",
+      "have": false,
+      "categories": [],
+      "field": null,
+      "strategy": {
+        "how": "proxy",
+        "detail": "gap_type (direct/indirect); misses defect and surface recombination, which dominate real devices."
+      }
+    }
+  ],
+  "data": [
+    {
+      "concept": "Measured band gap",
+      "request": "Experimental band gaps and their direct/indirect character for the same compounds",
+      "source": "Madelung, Semiconductors: Data Handbook; NSM Archive (Ioffe Institute)",
+      "why": "PBE underestimates gaps; measured ones would check the labels."
+    }
+  ],
+  "links": [],
+  "method": {
+    "id": "rates",
+    "summary": "Count direct-gap materials per family, divide by the family's materials, compare the shares; a two-proportion z-test for III-V and II-VI against the rest."
+  },
+  "steps": [
+    {
+      "kind": "data",
+      "title": "Fetch stable materials and elements",
+      "detail": "alex (Alexandria OPTIMADE) and ptable (PubChem)."
+    },
+    {
+      "kind": "categorise",
+      "title": "Sort materials into families",
+      "detail": "classified: valences of both elements, 1:1 ratio → family."
+    },
+    {
+      "kind": "method",
+      "title": "Shares and intervals",
+      "detail": "rates: n, n_direct, share, Wilson 95%."
+    },
+    {
+      "kind": "decide",
+      "title": "Two-proportion test",
+      "detail": "ztest and verdict: z and one-sided p."
+    }
+  ],
+  "caveats": [
+    "PBE band gaps underestimate measured ones by 30–100% (Ge, InAs, InSb come out metallic and are missing here).",
+    "Only ground-state structures with up to 4 atoms per cell: wurtzite (4) and zincblende/rocksalt (2) are in, larger cells are not.",
+    "A small margin (GaP 0.02 eV) is within the method's error: near-direct materials can flip.",
+    "The alkali halides (I-VII) are mostly direct but are insulators (gaps of 4–9 eV): a direct gap in the visible or near infrared is what an LED needs.",
+    "Direct gap is necessary for efficient emission, not sufficient: defects and doping decide real devices."
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "data/id": "4d4b5898-2ebb-5ab9-a219-239ee0dcecbf",
+  "data/name": "Asteroid groups",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "eb188283-f6c6-5fa0-96a6-90726ed3e91e"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

@@ -1,0 +1,10 @@
+{
+  "data/id": "295c92d3-d0a6-528d-9b44-d2928bdf70e5",
+  "data/name": "1A6M backbone angles (validation) data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 80
+  },
+  "data/parent": ["query/id", "f61a525f-496d-544c-9b48-4edcff4f51cd"],
+  "data/type": "json"
+}

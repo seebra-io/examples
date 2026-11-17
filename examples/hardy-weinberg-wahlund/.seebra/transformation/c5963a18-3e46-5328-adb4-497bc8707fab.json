@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/rs671-aldh2-genotype-counts.polars.py"
+  },
+  "transformation/data-child": ["data/id", "20279dcf-3f9b-5ee6-96b4-978f7723a32a"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "c5963a18-3e46-5328-adb4-497bc8707fab",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "rs671 (ALDH2) genotype counts",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 560
+  },
+  "transformation/parent": ["data/id", "921447c6-beee-5fde-b793-ae26522e07eb"],
+  "transformation/units": "{}"
+}

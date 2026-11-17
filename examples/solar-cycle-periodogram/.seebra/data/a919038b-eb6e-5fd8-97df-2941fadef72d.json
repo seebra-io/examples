@@ -1,0 +1,10 @@
+{
+  "data/id": "a919038b-eb6e-5fd8-97df-2941fadef72d",
+  "data/name": "Yearly means, centred data",
+  "data/node": {
+    "node/x": 2070,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "2e9e48a6-7540-5e90-af73-6c52b68e6408"],
+  "data/type": "json"
+}

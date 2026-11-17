@@ -1,0 +1,15 @@
+# one row per (vapour-pressure statement × boiling-point statement) of a substance; Wikidata keeps each value in the unit its source used
+data.rows("results.bindings")
+    .select(qid = col("item").struct.field("value").str.replace("http://www.wikidata.org/entity/", "", literal=True), name = col("itemLabel").struct.field("value"),
+            smiles = col("smiles").struct.field("value"), cid = col("cid").struct.field("value"),
+            p_raw = col("p").struct.field("value").cast(Float64), p_unit = col("pu").struct.field("value").str.replace("http://www.wikidata.org/entity/", "", literal=True),
+            t_raw = col("t").struct.field("value").cast(Float64), t_unit = col("tu").struct.field("value").str.replace("http://www.wikidata.org/entity/", "", literal=True),
+            tb_raw = col("tb").struct.field("value").cast(Float64), tb_unit = col("tbu").struct.field("value").str.replace("http://www.wikidata.org/entity/", "", literal=True),
+            tbp_raw = col("tbp").struct.field("value").cast(Float64), tbp_unit = col("tbpu").struct.field("value").str.replace("http://www.wikidata.org/entity/", "", literal=True))
+    # to SI: pressures in Pa (mmHg, torr, kPa, hPa, atm, bar, mPa), temperatures in K (°F, °C, K)
+    .with_columns(p_pa = when(col("p_unit") == "Q6859652").then(col("p_raw") * 133.322368).when(col("p_unit") == "Q185648").then(col("p_raw") * 133.322368).when(col("p_unit") == "Q21064807").then(col("p_raw") * 1000.0).when(col("p_unit") == "Q5139563").then(col("p_raw") * 100.0).when(col("p_unit") == "Q177974").then(col("p_raw") * 101325.0).when(col("p_unit") == "Q44395").then(col("p_raw") * 1.0).when(col("p_unit") == "Q103510").then(col("p_raw") * 100000.0).when(col("p_unit") == "Q53448906").then(col("p_raw") * 0.001),
+                  t_k = when(col("t_unit") == "Q42289").then((col("t_raw") - 32) * 5 / 9 + 273.15).when(col("t_unit") == "Q25267").then(col("t_raw") + 273.15).when(col("t_unit") == "Q11579").then(col("t_raw")),
+                  tb_k = when(col("tb_unit") == "Q42289").then((col("tb_raw") - 32) * 5 / 9 + 273.15).when(col("tb_unit") == "Q25267").then(col("tb_raw") + 273.15).when(col("tb_unit") == "Q11579").then(col("tb_raw")),
+                  tbp_pa = when(col("tbp_unit") == "Q6859652").then(col("tbp_raw") * 133.322368).when(col("tbp_unit") == "Q185648").then(col("tbp_raw") * 133.322368).when(col("tbp_unit") == "Q21064807").then(col("tbp_raw") * 1000.0).when(col("tbp_unit") == "Q5139563").then(col("tbp_raw") * 100.0).when(col("tbp_unit") == "Q177974").then(col("tbp_raw") * 101325.0).when(col("tbp_unit") == "Q44395").then(col("tbp_raw") * 1.0).when(col("tbp_unit") == "Q103510").then(col("tbp_raw") * 100000.0).when(col("tbp_unit") == "Q53448906").then(col("tbp_raw") * 0.001))
+    # a boiling point measured at reduced pressure (a pressure qualifier far from 1 atm) is not the normal boiling point
+    .with_columns(normal_bp = col("tbp_pa").is_null() | col("tbp_pa").is_between(95000, 107000))

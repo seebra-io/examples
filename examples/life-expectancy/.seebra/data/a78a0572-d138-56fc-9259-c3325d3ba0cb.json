@@ -1,0 +1,11 @@
+{
+  "data/id": "a78a0572-d138-56fc-9259-c3325d3ba0cb",
+  "data/name": "Countries against the line (shortest-lived for their income first)",
+  "data/node": {
+    "node/x": 2070,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "09635505-9e40-5e8a-a08c-d6197444f1e6"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

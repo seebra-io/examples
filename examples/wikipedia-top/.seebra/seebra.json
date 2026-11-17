@@ -1,0 +1,8 @@
+{
+  "file": {
+    "file/example": "wikipedia-top"
+  },
+  "format": 2,
+  "root": ["dashboard/id", "17cdb69f-2e6c-557f-8048-33ec53bac749"],
+  "seebra": "board"
+}

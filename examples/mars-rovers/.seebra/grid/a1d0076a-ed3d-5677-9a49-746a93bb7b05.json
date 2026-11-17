@@ -1,0 +1,10 @@
+{
+  "grid/cols": 4,
+  "grid/id": "a1d0076a-ed3d-5677-9a49-746a93bb7b05",
+  "grid/node": {
+    "node/x": 1460,
+    "node/y": 320
+  },
+  "grid/parent": ["data/id", "9be9f771-6c85-553e-80ff-339e874c7ad9"],
+  "grid/title": "Curiosity"
+}

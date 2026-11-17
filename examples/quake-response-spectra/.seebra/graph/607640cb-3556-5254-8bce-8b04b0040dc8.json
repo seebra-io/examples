@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/the-response-spectrum-shifts-with-distance.js"
+  },
+  "graph/id": "607640cb-3556-5254-8bce-8b04b0040dc8",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "The response spectrum shifts with distance",
+  "graph/node": {
+    "node/x": 2840,
+    "node/y": 80
+  },
+  "graph/parent": ["data/id", "25513557-46cd-56ec-b243-b2a99edc96c3"]
+}

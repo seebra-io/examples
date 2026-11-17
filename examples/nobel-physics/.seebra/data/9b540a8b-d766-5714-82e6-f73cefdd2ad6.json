@@ -1,0 +1,11 @@
+{
+  "data/id": "9b540a8b-d766-5714-82e6-f73cefdd2ad6",
+  "data/name": "Laureates",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "6eed7961-e912-561f-bd07-600a1d7a63d9"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

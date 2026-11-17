@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "1fedc298-5ff2-556f-b232-36fbb6cae166"],
+  "query/datasource": ["datasource/id", "3dacb18d-f4b9-5ba0-bc95-dbae79d2f5d3"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "e18d5075-3c52-5df7-831b-4e2cfcc0aed8",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Population, latest",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 80
+  },
+  "query/params": "{\"format\":\"json\",\"mrnev\":\"1\",\"per_page\":\"400\"}",
+  "query/path": "/country/all/indicator/SP.POP.TOTL",
+  "query/request-body": "",
+  "query/units": "{}"
+}

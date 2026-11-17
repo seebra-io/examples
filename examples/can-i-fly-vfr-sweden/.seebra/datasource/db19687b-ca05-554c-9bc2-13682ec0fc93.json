@@ -1,0 +1,16 @@
+{
+  "datasource/api-key-key": "api_key",
+  "datasource/auth-type": "none",
+  "datasource/headers": "{}",
+  "datasource/id": "db19687b-ca05-554c-9bc2-13682ec0fc93",
+  "datasource/name": "SMHI open data: point forecast snow1g (CC BY 4.0)",
+  "datasource/node": {
+    "inputs": 1,
+    "node/x": 80,
+    "node/y": 320,
+    "outputs": 1
+  },
+  "datasource/params": "{}",
+  "datasource/type": "openapi",
+  "datasource/url": "https://opendata-download-metfcst.smhi.se/api/category/snow1g/version/1"
+}

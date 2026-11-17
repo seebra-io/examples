@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "e1187608-802d-5792-8864-fa2305fbe212"],
+  "query/datasource": ["datasource/id", "be68ed22-c521-59a9-9ecf-b5e15828dd8f"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "fd751130-0445-5ddb-846a-03f1d18688f4",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "MIT-BIH 119: 12 s of lead MLII with its beats (from 3:05)",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 800
+  },
+  "query/params": "{\"action\":\"fetch\",\"db\":\"mitdb/1.0.0\",\"record\":\"119\",\"annotator\":\"atr\",\"signal\":\"MLII\",\"t0\":\"185\",\"dt\":\"12\"}",
+  "query/path": "/server",
+  "query/request-body": "",
+  "query/units": "{}"
+}

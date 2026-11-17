@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/two-views-of-the-same-planets-every-third.sql"
+  },
+  "transformation/data-child": ["data/id", "64cb09ae-674b-504f-9412-67e37f71b667"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "9be7dbbf-7a3d-5cf2-87da-f9de9a00834e",
+  "transformation/inputs": [],
+  "transformation/language": "sql",
+  "transformation/name": "Two views of the same planets (every third)",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 560
+  },
+  "transformation/parent": ["data/id", "da03da8d-2739-5ed3-9c84-3508becb4858"],
+  "transformation/units": "{}"
+}

@@ -1,0 +1,35 @@
+{
+  "dashboard/id": "ff1a2e10-5806-5163-bba2-82e3b360a8e8",
+  "datas": [
+    ["data/id", "9415a51e-d3f3-5571-93f3-34b7b217e49b"],
+    ["data/id", "dc46b490-3ffb-5aba-8d18-81d5d16643e5"],
+    ["data/id", "b00ccd2d-fb4e-59d1-8ca3-78ca8a035226"],
+    ["data/id", "bb5c080f-bddb-5d98-970c-843162a8505c"],
+    ["data/id", "379ef43e-f563-5477-b90d-60f832282a39"],
+    ["data/id", "569b305f-14e4-5fad-819f-12ddcdfedbec"]
+  ],
+  "datasources": [
+    ["datasource/id", "be8fb891-3243-5672-884e-2c05ee439797"],
+    ["datasource/id", "c448180a-597e-5dde-ac17-7626318a9f5e"]
+  ],
+  "description": "NASA's own 3D models of four Mars missions side by side: Mars Reconnaissance Orbiter, Mars Global Surveyor, the Opportunity rover and the Ingenuity helicopter, at the scale their files have or all the same size. Hover a spacecraft for what it did and its size in the file; beside them, every Mars model science.nasa.gov lists. Caveat: glTF's unit is the metre, but a model's makers don't always keep to it, so check a size against the mission's published one. Next: Perseverance: who built what, and NASA in 3D for the whole catalog.",
+  "graphs": [
+    ["graph/id", "58bb6856-d037-5684-8527-f35c48cee9d1"]
+  ],
+  "grids": [],
+  "name": "Mars in 3D: the spacecraft",
+  "queries": [
+    ["query/id", "87775acc-ca05-50c3-be37-492af0c83d51"],
+    ["query/id", "0861cba4-8036-5c8c-93ac-947ba297244f"],
+    ["query/id", "853cc919-07d9-5561-87f7-7029e36b4595"],
+    ["query/id", "bde46c26-9bac-5e53-9581-eed42bb128ec"],
+    ["query/id", "f5d2a30d-f17e-5749-8811-d1523b8f17ff"]
+  ],
+  "studies": [],
+  "tables": [],
+  "texts": [],
+  "timers": [],
+  "transformations": [
+    ["transformation/id", "c87dfd94-f3b8-599d-85ef-fcef3aa2b2eb"]
+  ]
+}

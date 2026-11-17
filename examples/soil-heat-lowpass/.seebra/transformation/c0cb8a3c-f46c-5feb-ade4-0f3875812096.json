@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/one-row-per-hour-and-layer.sql"
+  },
+  "transformation/data-child": ["data/id", "c0c5c9d2-3add-5bbd-a93d-043b1f7d8a30"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "c0cb8a3c-f46c-5feb-ade4-0f3875812096",
+  "transformation/inputs": [],
+  "transformation/language": "sql",
+  "transformation/name": "One row per hour and layer",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "fb7ea09d-9973-57b3-b29d-a6f3f5c6cdb0"],
+  "transformation/units": "{}"
+}

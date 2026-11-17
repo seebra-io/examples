@@ -1,0 +1,11 @@
+{
+  "data/id": "5a736a03-d95f-5918-aa40-bc96950a45dc",
+  "data/name": "Workflows: λ, W and their part of L",
+  "data/node": {
+    "node/x": 2530,
+    "node/y": 800
+  },
+  "data/parent": ["transformation/id", "a17e9361-6ab3-5378-8093-3d481504b953"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

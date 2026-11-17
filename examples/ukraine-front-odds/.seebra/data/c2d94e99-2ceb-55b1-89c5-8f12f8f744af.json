@@ -1,0 +1,11 @@
+{
+  "data/id": "c2d94e99-2ceb-55b1-89c5-8f12f8f744af",
+  "data/name": "News on talks, ceasefire and sanctions (GDELT)",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 1760
+  },
+  "data/parent": ["transformation/id", "14b897f5-cda8-54be-b784-7206a7b0628b"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

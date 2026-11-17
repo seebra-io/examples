@@ -1,0 +1,10 @@
+{
+  "data/id": "228e53d7-47a9-5e5b-a5dd-9604cfd19bcd",
+  "data/name": "The last 100 launches data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 320
+  },
+  "data/parent": ["query/id", "c6288389-87c5-5ec4-b23e-a0ba896c1296"],
+  "data/type": "json"
+}

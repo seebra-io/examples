@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/rs1426654-slc24a5-genotype-counts.polars.py"
+  },
+  "transformation/data-child": ["data/id", "3ba13ea7-574c-5341-b82d-3581c079362e"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "84a381b9-17e4-5891-bd20-468c2ec3feea",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "rs1426654 (SLC24A5) genotype counts",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "c7572454-2f50-50f6-b694-ee852844b041"],
+  "transformation/units": "{}"
+}

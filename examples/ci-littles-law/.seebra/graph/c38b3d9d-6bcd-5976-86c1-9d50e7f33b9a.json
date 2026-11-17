@@ -1,0 +1,17 @@
+{
+  "graph/content": {
+    "$file": "graphs/l-t-against-w.js"
+  },
+  "graph/id": "c38b3d9d-6bcd-5976-86c1-9d50e7f33b9a",
+  "graph/inputs": [
+    ["data/id", "ac9fea92-c7ef-5517-aee4-53011d3a445c"],
+    ["data/id", "4f62528f-afd2-566e-9134-4f25aa8fd023"]
+  ],
+  "graph/language": "javascript",
+  "graph/name": "L(t) against λW",
+  "graph/node": {
+    "node/x": 3300,
+    "node/y": 80
+  },
+  "graph/parent": ["data/id", "33d82a54-f88c-5ecb-8ba2-11a1f00eb84d"]
+}

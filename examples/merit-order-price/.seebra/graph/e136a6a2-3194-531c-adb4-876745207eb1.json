@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/who-runs-at-each-residual-load.js"
+  },
+  "graph/id": "e136a6a2-3194-531c-adb4-876745207eb1",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Who runs at each residual load",
+  "graph/node": {
+    "node/x": 2840,
+    "node/y": 320
+  },
+  "graph/parent": ["data/id", "512f8087-b8da-50f3-b783-06c6c05799ce"]
+}

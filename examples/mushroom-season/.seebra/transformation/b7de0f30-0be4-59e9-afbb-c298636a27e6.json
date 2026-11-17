@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/share-of-each-species-records-per-month-against.polars.py"
+  },
+  "transformation/data-child": ["data/id", "fbeb5f1a-bd7a-5672-aa00-c767540b1553"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "b7de0f30-0be4-59e9-afbb-c298636a27e6",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Share of each species' records per month, against all fungi",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1920,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "a9a43260-d320-5fd6-ad44-e7ab86ac0814"],
+  "transformation/units": "{}"
+}

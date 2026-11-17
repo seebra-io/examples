@@ -1,0 +1,10 @@
+{
+  "data/id": "e1187608-802d-5792-8864-fa2305fbe212",
+  "data/name": "MIT-BIH 119: 12 s of lead MLII with its beats (from 3:05) data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 800
+  },
+  "data/parent": ["query/id", "fd751130-0445-5ddb-846a-03f1d18688f4"],
+  "data/type": "json"
+}

@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "49e58f2f-aac9-5200-8f07-7a6f09a20ce4"],
+  "query/datasource": ["datasource/id", "170c3313-b348-531a-8642-35702b0b2469"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "aa34bbfd-44b1-5697-924d-328bd9921abc",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Nodes",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 80
+  },
+  "query/params": "{}",
+  "query/path": "/api/v1/nodes",
+  "query/request-body": "",
+  "query/units": "{}"
+}

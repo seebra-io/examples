@@ -1,0 +1,75 @@
+{
+  "dashboard/id": "3182b7be-dcd9-5f00-b29a-69b47136638c",
+  "datas": [
+    ["data/id", "67299649-4a44-57a1-a7ad-a6ff2f9fc049"],
+    ["data/id", "436b433b-99e0-54fd-b51b-4ebe28abb62f"],
+    ["data/id", "3cd4b920-8952-5ff8-bd65-7de9958b6e6e"],
+    ["data/id", "c2b69c1d-15e9-5bfc-9bc6-5fa58c07fbdf"],
+    ["data/id", "1f206812-e113-5809-8c07-71a4b1e275de"],
+    ["data/id", "2c553fc5-eab2-56a2-81e0-b75ef4d88317"],
+    ["data/id", "998d8cf4-06e9-55f5-817d-5acca9eb470e"],
+    ["data/id", "037e71d5-6cc0-58b0-9893-edcd733ac7fe"],
+    ["data/id", "acc7d1d5-3d30-5ab1-a076-8dc9ee8bc771"],
+    ["data/id", "620755f4-fb94-5665-84a3-399d81cc1bc9"],
+    ["data/id", "45e8faa2-51b1-5ba0-b88b-996539f84b0d"],
+    ["data/id", "e088db56-5f46-5651-bbe5-6d86eba5f20a"],
+    ["data/id", "c1d4518e-70b5-56f3-a531-144883c249ad"],
+    ["data/id", "3212d1a0-78f1-5d28-830c-f4a85884d40a"],
+    ["data/id", "e94f5cb9-618f-5f55-bbef-712ba036feaa"],
+    ["data/id", "c07eebd7-842e-50e1-ab15-76afbabf4aed"],
+    ["data/id", "eb6e2240-01af-5ed6-b829-c118cd2311ed"],
+    ["data/id", "fa1c24af-3b1b-51f5-8c2e-8d07d72f39c0"],
+    ["data/id", "3aa7a5b7-7199-5859-8b88-5e5bf208ec55"],
+    ["data/id", "ca8ad270-7ac8-53d5-924e-4d2d71699fbd"]
+  ],
+  "datasources": [
+    ["datasource/id", "5adfae0f-d0c1-5836-9a4d-b48c78bf8b0d"],
+    ["datasource/id", "5da40676-9346-53a2-b0b7-a14f35d5cd65"],
+    ["datasource/id", "577eec6c-ba85-5a98-a0bd-4ddd69165902"],
+    ["datasource/id", "b7a5146f-8014-5302-9cb0-bb4e3b8ff068"],
+    ["datasource/id", "75bc5e88-6685-5319-9fde-4246934ec7b0"],
+    ["datasource/id", "f1eceadd-66ba-5d51-b051-06ed102da299"],
+    ["datasource/id", "8c4e5860-f59d-51de-b2b8-7355fc71c0b5"],
+    ["datasource/id", "2fb3bd4a-e319-5379-a0ee-f65e75eba0b2"]
+  ],
+  "description": "Question: what is the state of the Iran conflict, and what do markets give for a nuclear deal, strikes, a leadership change or the Strait of Hormuz by a given month? The map lays Iran's nuclear and military sites (coordinates from Wikipedia, each linked), and USGS's seismic events of the last 30 days (with the distance to the nearest site) on GMRT terrain; a second map counts the aircraft adsb.lol sees within 250 nm of Tehran, of central Iran and of the Gulf: an empty Iran beside busy Gulf skies is what a closed airspace looks like. The odds chart is the ontology's 'outcome by deadline': each Polymarket 'by ...?' event is a probability curve over its deadlines (cumulative), and 'continues through ...?' a survival curve (the Israel-Iran ceasefire); Manifold adds play-money forecasts; UN News and GDELT the diplomacy. Caveats: there is no front line here, so 'who is winning' is read from the markets and the news, not from a map; nearly every seismic event in Iran is an earthquake (USGS labels an explosion only when it knows); adsb.lol's receivers are sparse in Iran, so an empty circle can also be missing coverage. Market prices are not probabilities (fees, thin trading; hollow dots break the ordering). GDELT allows one request every 5 seconds per address and often refuses (its table then stays empty; UN News doesn't depend on it): rerun it.",
+  "graphs": [
+    ["graph/id", "73c5af08-a7e4-507b-ae34-86ebe806a262"],
+    ["graph/id", "719bc51f-fa76-5f22-a952-66d3bad95bb2"],
+    ["graph/id", "3536f070-9a16-5aa4-a6ef-d3c260c60ce4"]
+  ],
+  "grids": [],
+  "name": "Iran: sites, airspace, odds and diplomacy",
+  "ontology": {
+    "$file": ".seebra/dashboard/3182b7be-dcd9-5f00-b29a-69b47136638c.ontology.json",
+    "$json": true
+  },
+  "queries": [
+    ["query/id", "ccfd0e6f-ccd8-52cb-8697-c66247eff63f"],
+    ["query/id", "e2e12f92-ad2d-5a6c-b5e2-6bf947adebb3"],
+    ["query/id", "cac71931-cde2-55b3-b92c-c4160724cc78"],
+    ["query/id", "1ad31351-9455-51c6-afec-5d9e6feda37c"],
+    ["query/id", "651fc14c-e187-5dee-8fa6-68b5002e69af"],
+    ["query/id", "dee660be-bed9-54fc-b7b4-4f781e99d913"],
+    ["query/id", "e9b8d4be-94b8-5455-9025-20834ddaa8f1"],
+    ["query/id", "4ae0ad91-ec88-5486-b206-cda5d1dbb637"],
+    ["query/id", "8f7816cf-8da7-55d8-bb32-10f832ca92ff"],
+    ["query/id", "c1f12b41-cd9d-5fd4-bb96-c8dd9e17fc96"]
+  ],
+  "studies": [],
+  "tables": [],
+  "texts": [],
+  "timers": [],
+  "transformations": [
+    ["transformation/id", "9e59dfd6-e7ea-5085-81e8-bfc952718246"],
+    ["transformation/id", "ead5c316-33d2-5811-8cd3-16d2df901d1e"],
+    ["transformation/id", "127e4327-a70b-5a9e-9ca0-465aac1d929f"],
+    ["transformation/id", "89b7c0c2-9e0b-57fa-9507-ec3c5d20633c"],
+    ["transformation/id", "dcd70a99-b3f9-58f3-88a0-e58ba9ef0afc"],
+    ["transformation/id", "73e5560b-4a3b-5333-b6d3-f0d861bfe899"],
+    ["transformation/id", "50d2c490-327e-5afc-a635-d2975fd92562"],
+    ["transformation/id", "18a7ab93-b717-5db8-98f5-db05fe8f312f"],
+    ["transformation/id", "42f8edbd-6377-51e3-9b96-71d297a97237"],
+    ["transformation/id", "e65fd00b-0a8c-5348-995a-203bb25aef9d"]
+  ]
+}

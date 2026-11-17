@@ -1,0 +1,10 @@
+{
+  "data/id": "2c39795b-cadd-5054-b0ec-12747a2c720c",
+  "data/name": "Log returns and volatility per coin data",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "138daea9-ed6f-5946-9a01-bcbdc2a88c8a"],
+  "data/type": "json"
+}

@@ -1,0 +1,21 @@
+{
+  "transformation/content": {
+    "$file": "transforms/l-t-runs-in-flight-each-minute.polars.py"
+  },
+  "transformation/data-child": ["data/id", "33d82a54-f88c-5ecb-8ba2-11a1f00eb84d"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "e3dbdf2a-f9b9-5e97-8357-d32dc81af935",
+  "transformation/inputs": [
+    ["data/id", "369cbb37-92fe-5f29-8542-4059685b66d6"]
+  ],
+  "transformation/language": "polars",
+  "transformation/name": "L(t): runs in flight each minute",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 2840,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "88aa88ba-42a6-5120-a84a-415e3d169272"],
+  "transformation/units": "{}"
+}

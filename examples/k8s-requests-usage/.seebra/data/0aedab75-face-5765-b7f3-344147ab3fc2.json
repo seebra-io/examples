@@ -1,0 +1,11 @@
+{
+  "data/id": "0aedab75-face-5765-b7f3-344147ab3fc2",
+  "data/name": "Per namespace",
+  "data/node": {
+    "node/x": 2530,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "85994f74-607b-503a-a0d5-fe962b85f640"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

@@ -1,0 +1,39 @@
+{
+  "dashboard/id": "7251b2c5-cb56-5c87-bdfb-95428eda4e56",
+  "datas": [
+    ["data/id", "117d26e1-f2c5-598c-8722-19fa0097a502"],
+    ["data/id", "03b47eb7-7933-534b-af4d-c49eabfce53c"],
+    ["data/id", "e5f9abd8-358b-58d3-ba0d-31092afc8d58"],
+    ["data/id", "67e8a804-646d-5672-bc2e-48285b0ff62f"],
+    ["data/id", "8ef02bbf-2b6b-5bd5-b576-5bcb4c86cd09"],
+    ["data/id", "4d33d185-ee7a-5ad5-9113-ca2e819db0bd"],
+    ["data/id", "67c082eb-8f22-59d7-a077-8d33e86b95eb"]
+  ],
+  "datasources": [
+    ["datasource/id", "cbd63588-2356-5ee3-9d6b-9f0762e82ee1"]
+  ],
+  "description": "World Bank GDP per capita for the five Nordic countries since 2000, with yearly growth computed in Polars, and a principal component analysis (PCA) of the panel of yearly log growth: how much the five economies move as one, which years broke together, and which country goes its own way. Values are in current US$, so exchange rates are part of every move.",
+  "graphs": [
+    ["graph/id", "438a3da3-7cf0-560d-8c6f-f50eb7d69cde"],
+    ["graph/id", "e4680d1f-4679-55e9-9d9a-208f738ea13b"],
+    ["graph/id", "189c1d6f-a42e-50d6-8199-f4c58ceda3b3"],
+    ["graph/id", "14363793-775d-5483-9e2d-1b3fe655d7cd"]
+  ],
+  "grids": [],
+  "name": "Nordic GDP per capita",
+  "queries": [
+    ["query/id", "6fdb66db-f691-5594-94b0-e1f9406baaf8"]
+  ],
+  "studies": [],
+  "tables": [],
+  "texts": [],
+  "timers": [],
+  "transformations": [
+    ["transformation/id", "ea9d450c-9711-5f9d-b848-4270fea617ff"],
+    ["transformation/id", "adf1ac69-9604-547e-9fd2-b26da33ae462"],
+    ["transformation/id", "4c4b19bb-1b41-5f37-9a1a-00dc1d9062b7"],
+    ["transformation/id", "45eb6998-c498-5cba-9095-ae66054e080c"],
+    ["transformation/id", "8d5e0f19-aa4a-5871-932a-4c119049c72c"],
+    ["transformation/id", "78a13bc6-b1c6-5b6d-989d-becfa6308faf"]
+  ]
+}

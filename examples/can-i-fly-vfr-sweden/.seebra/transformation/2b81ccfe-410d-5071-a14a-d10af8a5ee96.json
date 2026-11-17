@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/sigmets-as-polygons-those-near-sweden-first.js"
+  },
+  "transformation/data-child": ["data/id", "2f4d6f7b-e805-54ff-a826-8c4c6da04a75"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "js-web-worker",
+  "transformation/id": "2b81ccfe-410d-5071-a14a-d10af8a5ee96",
+  "transformation/inputs": [],
+  "transformation/language": "javascript",
+  "transformation/name": "SIGMETs as polygons, those near Sweden first",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 1280
+  },
+  "transformation/parent": ["data/id", "e244c488-2592-5034-b110-4ab1962c232f"],
+  "transformation/units": "{}"
+}

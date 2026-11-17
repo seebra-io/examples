@@ -1,0 +1,10 @@
+{
+  "data/id": "f7754424-ceb4-54c7-980c-755e76e3c9d9",
+  "data/name": "Observed against the Gompertz line data",
+  "data/node": {
+    "node/x": 2070,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "75dbd6ca-1260-579f-9e1f-0db63eee371d"],
+  "data/type": "json"
+}

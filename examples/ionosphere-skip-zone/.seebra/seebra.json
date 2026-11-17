@@ -1,0 +1,8 @@
+{
+  "file": {
+    "file/example": "ionosphere-skip-zone"
+  },
+  "format": 2,
+  "root": ["dashboard/id", "669bafca-b0b0-5cdf-a6d3-c5d158e0d677"],
+  "seebra": "board"
+}

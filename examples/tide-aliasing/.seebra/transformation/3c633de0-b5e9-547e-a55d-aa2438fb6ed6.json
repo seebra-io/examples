@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/hourly-water-levels.polars.py"
+  },
+  "transformation/data-child": ["data/id", "bf261d65-21c7-5fad-a146-d024ea0837fa"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "3c633de0-b5e9-547e-a55d-aa2438fb6ed6",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Hourly water levels",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "0a9ddcd3-311c-5000-90e5-1d6317b50221"],
+  "transformation/units": "{}"
+}

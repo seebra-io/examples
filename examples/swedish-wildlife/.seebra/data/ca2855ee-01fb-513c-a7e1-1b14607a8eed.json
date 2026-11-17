@@ -1,0 +1,10 @@
+{
+  "data/id": "ca2855ee-01fb-513c-a7e1-1b14607a8eed",
+  "data/name": "Per observer (who the sample is) data",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 560
+  },
+  "data/parent": ["transformation/id", "13e82c9c-472b-5e3e-a251-710fbee28953"],
+  "data/type": "json"
+}

@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/completeness-magnitude-mc-maximum-curvature-0-2.polars.py"
+  },
+  "transformation/data-child": ["data/id", "c68dcf40-0061-5cef-b019-dd0a76de655a"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "62a30873-13a1-5c9a-b14e-4effee631fe5",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Completeness magnitude Mc (maximum curvature + 0.2)",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1920,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "4dcd81dd-0807-5ce3-bdfd-47372e7376be"],
+  "transformation/units": "{}"
+}

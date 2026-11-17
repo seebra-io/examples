@@ -1,0 +1,10 @@
+{
+  "data/id": "b737724a-72ef-5630-878b-459854dcb14d",
+  "data/name": "RR intervals: MIT-BIH 119 data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 560
+  },
+  "data/parent": ["transformation/id", "6ea3bb2c-5a54-59f7-9c8a-623ef70fe370"],
+  "data/type": "json"
+}

@@ -1,0 +1,11 @@
+{
+  "data/id": "25256e20-e0d4-506d-b309-5053c384744e",
+  "data/name": "Fits: slope 3/2 and slope 1",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "13bc5c1b-d44a-5bba-b5a3-c9edd544b852"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

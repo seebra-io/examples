@@ -1,0 +1,11 @@
+{
+  "data/id": "2e0fed90-144a-59e4-a846-cb63e553ed6c",
+  "data/name": "Damping depth, κ and the √ω law",
+  "data/node": {
+    "node/x": 3450,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "a466bf40-b3e1-582b-b1c7-25e54643b80a"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

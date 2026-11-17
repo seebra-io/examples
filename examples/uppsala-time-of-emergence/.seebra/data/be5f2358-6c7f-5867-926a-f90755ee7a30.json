@@ -1,0 +1,10 @@
+{
+  "data/id": "be5f2358-6c7f-5867-926a-f90755ee7a30",
+  "data/name": "Daily minima with seasons data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "7f2f3b7b-f03f-566f-8811-08f766490c37"],
+  "data/type": "json"
+}

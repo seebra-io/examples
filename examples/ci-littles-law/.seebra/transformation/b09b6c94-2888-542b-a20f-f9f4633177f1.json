@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/runs-the-law-counts-first-attempts-ended-within.polars.py"
+  },
+  "transformation/data-child": ["data/id", "369cbb37-92fe-5f29-8542-4059685b66d6"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "b09b6c94-2888-542b-a20f-f9f4633177f1",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Runs the law counts (first attempts, ended within 6 h)",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1920,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "044b94c8-9d26-5b2d-b750-8616159953e7"],
+  "transformation/units": "{}"
+}

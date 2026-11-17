@@ -1,0 +1,16 @@
+{
+  "graph/content": {
+    "$file": "graphs/extreme-values-gumbel-plot-and-return-levels.js"
+  },
+  "graph/id": "1c9e7200-201b-5ec9-b4d3-8b2ba1a4176d",
+  "graph/inputs": [
+    ["data/id", "4ff3acbb-8d1b-5919-9664-dcc8abc718a4"]
+  ],
+  "graph/language": "javascript",
+  "graph/name": "Extreme values: Gumbel plot and return levels",
+  "graph/node": {
+    "node/x": 2840,
+    "node/y": 320
+  },
+  "graph/parent": ["data/id", "370d3c61-e3a1-5da8-b84e-98ef1cb69d79"]
+}

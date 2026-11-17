@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/pods-per-namespace-and-phase.sql"
+  },
+  "transformation/data-child": ["data/id", "23913e3d-bc88-520c-aa02-99af9e9daaad"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "142d91ed-77c5-50b0-a0e9-959fa0bb1cf4",
+  "transformation/inputs": [],
+  "transformation/language": "sql",
+  "transformation/name": "Pods per namespace and phase",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "ae5678d9-9807-50ac-b064-15e95b85598d"],
+  "transformation/units": "{}"
+}

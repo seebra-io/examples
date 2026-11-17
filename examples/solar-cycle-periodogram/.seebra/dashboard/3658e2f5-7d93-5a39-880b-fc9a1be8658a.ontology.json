@@ -1,0 +1,121 @@
+{
+  "title": "The solar cycle",
+  "summary": "Sunspot counts rise and fall with the Sun's magnetic cycle; Fourier analysis finds its period, and polarity explains why 11 and 22 years.",
+  "concepts": [
+    {
+      "cid": "c1",
+      "label": "Sunspot number",
+      "kind": "measure",
+      "description": "SILSO's international sunspot number, version 2, monthly and 13-month smoothed.",
+      "fields": [
+        "ssn",
+        "smoothed"
+      ],
+      "in_data": true,
+      "wikidata": "Q1131924",
+      "facts": [
+        {
+          "text": "Recalibrated in 2015 (version 2): the Wolf number's scale factor 0.6 was dropped and historic drifts corrected.",
+          "source": "https://www.sidc.be/SILSO/newdataset"
+        }
+      ],
+      "children": [
+        {
+          "cid": "c2",
+          "label": "F10.7 radio flux",
+          "kind": "measure",
+          "as": "subtype",
+          "description": "The Sun's 10.7 cm radio flux, measured since 1947; in the same file.",
+          "fields": [],
+          "in_data": false
+        }
+      ]
+    },
+    {
+      "cid": "c3",
+      "label": "Solar cycle",
+      "kind": "event",
+      "description": "One rise and fall of activity, minimum to minimum; numbered from 1755.",
+      "fields": [
+        "cycle",
+        "length_yr",
+        "peak_smoothed",
+        "rise_yr"
+      ],
+      "in_data": true,
+      "wikidata": "Q1138826",
+      "children": [
+        {
+          "cid": "c4",
+          "label": "Cycle minimum",
+          "kind": "event",
+          "as": "part",
+          "description": "The lowest smoothed value; the start of a cycle.",
+          "fields": [
+            "start",
+            "min_smoothed"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c5",
+          "label": "Waldmeier effect",
+          "kind": "event",
+          "as": "property",
+          "description": "Strong cycles rise faster.",
+          "fields": [
+            "rise_yr",
+            "peak_smoothed"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c6",
+          "label": "Hale cycle",
+          "kind": "event",
+          "as": "subtype",
+          "description": "The 22-year magnetic cycle: the polarity of sunspot pairs flips each cycle.",
+          "fields": [
+            "signed"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c7",
+          "label": "Grand minimum",
+          "kind": "event",
+          "as": "subtype",
+          "description": "Decades of few spots (Maunder 1645–1715, before these data; Dalton around 1800).",
+          "fields": [],
+          "in_data": false
+        }
+      ]
+    },
+    {
+      "cid": "c8",
+      "label": "Periodogram",
+      "kind": "measure",
+      "description": "Power of a series at each trial period: the squared Fourier sum.",
+      "fields": [
+        "period_yr",
+        "power"
+      ],
+      "in_data": true,
+      "wikidata": "Q1544307",
+      "facts": [
+        {
+          "text": "Schuster introduced the periodogram in 1898, to look for periodicities in sunspots and earthquakes.",
+          "source": "https://doi.org/10.1029/TM003i001p00013"
+        }
+      ]
+    },
+    {
+      "cid": "c9",
+      "label": "Solar magnetic field",
+      "kind": "entity",
+      "description": "The dynamo field whose polarity flips at each maximum; measured on magnetograms.",
+      "fields": [],
+      "in_data": false
+    }
+  ]
+}

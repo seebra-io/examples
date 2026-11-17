@@ -1,0 +1,11 @@
+{
+  "data/id": "730d492e-b785-5c8e-97c2-fae89d762c7b",
+  "data/name": "Regions",
+  "data/node": {
+    "node/x": 2070,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "93f88042-6d0f-5ca9-ab27-ce54dab3d3f1"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

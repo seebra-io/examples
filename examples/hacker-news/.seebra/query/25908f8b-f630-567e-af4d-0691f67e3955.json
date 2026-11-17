@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "98e3f6f4-9250-582f-b6b0-603e3f7609fe"],
+  "query/datasource": ["datasource/id", "f0e3ea60-c2da-569c-ac75-ce7b32dce5cf"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "25908f8b-f630-567e-af4d-0691f67e3955",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Front page",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 80
+  },
+  "query/params": "{\"tags\":\"front_page\",\"hitsPerPage\":\"30\"}",
+  "query/path": "/search",
+  "query/request-body": "",
+  "query/units": "{}"
+}

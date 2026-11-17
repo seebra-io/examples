@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "ee6c33c1-17da-5f84-9bfc-82e3e0229a60"],
+  "query/datasource": ["datasource/id", "7b2cdefc-274b-5b4b-9bb4-70bb3ad2ef26"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "938b6445-3de4-54cb-b007-f947ac8dafbd",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Irrigated land (% of agricultural land), latest",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 800
+  },
+  "query/params": "{\"format\":\"json\",\"mrnev\":\"1\",\"per_page\":\"400\"}",
+  "query/path": "/country/all/indicator/AG.LND.IRIG.AG.ZS",
+  "query/request-body": "",
+  "query/units": "{}"
+}

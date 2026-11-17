@@ -1,0 +1,60 @@
+{
+  "dashboard/id": "4a33e404-d0c0-58b6-8b4c-5ed64fd9c8e4",
+  "datas": [
+    ["data/id", "810b5f3c-9053-5949-a695-b2eb34a6cdbb"],
+    ["data/id", "b89750ba-0835-55db-92a2-0877dd6ecfa0"],
+    ["data/id", "27d26520-d071-59b6-a7fd-c19755565b34"],
+    ["data/id", "ed709401-6c0b-50c8-9c69-cdf80dde55d1"],
+    ["data/id", "66e43106-68e0-51ae-8fb7-0dc8518bb0d3"],
+    ["data/id", "37db650b-813f-5fd1-8b59-46bcc72da071"],
+    ["data/id", "82748b79-0218-50bb-9cb2-2d2b05dd2fe8"],
+    ["data/id", "3f88e9b1-66f9-5652-95af-daf2f11884d7"],
+    ["data/id", "88da9ec7-bb6d-5e24-a080-db27f2069a28"],
+    ["data/id", "a8353bbf-7007-5c93-89e4-cd3a5f7193a0"],
+    ["data/id", "8a990b26-88b9-5976-af67-6e3c5cfefab6"],
+    ["data/id", "777c47ae-4dd8-5ce0-b6d8-b7e4b14bccf8"],
+    ["data/id", "87fe7e6f-81c4-51e9-8149-b2e25930233e"],
+    ["data/id", "44350a8b-318a-54f7-b603-a5f63dc4a595"],
+    ["data/id", "07ce9327-91b5-566f-aa53-23319662f8aa"],
+    ["data/id", "3c42b5e6-16a8-5169-9132-cc746302c1c4"],
+    ["data/id", "6e760356-1314-5a36-8c87-258e4b054aa6"]
+  ],
+  "datasources": [
+    ["datasource/id", "d71e7705-fb17-537f-bd78-bb46c272c281"],
+    ["datasource/id", "a35eb1f1-26bf-5b55-93f9-ff70405257ec"],
+    ["datasource/id", "3822f755-3728-5088-abfd-470b9461248e"],
+    ["datasource/id", "8577f809-380e-58e1-a7e5-74b942f3fb63"]
+  ],
+  "description": "Caffeine bound in its real target, the human adenosine A2A receptor (RCSB 5MZP, 2.1 Å), in 3D, against adenosine, the agonist it blocks (2YDO, 3.0 Å). Contacts are computed from the coordinates: receptor atoms within 5 Å of each ligand and, per residue, an H-bond candidate (N/O pair under 3.5 Å), π-stacking (ring centroids within 5.5 Å) or a hydrophobic contact (C–C under 4 Å), with GPCRdb's helix positions (Ballesteros–Weinstein) and UniProt's binding sites. Idea: a molecule can block a receptor by fitting its pocket without activating it. Caffeine has adenosine's purine core but no ribose: it keeps the purine contacts (stacking on Phe168 in ECL2, an H-bond to Asn253, 6.55) and makes none of the ribose contacts (Ser277 7.42, His278 7.43, Thr88, His250) that adenosine makes (Lebon et al. 2011 tie those to agonist activation). Hover residues, atoms and dashed lines; the buttons add caffeine's second modelled orientation and adenosine, fitted onto 5MZP's pocket (19 Cα, RMSD about 1 Å). Caveats: crystal structures are static snapshots of thermostabilised, mutated receptors (5MZP has Ala at 88 and 277, where 2YDO keeps Thr and Ser); caffeine is modelled in two orientations (55% and 45%); contacts are distance cutoffs, not energies, and say nothing of affinity or dynamics; hydrogens are not in the models, so H-bonds are candidates. A1 is a caffeine target too (its xanthine structures: 5N2S, Cheng et al. 2017, doi:10.1016/j.str.2017.06.012). Papers: 5MZP doi:10.1016/j.str.2017.06.012, 2YDO doi:10.1038/nature10136.",
+  "graphs": [
+    ["graph/id", "01c99a5d-4d37-52cc-9e59-096343668141"],
+    ["graph/id", "2ac36e57-2837-51d8-a7a0-fb7f8d06e422"]
+  ],
+  "grids": [],
+  "name": "Caffeine in its receptor",
+  "queries": [
+    ["query/id", "f48e173c-1607-57b2-82b9-fb64ad3a2981"],
+    ["query/id", "fd916d84-133b-5290-bfb2-aca31d23fc5d"],
+    ["query/id", "612333ea-84fb-5e11-884c-8e56cc3bcc1f"],
+    ["query/id", "79c7a6c6-b0f9-5742-b37f-bb4063d9c3a1"],
+    ["query/id", "954fc57b-8b37-5815-8ca1-63dec782b398"]
+  ],
+  "studies": [],
+  "tables": [],
+  "texts": [],
+  "timers": [],
+  "transformations": [
+    ["transformation/id", "2f327089-fcdf-5652-a971-ba8212a797ca"],
+    ["transformation/id", "9e03a5f6-17d1-5f0f-a783-c62b4482f3cd"],
+    ["transformation/id", "dff51b77-a67a-5443-ab76-7da2e8cce002"],
+    ["transformation/id", "cea513aa-6b1e-510c-9bc9-9acc631c6eb6"],
+    ["transformation/id", "263b1645-5ab2-55aa-9948-220b6c74d0f7"],
+    ["transformation/id", "6f24fd26-2fa7-55c4-8bc7-3e0c27393da2"],
+    ["transformation/id", "5ad631a7-e198-5a5b-b12c-07505b1fe468"],
+    ["transformation/id", "40052cbb-a32e-505f-84fb-640190be562b"],
+    ["transformation/id", "1e1b48ea-c057-52f8-8910-82ab600a5976"],
+    ["transformation/id", "b1b82f02-c009-5a91-9f7a-d9a5a88eb93e"],
+    ["transformation/id", "c44d4790-850a-5c41-9e76-8d424e37dbb2"],
+    ["transformation/id", "ad33450b-5963-5c76-8060-447b72abc020"]
+  ]
+}

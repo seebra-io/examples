@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/which-break-year-fits-the-clock-best.js"
+  },
+  "graph/id": "e2f112ad-e247-5b27-9e9c-b2c92dec535a",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Which break year fits the clock best?",
+  "graph/node": {
+    "node/x": 2380,
+    "node/y": 560
+  },
+  "graph/parent": ["data/id", "37b963bf-8c13-5473-8e6a-ced28ec8a8a1"]
+}

@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/pooled-f-against-f-st-the-wahlund-effect.js"
+  },
+  "graph/id": "cbf627ca-b21e-5fb8-a921-1ec0d35c09a5",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Pooled F against F_ST: the Wahlund effect",
+  "graph/node": {
+    "node/x": 2840,
+    "node/y": 80
+  },
+  "graph/parent": ["data/id", "2b201714-006c-5f66-a5f4-a67e591e00a8"]
+}

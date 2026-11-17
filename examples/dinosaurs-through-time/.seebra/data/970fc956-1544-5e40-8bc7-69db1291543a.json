@@ -1,0 +1,10 @@
+{
+  "data/id": "970fc956-1544-5e40-8bc7-69db1291543a",
+  "data/name": "Dinosaur genera per stage (PBDB diversity) data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 800
+  },
+  "data/parent": ["query/id", "11712ebc-390a-54e6-8af2-590b036c50fe"],
+  "data/type": "json"
+}

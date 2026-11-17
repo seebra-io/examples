@@ -1,0 +1,16 @@
+{
+  "graph/content": {
+    "$file": "graphs/tall-vs-low-buildings-station-by-station.js"
+  },
+  "graph/id": "d85ef2e5-fdb9-5574-9086-0aab1c0f64fd",
+  "graph/inputs": [
+    ["data/id", "9758eeee-9d05-5142-ab09-085024a76001"]
+  ],
+  "graph/language": "javascript",
+  "graph/name": "Tall vs low buildings, station by station",
+  "graph/node": {
+    "node/x": 1920,
+    "node/y": 1040
+  },
+  "graph/parent": ["data/id", "2a657db1-f1f6-5471-850d-fbff1eaae0e2"]
+}

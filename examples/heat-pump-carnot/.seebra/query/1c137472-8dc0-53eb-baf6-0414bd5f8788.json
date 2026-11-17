@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "bd4b312d-e435-5e63-a944-1e08fc510644"],
+  "query/datasource": ["datasource/id", "512f9cda-87ff-56fd-861f-4c419dc6b5ad"],
+  "query/dynamic?": false,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "1c137472-8dc0-53eb-baf6-0414bd5f8788",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "System 802, Cheshire (underfloor + radiators): daily stats, Nov 2025 – Oct 2026",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 80
+  },
+  "query/params": "{\"id\":\"802\",\"start\":\"1761955200\",\"end\":\"1793491200\",\"fields\":\"timestamp,space_heat_kwh,space_elec_kwh,space_flowT_mean,space_returnT_mean,space_outsideT_mean,space_roomT_mean\"}",
+  "query/path": "/system/stats/daily",
+  "query/request-body": "",
+  "query/units": "{\"space_heat_kwh\":\"kWh\",\"space_elec_kwh\":\"kWh\",\"space_flowT_mean\":\"Cel\",\"space_returnT_mean\":\"Cel\",\"space_outsideT_mean\":\"Cel\",\"space_roomT_mean\":\"Cel\"}"
+}

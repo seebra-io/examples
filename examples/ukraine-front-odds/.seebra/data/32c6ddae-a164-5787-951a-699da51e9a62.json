@@ -1,0 +1,10 @@
+{
+  "data/id": "32c6ddae-a164-5787-951a-699da51e9a62",
+  "data/name": "Map now (latest snapshot) data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 80
+  },
+  "data/parent": ["query/id", "deee6177-1789-5b79-b026-f567bd808039"],
+  "data/type": "json"
+}

@@ -1,0 +1,11 @@
+{
+  "data/id": "6ce23e72-a4ba-5820-aba7-17eeb714fe60",
+  "data/name": "b-value, a-value and expected M7+ and M8+ per year",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "4832223c-d795-57ee-b1a7-a3972f68804a"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

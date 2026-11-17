@@ -1,0 +1,11 @@
+{
+  "data/id": "f28f1f44-0279-5164-9b38-e726caaa3010",
+  "data/name": "Alloys and their deviation from Vegard's law",
+  "data/node": {
+    "node/x": 2070,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "d975ba31-f59e-5110-913a-e10e92c943cd"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

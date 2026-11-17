@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/hourly-output-mw.polars.py"
+  },
+  "transformation/data-child": ["data/id", "c55a3497-2c29-58e9-a6a5-3576867819cc"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "6441bf77-9bd8-5de3-ae8e-678a30523eff",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Hourly output (MW)",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "d0b9c7de-4345-5ebb-9bb1-b8d1ed7b0d2b"],
+  "transformation/units": "{}"
+}

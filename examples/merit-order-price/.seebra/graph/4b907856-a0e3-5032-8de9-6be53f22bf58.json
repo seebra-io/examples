@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/the-duck-residual-load-and-price-over-the-day.js"
+  },
+  "graph/id": "4b907856-a0e3-5032-8de9-6be53f22bf58",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "The duck: residual load and price over the day",
+  "graph/node": {
+    "node/x": 2840,
+    "node/y": 80
+  },
+  "graph/parent": ["data/id", "2ff292dd-456f-5a6a-aad5-f622c36999aa"]
+}

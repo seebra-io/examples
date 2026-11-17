@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/sightings.polars.py"
+  },
+  "transformation/data-child": ["data/id", "0a4efc7b-90af-5610-af12-5ce5faac9217"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "dc9c926f-3486-5858-87d1-c50c6a329bef",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Sightings",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "954b25dd-ef16-5e96-ac67-b497ee7534cf"],
+  "transformation/units": "{}"
+}

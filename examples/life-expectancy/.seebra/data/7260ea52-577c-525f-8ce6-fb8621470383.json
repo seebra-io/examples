@@ -1,0 +1,10 @@
+{
+  "data/id": "7260ea52-577c-525f-8ce6-fb8621470383",
+  "data/name": "Life expectancy, latest data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 80
+  },
+  "data/parent": ["query/id", "b909c484-4b39-5e98-bf2a-88ffc2d6423f"],
+  "data/type": "json"
+}

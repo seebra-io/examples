@@ -1,0 +1,10 @@
+{
+  "data/id": "ed709401-6c0b-50c8-9c69-cdf80dde55d1",
+  "data/name": "P29274 features (binding sites, helices) data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 800
+  },
+  "data/parent": ["query/id", "79c7a6c6-b0f9-5742-b37f-bb4063d9c3a1"],
+  "data/type": "json"
+}

@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/the-pulse-flattens-on-the-way.js"
+  },
+  "graph/id": "80483527-d8d4-5a40-9909-6b89ae94d931",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "The pulse flattens on the way",
+  "graph/node": {
+    "node/x": 1920,
+    "node/y": 800
+  },
+  "graph/parent": ["data/id", "84202084-e313-56af-9d76-d3845f905f73"]
+}

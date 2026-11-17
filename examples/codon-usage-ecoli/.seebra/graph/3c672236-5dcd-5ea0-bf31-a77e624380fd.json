@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/synonymous-codons-ribosomal-proteins-against.js"
+  },
+  "graph/id": "3c672236-5dcd-5ea0-bf31-a77e624380fd",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Synonymous codons: ribosomal proteins against regulators",
+  "graph/node": {
+    "node/x": 2840,
+    "node/y": 800
+  },
+  "graph/parent": ["data/id", "fc593c1e-43ff-587d-8c66-905062d2c4cd"]
+}

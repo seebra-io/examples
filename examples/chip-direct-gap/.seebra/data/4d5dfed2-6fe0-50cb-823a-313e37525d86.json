@@ -1,0 +1,11 @@
+{
+  "data/id": "4d5dfed2-6fe0-50cb-823a-313e37525d86",
+  "data/name": "Direct-gap share per family",
+  "data/node": {
+    "node/x": 2070,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "a0dc48ec-18c4-5264-89b1-5358e7e6edbb"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

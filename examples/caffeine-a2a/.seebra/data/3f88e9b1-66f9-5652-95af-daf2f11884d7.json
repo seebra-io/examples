@@ -1,0 +1,10 @@
+{
+  "data/id": "3f88e9b1-66f9-5652-95af-daf2f11884d7",
+  "data/name": "Receptor atoms with segment and generic number data",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "dff51b77-a67a-5443-ab76-7da2e8cce002"],
+  "data/type": "json"
+}

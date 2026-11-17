@@ -1,0 +1,10 @@
+{
+  "data/id": "b7a0c028-e036-5510-81ca-867ba9ea6e4e",
+  "data/name": "Creation years: median and quantiles data",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "a9b4e83e-66f8-5158-980b-b856068a16ff"],
+  "data/type": "json"
+}

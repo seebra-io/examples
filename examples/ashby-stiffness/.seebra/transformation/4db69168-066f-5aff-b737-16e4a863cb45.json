@@ -1,0 +1,21 @@
+{
+  "transformation/content": {
+    "$file": "transforms/same-material-in-both-lists-measured-e-against.polars.py"
+  },
+  "transformation/data-child": ["data/id", "48f52844-24f8-5f63-afe8-96cfb7e1589f"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "4db69168-066f-5aff-b737-16e4a863cb45",
+  "transformation/inputs": [
+    ["data/id", "de2d6ded-0b32-5f5d-922a-d8080dc18e9f"]
+  ],
+  "transformation/language": "polars",
+  "transformation/name": "Same material in both lists: measured E against 9KG/(3K+G)",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "b433a528-0136-5211-a834-0f6223132d28"],
+  "transformation/units": "{}"
+}

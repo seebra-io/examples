@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/trend-with-an-uncertainty-band-temperature.polars.py"
+  },
+  "transformation/data-child": ["data/id", "50f30f7b-cd87-5234-a33f-de424c7f1c84"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "5bd2f5b1-1ab4-56bb-9d59-7b4fbc3189ae",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Trend with an uncertainty band: temperature against latitude",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "58ae7275-070a-5c63-af91-0b199fa55a56"],
+  "transformation/units": "{}"
+}

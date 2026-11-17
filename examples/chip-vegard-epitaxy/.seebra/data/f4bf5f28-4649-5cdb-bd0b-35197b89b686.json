@@ -1,0 +1,10 @@
+{
+  "data/id": "f4bf5f28-4649-5cdb-bd0b-35197b89b686",
+  "data/name": "COD entries for InAs (measured) data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 800
+  },
+  "data/parent": ["query/id", "48e4f38f-61ad-56cb-a2b5-c9e310c1a7e3"],
+  "data/type": "json"
+}

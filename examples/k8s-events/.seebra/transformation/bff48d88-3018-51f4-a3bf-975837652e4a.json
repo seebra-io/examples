@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/warnings-per-reason-and-kind.sql"
+  },
+  "transformation/data-child": ["data/id", "bcedfbd1-053f-5821-a795-794a9458f9ae"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "bff48d88-3018-51f4-a3bf-975837652e4a",
+  "transformation/inputs": [],
+  "transformation/language": "sql",
+  "transformation/name": "Warnings per reason and kind",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "4088937f-dd58-5f0f-8639-b08d2809fc12"],
+  "transformation/units": "{}"
+}

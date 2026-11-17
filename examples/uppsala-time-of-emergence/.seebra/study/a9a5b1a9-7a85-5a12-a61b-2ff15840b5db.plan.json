@@ -1,0 +1,183 @@
+{
+  "title": "Time of emergence by season at Uppsala",
+  "question": "Per season: warming_c (1996–2025 minus 1850–1900) over base_sd_c, and the share of recent seasons warmer than any baseline one.",
+  "review": {
+    "well_formed": true,
+    "issues": [
+      {
+        "kind": "causal",
+        "text": "The trend mixes global warming with the town's growth and station changes; the series is not homogenised.",
+        "fix": "Repeat at a rural GHCN-D station nearby (or use SMHI's homogenised Uppsala series) before reading the size of the warming as global."
+      },
+      {
+        "kind": "grain",
+        "text": "Seasons are averages of ~90 days with gaps; σ comes from 51 baseline years with some missing.",
+        "fix": "Check that dropping seasons with fewer than 85 days changes S/N little."
+      }
+    ],
+    "alternatives": [
+      {
+        "question": "Do daily maxima (TMAX) show the same seasonal order of emergence?",
+        "why": "Drills into the other half of the day; nights warm faster in towns.",
+        "ready": false
+      },
+      {
+        "question": "Has the signal emerged earlier at a rural station than in Uppsala?",
+        "why": "Expands to a second station to separate the urban part of the trend.",
+        "ready": false
+      }
+    ]
+  },
+  "hypotheses": [
+    {
+      "id": "H1",
+      "statement": "Recent summers (JJA) lie further above their pre-industrial mean, in units of σ, than recent winters (DJF).",
+      "null": "The z of recent summers equals that of recent winters.",
+      "outcome": {
+        "concept": "Signal-to-noise ratio",
+        "field": "z"
+      },
+      "predictor": {
+        "concept": "Season",
+        "field": "season"
+      },
+      "subgroup": {
+        "concept": "Pre-industrial baseline",
+        "category": "1996–2025 (last 30 years)"
+      },
+      "direction": "increase",
+      "test": {
+        "method": "means",
+        "link": null,
+        "outcome_mode": "mean",
+        "outcome_field": "z",
+        "predictor_field": "season",
+        "exposure_field": null,
+        "versus": "1 winter (DJF)"
+      }
+    },
+    {
+      "id": "H2",
+      "statement": "Winter warmed at least as much as summer in °C.",
+      "null": "Winter's anomaly is smaller than summer's.",
+      "outcome": {
+        "concept": "Warming signal",
+        "field": "anomaly_c"
+      },
+      "predictor": {
+        "concept": "Season",
+        "field": "season"
+      },
+      "subgroup": {
+        "concept": "Pre-industrial baseline",
+        "category": "1996–2025 (last 30 years)"
+      },
+      "direction": "any",
+      "test": {
+        "method": "means",
+        "link": null,
+        "outcome_mode": "mean",
+        "outcome_field": "anomaly_c",
+        "predictor_field": "season",
+        "exposure_field": null,
+        "versus": "3 summer (JJA)"
+      }
+    }
+  ],
+  "concepts": [
+    {
+      "label": "Season",
+      "kind": "time",
+      "description": "DJF, MAM, JJA, SON per season_year.",
+      "why": "The grouping compared.",
+      "have": true,
+      "categories": [
+        "1 winter (DJF)",
+        "2 spring (MAM)",
+        "3 summer (JJA)",
+        "4 autumn (SON)"
+      ],
+      "field": "season",
+      "strategy": null
+    },
+    {
+      "label": "Warming signal",
+      "kind": "measure",
+      "description": "Season mean daily minimum minus its 1850–1900 mean, °C.",
+      "why": "The size of the change.",
+      "have": true,
+      "categories": [],
+      "field": "anomaly_c",
+      "strategy": null
+    },
+    {
+      "label": "Signal-to-noise ratio",
+      "kind": "measure",
+      "description": "Anomaly over the baseline σ.",
+      "why": "Whether the change shows.",
+      "have": true,
+      "categories": [],
+      "field": "z",
+      "strategy": null
+    },
+    {
+      "label": "Pre-industrial baseline",
+      "kind": "time",
+      "description": "Years 1850–1900 vs the last 30 years.",
+      "why": "The two climates compared.",
+      "have": true,
+      "categories": [
+        "1850–1900 (pre-industrial)",
+        "1996–2025 (last 30 years)"
+      ],
+      "field": "era",
+      "strategy": null
+    }
+  ],
+  "data": [
+    {
+      "concept": "Rural reference station",
+      "request": "GHCN-D daily TMIN of a rural station near Uppsala with a long record",
+      "source": "noaa-ghcn-pds csv/by_station/<ID>.csv",
+      "why": "Separates the urban heat island from the regional warming."
+    }
+  ],
+  "links": [],
+  "method": {
+    "id": "means",
+    "summary": "Mean z of the 1996–2025 seasons, summer against winter, with the uncertainty of each mean."
+  },
+  "steps": [
+    {
+      "kind": "data",
+      "title": "The station's record",
+      "detail": "csv/by_station/SWE00139148.csv from s3://noaa-ghcn-pds, TMIN without quality flags (tmin)."
+    },
+    {
+      "kind": "categorise",
+      "title": "Seasons",
+      "detail": "season and season_year from the month (December with the next winter); seasons with ≥ 80 days (seasons)."
+    },
+    {
+      "kind": "concept",
+      "title": "Baseline and noise",
+      "detail": "Mean and σ of 1850–1900 per season; warming and S/N (emergence)."
+    },
+    {
+      "kind": "method",
+      "title": "Anomalies in σ",
+      "detail": "anomaly_c and z per season-year (anomalies); compare the recent z by season."
+    },
+    {
+      "kind": "decide",
+      "title": "Emerged or not",
+      "detail": "S/N above 2 and most recent seasons above the baseline's warmest: emerged."
+    }
+  ],
+  "caveats": [
+    "Not homogenised: station moves and instrument changes are in the trend.",
+    "Urban heat island: Uppsala's growth warms its nights.",
+    "Gaps in 1868–83, 1922–30 and 1945–58.",
+    "σ from about 50 baseline years is itself uncertain by ~10%."
+  ]
+}

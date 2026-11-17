@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/the-network-in-numbers-mean-median-maximum.polars.py"
+  },
+  "transformation/data-child": ["data/id", "9248d691-c0fe-5b92-8901-01d88c6fdc8c"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "e316c821-9f16-53e5-b3ea-bfcb6dda9a77",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "The network in numbers: mean, median, maximum, concentration",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "4dda24fe-bb3d-597d-99f0-f996c2355244"],
+  "transformation/units": "{}"
+}

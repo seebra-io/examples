@@ -1,0 +1,21 @@
+{
+  "transformation/content": {
+    "$file": "transforms/receptor-atoms-within-5-a-of-a-ligand.polars.py"
+  },
+  "transformation/data-child": ["data/id", "88da9ec7-bb6d-5e24-a080-db27f2069a28"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "cea513aa-6b1e-510c-9bc9-9acc631c6eb6",
+  "transformation/inputs": [
+    ["data/id", "3f88e9b1-66f9-5652-95af-daf2f11884d7"]
+  ],
+  "transformation/language": "polars",
+  "transformation/name": "Receptor atoms within 5 Å of a ligand",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1920,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "82748b79-0218-50bb-9cb2-2d2b05dd2fe8"],
+  "transformation/units": "{}"
+}

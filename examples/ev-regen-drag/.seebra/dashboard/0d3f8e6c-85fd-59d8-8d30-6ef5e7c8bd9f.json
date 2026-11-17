@@ -1,0 +1,40 @@
+{
+  "dashboard/id": "0d3f8e6c-85fd-59d8-8d30-6ef5e7c8bd9f",
+  "datas": [
+    ["data/id", "258b7419-bce6-598b-a5f4-c3248eb57b8c"],
+    ["data/id", "6b3cc1c5-69ee-57d8-af5c-85c30944a793"],
+    ["data/id", "7467e914-5990-5d69-96f6-982849b248e1"],
+    ["data/id", "7937d9cd-49b1-5fc8-ae2f-d7ea23b576be"],
+    ["data/id", "b92f78e7-2434-5d70-9f6f-3a59b19c2fd1"],
+    ["data/id", "d4600594-57b4-53a7-b715-a9f7db2410d2"]
+  ],
+  "datasources": [
+    ["datasource/id", "546a9c11-4b9b-5667-8428-de06b68489ee"]
+  ],
+  "description": "Question: petrol cars are thriftier on the highway than in town. Why is it the other way round for electric cars? Data: every US model-year 2021–2025 car, SUV, van and pickup tested by the EPA (fueleconomy.gov's vehicle data, public domain, served by opendatasoft's public portal; its copy was last updated in June 2024): the unadjusted city (UDDS cycle, 31.5 km/h average with 23 stops) and highway (HWFET, 77.7 km/h, no stops) results, in MPG or, for EVs, MPGe. Idea: the road-load equation. Driving at speed v costs rolling resistance (≈ constant per km), air drag ½ ρ Cd A v² (per km, growing with v²) and, at every stop, the kinetic energy ½ m v², which a friction brake turns into heat and a regenerative brake turns largely back into battery charge. An engine also wastes much more at the low loads of town driving than at a steady highway cruise; an electric motor is efficient almost everywhere. Steps (Polars): each variant's energy per 100 km on both cycles (fuel at 33.705 kWh per gallon of petrol, 37.95 for diesel; electricity from the wall); the highway/city ratio and difference; the medians per powertrain; battery EVs by body type; the EVs with the largest highway penalty; the two cycles' speeds and stops. The aha: petrol variants use a median 34% less energy per km on the highway cycle than in the city (not one of 3,753 uses more), diesels 32% less, hybrids 29% less; battery EVs use 11% more, and 80% of them pay more on the highway. The EV highway penalty is 0.6 kWh per 100 km for cars, 2.1 for SUVs and 2.9 for pickups. And on both cycles an EV needs about a fifth of the energy a petrol car burns (15 against 87 kWh per 100 km in town). Without regeneration the stops dominate the city, so the highway is cheaper; with regeneration the stops are nearly free and what is left is drag, which is six times larger per km at the highway cycle's speed. EVs pay on the highway, and pay most with a big frontal area (pickups, large SUVs). Caveats: unadjusted laboratory cycles (the label values are adjusted down by about 30%); the highway cycle averages only 78 km/h, so real motorway driving at 110–130 km/h costs EVs more still; the opendatasoft copy lags fueleconomy.gov (newest model years missing); variants of the same model are counted separately; a few entry errors (highway/city ratio outside 0.4–2) are dropped; EV energy includes charging losses, fuel energy does not include refining; temperature (cabin heating, battery chemistry), which cuts winter range by 20–40%, is not in this data. Next: fueleconomy.gov's full vehicles.csv for older years (were early hybrids already above 1?), or a cold-weather range dataset to add temperature.",
+  "graphs": [
+    ["graph/id", "3cec8f30-c0c8-5ed4-9d41-63f643a2584f"],
+    ["graph/id", "cf112485-63e9-5cf8-bf87-c33980f02bb1"],
+    ["graph/id", "3dbaa82d-203b-5557-bd7f-732a0498d681"]
+  ],
+  "grids": [],
+  "name": "EVs on the highway: regenerative braking and drag",
+  "ontology": {
+    "$file": ".seebra/dashboard/0d3f8e6c-85fd-59d8-8d30-6ef5e7c8bd9f.ontology.json",
+    "$json": true
+  },
+  "queries": [
+    ["query/id", "95627e7a-b305-5280-b9c6-3810116a3e41"]
+  ],
+  "studies": [],
+  "tables": [],
+  "texts": [],
+  "timers": [],
+  "transformations": [
+    ["transformation/id", "60820c31-7d0a-5611-ae8d-ecc365a2aa8a"],
+    ["transformation/id", "b91f0a15-9b2e-5907-893e-47111770d9ec"],
+    ["transformation/id", "bbcda0c1-353d-5c56-ba66-d284f1396fb5"],
+    ["transformation/id", "5c3da299-c1a5-570b-90d8-45cc8728bce6"],
+    ["transformation/id", "e928a28b-2489-5bf0-8ab7-c95333d828fe"]
+  ]
+}

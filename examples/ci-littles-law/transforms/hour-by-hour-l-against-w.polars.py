@@ -1,0 +1,10 @@
+# hour by hour: each hour's arrivals, their mean duration, and the mean number in flight in that hour
+data.with_columns(hour = (col("arrive_min") // 60).cast(Int64))
+    .filter(col("hour") < 24)
+    .group_by("hour").agg(arrivals = len(), W_min = col("duration_min").mean())
+    .join(data1.filter(col("hour") < 24).group_by("hour").agg(L = col("in_flight").mean(), L_max = col("in_flight").max()), on="hour", how="right")
+    .with_columns(arrivals = col("arrivals").fill_null(0), W_min = col("W_min").fill_null(0))
+    .with_columns(lambda_W = col("arrivals").cast(Float64) / 60 * col("W_min"))
+    .with_columns(ratio = when(col("lambda_W") > 0).then(col("L") / col("lambda_W")).otherwise(lit(None)))
+    .select("hour", "arrivals", "L_max", W_min = col("W_min").round(1), L = col("L").round(2), lambda_W = col("lambda_W").round(2), ratio = col("ratio").round(2))
+    .sort("hour")

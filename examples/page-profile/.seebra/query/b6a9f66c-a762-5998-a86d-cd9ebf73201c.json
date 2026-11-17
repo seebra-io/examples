@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "ef5542e6-4f2c-59fa-ba45-375fd0199e08"],
+  "query/datasource": ["datasource/id", "2ae23d5b-3111-568a-9d05-a9680f738c4b"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "b6a9f66c-a762-5998-a86d-cd9ebf73201c",
+  "query/key": "__seebraPerf",
+  "query/method": "GET",
+  "query/name": "window.__seebraPerf: this session's profile",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 80
+  },
+  "query/params": "{}",
+  "query/path": "/",
+  "query/request-body": "",
+  "query/units": "{}"
+}

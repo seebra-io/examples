@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/age-at-the-award-per-decade-mean-95-interval.polars.py"
+  },
+  "transformation/data-child": ["data/id", "3d8b61fd-f54f-5048-9962-ef925bee9d31"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "2216a1a9-45e2-576b-a780-930ef4a89370",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Age at the award per decade (mean, 95% interval, spread)",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 560
+  },
+  "transformation/parent": ["data/id", "9b540a8b-d766-5714-82e6-f73cefdd2ad6"],
+  "transformation/units": "{}"
+}

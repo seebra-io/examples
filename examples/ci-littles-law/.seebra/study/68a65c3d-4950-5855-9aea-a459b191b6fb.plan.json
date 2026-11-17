@@ -1,0 +1,144 @@
+{
+  "title": "Little's law, hour by hour",
+  "question": "Over the hours of one day, does the mean number of NumPy workflow runs in flight equal the hour's arrival rate times its runs' mean time in the system?",
+  "review": {
+    "well_formed": true,
+    "issues": [
+      {
+        "kind": "grain",
+        "text": "An hour is not much longer than a typical run, so runs carry load across hour boundaries.",
+        "fix": "The plan compares hour by hour and over the whole day, where the law is exact."
+      },
+      {
+        "kind": "unmeasured",
+        "text": "A run's end is not in the data: updated_at is its last update, which a late status change can move hours later.",
+        "fix": "Runs updated more than 6 h after starting, and re-runs, are left out (the suspect flag)."
+      }
+    ],
+    "alternatives": [
+      {
+        "question": "Does the whole-day L equal λW exactly?",
+        "why": "The law's exact form: the system is (almost) empty at the window's ends.",
+        "ready": true
+      },
+      {
+        "question": "How long do jobs wait for a runner (queue time, from the jobs API)?",
+        "why": "Expand: waiting is what L = λW predicts grows as runners fill up.",
+        "ready": false
+      }
+    ]
+  },
+  "hypotheses": [
+    {
+      "id": "H1",
+      "statement": "Across hours, L measured rises one for one with λW (slope 1, intercept 0).",
+      "null": "L is unrelated to λW across hours.",
+      "outcome": {
+        "concept": "Runs in flight",
+        "field": "L"
+      },
+      "predictor": {
+        "concept": "Arrival rate × time in system",
+        "field": "lambda_W"
+      },
+      "subgroup": null,
+      "direction": "equal",
+      "test": {
+        "method": "regression",
+        "link": null,
+        "outcome_mode": "mean",
+        "outcome_field": "L",
+        "predictor_field": "lambda_W",
+        "exposure_field": null,
+        "versus": null,
+        "against": 1
+      }
+    }
+  ],
+  "concepts": [
+    {
+      "label": "Runs in flight",
+      "kind": "measure",
+      "description": "L: runs started and not yet finished, averaged over time.",
+      "why": "The law's left side.",
+      "have": true,
+      "categories": [],
+      "field": "in_flight",
+      "strategy": null
+    },
+    {
+      "label": "Arrival rate",
+      "kind": "measure",
+      "description": "λ: runs starting per unit time.",
+      "why": "Part of the right side.",
+      "have": true,
+      "categories": [],
+      "field": "arrivals",
+      "strategy": null
+    },
+    {
+      "label": "Time in system",
+      "kind": "measure",
+      "description": "W: start to last update, per run.",
+      "why": "Part of the right side.",
+      "have": true,
+      "categories": [],
+      "field": "duration_min",
+      "strategy": null
+    },
+    {
+      "label": "Runner queue time",
+      "kind": "measure",
+      "description": "Time a job waits for a free runner.",
+      "why": "What grows when L nears the runner capacity.",
+      "have": false,
+      "categories": [],
+      "field": null,
+      "strategy": {
+        "how": "fetch",
+        "detail": "GitHub jobs API (/actions/runs/{id}/jobs): created_at against started_at per job."
+      }
+    }
+  ],
+  "data": [
+    {
+      "concept": "Runner queue time",
+      "request": "For each run, its jobs' created_at, started_at and completed_at",
+      "source": "GitHub REST API /repos/numpy/numpy/actions/runs/{run_id}/jobs",
+      "why": "Real end times and the waiting part of W."
+    }
+  ],
+  "links": [],
+  "method": {
+    "id": "regression",
+    "summary": "One row per hour (hourly step); slope and intercept of L on λW, with the whole-day identity (law step) as the exact check."
+  },
+  "steps": [
+    {
+      "kind": "data",
+      "title": "Fetch the day's runs",
+      "detail": "Five pages of /actions/runs, created=2026-11-10."
+    },
+    {
+      "kind": "method",
+      "title": "Intervals and L(t)",
+      "detail": "clean, counted, inflight: arrive_min, depart_min, in_flight per minute."
+    },
+    {
+      "kind": "method",
+      "title": "Per hour and per day",
+      "detail": "hourly: L and lambda_W; law: L_all against lambda_W."
+    },
+    {
+      "kind": "decide",
+      "title": "Judge the law",
+      "detail": "Exact over the day; how far per hour, and why."
+    }
+  ],
+  "caveats": [
+    "updated_at is the run's last update, not the end of its last job.",
+    "Runs from the evening before, still running after midnight, are not in the day's list, so the first hours' L is low.",
+    "A run is not a runner: one run holds several jobs at once; for runner capacity use jobs.",
+    "One repository, one day."
+  ]
+}

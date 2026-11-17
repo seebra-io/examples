@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/every-dinosaur-genus-from-its-oldest-to-its.js"
+  },
+  "graph/id": "7a6c57c5-8877-5f00-933d-b0e28a751d6e",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Every dinosaur genus, from its oldest to its youngest find (hover a line)",
+  "graph/node": {
+    "node/x": 1460,
+    "node/y": 560
+  },
+  "graph/parent": ["data/id", "ff3e16ab-1ff7-5912-a980-bd0a37f37763"]
+}

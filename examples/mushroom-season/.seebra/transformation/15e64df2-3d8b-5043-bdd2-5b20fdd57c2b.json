@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/the-season-per-species-readable.polars.py"
+  },
+  "transformation/data-child": ["data/id", "0ab5d00a-cb50-5ad1-9f40-c64a4525e3d9"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "15e64df2-3d8b-5043-bdd2-5b20fdd57c2b",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "The season per species, readable",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 2840,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "43b661f6-3b54-5fee-8bf5-701d9a4a9d57"],
+  "transformation/units": "{}"
+}

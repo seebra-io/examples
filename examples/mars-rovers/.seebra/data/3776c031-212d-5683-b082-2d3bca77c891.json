@@ -1,0 +1,10 @@
+{
+  "data/id": "3776c031-212d-5683-b082-2d3bca77c891",
+  "data/name": "Perseverance photos (the newest 24, image links for the grid) data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "6660e55c-ff83-5a09-925c-3642678db414"],
+  "data/type": "json"
+}

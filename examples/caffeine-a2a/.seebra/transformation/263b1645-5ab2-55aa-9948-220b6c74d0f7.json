@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/contacts-per-residue.polars.py"
+  },
+  "transformation/data-child": ["data/id", "a8353bbf-7007-5c93-89e4-cd3a5f7193a0"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "263b1645-5ab2-55aa-9948-220b6c74d0f7",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Contacts per residue",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 2380,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "88da9ec7-bb6d-5e24-a080-db27f2069a28"],
+  "transformation/units": "{}"
+}

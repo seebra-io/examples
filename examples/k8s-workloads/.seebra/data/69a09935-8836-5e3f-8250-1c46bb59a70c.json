@@ -1,0 +1,11 @@
+{
+  "data/id": "69a09935-8836-5e3f-8250-1c46bb59a70c",
+  "data/name": "Last terminations",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 560
+  },
+  "data/parent": ["transformation/id", "def0473b-c89c-5a05-8c33-961ac8d5725c"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

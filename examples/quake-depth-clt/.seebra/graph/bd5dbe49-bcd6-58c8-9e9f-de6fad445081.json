@@ -1,0 +1,16 @@
+{
+  "graph/content": {
+    "$file": "graphs/central-limit-theorem-sample-means-approach-the.js"
+  },
+  "graph/id": "bd5dbe49-bcd6-58c8-9e9f-de6fad445081",
+  "graph/inputs": [
+    ["data/id", "e8c83fb7-9bd9-5206-8094-b07ada9ca9e2"]
+  ],
+  "graph/language": "javascript",
+  "graph/name": "Central limit theorem: sample means approach the normal curve",
+  "graph/node": {
+    "node/x": 2380,
+    "node/y": 320
+  },
+  "graph/parent": ["data/id", "e1f53843-3caa-5700-8030-52219e521cf7"]
+}

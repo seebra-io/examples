@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/parts-cameras-instruments-power-comms.polars.py"
+  },
+  "transformation/data-child": ["data/id", "5533be3a-66fa-5b62-9447-90ae124c7772"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "aeeabcb8-c1aa-563e-8068-7974131b5ba3",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Parts: cameras, instruments, power, comms",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "3103bb3c-48c3-5a9e-a99d-e1455a73b86a"],
+  "transformation/units": "{}"
+}

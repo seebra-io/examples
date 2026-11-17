@@ -1,0 +1,8 @@
+{
+  "file": {
+    "file/example": "star-wars-square-cube"
+  },
+  "format": 2,
+  "root": ["dashboard/id", "062b5f8d-45bb-578c-b63b-cf8f641cd0a1"],
+  "seebra": "board"
+}

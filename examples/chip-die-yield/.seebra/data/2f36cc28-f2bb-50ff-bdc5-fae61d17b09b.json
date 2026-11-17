@@ -1,0 +1,11 @@
+{
+  "data/id": "2f36cc28-f2bb-50ff-bdc5-fae61d17b09b",
+  "data/name": "Smallest against largest logic die",
+  "data/node": {
+    "node/x": 2070,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "9a3b486d-30f2-53a4-968e-2cc2e7826b10"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/request-against-usage-per-container-log-log.js"
+  },
+  "graph/id": "5b0e0e73-12a7-5b17-b712-735b83ed7059",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Request against usage, per container (log-log)",
+  "graph/node": {
+    "node/x": 2380,
+    "node/y": 320
+  },
+  "graph/parent": ["data/id", "f1df191d-ba30-5766-a592-63367321bf74"]
+}

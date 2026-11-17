@@ -1,0 +1,202 @@
+{
+  "title": "End of Dennard scaling",
+  "question": "Is the growth rate of clock frequency (doublings per year, per processor) lower from the break year on than before it, while the growth rate of transistor count is not?",
+  "review": {
+    "well_formed": true,
+    "issues": [
+      {
+        "kind": "causal",
+        "text": "The data shows when the clock stopped speeding up, not why.",
+        "fix": "The Dennard step states the mechanism (P ≈ N·C·V²·f with V no longer scaling); supply voltage per processor would test it and is not in this data."
+      },
+      {
+        "kind": "grain",
+        "text": "The break year is chosen from the same clock data that is then tested, which inflates the evidence.",
+        "fix": "The breaks step shows the whole SSE curve; the caveats say a sup-F (Andrews) test is the fair one."
+      },
+      {
+        "kind": "scope",
+        "text": "About 100 processors, chosen by the original authors (mostly Intel/AMD desktop and server parts).",
+        "fix": "Read it as the frontier of commodity CPUs, not all chips (GPUs and phones are missing)."
+      }
+    ],
+    "alternatives": [
+      {
+        "question": "Did single-thread performance slow at the same break as the clock?",
+        "why": "Drill down: the reason performance growth slowed.",
+        "ready": true
+      },
+      {
+        "question": "Did cores per processor start growing at the break?",
+        "why": "Drill down: where the extra transistors went.",
+        "ready": true
+      },
+      {
+        "question": "Did supply voltage stop falling at the same time?",
+        "why": "Expand: the mechanism (Dennard), which needs voltage per processor (e.g. data sheets, Wikipedia's lists of Intel and AMD processors).",
+        "ready": false
+      }
+    ]
+  },
+  "hypotheses": [
+    {
+      "id": "H1",
+      "statement": "Clock frequency grows more slowly (fewer doublings per year) from the break year on than before it.",
+      "null": "The clock grows at the same rate in both eras (one straight line on the log scale).",
+      "outcome": {
+        "concept": "Clock frequency",
+        "field": "log2_value"
+      },
+      "predictor": {
+        "concept": "Year of introduction",
+        "field": "year"
+      },
+      "subgroup": {
+        "concept": "Measure",
+        "category": "frequency"
+      },
+      "direction": "decrease",
+      "test": {
+        "method": "regression",
+        "link": null,
+        "outcome_mode": "mean",
+        "outcome_field": "log2_value",
+        "predictor_field": "year",
+        "exposure_field": null,
+        "versus": null
+      }
+    },
+    {
+      "id": "H2",
+      "statement": "Transistor count keeps doubling about every two years after the break.",
+      "null": "Transistor growth slows at the break as much as the clock does.",
+      "outcome": {
+        "concept": "Transistor count",
+        "field": "log2_value"
+      },
+      "predictor": {
+        "concept": "Year of introduction",
+        "field": "year"
+      },
+      "subgroup": {
+        "concept": "Measure",
+        "category": "transistors"
+      },
+      "direction": "increase",
+      "test": {
+        "method": "regression",
+        "link": null,
+        "outcome_mode": "mean",
+        "outcome_field": "log2_value",
+        "predictor_field": "year",
+        "exposure_field": null,
+        "versus": null
+      }
+    }
+  ],
+  "concepts": [
+    {
+      "label": "Clock frequency",
+      "kind": "measure",
+      "description": "Clock in MHz per processor, as log2.",
+      "why": "The outcome of H1.",
+      "have": true,
+      "categories": [],
+      "field": "log2_value",
+      "strategy": null
+    },
+    {
+      "label": "Transistor count",
+      "kind": "measure",
+      "description": "Transistors (thousands) per processor, as log2.",
+      "why": "The outcome of H2.",
+      "have": true,
+      "categories": [],
+      "field": "log2_value",
+      "strategy": null
+    },
+    {
+      "label": "Year of introduction",
+      "kind": "time",
+      "description": "Fractional year a processor came out.",
+      "why": "The predictor.",
+      "have": true,
+      "categories": [],
+      "field": "year",
+      "strategy": null
+    },
+    {
+      "label": "Era",
+      "kind": "category",
+      "description": "Before the break year, or from it on (the break the clock data chose).",
+      "why": "Splits the regression.",
+      "have": true,
+      "categories": [
+        "before",
+        "on"
+      ],
+      "field": "era",
+      "strategy": null
+    },
+    {
+      "label": "Supply voltage",
+      "kind": "measure",
+      "description": "Core voltage per processor.",
+      "why": "The mechanism: Dennard scaling ended when V stopped falling.",
+      "have": false,
+      "categories": [],
+      "field": null,
+      "strategy": {
+        "how": "fetch",
+        "detail": "Processor data sheets or Wikipedia's processor lists (core voltage), matched on processor name and year."
+      }
+    }
+  ],
+  "data": [
+    {
+      "concept": "Supply voltage",
+      "request": "Core supply voltage per desktop/server processor, 1990–2022",
+      "source": "Wikipedia lists of Intel and AMD microprocessors; vendor data sheets",
+      "why": "To show V stopped scaling at the same break."
+    }
+  ],
+  "links": [],
+  "method": {
+    "id": "regression",
+    "summary": "Fit log2(value) = a + b·year in each era and compare the slopes b (doublings per year) with their 95% intervals; a Chow F-test compares two lines with one."
+  },
+  "steps": [
+    {
+      "kind": "data",
+      "title": "Parse the five trend files",
+      "detail": "p_* steps: year and value per processor; points adds log2_value."
+    },
+    {
+      "kind": "categorise",
+      "title": "Find the break",
+      "detail": "breaks: two-line SSE for every year 1995–2014; best = the minimum."
+    },
+    {
+      "kind": "method",
+      "title": "Fit each era",
+      "detail": "eras: slope, 95% interval, doubling time per measure and era."
+    },
+    {
+      "kind": "method",
+      "title": "Chow test",
+      "detail": "chow: F and p for one line against two, per measure."
+    },
+    {
+      "kind": "decide",
+      "title": "Compare the slopes",
+      "detail": "Clock and power slowdown near 0 against transistors near 1."
+    }
+  ],
+  "caveats": [
+    "The break year is fitted on the clock data, so the Chow p for frequency is optimistic; for transistors it is a fair test of that year.",
+    "Pre-2010 points were digitised from a published plot; values carry a few percent of reading error.",
+    "Processors are a curated sample of high-end CPUs, mostly Intel and AMD; mobile chips and GPUs follow other curves.",
+    "Power is typical TDP, a cooling budget rather than measured power.",
+    "Correlation in time: trends with year are not causes; the mechanism (voltage scaling) is not in the data."
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "436b433b-99e0-54fd-b51b-4ebe28abb62f"],
+  "query/datasource": ["datasource/id", "5da40676-9346-53a2-b0b7-a14f35d5cd65"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "e2e12f92-ad2d-5a6c-b5e2-6bf947adebb3",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Sites: coordinates and descriptions",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 320
+  },
+  "query/params": "{\"action\":\"query\",\"prop\":\"coordinates|description|info\",\"inprop\":\"url\",\"format\":\"json\",\"formatversion\":\"2\",\"redirects\":\"1\",\"titles\":\"Natanz Nuclear Facility|Fordow Uranium Enrichment Plant|Bushehr Nuclear Power Plant|IR-40|Parchin|Darkhovin Nuclear Power Plant|Strait of Hormuz|Kharg Island|Bandar Abbas\"}",
+  "query/path": "/api.php",
+  "query/request-body": "",
+  "query/units": "{}"
+}

@@ -1,0 +1,21 @@
+{
+  "transformation/content": {
+    "$file": "transforms/prevailing-forecast-per-airport-and-hour.polars.py"
+  },
+  "transformation/data-child": ["data/id", "c0d817df-a7aa-50ca-876a-8616a1efb364"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "13f6c816-3a02-5dc3-9f7d-6460d83facae",
+  "transformation/inputs": [
+    ["data/id", "51ffa07a-7327-5651-8012-9d4c84ba6aa0"]
+  ],
+  "transformation/language": "polars",
+  "transformation/name": "Prevailing forecast per airport and hour",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "9316d7ac-2e42-5fc7-8d88-a0f7be3068f0"],
+  "transformation/units": "{}"
+}

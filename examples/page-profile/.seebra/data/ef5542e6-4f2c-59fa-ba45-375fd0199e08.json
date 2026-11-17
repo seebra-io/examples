@@ -1,0 +1,10 @@
+{
+  "data/id": "ef5542e6-4f2c-59fa-ba45-375fd0199e08",
+  "data/name": "window.__seebraPerf: this session's profile data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 80
+  },
+  "data/parent": ["query/id", "b6a9f66c-a762-5998-a86d-cd9ebf73201c"],
+  "data/type": "json"
+}

@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "72a75de8-62c1-5ac6-9673-813941cb5720"],
+  "query/datasource": ["datasource/id", "c281a928-388c-51c0-b016-37aa315f21d9"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "04f4017d-8981-5ba3-acfb-9f2da225b127",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Substances with bulk (P5668) and shear (P5673) modulus and density, SI-normalized",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 320
+  },
+  "query/params": "{\"query\":\"SELECT ?x ?xLabel ?xDescription ?symbol ?K ?G ?rho WHERE { ?x p:P5668/psn:P5668/wikibase:quantityAmount ?K . ?x p:P5673/psn:P5673/wikibase:quantityAmount ?G . ?x p:P2054/psn:P2054/wikibase:quantityAmount ?rho . OPTIONAL { ?x wdt:P246 ?symbol } SERVICE wikibase:label { bd:serviceParam wikibase:language \\\"en\\\". } }\",\"format\":\"json\"}",
+  "query/path": "/sparql",
+  "query/request-body": "",
+  "query/units": "{}"
+}

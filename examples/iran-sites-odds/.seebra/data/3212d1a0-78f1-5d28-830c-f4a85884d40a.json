@@ -1,0 +1,10 @@
+{
+  "data/id": "3212d1a0-78f1-5d28-830c-f4a85884d40a",
+  "data/name": "Aircraft now, by circle data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 800
+  },
+  "data/parent": ["transformation/id", "89b7c0c2-9e0b-57fa-9507-ec3c5d20633c"],
+  "data/type": "json"
+}

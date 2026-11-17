@@ -1,0 +1,16 @@
+{
+  "graph/content": {
+    "$file": "graphs/genes-against-genome-size-slope-1-in-prokaryotes.js"
+  },
+  "graph/id": "c4c8a499-48f3-5024-8225-40c12be8951d",
+  "graph/inputs": [
+    ["data/id", "df9ed219-f6a1-539f-b9ea-aa7d38b65903"]
+  ],
+  "graph/language": "javascript",
+  "graph/name": "Genes against genome size: slope 1 in prokaryotes, near 0 in eukaryotes",
+  "graph/node": {
+    "node/x": 2380,
+    "node/y": 560
+  },
+  "graph/parent": ["data/id", "e798d48f-1ad8-581b-916f-3bf771ad434f"]
+}

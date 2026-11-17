@@ -1,0 +1,22 @@
+{
+  "transformation/content": {
+    "$file": "transforms/each-compound-against-both-rules.polars.py"
+  },
+  "transformation/data-child": ["data/id", "653d1f80-2665-526f-b04e-3c8858293ca3"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "584b8786-a76d-5c19-b956-830e2bcb7454",
+  "transformation/inputs": [
+    ["data/id", "dbb4c896-fd0e-54f6-9e5a-b263bd5599d7"],
+    ["data/id", "f010f38d-090a-5db0-952b-b5bb3a2db40f"]
+  ],
+  "transformation/language": "polars",
+  "transformation/name": "Each compound against both rules",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 560
+  },
+  "transformation/parent": ["data/id", "001e55ba-23a3-5387-b36f-666e916a72d5"],
+  "transformation/units": "{}"
+}

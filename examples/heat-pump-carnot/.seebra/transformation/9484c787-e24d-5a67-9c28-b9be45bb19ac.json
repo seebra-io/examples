@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/days-cheshire-underfloor-radiators.polars.py"
+  },
+  "transformation/data-child": ["data/id", "805b87ff-8541-5bb0-9364-56336342d2f3"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "9484c787-e24d-5a67-9c28-b9be45bb19ac",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Days: Cheshire (underfloor + radiators)",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "bd4b312d-e435-5e63-a944-1e08fc510644"],
+  "transformation/units": "{}"
+}

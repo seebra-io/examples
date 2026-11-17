@@ -1,0 +1,6 @@
+data.filter(col("occurrences") > 1)
+    .with_columns(hours = (col("minute") - col("first_minute")) / 60)
+    .filter(col("hours") > 0)
+    .with_columns(per_hour = (col("occurrences") - 1) / col("hours"))
+    .select("namespace", "kind", "object", "reason", "occurrences", "first", "last", "hours", "per_hour", "message")
+    .sort("per_hour", descending=True)

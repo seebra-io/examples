@@ -1,0 +1,48 @@
+{
+  "dashboard/id": "6ba05ed8-b913-5e4e-9404-49ccf257b285",
+  "datas": [
+    ["data/id", "66960e22-3bdd-583c-9e28-add38a6ae356"],
+    ["data/id", "acb39804-b927-5dfd-aa9e-854726b3c64d"],
+    ["data/id", "1aa238fc-5e8e-58a1-84fe-b78f2a69232f"],
+    ["data/id", "bdefcb2f-d3dc-51c5-990b-59bbcef889ed"],
+    ["data/id", "3e2d1687-7fb6-5258-8126-ecca48bd9577"],
+    ["data/id", "7f736753-ddd7-5007-86d2-662043bd674c"],
+    ["data/id", "4c7d8921-0b10-5171-a197-606c5455cc48"],
+    ["data/id", "bf77bf61-ffb3-5873-85c0-d1c25a2a17a0"],
+    ["data/id", "9f75d133-8ef5-5916-a651-d39ca8f8c2f3"],
+    ["data/id", "8e5cf7dd-ad91-56d2-903e-bca7b603d50a"],
+    ["data/id", "4d4b5898-2ebb-5ab9-a219-239ee0dcecbf"]
+  ],
+  "datasources": [
+    ["datasource/id", "7bdda083-1c18-5c90-a324-e896aef12006"],
+    ["datasource/id", "be2ff423-d64f-5002-a376-d495798814a9"],
+    ["datasource/id", "dbfdd7a1-ae92-5b5d-a2ba-c0132b4905b3"],
+    ["datasource/id", "68a537a8-d636-57e3-963a-45fca9bc2047"]
+  ],
+  "description": "Every distance from the Sun to Jupiter to scale, each planet where JPL's orbital elements put it today with NASA's textures, and 3,000 numbered asteroids plus the Jupiter trojans where their own orbits put them: the main belt, its Kirkwood gaps, the Hildas and the trojans 60° ahead of and behind Jupiter. Run time forward; switch to true sizes to see how empty it is. Next: NASA in 3D, Mars in 3D.",
+  "graphs": [
+    ["graph/id", "786be549-10c1-58a1-9160-e76977daa3d6"],
+    ["graph/id", "496a7650-e36c-53b6-a16f-2412aeeac3ab"]
+  ],
+  "grids": [],
+  "name": "The solar system to scale: the Sun to Jupiter",
+  "queries": [
+    ["query/id", "a05fe6a9-471f-570f-b6fc-ff917ddc3f4b"],
+    ["query/id", "4fb91dd5-1eed-5899-9d5e-11a3a0a1b336"],
+    ["query/id", "98153760-cef4-5c8c-a908-7c5164b62513"],
+    ["query/id", "93643ad4-38ab-5b40-8ae3-6b30a4f13ab6"],
+    ["query/id", "207465a6-dbdb-5895-b696-47f598357436"],
+    ["query/id", "6d8ef275-bccd-5ac4-a5fb-22af95aa5eef"],
+    ["query/id", "1e0be92e-7fbc-55ba-9822-89f65b555a5b"],
+    ["query/id", "e7c0a060-27ec-5cec-9912-7e24609eb52b"],
+    ["query/id", "3a35d45c-839b-5f66-88cc-5a52fff91e19"]
+  ],
+  "studies": [],
+  "tables": [],
+  "texts": [],
+  "timers": [],
+  "transformations": [
+    ["transformation/id", "be20a676-1ad1-5c52-a63e-7bb244892f62"],
+    ["transformation/id", "eb188283-f6c6-5fa0-96a6-90726ed3e91e"]
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "data/id": "122e9d40-dc49-508a-bfe2-a1064751061d",
+  "data/name": "NumPy workflow runs, 10 Nov 2026, page 1 data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 80
+  },
+  "data/parent": ["query/id", "d0bc59b7-3d7d-5808-afeb-e0aafb7500b2"],
+  "data/type": "json"
+}

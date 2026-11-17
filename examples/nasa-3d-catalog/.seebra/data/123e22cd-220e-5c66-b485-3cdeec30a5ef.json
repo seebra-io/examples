@@ -1,0 +1,10 @@
+{
+  "data/id": "123e22cd-220e-5c66-b485-3cdeec30a5ef",
+  "data/name": "Hubble Space Telescope (A), NASA's 3D model data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 1280
+  },
+  "data/parent": ["query/id", "6e6a2052-8d40-5bf8-8c5c-831b79df82c3"],
+  "data/type": "json"
+}

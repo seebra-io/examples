@@ -1,0 +1,1 @@
+String(data).split('\n').filter(l => l.startsWith('ATOM') || l.startsWith('HETATM')).map(l => ({record: l.slice(0, 6).trim(), atom: l.slice(12, 16).trim(), resName: l.slice(17, 20).trim(), chain: l.slice(21, 22).trim(), resSeq: +l.slice(22, 26), x: +l.slice(30, 38), y: +l.slice(38, 46), z: +l.slice(46, 54), element: l.slice(76, 78).trim()}))

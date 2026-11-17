@@ -1,0 +1,16 @@
+{
+  "graph/content": {
+    "$file": "graphs/zoom-on-1-per-day-the-sidebands.js"
+  },
+  "graph/id": "e91f2ac2-d14d-5dd1-b2d9-8574001a036c",
+  "graph/inputs": [
+    ["data/id", "1c446e43-ed1c-525d-97ac-dbe9f4a2429c"]
+  ],
+  "graph/language": "javascript",
+  "graph/name": "Zoom on 1 per day: the sidebands",
+  "graph/node": {
+    "node/x": 2380,
+    "node/y": 1040
+  },
+  "graph/parent": ["data/id", "c1077a10-ff4c-5482-b111-355ec6761b4b"]
+}

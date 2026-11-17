@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/fifty-years-of-trying.js"
+  },
+  "graph/id": "19ab76f6-7076-5edd-bbca-4200348263f2",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Fifty years of trying",
+  "graph/node": {
+    "node/x": 1460,
+    "node/y": 560
+  },
+  "graph/parent": ["data/id", "606ff8dc-40e6-5216-81d2-c046257dc304"]
+}

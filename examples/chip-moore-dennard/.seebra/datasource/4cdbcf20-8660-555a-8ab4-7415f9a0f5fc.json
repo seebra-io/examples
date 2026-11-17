@@ -1,0 +1,16 @@
+{
+  "datasource/api-key-key": "api_key",
+  "datasource/auth-type": "none",
+  "datasource/headers": "{}",
+  "datasource/id": "4cdbcf20-8660-555a-8ab4-7415f9a0f5fc",
+  "datasource/name": "Karl Rupp's microprocessor trend data (GitHub)",
+  "datasource/node": {
+    "inputs": 1,
+    "node/x": 80,
+    "node/y": 80,
+    "outputs": 1
+  },
+  "datasource/params": "{}",
+  "datasource/type": "openapi",
+  "datasource/url": "https://raw.githubusercontent.com/karlrupp/microprocessor-trend-data/master"
+}

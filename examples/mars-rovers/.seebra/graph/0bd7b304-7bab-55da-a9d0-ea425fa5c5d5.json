@@ -1,0 +1,16 @@
+{
+  "graph/content": {
+    "$file": "graphs/images-per-sol-the-same-100-images-different.js"
+  },
+  "graph/id": "0bd7b304-7bab-55da-a9d0-ea425fa5c5d5",
+  "graph/inputs": [
+    ["data/id", "1e4a3fc0-ba19-5a1b-b481-4d86e9b73725"]
+  ],
+  "graph/language": "javascript",
+  "graph/name": "Images per sol: the same 100 images, different exposures",
+  "graph/node": {
+    "node/x": 1920,
+    "node/y": 80
+  },
+  "graph/parent": ["data/id", "2b3ce49d-5876-5c12-96f0-654a704c6780"]
+}

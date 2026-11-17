@@ -1,0 +1,11 @@
+{
+  "data/id": "7467e914-5990-5d69-96f6-982849b248e1",
+  "data/name": "Per powertrain",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "b91f0a15-9b2e-5907-893e-47111770d9ec"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

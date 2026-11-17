@@ -1,0 +1,21 @@
+{
+  "transformation/content": {
+    "$file": "transforms/curves-from-0-to-40-ft.polars.py"
+  },
+  "transformation/data-child": ["data/id", "aea86b35-7f58-504a-951e-80fd27f859b8"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "d70a2e17-a6c8-5498-8421-1397230e8e05",
+  "transformation/inputs": [
+    ["data/id", "53b3944f-088d-5541-af4c-12295f8c0c00"]
+  ],
+  "transformation/language": "polars",
+  "transformation/name": "Curves from 0 to 40 ft",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 2380,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "3ee9bafd-58b1-5d6d-9be9-b1c27f8bb386"],
+  "transformation/units": "{}"
+}

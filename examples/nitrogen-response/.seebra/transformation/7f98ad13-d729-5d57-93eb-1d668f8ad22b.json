@@ -1,0 +1,24 @@
+{
+  "transformation/content": {
+    "$file": "transforms/countries-fertiliser-yield-arable-land.polars.py"
+  },
+  "transformation/data-child": ["data/id", "a1ae715b-5ca8-5128-9495-e885c82a51a3"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "7f98ad13-d729-5d57-93eb-1d668f8ad22b",
+  "transformation/inputs": [
+    ["data/id", "81c49bbd-ee8f-5a06-83e6-625dcef2e842"],
+    ["data/id", "1b6cc565-10a9-570c-aeac-361f88115c6c"],
+    ["data/id", "ee6c33c1-17da-5f84-9bfc-82e3e0229a60"],
+    ["data/id", "81938dd7-e081-5c04-8601-355a2bd72352"]
+  ],
+  "transformation/language": "polars",
+  "transformation/name": "Countries: fertiliser, yield, arable land, irrigation",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "8ecd34b3-db48-528e-8527-597418c8662f"],
+  "transformation/units": "{}"
+}

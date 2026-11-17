@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/sources-side-by-side-per-quarter-hour.polars.py"
+  },
+  "transformation/data-child": ["data/id", "bb71498f-516a-5ce2-a95e-402897f8aaa5"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "77c14bb6-5998-501e-a296-ea3ce878ee12",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Sources side by side, per quarter hour",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "cc0e11cf-5809-5f4c-ba08-a8db36c85a1d"],
+  "transformation/units": "{}"
+}

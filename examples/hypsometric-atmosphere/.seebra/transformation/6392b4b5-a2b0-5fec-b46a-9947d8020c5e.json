@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/how-well-the-hypsometric-equation-matches-the.polars.py"
+  },
+  "transformation/data-child": ["data/id", "54f0eb1a-d332-5dd8-90c5-85f1ab67919e"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "6392b4b5-a2b0-5fec-b46a-9947d8020c5e",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "How well the hypsometric equation matches the model",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 2380,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "4f13634b-86d6-5051-ba6e-7f6c2fee5c01"],
+  "transformation/units": "{}"
+}

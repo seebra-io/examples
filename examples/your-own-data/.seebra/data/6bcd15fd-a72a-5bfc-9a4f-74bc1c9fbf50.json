@@ -1,0 +1,11 @@
+{
+  "data/id": "6bcd15fd-a72a-5bfc-9a4f-74bc1c9fbf50",
+  "data/name": "Netflix: binges",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "4203077e-f011-522d-b1d6-77b632a1b327"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

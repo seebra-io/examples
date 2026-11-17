@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "1dcb21c8-6095-5cf4-8931-86ff90bdbf88"],
+  "query/datasource": ["datasource/id", "a32ef27f-9c3e-51e9-a973-4aa7b31099cb"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "6e2ed921-c8dd-51e0-ac92-88722d7c6b90",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Latest drug recalls",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 80
+  },
+  "query/params": "{\"limit\":\"100\",\"sort\":\"report_date:desc\"}",
+  "query/path": "/drug/enforcement.json",
+  "query/request-body": "",
+  "query/units": "{}"
+}

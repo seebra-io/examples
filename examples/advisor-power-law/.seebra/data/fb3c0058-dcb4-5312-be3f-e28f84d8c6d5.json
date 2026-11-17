@@ -1,0 +1,10 @@
+{
+  "data/id": "fb3c0058-dcb4-5312-be3f-e28f84d8c6d5",
+  "data/name": "The tail: the x_min with the smallest KS distance data",
+  "data/node": {
+    "node/x": 2070,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "bd6631e6-4573-5ac1-bd2f-0b87f66f6055"],
+  "data/type": "json"
+}

@@ -1,0 +1,10 @@
+{
+  "data/id": "4c7d8921-0b10-5171-a197-606c5455cc48",
+  "data/name": "Earth's texture (NASA 3D Resources) data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 1520
+  },
+  "data/parent": ["query/id", "1e0be92e-7fbc-55ba-9822-89f65b555a5b"],
+  "data/type": "json"
+}

@@ -1,0 +1,11 @@
+{
+  "data/id": "4a323969-b38f-5c16-b60b-15b728fcb13e",
+  "data/name": "Every model (url: the file to download)",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "d3da8ac2-848c-52a7-a1b2-1257832a797b"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

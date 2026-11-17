@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "41aed811-0731-5faa-91bf-c7a8e7860dd0"],
+  "query/datasource": ["datasource/id", "aa073e70-6513-5518-8bd8-eaa7e51d2cc8"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "9d02ce80-cc3c-5266-8fab-29033f68b119",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "M4.5+ past week",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 80
+  },
+  "query/params": "{}",
+  "query/path": "/summary/4.5_week.geojson",
+  "query/request-body": "",
+  "query/units": "{}"
+}

@@ -1,0 +1,8 @@
+{
+  "file": {
+    "file/example": "c-value-paradox"
+  },
+  "format": 2,
+  "root": ["dashboard/id", "0a1c2e21-79fa-56d0-b922-5acfe1910856"],
+  "seebra": "board"
+}

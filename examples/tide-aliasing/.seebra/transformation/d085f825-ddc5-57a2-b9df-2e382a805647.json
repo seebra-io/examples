@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/sampling-schemes-every-1-6-11-24-25-h.polars.py"
+  },
+  "transformation/data-child": ["data/id", "55812ae8-c931-53a9-a2f4-d483ec98c865"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "d085f825-ddc5-57a2-b9df-2e382a805647",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Sampling schemes (every 1, 6, 11, 24, 25 h)",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "bf261d65-21c7-5fad-a146-d024ea0837fa"],
+  "transformation/units": "{}"
+}

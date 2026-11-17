@@ -1,0 +1,21 @@
+{
+  "transformation/content": {
+    "$file": "transforms/per-material-bridges-poor-share-mean-age-and-the.polars.py"
+  },
+  "transformation/data-child": ["data/id", "29d3795a-3a30-54bc-8701-5713b15abbf3"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "0ff2d1ce-49ba-5592-a2ee-99f9c83b8bca",
+  "transformation/inputs": [
+    ["data/id", "6a34c283-64b0-542f-9a25-1ff3056a734c"]
+  ],
+  "transformation/language": "polars",
+  "transformation/name": "Per material: bridges, poor share, mean age, and the mean rating at 40–59 years",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 560
+  },
+  "transformation/parent": ["data/id", "4ad8fcbb-6002-5494-8632-2fae0acada61"],
+  "transformation/units": "{}"
+}

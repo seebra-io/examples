@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/homeworlds-population-against-diameter-by.js"
+  },
+  "graph/id": "8a7c7d9b-e626-54d6-bc86-3f2c22e62686",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Homeworlds: population against diameter, by climate",
+  "graph/node": {
+    "node/x": 1460,
+    "node/y": 1520
+  },
+  "graph/parent": ["data/id", "de1d759a-a2c6-5119-81e0-73676b5294d6"]
+}

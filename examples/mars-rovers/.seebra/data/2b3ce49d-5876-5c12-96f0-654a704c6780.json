@@ -1,0 +1,10 @@
+{
+  "data/id": "2b3ce49d-5876-5c12-96f0-654a704c6780",
+  "data/name": "Perseverance images per sol: a rate needs an exposure data",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 1040
+  },
+  "data/parent": ["transformation/id", "084cf39b-6a6a-5441-8415-2caf01def09f"],
+  "data/type": "json"
+}

@@ -1,0 +1,11 @@
+{
+  "data/id": "df2e4791-2070-50a3-9c50-6c21c3ec865a",
+  "data/name": "Reported changes (newest first)",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 800
+  },
+  "data/parent": ["transformation/id", "813a36be-1fa3-5225-8022-457eda413d55"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

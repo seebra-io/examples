@@ -1,0 +1,22 @@
+{
+  "transformation/content": {
+    "$file": "transforms/which-clock-does-a-reconstructed-bridge-follow.polars.py"
+  },
+  "transformation/data-child": ["data/id", "a0686951-13e1-57e1-bf35-a6e4e32aba97"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "3c02461c-c5e0-5a72-8457-6d58746b20d6",
+  "transformation/inputs": [
+    ["data/id", "4e826347-7e3c-50d0-a133-5b01180a367f"],
+    ["data/id", "5766f808-f359-5cb3-978f-a670f84cd656"]
+  ],
+  "transformation/language": "polars",
+  "transformation/name": "Which clock does a reconstructed bridge follow? Mean rating per 10 years since built, and since reconstruction",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 800
+  },
+  "transformation/parent": ["data/id", "26cdadb2-d00a-5510-9fb8-a63223bce27f"],
+  "transformation/units": "{}"
+}

@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/taf-change-groups-base-fm-becmg-tempo-prob.polars.py"
+  },
+  "transformation/data-child": ["data/id", "9316d7ac-2e42-5fc7-8d88-a0f7be3068f0"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "7dc48eff-4c8b-52ba-8c1b-3c15c361717b",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "TAF change groups (BASE, FM, BECMG, TEMPO, PROB) decoded",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 560
+  },
+  "transformation/parent": ["data/id", "2ce18cd3-c362-5631-a369-58d4703a046d"],
+  "transformation/units": "{}"
+}

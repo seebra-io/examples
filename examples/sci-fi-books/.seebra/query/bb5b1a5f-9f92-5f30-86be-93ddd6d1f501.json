@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "a1c08195-858c-5569-8768-5f65d8b3face"],
+  "query/datasource": ["datasource/id", "b10d2c7c-91a2-54c2-af5f-f2243f7768b0"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "bb5b1a5f-9f92-5f30-86be-93ddd6d1f501",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Science fiction",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 80
+  },
+  "query/params": "{\"limit\":\"48\"}",
+  "query/path": "/subjects/science_fiction.json",
+  "query/request-body": "",
+  "query/units": "{}"
+}

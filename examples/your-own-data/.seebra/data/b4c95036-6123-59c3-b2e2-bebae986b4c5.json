@@ -1,0 +1,13 @@
+{
+  "data/file": {
+    "$file": "data/export-guide-22-platforms-data.json"
+  },
+  "data/id": "b4c95036-6123-59c3-b2e2-bebae986b4c5",
+  "data/name": "Export guide: 22 platforms data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 80
+  },
+  "data/parent": ["query/id", "143d8f2e-11f3-53ee-a337-40bae06668e8"],
+  "data/type": "json"
+}

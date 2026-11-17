@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/curiosity-images-camera-sol.polars.py"
+  },
+  "transformation/data-child": ["data/id", "199470ff-5a4a-536f-9ce0-2070b2a2d7f1"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "a8fa1034-d93e-5c00-9c2b-3ec4765b376c",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Curiosity images (camera, sol)",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 800
+  },
+  "transformation/parent": ["data/id", "17f931df-dedf-53be-a0b6-7a393f55dd94"],
+  "transformation/units": "{}"
+}

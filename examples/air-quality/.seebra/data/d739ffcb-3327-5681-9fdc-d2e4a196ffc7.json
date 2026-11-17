@@ -1,0 +1,11 @@
+{
+  "data/id": "d739ffcb-3327-5681-9fdc-d2e4a196ffc7",
+  "data/name": "Quantiles and days over 15 µg/m³",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "d6e6852b-d64b-5152-9522-49414629a4ae"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

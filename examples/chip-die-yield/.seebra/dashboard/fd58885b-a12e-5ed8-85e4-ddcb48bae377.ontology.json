@@ -1,0 +1,147 @@
+{
+  "title": "Die yield and chip cost",
+  "summary": "Real dies by area, the defect models that give their yield, and what yield does to the cost of silicon and to chip design (chiplets).",
+  "concepts": [
+    {
+      "cid": "c1",
+      "label": "Die",
+      "kind": "entity",
+      "description": "One chip cut from a wafer; logic chips and image sensors here.",
+      "fields": [
+        "name",
+        "kind",
+        "qid"
+      ],
+      "in_data": true,
+      "wikidata": "Q1145656",
+      "children": [
+        {
+          "cid": "c2",
+          "label": "Die area",
+          "kind": "measure",
+          "as": "property",
+          "description": "mm², from Wikidata's area (P2046).",
+          "fields": [
+            "area_mm2"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c3",
+          "label": "Process node",
+          "kind": "category",
+          "as": "property",
+          "description": "The fabrication process (Wikidata P2079), often missing.",
+          "fields": [
+            "node"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c4",
+          "label": "Chiplet",
+          "kind": "entity",
+          "as": "part",
+          "description": "A smaller die that, with others, makes one chip in a package.",
+          "fields": [
+            "n",
+            "die_mm2",
+            "saving"
+          ],
+          "in_data": true
+        }
+      ]
+    },
+    {
+      "cid": "c5",
+      "label": "Wafer",
+      "kind": "entity",
+      "description": "A 300 mm silicon disc processed as a unit; its cost is roughly fixed per node.",
+      "fields": [
+        "dies_per_wafer",
+        "wafers_per_1000_good"
+      ],
+      "in_data": true,
+      "wikidata": "Q1156402",
+      "children": [
+        {
+          "cid": "c6",
+          "label": "Defect density",
+          "kind": "measure",
+          "as": "property",
+          "description": "Killer defects per cm² (D0); scenarios 0.05–0.5 here, not measured data.",
+          "fields": [
+            "d0"
+          ],
+          "in_data": false
+        },
+        {
+          "cid": "c7",
+          "label": "Wafer cost",
+          "kind": "measure",
+          "as": "property",
+          "description": "Price of a processed wafer; with dies per wafer and yield it sets cost per die.",
+          "in_data": false
+        }
+      ]
+    },
+    {
+      "cid": "c8",
+      "label": "Yield model",
+      "kind": "category",
+      "description": "The share of dies without a killer defect as a function of area and D0.",
+      "fields": [
+        "y_poisson",
+        "y_murphy",
+        "y_negbin"
+      ],
+      "in_data": true,
+      "children": [
+        {
+          "cid": "c9",
+          "label": "Poisson yield",
+          "kind": "category",
+          "as": "subtype",
+          "description": "Y = exp(−A·D0): independent, uniform defects.",
+          "fields": [
+            "y_poisson"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c10",
+          "label": "Murphy yield",
+          "kind": "category",
+          "as": "subtype",
+          "description": "Y = ((1 − e^(−AD0))/(AD0))²: defect density varying across wafers (Murphy 1964).",
+          "fields": [
+            "y_murphy"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c11",
+          "label": "Negative binomial yield",
+          "kind": "category",
+          "as": "subtype",
+          "description": "Y = (1 + AD0/α)^−α: clustered defects (Stapper); α the cluster parameter.",
+          "fields": [
+            "y_negbin"
+          ],
+          "in_data": true
+        }
+      ]
+    },
+    {
+      "cid": "c12",
+      "label": "Cost per good die",
+      "kind": "measure",
+      "description": "Wafer cost / (dies per wafer × yield); here per good mm² relative to an ideal die.",
+      "fields": [
+        "cost_index",
+        "wafer_share"
+      ],
+      "in_data": true
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "data/id": "b599221c-126a-509b-ba21-31444c4fcd9e",
+  "data/name": "Life tables 2003: death rate by age and sex (demo_mlifetable) data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 80
+  },
+  "data/parent": ["query/id", "ea98e357-c8f9-5ff3-8a21-7923c13c731a"],
+  "data/type": "json"
+}

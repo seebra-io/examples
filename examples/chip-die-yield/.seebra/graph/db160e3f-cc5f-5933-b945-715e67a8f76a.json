@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/why-chiplets-silicon-saved-by-splitting-a-big.js"
+  },
+  "graph/id": "db160e3f-cc5f-5933-b945-715e67a8f76a",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Why chiplets: silicon saved by splitting a big die",
+  "graph/node": {
+    "node/x": 1920,
+    "node/y": 800
+  },
+  "graph/parent": ["data/id", "0db37ef8-cbe9-5767-b39f-ceb31d9f9de5"]
+}

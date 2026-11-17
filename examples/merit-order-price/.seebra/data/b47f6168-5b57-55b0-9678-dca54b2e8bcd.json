@@ -1,0 +1,10 @@
+{
+  "data/id": "b47f6168-5b57-55b0-9678-dca54b2e8bcd",
+  "data/name": "Hourly means (GW) data",
+  "data/node": {
+    "node/x": 2070,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "c33b1a16-307e-5c15-9bfa-bc7d421a7cba"],
+  "data/type": "json"
+}

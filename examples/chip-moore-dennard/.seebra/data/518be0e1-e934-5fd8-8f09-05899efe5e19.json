@@ -1,0 +1,10 @@
+{
+  "data/id": "518be0e1-e934-5fd8-8f09-05899efe5e19",
+  "data/name": "typical power (W), per processor (50yrs/watts.dat) data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 560
+  },
+  "data/parent": ["query/id", "ff8286db-f9a7-5705-a7df-363dd01fe3a9"],
+  "data/type": "json"
+}

@@ -1,0 +1,10 @@
+{
+  "data/id": "fb164937-d5ad-514f-8f22-080235b27af8",
+  "data/name": "Bacteria: annotated reference genomes data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 80
+  },
+  "data/parent": ["query/id", "3320be80-9357-5078-a35e-19dd7cff6f7a"],
+  "data/type": "json"
+}

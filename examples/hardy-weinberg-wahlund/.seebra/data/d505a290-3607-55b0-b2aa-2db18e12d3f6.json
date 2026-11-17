@@ -1,0 +1,11 @@
+{
+  "data/id": "d505a290-3607-55b0-b2aa-2db18e12d3f6",
+  "data/name": "Hardy–Weinberg tests",
+  "data/node": {
+    "node/x": 2070,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "aeef1792-1e0f-5a22-a74b-3039b8d0a8ee"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

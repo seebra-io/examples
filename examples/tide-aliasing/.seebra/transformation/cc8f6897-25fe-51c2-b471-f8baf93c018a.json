@@ -1,0 +1,21 @@
+{
+  "transformation/content": {
+    "$file": "transforms/all-sampled-series.sql"
+  },
+  "transformation/data-child": ["data/id", "b0f9dd8d-4696-56d4-8d95-7b5fc69db084"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "cc8f6897-25fe-51c2-b471-f8baf93c018a",
+  "transformation/inputs": [
+    ["data/id", "1e8034a8-c901-5d55-950e-5341c4f23940"]
+  ],
+  "transformation/language": "sql",
+  "transformation/name": "All sampled series",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1920,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "adb327e6-07d9-5c0d-ac51-f46f38e0e21e"],
+  "transformation/units": "{}"
+}

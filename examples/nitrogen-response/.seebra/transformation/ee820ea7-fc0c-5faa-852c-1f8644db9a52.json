@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/per-region-rate-yield-marginal-product.polars.py"
+  },
+  "transformation/data-child": ["data/id", "d44f3e2f-2386-5361-b407-04e37bb1a59c"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "ee820ea7-fc0c-5faa-852c-1f8644db9a52",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Per region: rate, yield, marginal product",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1920,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "2d76daf8-9cde-55e2-9032-200622c833b6"],
+  "transformation/units": "{}"
+}

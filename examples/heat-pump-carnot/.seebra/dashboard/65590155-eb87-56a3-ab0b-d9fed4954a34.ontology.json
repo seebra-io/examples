@@ -1,0 +1,155 @@
+{
+  "title": "Heat pump thermodynamics",
+  "summary": "How the Carnot limit and the temperature lift set a heat pump's efficiency, and how the house's emitters set the lift.",
+  "concepts": [
+    {
+      "cid": "c1",
+      "label": "Heat pump",
+      "kind": "entity",
+      "description": "An air-to-water vapour-compression heat pump: evaporator outside, condenser in the heating water.",
+      "fields": [
+        "system",
+        "system_id"
+      ],
+      "in_data": true,
+      "wikidata": "Q192583",
+      "facts": [
+        {
+          "text": "HeatpumpMonitor.org publishes metered data of several hundred domestic heat pumps.",
+          "source": "https://heatpumpmonitor.org/"
+        }
+      ],
+      "children": [
+        {
+          "cid": "c2",
+          "label": "Coefficient of performance",
+          "kind": "measure",
+          "as": "property",
+          "description": "Heat out / electricity in, per day (COP) or per year (SCOP).",
+          "fields": [
+            "cop",
+            "scop"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c3",
+          "label": "Share of Carnot",
+          "kind": "measure",
+          "as": "property",
+          "description": "Measured COP / Carnot COP: how close the machine gets to the ideal.",
+          "fields": [
+            "carnot_fraction",
+            "eta_through_origin"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c4",
+          "label": "Defrost and cycling",
+          "kind": "event",
+          "as": "part",
+          "description": "Losses on cold, humid days (ice on the evaporator) and at low load (on/off cycling).",
+          "in_data": false
+        }
+      ]
+    },
+    {
+      "cid": "c5",
+      "label": "Carnot limit",
+      "kind": "measure",
+      "description": "COP_max = T_hot/(T_hot − T_cold) in kelvin, from the second law of thermodynamics.",
+      "fields": [
+        "cop_carnot",
+        "half_carnot"
+      ],
+      "in_data": true,
+      "wikidata": "Q181450",
+      "facts": [
+        {
+          "text": "A reversed Carnot cycle is the most efficient possible heat pump between two temperatures.",
+          "source": "https://en.wikipedia.org/wiki/Coefficient_of_performance"
+        }
+      ],
+      "children": [
+        {
+          "cid": "c6",
+          "label": "Temperature lift",
+          "kind": "measure",
+          "as": "property",
+          "description": "Flow temperature minus outdoor temperature, K.",
+          "fields": [
+            "lift_k"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c7",
+          "label": "Refrigerant temperatures",
+          "kind": "measure",
+          "as": "property",
+          "description": "Condensing and evaporating temperatures, a few kelvin beyond the water and the air; not in the data.",
+          "in_data": false
+        }
+      ]
+    },
+    {
+      "cid": "c8",
+      "label": "Heating system",
+      "kind": "entity",
+      "description": "The emitters and controls that set the flow temperature.",
+      "fields": [
+        "flow_c",
+        "return_c"
+      ],
+      "in_data": true,
+      "children": [
+        {
+          "cid": "c9",
+          "label": "Underfloor heating",
+          "kind": "entity",
+          "as": "subtype",
+          "description": "Large emitting area: low flow temperature.",
+          "in_data": true
+        },
+        {
+          "cid": "c10",
+          "label": "Radiators",
+          "kind": "entity",
+          "as": "subtype",
+          "description": "Smaller area: higher flow temperature, unless oversized.",
+          "in_data": true
+        },
+        {
+          "cid": "c11",
+          "label": "Weather compensation",
+          "kind": "entity",
+          "as": "part",
+          "description": "Flow temperature set from the outdoor temperature, as low as the day allows.",
+          "in_data": false
+        }
+      ]
+    },
+    {
+      "cid": "c12",
+      "label": "Weather",
+      "kind": "measure",
+      "description": "Daily mean outdoor temperature at the unit, °C.",
+      "fields": [
+        "outside_c",
+        "out_bin"
+      ],
+      "in_data": true
+    },
+    {
+      "cid": "c13",
+      "label": "Building heat loss",
+      "kind": "measure",
+      "description": "kW per kelvin of indoor–outdoor difference; sets the heat demand and the emitter size needed.",
+      "fields": [
+        "heat_kwh"
+      ],
+      "in_data": false
+    }
+  ]
+}

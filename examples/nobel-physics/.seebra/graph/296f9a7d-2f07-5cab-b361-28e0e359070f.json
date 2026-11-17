@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/laureates-per-decade-by-country-of-birth.js"
+  },
+  "graph/id": "296f9a7d-2f07-5cab-b361-28e0e359070f",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Laureates per decade, by country of birth",
+  "graph/node": {
+    "node/x": 1460,
+    "node/y": 320
+  },
+  "graph/parent": ["data/id", "9b540a8b-d766-5714-82e6-f73cefdd2ad6"]
+}

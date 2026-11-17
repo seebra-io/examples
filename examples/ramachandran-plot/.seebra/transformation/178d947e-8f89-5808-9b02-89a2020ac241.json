@@ -1,0 +1,21 @@
+{
+  "transformation/content": {
+    "$file": "transforms/2lzm-residues-and-secondary-structure.polars.py"
+  },
+  "transformation/data-child": ["data/id", "50ee85b3-6430-5252-8845-14b081f2dba8"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "178d947e-8f89-5808-9b02-89a2020ac241",
+  "transformation/inputs": [
+    ["data/id", "7d832782-8bae-5a56-9a1f-053b532d89d8"]
+  ],
+  "transformation/language": "polars",
+  "transformation/name": "2LZM residues: φ, ψ and secondary structure",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "d852e294-9f70-5720-bbf7-b2ab96410c66"],
+  "transformation/units": "{}"
+}

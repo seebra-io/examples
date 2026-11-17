@@ -1,0 +1,10 @@
+{
+  "data/id": "6172bf28-ec99-5195-ad9e-30493ecd80b0",
+  "data/name": "Warnings per minute, against a Poisson process data",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "a5b75c49-8fe0-54cb-9fbd-ab50ca28574a"],
+  "data/type": "json"
+}

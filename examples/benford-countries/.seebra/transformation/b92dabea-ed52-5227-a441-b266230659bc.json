@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/benford-s-law-observed-against-log10-1-1-d-chi.polars.py"
+  },
+  "transformation/data-child": ["data/id", "231e0fb0-60ed-5cee-a35c-f98e446992af"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "b92dabea-ed52-5227-a441-b266230659bc",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Benford's law: observed against log10(1 + 1/d), chi-square and MAD",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1920,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "1652c29c-d9a4-54d3-b9cd-4bd14ada775c"],
+  "transformation/units": "{}"
+}

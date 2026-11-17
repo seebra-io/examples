@@ -1,0 +1,10 @@
+{
+  "data/id": "5a1f9a0c-c76f-55ef-9853-4b7dfabd21c1",
+  "data/name": "Funnel chanterelle (Craterellus tubaeformis): Swedish records per month, 2000–2025 data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 560
+  },
+  "data/parent": ["query/id", "3692248c-6593-554b-b359-dbc30ec2bac3"],
+  "data/type": "json"
+}

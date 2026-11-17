@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "a384700a-ecb6-54c8-bd8b-121ec28935b6"],
+  "query/datasource": ["datasource/id", "c90928c6-0797-577c-a6b2-d537b9154b9b"],
+  "query/dynamic?": false,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "dfe18711-c551-5c0d-84f6-ccb57d36f23a",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "glTF models, 301-400",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 800
+  },
+  "query/params": "{\"mime_type\":\"model/gltf-binary\",\"per_page\":\"100\",\"orderby\":\"date\",\"order\":\"desc\",\"_fields\":\"id,date,title,source_url,media_details\",\"page\":\"4\"}",
+  "query/path": "/media",
+  "query/request-body": "",
+  "query/units": "{}"
+}

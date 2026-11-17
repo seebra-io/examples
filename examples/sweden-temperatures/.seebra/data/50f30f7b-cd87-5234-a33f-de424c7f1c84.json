@@ -1,0 +1,10 @@
+{
+  "data/id": "50f30f7b-cd87-5234-a33f-de424c7f1c84",
+  "data/name": "Trend with an uncertainty band: temperature against latitude data",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "5bd2f5b1-1ab4-56bb-9d59-7b4fbc3189ae"],
+  "data/type": "json"
+}

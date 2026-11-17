@@ -1,0 +1,11 @@
+{
+  "data/id": "cec9570a-fb23-5714-b070-c3a2f455600b",
+  "data/name": "Mean vs median",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "9f6e5cac-92fa-5b1a-b4cc-4249ecc00d97"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

@@ -1,0 +1,10 @@
+{
+  "data/id": "f81157af-6604-5097-a7f0-bf45b9ebc87e",
+  "data/name": "Measured lattice constants (the most precise zincblende entry near the median) data",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "39aa3ed9-7263-5c1a-b444-dcf1625b95ad"],
+  "data/type": "json"
+}

@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "3353fc22-abce-5914-a811-85f4b769d24e"],
+  "query/datasource": ["datasource/id", "4b22823d-a42a-54af-819e-0f3ac326b688"],
+  "query/dynamic?": false,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "f070703d-3ef0-54f0-a235-bc1010124794",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "The six films of the original and prequel trilogies",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 800
+  },
+  "query/params": "{}",
+  "query/path": "/films",
+  "query/request-body": "",
+  "query/units": "{}"
+}

@@ -1,0 +1,43 @@
+{
+  "dashboard/id": "669bafca-b0b0-5cdf-a6d3-c5d158e0d677",
+  "datas": [
+    ["data/id", "928a878e-8ccc-5221-90cc-cec0a6e4f4e1"],
+    ["data/id", "0b2b6767-8b75-55ec-a385-43fe89d8f6a2"],
+    ["data/id", "f40d6735-f2cc-5b7c-9cbf-3712e0713e31"],
+    ["data/id", "2f04a8b6-1b64-50a9-bccf-36ffb7d49043"],
+    ["data/id", "813bc449-4ebd-5a05-bdfa-74669e707a67"],
+    ["data/id", "1b648f94-44a8-56d3-b1fb-20537f9771b3"],
+    ["data/id", "b9ef6db8-baf2-5cbe-b1d8-9558f96e14de"]
+  ],
+  "datasources": [
+    ["datasource/id", "a1678161-2b8f-5c4a-bb88-b509f34412d9"]
+  ],
+  "description": "Question: on shortwave a 14 MHz signal can be heard 2000 km away while a listener 200 km away hears nothing. How can the signal skip the near station? Data: the newest ionogram of every ionosonde in the GIRO network (Lowell Global Ionospheric Radio Observatory), as compiled by KC2G's prop.kc2g.com stations API: the F2 critical frequency foF2, its peak height hmF2, the propagation factor M(3000)F2 and MUF(3000), per station. The query is a live snapshot; stations not heard from within three hours of the newest are dropped. Idea: the secant law. A layer reflects a wave going straight up only below its critical frequency foF2 (the plasma frequency of its peak electron density, f = 9√N). A wave meeting the layer at an angle of incidence i is returned up to foF2 · sec i, so the maximum usable frequency (MUF) grows with hop distance, until the ray leaves at the horizon (about 4000 km for one hop). Steps: the stations' readings with local solar time and peak electron density (Polars); MUF against distance on a curved Earth with a mirror at hmF2 (SQL); the measured M(3000)F2 against the mirror model's sec i at 3000 km; the shortest distance at which each amateur band (3.6, 7.1, 14.1, 21.1, 28.4 MHz) is returned, per station. The aha: a band above foF2 is not returned near the transmitter at all, only beyond the distance where foF2 · sec i reaches it: that ring of silence is the skip zone, and it widens at night as foF2 falls (so radio amateurs move to lower bands after dark). Caveats: the mirror model ignores the gradual bending below the peak (real reflection is lower than hmF2) and the E layer, which can screen low angles; the curve is drawn for the layer above the station, while a real hop reflects at its midpoint; absorption (D layer, by day) limits the lowest usable frequency, not modelled; a snapshot of 15 to 25 stations, mostly in Europe; GIRO data is free for scientific use with acknowledgement; autoscaled ionograms (cs = confidence score) can be wrong. Next: open the NOAA SWPC solar flux (F10.7) to see why foF2 follows the solar cycle, or plan a path between two places with the midpoint's foF2.",
+  "graphs": [
+    ["graph/id", "faf30bda-38d2-52dd-be19-f7946bca1ea1"],
+    ["graph/id", "826d1a14-3fd6-5c86-84ff-b958fd0a49ff"],
+    ["graph/id", "d44ec849-a695-56a8-95e6-d481928046cd"],
+    ["graph/id", "4a89dc6a-39fc-555d-bd0c-cac7de5e35d5"]
+  ],
+  "grids": [],
+  "name": "The skip zone: why far stations hear you and near ones don't",
+  "ontology": {
+    "$file": ".seebra/dashboard/669bafca-b0b0-5cdf-a6d3-c5d158e0d677.ontology.json",
+    "$json": true
+  },
+  "queries": [
+    ["query/id", "83ccce87-93a6-54a8-8eed-bc4f0a038ea2"]
+  ],
+  "studies": [],
+  "tables": [],
+  "texts": [],
+  "timers": [],
+  "transformations": [
+    ["transformation/id", "a06df244-0f5a-5b25-8af2-18eaf88a3c0c"],
+    ["transformation/id", "267e64cb-d93d-5a19-9dfc-c74fc04094e2"],
+    ["transformation/id", "0d1e01af-128a-5e1f-a77d-2abb5956132a"],
+    ["transformation/id", "3a4db3e5-aab6-56b4-b362-c3f32fd8675b"],
+    ["transformation/id", "59a3d5f3-f7e8-50d7-85a5-1e23dac83e1f"],
+    ["transformation/id", "1bee3c1b-3929-57b7-a765-276c111b997e"]
+  ]
+}

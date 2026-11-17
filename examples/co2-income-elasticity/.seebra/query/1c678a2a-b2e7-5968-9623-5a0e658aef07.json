@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "c7048e21-ff21-5aba-9a44-87434fd7b302"],
+  "query/datasource": ["datasource/id", "546b1607-ad5a-584f-8f46-6e8e52f1fc9c"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "1c678a2a-b2e7-5968-9623-5a0e658aef07",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "CO₂ per person 1990–2024, six countries",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 1040
+  },
+  "query/params": "{\"format\":\"json\",\"date\":\"1990:2024\",\"per_page\":\"1000\"}",
+  "query/path": "/country/SWE;USA;GBR;DEU;CHN;IND/indicator/EN.GHG.CO2.PC.CE.AR5",
+  "query/request-body": "",
+  "query/units": "{}"
+}

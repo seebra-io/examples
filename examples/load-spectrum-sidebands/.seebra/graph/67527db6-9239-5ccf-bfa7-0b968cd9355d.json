@@ -1,0 +1,16 @@
+{
+  "graph/content": {
+    "$file": "graphs/spectrum-harmonics-and-sidebands.js"
+  },
+  "graph/id": "67527db6-9239-5ccf-bfa7-0b968cd9355d",
+  "graph/inputs": [
+    ["data/id", "1c446e43-ed1c-525d-97ac-dbe9f4a2429c"]
+  ],
+  "graph/language": "javascript",
+  "graph/name": "Spectrum: harmonics and sidebands",
+  "graph/node": {
+    "node/x": 2380,
+    "node/y": 800
+  },
+  "graph/parent": ["data/id", "c1077a10-ff4c-5482-b111-355ec6761b4b"]
+}

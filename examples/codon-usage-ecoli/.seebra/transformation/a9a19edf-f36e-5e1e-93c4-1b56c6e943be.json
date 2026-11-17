@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/codons-beside-their-amino-acids.polars.py"
+  },
+  "transformation/data-child": ["data/id", "013347ed-d64f-5f64-88f7-03889c34c912"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "a9a19edf-f36e-5e1e-93c4-1b56c6e943be",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Codons beside their amino acids",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1920,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "be33ddfb-90d4-5255-8518-4d20ee8545af"],
+  "transformation/units": "{}"
+}

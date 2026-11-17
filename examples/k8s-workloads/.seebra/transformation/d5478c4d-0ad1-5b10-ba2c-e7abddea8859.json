@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/waiting-containers-and-why.polars.py"
+  },
+  "transformation/data-child": ["data/id", "18dab360-d21c-5b00-a7a6-72d47671b538"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "d5478c4d-0ad1-5b10-ba2c-e7abddea8859",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Waiting containers (and why)",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 800
+  },
+  "transformation/parent": ["data/id", "cc28462e-4340-501f-ab09-c805866ab728"],
+  "transformation/units": "{}"
+}

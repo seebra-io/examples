@@ -1,0 +1,16 @@
+{
+  "graph/content": {
+    "$file": "graphs/most-restarted-containers-by-last-exit-reason.js"
+  },
+  "graph/id": "1b2ac22f-d356-5075-b6b2-2e5290519ce7",
+  "graph/inputs": [
+    ["data/id", "69a09935-8836-5e3f-8250-1c46bb59a70c"]
+  ],
+  "graph/language": "javascript",
+  "graph/name": "Most restarted containers, by last exit reason",
+  "graph/node": {
+    "node/x": 1920,
+    "node/y": 560
+  },
+  "graph/parent": ["data/id", "3914b04f-11a5-5421-9306-5c82ab0793b2"]
+}

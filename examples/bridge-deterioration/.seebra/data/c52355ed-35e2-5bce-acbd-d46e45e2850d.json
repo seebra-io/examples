@@ -1,0 +1,10 @@
+{
+  "data/id": "c52355ed-35e2-5bce-acbd-d46e45e2850d",
+  "data/name": "Mean lowest rating per material and 10-year age band data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "87789e8c-9bf9-5695-863a-a6b9ead9ba25"],
+  "data/type": "json"
+}

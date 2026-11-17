@@ -1,0 +1,21 @@
+{
+  "transformation/content": {
+    "$file": "transforms/each-alloy-series-with-its-binary-end-points-x-0.sql"
+  },
+  "transformation/data-child": ["data/id", "a33a18e6-c802-5a31-b25e-ddf171067680"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "f7a783e7-8ee4-59e0-ae43-de2a1390b14f",
+  "transformation/inputs": [
+    ["data/id", "b0e54ae6-54b1-5150-89a8-3d2e06237517"]
+  ],
+  "transformation/language": "sql",
+  "transformation/name": "Each alloy series with its binary end points (x = 0 and 1)",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "28b7938e-95f4-546b-92be-2d2562215d8c"],
+  "transformation/units": "{}"
+}

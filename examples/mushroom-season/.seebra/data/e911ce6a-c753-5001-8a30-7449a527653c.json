@@ -1,0 +1,10 @@
+{
+  "data/id": "e911ce6a-c753-5001-8a30-7449a527653c",
+  "data/name": "False morel per month data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 1280
+  },
+  "data/parent": ["transformation/id", "a58855a6-41a3-5ff8-9961-d7d15992b03e"],
+  "data/type": "json"
+}

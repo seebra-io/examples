@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/estimated-flyby-paths-two-body-4-days.js"
+  },
+  "transformation/data-child": ["data/id", "4a36c705-0db0-5dd1-b218-aea9b25cc6d6"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "js-web-worker",
+  "transformation/id": "ad6ebed8-91a1-58ad-8305-8bc41d38b163",
+  "transformation/inputs": [],
+  "transformation/language": "javascript",
+  "transformation/name": "Estimated flyby paths (two-body, ±4 days)",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "a29cf280-5f5d-5304-9de0-8328f094acff"],
+  "transformation/units": "{\"x\":\"LD\",\"y\":\"LD\",\"z\":\"LD\",\"r_ld\":\"LD\",\"jpl_ld\":\"LD\",\"hours\":\"h\"}"
+}

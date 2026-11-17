@@ -1,0 +1,8 @@
+{
+  "file": {
+    "file/example": "chip-xrd-bragg"
+  },
+  "format": 2,
+  "root": ["dashboard/id", "61ab38a2-1a7e-5b12-ada7-941dd7d13b81"],
+  "seebra": "board"
+}

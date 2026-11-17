@@ -1,0 +1,10 @@
+{
+  "data/id": "3ba13ea7-574c-5341-b82d-3581c079362e",
+  "data/name": "rs1426654 (SLC24A5) genotype counts data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "84a381b9-17e4-5891-bd20-468c2ec3feea"],
+  "data/type": "json"
+}

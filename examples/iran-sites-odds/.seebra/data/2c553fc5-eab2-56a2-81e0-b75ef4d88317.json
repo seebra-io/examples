@@ -1,0 +1,10 @@
+{
+  "data/id": "2c553fc5-eab2-56a2-81e0-b75ef4d88317",
+  "data/name": "Aircraft within 250 nm of the Gulf (comparison) data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 1280
+  },
+  "data/parent": ["query/id", "dee660be-bed9-54fc-b7b4-4f781e99d913"],
+  "data/type": "json"
+}

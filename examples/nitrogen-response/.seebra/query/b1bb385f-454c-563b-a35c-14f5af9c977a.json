@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "81c49bbd-ee8f-5a06-83e6-625dcef2e842"],
+  "query/datasource": ["datasource/id", "7b2cdefc-274b-5b4b-9bb4-70bb3ad2ef26"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "b1bb385f-454c-563b-a35c-14f5af9c977a",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Cereal yield (kg/ha), latest",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 320
+  },
+  "query/params": "{\"format\":\"json\",\"mrnev\":\"1\",\"per_page\":\"400\"}",
+  "query/path": "/country/all/indicator/AG.YLD.CREL.KG",
+  "query/request-body": "",
+  "query/units": "{}"
+}

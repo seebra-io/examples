@@ -1,0 +1,8 @@
+{
+  "file": {
+    "file/example": "hypsometric-atmosphere"
+  },
+  "format": 2,
+  "root": ["dashboard/id", "7e0adcfa-7691-5c0a-bb11-993440d05b6a"],
+  "seebra": "board"
+}

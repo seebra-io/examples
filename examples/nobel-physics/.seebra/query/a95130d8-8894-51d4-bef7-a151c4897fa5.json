@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "c802dcdd-1f95-519b-aa0a-a3a48f63803e"],
+  "query/datasource": ["datasource/id", "3fd5e169-fd28-5454-9af6-2c741d392483"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "a95130d8-8894-51d4-bef7-a151c4897fa5",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Physics laureates",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 80
+  },
+  "query/params": "{\"nobelPrizeCategory\":\"phy\",\"limit\":\"300\",\"sort\":\"desc\"}",
+  "query/path": "/laureates",
+  "query/request-body": "",
+  "query/units": "{}"
+}

@@ -1,0 +1,16 @@
+{
+  "datasource/api-key-key": "api_key",
+  "datasource/auth-type": "none",
+  "datasource/headers": "{}",
+  "datasource/id": "23b72160-7ab1-5dec-b6cc-a89c4f0432e2",
+  "datasource/name": "PubChem PUG REST",
+  "datasource/node": {
+    "inputs": 1,
+    "node/x": 80,
+    "node/y": 320,
+    "outputs": 1
+  },
+  "datasource/params": "{}",
+  "datasource/type": "openapi",
+  "datasource/url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug"
+}

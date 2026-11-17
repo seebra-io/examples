@@ -1,0 +1,10 @@
+{
+  "data/id": "71a0a7cf-9c44-5363-a836-38ab17042c43",
+  "data/name": "Nuclides with decay mode, half-life and Q_α data",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "9391dc8f-6a1c-57ba-95ef-a068407bf3c6"],
+  "data/type": "json"
+}

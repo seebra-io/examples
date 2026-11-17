@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/long-short-ratio-against-distance.polars.py"
+  },
+  "transformation/data-child": ["data/id", "9758eeee-9d05-5142-ab09-085024a76001"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "45c3a7fd-5acc-5378-8181-bd72cea7c71f",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Long/short ratio against distance",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1920,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "2a657db1-f1f6-5471-850d-fbff1eaae0e2"],
+  "transformation/units": "{}"
+}

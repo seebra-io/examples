@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/disruption-budgets.polars.py"
+  },
+  "transformation/data-child": ["data/id", "2afeb017-7123-57ff-a6a5-1125aa72264a"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "83e72475-d1d6-5e25-96a0-0004ca680a75",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Disruption budgets",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "3fb34ce6-294a-52c7-8830-f5e3d1b15f2b"],
+  "transformation/units": "{}"
+}

@@ -1,0 +1,10 @@
+{
+  "data/id": "1d60a1ae-98fd-5f97-8606-8d909ecdbbc6",
+  "data/name": "COD entries with formula C data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 560
+  },
+  "data/parent": ["query/id", "1535bb7c-7934-54f8-84d0-f1cc730d53d2"],
+  "data/type": "json"
+}

@@ -1,0 +1,18 @@
+{
+  "study/hypothesis": "log R_SB = log R_GSP-Phot with slope 1; on the main sequence L ∝ M^α with α between 3 and 5.",
+  "study/id": "d0e4c1dc-23cd-5d08-a374-b1e2d76cbaa4",
+  "study/name": "Does light and temperature give a star's size?",
+  "study/node": {
+    "node/x": 540,
+    "node/y": 320
+  },
+  "study/plan": {
+    "$file": ".seebra/study/d0e4c1dc-23cd-5d08-a374-b1e2d76cbaa4.plan.json",
+    "$json": true
+  },
+  "study/question": "For Gaia stars with good parallaxes, does the radius from Stefan–Boltzmann, √L (5772/T)², match the radius Gaia fits to the spectrum, and how steeply does luminosity rise with mass on the main sequence?",
+  "study/state": {
+    "$file": ".seebra/study/d0e4c1dc-23cd-5d08-a374-b1e2d76cbaa4.state.json",
+    "$json": true
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "data/id": "e1f53843-3caa-5700-8030-52219e521cf7",
+  "data/name": "Standardised means z = (mean − μ) / (σ/√n) data",
+  "data/node": {
+    "node/x": 2070,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "fd1a336f-2311-5625-883f-4d0b093ff208"],
+  "data/type": "json"
+}

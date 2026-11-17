@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/frequency-grid-1-112-per-day.polars.py"
+  },
+  "transformation/data-child": ["data/id", "3c157256-5296-5792-9005-286779065d51"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "0e7836a2-511a-511e-82a5-aa0f246ca0f9",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Frequency grid (1/112 per day)",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "db471de8-4203-5cef-bf4b-e21489e39cdf"],
+  "transformation/units": "{}"
+}

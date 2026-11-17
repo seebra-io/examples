@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/per-species-characters-against-the-species.polars.py"
+  },
+  "transformation/data-child": ["data/id", "b1c812b0-0668-5091-8517-c0fa75ff4f15"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "19a04464-3f37-52ae-8db2-23fa53f83ae4",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Per species: characters against the species' average height",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 560
+  },
+  "transformation/parent": ["data/id", "575f9c3e-0a05-54bd-829d-8ff9f1d8370a"],
+  "transformation/units": "{}"
+}

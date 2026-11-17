@@ -1,0 +1,10 @@
+{
+  "data/id": "d7714d78-bc3e-59da-b83b-73f1498b73ae",
+  "data/name": "Approaches, one list (the feed is keyed by date) data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "75d3f628-a64a-5292-996d-f34a0f794bd2"],
+  "data/type": "json"
+}

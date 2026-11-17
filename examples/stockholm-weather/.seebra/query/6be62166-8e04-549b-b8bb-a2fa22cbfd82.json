@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "f0e8e7c6-4085-5609-b442-eed6891c8251"],
+  "query/datasource": ["datasource/id", "479acb89-2761-5578-8982-79fb98ba5533"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "6be62166-8e04-549b-b8bb-a2fa22cbfd82",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Hourly forecast",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 80
+  },
+  "query/params": "{\"latitude\":\"59.33\",\"longitude\":\"18.07\",\"hourly\":\"temperature_2m,precipitation\",\"forecast_days\":\"7\",\"timezone\":\"Europe/Stockholm\"}",
+  "query/path": "/forecast",
+  "query/request-body": "",
+  "query/units": "{}"
+}

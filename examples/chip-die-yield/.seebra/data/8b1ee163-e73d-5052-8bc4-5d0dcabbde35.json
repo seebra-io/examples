@@ -1,0 +1,10 @@
+{
+  "data/id": "8b1ee163-e73d-5052-8bc4-5d0dcabbde35",
+  "data/name": "Chips and image sensors with a die area (mm²) data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 80
+  },
+  "data/parent": ["query/id", "5e00250a-9505-5563-a5ae-f6bf5861fbd8"],
+  "data/type": "json"
+}

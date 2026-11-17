@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/amplitudes.polars.py"
+  },
+  "transformation/data-child": ["data/id", "0340e0ad-13eb-5dfc-826c-6e94efa31c1c"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "64484f2c-37f1-5cd4-91db-f42a333619e4",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Amplitudes",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "83d101ff-dd29-57dd-ac17-65362a8ed9e3"],
+  "transformation/units": "{}"
+}

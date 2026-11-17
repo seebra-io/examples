@@ -1,0 +1,10 @@
+{
+  "data/id": "744c1f80-1f7f-5bbf-9614-cf17fa05a3ee",
+  "data/name": "Hours per city data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "22604cfe-9672-5181-9ae7-e0db3b26583b"],
+  "data/type": "json"
+}

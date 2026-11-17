@@ -1,0 +1,11 @@
+{
+  "data/id": "118ff35f-a222-556d-8f39-88496fb799aa",
+  "data/name": "Eight countries, first and last year",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 560
+  },
+  "data/parent": ["transformation/id", "abc5923c-97be-528b-a4ab-264869d36f10"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "037e71d5-6cc0-58b0-9893-edcd733ac7fe"],
+  "query/datasource": ["datasource/id", "f1eceadd-66ba-5d51-b051-06ed102da299"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "4ae0ad91-ec88-5486-b206-cda5d1dbb637",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Open Iran markets (play money)",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 1760
+  },
+  "query/params": "{\"term\":\"iran\",\"limit\":\"40\",\"filter\":\"open\",\"sort\":\"liquidity\"}",
+  "query/path": "/search-markets",
+  "query/request-body": "",
+  "query/units": "{}"
+}

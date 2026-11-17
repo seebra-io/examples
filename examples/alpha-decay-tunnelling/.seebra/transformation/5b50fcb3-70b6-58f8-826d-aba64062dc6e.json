@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/geiger-nuttall-and-gamow-views.sql"
+  },
+  "transformation/data-child": ["data/id", "a27ce431-d01e-5772-972f-e65bdf52c818"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "5b50fcb3-70b6-58f8-826d-aba64062dc6e",
+  "transformation/inputs": [],
+  "transformation/language": "sql",
+  "transformation/name": "Geiger–Nuttall and Gamow views",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 2840,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "8134e6d4-086b-5583-8e5f-dde534c937ff"],
+  "transformation/units": "{}"
+}

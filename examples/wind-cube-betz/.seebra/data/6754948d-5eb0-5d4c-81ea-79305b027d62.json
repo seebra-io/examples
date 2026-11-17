@@ -1,0 +1,11 @@
+{
+  "data/id": "6754948d-5eb0-5d4c-81ea-79305b027d62",
+  "data/name": "Cube-law fit",
+  "data/node": {
+    "node/x": 2070,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "7828b4b4-4d21-5c51-afa8-4dc8e1186462"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

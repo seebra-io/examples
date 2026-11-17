@@ -1,0 +1,10 @@
+{
+  "data/id": "f968b57f-9420-5765-887e-fdf695861317",
+  "data/name": "Coding sequences, batch 1 (28 ribosomal, 22 regulators) data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 560
+  },
+  "data/parent": ["query/id", "17ea2bf6-044e-5f4d-8847-4e543af04e37"],
+  "data/type": "json"
+}

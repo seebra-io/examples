@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/approaches-one-list-the-feed-is-keyed-by-date.js"
+  },
+  "transformation/data-child": ["data/id", "0509d059-8916-59cc-bd2c-c032e1e90ced"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "js-web-worker",
+  "transformation/id": "14166986-37d3-5ed3-97eb-703384fa2a91",
+  "transformation/inputs": [],
+  "transformation/language": "javascript",
+  "transformation/name": "Approaches, one list (the feed is keyed by date)",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "f66fabdb-039b-51db-9d8f-4ef9fc458a24"],
+  "transformation/units": "{}"
+}

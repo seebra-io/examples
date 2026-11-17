@@ -1,0 +1,10 @@
+{
+  "data/id": "1b613d4f-d4d9-5857-a8a3-e5a61fa7f06c",
+  "data/name": "1A6M helices and strands data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 320
+  },
+  "data/parent": ["query/id", "174e31fb-31d6-519e-bb31-80b850648d38"],
+  "data/type": "json"
+}

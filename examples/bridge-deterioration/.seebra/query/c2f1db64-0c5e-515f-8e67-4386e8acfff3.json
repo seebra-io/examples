@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "4e826347-7e3c-50d0-a133-5b01180a367f"],
+  "query/datasource": ["datasource/id", "cb5e61e3-61d7-5349-ac10-33bfc1ff8ecc"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "c2f1db64-0c5e-515f-8e67-4386e8acfff3",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Reconstructed bridges: mean lowest rating per year of reconstruction",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 800
+  },
+  "query/params": "{\"where\":\"YEAR_RECONSTRUCTED_106>0 AND LOWEST_RATING>=0\",\"groupByFieldsForStatistics\":\"YEAR_RECONSTRUCTED_106\",\"outStatistics\":\"[{\\\"statisticType\\\":\\\"count\\\",\\\"onStatisticField\\\":\\\"OBJECTID\\\",\\\"outStatisticFieldName\\\":\\\"n\\\"},{\\\"statisticType\\\":\\\"avg\\\",\\\"onStatisticField\\\":\\\"LOWEST_RATING\\\",\\\"outStatisticFieldName\\\":\\\"mean_rating\\\"}]\",\"f\":\"json\"}",
+  "query/path": "/query",
+  "query/request-body": "",
+  "query/units": "{}"
+}

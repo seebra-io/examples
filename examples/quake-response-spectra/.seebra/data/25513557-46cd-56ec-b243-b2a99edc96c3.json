@@ -1,0 +1,10 @@
+{
+  "data/id": "25513557-46cd-56ec-b243-b2a99edc96c3",
+  "data/name": "Median spectral shape per distance data",
+  "data/node": {
+    "node/x": 2530,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "ca2fa73b-678d-558a-98b0-3a52879104e0"],
+  "data/type": "json"
+}

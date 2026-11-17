@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/questions.polars.py"
+  },
+  "transformation/data-child": ["data/id", "da17c55b-e0a1-5daa-9102-d722229fd1b2"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "bae16e0b-cfdc-5a29-9be3-a7c6794ddde4",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Questions",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "9a950e6f-599d-5ddb-b4cd-1a234a340bf5"],
+  "transformation/units": "{}"
+}

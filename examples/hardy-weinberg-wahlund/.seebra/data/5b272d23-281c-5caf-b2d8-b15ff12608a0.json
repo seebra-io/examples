@@ -1,0 +1,11 @@
+{
+  "data/id": "5b272d23-281c-5caf-b2d8-b15ff12608a0",
+  "data/name": "Per variant",
+  "data/node": {
+    "node/x": 2530,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "71ac0f17-8388-5441-9da7-19d3609b0896"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

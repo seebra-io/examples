@@ -1,0 +1,1 @@
+SELECT namespace, phase, COUNT(*) AS pods FROM data GROUP BY namespace, phase ORDER BY namespace, phase

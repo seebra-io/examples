@@ -1,0 +1,10 @@
+{
+  "data/id": "81ef6cb4-4187-5f70-a33b-d2d530e8ab4f",
+  "data/name": "HRV metrics, every beat against NN only (long form) data",
+  "data/node": {
+    "node/x": 2530,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "f65c9fdd-1f48-5bb1-a496-941191523985"],
+  "data/type": "json"
+}
