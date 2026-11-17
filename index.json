@@ -15,7 +15,31 @@
       "listed": true,
       "files": 60,
       "data": [],
-      "fetched": []
+      "fetched": [],
+      "catalog": {
+        "title": "Power laws in the doctoral-advisor network",
+        "summary": "Who supervised whose PhD (Wikidata P184): a heavy tail of prolific advisors, and how to test a power law properly with MLE, KS and likelihood ratios.",
+        "description": "Question: do a few advisors collect most doctoral students, and is it a power law? Wikidata's doctoral-advisor relation gives 118,046 advisors and 334,857 students. Half the advisors have one recorded student, but 7 have 100 or more, which a same-mean geometric puts at 10⁻¹⁰. The dashboard plots the CCDF, fits α by maximum likelihood over a KS-chosen x_min, and tests it against an exponential with Vuong's likelihood ratio. Students per advisor are heavy-tailed but bend (α goes from 1.7 to 4.0 as x_min rises), and in the tail the power law can't be told from an exponential; advisors per student are exponential. Caveats: Wikidata coverage bias, lognormal not fitted.",
+        "categories": [
+          "science/mathematics/statistics",
+          "science/computer/data",
+          "science/research"
+        ],
+        "tags": [
+          "example",
+          "power law",
+          "heavy tail",
+          "network science",
+          "degree distribution",
+          "maximum likelihood",
+          "preferential attachment",
+          "wikidata",
+          "sparql"
+        ],
+        "apis": [
+          "wikidata-sparql"
+        ]
+      }
     },
     {
       "id": "air-quality",
@@ -27,7 +51,24 @@
       "listed": true,
       "files": 19,
       "data": [],
-      "fetched": []
+      "fetched": [],
+      "catalog": {
+        "title": "Air quality in eight cities",
+        "summary": "Open-Meteo's CAMS air-quality model for eight cities:",
+        "description": "Open-Meteo's CAMS air-quality model for eight cities: hourly fine particles (PM2.5) for the past three days and the next two, against the WHO 24-hour guideline (15 µg/m³), and daily means of PM2.5, PM10, NO₂ and ozone. Statistics: the guideline is a 99th percentile (no more than 3–4 days a year above it), so the second graph shows each city's distribution of hours as quantiles and counts the days whose mean exceeds 15. Modelled values, not station measurements; five days are a small sample of a year.",
+        "categories": [
+          "environment/air",
+          "science/earth/atmosphere",
+          "engineering/environmental/pollution"
+        ],
+        "tags": [
+          "example"
+        ],
+        "image": "/explore/logos/open-meteo-air.png",
+        "apis": [
+          "open-meteo-air"
+        ]
+      }
     },
     {
       "id": "alpha-decay-tunnelling",
@@ -39,7 +80,26 @@
       "listed": true,
       "files": 29,
       "data": [],
-      "fetched": []
+      "fetched": [],
+      "catalog": {
+        "title": "Alpha decay: tunnelling explains 40 decades of half-life",
+        "summary": "The chart of nuclides, and Gamow's tunnelling exponent turning the Geiger–Nuttall law into one line across 42 decades of half-life.",
+        "description": "IAEA LiveChart ground states: decay modes on the N–Z chart, and for α emitters the WKB Coulomb-barrier exponent computed from Z, A and Q, against measured half-lives (slope 0.99, scatter 0.4 dex for even–even nuclei).",
+        "categories": [
+          "science/physical/particle",
+          "science/physical/quantum"
+        ],
+        "tags": [
+          "example",
+          "nuclear",
+          "half-life",
+          "quantum-tunnelling",
+          "geiger-nuttall"
+        ],
+        "apis": [
+          "iaea-livechart"
+        ]
+      }
     },
     {
       "id": "api-uniqueness",
@@ -51,7 +111,26 @@
       "listed": true,
       "files": 55,
       "data": [],
-      "fetched": []
+      "fetched": [],
+      "catalog": {
+        "title": "How unique is an API? A study of the Explore catalog",
+        "summary": "Recomputes Explore's uniqueness score from the catalog: rarity drives it more than the text; the near-copies are vendor product lines, not countries.",
+        "description": "A study: which APIs bring something no other API does, and which fields are crowded with near-copies? TF-IDF over every API's description (JavaScript), then distinctness, rarity, score and percentile in Polars; the distribution, fields, most and least unique with their neighbours, a similarity network, sensitivity to k and place names, and a Welch test of 'energy and markets are per-country copies'. Measures descriptions, not data.",
+        "categories": [
+          "science/computer/data",
+          "science/mathematics/statistics"
+        ],
+        "tags": [
+          "example",
+          "tf-idf",
+          "similarity",
+          "catalog",
+          "uniqueness",
+          "study",
+          "nlp"
+        ],
+        "apis": []
+      }
     },
     {
       "id": "api-workbench",
@@ -63,7 +142,19 @@
       "listed": true,
       "files": 27,
       "data": [],
-      "fetched": []
+      "fetched": [],
+      "catalog": {
+        "title": "REST API workbench",
+        "summary": "Developing against a REST API:",
+        "description": "Developing against a REST API: call endpoints, join their answers and check the shape of the data: which fields every record has, which users and posts match in a full join, and the distribution of body lengths with its quantiles before averaging it. Uses JSONPlaceholder as a stand-in (a fixture: every user has exactly 10 posts); point the datasource at http://localhost:<port> and Seebra calls your local API straight from the browser.",
+        "categories": [
+          "developer/tools"
+        ],
+        "tags": [
+          "example"
+        ],
+        "apis": []
+      }
     },
     {
       "id": "ashby-stiffness",
@@ -75,7 +166,28 @@
       "listed": true,
       "files": 42,
       "data": [],
-      "fetched": []
+      "fetched": [],
+      "catalog": {
+        "title": "Ashby chart: why aircraft are aluminium, CFRP and spruce",
+        "summary": "Stiffness against density for 438 Wikidata materials: as ties steel, Al and Ti tie; as panels aluminium weighs half of steel and spruce 15%. Performance indices.",
+        "description": "Question: steel, aluminium and titanium are equally stiff for their weight, so why are airframes aluminium and CFRP? Wikidata's SI-normalized Young's modulus and density (35 engineering materials), plus E = 9KG/(3K+G) from bulk and shear moduli (405 elements and minerals), on an Ashby chart with lines of constant E/ρ (ties), E^½/ρ (beams) and E^⅓/ρ (panels). Caveats: small crowd-curated sample, unreferenced computed-looking K/G, anisotropy of wood and composites, stiffness only.",
+        "categories": [
+          "engineering/materials/properties",
+          "engineering/mechanical/aerospace"
+        ],
+        "tags": [
+          "example",
+          "materials",
+          "ashby chart",
+          "young's modulus",
+          "performance index",
+          "specific stiffness",
+          "wikidata"
+        ],
+        "apis": [
+          "wikidata-sparql"
+        ]
+      }
     },
     {
       "id": "beetle-species-effort",
@@ -87,7 +199,22 @@
       "listed": true,
       "files": 35,
       "data": [],
-      "fetched": []
+      "fetched": [],
+      "catalog": {
+        "title": "Beetle species and effort",
+        "summary": "Beetle records in GBIF from three Swedish provinces in 2024, counted per species.",
+        "description": "Beetle records in GBIF from three Swedish provinces in 2024, counted per species. Statistics idea: a species count depends on effort: rarefaction gives the species expected in n random records so provinces compare at equal effort, and Chao1 estimates the unseen from species seen once and twice. Caveats: GBIF records are not a random sample, provinces differ in size and habitat, and Chao1 is a lower bound.",
+        "categories": [
+          "science/biology/ecology",
+          "science/mathematics/statistics"
+        ],
+        "tags": [
+          "example"
+        ],
+        "apis": [
+          "gbif"
+        ]
+      }
     },
     {
       "id": "benford-countries",
@@ -99,7 +226,23 @@
       "listed": true,
       "files": 30,
       "data": [],
-      "fetched": []
+      "fetched": [],
+      "catalog": {
+        "title": "Benford's law in country statistics",
+        "summary": "Population, land area, GDP and CO₂ emissions of every country from the World Bank, and the first significant digit of each.",
+        "description": "Population, land area, GDP and CO₂ emissions of every country from the World Bank, and the first significant digit of each. Statistics idea: Benford's law: quantities spanning several orders of magnitude start with 1 about 30% of the time and with 9 under 5% (log10(1 + 1/d)); a chi-square test and the mean absolute deviation say how close each comes. Caveats: ~215 countries is a small sample for a digit test, values are each country's latest year, and conformity is not proof of honest numbers.",
+        "categories": [
+          "geography/countries",
+          "science/mathematics/statistics"
+        ],
+        "tags": [
+          "example"
+        ],
+        "image": "/explore/logos/worldbank.png",
+        "apis": [
+          "worldbank"
+        ]
+      }
     },
     {
       "id": "bridge-deterioration",
@@ -111,7 +254,30 @@
       "listed": true,
       "files": 54,
       "data": [],
-      "fetched": []
+      "fetched": [],
+      "catalog": {
+        "title": "How bridges wear out: the National Bridge Inventory",
+        "summary": "Deterioration curves from 622,769 US bridges: poor share doubles every 7 years of age until 45, repairs bend it, and the 1956–1980 cohorts push poor bridges up 35% by 2035.",
+        "description": "Question: how fast does a bridge wear out, and why will there be more poor bridges in ten years even at today's repair pace? The FHWA National Bridge Inventory (June 2025), aggregated by the BTS ArcGIS server, read like a life table: ratings by age, an exponential wear-in fit (doubling 7.2 years), a period projection of poor bridges to 2035/2045, materials compared at the same age (age confounds steel vs prestressed concrete), and whether reconstruction resets the clock. Caveats: one inventory, so survivor bias; inspector ratings; projection is not a forecast.",
+        "categories": [
+          "engineering/civil/structural",
+          "engineering/civil/transport"
+        ],
+        "tags": [
+          "example",
+          "bridges",
+          "infrastructure",
+          "deterioration",
+          "survivor bias",
+          "life table",
+          "FHWA",
+          "NBI",
+          "study"
+        ],
+        "apis": [
+          "us-national-bridge-inventory"
+        ]
+      }
     },
     {
       "id": "c-value-paradox",
@@ -123,7 +289,25 @@
       "listed": true,
       "files": 46,
       "data": [],
-      "fetched": []
+      "fetched": [],
+      "catalog": {
+        "title": "The C-value paradox: genome size against gene number",
+        "summary": "1,000 NCBI reference genomes: genes scale 1:1 with size in bacteria, barely at all in plants and animals (b 0.15–0.26).",
+        "description": "Question: does a bigger genome mean more genes? If DNA were mostly genes, gene count would grow in proportion to genome size (genes ∝ size^b with b = 1). Data: 1,000 annotated reference genomes from NCBI Datasets, the first 200 of each of five groups (bacteria, archaea, fungi, plants, animals): assembly size, G+C % and protein-coding gene count. Steps: per genome the size in Mb and the gene density (genes per Mb); per group a least-squares fit of log10(genes) on log10(size), whose slope b is the scaling exponent, with R², and the fold ranges of size and gene count; the same for prokaryotes against eukaryotes. Aha: in bacteria b = 1.01 (R² 0.99) and archaea 0.88: a prokaryote genome is genes packed end to end, about 900–1,000 per Mb at any size. In eukaryotes the law breaks: animal genomes span a 500-fold range of size (57 Mb to the axolotl's 29 Gb) with b = 0.15, plants 0.26, fungi 0.53, and the median density falls to 25 genes per Mb in animals. Genome size says little about gene number or complexity: the C-value paradox. The extra DNA is introns, repeats and transposable elements, which this data does not hold. Caveats: NCBI's first 200 reference genomes per group are a sample in NCBI's order, not random, and over-represent well-studied species; gene counts depend on the annotation pipeline (RefSeq or submitter), and polyploids (wheat, 104k genes) count every copy; assembly length is not flow-cytometry C-value (repeats may be missing from assemblies); microsporidia (Encephalitozoon) count as fungi. Next: hover a genome; drill down to one group (insects, grasses: any NCBI taxon id in the same query); expand to repeat content or intron length, or to Lynch's population-size hypothesis.",
+        "categories": [
+          "science/biology/genetics",
+          "science/biology/organisms",
+          "science/biology/bioinformatics"
+        ],
+        "tags": [
+          "example",
+          "genomics",
+          "allometry"
+        ],
+        "apis": [
+          "ncbi-datasets"
+        ]
+      }
     },
     {
       "id": "caffeine-a2a",
@@ -135,7 +319,27 @@
       "listed": true,
       "files": 57,
       "data": [],
-      "fetched": []
+      "fetched": [],
+      "catalog": {
+        "title": "Caffeine in its receptor",
+        "summary": "Caffeine bound in its real target, the human adenosine A2A receptor (RCSB 5MZP, 2.1 Å), in 3D, against adenosine, the agonist it blocks (2YDO).",
+        "description": "Caffeine bound in its real target, the human adenosine A2A receptor (RCSB 5MZP, 2.1 Å), in 3D, against adenosine, the agonist it blocks (2YDO). Contacts are computed from the coordinates: per residue within 5 Å, an H-bond candidate (N/O under 3.5 Å), π-stacking (ring centroids within 5.5 Å) or hydrophobic (C–C under 4 Å), with GPCRdb helix positions and UniProt binding sites. Idea: a molecule blocks a receptor by fitting its pocket without activating it: caffeine keeps adenosine's purine contacts (stacking on Phe168, an H-bond to Asn253) but, with no ribose, none of the ribose contacts (Ser277, His278) agonists use. Caveats: static snapshots of thermostabilised, mutated receptors (5MZP has Ala at 88 and 277); distance cutoffs, not energies or affinity; A1 is a caffeine target too.",
+        "categories": [
+          "health/drugs",
+          "science/chemistry/organic",
+          "science/biology/bioinformatics",
+          "science/biology/molecular"
+        ],
+        "tags": [
+          "example"
+        ],
+        "image": "/explore/logos/pubchem.png",
+        "apis": [
+          "rcsb-pdb",
+          "uniprot",
+          "pubchem"
+        ]
+      }
     },
     {
       "id": "can-i-fly-vfr-sweden",
@@ -147,7 +351,31 @@
       "listed": true,
       "files": 75,
       "data": [],
-      "fetched": []
+      "fetched": [],
+      "catalog": {
+        "title": "Can I fly ESSA → ESGG VFR now?",
+        "summary": "VFR go/no-go from METARs, TAF groups, SIGMETs and SMHI's model: why a TEMPO, not the METAR, decides a flight two hours out.",
+        "description": "A VFR go/no-go from every METAR and TAF in Sweden and its neighbours (NOAA AWC), SIGMETs and SMHI's model along the route: each TAF group graded against the SERA VMC minima (1500 ft, 5 km) in each airport's ±1 h window. The aha: the TEMPO/PROB groups, not the prevailing forecast or the METAR, decide a VFR flight a few hours out. Not an official briefing.",
+        "categories": [
+          "transport/aviation",
+          "weather/forecasts",
+          "weather/observations"
+        ],
+        "tags": [
+          "example",
+          "aviation",
+          "metar",
+          "taf",
+          "sigmet",
+          "vfr",
+          "sweden",
+          "study"
+        ],
+        "apis": [
+          "aviationweather",
+          "smhi-forecast"
+        ]
+      }
     },
     {
       "id": "chip-die-yield",
@@ -159,7 +387,27 @@
       "listed": true,
       "files": 28,
       "data": [],
-      "fetched": []
+      "fetched": [],
+      "catalog": {
+        "title": "Die yield: why big chips are expensive and chiplets exist",
+        "summary": "Real die areas under Poisson, Murphy and negative-binomial yield: big dies lose exponentially, and tested chiplets win the silicon back.",
+        "description": "Question: why does a chip twice the size cost more than twice as much, and why did AMD, Intel and Apple start building processors from several small dies (chiplets)? Data: every chip and image sensor on Wikidata with a die area in mm² (SPARQL, keyless): Apple's A4 to M1 Max, AMD's APUs, console chips, Radeon GPUs, and camera sensors up to full frame (864 mm²). Steps: gross dies per 300 mm wafer, π(d/2)²/A − πd/√(2A); the share that works under three defect models (Poisson e^(−A·D0), Murphy's, and the negative binomial for clustered defects) for defect densities of 0.05 to 0.5 per cm²; the silicon cost of a good mm² against an ideal die; and the same designs split into 2, 4 or 8 tested chiplets, each 10% larger than its share. Aha: yield falls exponentially with area, so the cost of a good mm² climbs steeply for big dies, worst on a young process: splitting a big die into chiplets that are tested before packaging recovers most of the lost silicon, which is why big chips are now built from small ones. Caveats: the defect densities are scenarios (foundries publish few), not data, and so are the 300 mm wafer and the 10% interface overhead; Wikidata has die areas for a few dozen chips only and some entries may be package or sensor areas; packaging, test, interconnect yield and the scribe lines are ignored; real fabs also repair dies with spare cores and memory rows. Next: drill into one die (click it for Wikipedia), expand to wafer prices per node and to published D0 figures (TSMC's N5 ramp), or to the transistor count each die holds (chip-moore-dennard).",
+        "categories": [
+          "engineering/electrical/semiconductors",
+          "engineering/manufacturing/industrial"
+        ],
+        "tags": [
+          "example",
+          "yield",
+          "chiplets",
+          "wafer",
+          "poisson",
+          "cost"
+        ],
+        "apis": [
+          "wikidata-sparql"
+        ]
+      }
     },
     {
       "id": "chip-direct-gap",
@@ -171,7 +419,29 @@
       "listed": true,
       "files": 37,
       "data": [],
-      "fetched": []
+      "fetched": [],
+      "catalog": {
+        "title": "Direct and indirect band gaps: why LEDs are not silicon",
+        "summary": "Stable semiconductors by family: silicon's gap is indirect, GaAs, GaN and InP are direct, which is why LEDs and lasers are III-V or II-VI.",
+        "description": "Question: why are LEDs and laser diodes made of III-V and II-VI compounds (GaAs, InP, GaN, ZnSe) and not of silicon, the best-understood semiconductor there is? Data: every stable element and binary compound with a band gap and at most 4 atoms per cell in Alexandria (PBE density-functional calculations, Ruhr University Bochum, via its keyless OPTIMADE API): the fundamental gap and the smallest direct gap; and PubChem's periodic table for each element's valence electrons and electronegativity. Steps: the gap is direct when the smallest vertical gap equals the fundamental one (within 0.005 eV); each material gets a family from its elements' valences (III-V: 3 and 5 in a 1:1 compound; II-VI and I-VII split by whether the metal has a full d shell, Zn/Cd/Hg and Cu/Ag, or is an alkaline-earth/alkali metal); shares of direct gaps per family with Wilson 95% intervals; a two-proportion z-test of III-V and II-VI against the rest. Aha: an electron in an indirect-gap material (Si: the direct gap is about 1.9 eV above the fundamental one) can only fall across the gap if a lattice vibration takes up its momentum, so it emits light a million times more slowly than it loses its energy as heat; in GaAs or GaN the band edges line up and a photon is emitted directly. Caveats: PBE underestimates band gaps by 30 to 100% (Si 0.65 eV here against 1.12 measured; GaAs 0.20 against 1.42), and Ge, InAs and InSb come out metallic and are missing; the direct/indirect character is more robust than the value but near-direct materials (GaP, margin 0.02 eV) can flip; families with few members have wide intervals; the photon wavelengths in the tooltips use PBE gaps and are too long. Next: drill into III-V (why AlAs and GaP are indirect), expand to alloys (AlGaAs, GaAsP turn indirect at a crossover composition) and to measured gaps.",
+        "categories": [
+          "engineering/electrical/semiconductors",
+          "science/physical/condensed",
+          "engineering/materials/properties"
+        ],
+        "tags": [
+          "example",
+          "band gap",
+          "led",
+          "dft",
+          "optimade",
+          "rates"
+        ],
+        "apis": [
+          "alexandria",
+          "pubchem"
+        ]
+      }
     },
     {
       "id": "chip-moore-dennard",
@@ -183,7 +453,26 @@
       "listed": true,
       "files": 57,
       "data": [],
-      "fetched": []
+      "fetched": [],
+      "catalog": {
+        "title": "Moore's law and the end of Dennard scaling",
+        "summary": "Fifty years of CPUs: transistors kept doubling every ~2 years, but the clock and power went flat after 2004, the end of Dennard scaling.",
+        "description": "Question: transistors kept doubling for fifty years, so why did clock speed stop rising around 2005, and where did the extra transistors go? Data: Karl Rupp's microprocessor trend data (CC BY 4.0; transistors, clock, typical power, single-thread SpecINT and logical cores for about 100 CPUs, 1971–2021). Steps: each measure as log2 of its value against year, so a straight line is a constant doubling time; for the clock, a two-line fit for every candidate break year from 1995 to 2014 (the year with the smallest squared error wins); each measure fitted before and after that year with 95% intervals; a Chow F-test of one line against two; and Dennard's budget: dynamic power P ≈ N·C·V²·f, so the doublings per year of transistors × clock minus those of power is how fast the switching energy C·V² had to fall. Aha: the transistor line barely bends at the break, but the clock and power lines go flat: until the mid-2000s each shrink lowered the voltage, paying for faster clocks at constant power density (Dennard scaling); when leakage stopped the voltage from falling, the clock froze at the cooling limit and the extra transistors became cores. Caveats: points before 2010 were digitised from a published plot (Horowitz, Labonte, Shacham, Olukotun, Hammond, Batten), later ones collected by Rupp; the sample is high-end Intel/AMD/IBM CPUs, not phones or GPUs; power is TDP; the break year is chosen on the clock data, so the clock's Chow p-value is optimistic; each file's first line (the 1971 Intel 4004) is read as a CSV header and dropped. Next: the voltage data that would test the mechanism (in the study), die area for power density, and Rupp's blog post for the story.",
+        "categories": [
+          "engineering/electrical/semiconductors",
+          "engineering/computing",
+          "science/computer/systems"
+        ],
+        "tags": [
+          "example",
+          "moore's law",
+          "dennard scaling",
+          "cpu",
+          "regression",
+          "structural break"
+        ],
+        "apis": []
+      }
     },
     {
       "id": "chip-tetrahedral-bonds",
@@ -195,7 +484,28 @@
       "listed": true,
       "files": 35,
       "data": [],
-      "fetched": []
+      "fetched": [],
+      "catalog": {
+        "title": "Why semiconductors are tetrahedral: the Mooser–Pearson map",
+        "summary": "Octet compounds on electronegativity difference against atom size: covalent and light means four neighbours (zincblende), ionic means rock salt.",
+        "description": "Question: silicon, GaAs, GaN, ZnSe, SiC: why is every semiconductor in a chip built of atoms with exactly four neighbours, while table salt and magnesium oxide, made of the same kinds of elements, take six? Data: every stable binary AB compound in Alexandria (PBE ground states, keyless OPTIMADE) with 2 or 4 atoms per cell made of main-group and d10 elements, and PubChem's periodic table for valence electrons, electronegativity and period. Steps: keep the octet compounds (two atoms bringing 8 valence electrons: I-VII, II-VI, III-V, IV-IV); read the coordination from the ground-state space group (zincblende and wurtzite 4, rock salt 6, CsCl 8); place each on the Mooser–Pearson map (Pauling electronegativity difference Δχ against the mean principal quantum number n̄); find the best single Δχ threshold and Fisher's linear discriminant on both, and their accuracy against always guessing the larger class. Aha: the structure is predictable from two atomic numbers: covalent bonds between light atoms (small Δχ, small n̄) are directional sp³ bonds pointing to four neighbours, the open tetrahedral network that gives a band gap with mobile carriers; ionic bonds (large Δχ) are not directional and pack six neighbours. One number already does most of the work: Δχ below about 1.3 predicts four neighbours for 87% of the compounds (against 52% for always guessing the larger class), and adding n̄ (Fisher's line) gets 91%. ZnO and BeO stay tetrahedral at quite large Δχ because their atoms are small, MgO and CdO go rock salt. Caveats: Pauling's Δχ is a crude ionicity (Phillips' spectroscopic ionicity from optical data separates the two classes completely at 0.785, but needs dielectric constants not fetched here); ground states are PBE at zero temperature and pressure (energy differences of a few meV/atom can flip: PBE puts LiCl, LiBr and LiI in wurtzite, while they crystallise as rock salt, and those three are most of the line's misses); no IV-IV compound (SiC) is in the ground-state set with these cell sizes; compounds with larger cells are left out; the discriminant is fitted and judged on the same compounds. Next: drill into the misclassified compounds (scored table), expand to Phillips ionicity with dielectric data, or to how pressure turns tetrahedral semiconductors into rock salt.",
+        "categories": [
+          "science/chemistry/inorganic",
+          "science/physical/condensed",
+          "engineering/electrical/semiconductors"
+        ],
+        "tags": [
+          "example",
+          "crystal structure",
+          "ionicity",
+          "structure map",
+          "discriminant analysis"
+        ],
+        "apis": [
+          "alexandria",
+          "pubchem"
+        ]
+      }
     },
     {
       "id": "chip-vegard-epitaxy",
@@ -207,7 +517,29 @@
       "listed": true,
       "files": 48,
       "data": [],
-      "fetched": []
+      "fetched": [],
+      "catalog": {
+        "title": "Vegard's law and lattice matching for epitaxy",
+        "summary": "Alloy lattice constants are linear in composition, so In0.53Ga0.47As fits InP: the gap-against-lattice-constant map of III-V epitaxy.",
+        "description": "Question: how do you grow a perfect crystal of one semiconductor on a wafer of another, and why is the photodetector in every fibre-optic receiver made of exactly In0.53Ga0.47As? Data: Alexandria's PBE calculations (keyless OPTIMADE) of the zincblende III-V binaries, Si and Ge, and of ordered (In,Ga)As and (Al,Ga)As cells; measured lattice constants of GaAs, InAs, AlAs and InP from the Crystallography Open Database. Steps: the cubic lattice constant from each cell's volume (a = (8V/atoms)^(1/3)); each alloy against the straight line between its end points (Vegard's law) and a least-squares bowing parameter for its lattice constant and band gap; the composition x* where In(x)Ga(1−x)As has InP's lattice constant, from PBE and from measured values; PBE's error against the measured cells. Aha: an alloy's lattice constant is linear in its composition (the ordered alloys sit on Vegard's line to a few hundredths of a percent) while its band gap bends, so composition is a dial: pick x to match the substrate, then the gap follows; on the gap-against-lattice-constant map every epitaxial stack is a vertical line, GaAs and AlAs share one (strain-free AlGaAs lasers and transistors), and InP's crosses (In,Ga)As at x ≈ 0.53. Caveats: PBE lattice constants are 1–2% too large and not uniformly so, which moves the matched x (0.47 with PBE, 0.53 with the measured cells) and even flips the sign of the tiny AlAs-on-GaAs mismatch (−0.21% PBE, +0.13% measured); PBE gaps are far too small (InAs and the In-rich alloys have none), so the gap axis is qualitative; ordered cells are not random alloys and fold the indirect valleys onto Γ; strain, critical thickness and thermal-expansion mismatch are not computed. Next: drill into one alloy's cells (click), expand to (Ga,In)P on GaAs, GaN on sapphire or SiGe on Si, and to critical thickness.",
+        "categories": [
+          "engineering/electrical/semiconductors",
+          "engineering/manufacturing/processes",
+          "science/physical/condensed"
+        ],
+        "tags": [
+          "example",
+          "vegard's law",
+          "epitaxy",
+          "iii-v",
+          "alloys",
+          "dft"
+        ],
+        "apis": [
+          "alexandria",
+          "cod"
+        ]
+      }
     },
     {
       "id": "chip-xrd-bragg",
@@ -219,7 +551,28 @@
       "listed": true,
       "files": 44,
       "data": [],
-      "fetched": []
+      "fetched": [],
+      "catalog": {
+        "title": "Bragg's law and the selection rules of semiconductor crystals",
+        "summary": "Powder patterns of Si, Ge, GaAs, AlAs and InP from COD cells: (200) is extinct in Si, faint in GaAs, strong in InP; film peaks split as tan θ.",
+        "description": "Question: how does an X-ray diffractometer tell silicon from gallium arsenide, and how does it measure a film a few nanometres thick on a wafer? Data: the Crystallography Open Database's entries for Si, Ge, C, GaAs, AlAs and InP (keyless JSON), the cubic cell edge a of each (the entry nearest the median of its cubic entries), and PubChem's atomic numbers. Steps: Bragg's law nλ = 2d sin θ with d = a/√(h²+k²+l²) for Cu Kα1 (1.5406 Å); the structure factor of an fcc lattice with a two-atom basis (|F|² = 16(f_A ± f_B)² or 16(f_A² + f_B²) by the parity of h, k, l); intensities with multiplicity and the Lorentz-polarisation factor; and the splitting between a film's and a substrate's peaks, Δ2θ ≈ −2 tan θ · Δa/a. Aha: the (200) reflection is extinct in Si, Ge and diamond (one kind of atom, so the two atoms of the basis cancel), almost invisible in GaAs (Ga and As have 31 and 33 electrons: 0.1% of the strongest peak) and strong in AlAs and InP (17% and 24%): the pattern reads the chemistry of the basis. And the splitting of a nearly lattice-matched film like AlAs on GaAs (0.13% mismatch) grows with tan θ, which is why epitaxial layers are measured on high-angle reflections. Caveats: atomic scattering factors are approximated by Z (no fall-off with angle, no Debye–Waller factor), so high-angle intensities are too large; real silicon shows a weak 'forbidden' (222) from its bonding charge; Kα2, absorption, preferred orientation and peak widths are ignored; COD entries were measured at different temperatures (thermal expansion shifts a by about 0.01% per 40 K in Si). Next: open a COD entry (click a peak), compare a measured pattern, or follow the lattice-matching example (chip-vegard-epitaxy) for alloys.",
+        "categories": [
+          "science/physical/condensed",
+          "engineering/metrology",
+          "engineering/electrical/semiconductors"
+        ],
+        "tags": [
+          "example",
+          "x-ray diffraction",
+          "bragg's law",
+          "structure factor",
+          "crystallography"
+        ],
+        "apis": [
+          "cod",
+          "pubchem"
+        ]
+      }
     },
     {
       "id": "ci-littles-law",
@@ -231,7 +584,27 @@
       "listed": true,
       "files": 50,
       "data": [],
-      "fetched": []
+      "fetched": [],
+      "catalog": {
+        "title": "Little's law in NumPy's CI",
+        "summary": "A day of NumPy's CI runs: runs in flight equal arrival rate times time in system, and which workflows hold the load.",
+        "description": "GitHub Actions runs as a queueing system: L(t) on a minute clock, L against λW per day and per hour, and each workflow's share of the load.",
+        "categories": [
+          "developer/code",
+          "engineering/manufacturing/industrial",
+          "science/mathematics/statistics"
+        ],
+        "tags": [
+          "example",
+          "queueing",
+          "little's law",
+          "ci",
+          "study"
+        ],
+        "apis": [
+          "github"
+        ]
+      }
     },
     {
       "id": "cleveland-art",
@@ -243,7 +616,21 @@
       "listed": true,
       "files": 18,
       "data": [],
-      "fetched": []
+      "fetched": [],
+      "catalog": {
+        "title": "Paintings at the Cleveland Museum of Art",
+        "summary": "Public-domain paintings in an image grid and a JSONata catalogue.",
+        "description": "Open-access (CC0) paintings from the Cleveland Museum of Art: an image grid, and a table of who made them and when.",
+        "categories": [
+          "culture/art"
+        ],
+        "tags": [
+          "example"
+        ],
+        "apis": [
+          "cleveland-museum-of-art"
+        ]
+      }
     },
     {
       "id": "co2-income-elasticity",
@@ -255,7 +642,23 @@
       "listed": true,
       "files": 32,
       "data": [],
-      "fetched": []
+      "fetched": [],
+      "catalog": {
+        "title": "CO₂ and income: elasticity",
+        "summary": "CO₂ per person against GDP per person (PPP) for every country of a million people or more (World Bank), and six countries' paths since 1990.",
+        "description": "CO₂ per person against GDP per person (PPP) for every country of a million people or more (World Bank), and six countries' paths since 1990. Statistics idea: an elasticity is a slope on log–log axes: across countries CO₂ rises about 1.1% per 1% of income, but within Sweden, the UK, Germany and the US it fell as they got richer: a slope between groups is not the relation within them, and neither is a cause. Caveats: territorial emissions, latest year per country.",
+        "categories": [
+          "finance/economics",
+          "environment/air"
+        ],
+        "tags": [
+          "example"
+        ],
+        "image": "/explore/logos/worldbank.png",
+        "apis": [
+          "worldbank"
+        ]
+      }
     },
     {
       "id": "codon-usage-ecoli",
@@ -267,7 +670,27 @@
       "listed": true,
       "files": 46,
       "data": [],
-      "fetched": []
+      "fetched": [],
+      "catalog": {
+        "title": "Codon usage bias: synonymous is not neutral",
+        "summary": "E. coli ribosomal proteins against regulators: the genetic code read from Ensembl DNA and UniProt proteins, RSCU and Wright's Nc show translational selection.",
+        "description": "Question: the genetic code has 61 sense codons for 20 amino acids, so most amino acids can be written several ways. Does a cell care which synonym it uses? Data: 99 Escherichia coli K-12 genes, their coding DNA from Ensembl and their proteins from UniProt: the 56 ribosomal proteins (among the most-made proteins in a growing cell) against 43 DNA-binding transcription regulators (made at a few copies per cell; the first 44 in genome order of UniProt's 304). Steps: each codon is paired with the residue at the same place in the protein, which reads the genetic code (64 codons, the degeneracy of each amino acid) off the two databases; then relative synonymous codon usage (RSCU) per set, and per gene Wright's effective number of codons, Nc (20: one codon per amino acid, 61: all used equally), against the curve that mutation bias in G+C alone would give. The code comes out whole: all 64 codons, each opposite one amino acid (or stop) in every place but one (a TAA opposite Glu, an annotation difference). Aha: the regulators sit near the mutation-only curve (median Nc 51.3, 6 below it), while the ribosomal proteins fall far below it (median Nc 36.7, 23 below): they use a restricted dialect of preferred codons (Leu CTG, Arg CGT, Gly GGT; 63% of their synonymous codons against 36% in the regulators) and all but avoid the rare ones (RSCU of AGA 0.05, AGG 0, CTA 0.02, ATA 0.01, against 0.2–0.4 in the regulators). Synonymous is not neutral: selection for fast, accurate translation shapes the codons of highly expressed genes (Ikemura 1981, Sharp & Li 1987). Caveats: expression is not measured here, the gene sets stand for high and low expression; short genes give noisy Nc; the regulators were picked by genome order, not at random; ykgM is a paralogue of L31 made under zinc starvation, and cspE (a cold-shock protein) is abundant, so both sets have exceptions. tRNA gene copy numbers, the other half of the story, are not in this data. Next: hover a codon or a gene; drill into one amino acid's synonyms, or expand to another organism (Ensembl has yeast and human) or to measured protein abundance (PaxDb).",
+        "categories": [
+          "science/biology/molecular",
+          "science/biology/microbiology",
+          "science/biology/bioinformatics"
+        ],
+        "tags": [
+          "example",
+          "genetic code",
+          "codon usage",
+          "E. coli"
+        ],
+        "apis": [
+          "uniprot",
+          "ensembl"
+        ]
+      }
     },
     {
       "id": "copenhagen-rain-extremes",
@@ -279,7 +702,24 @@
       "listed": true,
       "files": 25,
       "data": [],
-      "fetched": []
+      "fetched": [],
+      "catalog": {
+        "title": "Copenhagen's wettest days",
+        "summary": "Daily precipitation over Copenhagen 1940–2025 (Open-Meteo's ERA5 archive) and each year's wettest day.",
+        "description": "Daily precipitation over Copenhagen 1940–2025 (Open-Meteo's ERA5 archive) and each year's wettest day. Statistics idea: extreme values: a Gumbel fit to the annual maxima gives return levels, the rain expected once in 10, 50 or 100 years on average, with 95% intervals, and the two halves of the record fitted apart. Caveats: a reanalysis grid cell smooths cloudbursts (2 July 2011), a 100-year level extrapolates, and the fit assumes a stable climate.",
+        "categories": [
+          "weather/climate",
+          "science/earth/climate",
+          "science/mathematics/statistics"
+        ],
+        "tags": [
+          "example"
+        ],
+        "image": "/explore/logos/open-meteo-archive.png",
+        "apis": [
+          "open-meteo-archive"
+        ]
+      }
     },
     {
       "id": "crypto-markets",
@@ -291,7 +731,21 @@
       "listed": true,
       "files": 24,
       "data": [],
-      "fetched": []
+      "fetched": [],
+      "catalog": {
+        "title": "Crypto: the top 20 today",
+        "summary": "Rows straight from the API, new columns in Polars, a diverging bar chart.",
+        "description": "CoinGecko's 20 largest coins by market cap: the API answers with rows, Polars adds columns, and a chart shows the day's moves.",
+        "categories": [
+          "finance/crypto"
+        ],
+        "tags": [
+          "example"
+        ],
+        "apis": [
+          "coingecko"
+        ]
+      }
     },
     {
       "id": "cve-watch",
@@ -303,7 +757,20 @@
       "listed": true,
       "files": 19,
       "data": [],
-      "fetched": []
+      "fetched": [],
+      "catalog": {
+        "title": "CVE watch",
+        "summary": "CISA's catalogue of vulnerabilities known to be exploited in the wild:",
+        "description": "CISA's catalogue of vulnerabilities known to be exploited in the wild: which vendors were added in the 90 days before the newest addition, which are used by ransomware, and each CVE with its required action and due date. A starting point for security and forensic triage. Statistics idea: waiting times. If additions came as a Poisson process, the days between addition days would be memoryless (geometric, the discrete exponential); CISA's working week and batch releases show up as departures from it. A vendor's count is not a rate: without its installed base (the exposure) it can't say whose products are riskier.",
+        "categories": [
+          "cloud/security",
+          "science/computer/systems"
+        ],
+        "tags": [
+          "example"
+        ],
+        "apis": []
+      }
     },
     {
       "id": "dinosaurs-through-time",
@@ -315,7 +782,29 @@
       "listed": false,
       "files": 38,
       "data": [],
-      "fetched": []
+      "fetched": [],
+      "catalog": {
+        "title": "Dinosaurs through time",
+        "summary": "Every non-bird dinosaur genus from the Paleobiology Database: when each lived, how many lived in each age, and where their fossils lie today against where those places were then.",
+        "description": "Three PBDB queries list the genera of theropods, sauropodomorphs and ornithischians with their first and last finds; the diversity service counts genera per stage, with Foote's origination and extinction rates; 9,700 finds carry today's and palaeo-coordinates. A sampling panel and a study ask how much of the diversity curve is simply how many fossils each age has.",
+        "categories": [
+          "science/past/palaeontology",
+          "science/biology/ecology"
+        ],
+        "tags": [
+          "example",
+          "dinosaurs",
+          "fossils",
+          "mesozoic",
+          "extinction",
+          "palaeontology",
+          "teaching"
+        ],
+        "image": "/explore/logos/paleobiodb.png",
+        "apis": [
+          "paleobiodb"
+        ]
+      }
     },
     {
       "id": "dragon-pokemon",
@@ -327,7 +816,21 @@
       "listed": true,
       "files": 22,
       "data": [],
-      "fetched": []
+      "fetched": [],
+      "catalog": {
+        "title": "Dragon-type Pokémon",
+        "summary": "PokeAPI's Dragon type:",
+        "description": "PokeAPI's Dragon type: every Dragon Pokémon's official artwork, which generation it came from, and the type chart: what Dragon hits hard and what hits it back. Statistics: a rate needs an exposure. Later generations look Dragon-heavy, but each brought a different number of new species, so the count is divided by that size and shown with a 95% interval (the generation sizes are the national Pokédex ranges, written into the step; alternate forms are left out). Next: the table's links lead to each Pokémon's own stats (base stats are a step away, one call per Pokémon).",
+        "categories": [
+          "games/video"
+        ],
+        "tags": [
+          "example"
+        ],
+        "apis": [
+          "pokeapi"
+        ]
+      }
     },
     {
       "id": "drug-recalls",
@@ -339,7 +842,22 @@
       "listed": true,
       "files": 23,
       "data": [],
-      "fetched": []
+      "fetched": [],
+      "catalog": {
+        "title": "US drug recalls",
+        "summary": "The 100 most recently reported drug recalls in openFDA's enforcement reports:",
+        "description": "The 100 most recently reported drug recalls in openFDA's enforcement reports: which firms, how serious (Class I: may cause serious harm or death; II: temporary or reversible harm; III: unlikely to harm) and why. A count needs an exposure: all recalls per route of administration are divided by the products listed per route in the NDC directory, with a 95% Poisson interval, so a route with many products doesn't look riskier just for being big. A firm's count has no such denominator here. Reports are weekly; openFDA data are not for medical decisions.",
+        "categories": [
+          "health/drugs"
+        ],
+        "tags": [
+          "example"
+        ],
+        "image": "/explore/logos/openfda.png",
+        "apis": [
+          "openfda"
+        ]
+      }
     },
     {
       "id": "earthquakes",
@@ -351,7 +869,22 @@
       "listed": true,
       "files": 19,
       "data": [],
-      "fetched": []
+      "fetched": [],
+      "catalog": {
+        "title": "Earthquakes this week",
+        "summary": "A zoomable world map with the strongest labelled and a magnitude histogram you can hover.",
+        "description": "USGS's magnitude 4.5+ earthquakes of the past week: flattened from GeoJSON, filtered and ranked with Polars, and plotted on a world projection.",
+        "categories": [
+          "science/earth/seismology"
+        ],
+        "tags": [
+          "example"
+        ],
+        "image": "/explore/logos/usgs-earthquakes.png",
+        "apis": [
+          "usgs-earthquakes"
+        ]
+      }
     },
     {
       "id": "ecg-hrv",
@@ -363,7 +896,26 @@
       "listed": true,
       "files": 59,
       "data": [],
-      "fetched": []
+      "fetched": [],
+      "catalog": {
+        "title": "Heart-rate variability from ECG beats",
+        "summary": "RR intervals from PhysioNet ECG annotations: SDNN, RMSSD, Poincaré SD1/SD2, and how ectopic beats fake HRV unless intervals are normal-to-normal.",
+        "description": "Three Holter records from PhysioNet's LightWAVE server (NSR 16265, MIT-BIH 100 and 119), first 15 minutes each. Polars turns the cardiologists' beat labels into RR intervals, keeps the normal-to-normal ones and computes the Task Force time-domain HRV and the Poincaré plot (SD1 = RMSSD/√2, checked). Record 119's ventricular bigeminy inflates RMSSD 12× (437 against 36 ms) unless intervals are NN-filtered, and one 6.6 s noise gap inflates the healthy record's 7.7×; the PVCs show a full compensatory pause (coupling + pause = 1.03 × 2 NN). A 12-second ECG trace shows where an interval comes from. ODC-By 1.0.",
+        "categories": [
+          "engineering/medical/imaging",
+          "engineering/electrical/signal"
+        ],
+        "tags": [
+          "example",
+          "ecg",
+          "heart rate variability",
+          "physionet",
+          "signal processing",
+          "cardiology",
+          "study"
+        ],
+        "apis": []
+      }
     },
     {
       "id": "euro-rates",
@@ -375,7 +927,22 @@
       "listed": true,
       "files": 25,
       "data": [],
-      "fetched": []
+      "fetched": [],
+      "catalog": {
+        "title": "The euro against seven currencies",
+        "summary": "European Central Bank reference rates (via Frankfurter) since January 2025:",
+        "description": "European Central Bank reference rates (via Frankfurter) since January 2025: each currency indexed to 100 at the start, so you can see which gained or lost against the euro, with the change, low and high per currency. Statistics: daily log returns (the change in the log of the rate, which add up over days) and their standard deviation, the volatility, per month and annualised (× √252), so a calm currency and a jumpy one can be told apart even when they end at the same place. ECB publishes once per working day around 16:00 CET; a month has only about 21 returns.",
+        "categories": [
+          "finance/currencies"
+        ],
+        "tags": [
+          "example"
+        ],
+        "image": "/explore/logos/frankfurter.png",
+        "apis": [
+          "frankfurter"
+        ]
+      }
     },
     {
       "id": "ev-regen-drag",
@@ -387,7 +954,24 @@
       "listed": true,
       "files": 28,
       "data": [],
-      "fetched": []
+      "fetched": [],
+      "catalog": {
+        "title": "EVs on the highway: regenerative braking and drag",
+        "summary": "Petrol cars use 34% less energy per km on the highway, EVs 11% more: regeneration removes braking losses, drag ∝ v² remains.",
+        "description": "EPA unadjusted city and highway results for 5,000 model-year 2021–2025 vehicles, by powertrain and, for EVs, by body type.",
+        "categories": [
+          "engineering/mechanical/vehicles"
+        ],
+        "tags": [
+          "example",
+          "electric vehicles",
+          "drag",
+          "regenerative braking"
+        ],
+        "apis": [
+          "opendatasoft"
+        ]
+      }
     },
     {
       "id": "flu-growth-r0",
@@ -399,7 +983,24 @@
       "listed": true,
       "files": 28,
       "data": [],
-      "fetched": []
+      "fetched": [],
+      "catalog": {
+        "title": "Influenza's R: exponential growth, herd immunity and final size",
+        "summary": "US flu seasons (CDC FluView via Delphi): exponential growth on a log axis gives R of 1.1–1.3, then the SIR herd-immunity threshold and final size.",
+        "description": "Question: how contagious is seasonal influenza, and what does that number imply? An epidemic in a susceptible population first grows exponentially, I(t) ∝ e^(rt), and the growth rate r together with the generation interval gives the reproduction number R. Data: CDC's US outpatient surveillance week by week since the 2016–17 season (Delphi Epidata: FluView wILI and the clinical labs' percent positive), combined into ILI+, the standard proxy for influenza incidence. Steps: per season the peak, the growth window (5–60% of the peak, before it) and r as the slope of ln(ILI+); then R = (1 + r·Tg/k)^k (Wallinga & Lipsitch, generation interval 3 days, gamma k = 4) and the SIR model's consequences: the herd-immunity threshold 1 − 1/R, the final size z = 1 − e^(−Rz) and the peak prevalence. Aha: on a log axis every season's rise is a straight line, and a gentle one: ILI+ doubles in 8 to 20 days (median about 14), which means an effective R of only 1.1–1.3 in the eight seasons fitted. Influenza spreads barely above the epidemic threshold: immunising or preventing 10–20% of transmissions stops growth, where measles (R0 12–18) needs over 90%. Yet even so small an R would infect 18–40% of a fully susceptible SIR population, about twice the threshold, because the epidemic overshoots it. Caveats: ILI+ is a proxy, not a count; R depends on the assumed generation interval; it is the effective R at the season's start (prior immunity, vaccination), not R0; seasons with two waves fit less well (read fit_r2); 2020–21 and 2021–22 had too little influenza to fit; SIR ignores school terms, age structure and behaviour; eight seasons are few for the study. Next: hover a week or a season; drill down to HHS regions or states (same API, regions=hhs1…hhs10); expand to subtypes or vaccination coverage.",
+        "categories": [
+          "health/public",
+          "science/biology/microbiology"
+        ],
+        "tags": [
+          "example",
+          "epidemiology",
+          "SIR",
+          "R0",
+          "study"
+        ],
+        "apis": []
+      }
     },
     {
       "id": "gompertz-mortality",
@@ -411,7 +1012,25 @@
       "listed": true,
       "files": 28,
       "data": [],
-      "fetched": []
+      "fetched": [],
+      "catalog": {
+        "title": "Gompertz's law: the risk of dying doubles about every seven years",
+        "summary": "Eurostat life tables, eight countries, 2003 and 2023: log death rate is linear in age 35–84, doubling every 6.6–10 years; levels differ, slopes barely.",
+        "description": "Question: how does the risk of dying change with age? Gompertz (1825) proposed that adult death rates rise exponentially, m(x) = a·e^(bx), so that ln m(x) is a straight line in age. Is that so, and what differs between populations: the level a or the rate of ageing b? Data: Eurostat's life tables (demo_mlifetable), the death rate by single year of age for women and men in eight countries (Sweden, Denmark, France, Spain, Italy, Poland, Lithuania, Bulgaria), 2003 and 2023. Steps: ages as numbers and ln m(x); per country, sex and year a least-squares line over ages 35–84, giving b, the mortality-rate doubling time ln 2 / b, the level m(60) on the line and R²; each age's observed rate against the line; and per sex and year the spread of the doubling time against the spread of the level. Aha: from 35 to 84 the log death rate is a straight line (R² at least 0.985 in 2023), and the risk of dying doubles every 6.6 to 10 years (median about 7 for women, 7.5 for men), in every country. What differs is the level: m(60) is two to three times higher in Lithuania and Bulgaria than in Sweden or Spain, and it fell everywhere between 2003 and 2023 (Swedish men 8.9 to 5.9 per 1,000, Spanish men 11.1 to 6.7) while the doubling time barely moved. Where the level is low the slope is steeper (ln a and b correlate at −0.93 across the 16 lines of each year: the Strehler–Mildvan correlation), so populations postpone death more than they slow ageing. Off the line: infancy, the young-adult accident hump (up to five times the line at 18–25) and the oldest ages. Caveats: period life tables mix cohorts; the fitted range (35–84) is a choice and the open age group (85+ in 2003, 95+ in 2023) is left out; small countries' single-year rates are noisy at young ages (ten zero rates dropped); a is an extrapolation, not a newborn's risk. Next: hover any age; drill down to one country's years (the API has 1960s onward for some); expand to causes of death (Eurostat hlth_cd_aro) or to the plateau at the oldest ages (Human Mortality Database).",
+        "categories": [
+          "health/public",
+          "science/biology/organisms"
+        ],
+        "tags": [
+          "example",
+          "demography",
+          "ageing",
+          "Gompertz"
+        ],
+        "apis": [
+          "eurostat"
+        ]
+      }
     },
     {
       "id": "grid-frequency",
@@ -423,7 +1042,26 @@
       "listed": true,
       "files": 42,
       "data": [],
-      "fetched": []
+      "fetched": [],
+      "catalog": {
+        "title": "Grid frequency: the power balance meter",
+        "summary": "One day of 1-second grid frequency: primary control as a P controller, and the sawtooth that 15-minute power trading leaves in it.",
+        "description": "Energy-Charts' 1-second frequency for Continental Europe, the implied primary control power, the day folded at the quarter-hour, and a paired test of the jump after each quarter-hour.",
+        "categories": [
+          "engineering/electrical/power",
+          "engineering/electrical/control",
+          "environment/energy"
+        ],
+        "tags": [
+          "example",
+          "control",
+          "frequency",
+          "study"
+        ],
+        "apis": [
+          "energy-charts"
+        ]
+      }
     },
     {
       "id": "gutenberg-richter-b-value",
@@ -435,7 +1073,26 @@
       "listed": true,
       "files": 34,
       "data": [],
-      "fetched": []
+      "fetched": [],
+      "catalog": {
+        "title": "The Gutenberg–Richter law and the b-value",
+        "summary": "A year of M4.5+ earthquakes: completeness magnitude, the b-value by maximum likelihood, and why the rare giants release nearly all the energy.",
+        "description": "USGS 2025 catalogue: frequency–magnitude distribution, Mc by maximum curvature, Aki–Utsu b with Shi–Bolt errors, b against Mc for mb and Mw, b by depth, and the energy share of the largest quakes.",
+        "categories": [
+          "science/earth/seismology",
+          "science/mathematics/statistics"
+        ],
+        "tags": [
+          "example",
+          "earthquakes",
+          "gutenberg-richter",
+          "b-value",
+          "statistics"
+        ],
+        "apis": [
+          "usgs-earthquakes"
+        ]
+      }
     },
     {
       "id": "hacker-news",
@@ -447,7 +1104,22 @@
       "listed": true,
       "files": 19,
       "data": [],
-      "fetched": []
+      "fetched": [],
+      "catalog": {
+        "title": "Hacker News front page",
+        "summary": "The front page as points against comments, sized by age and coloured by site.",
+        "description": "What's on Hacker News' front page now, from the Algolia search API: points and comments per story.",
+        "categories": [
+          "media/news",
+          "developer/community"
+        ],
+        "tags": [
+          "example"
+        ],
+        "apis": [
+          "hn-algolia"
+        ]
+      }
     },
     {
       "id": "hardy-weinberg-wahlund",
@@ -459,7 +1131,25 @@
       "listed": true,
       "files": 58,
       "data": [],
-      "fetched": []
+      "fetched": [],
+      "catalog": {
+        "title": "Hardy–Weinberg, and why pooled populations break it",
+        "summary": "Five variants in 26 populations of 1000 Genomes: each population on the Hardy–Weinberg parabola, pooled samples below it by F_ST (Wahlund effect).",
+        "description": "Question: Hardy–Weinberg says that under random mating an allele at frequency p comes in genotypes p², 2pq and q², whatever p is. Do real human populations follow it, and what does it mean when they don't? Data: genotype counts for five well-known variants (rs4988235 lactase persistence, rs1426654 SLC24A5 skin pigmentation, rs671 ALDH2 alcohol flush, rs1815739 ACTN3 R577X, rs334 sickle-cell HbS) in the 26 populations of 1000 Genomes phase 3 (Ensembl REST), and the populations' sampling sites and super-populations (IGSR). Steps: per variant and sample, the allele frequency, the expected genotype counts, a chi-square test (1 df) and the heterozygote deficit F = 1 − H_obs/H_exp; then the Wahlund effect: for each pooled sample (all 26, or one super-population) the deficit predicted from the populations alone, F_ST = Var(p) / (p̄(1 − p̄)). Aha: single populations sit on the Hardy–Weinberg parabola (3 of 83 population tests at p < 0.05, all for ACTN3, about what chance gives), but pooling them makes heterozygotes vanish: all 2,504 people together have F = 0.67 for SLC24A5 (408 heterozygotes where 1,232 are expected), 0.39 for LCT and 0.20 for ALDH2, and F_ST from the populations predicts 0.65, 0.36 and 0.18. A departure from Hardy–Weinberg is a clue, not an error: here it is structure (a pooled sample is not one mating population). HbS goes the other way: no homozygotes among 661 Africans where 6.6 are expected (F = −0.11, p = 0.004), the mark of selection (sickle-cell disease against malaria protection for carriers), which in the pooled ALL sample cancels the Wahlund deficit (F = −0.03). Caveats: the variants were chosen for being famous, not at random; 61–113 people per population give the tests little power and some expected counts under 5; genotype calls have errors; sampling sites are where people were sampled (CEU in Utah). Next: hover any dot; add any rsID as another query; drill down to one super-population's populations; expand to selection scans or ancient DNA.",
+        "categories": [
+          "science/biology/genetics",
+          "science/biology/bioinformatics"
+        ],
+        "tags": [
+          "example",
+          "population genetics",
+          "Hardy-Weinberg",
+          "study"
+        ],
+        "apis": [
+          "ensembl"
+        ]
+      }
     },
     {
       "id": "heat-pump-carnot",
@@ -471,7 +1161,24 @@
       "listed": true,
       "files": 49,
       "data": [],
-      "fetched": []
+      "fetched": [],
+      "catalog": {
+        "title": "Heat pumps and the Carnot limit: why flow temperature matters",
+        "summary": "Same heat pump, four houses: COP ≈ 0.35 × Carnot; SCOP 5.7 at 29 °C flow against 3.9 at 38.5 °C. Each kelvin of lift costs 0.16 COP.",
+        "description": "A year of metered daily heat and electricity from heatpumpmonitor.org against the Carnot limit, with a study of lift against COP.",
+        "categories": [
+          "engineering/mechanical/thermo",
+          "engineering/environmental/energy"
+        ],
+        "tags": [
+          "example",
+          "heat pump",
+          "COP",
+          "Carnot",
+          "study"
+        ],
+        "apis": []
+      }
     },
     {
       "id": "holidays-this-week",
@@ -483,7 +1190,22 @@
       "listed": true,
       "files": 24,
       "data": [],
-      "fetched": []
+      "fetched": [],
+      "catalog": {
+        "title": "Public holidays this week",
+        "summary": "Nager.Date's public holidays in every country it covers for the coming seven days, joined with country names:",
+        "description": "Nager.Date's public holidays in every country it covers for the coming seven days, joined with country names: what is celebrated where, whether nationwide or regional. Statistics: Poisson counts. If holidays fell independently at a steady rate, the count per day would be Poisson around the week's mean; the dispersion index (variance over mean, 1 for Poisson) and P(at least this many) per day show whether they cluster instead. Caveat: one week is seven numbers, Nager.Date lists about 200 countries but how fully it records regional holidays varies, and a day with no holiday counts as zero.",
+        "categories": [
+          "reference/calendars"
+        ],
+        "tags": [
+          "example"
+        ],
+        "image": "/explore/logos/nager-date.png",
+        "apis": [
+          "nager-date"
+        ]
+      }
     },
     {
       "id": "hypsometric-atmosphere",
@@ -495,7 +1217,27 @@
       "listed": true,
       "files": 33,
       "data": [],
-      "fetched": []
+      "fetched": [],
+      "catalog": {
+        "title": "The hypsometric equation: why warm air stands tall",
+        "summary": "Pole-to-pole air columns: layer thickness from temperature alone matches the model's heights; lapse rate, tropopause, and why warm columns are tall.",
+        "description": "Open-Meteo pressure-level temperatures and heights along 20° E: hypsometric thickness against the model, scale height, speed of sound, the tropopause from the lapse rate, and the 1000–500 hPa thickness as mean temperature, on a globe.",
+        "categories": [
+          "science/earth/atmosphere",
+          "weather/forecasts",
+          "engineering/mechanical/thermo"
+        ],
+        "tags": [
+          "example",
+          "atmosphere",
+          "hypsometric",
+          "tropopause",
+          "meteorology"
+        ],
+        "apis": [
+          "open-meteo"
+        ]
+      }
     },
     {
       "id": "ionosphere-skip-zone",
@@ -507,7 +1249,23 @@
       "listed": true,
       "files": 33,
       "data": [],
-      "fetched": []
+      "fetched": [],
+      "catalog": {
+        "title": "The skip zone: why far stations hear you and near ones don't",
+        "summary": "Live ionosondes: foF2, the secant law and the skip distance per HF band; measured M(3000)F2 against a mirror model.",
+        "description": "GIRO ionosonde readings via KC2G, turned into MUF against distance on a curved Earth and the shortest distance each amateur band reaches.",
+        "categories": [
+          "engineering/electrical/telecom"
+        ],
+        "tags": [
+          "example",
+          "ionosphere",
+          "HF radio",
+          "MUF",
+          "propagation"
+        ],
+        "apis": []
+      }
     },
     {
       "id": "iran-sites-odds",
@@ -517,9 +1275,34 @@
       "path": "examples/iran-sites-odds",
       "board": "git:https://github.com/seebra-io/examples#examples/iran-sites-odds",
       "listed": true,
+      "hero": false,
       "files": 68,
       "data": [],
-      "fetched": []
+      "fetched": [],
+      "catalog": {
+        "title": "Iran: sites, airspace and odds",
+        "summary": "Question: what is the state of the Iran conflict, and what do markets give for a nuclear deal, strikes, a leadership change or the Strait of Hormuz by a given month?",
+        "description": "Question: what is the state of the Iran conflict, and what do markets give for a nuclear deal, strikes, a leadership change or the Strait of Hormuz by a given month? The map lays Iran's nuclear and military sites (coordinates from Wikipedia, each linked), and USGS's seismic events of the last 30 days (with the distance to the nearest site) on GMRT terrain; a second map counts the aircraft adsb.lol sees within 250 nm of Tehran, of central Iran and of the Gulf: an empty Iran beside busy Gulf skies is what a closed airspace looks like. The odds chart is the ontology's 'outcome by deadline': each Polymarket 'by ...?' event is a probability curve over its deadlines (cumulative), and 'continues through ...?' a survival curve (the Israel-Iran ceasefire); Manifold adds play-money forecasts; UN News and GDELT the diplomacy. Caveats: there is no front line here, so 'who is winning' is read from the markets and the news, not from a map; nearly every seismic event in Iran is an earthquake (USGS labels an explosion only when it knows); adsb.lol's receivers are sparse in Iran, so an empty circle can also be missing coverage. Market prices are not probabilities (fees, thin trading; hollow dots break the ordering). GDELT allows one request every 5 seconds per address and often refuses (its table then stays empty; UN News doesn't depend on it): rerun it.",
+        "categories": [
+          "government/security"
+        ],
+        "tags": [
+          "example",
+          "osint",
+          "conflict",
+          "prediction markets"
+        ],
+        "apis": [
+          "gmrt",
+          "wikipedia",
+          "usgs-earthquakes",
+          "adsb-lol",
+          "polymarket",
+          "manifold",
+          "gdelt",
+          "un-news"
+        ]
+      }
     },
     {
       "id": "issue-survival",
@@ -531,7 +1314,22 @@
       "listed": true,
       "files": 22,
       "data": [],
-      "fetched": []
+      "fetched": [],
+      "catalog": {
+        "title": "How long issues stay open",
+        "summary": "The 100 issues opened in the Polars repository in early March 2025 (GitHub search):",
+        "description": "The 100 issues opened in the Polars repository in early March 2025 (GitHub search): closed, or still open. Statistics idea: survival analysis with censoring: an open issue lasted at least this long, and the Kaplan–Meier estimator with Greenwood's band gives the share still open after t days, for bugs and enhancements; its median is far above the median of the closed issues alone, which ignores the open ones. Caveats: one repository and two weeks; 'closed' includes 'not planned'.",
+        "categories": [
+          "developer/code",
+          "science/mathematics/statistics"
+        ],
+        "tags": [
+          "example"
+        ],
+        "apis": [
+          "github"
+        ]
+      }
     },
     {
       "id": "k8s-capacity",
@@ -541,9 +1339,24 @@
       "path": "examples/k8s-capacity",
       "board": "git:https://github.com/seebra-io/examples#examples/k8s-capacity",
       "listed": true,
+      "hero": false,
       "files": 26,
       "data": [],
-      "fetched": []
+      "fetched": [],
+      "catalog": {
+        "title": "Kubernetes capacity and bin-packing",
+        "summary": "Each node's allocatable CPU and memory against the requests of the pods on it:",
+        "description": "Each node's allocatable CPU and memory against the requests of the pods on it: headroom, stranded resources, and how many more typical pods fit. Statistics: utilisation is a distribution over nodes, and free capacity only counts where a whole pod fits. Needs signing in and your cluster connected through your organization's gateway.",
+        "categories": [
+          "developer/observability"
+        ],
+        "tags": [
+          "example",
+          "kubernetes",
+          "needs your cluster"
+        ],
+        "apis": []
+      }
     },
     {
       "id": "k8s-events",
@@ -553,9 +1366,24 @@
       "path": "examples/k8s-events",
       "board": "git:https://github.com/seebra-io/examples#examples/k8s-events",
       "listed": true,
+      "hero": false,
       "files": 24,
       "data": [],
-      "fetched": []
+      "fetched": [],
+      "catalog": {
+        "title": "Kubernetes warning events",
+        "summary": "Your cluster's warning events over the last hour, by reason and object, and the ones that keep recurring.",
+        "description": "Your cluster's warning events over the last hour, by reason and object, and the ones that keep recurring. Statistics: events as a Poisson process, with a dispersion index and burst minutes (Bonferroni over the window). Needs signing in and your cluster connected through your organization's gateway.",
+        "categories": [
+          "developer/observability"
+        ],
+        "tags": [
+          "example",
+          "kubernetes",
+          "needs your cluster"
+        ],
+        "apis": []
+      }
     },
     {
       "id": "k8s-operations",
@@ -565,9 +1393,24 @@
       "path": "examples/k8s-operations",
       "board": "git:https://github.com/seebra-io/examples#examples/k8s-operations",
       "listed": true,
+      "hero": false,
       "files": 25,
       "data": [],
-      "fetched": []
+      "fetched": [],
+      "catalog": {
+        "title": "Kubernetes operations: evict a pod",
+        "summary": "Pods that failed, are pending or keep restarting, the disruption budgets that protect workloads, and an eviction you run yourself:",
+        "description": "Pods that failed, are pending or keep restarting, the disruption budgets that protect workloads, and an eviction you run yourself: set namespace and pod, dry run, then evict. Changes your cluster; needs signing in, your organization's gateway and a token with a narrow Role.",
+        "categories": [
+          "developer/observability"
+        ],
+        "tags": [
+          "example",
+          "kubernetes",
+          "needs your cluster"
+        ],
+        "apis": []
+      }
     },
     {
       "id": "k8s-requests-usage",
@@ -577,9 +1420,24 @@
       "path": "examples/k8s-requests-usage",
       "board": "git:https://github.com/seebra-io/examples#examples/k8s-requests-usage",
       "listed": true,
+      "hero": false,
       "files": 27,
       "data": [],
-      "fetched": []
+      "fetched": [],
+      "catalog": {
+        "title": "Kubernetes requests vs usage",
+        "summary": "CPU and memory each container uses (metrics-server) against what it requests:",
+        "description": "CPU and memory each container uses (metrics-server) against what it requests: over- and under-provisioned containers and idle requests per namespace. Statistics: a ratio on a log scale and its spread, median against pooled. Needs signing in, metrics-server, and your cluster connected through your organization's gateway.",
+        "categories": [
+          "developer/observability"
+        ],
+        "tags": [
+          "example",
+          "kubernetes",
+          "needs your cluster"
+        ],
+        "apis": []
+      }
     },
     {
       "id": "k8s-rollouts",
@@ -589,9 +1447,24 @@
       "path": "examples/k8s-rollouts",
       "board": "git:https://github.com/seebra-io/examples#examples/k8s-rollouts",
       "listed": true,
+      "hero": false,
       "files": 24,
       "data": [],
-      "fetched": []
+      "fetched": [],
+      "catalog": {
+        "title": "Kubernetes rollouts and image drift",
+        "summary": "Deployments' desired, updated and available replicas, unfinished or stuck rollouts, pods still running an old image, and the versions of each image across deployments.",
+        "description": "Deployments' desired, updated and available replicas, unfinished or stuck rollouts, pods still running an old image, and the versions of each image across deployments. Statistics: a version distribution, by its modal share and Simpson's diversity. Needs signing in and your cluster connected through your organization's gateway.",
+        "categories": [
+          "developer/observability"
+        ],
+        "tags": [
+          "example",
+          "kubernetes",
+          "needs your cluster"
+        ],
+        "apis": []
+      }
     },
     {
       "id": "k8s-workloads",
@@ -601,9 +1474,24 @@
       "path": "examples/k8s-workloads",
       "board": "git:https://github.com/seebra-io/examples#examples/k8s-workloads",
       "listed": true,
+      "hero": false,
       "files": 33,
       "data": [],
-      "fetched": []
+      "fetched": [],
+      "catalog": {
+        "title": "Kubernetes workload health",
+        "summary": "Your cluster's pods per namespace and phase, the containers that restart most and why, and those waiting in CrashLoopBackOff or ImagePullBackOff.",
+        "description": "Your cluster's pods per namespace and phase, the containers that restart most and why, and those waiting in CrashLoopBackOff or ImagePullBackOff. Statistics: restart counts are a heavy tail (the share restarted at least k times, log-log, against a thin-tailed count with the same mean). Needs signing in and your cluster connected through your organization's gateway.",
+        "categories": [
+          "developer/observability"
+        ],
+        "tags": [
+          "example",
+          "kubernetes",
+          "needs your cluster"
+        ],
+        "apis": []
+      }
     },
     {
       "id": "kepler-third-law",
@@ -615,7 +1503,26 @@
       "listed": true,
       "files": 31,
       "data": [],
-      "fetched": []
+      "fetched": [],
+      "catalog": {
+        "title": "Kepler's third law in 5,600 exoplanets",
+        "summary": "P² = a³/M★ across every known exoplanet: one line once the star's mass is divided out, and which semi-major axes were measured or computed.",
+        "description": "NASA Exoplanet Archive orbits fitted in Polars: slope 1.466 raw, 0.9985 after dividing by the star's mass; the star's mass from each orbit; multi-planet systems; per discovery method, how many semi-major axes were computed with the law itself.",
+        "categories": [
+          "science/physical/astronomy"
+        ],
+        "tags": [
+          "example",
+          "exoplanets",
+          "kepler",
+          "gravity",
+          "regression",
+          "study"
+        ],
+        "apis": [
+          "nasa-exoplanet-archive"
+        ]
+      }
     },
     {
       "id": "life-expectancy",
@@ -627,7 +1534,22 @@
       "listed": true,
       "files": 32,
       "data": [],
-      "fetched": []
+      "fetched": [],
+      "catalog": {
+        "title": "Life expectancy around the world",
+        "summary": "World Bank life expectancy at birth, each country's most recent year, joined in SQL with the World Bank's country list for region and income group (aggregates such as 'World' dropped) and with GDP…",
+        "description": "World Bank life expectancy at birth, each country's most recent year, joined in SQL with the World Bank's country list for region and income group (aggregates such as 'World' dropped) and with GDP per capita, with a summary per region. A least-squares regression of life expectancy on log GDP per capita shows how strongly the two go together, with a 95% band for the line, and which countries live longer or shorter than their income predicts; it is a correlation, not a cause.",
+        "categories": [
+          "health/public"
+        ],
+        "tags": [
+          "example"
+        ],
+        "image": "/explore/logos/worldbank.png",
+        "apis": [
+          "worldbank"
+        ]
+      }
     },
     {
       "id": "load-spectrum-sidebands",
@@ -639,7 +1561,26 @@
       "listed": true,
       "files": 45,
       "data": [],
-      "fetched": []
+      "fetched": [],
+      "catalog": {
+        "title": "Sidebands in the power demand: the modulation theorem",
+        "summary": "Why demand has 21- and 28-hour lines: the weekend modulates the daily cycle. DFT, Hann window, leakage and 1/T resolution.",
+        "description": "Eight whole weeks of German load, Fourier-transformed in SQL with three windows, matched to the k ± j/7 lines of the modulation theorem.",
+        "categories": [
+          "engineering/electrical/signal",
+          "engineering/electrical/power"
+        ],
+        "tags": [
+          "example",
+          "fourier",
+          "modulation",
+          "windowing",
+          "spectrum"
+        ],
+        "apis": [
+          "energy-charts"
+        ]
+      }
     },
     {
       "id": "mars-fleet-3d",
@@ -651,7 +1592,23 @@
       "listed": true,
       "files": 20,
       "data": [],
-      "fetched": []
+      "fetched": [],
+      "catalog": {
+        "title": "Mars in 3D: the spacecraft",
+        "summary": "NASA's models of MRO, Mars Global Surveyor, Opportunity and Ingenuity side by side, at file scale or the same size.",
+        "description": "Four Mars missions as NASA's own 3D models, with what each did and its size in the file, and every Mars model science.nasa.gov lists.",
+        "categories": [
+          "science/physical/astronomy",
+          "engineering/mechanical/aerospace"
+        ],
+        "tags": [
+          "example"
+        ],
+        "image": "/explore/logos/nasa-apod.png",
+        "apis": [
+          "nasa-science-3d"
+        ]
+      }
     },
     {
       "id": "mars-landings",
@@ -665,7 +1622,24 @@
       "data": [
         "examples/mars-landings/data/mars-landing-attempts-curated-from-wikipedia.json"
       ],
-      "fetched": []
+      "fetched": [],
+      "catalog": {
+        "title": "Landing on Mars",
+        "summary": "Every attempt to land on Mars, 1971–2021, on NASA's map and a timeline: 16 tries, 10 that worked.",
+        "description": "Every attempt to land on Mars, 1971–2021: where each one came down on NASA's map, how it went (10 of 16 worked), the landing system (parachutes and rockets, airbags, sky crane) and how long it lasted. Positions and stories are sourced per mission.",
+        "categories": [
+          "science/physical/astronomy",
+          "engineering/mechanical/aerospace"
+        ],
+        "tags": [
+          "example"
+        ],
+        "image": "/explore/logos/nasa-apod.png",
+        "apis": [
+          "https://www.seebra.io/explore/data",
+          "https://raw.githubusercontent.com/nasa/NASA-3D-Resources/master"
+        ]
+      }
     },
     {
       "id": "mars-rovers",
@@ -677,7 +1651,23 @@
       "listed": true,
       "files": 35,
       "data": [],
-      "fetched": []
+      "fetched": [],
+      "catalog": {
+        "title": "Mars rovers: the latest raw images",
+        "summary": "Two image grids of the rovers' newest photos, and one chart comparing both rovers' cameras.",
+        "description": "Perseverance and Curiosity's newest raw images from NASA, as image grids, and which cameras took them.",
+        "categories": [
+          "science/physical/astronomy",
+          "engineering/mechanical/aerospace"
+        ],
+        "tags": [
+          "example"
+        ],
+        "image": "/explore/logos/nasa-apod.png",
+        "apis": [
+          "nasa-mars-raw-images"
+        ]
+      }
     },
     {
       "id": "mars-rovers-up-close",
@@ -691,7 +1681,23 @@
       "data": [
         "examples/mars-rovers-up-close/data/mars-rover-parts-curated-with-sources-data.json"
       ],
-      "fetched": []
+      "fetched": [],
+      "catalog": {
+        "title": "Mars rovers up close",
+        "summary": "Four generations of Mars rovers to scale in 3D: hover a camera, instrument or power source.",
+        "description": "NASA's Mars rovers side by side and to scale in 3D: Sojourner (1997), Spirit and Opportunity (2004), Curiosity (2012) and Perseverance (2021). Hover a dot for a camera, instrument, solar panel, RTG, antenna or computer: what it does, its mass and power where a source states them, and a link to the source. Beside it, mass and power across the generations (a hundred times heavier, seven times the power) and where the watts go (MOXIE and Ingenuity drew more than the MMRTG makes). Caveats: shapes are simplified and positions approximate, not NASA's models; figures are from Wikipedia's rover and instrument pages; empty mass or power means no stated figure. Next: the raw images example shows what the cameras see today.",
+        "categories": [
+          "science/physical/astronomy",
+          "engineering/mechanical/aerospace"
+        ],
+        "tags": [
+          "example",
+          "mars",
+          "rovers",
+          "3d"
+        ],
+        "apis": []
+      }
     },
     {
       "id": "maxcut-annealing",
@@ -705,7 +1711,22 @@
       "data": [
         "examples/maxcut-annealing/data/four-small-graphs-each-with-its-exact-max-cut.json"
       ],
-      "fetched": []
+      "fetched": [],
+      "catalog": {
+        "title": "Max-cut three ways",
+        "summary": "Split a graph in two to cut the most links: every split tried, simulated annealing, and how a quantum annealer takes the same problem.",
+        "description": "Split a graph's nodes in two so that as many links as possible are cut: every split tried (exact), simulated annealing at nine schedule lengths, and how the same problem maps onto D-Wave's quantum annealer (an Ising model with J = +1 per link). How rare the best cut is, how often annealing finds it, and a study of whether slower schedules help.",
+        "categories": [
+          "science/physical/quantum",
+          "science/computer/algorithms"
+        ],
+        "tags": [
+          "example"
+        ],
+        "apis": [
+          "https://www.seebra.io/explore/data"
+        ]
+      }
     },
     {
       "id": "merit-order-price",
@@ -717,7 +1738,26 @@
       "listed": true,
       "files": 42,
       "data": [],
-      "fetched": []
+      "fetched": [],
+      "catalog": {
+        "title": "The merit order: why sunny noons are cheap",
+        "summary": "Price follows residual load (R² 0.70), not load (0.03): the empirical merit order, the duck curve and who sets the price.",
+        "description": "Two months of German generation, load and day-ahead prices from Energy-Charts, binned into the supply curve, with a study of residual load as the price driver.",
+        "categories": [
+          "engineering/electrical/power",
+          "engineering/environmental/energy"
+        ],
+        "tags": [
+          "example",
+          "merit order",
+          "electricity price",
+          "duck curve",
+          "study"
+        ],
+        "apis": [
+          "energy-charts"
+        ]
+      }
     },
     {
       "id": "molecules-3d",
@@ -729,7 +1769,23 @@
       "listed": true,
       "files": 35,
       "data": [],
-      "fetched": []
+      "fetched": [],
+      "catalog": {
+        "title": "Molecules in 3D",
+        "summary": "A small molecule from PubChem (caffeine; change the name in the query's path) as ball and stick from its computed 3D conformer, with its properties; and a protein from the RCSB Protein Data Bank…",
+        "description": "A small molecule from PubChem (caffeine; change the name in the query's path) as ball and stick from its computed 3D conformer, with its properties; and a protein from the RCSB Protein Data Bank (haemoglobin, 4HHB) as a backbone per chain with its haem groups. Statistics: the bond lengths, computed from the atoms' coordinates, form a distribution per bond kind: bands by kind, double bonds shorter than single ones, and the conjugated ring's C–N bonds spread between the two (a computed conformer with few bonds per kind, not a measurement). Hover atoms, bonds and chains; drag to orbit.",
+        "categories": [
+          "science/chemistry/organic",
+          "science/biology/bioinformatics"
+        ],
+        "tags": [
+          "example"
+        ],
+        "image": "/explore/logos/pubchem.png",
+        "apis": [
+          "pubchem"
+        ]
+      }
     },
     {
       "id": "mushroom-season",
@@ -741,7 +1797,26 @@
       "listed": true,
       "files": 62,
       "data": [],
-      "fetched": []
+      "fetched": [],
+      "catalog": {
+        "title": "Mushroom season in Sweden",
+        "summary": "When mushrooms fruit in Sweden: GBIF records per month as a circular mean, corrected for effort.",
+        "description": "When do mushrooms fruit in Sweden? GBIF records per month (2000–2025) for the chanterelle, funnel chanterelle, porcini, fly agaric and false morel, against all fungi. Statistics idea: months are circular, so the season's centre is a circular mean (each month an angle on the year's clock) and its length R says how concentrated the season is; records follow effort (people search in autumn), so a second mean weights each month by the species' share over all fungi's share. Beside it, Mushroom Observer's 2025 chanterelle photos with the community's identification votes: in North America the 'chanterelle' is many species. Caveats: records are presence-only and follow observers; GBIF mixes citizen science and collections; Mushroom Observer is mostly North American. Next: hover the clock for dates, click an arrow for GBIF's map, swap a taxonKey (any species from GBIF's species search) or country.",
+        "categories": [
+          "science/biology/organisms",
+          "science/biology/ecology",
+          "science/mathematics/statistics"
+        ],
+        "tags": [
+          "example",
+          "mycology",
+          "fungi"
+        ],
+        "apis": [
+          "gbif",
+          "mushroom-observer"
+        ]
+      }
     },
     {
       "id": "nasa-3d-catalog",
@@ -753,7 +1828,23 @@
       "listed": true,
       "files": 29,
       "data": [],
-      "fetched": []
+      "fetched": [],
+      "catalog": {
+        "title": "NASA in 3D: the model catalog",
+        "summary": "Every 3D model science.nasa.gov publishes, by collection, size and month added, with Hubble in 3D.",
+        "description": "science.nasa.gov's 3D models, read live from its media API: how many each collection has, how large they are (what a viewer waits for), when they were added, and any one of them in 3D.",
+        "categories": [
+          "science/physical/astronomy",
+          "engineering/mechanical/aerospace"
+        ],
+        "tags": [
+          "example"
+        ],
+        "image": "/explore/logos/nasa-apod.png",
+        "apis": [
+          "nasa-science-3d"
+        ]
+      }
     },
     {
       "id": "near-earth-asteroids",
@@ -765,7 +1856,22 @@
       "listed": true,
       "files": 22,
       "data": [],
-      "fetched": []
+      "fetched": [],
+      "catalog": {
+        "title": "Asteroids passing Earth this week",
+        "summary": "NASA's NeoWs feed (JPL data) of near-Earth asteroids making their closest approach in the coming seven days:",
+        "description": "NASA's NeoWs feed (JPL data) of near-Earth asteroids making their closest approach in the coming seven days: miss distance in lunar distances, estimated size and speed, and which are potentially hazardous (hover a dot for its record, click for its JPL page). Statistics: sizes span two orders of magnitude, so they are binned on a log scale, where the median and the geometric mean (the mean of the logs) describe a typical asteroid and the ordinary mean is pulled up by the few big ones. Sizes are modelled from brightness with an assumed albedo (min to max is a factor of about 2.2), small asteroids are only found when they pass close, and a week is a few dozen objects. Uses NASA's shared DEMO_KEY (30 requests an hour); put your own key in for more.",
+        "categories": [
+          "science/physical/astronomy"
+        ],
+        "tags": [
+          "example"
+        ],
+        "image": "/explore/logos/nasa-neows.png",
+        "apis": [
+          "nasa-neows"
+        ]
+      }
     },
     {
       "id": "neo-3d",
@@ -777,7 +1883,22 @@
       "listed": true,
       "files": 40,
       "data": [],
-      "fetched": []
+      "fetched": [],
+      "catalog": {
+        "title": "Asteroids in 3D",
+        "summary": "The asteroids passing Earth in the coming week (NASA NeoWs), around Earth in 3D:",
+        "description": "The asteroids passing Earth in the coming week (NASA NeoWs), around Earth in 3D: each at its real miss distance on a log scale with the Moon's orbit for reference, sized by estimated diameter, red when potentially hazardous (hover for the record, click for its JPL page). NeoWs gives no approach direction, so directions are illustrative. Statistics: the empirical cumulative distribution (ECDF) of miss distance on a log axis, so you can read off the median and the share within the Moon's distance, 10× and 100× it. A week is a few dozen objects, and the feed only lists approaches within about 0.5 au (195 lunar distances), so the curve reaching 100% there is the list's cut-off. DEMO_KEY allows 30 requests an hour.",
+        "categories": [
+          "science/physical/astronomy"
+        ],
+        "tags": [
+          "example"
+        ],
+        "image": "/explore/logos/nasa-neows.png",
+        "apis": [
+          "nasa-neows"
+        ]
+      }
     },
     {
       "id": "nitrogen-response",
@@ -789,7 +1910,31 @@
       "listed": true,
       "files": 55,
       "data": [],
-      "fetched": []
+      "fetched": [],
+      "catalog": {
+        "title": "Fertiliser and diminishing returns",
+        "summary": "Why doubling fertiliser doesn't double the harvest: a Mitscherlich yield-response curve fitted to 136 countries, the grain each extra kg buys, and who sits on the flat part.",
+        "description": "Question: why does the world not simply double its harvest by doubling fertiliser? World Bank (FAO) fertiliser use per hectare of arable land and cereal yields for about 180 countries; Polars fits Mitscherlich's law Y = Y0 + A(1 − e^(−cN)) by grid search with a profile-likelihood interval, computes each country's marginal product and residual, the grain each successive 50 kg/ha buys, and eight countries' paths since 2000. Aha: half the response comes in the first ~54 kg/ha; past ~300 kg/ha one more kilogram returns about a kilogram of grain, the rest is lost as nitrate and N₂O. A study tests the rise, the falling grain per kg and irrigation's share. Caveats: cross-country confounding (climate, irrigation, seeds), all three nutrients per arable hectare, differing latest years.",
+        "categories": [
+          "science/agriculture/crops",
+          "engineering/environmental/pollution"
+        ],
+        "tags": [
+          "example",
+          "agriculture",
+          "fertiliser",
+          "nitrogen",
+          "yield",
+          "diminishing returns",
+          "Mitscherlich",
+          "curve fitting",
+          "study",
+          "world bank"
+        ],
+        "apis": [
+          "worldbank"
+        ]
+      }
     },
     {
       "id": "nobel-physics",
@@ -801,7 +1946,23 @@
       "listed": true,
       "files": 19,
       "data": [],
-      "fetched": []
+      "fetched": [],
+      "catalog": {
+        "title": "Nobel Prize in Physics",
+        "summary": "Laureates per decade stacked by country of birth; hover for the names.",
+        "description": "The Nobel Prize API's physics laureates, reshaped with JSONata, counted per decade with SQL, and charted.",
+        "categories": [
+          "science/research",
+          "science/physical"
+        ],
+        "tags": [
+          "example"
+        ],
+        "image": "/explore/logos/nobel.png",
+        "apis": [
+          "nobel"
+        ]
+      }
     },
     {
       "id": "nordic-gdp",
@@ -813,7 +1974,23 @@
       "listed": true,
       "files": 32,
       "data": [],
-      "fetched": []
+      "fetched": [],
+      "catalog": {
+        "title": "Nordic GDP per capita",
+        "summary": "GDP per capita as lines over yearly growth from Python, with a crosshair across both.",
+        "description": "World Bank GDP per capita for the five Nordic countries since 2000, with yearly growth computed in Python.",
+        "categories": [
+          "finance/economics",
+          "government/statistics"
+        ],
+        "tags": [
+          "example"
+        ],
+        "image": "/explore/logos/worldbank.png",
+        "apis": [
+          "worldbank"
+        ]
+      }
     },
     {
       "id": "page-profile",
@@ -825,7 +2002,26 @@
       "listed": true,
       "files": 38,
       "data": [],
-      "fetched": []
+      "fetched": [],
+      "catalog": {
+        "title": "Profile this page: where the main thread's time goes",
+        "summary": "The page profiles itself: long animation frames, their scripts and Seebra spans, canvas moves, fetches and resources from window.__seebraPerf, refreshed by a timer.",
+        "description": "Seebra profiles itself: a Javascript Variable datasource reads window.__seebraPerf (long animation frames with their scripts and Seebra spans, canvas moves, interactions, fetches, LCP, resource timing), re-read every 15 s by a timer. Long frames are joined to the scripts in them and to canvas moves to say who spent the frame budget: Seebra, a third party, or a request during a pan. Chrome/Edge APIs; numbers depend on the machine.",
+        "categories": [
+          "developer/observability",
+          "developer/tools"
+        ],
+        "tags": [
+          "example",
+          "javascript-variable",
+          "timer",
+          "performance",
+          "long-animation-frames",
+          "web-vitals",
+          "study"
+        ],
+        "apis": []
+      }
     },
     {
       "id": "perseverance-builders",
@@ -842,7 +2038,25 @@
       "fetched": [
         "https://www.seebra.io/explore/data/models/ingenuity.glb",
         "https://www.seebra.io/explore/data/models/perseverance.glb"
-      ]
+      ],
+      "catalog": {
+        "title": "Perseverance: who built what",
+        "summary": "NASA's 3D model of Perseverance: hover a part for what it does and the organizations that built it.",
+        "description": "NASA's own 3D model of the Perseverance rover, with Ingenuity beside it: hover a part (cameras, instruments, the arm and drill, the power source, antennas, wheels) and it lights up with what it does and which organizations designed, built or led it; click for the source. Beside it, every organization against the rover's systems, and the countries they're in. Perseverance is mostly JPL's, with instruments from France (SuperCam's mast unit), Spain (MEDA, the high-gain antenna), Norway (RIMFAX), Italy (LaRA) and Finland (MEDA's sensors), and companies from Austria to Japan. Caveats: only claims a fetched source states (JPL pages often name no outside builder, so a part with only JPL may have had others); a few countries are inferred (marked); dots mark parts the model has no shape for, at approximate positions; organization counts say nothing of money or effort. Next: Mars rovers up close compares four generations, and the raw images example shows what the cameras see.",
+        "categories": [
+          "science/physical/astronomy",
+          "engineering/mechanical/aerospace"
+        ],
+        "tags": [
+          "example",
+          "mars",
+          "rovers",
+          "3d",
+          "supply chain",
+          "organizations"
+        ],
+        "apis": []
+      }
     },
     {
       "id": "quake-depth-clt",
@@ -854,7 +2068,23 @@
       "listed": true,
       "files": 25,
       "data": [],
-      "fetched": []
+      "fetched": [],
+      "catalog": {
+        "title": "Central limit theorem: earthquake depths",
+        "summary": "Depths of the past month's M2.5+ earthquakes (USGS):",
+        "description": "Depths of the past month's M2.5+ earthquakes (USGS): a strongly skewed population. Statistics idea: the central limit theorem: 500 random samples of 1, 5, 30 and 100 quakes, drawn in Polars, have means that approach the normal curve while their spread shrinks as σ/√n and their skewness as γ/√n. Caveats: the population is one month's feed, not all quakes, and aftershocks make quakes dependent; the resampled draws are independent.",
+        "categories": [
+          "science/mathematics/statistics",
+          "science/earth/seismology"
+        ],
+        "tags": [
+          "example"
+        ],
+        "image": "/explore/logos/usgs-earthquakes.png",
+        "apis": [
+          "usgs-earthquakes"
+        ]
+      }
     },
     {
       "id": "quake-response-spectra",
@@ -866,7 +2096,27 @@
       "listed": true,
       "files": 39,
       "data": [],
-      "fetched": []
+      "fetched": [],
+      "catalog": {
+        "title": "Response spectra: which buildings an earthquake shakes",
+        "summary": "Ridgecrest M7.1: near the fault low buildings are hit, far away tall ones. SA/PGA by distance, damped resonance, attenuation.",
+        "description": "USGS ShakeMap spectral accelerations at 845 stations, with the single-degree-of-freedom theory and a study of distance against spectral shape.",
+        "categories": [
+          "engineering/mechanical/mechanics",
+          "engineering/civil/structural"
+        ],
+        "tags": [
+          "example",
+          "earthquake",
+          "resonance",
+          "damping",
+          "response spectrum",
+          "study"
+        ],
+        "apis": [
+          "usgs-earthquakes"
+        ]
+      }
     },
     {
       "id": "ramachandran-plot",
@@ -878,7 +2128,22 @@
       "listed": true,
       "files": 52,
       "data": [],
-      "fetched": []
+      "fetched": [],
+      "catalog": {
+        "title": "The Ramachandran plot: why proteins have helices and sheets",
+        "summary": "φ and ψ of 606 residues of four proteins (PDBe): half lie in 1.4% of the plane; helices and strands are the allowed basins, positive φ is glycine's.",
+        "description": "Question: a protein backbone has two free rotations per residue, φ (around N–Cα) and ψ (around Cα–C). Why do proteins fold into a few repeating shapes, helices and sheets, rather than anything at all? Data: the backbone angles of every residue of four well-resolved proteins, myoglobin 1A6M (1.0 Å, all α), T4 lysozyme 2LZM, ubiquitin 1UBQ and green fluorescent protein 1EMA (a β-barrel), as PDBe's validation pipeline (MolProbity) computed them from the coordinates, with PDBe's helix and strand assignments. Steps: residues with φ and ψ per entry, joined to the helix and strand ranges; each residue placed in a region of the plane (α_R, β, PPII, α_L) and in a 10° cell; then the occupancy of the plane, and summaries per secondary structure and for glycine and proline apart. Aha: only a small part of the 360° × 360° square is used, because atoms of neighbouring residues collide everywhere else (Ramachandran, 1963): half of the 606 residues lie in 1.4% of the plane and 95% in 10.6% (10° cells). Helix residues sit in one tight basin (median φ −64°, ψ −40°), strands in another (−120°, +135°); positive φ is glycine's (22 of the 34 residues there; 48% of glycines against 2% of other residues), the one amino acid without a side chain, and proline's ring pins φ at −63° ± 10°. Secondary structure is a run of residues in one basin. Caveats: four proteins (606 residues; alternate conformations, listed twice with the same angles, counted once) are a small sample; the region boxes are approximate (MolProbity's Favored/Allowed contours come from ~100,000 residues and differ per residue type); PDBe's helix/strand ranges come from the deposited annotation; angles are from crystal structures (one conformation). Next: hover a residue; drill down to one protein or residue type; expand to more PDB entries (any id works with the same queries) or to NMR ensembles.",
+        "categories": [
+          "science/biology/molecular",
+          "science/biology/bioinformatics"
+        ],
+        "tags": [
+          "example",
+          "protein structure",
+          "Ramachandran"
+        ],
+        "apis": []
+      }
     },
     {
       "id": "river-pulse-xcorr",
@@ -890,7 +2155,26 @@
       "listed": true,
       "files": 35,
       "data": [],
-      "fetched": []
+      "fetched": [],
+      "catalog": {
+        "title": "Cross-correlation: a dam's pulse down the Grand Canyon",
+        "summary": "Glen Canyon Dam's daily release pulse at two gauges: cross-correlation finds the 21-hour travel time, and why a day later fits almost as well.",
+        "description": "USGS 15-minute discharge at Lees Ferry and near Grand Canyon, correlated at every lag from 0 to 48 h in Polars, aligned by the travel time, with the wave's speed and attenuation.",
+        "categories": [
+          "engineering/electrical/signal",
+          "engineering/civil/water",
+          "science/earth/oceans"
+        ],
+        "tags": [
+          "example",
+          "signals",
+          "cross-correlation",
+          "hydrology"
+        ],
+        "apis": [
+          "usgs-waterdata"
+        ]
+      }
     },
     {
       "id": "river-rating-curve",
@@ -902,7 +2186,30 @@
       "listed": true,
       "files": 50,
       "data": [],
-      "fetched": []
+      "fetched": [],
+      "catalog": {
+        "title": "River rating curve: the Missouri at Hermann",
+        "summary": "Stage to discharge: a power law fitted to 4,117 USGS field measurements, the bed cutting down by decade, and why flood flows are the least certain.",
+        "description": "Question: a gage reads only the water level; where does the published discharge come from, and how far can it be trusted? The stage-discharge rating curve Q = C (h − e)^b is fitted in Polars to the USGS field measurements at the Missouri River at Hermann (grid over the zero-flow stage e, least squares in log space, profile-likelihood interval). Per-decade curves show the rating shift (the stage for 40,000 ft³/s fell from 7.1 ft in the 1960s to 3.4 ft in the 2020s), residuals show low flows drifting while floods hold, and the annual peaks show that at the top of the curve the same stage has carried 418,000 to 750,000 ft³/s. Caveats: gage datum, measurement ratings, hysteresis, one power law instead of USGS's segmented ratings.",
+        "categories": [
+          "engineering/civil/water",
+          "science/earth/oceans",
+          "science/mathematics/statistics"
+        ],
+        "tags": [
+          "example",
+          "hydrology",
+          "rating curve",
+          "streamflow",
+          "power law",
+          "usgs",
+          "missouri river",
+          "floods"
+        ],
+        "apis": [
+          "usgs-waterdata"
+        ]
+      }
     },
     {
       "id": "rocket-launches",
@@ -914,7 +2221,23 @@
       "listed": true,
       "files": 25,
       "data": [],
-      "fetched": []
+      "fetched": [],
+      "catalog": {
+        "title": "Upcoming rocket launches",
+        "summary": "The next 30 orbital launches from The Space Devs' Launch Library 2:",
+        "description": "The next 30 orbital launches from The Space Devs' Launch Library 2: when (and how sure the date is), who, which rocket and pad, and what they carry (hover a launch for its record, click for its Launch Library page). Statistics: Poisson waiting times. If launches came at random at a steady rate, the gaps between them would be exponential, a straight line on a log axis; the last 100 launches are compared with that model, with the rate per day and the chance of a day without a launch. The ratio sd / mean of the gaps is 1 for a Poisson process (below: more regular, above: clustered by campaigns, ranges and weather); the 100 launches give only 99 gaps, and they are past launches because upcoming dates known only to the month pile up at its end. The free API allows 15 requests an hour (this dashboard makes two).",
+        "categories": [
+          "engineering/mechanical/aerospace",
+          "science/mathematics/statistics"
+        ],
+        "tags": [
+          "example"
+        ],
+        "image": "/explore/logos/launch-library.png",
+        "apis": [
+          "launch-library"
+        ]
+      }
     },
     {
       "id": "sci-fi-books",
@@ -926,7 +2249,22 @@
       "listed": true,
       "files": 25,
       "data": [],
-      "fetched": []
+      "fetched": [],
+      "catalog": {
+        "title": "The most-edited science fiction",
+        "summary": "Open Library's science-fiction subject:",
+        "description": "Open Library's science-fiction subject: the 48 works with the most editions, their covers, when they first appeared and how often they were reprinted, and which decades they come from. Statistics: a rate needs an exposure, and the sample is selected on the outcome. Ranked by editions, old works win because they have had longer to collect reprints; editions per year in print (counted to 2026) reorders the list. A few works carry no usable first-publication year (Open Library records 0); they stay in the table but are left out of the charts. Edition counts include translations and reprints that Open Library merged into one work, so they are a rough measure.",
+        "categories": [
+          "culture/books"
+        ],
+        "tags": [
+          "example"
+        ],
+        "image": "/explore/logos/open-library.png",
+        "apis": [
+          "open-library"
+        ]
+      }
     },
     {
       "id": "service-status",
@@ -938,7 +2276,21 @@
       "listed": true,
       "files": 23,
       "data": [],
-      "fetched": []
+      "fetched": [],
+      "catalog": {
+        "title": "Service status",
+        "summary": "Live status of the services a platform team depends on (GitHub, Cloudflare), from their public Statuspage summaries:",
+        "description": "Live status of the services a platform team depends on (GitHub, Cloudflare), from their public Statuspage summaries: every component with its status, and how many are not operational per service. Cloudflare lists hundreds of components (one per data centre), GitHub a dozen, so compare shares, not counts.",
+        "categories": [
+          "developer/status"
+        ],
+        "tags": [
+          "example"
+        ],
+        "apis": [
+          "github-status"
+        ]
+      }
     },
     {
       "id": "soil-heat-lowpass",
@@ -950,7 +2302,27 @@
       "listed": true,
       "files": 42,
       "data": [],
-      "fetched": []
+      "fetched": [],
+      "catalog": {
+        "title": "The ground is a low-pass filter",
+        "summary": "Air against soil temperature down to 2.5 m: the daily cycle dies in 30 cm, the yearly one arrives months late, and the heat equation's √ω law.",
+        "description": "Daily and annual harmonics per soil layer (SQL Fourier), damping depth and diffusivity, a Bode-style plot and a study of the heat equation's predictions.",
+        "categories": [
+          "engineering/mechanical/thermo",
+          "engineering/electrical/control",
+          "science/agriculture/forestry"
+        ],
+        "tags": [
+          "example",
+          "heat diffusion",
+          "frequency response",
+          "low-pass",
+          "study"
+        ],
+        "apis": [
+          "open-meteo-archive"
+        ]
+      }
     },
     {
       "id": "solar-cycle-periodogram",
@@ -962,7 +2334,28 @@
       "listed": true,
       "files": 43,
       "data": [],
-      "fetched": []
+      "fetched": [],
+      "catalog": {
+        "title": "The solar cycle, found by a periodogram",
+        "summary": "275 years of sunspots: a periodogram finds the 11-year cycle, and flipping every other cycle reveals the 22-year magnetic Hale cycle.",
+        "description": "SILSO's sunspot number via NOAA SWPC: cycle minima and lengths, a Schuster periodogram over 3–150 years in SQL, the signed series' 22-year peak, and the Waldmeier effect.",
+        "categories": [
+          "weather/sun",
+          "science/physical/astronomy",
+          "engineering/electrical/signal"
+        ],
+        "tags": [
+          "example",
+          "sun",
+          "sunspots",
+          "fourier",
+          "periodogram",
+          "time-series"
+        ],
+        "apis": [
+          "noaa-swpc"
+        ]
+      }
     },
     {
       "id": "solar-system-scale",
@@ -976,7 +2369,24 @@
       "data": [
         "examples/solar-system-scale/data/the-planets-orbital-elements-jpl-standish-and.json"
       ],
-      "fetched": []
+      "fetched": [],
+      "catalog": {
+        "title": "The solar system to scale",
+        "summary": "The Sun to Jupiter with distances to scale, NASA's textures, today's positions, and 4,000 asteroids: the main belt, Kirkwood gaps and trojans.",
+        "description": "JPL's orbital elements put each planet where it is today; JPL's Small-Body Database places the asteroids; NASA's models and textures dress the Sun and the planets.",
+        "categories": [
+          "science/physical/astronomy"
+        ],
+        "tags": [
+          "example"
+        ],
+        "image": "/explore/logos/nasa-apod.png",
+        "apis": [
+          "jpl-sbdb-query",
+          "nasa-science-3d",
+          "nasa-3d-resources-github"
+        ]
+      }
     },
     {
       "id": "stackoverflow-hot",
@@ -988,7 +2398,21 @@
       "listed": true,
       "files": 21,
       "data": [],
-      "fetched": []
+      "fetched": [],
+      "catalog": {
+        "title": "Hot Python questions on Stack Overflow",
+        "summary": "The 50 'hot' Python questions on Stack Overflow from the Stack Exchange API:",
+        "description": "The 50 'hot' Python questions on Stack Overflow from the Stack Exchange API: views against age, whether they have an answer yet, and which other tags travel with Python right now (exploded and counted in Polars). Statistics idea: correlation is not causation. Spearman rank correlations of score, answers, views and age show what rises together, but age drives all of them, and the 'hot' list was chosen on those same numbers, so the sample is selected on the outcome (50 questions). Without a key the API allows 300 requests a day per IP.",
+        "categories": [
+          "developer/community"
+        ],
+        "tags": [
+          "example"
+        ],
+        "apis": [
+          "stackexchange"
+        ]
+      }
     },
     {
       "id": "star-wars-square-cube",
@@ -1000,7 +2424,29 @@
       "listed": true,
       "files": 57,
       "data": [],
-      "fetched": []
+      "fetched": [],
+      "catalog": {
+        "title": "Star Wars bodies and the square-cube law",
+        "summary": "Do Star Wars bodies scale like real ones? Mass grows as height^1.54, not height³: tall aliens are lanky, Jabba is 19× too heavy, and starships scale too.",
+        "description": "Question: who in Star Wars is unusually tall or heavy for their kind? SWAPI's characters fitted on log axes: slope 1.54 ± 0.12 without Jabba, below the BMI's 2 and the square-cube law's 3; humans alone give Quetelet's 2. Each character against the law, species averages, homeworlds, starship cost against length, and per-film data gaps. Fan-made data from Lucasfilm's films.",
+        "categories": [
+          "culture/screen",
+          "science/biology/organisms",
+          "science/mathematics/statistics"
+        ],
+        "tags": [
+          "example",
+          "star wars",
+          "scaling",
+          "square-cube law",
+          "bmi",
+          "allometry",
+          "study"
+        ],
+        "apis": [
+          "swapi"
+        ]
+      }
     },
     {
       "id": "stefan-boltzmann-hr",
@@ -1012,7 +2458,25 @@
       "listed": true,
       "files": 28,
       "data": [],
-      "fetched": []
+      "fetched": [],
+      "catalog": {
+        "title": "Stefan–Boltzmann on the HR diagram",
+        "summary": "Gaia stars' luminosity from distance and brightness, radius from L = 4πR²σT⁴: lines of equal radius on the HR diagram and the mass–luminosity law.",
+        "description": "A random Gaia DR3 sample: inverse-square law, bolometric correction, Stefan–Boltzmann radii checked against Gaia's own, giants against dwarfs at one temperature, and L ∝ M^4.7 on the main sequence.",
+        "categories": [
+          "science/physical/astronomy",
+          "science/physical/atomic"
+        ],
+        "tags": [
+          "example",
+          "gaia",
+          "stars",
+          "hr-diagram",
+          "stefan-boltzmann",
+          "study"
+        ],
+        "apis": []
+      }
     },
     {
       "id": "stockholm-weather",
@@ -1024,7 +2488,23 @@
       "listed": true,
       "files": 25,
       "data": [],
-      "fetched": []
+      "fetched": [],
+      "catalog": {
+        "title": "Stockholm: the week's weather",
+        "summary": "One chart from two datasets: hourly temperature and rain over each day's low-high range.",
+        "description": "Open-Meteo's hourly forecast for Stockholm, reshaped into rows, summed per day with SQL and drawn as a line and bars.",
+        "categories": [
+          "weather/forecasts",
+          "science/earth/atmosphere"
+        ],
+        "tags": [
+          "example"
+        ],
+        "image": "/explore/logos/open-meteo.png",
+        "apis": [
+          "open-meteo"
+        ]
+      }
     },
     {
       "id": "sweden-power",
@@ -1036,7 +2516,22 @@
       "listed": true,
       "files": 22,
       "data": [],
-      "fetched": []
+      "fetched": [],
+      "catalog": {
+        "title": "Sweden's electricity today",
+        "summary": "Energy-Charts (Fraunhofer ISE, from ENTSO-E data) public net generation in Sweden today, every 15 minutes:",
+        "description": "Energy-Charts (Fraunhofer ISE, from ENTSO-E data) public net generation in Sweden today, every 15 minutes: nuclear, hydro, wind, solar and the rest stacked against the load, with net exports, and each source's mean and peak output. Statistics: correlation is not causation. The correlation matrix of the sources over today's quarter hours shows what moves together; hydro follows the load because operators steer it, while other pairs only share the clock. One day of quarter hours, each close to the last, is far less evidence than the count of rows suggests.",
+        "categories": [
+          "engineering/electrical/power",
+          "engineering/environmental/energy"
+        ],
+        "tags": [
+          "example"
+        ],
+        "apis": [
+          "energy-charts"
+        ]
+      }
     },
     {
       "id": "sweden-temperatures",
@@ -1048,7 +2543,22 @@
       "listed": true,
       "files": 19,
       "data": [],
-      "fetched": []
+      "fetched": [],
+      "catalog": {
+        "title": "Temperature across Sweden now",
+        "summary": "SMHI's latest hourly air temperature from every reporting weather station in Sweden, on a map from Smygehuk to Abisko, with the warmest and coldest stations.",
+        "description": "SMHI's latest hourly air temperature from every reporting weather station in Sweden, on a map from Smygehuk to Abisko, with the warmest and coldest stations. Statistics: a straight-line trend of temperature against latitude, with a 95% band for the line (and a wider one for a single station), so you can see how much colder each degree north is this hour and how sure that slope is. One hour is a snapshot; height and coast also matter. Quality G is checked, Y is suspect or not yet checked.",
+        "categories": [
+          "weather/observations",
+          "science/earth/atmosphere"
+        ],
+        "tags": [
+          "example"
+        ],
+        "apis": [
+          "smhi-observations"
+        ]
+      }
     },
     {
       "id": "swedish-wildlife",
@@ -1060,7 +2570,21 @@
       "listed": true,
       "files": 30,
       "data": [],
-      "fetched": []
+      "fetched": [],
+      "catalog": {
+        "title": "Wildlife seen in Sweden",
+        "summary": "Citizen-science photos in a grid, and SQL counts per class of life.",
+        "description": "Recent photographed sightings in Sweden from GBIF (many from iNaturalist): the photos as a grid, and which classes of life they show.",
+        "categories": [
+          "science/biology/organisms"
+        ],
+        "tags": [
+          "example"
+        ],
+        "apis": [
+          "gbif"
+        ]
+      }
     },
     {
       "id": "tide-aliasing",
@@ -1072,7 +2596,26 @@
       "listed": true,
       "files": 43,
       "data": [],
-      "fetched": []
+      "fetched": [],
+      "catalog": {
+        "title": "Aliasing: a fake two-week tide",
+        "summary": "A tide gauge read too slowly invents a two-week wave: the sampling theorem, spectra in SQL, and the anti-aliasing filter.",
+        "description": "NOAA hourly heights at San Francisco down-sampled in Polars, amplitude spectra per sampling rate, and the folding rule for the tidal constituents.",
+        "categories": [
+          "engineering/electrical/signal",
+          "science/earth/oceans"
+        ],
+        "tags": [
+          "example",
+          "signals",
+          "nyquist",
+          "aliasing",
+          "fourier"
+        ],
+        "apis": [
+          "noaa-tides"
+        ]
+      }
     },
     {
       "id": "trouton-vapour-pressure",
@@ -1084,7 +2627,30 @@
       "listed": true,
       "files": 31,
       "data": [],
-      "fetched": []
+      "fetched": [],
+      "catalog": {
+        "title": "Trouton's rule: the vapour pressure from the boiling point",
+        "summary": "Can a boiling point alone tell you how volatile a liquid is? Clausius–Clapeyron and Trouton's rule on 326 Wikidata liquids, and why hydrogen bonds break it.",
+        "description": "A question, an idea and its exceptions: every Wikidata substance with a vapour pressure and a boiling point, converted to SI in Polars, placed on the reduced Clausius–Clapeyron plot. One entropy of vaporisation (99 J/(mol·K) at room temperature, near Trouton's 10.5 R) predicts 84% of non-donor liquids within ×2; O–H donors sit 16 J/(mol·K) higher (Welch t = 7.2). A data check lists 11 impossible readings, and a study frames the hydrogen-bond hypothesis.",
+        "categories": [
+          "engineering/chemical/separation",
+          "science/chemistry/physical"
+        ],
+        "tags": [
+          "example",
+          "thermodynamics",
+          "vapour pressure",
+          "Clausius–Clapeyron",
+          "Trouton's rule",
+          "distillation",
+          "hydrogen bonding",
+          "wikidata",
+          "study"
+        ],
+        "apis": [
+          "wikidata-sparql"
+        ]
+      }
     },
     {
       "id": "ukraine-front-odds",
@@ -1094,9 +2660,32 @@
       "path": "examples/ukraine-front-odds",
       "board": "git:https://github.com/seebra-io/examples#examples/ukraine-front-odds",
       "listed": true,
+      "hero": false,
       "files": 65,
       "data": [],
-      "fetched": []
+      "fetched": [],
+      "catalog": {
+        "title": "Ukraine: front, forces and odds",
+        "summary": "Question: who is gaining ground in Ukraine, where are the forces, and what do markets give for a ceasefire, a peace deal or territorial concessions by a given month?",
+        "description": "Question: who is gaining ground in Ukraine, where are the forces, and what do markets give for a ceasefire, a peace deal or territorial concessions by a given month? The map lays DeepStateMap's areas of control (now, and the line of 1 January 2026 dashed) on GMRT terrain, with its attack directions, the Russian units and airfields it places, and 120 days of its located updates (each a place it reports changing hands). The area step measures the net change in km² since 1 January; the weekly chart counts reported advances by side. The odds chart is the ontology's 'outcome by deadline': each Polymarket 'by ...?' event is a probability curve over its deadlines (a cumulative distribution), so you can read the chance of a ceasefire before a month and year; Manifold adds play-money forecasts; UN News and GDELT the diplomacy. Caveats: DeepStateMap is a Ukrainian volunteer project (sources: its own, the General Staff, geolocated footage); its unit positions are its placements, not verified here, and a quiet sector is unreported rather than unchanged. Market prices are not probabilities (fees, thin trading; hollow dots break the ordering). GDELT allows one request every 5 seconds per address and often refuses (its table then stays empty; UN News doesn't depend on it): rerun it. Terrain is about 7 km per cell.",
+        "categories": [
+          "government/security"
+        ],
+        "tags": [
+          "example",
+          "osint",
+          "conflict",
+          "prediction markets"
+        ],
+        "apis": [
+          "deepstatemap",
+          "gmrt",
+          "polymarket",
+          "manifold",
+          "gdelt",
+          "un-news"
+        ]
+      }
     },
     {
       "id": "uppsala-time-of-emergence",
@@ -1108,7 +2697,28 @@
       "listed": true,
       "files": 34,
       "data": [],
-      "fetched": []
+      "fetched": [],
+      "catalog": {
+        "title": "Uppsala since 1840: when warming leaves the noise",
+        "summary": "185 years of night minima from NOAA's public S3 bucket: every season warmed ~3 °C, but only summer has left its noise (S/N 3.5 vs 1.4 in winter).",
+        "description": "Uppsala's daily minimum temperature since 1840, read as one CSV straight from NOAA's public GHCN-Daily S3 bucket. Every season warmed about 3 °C against 1850–1900, but signal-to-noise is 1.4 in winter and 3.5 in summer: 28 of the last 30 summers were warmer than any pre-industrial one, against 14 of 30 winters (time of emergence). The frost-free season grew from 118 to 151 days. Caveats: not homogenised, urban heat island, gaps.",
+        "categories": [
+          "science/earth/climate",
+          "weather/climate",
+          "cloud/storage"
+        ],
+        "tags": [
+          "example",
+          "s3",
+          "aws-open-data",
+          "ghcn-daily",
+          "climate",
+          "signal-to-noise",
+          "time-of-emergence",
+          "study"
+        ],
+        "apis": []
+      }
     },
     {
       "id": "wikipedia-top",
@@ -1120,7 +2730,22 @@
       "listed": true,
       "files": 19,
       "data": [],
-      "fetched": []
+      "fetched": [],
+      "catalog": {
+        "title": "Most-read on Wikipedia",
+        "summary": "A day's top articles, filtered with SQL, as horizontal bars.",
+        "description": "English Wikipedia's most-viewed articles on 1 November 2026 from the Wikimedia pageviews API, without the main page and special pages.",
+        "categories": [
+          "reference/encyclopedias"
+        ],
+        "tags": [
+          "example"
+        ],
+        "image": "/explore/logos/wikimedia-pageviews.png",
+        "apis": [
+          "wikimedia-pageviews"
+        ]
+      }
     },
     {
       "id": "wind-cube-betz",
@@ -1132,7 +2757,26 @@
       "listed": true,
       "files": 34,
       "data": [],
-      "fetched": []
+      "fetched": [],
+      "catalog": {
+        "title": "Wind power: the cube law and the Betz limit",
+        "summary": "An offshore farm's output goes as v^3.2 below rated; Cp against Betz's 16/27; the windiest 41% of hours give 66% of the energy.",
+        "description": "Elexon-metered Westermost Rough output joined with ERA5 wind and air density from Open-Meteo: power curve, Cp, energy by wind speed.",
+        "categories": [
+          "engineering/mechanical/fluids",
+          "engineering/environmental/energy"
+        ],
+        "tags": [
+          "example",
+          "wind power",
+          "Betz",
+          "power curve"
+        ],
+        "apis": [
+          "elexon-bmrs",
+          "open-meteo-archive"
+        ]
+      }
     },
     {
       "id": "your-own-data",
@@ -1148,7 +2792,27 @@
         "examples/your-own-data/data/sample-netflix-viewing-history-made-up-data.csv",
         "examples/your-own-data/data/sample-spotify-extended-streaming-history-made.json"
       ],
-      "fetched": []
+      "fetched": [],
+      "catalog": {
+        "title": "Your own data",
+        "summary": "Where to download your data from 22 platforms, which file matters, and what to look at, with Spotify and Netflix worked through on sample files.",
+        "description": "A guide to the GDPR data exports of Spotify, Google Timeline, Apple Health, Strava, Garmin, Netflix, Goodreads, Amazon, Meta, X, LinkedIn, WhatsApp, your bank, your electricity meter and more: the link, the steps, the format, the key file and how long it takes. Two worked examples on made-up files shaped like the real exports: a listening clock, artists by month and skips from Spotify, a viewing calendar and binges from Netflix. Drop your own export and point the transformation at it.",
+        "categories": [
+          "personal/exports",
+          "personal/media"
+        ],
+        "tags": [
+          "example",
+          "personal",
+          "gdpr",
+          "data export",
+          "spotify",
+          "netflix",
+          "takeout",
+          "quantified self"
+        ],
+        "apis": []
+      }
     }
   ]
 }
