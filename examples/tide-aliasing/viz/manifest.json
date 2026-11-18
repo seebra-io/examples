@@ -1,0 +1,24 @@
+{
+ "visuals": [
+  {
+   "n": 3,
+   "file": "3.97a4df3b6b369ec3315ab74ff67e21ca.svg",
+   "kind": "svg",
+   "static": true,
+   "at": "2026-11-18T14:48:51.065Z",
+   "title": "Spectra per sampling rate, with alias theory",
+   "width": 1000,
+   "height": 500
+  },
+  {
+   "n": 4,
+   "file": "4.d050c43e113ca1b278205d42bf126a5a.svg",
+   "kind": "svg",
+   "static": true,
+   "at": "2026-11-18T14:48:51.065Z",
+   "title": "The folding rule: true against apparent frequency",
+   "width": 1000,
+   "height": 500
+  }
+ ]
+}

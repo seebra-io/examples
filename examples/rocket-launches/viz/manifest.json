@@ -1,0 +1,24 @@
+{
+ "visuals": [
+  {
+   "n": 2,
+   "file": "2.83435b3bfefd5a81073b6b3d77eda944.svg",
+   "kind": "svg",
+   "static": true,
+   "at": "2026-11-18T14:46:06.621Z",
+   "title": "Launch timeline by provider",
+   "width": 1000,
+   "height": 500
+  },
+  {
+   "n": 3,
+   "file": "3.ff42b913d6890329de9f055668caf6f6.svg",
+   "kind": "svg",
+   "static": true,
+   "at": "2026-11-18T14:46:06.621Z",
+   "title": "Poisson waiting times: share of gaps at least this long (log scale) vs the exponential",
+   "width": 1000,
+   "height": 500
+  }
+ ]
+}

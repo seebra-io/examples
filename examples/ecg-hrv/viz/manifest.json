@@ -1,0 +1,44 @@
+{
+ "visuals": [
+  {
+   "n": 2,
+   "file": "2.fd468558cd3a175903f43a3e816ce99a.svg",
+   "kind": "svg",
+   "static": true,
+   "at": "2026-11-18T14:34:43.887Z",
+   "title": "Ectopic beats fake HRV unless intervals are normal-to-normal",
+   "width": 1000,
+   "height": 500
+  },
+  {
+   "n": 3,
+   "file": "3.04b903e8fb82f623e8294ddc8e8ba911.svg",
+   "kind": "svg",
+   "static": true,
+   "at": "2026-11-18T14:34:43.887Z",
+   "title": "Where an RR interval comes from: 12 s of ECG (record 119)",
+   "width": 1000,
+   "height": 500
+  },
+  {
+   "n": 6,
+   "file": "6.ac926b5caa29328ace32b9613f61ee01.svg",
+   "kind": "svg",
+   "static": true,
+   "at": "2026-11-18T14:34:43.887Z",
+   "title": "Premature ventricular beats and the compensatory pause",
+   "width": 1000,
+   "height": 500
+  },
+  {
+   "n": 7,
+   "file": "7.edef382c4b953918dd796c948ab29575.svg",
+   "kind": "svg",
+   "static": true,
+   "at": "2026-11-18T14:34:43.887Z",
+   "title": "Poincaré plots: SD1 (beat-to-beat) and SD2 (slow)",
+   "width": 1000,
+   "height": 500
+  }
+ ]
+}

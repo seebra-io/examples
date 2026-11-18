@@ -1,0 +1,44 @@
+{
+ "visuals": [
+  {
+   "n": 1,
+   "file": "1.31336a079ab1d21c6aa43fb9f9ff7c75.svg",
+   "kind": "svg",
+   "static": true,
+   "at": "2026-11-18T14:45:12.108Z",
+   "title": "The response spectrum shifts with distance",
+   "width": 1000,
+   "height": 500
+  },
+  {
+   "n": 4,
+   "file": "4.0657b10e34b7be7b8e48dac7a83a8d35.svg",
+   "kind": "svg",
+   "static": true,
+   "at": "2026-11-18T14:45:12.108Z",
+   "title": "Resonance and damping (theory)",
+   "width": 1000,
+   "height": 500
+  },
+  {
+   "n": 5,
+   "file": "5.43f90b0e00cdda5756a81d9d744a0392.svg",
+   "kind": "svg",
+   "static": true,
+   "at": "2026-11-18T14:45:12.108Z",
+   "title": "Stations and their spectral ratio",
+   "width": 1000,
+   "height": 504
+  },
+  {
+   "n": 6,
+   "file": "6.eab91f111d4b8dc9bd8f2a7dd6719035.svg",
+   "kind": "svg",
+   "static": true,
+   "at": "2026-11-18T14:45:12.108Z",
+   "title": "Tall vs low buildings, station by station",
+   "width": 1000,
+   "height": 500
+  }
+ ]
+}

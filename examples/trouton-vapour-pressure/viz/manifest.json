@@ -1,0 +1,34 @@
+{
+ "visuals": [
+  {
+   "n": 5,
+   "file": "5.1e7865f9445477e6077df835979aaef9.svg",
+   "kind": "svg",
+   "static": true,
+   "at": "2026-11-18T14:49:03.301Z",
+   "title": "The vapour pressure from the boiling point alone",
+   "width": 1000,
+   "height": 500
+  },
+  {
+   "n": 6,
+   "file": "6.1984610429708b531071b1ab3aa71024.svg",
+   "kind": "svg",
+   "static": true,
+   "at": "2026-11-18T14:49:03.301Z",
+   "title": "One line for every liquid: the reduced Clausius–Clapeyron plot",
+   "width": 1000,
+   "height": 500
+  },
+  {
+   "n": 7,
+   "file": "7.aa583973db2fadb1ff695da89e252022.svg",
+   "kind": "svg",
+   "static": true,
+   "at": "2026-11-18T14:49:03.301Z",
+   "title": "Trouton's rule: the entropy of vaporisation per class of liquid",
+   "width": 1000,
+   "height": 500
+  }
+ ]
+}

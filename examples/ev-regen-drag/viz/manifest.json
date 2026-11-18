@@ -1,0 +1,34 @@
+{
+ "visuals": [
+  {
+   "n": 2,
+   "file": "2.ffa026016bdd33a9fe27f48d8e90c0d2.svg",
+   "kind": "svg",
+   "static": true,
+   "at": "2026-11-18T14:35:11.056Z",
+   "title": "EVs: highway penalty by body type",
+   "width": 1000,
+   "height": 500
+  },
+  {
+   "n": 6,
+   "file": "6.ffc8f911c1622f4f3d84b32fd9c12be6.svg",
+   "kind": "svg",
+   "static": true,
+   "at": "2026-11-18T14:35:11.056Z",
+   "title": "Highway against city energy",
+   "width": 1000,
+   "height": 500
+  },
+  {
+   "n": 7,
+   "file": "7.2234cc2ccb408b1d59c082c25b887cea.svg",
+   "kind": "svg",
+   "static": true,
+   "at": "2026-11-18T14:35:11.056Z",
+   "title": "Highway/city ratio per powertrain",
+   "width": 1000,
+   "height": 500
+  }
+ ]
+}

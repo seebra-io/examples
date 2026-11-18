@@ -1,0 +1,44 @@
+{
+ "visuals": [
+  {
+   "n": 1,
+   "file": "1.50d955733491c67ac56b939b85952529.svg",
+   "kind": "svg",
+   "static": true,
+   "at": "2026-11-18T14:41:35.935Z",
+   "title": "How rare the best cut is",
+   "width": 1000,
+   "height": 500
+  },
+  {
+   "n": 3,
+   "file": "3.ff11c09d29d2fa8ff408de61ab93a558.svg",
+   "kind": "svg",
+   "static": true,
+   "at": "2026-11-18T14:41:35.935Z",
+   "title": "Slower annealing, better cuts?",
+   "width": 1000,
+   "height": 500
+  },
+  {
+   "n": 4,
+   "file": "4.1b90443397cccf34619c0b92d78ef306.svg",
+   "kind": "svg",
+   "static": true,
+   "at": "2026-11-18T14:41:35.935Z",
+   "title": "Start here",
+   "width": 1000,
+   "height": 500
+  },
+  {
+   "n": 5,
+   "file": "5.5d6365dc9891f0d8609459243f8ddf50.svg",
+   "kind": "svg",
+   "static": true,
+   "at": "2026-11-18T14:41:35.935Z",
+   "title": "The best split (hover a node)",
+   "width": 1000,
+   "height": 500
+  }
+ ]
+}

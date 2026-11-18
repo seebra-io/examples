@@ -1,0 +1,30 @@
+{
+ "visuals": [
+  {
+   "n": 4,
+   "file": "4.0d4ad84e5e51bab9170ba8194d858930.glb",
+   "kind": "glb",
+   "static": true,
+   "at": "2026-11-18T14:39:54.145Z",
+   "title": "The Local Group to scale: glowing by luminosity, with each distance's error (hover; click for NED)"
+  },
+  {
+   "n": 5,
+   "file": "5.c3fafd1dd1d4eda46fc725b5fde8f647.glb",
+   "kind": "glb",
+   "static": true,
+   "at": "2026-11-18T14:39:54.145Z",
+   "title": "Out to 80 Mpc: the Local Volume, the 2MASS galaxies, Virgo and the Great Attractor (log or linear; hover; click for NED)"
+  },
+  {
+   "n": 6,
+   "file": "6.7eb439f39412642098e82118ea33077e.svg",
+   "kind": "svg",
+   "static": true,
+   "at": "2026-11-18T14:39:54.145Z",
+   "title": "How each distance was measured: precise methods reach only so far",
+   "width": 1000,
+   "height": 500
+  }
+ ]
+}

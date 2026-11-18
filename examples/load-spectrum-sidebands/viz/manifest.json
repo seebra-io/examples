@@ -1,0 +1,44 @@
+{
+ "visuals": [
+  {
+   "n": 3,
+   "file": "3.c12771b52b10ac495dab45db08ce24a4.svg",
+   "kind": "svg",
+   "static": true,
+   "at": "2026-11-18T14:39:40.520Z",
+   "title": "The weekly envelope",
+   "width": 1000,
+   "height": 500
+  },
+  {
+   "n": 6,
+   "file": "6.2509a42a1ab7f9bef786b5b800832af2.svg",
+   "kind": "svg",
+   "static": true,
+   "at": "2026-11-18T14:39:40.520Z",
+   "title": "Spectrum: harmonics and sidebands",
+   "width": 1000,
+   "height": 500
+  },
+  {
+   "n": 7,
+   "file": "7.9c9259281f255c40b32295ecddf423f5.svg",
+   "kind": "svg",
+   "static": true,
+   "at": "2026-11-18T14:39:40.520Z",
+   "title": "Zoom on 1 per day: the sidebands",
+   "width": 1000,
+   "height": 500
+  },
+  {
+   "n": 8,
+   "file": "8.a733e945bc6b5c417cc098162ec1bb3f.svg",
+   "kind": "svg",
+   "static": true,
+   "at": "2026-11-18T14:39:40.520Z",
+   "title": "The signal: 8 weeks of load",
+   "width": 1000,
+   "height": 500
+  }
+ ]
+}

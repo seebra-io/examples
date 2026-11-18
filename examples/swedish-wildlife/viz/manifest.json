@@ -1,0 +1,24 @@
+{
+ "visuals": [
+  {
+   "n": 3,
+   "file": "3.cb8e4a87e0256a411ba77555527767d3.svg",
+   "kind": "svg",
+   "static": true,
+   "at": "2026-11-18T14:48:39.366Z",
+   "title": "A few observers make most of the sample",
+   "width": 1000,
+   "height": 500
+  },
+  {
+   "n": 4,
+   "file": "4.31664b3a26988f58bebcb12e293a9850.svg",
+   "kind": "svg",
+   "static": true,
+   "at": "2026-11-18T14:48:39.366Z",
+   "title": "Birds per 100 photographed records, per province",
+   "width": 1008,
+   "height": 500
+  }
+ ]
+}

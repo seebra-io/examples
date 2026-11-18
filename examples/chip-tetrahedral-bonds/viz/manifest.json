@@ -1,0 +1,24 @@
+{
+ "visuals": [
+  {
+   "n": 1,
+   "file": "1.1e06de5284549168b6758f9dade824e6.svg",
+   "kind": "svg",
+   "static": true,
+   "at": "2026-11-18T14:31:26.406Z",
+   "title": "How well one Δχ threshold separates them",
+   "width": 1000,
+   "height": 500
+  },
+  {
+   "n": 3,
+   "file": "3.69b9c9ed7237997741ed6543a369062f.svg",
+   "kind": "svg",
+   "static": true,
+   "at": "2026-11-18T14:31:26.406Z",
+   "title": "Mooser–Pearson map: covalent and light means tetrahedral",
+   "width": 1000,
+   "height": 500
+  }
+ ]
+}

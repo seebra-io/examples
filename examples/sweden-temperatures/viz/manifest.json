@@ -1,0 +1,24 @@
+{
+ "visuals": [
+  {
+   "n": 2,
+   "file": "2.fb0ea38bca93129595a0b1bfe9873300.svg",
+   "kind": "svg",
+   "static": true,
+   "at": "2026-11-18T14:48:26.711Z",
+   "title": "Trend with an uncertainty band: °C against latitude",
+   "width": 1000,
+   "height": 500
+  },
+  {
+   "n": 3,
+   "file": "3.94a07dc524124a6105dbc795b88bcc78.svg",
+   "kind": "svg",
+   "static": true,
+   "at": "2026-11-18T14:48:26.711Z",
+   "title": "Stations by temperature (°C)",
+   "width": 1000,
+   "height": 504
+  }
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "visuals": [
+  {
+   "n": 3,
+   "file": "3.1d90710eca5ca21f95ea9bc925d9adeb.svg",
+   "kind": "svg",
+   "static": true,
+   "at": "2026-11-18T14:29:37.467Z",
+   "title": "Population against area, coloured by first digit",
+   "width": 1000,
+   "height": 500
+  },
+  {
+   "n": 4,
+   "file": "4.7a385ffabaaac52c2f8e2e5ab36a0bf0.svg",
+   "kind": "svg",
+   "static": true,
+   "at": "2026-11-18T14:29:37.467Z",
+   "title": "Benford's law: first digits against log10(1 + 1/d)",
+   "width": 1000,
+   "height": 500
+  }
+ ]
+}

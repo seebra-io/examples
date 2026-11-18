@@ -1,0 +1,24 @@
+{
+ "visuals": [
+  {
+   "n": 2,
+   "file": "2.4e19a9665803ad383914ccada8b8f3d5.svg",
+   "kind": "svg",
+   "static": true,
+   "at": "2026-11-18T14:49:45.646Z",
+   "title": "Views, top 20",
+   "width": 1000,
+   "height": 500
+  },
+  {
+   "n": 3,
+   "file": "3.92852c8ddb124002f91076a28b1139b9.svg",
+   "kind": "svg",
+   "static": true,
+   "at": "2026-11-18T14:49:45.646Z",
+   "title": "Zipf's law: rank against views, log–log",
+   "width": 1000,
+   "height": 500
+  }
+ ]
+}

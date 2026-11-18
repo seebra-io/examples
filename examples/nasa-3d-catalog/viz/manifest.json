@@ -1,0 +1,32 @@
+{
+ "visuals": [
+  {
+   "n": 3,
+   "file": "3.2cf93f80f0042638b99d31b1268c4f30.svg",
+   "kind": "svg",
+   "static": true,
+   "at": "2026-11-18T14:42:58.083Z",
+   "title": "How large each model is (hover for the model, click for the file)",
+   "width": 1000,
+   "height": 500
+  },
+  {
+   "n": 4,
+   "file": "4.c67f8beb265332ebb734c4e8bf42575a.svg",
+   "kind": "svg",
+   "static": true,
+   "at": "2026-11-18T14:42:58.083Z",
+   "title": "When they were added to science.nasa.gov",
+   "width": 1000,
+   "height": 500
+  },
+  {
+   "n": 5,
+   "file": "5.3b35fc5fd205c4d800db4ceba9d8edfb.glb",
+   "kind": "glb",
+   "static": true,
+   "at": "2026-11-18T14:42:58.083Z",
+   "title": "Hubble in 3D (drag to orbit, wheel to zoom)"
+  }
+ ]
+}

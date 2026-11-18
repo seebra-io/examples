@@ -1,0 +1,64 @@
+{
+ "visuals": [
+  {
+   "n": 3,
+   "file": "3.1bda26c6d44267b2b9c1ae06c5379a77.svg",
+   "kind": "svg",
+   "static": true,
+   "at": "2026-11-18T14:47:38.216Z",
+   "title": "Mass against height on log axes: Star Wars bodies against the square-cube law",
+   "width": 1000,
+   "height": 500
+  },
+  {
+   "n": 4,
+   "file": "4.154c1b2beeff13e2363ea7a7949a4a62.svg",
+   "kind": "svg",
+   "static": true,
+   "at": "2026-11-18T14:47:38.216Z",
+   "title": "Heavier or lighter than a Star Wars body of the same height",
+   "width": 1000,
+   "height": 500
+  },
+  {
+   "n": 5,
+   "file": "5.dbf2d7523252aef5e40b754861b89808.svg",
+   "kind": "svg",
+   "static": true,
+   "at": "2026-11-18T14:47:38.216Z",
+   "title": "Characters against their species' average height",
+   "width": 1000,
+   "height": 500
+  },
+  {
+   "n": 6,
+   "file": "6.db7013546c372f813a579f8748afa38e.svg",
+   "kind": "svg",
+   "static": true,
+   "at": "2026-11-18T14:47:38.216Z",
+   "title": "Per film: characters SWAPI can and can't weigh",
+   "width": 1000,
+   "height": 500
+  },
+  {
+   "n": 7,
+   "file": "7.86d3fb4c610d1552d0866c4ec58510fc.svg",
+   "kind": "svg",
+   "static": true,
+   "at": "2026-11-18T14:47:38.216Z",
+   "title": "Homeworlds: population against diameter, by climate",
+   "width": 1000,
+   "height": 500
+  },
+  {
+   "n": 8,
+   "file": "8.932c61732799b755a179fa64eba3a882.svg",
+   "kind": "svg",
+   "static": true,
+   "at": "2026-11-18T14:47:38.216Z",
+   "title": "Starships: cost against length, coloured by hyperdrive class",
+   "width": 1000,
+   "height": 500
+  }
+ ]
+}

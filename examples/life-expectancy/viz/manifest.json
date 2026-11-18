@@ -1,0 +1,24 @@
+{
+ "visuals": [
+  {
+   "n": 3,
+   "file": "3.5d0755d8f128ad2f2cccf0450cfee15d.svg",
+   "kind": "svg",
+   "static": true,
+   "at": "2026-11-18T14:39:28.740Z",
+   "title": "Life expectancy on log GDP per capita: a correlation, not a cause",
+   "width": 1000,
+   "height": 500
+  },
+  {
+   "n": 4,
+   "file": "4.f5195b4e1c03a5a0bc8916170978d97a.svg",
+   "kind": "svg",
+   "static": true,
+   "at": "2026-11-18T14:39:28.740Z",
+   "title": "Every country by region (tick: region mean)",
+   "width": 1000,
+   "height": 500
+  }
+ ]
+}

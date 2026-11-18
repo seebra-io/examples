@@ -1,0 +1,40 @@
+{
+ "visuals": [
+  {
+   "n": 1,
+   "file": "1.24eddcb37d003a473beca5816b1b1f92.glb",
+   "kind": "glb",
+   "static": true,
+   "at": "2026-11-18T14:43:25.246Z",
+   "title": "Around Earth (3D)"
+  },
+  {
+   "n": 3,
+   "file": "3.442bf2f98c2b875f14107c0ad68f01fe.svg",
+   "kind": "svg",
+   "static": true,
+   "at": "2026-11-18T14:43:25.246Z",
+   "title": "How close: share of the week's asteroids within each distance (ECDF, log scale)",
+   "width": 1000,
+   "height": 500
+  },
+  {
+   "n": 5,
+   "file": "5.9c38b5f20aba1bedc41b5950c3444d51.svg",
+   "kind": "svg",
+   "static": true,
+   "at": "2026-11-18T14:43:25.246Z",
+   "title": "Distance through each flyby",
+   "width": 1000,
+   "height": 500
+  },
+  {
+   "n": 6,
+   "file": "6.189f21fce6d69c09b7489bf820ae08ec.glb",
+   "kind": "glb",
+   "static": true,
+   "at": "2026-11-18T14:43:25.246Z",
+   "title": "Flyby trajectories past Earth (3D, estimated)"
+  }
+ ]
+}
