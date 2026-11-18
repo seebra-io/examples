@@ -1,0 +1,44 @@
+{
+ "visuals": [
+  {
+   "n": 1,
+   "file": "1.ce703c3af68cf5fcf182c403e5344aef.svg",
+   "kind": "svg",
+   "static": true,
+   "at": "2026-11-18T14:28:46.707Z",
+   "title": "Uniqueness by field: crowded categories against lonely ones",
+   "width": 1000,
+   "height": 500
+  },
+  {
+   "n": 2,
+   "file": "2.530ca0ce90ed39451cf65a4d3f3b127e.svg",
+   "kind": "svg",
+   "static": true,
+   "at": "2026-11-18T14:28:46.707Z",
+   "title": "Per-country copies: what removing place names does to each field",
+   "width": 1000,
+   "height": 500
+  },
+  {
+   "n": 3,
+   "file": "3.564de0987c167f58523b5f5af6c150b8.svg",
+   "kind": "svg",
+   "static": true,
+   "at": "2026-11-18T14:28:46.707Z",
+   "title": "Most and least unique APIs, and what they are closest to",
+   "width": 1000,
+   "height": 500
+  },
+  {
+   "n": 10,
+   "file": "10.59e7a790cd44ef352ac0e0862b6c6a07.svg",
+   "kind": "svg",
+   "static": true,
+   "at": "2026-11-18T14:28:46.707Z",
+   "title": "Sensitivity: the v1 score against k = 3, k = 10 and place names kept",
+   "width": 1000,
+   "height": 500
+  }
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "visuals": [
+  {
+   "n": 1,
+   "file": "1.37cf3a713c4b4763ea522f76d6067856.svg",
+   "kind": "svg",
+   "static": true,
+   "at": "2026-11-18T14:45:26.094Z",
+   "title": "A few percent of the plane holds most residues",
+   "width": 1000,
+   "height": 500
+  },
+  {
+   "n": 4,
+   "file": "4.0bcbb4a4367e0b58148893c87dc9fecf.svg",
+   "kind": "svg",
+   "static": true,
+   "at": "2026-11-18T14:45:26.094Z",
+   "title": "Ramachandran plot: φ and ψ of every residue",
+   "width": 1000,
+   "height": 500
+  }
+ ]
+}

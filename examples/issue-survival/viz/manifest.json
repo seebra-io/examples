@@ -1,0 +1,24 @@
+{
+ "visuals": [
+  {
+   "n": 2,
+   "file": "2.ae9592469ffef6dfffc0b3e73afe70c7.svg",
+   "kind": "svg",
+   "static": true,
+   "at": "2026-11-18T14:37:50.434Z",
+   "title": "Survival with censoring: share of issues still open",
+   "width": 1000,
+   "height": 500
+  },
+  {
+   "n": 3,
+   "file": "3.215d5866be5a3463eeb6a2a37bdec16b.svg",
+   "kind": "svg",
+   "static": true,
+   "at": "2026-11-18T14:37:50.434Z",
+   "title": "Each issue: closed or censored",
+   "width": 1000,
+   "height": 500
+  }
+ ]
+}

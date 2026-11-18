@@ -1,0 +1,44 @@
+{
+ "visuals": [
+  {
+   "n": 2,
+   "file": "2.20ee6ec6860e87be2cad67e78093d963.svg",
+   "kind": "svg",
+   "static": true,
+   "at": "2026-11-18T14:30:32.405Z",
+   "title": "Verdict: can ESSA → ESGG be flown VFR at the planned time, and what decides it",
+   "width": 1000,
+   "height": 500
+  },
+  {
+   "n": 3,
+   "file": "3.f4850ca25987c59399c55e72bfc5a681.svg",
+   "kind": "svg",
+   "static": true,
+   "at": "2026-11-18T14:30:32.405Z",
+   "title": "Why read past the TAF's first line: airports below VMC minima, prevailing vs everything the TAF allows",
+   "width": 1000,
+   "height": 500
+  },
+  {
+   "n": 6,
+   "file": "6.0b62cb929ea6614f19fbb54e50305631.svg",
+   "kind": "svg",
+   "static": true,
+   "at": "2026-11-18T14:30:32.405Z",
+   "title": "The route over Sweden: METAR flight categories now, SMHI model points, SIGMETs",
+   "width": 1000,
+   "height": 504
+  },
+  {
+   "n": 7,
+   "file": "7.9a9193bd39bc34007ec3195187cf7da8.svg",
+   "kind": "svg",
+   "static": true,
+   "at": "2026-11-18T14:30:32.405Z",
+   "title": "TAF timeline across the departure window: prevailing vs TEMPO/PROB, and the model between",
+   "width": 1000,
+   "height": 500
+  }
+ ]
+}

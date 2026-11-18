@@ -1,0 +1,44 @@
+{
+ "visuals": [
+  {
+   "n": 1,
+   "file": "1.dd2a25b04cb51b5cada43fa7fd55ce28.svg",
+   "kind": "svg",
+   "static": true,
+   "at": "2026-11-18T14:32:04.410Z",
+   "title": "L(t) against λW",
+   "width": 1000,
+   "height": 500
+  },
+  {
+   "n": 3,
+   "file": "3.4d4159da651890b6f3dbc064cf87c772.svg",
+   "kind": "svg",
+   "static": true,
+   "at": "2026-11-18T14:32:04.410Z",
+   "title": "Hour by hour: L against λW",
+   "width": 1000,
+   "height": 500
+  },
+  {
+   "n": 4,
+   "file": "4.0b3b323d4fdf341ed8722afa3851a825.svg",
+   "kind": "svg",
+   "static": true,
+   "at": "2026-11-18T14:32:04.410Z",
+   "title": "Who holds the load: runs against L per workflow",
+   "width": 1000,
+   "height": 500
+  },
+  {
+   "n": 6,
+   "file": "6.42934bb96c9abef6535f54a914c34e87.svg",
+   "kind": "svg",
+   "static": true,
+   "at": "2026-11-18T14:32:04.410Z",
+   "title": "Every run of the day, start to last update",
+   "width": 1000,
+   "height": 500
+  }
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "visuals": [
+  {
+   "n": 3,
+   "file": "3.91b0216c5bd44d0d11e50b903637a422.svg",
+   "kind": "svg",
+   "static": true,
+   "at": "2026-11-18T14:41:09.557Z",
+   "title": "Images per sol: the same 100 images, different exposures",
+   "width": 1000,
+   "height": 500
+  },
+  {
+   "n": 4,
+   "file": "4.14c118d8c65220553ead38a5b24f49dc.svg",
+   "kind": "svg",
+   "static": true,
+   "at": "2026-11-18T14:41:09.557Z",
+   "title": "Which cameras took the newest 100 images",
+   "width": 1000,
+   "height": 500
+  }
+ ]
+}

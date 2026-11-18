@@ -1,0 +1,44 @@
+{
+ "visuals": [
+  {
+   "n": 2,
+   "file": "2.61583fd233001bdc18dd948fec4ca906.svg",
+   "kind": "svg",
+   "static": true,
+   "at": "2026-11-18T14:44:07.110Z",
+   "title": "PCA of the panel: one shared Nordic year (PC1)",
+   "width": 1000,
+   "height": 500
+  },
+  {
+   "n": 3,
+   "file": "3.01696c38b130e1d24a6d12e68c5ae35b.svg",
+   "kind": "svg",
+   "static": true,
+   "at": "2026-11-18T14:44:07.110Z",
+   "title": "PCA loadings: who moves each component",
+   "width": 1000,
+   "height": 500
+  },
+  {
+   "n": 4,
+   "file": "4.6f3750b4a642ac828f86932ba46f43e2.svg",
+   "kind": "svg",
+   "static": true,
+   "at": "2026-11-18T14:44:07.110Z",
+   "title": "GDP per capita (current US$)",
+   "width": 1000,
+   "height": 500
+  },
+  {
+   "n": 5,
+   "file": "5.da1d96b513f3fb5fe4bd965347934146.svg",
+   "kind": "svg",
+   "static": true,
+   "at": "2026-11-18T14:44:07.110Z",
+   "title": "Yearly growth per country",
+   "width": 1000,
+   "height": 500
+  }
+ ]
+}

@@ -1,0 +1,34 @@
+{
+ "visuals": [
+  {
+   "n": 2,
+   "file": "2.0938185f666417e35f5d4094fab0a943.svg",
+   "kind": "svg",
+   "static": true,
+   "at": "2026-11-18T14:42:45.602Z",
+   "title": "When each species is recorded (share of its Swedish records per month)",
+   "width": 1000,
+   "height": 500
+  },
+  {
+   "n": 3,
+   "file": "3.5c3dd70625064ac05b5d5c5efd0d7583.svg",
+   "kind": "svg",
+   "static": true,
+   "at": "2026-11-18T14:42:45.602Z",
+   "title": "The season clock: mean fruiting date and how concentrated it is",
+   "width": 1000,
+   "height": 529
+  },
+  {
+   "n": 5,
+   "file": "5.8b36bbc30e834bc75bc1118963a1391c.svg",
+   "kind": "svg",
+   "static": true,
+   "at": "2026-11-18T14:42:45.602Z",
+   "title": "Which chanterelle? Names and confidence on Mushroom Observer",
+   "width": 1000,
+   "height": 500
+  }
+ ]
+}

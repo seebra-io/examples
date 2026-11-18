@@ -1,0 +1,44 @@
+{
+ "visuals": [
+  {
+   "n": 3,
+   "file": "3.27e42d25724be38b50f078d4a2b18839.svg",
+   "kind": "svg",
+   "static": true,
+   "at": "2026-11-18T14:37:18.886Z",
+   "title": "MUF against distance: the skip zone",
+   "width": 1000,
+   "height": 500
+  },
+  {
+   "n": 4,
+   "file": "4.a104ce42a7ab67fbdd4a30ff1b593370.svg",
+   "kind": "svg",
+   "static": true,
+   "at": "2026-11-18T14:37:18.886Z",
+   "title": "M(3000)F2: measured vs mirror model",
+   "width": 1000,
+   "height": 500
+  },
+  {
+   "n": 5,
+   "file": "5.efc8a1c48679c1959313b85776b3c83d.svg",
+   "kind": "svg",
+   "static": true,
+   "at": "2026-11-18T14:37:18.886Z",
+   "title": "The ionosondes now",
+   "width": 1000,
+   "height": 504
+  },
+  {
+   "n": 6,
+   "file": "6.517eb27fefcdf9acf2c7ed72c102f953.svg",
+   "kind": "svg",
+   "static": true,
+   "at": "2026-11-18T14:37:18.886Z",
+   "title": "foF2 against local solar time",
+   "width": 1000,
+   "height": 500
+  }
+ ]
+}

@@ -1,0 +1,34 @@
+{
+ "visuals": [
+  {
+   "n": 2,
+   "file": "2.2a8266099626664678fadc905dee0a18.svg",
+   "kind": "svg",
+   "static": true,
+   "at": "2026-11-18T14:38:02.301Z",
+   "title": "Requested share of each node, CPU and memory",
+   "width": 1000,
+   "height": 500
+  },
+  {
+   "n": 3,
+   "file": "3.34bc556eb3f5f1ff28645b504ae35e6d.svg",
+   "kind": "svg",
+   "static": true,
+   "at": "2026-11-18T14:38:02.301Z",
+   "title": "Bin-packing: CPU against memory per node",
+   "width": 1000,
+   "height": 500
+  },
+  {
+   "n": 4,
+   "file": "4.512b7fb96ea655238f8e152d2b6cea70.svg",
+   "kind": "svg",
+   "static": true,
+   "at": "2026-11-18T14:38:02.301Z",
+   "title": "How many more typical pods fit, per node",
+   "width": 1000,
+   "height": 500
+  }
+ ]
+}

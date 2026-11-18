@@ -1,0 +1,44 @@
+{
+ "visuals": [
+  {
+   "n": 2,
+   "file": "2.ff77479d84ecff524e7755ef478761e7.svg",
+   "kind": "svg",
+   "static": true,
+   "at": "2026-11-18T14:45:38.076Z",
+   "title": "Cross-correlation against lag",
+   "width": 1000,
+   "height": 500
+  },
+  {
+   "n": 3,
+   "file": "3.645c9537b4fb9c56ffb1fe5294749ed9.svg",
+   "kind": "svg",
+   "static": true,
+   "at": "2026-11-18T14:45:38.076Z",
+   "title": "Lined up by the travel time",
+   "width": 1000,
+   "height": 500
+  },
+  {
+   "n": 4,
+   "file": "4.ffd3c7ad8c566deba77dfaa9df500cf8.svg",
+   "kind": "svg",
+   "static": true,
+   "at": "2026-11-18T14:45:38.076Z",
+   "title": "The pulse flattens on the way",
+   "width": 1000,
+   "height": 500
+  },
+  {
+   "n": 6,
+   "file": "6.a57fe8afc8804229f660a323a359496c.svg",
+   "kind": "svg",
+   "static": true,
+   "at": "2026-11-18T14:45:38.076Z",
+   "title": "The dam's daily pulse at both gauges",
+   "width": 1000,
+   "height": 500
+  }
+ ]
+}

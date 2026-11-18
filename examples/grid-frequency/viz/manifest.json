@@ -1,0 +1,44 @@
+{
+ "visuals": [
+  {
+   "n": 1,
+   "file": "1.7ab1f4faa6b22d9183a3edcb819cb3cc.svg",
+   "kind": "svg",
+   "static": true,
+   "at": "2026-11-18T14:35:50.093Z",
+   "title": "The day: frequency minus 50 Hz, minute by minute",
+   "width": 1000,
+   "height": 500
+  },
+  {
+   "n": 3,
+   "file": "3.6e7b5dd24ce47b610f0aacb1a80a4c16.svg",
+   "kind": "svg",
+   "static": true,
+   "at": "2026-11-18T14:35:50.093Z",
+   "title": "Folded at the quarter-hour: the schedule sawtooth",
+   "width": 1000,
+   "height": 500
+  },
+  {
+   "n": 4,
+   "file": "4.61cf0de9e0320699b6d1ca8464ad1592.svg",
+   "kind": "svg",
+   "static": true,
+   "at": "2026-11-18T14:35:50.093Z",
+   "title": "How far from 50 Hz, second by second",
+   "width": 1000,
+   "height": 500
+  },
+  {
+   "n": 5,
+   "file": "5.c172cb259f41647c72b0c95d00929988.svg",
+   "kind": "svg",
+   "static": true,
+   "at": "2026-11-18T14:35:50.093Z",
+   "title": "Each quarter-hour: first 2 minutes against the rest",
+   "width": 1000,
+   "height": 500
+  }
+ ]
+}
