@@ -2,6 +2,7 @@
   "data/id": "b3f72394-f111-5ac2-a5ba-e8cd0c11588f",
   "data/name": "Every UNGC galaxy (ned: its NED page)",
   "data/node": {
+    "node/created": 4,
     "node/x": 1150,
     "node/y": 80
   },

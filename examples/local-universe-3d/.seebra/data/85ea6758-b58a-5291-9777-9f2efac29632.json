@@ -2,6 +2,7 @@
   "data/id": "85ea6758-b58a-5291-9777-9f2efac29632",
   "data/name": "The Local Group, nearest first",
   "data/node": {
+    "node/created": 2,
     "node/x": 690,
     "node/y": 560
   },

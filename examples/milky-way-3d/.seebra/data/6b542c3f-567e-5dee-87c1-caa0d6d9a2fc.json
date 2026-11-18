@@ -2,6 +2,7 @@
   "data/id": "6b542c3f-567e-5dee-87c1-caa0d6d9a2fc",
   "data/name": "Every HYG star within 100 light years",
   "data/node": {
+    "node/created": 5,
     "node/x": 690,
     "node/y": 1280
   },
