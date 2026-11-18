@@ -1,9 +1,9 @@
 {
   "data/id": "b330a6f0-f2f6-5861-af8e-0f1f5998e05b",
-  "data/name": "Every split: how many links each cuts data",
+  "data/name": "Best split: each node's side data",
   "data/node": {
-    "node/x": 1610,
-    "node/y": 80
+    "node/x": 1150,
+    "node/y": 320
   },
   "data/parent": ["transformation/id", "28b35fa9-e8c8-55b4-b39a-90eefaf2ce21"],
   "data/type": "json"

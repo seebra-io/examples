@@ -1,6 +1,6 @@
 {
   "transformation/content": {
-    "$file": "transforms/graph-the-links-to-cut-pick-one-here.js"
+    "$file": "transforms/every-split-how-many-links-each-cuts.js"
   },
   "transformation/data-child": ["data/id", "5d96d4b6-5205-557d-b13c-7da502ca7afb"],
   "transformation/dynamic?": true,
@@ -8,7 +8,7 @@
   "transformation/id": "7723d5ad-738f-54d0-a103-c16c1f449feb",
   "transformation/inputs": [],
   "transformation/language": "javascript",
-  "transformation/name": "Graph: the links to cut (pick one here)",
+  "transformation/name": "Every split: how many links each cuts",
   "transformation/name?": true,
   "transformation/node": {
     "node/x": 1000,

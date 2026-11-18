@@ -6,15 +6,7 @@ Split a graph's nodes in two so that as many links as possible are cut: every sp
 
 Category: Science
 
-## Sources
-
-- Seebra example data: <https://www.seebra.io/explore/data>
-
 ## Steps
-
-Queries:
-
-- [Four small graphs, each with its exact max cut](.seebra/query/d507509e-a6b2-5017-9b50-9e149f0d7322.json)
 
 Transformations:
 
@@ -37,13 +29,13 @@ Tables:
 
 Studies:
 
-- [Does a slower annealing schedule find the best cut more often?](.seebra/study/218ea10d-655c-5193-a30e-fca9c757aa06.json)
+- [Does a slower annealing schedule find the best cut more often?](.seebra/study/55a5a6a8-ecb2-57c6-9382-54e489afd096.json)
 
 ## Data
 
-Kept with the board, so it loads without www.seebra.io: the rows load from these files, not from the query (which stays, as where they came from).
+Board files: curated data kept with the board, not live. The rows load from these files (in the app from `https://cdn.seebra.io/explore/examples/maxcut-annealing/data/…`); no API is called and nothing is refetched. Each row's `source` field, where it has one, cites where that row came from.
 
-- [data/four-small-graphs-each-with-its-exact-max-cut.json](data/four-small-graphs-each-with-its-exact-max-cut.json): a copy of `maxcut-graphs.json` as bundled with Seebra (<https://www.seebra.io/explore/data/maxcut-graphs.json>), taken when this folder was generated.
+- [data/maxcut-graphs.json](data/maxcut-graphs.json) (2.0 KB), the data node *Four small graphs, each with its exact max cut*: Computed, not collected: four small graphs (Petersen and others) with their maximum cut found by exhaustive search over every split. Nothing to cite: the numbers can be checked by running the search again.
 
 ## This folder
 

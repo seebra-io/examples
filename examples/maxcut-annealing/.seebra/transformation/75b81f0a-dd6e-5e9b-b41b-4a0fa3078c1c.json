@@ -1,21 +1,19 @@
 {
   "transformation/content": {
-    "$file": "transforms/annealing-runs-50-per-schedule-and-random-splits.js"
+    "$file": "transforms/per-schedule-how-often-the-best-was-found.sql"
   },
   "transformation/data-child": ["data/id", "1234656e-92a3-5123-bfa9-cbcd0b1acf11"],
   "transformation/dynamic?": true,
-  "transformation/environment": "js-web-worker",
+  "transformation/environment": "runtime",
   "transformation/id": "75b81f0a-dd6e-5e9b-b41b-4a0fa3078c1c",
-  "transformation/inputs": [
-    ["data/id", "b330a6f0-f2f6-5861-af8e-0f1f5998e05b"]
-  ],
-  "transformation/language": "javascript",
-  "transformation/name": "Annealing runs: 50 per schedule, and random splits",
+  "transformation/inputs": [],
+  "transformation/language": "sql",
+  "transformation/name": "Per schedule: how often the best was found",
   "transformation/name?": true,
   "transformation/node": {
     "node/x": 1460,
-    "node/y": 560
+    "node/y": 80
   },
-  "transformation/parent": ["data/id", "5d96d4b6-5205-557d-b13c-7da502ca7afb"],
+  "transformation/parent": ["data/id", "c1e91f57-ef13-5d03-be51-3356991dcecf"],
   "transformation/units": "{}"
 }

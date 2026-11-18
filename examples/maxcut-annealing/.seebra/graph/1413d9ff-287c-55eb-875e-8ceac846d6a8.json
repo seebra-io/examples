@@ -1,14 +1,16 @@
 {
   "graph/content": {
-    "$file": "graphs/start-here.js"
+    "$file": "graphs/the-best-split-hover-a-node.js"
   },
   "graph/id": "1413d9ff-287c-55eb-875e-8ceac846d6a8",
-  "graph/inputs": [],
+  "graph/inputs": [
+    ["data/id", "b330a6f0-f2f6-5861-af8e-0f1f5998e05b"]
+  ],
   "graph/language": "javascript",
-  "graph/name": "Start here",
+  "graph/name": "The best split (hover a node)",
   "graph/node": {
-    "node/x": 1460,
-    "node/y": 800
+    "node/x": 1000,
+    "node/y": 1040
   },
-  "graph/parent": ["data/id", "5d96d4b6-5205-557d-b13c-7da502ca7afb"]
+  "graph/parent": ["data/id", "2fbddf48-3ba2-507c-907e-76e20e74c331"]
 }

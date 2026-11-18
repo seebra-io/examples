@@ -6,15 +6,7 @@ NASA's Mars rovers side by side and to scale in 3D: Sojourner (1997), Spirit and
 
 Category: Space
 
-## Sources
-
-- Seebra example data: <https://www.seebra.io/explore/data>
-
 ## Steps
-
-Queries:
-
-- [Mars rover parts (curated, with sources)](.seebra/query/fb427df6-c701-5995-8ec9-d7aacdf4200b.json)
 
 Transformations:
 
@@ -35,9 +27,9 @@ Tables:
 
 ## Data
 
-Kept with the board, so it loads without www.seebra.io: the rows load from these files, not from the query (which stays, as where they came from).
+Board files: curated data kept with the board, not live. The rows load from these files (in the app from `https://cdn.seebra.io/explore/examples/mars-rovers-up-close/data/…`); no API is called and nothing is refetched. Each row's `source` field, where it has one, cites where that row came from.
 
-- [data/mars-rover-parts-curated-with-sources-data.json](data/mars-rover-parts-curated-with-sources-data.json): a copy of `mars-rover-parts.json` as bundled with Seebra (<https://www.seebra.io/explore/data/mars-rover-parts.json>), taken when this folder was generated.
+- [data/mars-rover-parts.json](data/mars-rover-parts.json) (25 KB), the data node *Mars rover parts (curated, with sources)*: Curated by Seebra from Wikipedia and NASA: NASA's four Mars rovers and their parts (each row's source). Positions are metres on a simplified model, not exact; masses and power only where a source states them.
 
 ## This folder
 

@@ -1,0 +1,10 @@
+{
+  "data/id": "21963743-adc3-5085-b184-b369646582a0",
+  "data/name": "Gaia DR3: every well-measured source within 100 light years (CSV) data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 80
+  },
+  "data/parent": ["query/id", "a7775af4-08e5-5ea1-9d6e-122666073825"],
+  "data/type": "json"
+}

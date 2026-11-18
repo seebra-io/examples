@@ -1,0 +1,44 @@
+{
+  "dashboard/id": "c9a3af8f-af1e-526c-a10d-2daa79e410e5",
+  "datas": [
+    ["data/id", "f35a8335-1060-53c7-b5b9-aee1ef4f2a3e"],
+    ["data/id", "c0a25517-cdf8-5adc-a7f4-bf5015a574c9"],
+    ["data/id", "21963743-adc3-5085-b184-b369646582a0"],
+    ["data/id", "d01b8d72-cd7f-59cd-8e6d-1e00c944a136"],
+    ["data/id", "6b542c3f-567e-5dee-87c1-caa0d6d9a2fc"],
+    ["data/id", "9c53a193-1141-52d4-b941-115abdafc454"],
+    ["data/id", "a675688d-1c46-5f46-8f1d-c16fd8db1345"],
+    ["data/id", "c386c078-9e91-5086-a40a-131607a993fc"]
+  ],
+  "datasources": [
+    ["datasource/id", "e31709e9-28e3-51d8-94a3-faaafe34add0"],
+    ["datasource/id", "3dc15b71-8481-5219-a89d-30131c66721e"]
+  ],
+  "description": "The Milky Way in 3D with a glowing bar and bulge, the spiral arms Reid et al. (2019) fitted to about 200 maser parallaxes (solid where measured, dashed where the fit is carried on), gas haze and dust lanes, the Sun at GRAVITY's 8.18 kpc, and real nebulae, clusters and Sgr A* at measured distances. Then two scales down: every star within 100 light years in true 3D (HYG, with Gaia DR3 and the NASA Exoplanet Archive live), and the solar system to the nearest stars on a log scale: Kuiper belt, heliopause and both Voyagers, the hypothesised Oort cloud, long-period comets, Alpha Centauri. Caveat: we see the Galaxy from inside, so its structure is inferred and the arms are a model; the bar, gas and dust are drawn from published scales, not observed. Next: the local universe in 3D.",
+  "graphs": [
+    ["graph/id", "75a02013-ea08-57ce-b826-2f50926feff3"],
+    ["graph/id", "9c657776-a3b0-5e50-ac47-b6a94db89dd1"],
+    ["graph/id", "6d4a4081-8012-57e5-b577-8555b43138ff"],
+    ["graph/id", "b8612a37-c1a5-5d5b-915f-311d8e3d40fb"]
+  ],
+  "grids": [],
+  "name": "Our neighbourhood in the Milky Way, in 3D",
+  "ontology": {
+    "$file": ".seebra/dashboard/c9a3af8f-af1e-526c-a10d-2daa79e410e5.ontology.json",
+    "$json": true
+  },
+  "queries": [
+    ["query/id", "a7775af4-08e5-5ea1-9d6e-122666073825"],
+    ["query/id", "0fc29766-1a74-5ee0-bcb3-f0dc4570102a"]
+  ],
+  "studies": [],
+  "tables": [],
+  "texts": [],
+  "timers": [],
+  "transformations": [
+    ["transformation/id", "cc0e1f51-78c8-5a87-9fe0-198c84f4e61e"],
+    ["transformation/id", "ad2a5dce-13fc-5971-9ed3-67dfc4922c1e"],
+    ["transformation/id", "11642cf0-d15a-53ca-8b9d-5daaa9f9c4e1"],
+    ["transformation/id", "bdc591a1-66a6-5982-a3d8-396449b17a91"]
+  ]
+}

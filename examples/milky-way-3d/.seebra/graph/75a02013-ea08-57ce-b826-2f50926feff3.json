@@ -1,0 +1,15 @@
+{
+  "graph/content": {
+    "$file": "graphs/the-milky-way-arms-where-the-masers-are-the-bar.js"
+  },
+  "graph/id": "75a02013-ea08-57ce-b826-2f50926feff3",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "The Milky Way: arms where the masers are, the bar, gas and dust, the Sun (hover; fly to)",
+  "graph/node": {
+    "node/created": 1,
+    "node/x": 540,
+    "node/y": 560
+  },
+  "graph/parent": ["data/id", "f35a8335-1060-53c7-b5b9-aee1ef4f2a3e"]
+}

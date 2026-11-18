@@ -6,17 +6,7 @@ NASA's own 3D model of the Perseverance rover, with Ingenuity beside it: hover a
 
 Category: Space
 
-## Sources
-
-- Seebra example data: <https://www.seebra.io/explore/data>
-
 ## Steps
-
-Queries:
-
-- [Perseverance, NASA's 3D model](.seebra/query/cfc760e9-1fb1-5a1b-a8df-b519e968c708.json)
-- [Ingenuity, NASA's 3D model](.seebra/query/42ac0ec0-ca44-57f3-9996-a71581a209d7.json)
-- [Parts and builders (curated, with sources)](.seebra/query/504fae59-a17e-5df9-b646-334258de68cc.json)
 
 Transformations:
 
@@ -37,14 +27,11 @@ Tables:
 
 ## Data
 
-Kept with the board, so it loads without www.seebra.io: the rows load from these files, not from the query (which stays, as where they came from).
+Board files: curated data kept with the board, not live. The rows load from these files (in the app from `https://cdn.seebra.io/explore/examples/perseverance-builders/data/…`); no API is called and nothing is refetched. Each row's `source` field, where it has one, cites where that row came from.
 
-- [data/parts-and-builders-curated-with-sources-data.json](data/parts-and-builders-curated-with-sources-data.json): a copy of `perseverance-builders.json` as bundled with Seebra (<https://www.seebra.io/explore/data/perseverance-builders.json>), taken when this folder was generated.
-
-Fetched from Seebra when the board runs (not kept here):
-
-- <https://www.seebra.io/explore/data/models/ingenuity.glb> (not CSV or JSON)
-- <https://www.seebra.io/explore/data/models/perseverance.glb> (not CSV or JSON)
+- [data/ingenuity.glb](data/ingenuity.glb) (2.0 MB), the data node *Ingenuity, NASA's 3D model*: NASA's 3D model of the Ingenuity helicopter (NASA/JPL-Caltech, NASA 3D Resources, free and without copyright: https://github.com/nasa/NASA-3D-Resources), re-encoded with meshopt for the browser.
+- [data/perseverance-builders.json](data/perseverance-builders.json) (38 KB), the data node *Parts and builders (curated, with sources)*: Curated by Seebra: Perseverance's and Ingenuity's parts and the organizations that designed or built them, from NASA/JPL, Wikipedia and the builders' own pages (each builder row's source; claims no source stated were left out). Part positions on NASA's 3D model are approximate.
+- [data/perseverance.glb](data/perseverance.glb) (5.6 MB), the data node *Perseverance, NASA's 3D model*: NASA's 3D model of Perseverance (NASA/JPL-Caltech, NASA 3D Resources, free and without copyright: https://github.com/nasa/NASA-3D-Resources), re-encoded with meshopt for the browser.
 
 ## This folder
 

@@ -1,13 +1,13 @@
 {
+  "data/description": "Made up: a sample in the shape of Spotify's extended streaming history export (Streaming_History_Audio_*.json), so the board runs before you have your own. Not anyone's real listening.",
   "data/file": {
-    "$file": "data/export-guide-22-platforms-data.json"
+    "$file": "data/Streaming_History_Audio_sample.json"
   },
   "data/id": "b4c95036-6123-59c3-b2e2-bebae986b4c5",
-  "data/name": "Export guide: 22 platforms data",
+  "data/name": "Sample: Spotify extended streaming history (made up)",
   "data/node": {
-    "node/x": 820,
-    "node/y": 80
+    "node/x": 80,
+    "node/y": 320
   },
-  "data/parent": ["query/id", "143d8f2e-11f3-53ee-a337-40bae06668e8"],
-  "data/type": "json"
+  "data/type": "application/json"
 }

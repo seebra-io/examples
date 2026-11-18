@@ -1,19 +1,19 @@
 {
   "query/data-child": ["data/id", "1aa238fc-5e8e-58a1-84fe-b78f2a69232f"],
-  "query/datasource": ["datasource/id", "68a537a8-d636-57e3-963a-45fca9bc2047"],
+  "query/datasource": ["datasource/id", "7bdda083-1c18-5c90-a324-e896aef12006"],
   "query/dynamic?": false,
   "query/format": "",
   "query/headers": "{}",
   "query/id": "98153760-cef4-5c8c-a908-7c5164b62513",
   "query/key": "",
   "query/method": "GET",
-  "query/name": "Jupiter trojans (orbital elements)",
+  "query/name": "The Sun, NASA's model",
   "query/node": {
     "node/x": 540,
     "node/y": 560
   },
-  "query/params": "{\"fields\":\"full_name,a,e,i,om,w,ma,epoch,class\",\"sb-class\":\"TJN\",\"limit\":\"1500\"}",
-  "query/path": "/sbdb_query.api",
+  "query/params": "{}",
+  "query/path": "/psd/solar/2023/09/s/Sun_1_1391000.glb",
   "query/request-body": "",
   "query/units": "{}"
 }

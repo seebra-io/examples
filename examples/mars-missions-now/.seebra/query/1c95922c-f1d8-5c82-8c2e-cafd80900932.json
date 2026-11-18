@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "1c11b0ca-951c-5f44-ab63-079da4b8366b"],
+  "query/datasource": ["datasource/id", "30c5b994-4ad0-5c43-8ef6-107931b71cd5"],
+  "query/dynamic?": false,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "1c95922c-f1d8-5c82-8c2e-cafd80900932",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Mars, NASA's colour map (Viking mosaic)",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 80
+  },
+  "query/params": "{\"v\":\"2\"}",
+  "query/path": "/Images%20and%20Textures/Mars/Mars.jpg",
+  "query/request-body": "",
+  "query/units": "{}"
+}

@@ -1,0 +1,11 @@
+{
+  "data/id": "c386c078-9e91-5086-a40a-131607a993fc",
+  "data/name": "Spiral arms: Reid et al. 2019's log-spiral fits",
+  "data/node": {
+    "node/x": 690,
+    "node/y": 1760
+  },
+  "data/parent": ["transformation/id", "bdc591a1-66a6-5982-a3d8-396449b17a91"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

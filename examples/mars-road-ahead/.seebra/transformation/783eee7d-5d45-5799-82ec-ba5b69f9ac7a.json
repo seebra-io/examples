@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/missions-ranked-by-how-certain-they-are.js"
+  },
+  "transformation/data-child": ["data/id", "13236204-9bb7-58c9-9b26-c5007fcfca4a"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "js-web-worker",
+  "transformation/id": "783eee7d-5d45-5799-82ec-ba5b69f9ac7a",
+  "transformation/inputs": [],
+  "transformation/language": "javascript",
+  "transformation/name": "Missions, ranked by how certain they are",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 540,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "5f96749b-4e4f-53f0-b13d-498541dfdd76"],
+  "transformation/units": "{}"
+}

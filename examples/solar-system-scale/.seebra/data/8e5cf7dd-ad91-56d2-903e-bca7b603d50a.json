@@ -1,9 +1,9 @@
 {
   "data/id": "8e5cf7dd-ad91-56d2-903e-bca7b603d50a",
-  "data/name": "Every asteroid shown",
+  "data/name": "Asteroid groups",
   "data/node": {
-    "node/x": 1150,
-    "node/y": 320
+    "node/x": 1610,
+    "node/y": 80
   },
   "data/parent": ["transformation/id", "be20a676-1ad1-5c52-a63e-7bb244892f62"],
   "data/presentation?": true,

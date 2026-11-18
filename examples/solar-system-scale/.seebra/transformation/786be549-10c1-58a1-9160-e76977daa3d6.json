@@ -1,0 +1,21 @@
+{
+  "transformation/content": {
+    "$file": "transforms/asteroids-one-row-each.js"
+  },
+  "transformation/data-child": ["data/id", "9f75d133-8ef5-5916-a651-d39ca8f8c2f3"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "js-web-worker",
+  "transformation/id": "786be549-10c1-58a1-9160-e76977daa3d6",
+  "transformation/inputs": [
+    ["data/id", "acb39804-b927-5dfd-aa9e-854726b3c64d"]
+  ],
+  "transformation/language": "javascript",
+  "transformation/name": "Asteroids, one row each",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "66960e22-3bdd-583c-9e28-add38a6ae356"],
+  "transformation/units": "{\"a\":\"AU\",\"i\":\"°\",\"period_years\":\"yr\",\"perihelion_au\":\"AU\",\"aphelion_au\":\"AU\"}"
+}

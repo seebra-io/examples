@@ -1,0 +1,13 @@
+{
+  "data/description": "The planets' orbital elements from E. M. Standish, Keplerian Elements for Approximate Positions of the Major Planets (JPL Solar System Dynamics, Table 1, valid 1800-2050), mean radii from NASA's planetary fact sheets, and the asteroid belt's resonances, as the file's source fields cite.",
+  "data/file": {
+    "$file": "data/solar-system-elements.json"
+  },
+  "data/id": "94a26497-8a6a-504f-b7ca-5835085ba070",
+  "data/name": "The planets' orbital elements (JPL, Standish) and the belt's resonances",
+  "data/node": {
+    "node/x": 80,
+    "node/y": 800
+  },
+  "data/type": "application/json"
+}

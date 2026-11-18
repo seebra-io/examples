@@ -1,18 +1,14 @@
 {
   "graph/content": {
-    "$file": "graphs/perseverance-and-ingenuity-hover-a-part-click.js"
+    "$file": "graphs/every-organization-against-the-rover-s-systems.js"
   },
   "graph/id": "d5a80edb-99c4-5222-a1d0-8d5a3c1bdf74",
-  "graph/inputs": [
-    ["data/id", "f2b113c3-a84c-5bef-91bc-2b5911842983"],
-    ["data/id", "15cd3669-ab6e-5a4f-9163-d3e90a065d5b"],
-    ["data/id", "a8ec6937-46b8-5b52-bed7-1f922a3882a5"]
-  ],
+  "graph/inputs": [],
   "graph/language": "javascript",
-  "graph/name": "Perseverance and Ingenuity (hover a part, click for the source)",
+  "graph/name": "Every organization against the rover's systems",
   "graph/node": {
-    "node/x": 1000,
-    "node/y": 560
+    "node/x": 1460,
+    "node/y": 80
   },
-  "graph/parent": ["data/id", "51e79de9-522b-5814-8979-c4cba393662b"]
+  "graph/parent": ["data/id", "15cd3669-ab6e-5a4f-9163-d3e90a065d5b"]
 }

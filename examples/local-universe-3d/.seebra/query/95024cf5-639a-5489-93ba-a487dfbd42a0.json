@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "0f1108e6-f367-55a1-9dc5-83e916c73467"],
+  "query/datasource": ["datasource/id", "0eb34762-e3e4-5277-bbb2-ff1a5bb38815"],
+  "query/dynamic?": true,
+  "query/format": "text",
+  "query/headers": "{}",
+  "query/id": "95024cf5-639a-5489-93ba-a487dfbd42a0",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "2MASS Redshift Survey galaxies under 6,000 km/s (Huchra et al. 2012)",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 320
+  },
+  "query/params": "{\"table\":\"twomassrsc\",\"format\":\"csv\",\"resultmax\":\"0\",\"fields\":\"name,alt_name,lii,bii,ks_mag_0_tot,morph_type,radial_velocity,radial_velocity_error\",\"constraint\":\"radial_velocity<6000\"}",
+  "query/path": "/query",
+  "query/request-body": "",
+  "query/units": "{}"
+}

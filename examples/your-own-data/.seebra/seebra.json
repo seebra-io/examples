@@ -3,6 +3,6 @@
     "file/example": "your-own-data"
   },
   "format": 2,
-  "root": ["dashboard/id", "07433484-7142-53e4-9672-c3f31c2981e4"],
+  "root": ["dashboard/id", "6bcd15fd-a72a-5bfc-9a4f-74bc1c9fbf50"],
   "seebra": "board"
 }

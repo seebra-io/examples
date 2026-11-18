@@ -1,18 +1,18 @@
 {
   "query/data-child": ["data/id", "acb39804-b927-5dfd-aa9e-854726b3c64d"],
-  "query/datasource": ["datasource/id", "68a537a8-d636-57e3-963a-45fca9bc2047"],
+  "query/datasource": ["datasource/id", "dbfdd7a1-ae92-5b5d-a2ba-c0132b4905b3"],
   "query/dynamic?": false,
   "query/format": "",
   "query/headers": "{}",
   "query/id": "4fb91dd5-1eed-5899-9d5e-11a3a0a1b336",
   "query/key": "",
   "query/method": "GET",
-  "query/name": "3,000 numbered asteroids (orbital elements)",
+  "query/name": "Jupiter trojans (orbital elements)",
   "query/node": {
     "node/x": 540,
     "node/y": 320
   },
-  "query/params": "{\"fields\":\"full_name,a,e,i,om,w,ma,epoch,class\",\"sb-kind\":\"a\",\"sb-ns\":\"n\",\"limit\":\"3000\"}",
+  "query/params": "{\"fields\":\"full_name,a,e,i,om,w,ma,epoch,class\",\"sb-class\":\"TJN\",\"limit\":\"1500\"}",
   "query/path": "/sbdb_query.api",
   "query/request-body": "",
   "query/units": "{}"

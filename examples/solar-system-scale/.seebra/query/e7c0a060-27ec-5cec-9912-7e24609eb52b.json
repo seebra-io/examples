@@ -1,19 +1,19 @@
 {
   "query/data-child": ["data/id", "bf77bf61-ffb3-5873-85c0-d1c25a2a17a0"],
-  "query/datasource": ["datasource/id", "dbfdd7a1-ae92-5b5d-a2ba-c0132b4905b3"],
+  "query/datasource": ["datasource/id", "be2ff423-d64f-5002-a376-d495798814a9"],
   "query/dynamic?": false,
   "query/format": "",
   "query/headers": "{}",
   "query/id": "e7c0a060-27ec-5cec-9912-7e24609eb52b",
   "query/key": "",
   "query/method": "GET",
-  "query/name": "Mars' texture (NASA 3D Resources)",
+  "query/name": "Jupiter's texture (NASA 3D Resources)",
   "query/node": {
     "node/x": 540,
     "node/y": 1760
   },
   "query/params": "{\"v\":\"2\"}",
-  "query/path": "/Images%20and%20Textures/Mars/Mars.jpg",
+  "query/path": "/Images%20and%20Textures/Jupiter/Jupiter.jpg",
   "query/request-body": "",
   "query/units": "{}"
 }

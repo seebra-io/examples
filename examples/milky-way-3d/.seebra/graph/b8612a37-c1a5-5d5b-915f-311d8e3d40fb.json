@@ -1,0 +1,15 @@
+{
+  "graph/content": {
+    "$file": "graphs/from-the-sun-to-the-nearest-stars-log-scale.js"
+  },
+  "graph/id": "b8612a37-c1a5-5d5b-915f-311d8e3d40fb",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "From the Sun to the nearest stars, log scale: Kuiper belt, heliopause, Voyagers, Oort cloud, comets",
+  "graph/node": {
+    "node/created": 3,
+    "node/x": 540,
+    "node/y": 1040
+  },
+  "graph/parent": ["data/id", "f35a8335-1060-53c7-b5b9-aee1ef4f2a3e"]
+}

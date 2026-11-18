@@ -1,0 +1,13 @@
+{
+  "data/description": "Every star within 100 light years from the HYG database v4.4 (CC BY-SA 4.0), with Galactic x, y, z. HYG misses many faint red dwarfs. Checked 2026-11-18.",
+  "data/file": {
+    "$file": "data/nearby-stars-100ly.json"
+  },
+  "data/id": "c0a25517-cdf8-5adc-a7f4-bf5015a574c9",
+  "data/name": "Stars within 100 light years (HYG v4.4, Galactic x, y, z)",
+  "data/node": {
+    "node/x": 80,
+    "node/y": 800
+  },
+  "data/type": "application/json"
+}

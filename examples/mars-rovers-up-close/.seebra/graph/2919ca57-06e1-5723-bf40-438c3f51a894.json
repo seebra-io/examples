@@ -1,16 +1,14 @@
 {
   "graph/content": {
-    "$file": "graphs/mars-rovers-up-close-3d-hover-the-dots.js"
+    "$file": "graphs/mass-and-power-across-four-generations.js"
   },
   "graph/id": "2919ca57-06e1-5723-bf40-438c3f51a894",
-  "graph/inputs": [
-    ["data/id", "dfacd40f-594d-56bc-b481-35f502ebce8e"]
-  ],
+  "graph/inputs": [],
   "graph/language": "javascript",
-  "graph/name": "Mars rovers up close (3D, hover the dots)",
+  "graph/name": "Mass and power across four generations",
   "graph/node": {
-    "node/x": 1460,
-    "node/y": 80
+    "node/x": 1000,
+    "node/y": 320
   },
   "graph/parent": ["data/id", "5533be3a-66fa-5b62-9447-90ae124c7772"]
 }

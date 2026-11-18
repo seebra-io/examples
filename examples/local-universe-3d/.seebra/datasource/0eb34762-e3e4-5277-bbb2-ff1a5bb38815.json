@@ -1,0 +1,16 @@
+{
+  "datasource/api-key-key": "api_key",
+  "datasource/auth-type": "none",
+  "datasource/headers": "{}",
+  "datasource/id": "0eb34762-e3e4-5277-bbb2-ff1a5bb38815",
+  "datasource/name": "NASA HEASARC Xamin (catalogue queries)",
+  "datasource/node": {
+    "inputs": 1,
+    "node/x": 80,
+    "node/y": 80,
+    "outputs": 1
+  },
+  "datasource/params": "{}",
+  "datasource/type": "openapi",
+  "datasource/url": "https://heasarc.gsfc.nasa.gov/xamin"
+}

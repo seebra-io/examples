@@ -1,0 +1,11 @@
+{
+  "data/id": "4e5f3d19-be4b-5ba2-b634-261305395a25",
+  "data/name": "Every spacecraft (click a source)",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 1040
+  },
+  "data/parent": ["transformation/id", "80a75f8b-c2dc-5474-a06c-6bae6784d183"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

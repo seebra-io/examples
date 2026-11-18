@@ -1,10 +1,11 @@
 {
   "data/id": "15cd3669-ab6e-5a4f-9163-d3e90a065d5b",
-  "data/name": "Who built what data",
+  "data/name": "Who built what (click a source)",
   "data/node": {
     "node/x": 1150,
-    "node/y": 320
+    "node/y": 80
   },
   "data/parent": ["transformation/id", "246586d4-6288-581b-8668-b8cc0ffa806b"],
+  "data/presentation?": true,
   "data/type": "json"
 }

@@ -1,0 +1,18 @@
+{
+  "study/hypothesis": "The cut found, as a share of the maximum cut, rises with the number of sweeps.",
+  "study/id": "55a5a6a8-ecb2-57c6-9382-54e489afd096",
+  "study/name": "Does a slower annealing schedule find the best cut more often?",
+  "study/node": {
+    "node/x": 540,
+    "node/y": 320
+  },
+  "study/plan": {
+    "$file": ".seebra/study/55a5a6a8-ecb2-57c6-9382-54e489afd096.plan.json",
+    "$json": true
+  },
+  "study/question": "On a 20-node 3-regular graph, does simulated annealing end closer to the maximum cut when its schedule is longer?",
+  "study/state": {
+    "$file": ".seebra/study/55a5a6a8-ecb2-57c6-9382-54e489afd096.state.json",
+    "$json": true
+  }
+}

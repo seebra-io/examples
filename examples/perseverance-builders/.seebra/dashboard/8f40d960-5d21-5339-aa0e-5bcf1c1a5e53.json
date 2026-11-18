@@ -1,0 +1,30 @@
+{
+  "dashboard/id": "8f40d960-5d21-5339-aa0e-5bcf1c1a5e53",
+  "datas": [
+    ["data/id", "22a9d0d2-1a2e-5983-8ea9-f1f6cfecf03f"],
+    ["data/id", "51e79de9-522b-5814-8979-c4cba393662b"],
+    ["data/id", "a8ec6937-46b8-5b52-bed7-1f922a3882a5"],
+    ["data/id", "6738931b-6c59-56dd-9eb3-269e3073a51a"],
+    ["data/id", "f2b113c3-a84c-5bef-91bc-2b5911842983"],
+    ["data/id", "15cd3669-ab6e-5a4f-9163-d3e90a065d5b"]
+  ],
+  "datasources": [],
+  "description": "NASA's own 3D model of the Perseverance rover, with Ingenuity beside it: hover a part (cameras, instruments, the arm and drill, the power source, antennas, wheels) and it lights up with what it does and which organizations designed, built or led it; click for the source. Beside it, every organization against the rover's systems, and the countries they're in. Perseverance is mostly JPL's, with instruments from France (SuperCam's mast unit), Spain (MEDA, the high-gain antenna), Norway (RIMFAX), Italy (LaRA) and Finland (MEDA's sensors), and companies from Austria to Japan. Caveats: only claims a fetched source states (JPL pages often name no outside builder, so a part with only JPL may have had others); a few countries are inferred (marked); dots mark parts the model has no shape for, at approximate positions; organization counts say nothing of money or effort. Next: Mars rovers up close compares four generations, and the raw images example shows what the cameras see.",
+  "graphs": [
+    ["graph/id", "9ab43556-ba2d-50cc-859f-fb99b02e1098"],
+    ["graph/id", "d5a80edb-99c4-5222-a1d0-8d5a3c1bdf74"],
+    ["graph/id", "42545ad8-cc94-5eeb-9aeb-17db3ed17fdf"]
+  ],
+  "grids": [],
+  "name": "Perseverance: who built what",
+  "queries": [],
+  "studies": [],
+  "tables": [],
+  "texts": [],
+  "timers": [],
+  "transformations": [
+    ["transformation/id", "504fae59-a17e-5df9-b646-334258de68cc"],
+    ["transformation/id", "9b800753-41dc-5f09-993f-698d9255284e"],
+    ["transformation/id", "246586d4-6288-581b-8668-b8cc0ffa806b"]
+  ]
+}

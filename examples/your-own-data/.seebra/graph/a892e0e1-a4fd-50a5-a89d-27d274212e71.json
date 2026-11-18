@@ -1,14 +1,14 @@
 {
   "graph/content": {
-    "$file": "graphs/spotify-your-artists-month-by-month.js"
+    "$file": "graphs/spotify-played-a-lot-skipped-a-lot.js"
   },
   "graph/id": "a892e0e1-a4fd-50a5-a89d-27d274212e71",
   "graph/inputs": [],
   "graph/language": "javascript",
-  "graph/name": "Spotify: your artists, month by month",
+  "graph/name": "Spotify: played a lot, skipped a lot?",
   "graph/node": {
     "node/x": 1460,
-    "node/y": 1280
+    "node/y": 80
   },
   "graph/parent": ["data/id", "59f53af7-73c0-557c-bee7-9d0d2b8fcdb6"]
 }

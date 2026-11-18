@@ -8,16 +8,10 @@ const checked = d => d.quality === "G";
 // --- frame: an SVG with a hover tip in a positioned div
 const wrap = d3.create("div").style("position", "relative").style("width", W + "px").style("height", H + "px");
 const svg = wrap.append("svg").attr("width", W).attr("height", H).style("font", "11px sans-serif").style("color", "currentColor");
-const tip = wrap.append("div").style("position", "absolute").style("pointer-events", "none").style("opacity", 0)
-  .style("background", "rgba(9,9,11,.94)").style("color", "#f4f4f5").style("border", "1px solid #3f3f46")
-  .style("border-radius", "6px").style("padding", "4px 8px").style("font", "12px sans-serif").style("white-space", "nowrap");
-const showTip = (event, html) => {
-  const [px, py] = d3.pointer(event, wrap.node());
-  tip.html(html).style("opacity", 1);
-  const w = tip.node().offsetWidth, h = tip.node().offsetHeight;
-  tip.style("left", Math.max(0, Math.min(px + 14, W - w - 2)) + "px").style("top", Math.max(0, py - h - 10 < 0 ? py + 14 : py - h - 10) + "px");
-};
-const hideTip = () => tip.style("opacity", 0);
+// the hover box is Seebra's one box (seebra.tooltip): beside the pointer, never
+// over it, and the only one on screen (another graph's closes when it opens)
+const showTip = (event, html) => seebra.tooltip.show(html, event);
+const hideTip = () => seebra.tooltip.hide();
 
 // --- scales: the projection (lon/lat to pixels) and the temperature colour
 const legendWidth = 70;
@@ -37,7 +31,7 @@ world.append("g").selectAll("path").data(atlas50.countries.features).join("path"
   .attr("fill-opacity", 0.06)
   .attr("stroke", "currentColor").attr("stroke-opacity", f => f.properties.name === "Sweden" ? 0.45 : 0.2)
   .attr("stroke-width", 0.7).attr("vector-effect", "non-scaling-stroke")
-  .append("title").text(f => f.properties.name);
+  .on("pointermove", (event, f) => showTip(event, `<b>${f.properties.name}</b>`)).on("pointerleave", hideTip);
 world.append("path").attr("d", path(d3.geoGraticule().step([2, 1])())).attr("fill", "none").attr("stroke", "currentColor").attr("stroke-opacity", 0.12);
 const rank = d => stations.filter(o => o.temp > d.temp).length + 1;
 const dots = world.append("g").selectAll("circle")

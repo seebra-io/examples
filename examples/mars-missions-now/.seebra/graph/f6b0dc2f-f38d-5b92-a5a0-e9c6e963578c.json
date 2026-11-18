@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/how-high-the-orbiters-fly.js"
+  },
+  "graph/id": "f6b0dc2f-f38d-5b92-a5a0-e9c6e963578c",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "How high the orbiters fly",
+  "graph/node": {
+    "node/x": 1000,
+    "node/y": 800
+  },
+  "graph/parent": ["data/id", "34c15b1b-4fbf-5f1c-adab-0a7b623ea589"]
+}

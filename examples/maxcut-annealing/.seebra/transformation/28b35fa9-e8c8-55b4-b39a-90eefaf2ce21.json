@@ -1,6 +1,6 @@
 {
   "transformation/content": {
-    "$file": "transforms/every-split-how-many-links-each-cuts.js"
+    "$file": "transforms/best-split-each-node-s-side.js"
   },
   "transformation/data-child": ["data/id", "b330a6f0-f2f6-5861-af8e-0f1f5998e05b"],
   "transformation/dynamic?": true,
@@ -8,12 +8,12 @@
   "transformation/id": "28b35fa9-e8c8-55b4-b39a-90eefaf2ce21",
   "transformation/inputs": [],
   "transformation/language": "javascript",
-  "transformation/name": "Every split: how many links each cuts",
+  "transformation/name": "Best split: each node's side",
   "transformation/name?": true,
   "transformation/node": {
-    "node/x": 1460,
-    "node/y": 80
+    "node/x": 1000,
+    "node/y": 320
   },
-  "transformation/parent": ["data/id", "5d96d4b6-5205-557d-b13c-7da502ca7afb"],
+  "transformation/parent": ["data/id", "2fbddf48-3ba2-507c-907e-76e20e74c331"],
   "transformation/units": "{}"
 }

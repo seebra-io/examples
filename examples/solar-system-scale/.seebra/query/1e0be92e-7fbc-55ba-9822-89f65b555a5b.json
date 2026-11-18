@@ -1,19 +1,19 @@
 {
   "query/data-child": ["data/id", "4c7d8921-0b10-5171-a197-606c5455cc48"],
-  "query/datasource": ["datasource/id", "dbfdd7a1-ae92-5b5d-a2ba-c0132b4905b3"],
+  "query/datasource": ["datasource/id", "be2ff423-d64f-5002-a376-d495798814a9"],
   "query/dynamic?": false,
   "query/format": "",
   "query/headers": "{}",
   "query/id": "1e0be92e-7fbc-55ba-9822-89f65b555a5b",
   "query/key": "",
   "query/method": "GET",
-  "query/name": "Earth's texture (NASA 3D Resources)",
+  "query/name": "Mars' texture (NASA 3D Resources)",
   "query/node": {
     "node/x": 540,
     "node/y": 1520
   },
   "query/params": "{\"v\":\"2\"}",
-  "query/path": "/Images%20and%20Textures/Earth%20(A)/Earth%20(A).jpg",
+  "query/path": "/Images%20and%20Textures/Mars/Mars.jpg",
   "query/request-body": "",
   "query/units": "{}"
 }

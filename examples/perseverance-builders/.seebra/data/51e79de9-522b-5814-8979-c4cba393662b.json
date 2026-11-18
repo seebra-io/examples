@@ -1,10 +1,13 @@
 {
-  "data/id": "51e79de9-522b-5814-8979-c4cba393662b",
-  "data/name": "Perseverance, NASA's 3D model data",
-  "data/node": {
-    "node/x": 820,
-    "node/y": 80
+  "data/description": "NASA's 3D model of the Ingenuity helicopter (NASA/JPL-Caltech, NASA 3D Resources, free and without copyright: https://github.com/nasa/NASA-3D-Resources), re-encoded with meshopt for the browser.",
+  "data/file": {
+    "$file": "data/ingenuity.glb"
   },
-  "data/parent": ["query/id", "cfc760e9-1fb1-5a1b-a8df-b519e968c708"],
-  "data/type": "json"
+  "data/id": "51e79de9-522b-5814-8979-c4cba393662b",
+  "data/name": "Ingenuity, NASA's 3D model",
+  "data/node": {
+    "node/x": 80,
+    "node/y": 320
+  },
+  "data/type": "model/glb"
 }

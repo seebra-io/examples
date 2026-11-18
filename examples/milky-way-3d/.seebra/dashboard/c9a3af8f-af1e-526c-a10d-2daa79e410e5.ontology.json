@@ -1,0 +1,173 @@
+{
+  "title": "Our place in the Milky Way",
+  "summary": "A barred spiral seen from inside: the arms are fitted to parallaxes of young massive stars, the Sun sits 8.2 kpc from the centre between two arms, and the nearest stars, the Oort cloud and the heliosphere bring the scale down to the solar system.",
+  "concepts": [
+    {
+      "cid": "c1",
+      "label": "Galaxy",
+      "kind": "entity",
+      "description": "The Milky Way, a barred spiral about 30 kpc across; structure inferred from inside its disc.",
+      "fields": [],
+      "in_data": true,
+      "wikidata": "Q321",
+      "children": [
+        {
+          "cid": "c2",
+          "label": "Spiral arm",
+          "kind": "entity",
+          "as": "part",
+          "description": "A log-periodic spiral fitted to maser parallaxes: R_kink, β_kink, pitch angles, width.",
+          "fields": [
+            "arm",
+            "R_kink_kpc",
+            "pitch_inside",
+            "pitch_outside",
+            "width_kpc"
+          ],
+          "in_data": true,
+          "facts": [
+            {
+              "text": "The Milky Way is very likely a four-arm spiral with some extra arm segments and spurs.",
+              "source": "https://doi.org/10.3847/1538-4357/ab4a11"
+            }
+          ]
+        },
+        {
+          "cid": "c3",
+          "label": "Galactic bar and bulge",
+          "kind": "entity",
+          "as": "part",
+          "description": "Long bar half-length 5.0 ± 0.2 kpc at 28–33° to the Sun–centre line; boxy/peanut bulge.",
+          "fields": [],
+          "in_data": true,
+          "facts": [
+            {
+              "text": "Bar and bulge geometry",
+              "source": "https://arxiv.org/abs/1602.07702"
+            }
+          ]
+        },
+        {
+          "cid": "c4",
+          "label": "Galactic centre",
+          "kind": "place",
+          "as": "part",
+          "description": "Sgr A*, a 4.3 million solar-mass black hole.",
+          "fields": [],
+          "in_data": true
+        },
+        {
+          "cid": "c5",
+          "label": "Nebula and star cluster",
+          "kind": "entity",
+          "as": "part",
+          "description": "Real objects at measured distances: H II regions, open and globular clusters, remnants.",
+          "fields": [
+            "name",
+            "kind",
+            "dist_pc",
+            "method"
+          ],
+          "in_data": true
+        }
+      ]
+    },
+    {
+      "cid": "c6",
+      "label": "Star",
+      "kind": "entity",
+      "description": "A star within 100 light years: HYG (names, types) and Gaia DR3 (parallaxes, colours).",
+      "fields": [
+        "name",
+        "spect",
+        "class",
+        "mag",
+        "absmag",
+        "lum_v"
+      ],
+      "in_data": true,
+      "wikidata": "Q523",
+      "children": [
+        {
+          "cid": "c7",
+          "label": "Spectral type",
+          "kind": "category",
+          "as": "property",
+          "description": "O B A F G K M (and white and brown dwarfs): temperature, hence colour.",
+          "fields": [
+            "class",
+            "spect"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c8",
+          "label": "Exoplanet host",
+          "kind": "entity",
+          "as": "subtype",
+          "description": "A star with known planets (NASA Exoplanet Archive).",
+          "fields": [
+            "hostname",
+            "sy_pnum"
+          ],
+          "in_data": true
+        }
+      ]
+    },
+    {
+      "cid": "c9",
+      "label": "Distance",
+      "kind": "measure",
+      "description": "How far, and how it was measured: trigonometric parallax (Gaia, VLBI masers), stellar orbits (S2 around Sgr A*), expansion.",
+      "fields": [
+        "dist_pc",
+        "dist_ly",
+        "dist_err_pc",
+        "method"
+      ],
+      "in_data": true,
+      "children": [
+        {
+          "cid": "c10",
+          "label": "Parallax",
+          "kind": "measure",
+          "as": "method",
+          "description": "d = 1/π: Gaia DR3 for stars, VLBI for masers in the arms.",
+          "fields": [
+            "parallax",
+            "parallax_error"
+          ],
+          "in_data": true
+        }
+      ]
+    },
+    {
+      "cid": "c11",
+      "label": "Solar system's outer reaches",
+      "kind": "place",
+      "description": "Kuiper belt, scattered disc, heliosphere (crossed by both Voyagers), and the hypothesised Oort cloud.",
+      "fields": [],
+      "in_data": true,
+      "children": [
+        {
+          "cid": "c12",
+          "label": "Oort cloud",
+          "kind": "place",
+          "as": "part",
+          "description": "Hypothesised shell of icy bodies, inferred from long-period comets, never observed.",
+          "fields": [],
+          "in_data": true
+        },
+        {
+          "cid": "c13",
+          "label": "Heliopause",
+          "kind": "place",
+          "as": "part",
+          "description": "Where the solar wind meets the interstellar medium, ~120 AU.",
+          "fields": [],
+          "in_data": true
+        }
+      ]
+    }
+  ]
+}

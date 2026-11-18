@@ -1,0 +1,17 @@
+{
+  "graph/content": {
+    "$file": "graphs/the-sun-s-neighbourhood-every-star-within-100.js"
+  },
+  "graph/id": "9c657776-a3b0-5e50-ac47-b6a94db89dd1",
+  "graph/inputs": [
+    ["data/id", "d01b8d72-cd7f-59cd-8e6d-1e00c944a136"]
+  ],
+  "graph/language": "javascript",
+  "graph/name": "The Sun's neighbourhood: every star within 100 light years, by spectral type (hover; click for SIMBAD)",
+  "graph/node": {
+    "node/created": 4,
+    "node/x": 540,
+    "node/y": 800
+  },
+  "graph/parent": ["data/id", "c0a25517-cdf8-5adc-a7f4-bf5015a574c9"]
+}

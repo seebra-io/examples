@@ -1,0 +1,101 @@
+{
+ "about": "The Milky Way for Seebra's 3D example: the spiral arms as Reid et al. (2019) fitted them to maser parallaxes, the published scales of the bar, bulge and disc, real objects at measured distances, and the outer solar system out to the nearest stars. Every number carries its source; drawing choices (particle counts, colours, how far an arm is carried past its measurements) are marked as such.",
+ "galaxy": {
+  "R0_kpc": 8.178,
+  "R0_source": "GRAVITY Collaboration 2019, A&A 625, L10: 8178 ± 13 (stat) ± 22 (sys) pc, from the orbit of the star S2 around Sgr A*",
+  "R0_url": "https://arxiv.org/abs/1904.05721",
+  "R0_2021_kpc": 8.275,
+  "R0_2021_source": "GRAVITY Collaboration 2021, A&A 647, A59: 8275 ± 9 (stat) ± 33 (sys) pc",
+  "R0_reid_kpc": 8.15,
+  "z_sun_pc": 20.8,
+  "z_sun_source": "Bennett & Bovy 2019, MNRAS 482, 1417: 20.8 ± 0.3 pc above the mid-plane",
+  "bar_half_length_kpc": 5.0,
+  "bar_angle_deg": 30,
+  "bar_source": "Bland-Hawthorn & Gerhard 2016, ARA&A 54, 529 and Wegg, Gerhard & Portail 2015, MNRAS 450, 4050: long bar half-length 5.0 ± 0.2 kpc at 28–33° to the Sun–centre line; the boxy/peanut bulge at 27 ± 2°. Drawn at 30°, near end at positive longitude",
+  "bar_sigma_width_kpc": 0.55,
+  "bar_sigma_z_kpc": 0.22,
+  "bulge_sigma_kpc": 0.75,
+  "disc_scale_length_kpc": 2.6,
+  "thin_scale_height_kpc": 0.3,
+  "thick_scale_height_kpc": 0.9,
+  "disc_source": "Bland-Hawthorn & Gerhard 2016: thin disc scale length 2.6 ± 0.5 kpc, scale height 300 ± 50 pc; thick disc scale height 900 ± 180 pc",
+  "disc_edge_kpc": 16,
+  "arm_width_slope_pc_per_kpc": 36,
+  "arm_sigma_z_pc": 20,
+  "arm_sigma_z_slope_pc_per_kpc": 36,
+  "arm_shape_source": "Reid et al. 2019, ApJ 885, 131: ln(R/R_kink) = −(β − β_kink) tan ψ, β = 0 toward the Sun and growing with Galactic rotation; widths grow as w(R) = 336 + 36 (R − 8.15) pc; vertical scatter 20 + 36 (R − 7) pc beyond 7 kpc",
+  "extrapolate_deg": 120,
+  "extrapolate_note": "Drawing choice: each arm is carried on up to 120° beyond Reid's measured azimuths (dashed), while it stays between 2.6 and 16 kpc from the centre. The far side of the Galaxy has few maser parallaxes, so this part is a guess."
+ },
+ "arms": [
+  {"name": "3-kpc", "beta_min": 15, "beta_max": 18, "beta_kink": 15, "R_kink": 3.52, "psi_lt": -4.2, "psi_gt": -4.2, "width_kpc": 0.18, "color": "#fca5a5", "note": "the near 3-kpc arm, at the bar's end"},
+  {"name": "Norma", "beta_min": 5, "beta_max": 54, "beta_kink": 18, "R_kink": 4.46, "psi_lt": -1.0, "psi_gt": 19.5, "width_kpc": 0.14, "color": "#f9a8d4", "note": "continues as the Outer arm on the far side"},
+  {"name": "Scutum–Centaurus", "beta_min": 0, "beta_max": 104, "beta_kink": 23, "R_kink": 4.91, "psi_lt": 14.1, "psi_gt": 12.1, "width_kpc": 0.23, "color": "#93c5fd", "note": "one of the two major arms"},
+  {"name": "Sagittarius–Carina", "beta_min": 2, "beta_max": 97, "beta_kink": 24, "R_kink": 6.04, "psi_lt": 17.1, "psi_gt": 1.0, "width_kpc": 0.27, "color": "#c4b5fd", "note": "the arm inside the Sun's orbit"},
+  {"name": "Local (Orion Spur)", "beta_min": -8, "beta_max": 34, "beta_kink": 9, "R_kink": 8.26, "psi_lt": 11.4, "psi_gt": 11.4, "width_kpc": 0.31, "color": "#fde68a", "note": "the Sun's own arm, a spur or a short arm"},
+  {"name": "Perseus", "beta_min": -23, "beta_max": 115, "beta_kink": 40, "R_kink": 8.87, "psi_lt": 10.3, "psi_gt": 8.7, "width_kpc": 0.35, "color": "#86efac", "note": "the other major arm, outside the Sun's orbit"},
+  {"name": "Outer", "beta_min": -16, "beta_max": 71, "beta_kink": 18, "R_kink": 12.24, "psi_lt": 3.0, "psi_gt": 9.4, "width_kpc": 0.65, "color": "#67e8f9", "note": "the outer end of the Norma arm"}
+ ],
+ "arms_source": "Reid et al. 2019, ApJ 885, 131, Table 2 (β_kink without uncertainty were assigned, not fitted)",
+ "arms_url": "https://doi.org/10.3847/1538-4357/ab4a11",
+ "objects": [
+  {"name": "Sgr A*", "simbad": "Sgr A*", "kind": "black hole", "l": 359.944, "b": -0.046, "dist_pc": 8178, "dist_err_pc": 26, "method": "orbit of the star S2 (GRAVITY interferometry)", "fact": "4.297 million solar masses (GRAVITY 2021)", "source": "GRAVITY Collaboration 2019, A&A 625, L10; mass: 2021, A&A 647, A59", "url": "https://arxiv.org/abs/1904.05721"},
+  {"name": "Orion Nebula", "simbad": "M 42", "kind": "nebula", "l": 209.01, "b": -19.38, "dist_pc": 414, "dist_err_pc": 7, "method": "VLBA trigonometric parallax of radio stars in the cluster", "fact": "the nearest large star-forming region", "source": "Menten et al. 2007, A&A 474, 515", "url": "https://arxiv.org/abs/0709.0485"},
+  {"name": "Pleiades", "simbad": "M 45", "kind": "open cluster", "l": 166.57, "b": -23.52, "dist_pc": 136.2, "dist_err_pc": 1.2, "method": "VLBI parallax", "fact": "Hipparcos had said 120.2 ± 1.5 pc: a famous disagreement that VLBI and Gaia settled", "source": "Melis et al. 2014, Science 345, 1029", "url": "https://arxiv.org/abs/1408.6544"},
+  {"name": "Hyades", "simbad": "Hyades", "kind": "open cluster", "l": 180.06, "b": -22.34, "dist_pc": 47.03, "dist_err_pc": 0.2, "method": "Gaia DR2 parallaxes of members", "fact": "the nearest open cluster (Röser et al. 2019 give 47.50 ± 0.15 pc)", "source": "Lodieu et al. 2019, A&A 623, A35", "url": "https://doi.org/10.1051/0004-6361/201834045"},
+  {"name": "Carina Nebula", "simbad": "eta Car", "kind": "nebula", "l": 287.6, "b": -0.63, "dist_pc": 2350, "dist_err_pc": 50, "method": "expansion of Eta Carinae's Homunculus nebula", "fact": "home of Eta Carinae, one of the most massive stars known", "source": "Smith 2006, ApJ 644, 1151", "url": "https://doi.org/10.1086/503766"},
+  {"name": "Eagle Nebula", "simbad": "M 16", "kind": "nebula", "l": 16.95, "b": 0.79, "dist_pc": 1740, "dist_err_pc": 130, "method": "Gaia DR2 parallaxes of NGC 6611's stars", "fact": "the Pillars of Creation", "source": "Kuhn et al. 2019, ApJ 870, 32", "url": "https://arxiv.org/abs/1807.02115"},
+  {"name": "Crab Nebula", "simbad": "M 1", "kind": "supernova remnant", "l": 184.56, "b": -5.78, "dist_pc": 1900, "dist_err_pc": 200, "method": "VLBI parallax of the Crab pulsar (+0.22/−0.18 kpc)", "fact": "the remnant of the supernova seen in 1054", "source": "Lin et al. 2023, ApJ (VLBA parallax 0.53 ± 0.06 mas); older estimate 2.0 kpc (Trimble 1973)", "url": "https://simbad.cds.unistra.fr/simbad/sim-id?Ident=M1"},
+  {"name": "Omega Centauri", "simbad": "omega Cen", "kind": "globular cluster", "l": 309.1, "b": 14.97, "dist_pc": 5430, "dist_err_pc": 50, "method": "Gaia EDR3 parallaxes combined with other distances", "fact": "the Milky Way's largest globular cluster, perhaps a captured galaxy's core", "source": "Baumgardt & Vasiliev 2021, MNRAS 505, 5957", "url": "https://people.smp.uq.edu.au/HolgerBaumgardt/globular/"},
+  {"name": "Cygnus X-1", "simbad": "Cyg X-1", "kind": "X-ray binary", "l": 71.33, "b": 3.07, "dist_pc": 2220, "dist_err_pc": 180, "method": "VLBA radio parallax", "fact": "the first black hole found (21 solar masses)", "source": "Miller-Jones et al. 2021, Science 371, 1046", "url": "https://arxiv.org/abs/2102.09091"},
+  {"name": "Westerlund 1", "simbad": "Westerlund 1", "kind": "star cluster", "l": 339.55, "b": -0.4, "dist_pc": 4050, "dist_err_pc": 200, "method": "Gaia parallax with an eclipsing binary", "fact": "the most massive young cluster known in the Galaxy", "source": "Navarete et al. 2022, MNRAS 516, 1289", "url": "https://arxiv.org/abs/2204.09414"}
+ ],
+ "objects_note": "Galactic coordinates (l, b) from SIMBAD, to about 0.01°.",
+ "solar": {
+  "planets": [
+   {"name": "Mercury", "a_au": 0.387, "color": "#a8a29e"},
+   {"name": "Venus", "a_au": 0.723, "color": "#fcd34d"},
+   {"name": "Earth", "a_au": 1.0, "color": "#60a5fa"},
+   {"name": "Mars", "a_au": 1.524, "color": "#f87171"},
+   {"name": "Jupiter", "a_au": 5.203, "color": "#fdba74"},
+   {"name": "Saturn", "a_au": 9.537, "color": "#fde68a"},
+   {"name": "Uranus", "a_au": 19.19, "color": "#67e8f9"},
+   {"name": "Neptune", "a_au": 30.07, "color": "#818cf8"}
+  ],
+  "planets_source": "JPL, approximate positions of the planets (Standish), semi-major axes at J2000",
+  "belts": [
+   {"name": "Main asteroid belt", "kind": "asteroid", "inner_au": 2.06, "outer_au": 3.27, "note": "between Jupiter's 4:1 and 2:1 resonances", "source": "Kirkwood gaps at the 4:1 and 2:1 resonances with Jupiter (JPL)"},
+   {"name": "Kuiper belt", "kind": "kuiper", "inner_au": 30, "outer_au": 50, "note": "the classical belt is about 42–48 AU; Pluto, Arrokoth", "source": "NASA Science, Kuiper Belt facts; classification: Gladman, Marsden & VanLaerhoven 2008"},
+   {"name": "Scattered disc", "kind": "scattered", "inner_au": 30, "outer_au": 1000, "note": "rough range: perihelia beyond about 30 AU, aphelia out to about 1,000 AU; Eris", "source": "Gladman et al. 2008 (The Solar System Beyond Neptune, p. 43); edges approximate"},
+   {"name": "Inner (Hills) Oort cloud", "kind": "inner oort", "inner_au": 2000, "outer_au": 20000, "note": "HYPOTHESISED: inferred from long-period comets and Sedna-like orbits, never observed. NASA puts the inner edge at 2,000–5,000 AU; Duncan, Quinn & Tremaine (1987) at about 3,000 AU", "source": "Hills 1981, AJ 86, 1730; NASA Science, Oort Cloud facts; Dones et al. 2004 (Comets II, p. 153)"},
+   {"name": "Outer Oort cloud", "kind": "outer oort", "inner_au": 20000, "outer_au": 100000, "note": "HYPOTHESISED: proposed by Oort (1950) from where long-period comets come from; no Oort cloud body has been seen there. The outer edge is put at 10,000–100,000 AU (NASA) or about 200,000 AU (Duncan et al. 1987)", "source": "Oort 1950, BAN 11, 91; NASA Science, Oort Cloud facts"}
+  ],
+  "heliosphere": {"termination_shock_au": 90, "heliopause_au": 120, "note": "crossed by Voyager 1 at 94 and 121.6 AU, Voyager 2 at 83.7 and 119.0 AU; its shape away from the Voyagers' directions is not measured", "source": "Stone et al. 2005, 2008, 2013, 2019"},
+  "voyagers": [
+   {"name": "Voyager 1", "color": "#facc15", "ra": 259.0, "dec": 12.07, "toward": "Ophiuchus", "anchor_date": "2026-11-18", "anchor_au": 172.447, "speed_au_per_yr": 3.57, "ts_date": "16 Dec 2004", "ts_au": 94.0, "hp_date": "25 Aug 2012", "hp_au": 121.6, "source": "position: Heavens-Above Solar escape, 18 Nov 2026; crossings: Stone et al. 2005 (Science 309, 2017), Stone et al. 2013 (Science 341, 150)"},
+   {"name": "Voyager 2", "color": "#fb923c", "ra": 301.5, "dec": -59.7, "toward": "Pavo", "anchor_date": "2026-11-18", "anchor_au": 144.462, "speed_au_per_yr": 3.22, "ts_date": "30 Aug 2007", "ts_au": 83.7, "hp_date": "5 Nov 2018", "hp_au": 119.0, "source": "position: Heavens-Above Solar escape, 18 Nov 2026; crossings: Stone et al. 2008 (Nature 454, 71), Stone et al. 2019 (Nature Astronomy 3, 1013)"}
+  ],
+  "comets": [
+   {"name": "C/1995 O1 (Hale-Bopp)", "short": "Hale-Bopp", "sbdb": "C/1995 O1", "q": 0.891, "e": 0.99497, "i": 89.3, "om": 283, "w": 130, "Q": 354, "period_yr": 2360, "epoch": "JD 2459837.5", "color": "#5eead4", "fact": "the great comet of 1997"},
+   {"name": "C/2020 F3 (NEOWISE)", "short": "NEOWISE", "sbdb": "C/2020 F3", "q": 0.295, "e": 0.99918, "i": 129, "om": 61, "w": 37.3, "Q": 717, "period_yr": 6800, "epoch": "JD 2459036.5", "color": "#a7f3d0", "fact": "the bright comet of July 2020"},
+   {"name": "C/1996 B2 (Hyakutake)", "short": "Hyakutake", "sbdb": "C/1996 B2", "q": 0.23, "e": 0.99989, "i": 125, "om": 188, "w": 130, "Q": 4250, "period_yr": 98000, "epoch": "JD 2450157.5", "color": "#7dd3fc", "fact": "passed 0.1 AU from Earth in March 1996"},
+   {"name": "C/2006 P1 (McNaught)", "short": "McNaught", "sbdb": "C/2006 P1", "q": 0.171, "e": 1.0000189, "i": 77.8, "om": 267, "w": 156, "Q": null, "epoch": "JD 2454065.5", "kind": "comet on a hyperbolic osculating orbit", "color": "#fda4af", "fact": "e ≥ 1 at this epoch: no aphelion, leaving the planets' region for good"},
+   {"name": "90377 Sedna", "short": "Sedna", "sbdb": "90377", "q": 76.2, "e": 0.86, "i": 11.9, "om": 145, "w": 311, "Q": 1010, "period_yr": 12700, "epoch": "JD 2461200.5", "kind": "detached object, perhaps from the inner Oort cloud", "color": "#f0abfc", "fact": "never comes closer than 76 AU: Neptune can't have put it there"}
+  ],
+  "comets_note": "Heliocentric osculating elements from JPL's Small-Body Database at the epoch given, rounded to three significant figures (e from q and a). The barycentric 'original' orbits of long-period comets differ, and so do their aphelia.",
+  "stars": [
+   {"name": "Alpha Centauri A, B", "simbad": "alf Cen A", "spect": "G2V + K1V", "ra": 219.902, "dec": -60.834, "dist_ly": 4.344, "dist_au": 274724, "color": "#fff4ea", "fact": "parallax 750.81 ± 0.38 mas", "source": "Akeson et al. 2021, AJ 162, 14"},
+   {"name": "Proxima Centauri", "simbad": "Proxima Cen", "spect": "M5.5Ve", "ra": 217.429, "dec": -62.679, "dist_ly": 4.2465, "dist_au": 268558, "color": "#ffb46b", "fact": "the nearest star to the Sun; parallax 768.067 ± 0.050 mas; host of the planet Proxima b", "source": "Gaia DR3 (Gaia Collaboration, Vallenari et al. 2023, A&A 674, A1)"},
+   {"name": "Barnard's Star", "simbad": "Barnard's star", "spect": "M4V", "ra": 269.452, "dec": 4.693, "dist_ly": 5.963, "dist_au": 377096, "color": "#ffb46b", "fact": "the fastest-moving star on our sky; parallax 546.976 ± 0.040 mas", "source": "Gaia DR3 (Gaia Collaboration, Vallenari et al. 2023, A&A 674, A1)"}
+  ]
+ },
+ "sources": [
+  {"what": "spiral arms", "cite": "Reid, Menten, Brunthaler et al. 2019, ApJ 885, 131", "url": "https://doi.org/10.3847/1538-4357/ab4a11"},
+  {"what": "distance to the Galactic centre", "cite": "GRAVITY Collaboration 2019, A&A 625, L10; 2021, A&A 647, A59", "url": "https://arxiv.org/abs/1904.05721"},
+  {"what": "bar, bulge and disc", "cite": "Bland-Hawthorn & Gerhard 2016, ARA&A 54, 529; Wegg, Gerhard & Portail 2015, MNRAS 450, 4050", "url": "https://arxiv.org/abs/1602.07702"},
+  {"what": "the Sun's height", "cite": "Bennett & Bovy 2019, MNRAS 482, 1417", "url": "https://arxiv.org/abs/1809.03507"},
+  {"what": "Oort cloud", "cite": "NASA Science, Oort Cloud: facts", "url": "https://science.nasa.gov/solar-system/oort-cloud/facts/"},
+  {"what": "Voyagers now", "cite": "NASA, Where are Voyager 1 and Voyager 2 now?", "url": "https://science.nasa.gov/mission/voyager/where-are-voyager-1-and-voyager-2-now/"},
+  {"what": "comets", "cite": "JPL Small-Body Database", "url": "https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html"}
+ ]
+}

@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "d099d4bb-e1ec-57c6-a01e-627d31008bd2"],
+  "query/datasource": ["datasource/id", "0eb34762-e3e4-5277-bbb2-ff1a5bb38815"],
+  "query/dynamic?": true,
+  "query/format": "text",
+  "query/headers": "{}",
+  "query/id": "e3f63fde-4712-52a8-8fb8-74dde594bef3",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Updated Nearby Galaxy Catalog (Karachentsev et al. 2013), 869 galaxies",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 80
+  },
+  "query/params": "{\"table\":\"neargalcat\",\"format\":\"csv\",\"resultmax\":\"0\",\"fields\":\"name,ra,dec,lii,bii,distance,distance_method,morph_type,dwarf_morph_type,log_ks_luminosity,abs_bmag,radial_velocity,lg_radial_velocity,linear_diameter,log_mass_26,log_h1_mass,tidal_index_1,neighbor_galaxy_name\"}",
+  "query/path": "/query",
+  "query/request-body": "",
+  "query/units": "{}"
+}

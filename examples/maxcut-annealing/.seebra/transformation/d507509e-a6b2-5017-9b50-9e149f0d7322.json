@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/graph-the-links-to-cut-pick-one-here.js"
+  },
+  "transformation/data-child": ["data/id", "2fbddf48-3ba2-507c-907e-76e20e74c331"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "js-web-worker",
+  "transformation/id": "d507509e-a6b2-5017-9b50-9e149f0d7322",
+  "transformation/inputs": [],
+  "transformation/language": "javascript",
+  "transformation/name": "Graph: the links to cut (pick one here)",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 540,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "218ea10d-655c-5193-a30e-fca9c757aa06"],
+  "transformation/units": "{}"
+}

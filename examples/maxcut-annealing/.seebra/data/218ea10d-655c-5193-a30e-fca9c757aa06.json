@@ -1,0 +1,13 @@
+{
+  "data/description": "Computed, not collected: four small graphs (Petersen and others) with their maximum cut found by exhaustive search over every split. Nothing to cite: the numbers can be checked by running the search again.",
+  "data/file": {
+    "$file": "data/maxcut-graphs.json"
+  },
+  "data/id": "218ea10d-655c-5193-a30e-fca9c757aa06",
+  "data/name": "Four small graphs, each with its exact max cut",
+  "data/node": {
+    "node/x": 80,
+    "node/y": 80
+  },
+  "data/type": "application/json"
+}

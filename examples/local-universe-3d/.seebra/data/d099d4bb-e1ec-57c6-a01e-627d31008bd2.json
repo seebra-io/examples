@@ -1,0 +1,10 @@
+{
+  "data/id": "d099d4bb-e1ec-57c6-a01e-627d31008bd2",
+  "data/name": "Updated Nearby Galaxy Catalog (Karachentsev et al. 2013), 869 galaxies data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 80
+  },
+  "data/parent": ["query/id", "e3f63fde-4712-52a8-8fb8-74dde594bef3"],
+  "data/type": "json"
+}

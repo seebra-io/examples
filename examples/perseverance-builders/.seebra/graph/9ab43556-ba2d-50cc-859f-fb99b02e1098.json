@@ -1,0 +1,18 @@
+{
+  "graph/content": {
+    "$file": "graphs/perseverance-and-ingenuity-hover-a-part-click.js"
+  },
+  "graph/id": "9ab43556-ba2d-50cc-859f-fb99b02e1098",
+  "graph/inputs": [
+    ["data/id", "6738931b-6c59-56dd-9eb3-269e3073a51a"],
+    ["data/id", "f2b113c3-a84c-5bef-91bc-2b5911842983"],
+    ["data/id", "51e79de9-522b-5814-8979-c4cba393662b"]
+  ],
+  "graph/language": "javascript",
+  "graph/name": "Perseverance and Ingenuity (hover a part, click for the source)",
+  "graph/node": {
+    "node/x": 540,
+    "node/y": 560
+  },
+  "graph/parent": ["data/id", "22a9d0d2-1a2e-5983-8ea9-f1f6cfecf03f"]
+}

@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/how-far-the-dates-have-slipped.js"
+  },
+  "graph/id": "e1baf949-90c7-55cd-bd75-47163d131e7b",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "How far the dates have slipped",
+  "graph/node": {
+    "node/x": 1000,
+    "node/y": 560
+  },
+  "graph/parent": ["data/id", "13236204-9bb7-58c9-9b26-c5007fcfca4a"]
+}

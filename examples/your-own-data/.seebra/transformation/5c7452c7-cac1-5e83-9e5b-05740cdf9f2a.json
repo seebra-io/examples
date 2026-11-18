@@ -1,19 +1,19 @@
 {
   "transformation/content": {
-    "$file": "transforms/titles-series-season-episode-date.js"
+    "$file": "transforms/binges-3-episodes-of-a-series-in-a-day.sql"
   },
   "transformation/data-child": ["data/id", "93948712-f47c-5f84-b700-7147e0ede5d5"],
   "transformation/dynamic?": true,
-  "transformation/environment": "js-web-worker",
+  "transformation/environment": "runtime",
   "transformation/id": "5c7452c7-cac1-5e83-9e5b-05740cdf9f2a",
   "transformation/inputs": [],
-  "transformation/language": "javascript",
-  "transformation/name": "Titles: series, season, episode, date",
+  "transformation/language": "sql",
+  "transformation/name": "Binges: 3+ episodes of a series in a day",
   "transformation/name?": true,
   "transformation/node": {
     "node/x": 1000,
-    "node/y": 560
+    "node/y": 320
   },
-  "transformation/parent": ["data/id", "8db43fbb-8ae7-5b99-949e-445b34fc8ac1"],
+  "transformation/parent": ["data/id", "a51dc755-c703-5fd5-9bef-994dd0f56535"],
   "transformation/units": "{}"
 }

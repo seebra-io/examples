@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "21963743-adc3-5085-b184-b369646582a0"],
+  "query/datasource": ["datasource/id", "e31709e9-28e3-51d8-94a3-faaafe34add0"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "a7775af4-08e5-5ea1-9d6e-122666073825",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Gaia DR3: every well-measured source within 100 light years (CSV)",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 80
+  },
+  "query/params": "{\"REQUEST\":\"doQuery\",\"LANG\":\"ADQL\",\"FORMAT\":\"csv\",\"QUERY\":\"SELECT designation, l, b, parallax, parallax_error, phot_g_mean_mag, bp_rp, radial_velocity FROM gaiadr3.gaia_source WHERE parallax > 32.6157 AND parallax_over_error > 10\"}",
+  "query/path": "/sync",
+  "query/request-body": "",
+  "query/units": "{}"
+}

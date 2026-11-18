@@ -15,16 +15,10 @@ const depthColor = d => d.depth_km < 70 ? "#f97316" : "#a78bfa"; // shallow quak
 const wrap = d3.create("div").style("position", "relative").style("width", width + "px").style("height", height + "px");
 const svg = wrap.append("svg").attr("width", width).attr("height", height)
   .style("font", "11px sans-serif").style("color", "currentColor");
-const tip = wrap.append("div").style("position", "absolute").style("pointer-events", "none").style("opacity", 0)
-  .style("background", "rgba(9,9,11,.94)").style("color", "#f4f4f5").style("border", "1px solid #3f3f46")
-  .style("border-radius", "6px").style("padding", "4px 8px").style("font", "12px sans-serif").style("white-space", "nowrap");
-const showTip = (event, html) => {
-  const [x, y] = d3.pointer(event, wrap.node());
-  tip.html(html).style("opacity", 1)
-    .style("left", Math.min(x + 14, width - tip.node().offsetWidth - 2) + "px")
-    .style("top", Math.max(0, y - tip.node().offsetHeight - 10) + "px");
-};
-const hideTip = () => tip.style("opacity", 0);
+// the hover box is Seebra's one box (seebra.tooltip): beside the pointer, never
+// over it, and the only one on screen (another graph's closes when it opens)
+const showTip = (event, html) => seebra.tooltip.show(html, event);
+const hideTip = () => seebra.tooltip.hide();
 
 // --- the globe: sphere, graticule, then land and borders (atlas: Natural
 // Earth 1:110m, shipped with Seebra). Hovering a country names it and counts

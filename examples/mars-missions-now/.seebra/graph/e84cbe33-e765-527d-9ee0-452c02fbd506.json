@@ -1,0 +1,16 @@
+{
+  "graph/content": {
+    "$file": "graphs/on-the-ground-hover-a-site.js"
+  },
+  "graph/id": "e84cbe33-e765-527d-9ee0-452c02fbd506",
+  "graph/inputs": [
+    ["data/id", "1c11b0ca-951c-5f44-ab63-079da4b8366b"]
+  ],
+  "graph/language": "javascript",
+  "graph/name": "On the ground (hover a site)",
+  "graph/node": {
+    "node/x": 1000,
+    "node/y": 560
+  },
+  "graph/parent": ["data/id", "34c15b1b-4fbf-5f1c-adab-0a7b623ea589"]
+}

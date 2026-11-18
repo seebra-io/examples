@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/2mrs-galaxies-one-row-each-distance-cz-h0.js"
+  },
+  "transformation/data-child": ["data/id", "bf7578f3-389b-5319-8ed9-cb96076e719c"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "js-web-worker",
+  "transformation/id": "0829b634-ebd0-564f-bcde-fce40ee5e5e6",
+  "transformation/inputs": [],
+  "transformation/language": "javascript",
+  "transformation/name": "2MRS galaxies, one row each, distance = cz / H0",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "0f1108e6-f367-55a1-9dc5-83e916c73467"],
+  "transformation/units": "{\"l\":\"deg\",\"b\":\"deg\",\"ks\":\"mag\",\"cz_kms\":\"km/s\",\"cz_err_kms\":\"km/s\",\"dist_mpc\":\"Mpc\"}"
+}

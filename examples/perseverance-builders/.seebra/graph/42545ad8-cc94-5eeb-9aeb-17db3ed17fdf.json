@@ -1,14 +1,14 @@
 {
   "graph/content": {
-    "$file": "graphs/every-organization-against-the-rover-s-systems.js"
+    "$file": "graphs/organizations-per-country.js"
   },
   "graph/id": "42545ad8-cc94-5eeb-9aeb-17db3ed17fdf",
   "graph/inputs": [],
   "graph/language": "javascript",
-  "graph/name": "Every organization against the rover's systems",
+  "graph/name": "Organizations per country",
   "graph/node": {
-    "node/x": 1920,
-    "node/y": 80
+    "node/x": 1460,
+    "node/y": 320
   },
-  "graph/parent": ["data/id", "8f40d960-5d21-5339-aa0e-5bcf1c1a5e53"]
+  "graph/parent": ["data/id", "15cd3669-ab6e-5a4f-9163-d3e90a065d5b"]
 }

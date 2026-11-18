@@ -1,10 +1,11 @@
 {
   "data/id": "5533be3a-66fa-5b62-9447-90ae124c7772",
-  "data/name": "Parts: cameras, instruments, power, comms data",
+  "data/name": "The rovers",
   "data/node": {
-    "node/x": 1150,
-    "node/y": 80
+    "node/x": 690,
+    "node/y": 320
   },
   "data/parent": ["transformation/id", "aeeabcb8-c1aa-563e-8068-7974131b5ba3"],
+  "data/presentation?": true,
   "data/type": "json"
 }

@@ -7,13 +7,13 @@
   "query/id": "6d8ef275-bccd-5ac4-a5fb-22af95aa5eef",
   "query/key": "",
   "query/method": "GET",
-  "query/name": "Venus, NASA's model",
+  "query/name": "Earth's texture (NASA 3D Resources)",
   "query/node": {
     "node/x": 540,
     "node/y": 1280
   },
-  "query/params": "{}",
-  "query/path": "/psd/solar/2023/09/v/Venus_1_12103.glb",
+  "query/params": "{\"v\":\"2\"}",
+  "query/path": "/Images%20and%20Textures/Earth%20(A)/Earth%20(A).jpg",
   "query/request-body": "",
   "query/units": "{}"
 }

@@ -1,9 +1,6 @@
 {
-  "data/file": {
-    "$file": "data/mars-landing-attempts-curated-from-wikipedia.json"
-  },
   "data/id": "966da2fe-19e0-53fb-907f-2e021e8d0d05",
-  "data/name": "Mars landing attempts (curated from Wikipedia, with sources) data",
+  "data/name": "Mars, NASA's colour map (Viking mosaic) data",
   "data/node": {
     "node/x": 820,
     "node/y": 80

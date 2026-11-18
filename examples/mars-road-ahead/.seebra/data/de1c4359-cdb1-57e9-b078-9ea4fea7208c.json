@@ -1,0 +1,11 @@
+{
+  "data/id": "de1c4359-cdb1-57e9-b078-9ea4fea7208c",
+  "data/name": "Every mission (click a source)",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 800
+  },
+  "data/parent": ["transformation/id", "124da815-d3e8-5986-b42c-1254e322730e"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

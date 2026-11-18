@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/ungc-galaxies-one-row-each-with-the-method-s.js"
+  },
+  "transformation/data-child": ["data/id", "b3f72394-f111-5ac2-a5ba-e8cd0c11588f"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "js-web-worker",
+  "transformation/id": "37fc1be3-6286-58b7-9937-832c852274cb",
+  "transformation/inputs": [],
+  "transformation/language": "javascript",
+  "transformation/name": "UNGC galaxies, one row each, with the method's typical error",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "d099d4bb-e1ec-57c6-a01e-627d31008bd2"],
+  "transformation/units": "{\"l\":\"deg\",\"b\":\"deg\",\"dist_mpc\":\"Mpc\",\"err_mpc\":\"Mpc\",\"abs_b\":\"mag\",\"v_helio\":\"km/s\",\"v_lg\":\"km/s\",\"diameter_kpc\":\"kpc\"}"
+}

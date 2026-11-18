@@ -14,10 +14,10 @@ const path = d3.geoPath(projection);
 
 const wrap = d3.create("div").style("position", "relative").style("width", W + "px").style("height", H + "px").style("overflow", "hidden");
 const svg = wrap.append("svg").attr("width", W).attr("height", H).style("background", "#0b1220").style("font", "11px sans-serif");
-const tip = wrap.append("div").style("position", "absolute").style("pointer-events", "none").style("opacity", 0)
-  .style("background", "rgba(9,9,11,.94)").style("color", "#f4f4f5").style("border", "1px solid #3f3f46").style("border-radius", "6px").style("padding", "5px 8px").style("font", "12px sans-serif");
-const showTip = (e, html) => { const [x, y] = d3.pointer(e, wrap.node()); tip.html(html).style("opacity", 1).style("left", Math.min(x + 14, W - tip.node().offsetWidth - 4) + "px").style("top", Math.max(0, y - tip.node().offsetHeight - 10) + "px"); };
-const hideTip = () => tip.style("opacity", 0);
+// the hover box is Seebra's one box (seebra.tooltip): beside the pointer, never
+// over it, and the only one on screen (another graph's closes when it opens)
+const showTip = (event, html) => seebra.tooltip.show(html, event);
+const hideTip = () => seebra.tooltip.hide();
 const world = svg.append("g");
 
 // --- land and borders, Iran outlined

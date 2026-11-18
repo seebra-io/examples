@@ -1,0 +1,11 @@
+{
+  "data/id": "04f59d81-0774-569c-a7c7-2bb0cfe32c79",
+  "data/name": "Distance methods in the UNGC",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "184cc838-f8ab-57de-81f7-42b54c2e91c1"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

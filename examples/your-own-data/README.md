@@ -4,17 +4,7 @@ Where to get your own data out of 22 common platforms (Spotify, Google Timeline,
 
 **Open it in Seebra:** [its page in Explore](https://www.seebra.io/explore/example-your-own-data) · [open the example](https://www.seebra.io/?example=your-own-data) · [edit with history](https://www.seebra.io/?board=git%3Ahttps%3A%2F%2Fgithub.com%2Fseebra-io%2Fexamples%23examples%2Fyour-own-data) (clones this repository into your browser: the board with this folder's commits, which you can change, commit and push)
 
-## Sources
-
-- Seebra example data: <https://www.seebra.io/explore/data>
-
 ## Steps
-
-Queries:
-
-- [Export guide: 22 platforms](.seebra/query/143d8f2e-11f3-53ee-a337-40bae06668e8.json)
-- [Sample: Spotify extended streaming history (made up)](.seebra/query/bc7f5721-9aac-5798-a2e5-3ced73c6640c.json)
-- [Sample: Netflix viewing history (made up)](.seebra/query/01d806d8-c4b3-52c8-859a-0e38aa0b4b37.json)
 
 Transformations:
 
@@ -41,11 +31,11 @@ Tables:
 
 ## Data
 
-Kept with the board, so it loads without www.seebra.io: the rows load from these files, not from the query (which stays, as where they came from).
+Board files: curated data kept with the board, not live. The rows load from these files (in the app from `https://cdn.seebra.io/explore/examples/your-own-data/data/…`); no API is called and nothing is refetched. Each row's `source` field, where it has one, cites where that row came from.
 
-- [data/export-guide-22-platforms-data.json](data/export-guide-22-platforms-data.json): a copy of `personal-exports.json` as bundled with Seebra (<https://www.seebra.io/explore/data/personal-exports.json>), taken when this folder was generated.
-- [data/sample-netflix-viewing-history-made-up-data.csv](data/sample-netflix-viewing-history-made-up-data.csv): a copy of `personal/NetflixViewingHistory.csv` as bundled with Seebra (<https://www.seebra.io/explore/data/personal/NetflixViewingHistory.csv>), taken when this folder was generated.
-- [data/sample-spotify-extended-streaming-history-made.json](data/sample-spotify-extended-streaming-history-made.json): a copy of `personal/Streaming_History_Audio_sample.json` as bundled with Seebra (<https://www.seebra.io/explore/data/personal/Streaming_History_Audio_sample.json>), taken when this folder was generated.
+- [data/NetflixViewingHistory.csv](data/NetflixViewingHistory.csv) (3.4 KB), the data node *Sample: Netflix viewing history (made up)*: Made up: a sample in the shape of Netflix's viewing history export (NetflixViewingHistory.csv), so the board runs before you have your own. Not anyone's real viewing.
+- [data/personal-exports.json](data/personal-exports.json) (14 KB), the data node *Export guide: 22 platforms*: Curated by Seebra: where to download your own data from 22 platforms (GDPR access and portability), the file that matters and what to look at. Each row links the platform's page (where). Links checked 2026-11-15; menus change often.
+- [data/Streaming_History_Audio_sample.json](data/Streaming_History_Audio_sample.json) (2.9 MB), the data node *Sample: Spotify extended streaming history (made up)*: Made up: a sample in the shape of Spotify's extended streaming history export (Streaming_History_Audio_*.json), so the board runs before you have your own. Not anyone's real listening.
 
 ## This folder
 

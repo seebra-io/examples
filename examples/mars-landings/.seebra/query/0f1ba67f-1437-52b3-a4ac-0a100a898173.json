@@ -7,13 +7,13 @@
   "query/id": "0f1ba67f-1437-52b3-a4ac-0a100a898173",
   "query/key": "",
   "query/method": "GET",
-  "query/name": "Mars landing attempts (curated from Wikipedia, with sources)",
+  "query/name": "Mars, NASA's colour map (Viking mosaic)",
   "query/node": {
     "node/x": 540,
     "node/y": 80
   },
-  "query/params": "{}",
-  "query/path": "/mars-landings.json",
+  "query/params": "{\"v\":\"2\"}",
+  "query/path": "/Images%20and%20Textures/Mars/Mars.jpg",
   "query/request-body": "",
   "query/units": "{}"
 }

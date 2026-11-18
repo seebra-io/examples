@@ -1,0 +1,35 @@
+{
+  "dashboard/id": "ddb83bc4-61ab-520e-afe3-af22b72d30c8",
+  "datas": [
+    ["data/id", "218ea10d-655c-5193-a30e-fca9c757aa06"],
+    ["data/id", "2fbddf48-3ba2-507c-907e-76e20e74c331"],
+    ["data/id", "5d96d4b6-5205-557d-b13c-7da502ca7afb"],
+    ["data/id", "b330a6f0-f2f6-5861-af8e-0f1f5998e05b"],
+    ["data/id", "c1e91f57-ef13-5d03-be51-3356991dcecf"],
+    ["data/id", "1234656e-92a3-5123-bfa9-cbcd0b1acf11"]
+  ],
+  "datasources": [],
+  "description": "Split a graph's nodes in two so that as many links as possible are cut: every split tried (exact), simulated annealing at nine schedule lengths, and how the same problem maps onto D-Wave's quantum annealer (an Ising model with J = +1 per link). How rare the best cut is, how often annealing finds it, and a study of whether slower schedules help.",
+  "graphs": [
+    ["graph/id", "cdb80075-49d9-5d74-bfb8-487bdd774b45"],
+    ["graph/id", "1413d9ff-287c-55eb-875e-8ceac846d6a8"],
+    ["graph/id", "ed3a681b-18f0-5d95-961a-6010b751cde6"],
+    ["graph/id", "90f60ea0-78d7-57a4-a2c1-5f28b8750852"]
+  ],
+  "grids": [],
+  "name": "Max-cut three ways",
+  "queries": [],
+  "studies": [
+    ["study/id", "55a5a6a8-ecb2-57c6-9382-54e489afd096"]
+  ],
+  "tables": [],
+  "texts": [],
+  "timers": [],
+  "transformations": [
+    ["transformation/id", "d507509e-a6b2-5017-9b50-9e149f0d7322"],
+    ["transformation/id", "7723d5ad-738f-54d0-a103-c16c1f449feb"],
+    ["transformation/id", "28b35fa9-e8c8-55b4-b39a-90eefaf2ce21"],
+    ["transformation/id", "69195d64-ab44-5d79-bb2d-cf54f374ddd7"],
+    ["transformation/id", "75b81f0a-dd6e-5e9b-b41b-4a0fa3078c1c"]
+  ]
+}

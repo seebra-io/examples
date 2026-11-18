@@ -8,15 +8,13 @@ Category: Space
 
 ## Sources
 
-- Seebra example data: <https://www.seebra.io/explore/data>
 - NASA 3D Resources (GitHub): <https://raw.githubusercontent.com/nasa/NASA-3D-Resources/master>
 
 ## Steps
 
 Queries:
 
-- [Mars landing attempts (curated from Wikipedia, with sources)](.seebra/query/0f1ba67f-1437-52b3-a4ac-0a100a898173.json)
-- [Mars, NASA's colour map (Viking mosaic)](.seebra/query/c772076b-5c11-538b-bdc1-6c89fc88c520.json)
+- [Mars, NASA's colour map (Viking mosaic)](.seebra/query/0f1ba67f-1437-52b3-a4ac-0a100a898173.json)
 
 Transformations:
 
@@ -34,9 +32,9 @@ Tables:
 
 ## Data
 
-Kept with the board, so it loads without www.seebra.io: the rows load from these files, not from the query (which stays, as where they came from).
+Board files: curated data kept with the board, not live. The rows load from these files (in the app from `https://cdn.seebra.io/explore/examples/mars-landings/data/…`); no API is called and nothing is refetched. Each row's `source` field, where it has one, cites where that row came from.
 
-- [data/mars-landing-attempts-curated-from-wikipedia.json](data/mars-landing-attempts-curated-from-wikipedia.json): a copy of `mars-landings.json` as bundled with Seebra (<https://www.seebra.io/explore/data/mars-landings.json>), taken when this folder was generated.
+- [data/mars-landings.json](data/mars-landings.json) (8.6 KB), the data node *Mars landing attempts (curated from Wikipedia, with sources)*: Curated by Seebra from Wikipedia: every spacecraft that tried to land on Mars and reached its atmosphere, 1971-2021, one article per attempt (each row's source). Coordinates from each article; Mars 2's crash site is an estimate. Checked 2026-11-17.
 
 ## This folder
 

@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/parts-and-systems.polars.py"
+  },
+  "transformation/data-child": ["data/id", "6738931b-6c59-56dd-9eb3-269e3073a51a"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "504fae59-a17e-5df9-b646-334258de68cc",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Parts and systems",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 540,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "a8ec6937-46b8-5b52-bed7-1f922a3882a5"],
+  "transformation/units": "{\"mass_kg\":\"kg\",\"power_w\":\"W\"}"
+}

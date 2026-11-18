@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/launch-windows.js"
+  },
+  "transformation/data-child": ["data/id", "9d7a692e-1d05-58d9-9818-91055c38d58e"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "js-web-worker",
+  "transformation/id": "4269752a-598d-58b6-8e51-3b4764595b74",
+  "transformation/inputs": [],
+  "transformation/language": "javascript",
+  "transformation/name": "Launch windows",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 540,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "5f96749b-4e4f-53f0-b13d-498541dfdd76"],
+  "transformation/units": "{}"
+}

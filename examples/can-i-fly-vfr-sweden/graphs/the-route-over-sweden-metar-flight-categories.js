@@ -25,13 +25,10 @@ const wind = d => d.wspd_kt == null ? "?" : d.wspd_kt === 0 ? "calm" : `${d.wdir
 
 const wrap = d3.create("div").style("position", "relative").style("width", W + "px").style("height", H + "px");
 const svg = wrap.append("svg").attr("width", W).attr("height", H).style("font", "11px sans-serif").style("color", "currentColor");
-const tip = wrap.append("div").style("position", "absolute").style("pointer-events", "none").style("opacity", 0)
-  .style("background", "rgba(9,9,11,.94)").style("color", "#f4f4f5").style("border", "1px solid #3f3f46").style("border-radius", "6px")
-  .style("padding", "5px 8px").style("font", "12px/1.4 sans-serif").style("max-width", "360px");
-const show = (ev, html) => { const [x, y] = d3.pointer(ev, wrap.node()); tip.html(html).style("opacity", 1);
-  const w = tip.node().offsetWidth, h = tip.node().offsetHeight;
-  tip.style("left", Math.max(0, Math.min(x + 14, W - w - 2)) + "px").style("top", (y - h - 10 < 0 ? y + 14 : y - h - 10) + "px"); };
-const hide = () => tip.style("opacity", 0);
+// the hover box is Seebra's one box (seebra.tooltip): beside the pointer, never
+// over it, and the only one on screen (another graph's closes when it opens)
+const show = (event, html) => seebra.tooltip.show(html, event);
+const hide = () => seebra.tooltip.hide();
 
 const projection = d3.geoTransverseMercator().rotate([-16, 0]).fitExtent([[10, 10], [W - 10, H - 40]],
   {type: "MultiPoint", coordinates: [[10.5, 55], [24, 55], [10.5, 69], [24, 69]]});
@@ -41,7 +38,8 @@ const countries = (typeof atlas50 !== "undefined" ? atlas50 : atlas).countries.f
 g.append("g").selectAll("path").data(countries).join("path").attr("d", path)
   .attr("fill", f => f.properties.name === "Sweden" ? "currentColor" : "none").attr("fill-opacity", 0.06)
   .attr("stroke", "currentColor").attr("stroke-opacity", f => f.properties.name === "Sweden" ? 0.5 : 0.2).attr("stroke-width", 0.7)
-  .attr("vector-effect", "non-scaling-stroke").append("title").text(f => f.properties.name + (f.properties.name === "Sweden" ? " (FIR ESAA also covers its waters; the FIR line is not drawn)" : ""));
+  .attr("vector-effect", "non-scaling-stroke")
+  .on("pointermove", (ev, f) => show(ev, `<b>${f.properties.name}</b>${f.properties.name === "Sweden" ? "<br>FIR ESAA also covers its waters; the FIR line is not drawn" : ""}`)).on("pointerleave", hide);
 g.append("path").attr("d", path(d3.geoGraticule().step([2, 1])())).attr("fill", "none").attr("stroke", "currentColor").attr("stroke-opacity", 0.08);
 
 // the FIR (when given): polygons wound either way, drawn as the smaller side

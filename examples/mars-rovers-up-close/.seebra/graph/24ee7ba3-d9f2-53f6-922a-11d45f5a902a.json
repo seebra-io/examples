@@ -1,14 +1,14 @@
 {
   "graph/content": {
-    "$file": "graphs/mass-and-power-across-four-generations.js"
+    "$file": "graphs/where-the-watts-go.js"
   },
   "graph/id": "24ee7ba3-d9f2-53f6-922a-11d45f5a902a",
   "graph/inputs": [],
   "graph/language": "javascript",
-  "graph/name": "Mass and power across four generations",
+  "graph/name": "Where the watts go",
   "graph/node": {
-    "node/x": 1460,
-    "node/y": 320
+    "node/x": 1000,
+    "node/y": 560
   },
-  "graph/parent": ["data/id", "dfacd40f-594d-56bc-b481-35f502ebce8e"]
+  "graph/parent": ["data/id", "3103bb3c-48c3-5a9e-a99d-e1455a73b86a"]
 }

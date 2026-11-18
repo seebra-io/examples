@@ -1,13 +1,10 @@
 {
-  "data/file": {
-    "$file": "data/four-small-graphs-each-with-its-exact-max-cut.json"
-  },
   "data/id": "2fbddf48-3ba2-507c-907e-76e20e74c331",
-  "data/name": "Four small graphs, each with its exact max cut data",
+  "data/name": "Graph: the links to cut (pick one here) data",
   "data/node": {
-    "node/x": 820,
+    "node/x": 690,
     "node/y": 80
   },
-  "data/parent": ["query/id", "d507509e-a6b2-5017-9b50-9e149f0d7322"],
+  "data/parent": ["transformation/id", "d507509e-a6b2-5017-9b50-9e149f0d7322"],
   "data/type": "json"
 }

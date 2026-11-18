@@ -8,7 +8,6 @@ Category: Space
 
 ## Sources
 
-- Seebra example data: <https://www.seebra.io/explore/data>
 - NASA Science files (Eyes on the Solar System models): <https://assets.science.nasa.gov/content/dam/science>
 - NASA 3D Resources (GitHub): <https://raw.githubusercontent.com/nasa/NASA-3D-Resources/master>
 - JPL Small-Body Database Query API: <https://ssd-api.jpl.nasa.gov>
@@ -17,15 +16,14 @@ Category: Space
 
 Queries:
 
-- [The planets' orbital elements (JPL, Standish) and the belt's resonances](.seebra/query/a05fe6a9-471f-570f-b6fc-ff917ddc3f4b.json)
-- [3,000 numbered asteroids (orbital elements)](.seebra/query/4fb91dd5-1eed-5899-9d5e-11a3a0a1b336.json)
-- [Jupiter trojans (orbital elements)](.seebra/query/98153760-cef4-5c8c-a908-7c5164b62513.json)
-- [The Sun, NASA's model](.seebra/query/93643ad4-38ab-5b40-8ae3-6b30a4f13ab6.json)
-- [Mercury, NASA's model](.seebra/query/207465a6-dbdb-5895-b696-47f598357436.json)
-- [Venus, NASA's model](.seebra/query/6d8ef275-bccd-5ac4-a5fb-22af95aa5eef.json)
-- [Earth's texture (NASA 3D Resources)](.seebra/query/1e0be92e-7fbc-55ba-9822-89f65b555a5b.json)
-- [Mars' texture (NASA 3D Resources)](.seebra/query/e7c0a060-27ec-5cec-9912-7e24609eb52b.json)
-- [Jupiter's texture (NASA 3D Resources)](.seebra/query/3a35d45c-839b-5f66-88cc-5a52fff91e19.json)
+- [3,000 numbered asteroids (orbital elements)](.seebra/query/a05fe6a9-471f-570f-b6fc-ff917ddc3f4b.json)
+- [Jupiter trojans (orbital elements)](.seebra/query/4fb91dd5-1eed-5899-9d5e-11a3a0a1b336.json)
+- [The Sun, NASA's model](.seebra/query/98153760-cef4-5c8c-a908-7c5164b62513.json)
+- [Mercury, NASA's model](.seebra/query/93643ad4-38ab-5b40-8ae3-6b30a4f13ab6.json)
+- [Venus, NASA's model](.seebra/query/207465a6-dbdb-5895-b696-47f598357436.json)
+- [Earth's texture (NASA 3D Resources)](.seebra/query/6d8ef275-bccd-5ac4-a5fb-22af95aa5eef.json)
+- [Mars' texture (NASA 3D Resources)](.seebra/query/1e0be92e-7fbc-55ba-9822-89f65b555a5b.json)
+- [Jupiter's texture (NASA 3D Resources)](.seebra/query/e7c0a060-27ec-5cec-9912-7e24609eb52b.json)
 
 Transformations:
 
@@ -44,9 +42,9 @@ Tables:
 
 ## Data
 
-Kept with the board, so it loads without www.seebra.io: the rows load from these files, not from the query (which stays, as where they came from).
+Board files: curated data kept with the board, not live. The rows load from these files (in the app from `https://cdn.seebra.io/explore/examples/solar-system-scale/data/…`); no API is called and nothing is refetched. Each row's `source` field, where it has one, cites where that row came from.
 
-- [data/the-planets-orbital-elements-jpl-standish-and.json](data/the-planets-orbital-elements-jpl-standish-and.json): a copy of `solar-system-elements.json` as bundled with Seebra (<https://www.seebra.io/explore/data/solar-system-elements.json>), taken when this folder was generated.
+- [data/solar-system-elements.json](data/solar-system-elements.json) (3.9 KB), the data node *The planets' orbital elements (JPL, Standish) and the belt's resonances*: The planets' orbital elements from E. M. Standish, Keplerian Elements for Approximate Positions of the Major Planets (JPL Solar System Dynamics, Table 1, valid 1800-2050), mean radii from NASA's planetary fact sheets, and the asteroid belt's resonances, as the file's source fields cite.
 
 ## This folder
 

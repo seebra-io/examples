@@ -1,0 +1,13 @@
+{
+  "data/description": "Curated by Seebra from Wikipedia and NASA: NASA's four Mars rovers and their parts (each row's source). Positions are metres on a simplified model, not exact; masses and power only where a source states them.",
+  "data/file": {
+    "$file": "data/mars-rover-parts.json"
+  },
+  "data/id": "b666c326-15b9-50b1-a13b-5e46af073f99",
+  "data/name": "Mars rover parts (curated, with sources)",
+  "data/node": {
+    "node/x": 80,
+    "node/y": 80
+  },
+  "data/type": "application/json"
+}

@@ -1,10 +1,11 @@
 {
   "data/id": "9f75d133-8ef5-5916-a651-d39ca8f8c2f3",
-  "data/name": "Jupiter's texture (NASA 3D Resources) data",
+  "data/name": "Every asteroid shown",
   "data/node": {
-    "node/x": 820,
-    "node/y": 2000
+    "node/x": 1150,
+    "node/y": 80
   },
-  "data/parent": ["query/id", "3a35d45c-839b-5f66-88cc-5a52fff91e19"],
+  "data/parent": ["transformation/id", "786be549-10c1-58a1-9160-e76977daa3d6"],
+  "data/presentation?": true,
   "data/type": "json"
 }

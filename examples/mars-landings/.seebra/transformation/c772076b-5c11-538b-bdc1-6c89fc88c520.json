@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/landings-year-and-days-on-the-surface.js"
+  },
+  "transformation/data-child": ["data/id", "21e8fcc8-52f5-5e02-984c-6713a740d0cd"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "js-web-worker",
+  "transformation/id": "c772076b-5c11-538b-bdc1-6c89fc88c520",
+  "transformation/inputs": [],
+  "transformation/language": "javascript",
+  "transformation/name": "Landings: year and days on the surface",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 540,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "89b87765-6c19-5d3c-bbe9-efeed948f743"],
+  "transformation/units": "{}"
+}

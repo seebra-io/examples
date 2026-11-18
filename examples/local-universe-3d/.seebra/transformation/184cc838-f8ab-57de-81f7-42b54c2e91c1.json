@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/ungc-galaxies-per-distance-method-how-far-each.sql"
+  },
+  "transformation/data-child": ["data/id", "04f59d81-0774-569c-a7c7-2bb0cfe32c79"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "184cc838-f8ab-57de-81f7-42b54c2e91c1",
+  "transformation/inputs": [],
+  "transformation/language": "sql",
+  "transformation/name": "UNGC: galaxies per distance method, how far each reaches",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "b3f72394-f111-5ac2-a5ba-e8cd0c11588f"],
+  "transformation/units": "{\"mean_mpc\":\"Mpc\",\"farthest_mpc\":\"Mpc\"}"
+}

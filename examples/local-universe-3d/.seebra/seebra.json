@@ -1,0 +1,8 @@
+{
+  "file": {
+    "file/example": "local-universe-3d"
+  },
+  "format": 2,
+  "root": ["dashboard/id", "adffcb0f-968d-53fc-a575-b7f5aad9866f"],
+  "seebra": "board"
+}

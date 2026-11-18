@@ -1,0 +1,10 @@
+{
+  "data/id": "13236204-9bb7-58c9-9b26-c5007fcfca4a",
+  "data/name": "Missions, ranked by how certain they are data",
+  "data/node": {
+    "node/x": 690,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "783eee7d-5d45-5799-82ec-ba5b69f9ac7a"],
+  "data/type": "json"
+}

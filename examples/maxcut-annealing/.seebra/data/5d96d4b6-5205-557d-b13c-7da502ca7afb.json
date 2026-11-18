@@ -1,6 +1,6 @@
 {
   "data/id": "5d96d4b6-5205-557d-b13c-7da502ca7afb",
-  "data/name": "Graph: the links to cut (pick one here) data",
+  "data/name": "Every split: how many links each cuts data",
   "data/node": {
     "node/x": 1150,
     "node/y": 80

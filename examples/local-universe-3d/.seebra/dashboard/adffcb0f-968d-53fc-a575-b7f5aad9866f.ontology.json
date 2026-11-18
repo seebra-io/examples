@@ -1,0 +1,169 @@
+{
+  "title": "The local universe",
+  "summary": "Galaxies around the Milky Way: the Local Group, the Local Volume within ~11 Mpc where distances are measured one by one, and the redshift-distance universe beyond it, organised into groups, clusters, voids and the Laniakea supercluster.",
+  "concepts": [
+    {
+      "cid": "c1",
+      "label": "Galaxy",
+      "kind": "entity",
+      "description": "A galaxy with a position (l, b), a distance and a luminosity.",
+      "fields": [
+        "name",
+        "type",
+        "morph_t",
+        "log_lk",
+        "abs_v",
+        "abs_b"
+      ],
+      "in_data": true,
+      "wikidata": "Q318",
+      "children": [
+        {
+          "cid": "c2",
+          "label": "Morphological type",
+          "kind": "category",
+          "as": "property",
+          "description": "Elliptical, lenticular, spiral (Sa–Sd), Magellanic, irregular; dwarfs (dSph, dIrr).",
+          "fields": [
+            "type",
+            "morph_t"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c3",
+          "label": "Luminosity",
+          "kind": "measure",
+          "as": "property",
+          "description": "K-band (UNGC, a stellar-mass proxy) or V-band (McConnachie), in solar units.",
+          "fields": [
+            "log_lk",
+            "lum_v_lsun",
+            "abs_v"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c4",
+          "label": "Dwarf galaxy",
+          "kind": "entity",
+          "as": "subtype",
+          "description": "Most galaxies here: satellites of the Milky Way and M31 and isolated dwarfs.",
+          "fields": [],
+          "in_data": true
+        }
+      ]
+    },
+    {
+      "cid": "c5",
+      "label": "Distance",
+      "kind": "measure",
+      "description": "From the Sun, in kpc or Mpc (1 Mpc = 3.26 million light years).",
+      "fields": [
+        "dist_mpc",
+        "dist_kpc",
+        "err_mpc",
+        "dist_kpc_lo",
+        "dist_kpc_hi"
+      ],
+      "in_data": true,
+      "children": [
+        {
+          "cid": "c6",
+          "label": "Distance method",
+          "kind": "category",
+          "as": "property",
+          "description": "TRGB, Cepheids, SBF, Tully–Fisher, group membership, Hubble flow: each with its own typical error.",
+          "fields": [
+            "method",
+            "method_name",
+            "typical_error"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c7",
+          "label": "Redshift distance",
+          "kind": "measure",
+          "as": "method",
+          "description": "cz / H0: a velocity, not a measured distance; peculiar velocities distort it (Virgo's finger of God).",
+          "fields": [
+            "cz_kms",
+            "v_lg"
+          ],
+          "in_data": true
+        }
+      ]
+    },
+    {
+      "cid": "c8",
+      "label": "Group and cluster",
+      "kind": "entity",
+      "description": "The Local Group, the M81 and Centaurus A groups, the Virgo, Fornax and Norma clusters.",
+      "fields": [
+        "main_neighbour",
+        "tidal_index"
+      ],
+      "in_data": true,
+      "children": [
+        {
+          "cid": "c9",
+          "label": "Local Group",
+          "kind": "entity",
+          "as": "part",
+          "description": "The Milky Way, M31, M33 and about 100 dwarfs within ~1.5 Mpc.",
+          "fields": [],
+          "in_data": true
+        },
+        {
+          "cid": "c10",
+          "label": "Virgo Cluster",
+          "kind": "entity",
+          "as": "part",
+          "description": "16.5 Mpc (SBF, Mei et al. 2007).",
+          "fields": [],
+          "in_data": true
+        }
+      ]
+    },
+    {
+      "cid": "c11",
+      "label": "Large-scale structure",
+      "kind": "place",
+      "description": "Sheets, voids, filaments and superclusters.",
+      "fields": [],
+      "in_data": true,
+      "children": [
+        {
+          "cid": "c12",
+          "label": "Local Void",
+          "kind": "place",
+          "as": "part",
+          "description": "The empty region next to the Local Sheet that pushes us away at ~260 km/s.",
+          "fields": [],
+          "in_data": true
+        },
+        {
+          "cid": "c13",
+          "label": "Laniakea Supercluster",
+          "kind": "place",
+          "as": "part",
+          "description": "Our supercluster, ~160 Mpc across, centred near the Great Attractor.",
+          "fields": [],
+          "in_data": true
+        },
+        {
+          "cid": "c14",
+          "label": "Zone of Avoidance",
+          "kind": "place",
+          "as": "part",
+          "description": "The sky behind the Milky Way's plane, where its dust and stars hide galaxies (|b| < 5°).",
+          "fields": [
+            "b"
+          ],
+          "in_data": true
+        }
+      ]
+    }
+  ]
+}

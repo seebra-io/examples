@@ -1,0 +1,10 @@
+{
+  "data/id": "0f1108e6-f367-55a1-9dc5-83e916c73467",
+  "data/name": "2MASS Redshift Survey galaxies under 6,000 km/s (Huchra et al. 2012) data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 320
+  },
+  "data/parent": ["query/id", "95024cf5-639a-5489-93ba-a487dfbd42a0"],
+  "data/type": "json"
+}

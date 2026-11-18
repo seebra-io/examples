@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "d01b8d72-cd7f-59cd-8e6d-1e00c944a136"],
+  "query/datasource": ["datasource/id", "3dc15b71-8481-5219-a89d-30131c66721e"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "0fc29766-1a74-5ee0-bcb3-f0dc4570102a",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Stars with known planets within 100 light years (pscomppars)",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 320
+  },
+  "query/params": "{\"query\":\"select hostname,ra,dec,sy_dist,sy_pnum,st_spectype,hip_name from pscomppars where sy_dist < 30.66 group by hostname,ra,dec,sy_dist,sy_pnum,st_spectype,hip_name\",\"format\":\"json\"}",
+  "query/path": "/sync",
+  "query/request-body": "",
+  "query/units": "{}"
+}

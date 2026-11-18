@@ -1,0 +1,15 @@
+{
+  "graph/content": {
+    "$file": "graphs/gaia-dr3-s-census-of-the-same-100-light-years.js"
+  },
+  "graph/id": "6d4a4081-8012-57e5-b577-8555b43138ff",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Gaia DR3's census of the same 100 light years, live: a colour-magnitude diagram (hover; click for SIMBAD)",
+  "graph/node": {
+    "node/created": 6,
+    "node/x": 1000,
+    "node/y": 80
+  },
+  "graph/parent": ["data/id", "21963743-adc3-5085-b184-b369646582a0"]
+}

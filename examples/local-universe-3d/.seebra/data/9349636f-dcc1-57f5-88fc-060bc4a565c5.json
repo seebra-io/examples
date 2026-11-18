@@ -1,0 +1,13 @@
+{
+  "data/description": "The Local Group from McConnachie 2012 (January 2021 update, CADC), extinction-corrected where E(B-V) <= 0.3, plus named landmarks with their papers (Mei 2007, Blakeslee 2009, Tully 2008-2019). Checked 2026-11-18.",
+  "data/file": {
+    "$file": "data/local-universe.json"
+  },
+  "data/id": "9349636f-dcc1-57f5-88fc-060bc4a565c5",
+  "data/name": "The Local Group (McConnachie 2012, 2021 update) and named landmarks (sourced)",
+  "data/node": {
+    "node/x": 80,
+    "node/y": 320
+  },
+  "data/type": "application/json"
+}

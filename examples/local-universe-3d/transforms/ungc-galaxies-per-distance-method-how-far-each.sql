@@ -1,0 +1,2 @@
+SELECT method, method_name, typical_error, COUNT(*) AS galaxies, ROUND(AVG(dist_mpc), 2) AS mean_mpc, ROUND(MAX(dist_mpc), 2) AS farthest_mpc
+FROM data GROUP BY method, method_name, typical_error ORDER BY galaxies DESC

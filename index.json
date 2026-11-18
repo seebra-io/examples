@@ -1583,6 +1583,42 @@
       }
     },
     {
+      "id": "local-universe-3d",
+      "title": "The local universe in 3D",
+      "category": "Space",
+      "description": "Question: what is around the Milky Way, and how well do we know how far it is? The Local Group to scale with glowing cores sized by luminosity (McConnachie's catalogue, 2021 update) and each distance's error drawn along the line of sight; then out to ~80 Mpc: the 869 galaxies of Karachentsev's Updated Nearby Galaxy Catalog and 12,700 of the 2MASS Redshift Survey, live from NASA's HEASARC, log or linear, Galactic or supergalactic, with rings in Mpc and Mly and Virgo, Fornax, the Norma Cluster (Great Attractor), the Local Void and Laniakea. Hover a galaxy for its distance, method and the method's error; click for NED. A strip chart shows which method measured each distance. Caveat: errors grow with distance (TRGB ~5%, Tully–Fisher 20–25%); beyond 11 Mpc distances are velocity / H0, a redshift distance and not a measured one (Virgo smears into a finger along the line of sight); the empty wedge is the Zone of Avoidance behind the Milky Way's plane. Next: our neighbourhood in the Milky Way, Kepler's third law in exoplanets.",
+      "path": "examples/local-universe-3d",
+      "board": "git:https://github.com/seebra-io/examples#examples/local-universe-3d",
+      "listed": true,
+      "hero": false,
+      "files": 29,
+      "data": [
+        "examples/local-universe-3d/data/local-universe.json"
+      ],
+      "fetched": [],
+      "catalog": {
+        "title": "The local universe in 3D",
+        "summary": "The Local Group to scale, the Local Volume's 869 galaxies with measured distances and 12,700 2MASS galaxies out to 80 Mpc, glowing by luminosity, with Virgo, the Great Attractor and the Zone of Avoidance.",
+        "description": "McConnachie's Local Group with distance errors drawn along the line of sight; Karachentsev's Updated Nearby Galaxy Catalog and the 2MASS Redshift Survey live from HEASARC; log or linear radius, Galactic or supergalactic frame; which method measured each distance, and how good it is.",
+        "categories": [
+          "science/physical/astronomy"
+        ],
+        "tags": [
+          "example",
+          "galaxies",
+          "local-group",
+          "cosmic-distance-ladder",
+          "3d",
+          "redshift",
+          "large-scale-structure"
+        ],
+        "image": "/explore/logos/nasa-apod.png",
+        "apis": [
+          "heasarc-xamin"
+        ]
+      }
+    },
+    {
       "id": "mars-fleet-3d",
       "title": "Mars in 3D: the spacecraft",
       "category": "Space",
@@ -1618,9 +1654,9 @@
       "path": "examples/mars-landings",
       "board": "git:https://github.com/seebra-io/examples#examples/mars-landings",
       "listed": true,
-      "files": 19,
+      "files": 17,
       "data": [
-        "examples/mars-landings/data/mars-landing-attempts-curated-from-wikipedia.json"
+        "examples/mars-landings/data/mars-landings.json"
       ],
       "fetched": [],
       "catalog": {
@@ -1636,9 +1672,66 @@
         ],
         "image": "/explore/logos/nasa-apod.png",
         "apis": [
-          "https://www.seebra.io/explore/data",
           "https://raw.githubusercontent.com/nasa/NASA-3D-Resources/master"
         ]
+      }
+    },
+    {
+      "id": "mars-missions-now",
+      "title": "Missions at Mars now",
+      "category": "Space",
+      "description": "Every spacecraft working at Mars in November 2026, and the ones that stopped: two rovers on the ground and a fleet of orbiters from six space agencies. When each arrived and how long it has been there, where the surface missions are on NASA's map, how high each orbiter flies, and what each one carries. Status and dates are sourced per mission. Caveat: \"working\" is the latest status a source states (status_as_of per row), and Odyssey (nearly out of fuel) and Tianwen-1 (no official update in 2026) are the least certain; orbits are nominal altitudes, and the rovers are drawn at their landing sites. Next: Landing on Mars for how they got there, Mars rovers up close for what the rovers carry, Mars rovers for their newest images, The road to Mars for who comes next.",
+      "path": "examples/mars-missions-now",
+      "board": "git:https://github.com/seebra-io/examples#examples/mars-missions-now",
+      "listed": true,
+      "files": 22,
+      "data": [
+        "examples/mars-missions-now/data/mars-missions-now.json"
+      ],
+      "fetched": [],
+      "catalog": {
+        "title": "Missions at Mars now",
+        "summary": "Every spacecraft at Mars in November 2026: two rovers, six orbiters, the ones that stopped and two on the way.",
+        "description": "Every spacecraft working at Mars in November 2026, and the ones that stopped: two rovers on the ground and a fleet of orbiters from six space agencies. When each arrived and how long it has been there, where the surface missions are on NASA's map, how high each orbiter flies, and what each one carries. Status and dates are sourced per mission.",
+        "categories": [
+          "science/physical/astronomy",
+          "engineering/mechanical/aerospace"
+        ],
+        "tags": [
+          "example"
+        ],
+        "image": "/explore/logos/nasa-apod.png",
+        "apis": [
+          "https://raw.githubusercontent.com/nasa/NASA-3D-Resources/master"
+        ]
+      }
+    },
+    {
+      "id": "mars-road-ahead",
+      "title": "The road to Mars",
+      "category": "Space",
+      "description": "Who goes to Mars next, and how sure each date is: missions on their way, funded, proposed and cancelled, as of November 2026. Each launch is a range, from the earliest to the latest year the sources support, against the launch windows that open about every 26 months; a second chart shows how far the target dates have slipped. Status and dates are sourced per mission. Caveat: a target date is a plan, not a forecast; the earliest-latest ranges are this board's reading of the sources, not agency figures, and several 2026 updates come from news reports rather than agency pages. Next: Missions at Mars now for who is there today, Landing on Mars for every landing so far, Upcoming rocket launches for the next launches of every kind.",
+      "path": "examples/mars-road-ahead",
+      "board": "git:https://github.com/seebra-io/examples#examples/mars-road-ahead",
+      "listed": true,
+      "files": 20,
+      "data": [
+        "examples/mars-road-ahead/data/mars-road-ahead.json"
+      ],
+      "fetched": [],
+      "catalog": {
+        "title": "The road to Mars",
+        "summary": "Who goes to Mars next, and how sure each date is: on the way, funded, proposed and cancelled, as of November 2026.",
+        "description": "Who goes to Mars next, and how sure each date is: missions on their way, funded, proposed and cancelled, as of November 2026. Each launch is a range, from the earliest to the latest year the sources support, against the launch windows that open about every 26 months; a second chart shows how far the target dates have slipped. Status and dates are sourced per mission.",
+        "categories": [
+          "science/physical/astronomy",
+          "engineering/mechanical/aerospace"
+        ],
+        "tags": [
+          "example"
+        ],
+        "image": "/explore/logos/nasa-apod.png",
+        "apis": []
       }
     },
     {
@@ -1677,9 +1770,9 @@
       "path": "examples/mars-rovers-up-close",
       "board": "git:https://github.com/seebra-io/examples#examples/mars-rovers-up-close",
       "listed": true,
-      "files": 22,
+      "files": 20,
       "data": [
-        "examples/mars-rovers-up-close/data/mars-rover-parts-curated-with-sources-data.json"
+        "examples/mars-rovers-up-close/data/mars-rover-parts.json"
       ],
       "fetched": [],
       "catalog": {
@@ -1707,9 +1800,9 @@
       "path": "examples/maxcut-annealing",
       "board": "git:https://github.com/seebra-io/examples#examples/maxcut-annealing",
       "listed": true,
-      "files": 33,
+      "files": 31,
       "data": [
-        "examples/maxcut-annealing/data/four-small-graphs-each-with-its-exact-max-cut.json"
+        "examples/maxcut-annealing/data/maxcut-graphs.json"
       ],
       "fetched": [],
       "catalog": {
@@ -1723,9 +1816,7 @@
         "tags": [
           "example"
         ],
-        "apis": [
-          "https://www.seebra.io/explore/data"
-        ]
+        "apis": []
       }
     },
     {
@@ -1756,6 +1847,46 @@
         ],
         "apis": [
           "energy-charts"
+        ]
+      }
+    },
+    {
+      "id": "milky-way-3d",
+      "title": "Our neighbourhood in the Milky Way, in 3D",
+      "category": "Space",
+      "description": "Question: where are we in the Galaxy, and what is measured rather than drawn? The Milky Way in 3D with a glowing bar and bulge, gas haze, dust lanes and the spiral arms Reid et al. (2019) fitted to ~200 maser parallaxes (Perseus, Scutum–Centaurus, Sagittarius–Carina, Norma, Outer, the Local arm): solid where masers were measured, dashed where the fit is carried on. The Sun sits 8.18 kpc from Sgr A* (GRAVITY 2019); the Orion Nebula, Pleiades, Hyades, Carina, Eagle, Crab, Omega Centauri and Cygnus X-1 at their measured distances. Two scales down: every star within 100 light years in true 3D (HYG, by spectral type, planet hosts live from the NASA Exoplanet Archive), Gaia DR3's live census of the same sphere as an HR diagram, and the solar system to Alpha Centauri on a log scale (Kuiper belt, heliopause, both Voyagers now, Oort cloud, Hale-Bopp, NEOWISE, Sedna). Hover anything for its number and source; fly to the Sun, Sgr A* or the Orion Nebula. Caveat: we see the Galaxy from inside, so its structure is inferred and the far side is barely mapped; the bar, gas and dust are an artist's model of published scales; the Oort cloud is hypothesised, never observed; HYG misses faint red dwarfs. Next: the local universe in 3D, the solar system to scale, Stefan–Boltzmann on the HR diagram.",
+      "path": "examples/milky-way-3d",
+      "board": "git:https://github.com/seebra-io/examples#examples/milky-way-3d",
+      "listed": true,
+      "hero": false,
+      "files": 34,
+      "data": [
+        "examples/milky-way-3d/data/milky-way.json",
+        "examples/milky-way-3d/data/nearby-stars-100ly.json"
+      ],
+      "fetched": [],
+      "catalog": {
+        "title": "Our neighbourhood in the Milky Way, in 3D",
+        "summary": "The Milky Way's arms as Reid 2019 fitted them to maser parallaxes, a glowing bar and bulge, the Sun at 8.18 kpc; every star within 100 light years; the solar system to Alpha Centauri on a log scale.",
+        "description": "Three scales in 3D with glow and particles: the Galaxy (Reid et al. 2019 arms, measured and extrapolated, GRAVITY's R0, real nebulae and clusters), the Sun's 100 light years (HYG by spectral type, exoplanet hosts live, Gaia DR3's live HR diagram), and the outer solar system (Kuiper belt, heliopause, Voyagers, the hypothesised Oort cloud, long-period comets).",
+        "categories": [
+          "science/physical/astronomy"
+        ],
+        "tags": [
+          "example",
+          "milky-way",
+          "galaxy",
+          "spiral-arms",
+          "stars",
+          "3d",
+          "gaia",
+          "oort-cloud",
+          "voyager"
+        ],
+        "image": "/explore/logos/nasa-apod.png",
+        "apis": [
+          "esa-gaia-tap",
+          "nasa-exoplanet-archive"
         ]
       }
     },
@@ -2031,14 +2162,13 @@
       "path": "examples/perseverance-builders",
       "board": "git:https://github.com/seebra-io/examples#examples/perseverance-builders",
       "listed": true,
-      "files": 26,
+      "files": 22,
       "data": [
-        "examples/perseverance-builders/data/parts-and-builders-curated-with-sources-data.json"
+        "examples/perseverance-builders/data/ingenuity.glb",
+        "examples/perseverance-builders/data/perseverance-builders.json",
+        "examples/perseverance-builders/data/perseverance.glb"
       ],
-      "fetched": [
-        "https://www.seebra.io/explore/data/models/ingenuity.glb",
-        "https://www.seebra.io/explore/data/models/perseverance.glb"
-      ],
+      "fetched": [],
       "catalog": {
         "title": "Perseverance: who built what",
         "summary": "NASA's 3D model of Perseverance: hover a part for what it does and the organizations that built it.",
@@ -2365,9 +2495,9 @@
       "path": "examples/solar-system-scale",
       "board": "git:https://github.com/seebra-io/examples#examples/solar-system-scale",
       "listed": true,
-      "files": 36,
+      "files": 34,
       "data": [
-        "examples/solar-system-scale/data/the-planets-orbital-elements-jpl-standish-and.json"
+        "examples/solar-system-scale/data/solar-system-elements.json"
       ],
       "fetched": [],
       "catalog": {
@@ -2786,11 +2916,11 @@
       "path": "examples/your-own-data",
       "board": "git:https://github.com/seebra-io/examples#examples/your-own-data",
       "listed": false,
-      "files": 40,
+      "files": 36,
       "data": [
-        "examples/your-own-data/data/export-guide-22-platforms-data.json",
-        "examples/your-own-data/data/sample-netflix-viewing-history-made-up-data.csv",
-        "examples/your-own-data/data/sample-spotify-extended-streaming-history-made.json"
+        "examples/your-own-data/data/NetflixViewingHistory.csv",
+        "examples/your-own-data/data/Streaming_History_Audio_sample.json",
+        "examples/your-own-data/data/personal-exports.json"
       ],
       "fetched": [],
       "catalog": {

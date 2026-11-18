@@ -1,0 +1,13 @@
+{
+  "data/description": "Curated by Seebra: every spacecraft at Mars and on its way as of mid-November 2026, from Wikipedia, NASA, ESA and news reports (each row's sources). status_as_of is the date of the latest source found, not a confirmation. Checked 2026-11-18.",
+  "data/file": {
+    "$file": "data/mars-missions-now.json"
+  },
+  "data/id": "8ef4cc4d-a622-5f61-b594-591d04b34803",
+  "data/name": "Spacecraft at Mars, November 2026 (curated, with sources)",
+  "data/node": {
+    "node/x": 80,
+    "node/y": 320
+  },
+  "data/type": "application/json"
+}

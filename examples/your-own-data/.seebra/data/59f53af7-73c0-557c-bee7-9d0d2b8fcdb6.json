@@ -1,10 +1,11 @@
 {
   "data/id": "59f53af7-73c0-557c-bee7-9d0d2b8fcdb6",
-  "data/name": "Plays: local time, minutes, skipped data",
+  "data/name": "Spotify: artists",
   "data/node": {
     "node/x": 1150,
-    "node/y": 320
+    "node/y": 80
   },
   "data/parent": ["transformation/id", "a12820c5-997d-5100-bb7b-2060feb84e98"],
+  "data/presentation?": true,
   "data/type": "json"
 }

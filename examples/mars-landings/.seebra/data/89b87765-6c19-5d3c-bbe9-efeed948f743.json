@@ -1,0 +1,13 @@
+{
+  "data/description": "Curated by Seebra from Wikipedia: every spacecraft that tried to land on Mars and reached its atmosphere, 1971-2021, one article per attempt (each row's source). Coordinates from each article; Mars 2's crash site is an estimate. Checked 2026-11-17.",
+  "data/file": {
+    "$file": "data/mars-landings.json"
+  },
+  "data/id": "89b87765-6c19-5d3c-bbe9-efeed948f743",
+  "data/name": "Mars landing attempts (curated from Wikipedia, with sources)",
+  "data/node": {
+    "node/x": 80,
+    "node/y": 320
+  },
+  "data/type": "application/json"
+}

@@ -1,13 +1,13 @@
 {
+  "data/description": "Made up: a sample in the shape of Netflix's viewing history export (NetflixViewingHistory.csv), so the board runs before you have your own. Not anyone's real viewing.",
   "data/file": {
-    "$file": "data/sample-spotify-extended-streaming-history-made.json"
+    "$file": "data/NetflixViewingHistory.csv"
   },
   "data/id": "b95f7044-06ed-5cae-bb89-22126c2d71e9",
-  "data/name": "Sample: Spotify extended streaming history (made up) data",
+  "data/name": "Sample: Netflix viewing history (made up)",
   "data/node": {
-    "node/x": 820,
-    "node/y": 320
+    "node/x": 80,
+    "node/y": 560
   },
-  "data/parent": ["query/id", "bc7f5721-9aac-5798-a2e5-3ced73c6640c"],
-  "data/type": "json"
+  "data/type": "text/csv"
 }

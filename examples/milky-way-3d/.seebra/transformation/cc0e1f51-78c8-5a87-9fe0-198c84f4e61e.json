@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/stars-within-100-ly-one-row-each.js"
+  },
+  "transformation/data-child": ["data/id", "6b542c3f-567e-5dee-87c1-caa0d6d9a2fc"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "js-web-worker",
+  "transformation/id": "cc0e1f51-78c8-5a87-9fe0-198c84f4e61e",
+  "transformation/inputs": [],
+  "transformation/language": "javascript",
+  "transformation/name": "Stars within 100 ly, one row each",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 540,
+    "node/y": 1280
+  },
+  "transformation/parent": ["data/id", "c0a25517-cdf8-5adc-a7f4-bf5015a574c9"],
+  "transformation/units": "{\"dist_ly\":\"[ly]\",\"dist_pc\":\"pc\",\"mag\":\"mag\",\"absmag\":\"mag\"}"
+}

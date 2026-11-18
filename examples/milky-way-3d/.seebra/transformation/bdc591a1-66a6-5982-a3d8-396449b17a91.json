@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/the-arms-log-spiral-parameters-reid-et-al-2019.js"
+  },
+  "transformation/data-child": ["data/id", "c386c078-9e91-5086-a40a-131607a993fc"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "js-web-worker",
+  "transformation/id": "bdc591a1-66a6-5982-a3d8-396449b17a91",
+  "transformation/inputs": [],
+  "transformation/language": "javascript",
+  "transformation/name": "The arms' log-spiral parameters (Reid et al. 2019, Table 2)",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 540,
+    "node/y": 1760
+  },
+  "transformation/parent": ["data/id", "f35a8335-1060-53c7-b5b9-aee1ef4f2a3e"],
+  "transformation/units": "{\"beta_from\":\"deg\",\"beta_to\":\"deg\",\"beta_kink\":\"deg\",\"R_kink_kpc\":\"kpc\",\"pitch_inside\":\"deg\",\"pitch_outside\":\"deg\",\"width_kpc\":\"kpc\"}"
+}

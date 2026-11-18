@@ -1,21 +1,19 @@
 {
   "transformation/content": {
-    "$file": "transforms/asteroids-one-row-each.js"
+    "$file": "transforms/per-group-how-many-where.polars.py"
   },
   "transformation/data-child": ["data/id", "8e5cf7dd-ad91-56d2-903e-bca7b603d50a"],
   "transformation/dynamic?": true,
-  "transformation/environment": "js-web-worker",
+  "transformation/environment": "runtime",
   "transformation/id": "be20a676-1ad1-5c52-a63e-7bb244892f62",
-  "transformation/inputs": [
-    ["data/id", "1aa238fc-5e8e-58a1-84fe-b78f2a69232f"]
-  ],
-  "transformation/language": "javascript",
-  "transformation/name": "Asteroids, one row each",
+  "transformation/inputs": [],
+  "transformation/language": "polars",
+  "transformation/name": "Per group: how many, where",
   "transformation/name?": true,
   "transformation/node": {
-    "node/x": 1000,
-    "node/y": 320
+    "node/x": 1460,
+    "node/y": 80
   },
-  "transformation/parent": ["data/id", "acb39804-b927-5dfd-aa9e-854726b3c64d"],
-  "transformation/units": "{\"a\":\"AU\",\"i\":\"°\",\"period_years\":\"yr\",\"perihelion_au\":\"AU\",\"aphelion_au\":\"AU\"}"
+  "transformation/parent": ["data/id", "9f75d133-8ef5-5916-a651-d39ca8f8c2f3"],
+  "transformation/units": "{\"a_median\":\"AU\",\"a_min\":\"AU\",\"a_max\":\"AU\",\"i_median\":\"°\"}"
 }

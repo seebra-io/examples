@@ -1,10 +1,13 @@
 {
-  "data/id": "a8ec6937-46b8-5b52-bed7-1f922a3882a5",
-  "data/name": "Ingenuity, NASA's 3D model data",
-  "data/node": {
-    "node/x": 820,
-    "node/y": 320
+  "data/description": "Curated by Seebra: Perseverance's and Ingenuity's parts and the organizations that designed or built them, from NASA/JPL, Wikipedia and the builders' own pages (each builder row's source; claims no source stated were left out). Part positions on NASA's 3D model are approximate.",
+  "data/file": {
+    "$file": "data/perseverance-builders.json"
   },
-  "data/parent": ["query/id", "42ac0ec0-ca44-57f3-9996-a71581a209d7"],
-  "data/type": "json"
+  "data/id": "a8ec6937-46b8-5b52-bed7-1f922a3882a5",
+  "data/name": "Parts and builders (curated, with sources)",
+  "data/node": {
+    "node/x": 80,
+    "node/y": 560
+  },
+  "data/type": "application/json"
 }

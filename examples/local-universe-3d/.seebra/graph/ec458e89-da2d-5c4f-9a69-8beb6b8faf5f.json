@@ -1,0 +1,15 @@
+{
+  "graph/content": {
+    "$file": "graphs/how-each-distance-was-measured-precise-methods.js"
+  },
+  "graph/id": "ec458e89-da2d-5c4f-9a69-8beb6b8faf5f",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "How each distance was measured: precise methods reach only so far",
+  "graph/node": {
+    "node/created": 5,
+    "node/x": 1460,
+    "node/y": 560
+  },
+  "graph/parent": ["data/id", "b3f72394-f111-5ac2-a5ba-e8cd0c11588f"]
+}

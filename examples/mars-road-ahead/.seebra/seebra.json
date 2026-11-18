@@ -1,0 +1,8 @@
+{
+  "file": {
+    "file/example": "mars-road-ahead"
+  },
+  "format": 2,
+  "root": ["dashboard/id", "d1a18f07-6165-5f5b-a6bd-ad0f0b1922a3"],
+  "seebra": "board"
+}

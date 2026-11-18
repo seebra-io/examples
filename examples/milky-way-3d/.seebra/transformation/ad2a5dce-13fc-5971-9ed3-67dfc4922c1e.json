@@ -1,0 +1,21 @@
+{
+  "transformation/content": {
+    "$file": "transforms/hyg-against-gaia-stars-per-class-within-100-ly.js"
+  },
+  "transformation/data-child": ["data/id", "9c53a193-1141-52d4-b941-115abdafc454"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "js-web-worker",
+  "transformation/id": "ad2a5dce-13fc-5971-9ed3-67dfc4922c1e",
+  "transformation/inputs": [
+    ["data/id", "21963743-adc3-5085-b184-b369646582a0"]
+  ],
+  "transformation/language": "javascript",
+  "transformation/name": "HYG against Gaia: stars per class within 100 ly",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "6b542c3f-567e-5dee-87c1-caa0d6d9a2fc"],
+  "transformation/units": "{}"
+}

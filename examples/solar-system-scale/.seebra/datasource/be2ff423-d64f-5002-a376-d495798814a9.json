@@ -3,7 +3,7 @@
   "datasource/auth-type": "none",
   "datasource/headers": "{}",
   "datasource/id": "be2ff423-d64f-5002-a376-d495798814a9",
-  "datasource/name": "NASA Science files (Eyes on the Solar System models)",
+  "datasource/name": "NASA 3D Resources (GitHub)",
   "datasource/node": {
     "inputs": 1,
     "node/x": 80,
@@ -12,5 +12,5 @@
   },
   "datasource/params": "{}",
   "datasource/type": "openapi",
-  "datasource/url": "https://assets.science.nasa.gov/content/dam/science"
+  "datasource/url": "https://raw.githubusercontent.com/nasa/NASA-3D-Resources/master"
 }

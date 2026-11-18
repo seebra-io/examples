@@ -1,19 +1,19 @@
 {
   "transformation/content": {
-    "$file": "transforms/plays-local-time-minutes-skipped.js"
+    "$file": "transforms/artists-hours-skips-first-and-last-played.sql"
   },
   "transformation/data-child": ["data/id", "59f53af7-73c0-557c-bee7-9d0d2b8fcdb6"],
   "transformation/dynamic?": true,
-  "transformation/environment": "js-web-worker",
+  "transformation/environment": "runtime",
   "transformation/id": "a12820c5-997d-5100-bb7b-2060feb84e98",
   "transformation/inputs": [],
-  "transformation/language": "javascript",
-  "transformation/name": "Plays: local time, minutes, skipped",
+  "transformation/language": "sql",
+  "transformation/name": "Artists: hours, skips, first and last played",
   "transformation/name?": true,
   "transformation/node": {
     "node/x": 1000,
-    "node/y": 320
+    "node/y": 80
   },
-  "transformation/parent": ["data/id", "b95f7044-06ed-5cae-bb89-22126c2d71e9"],
+  "transformation/parent": ["data/id", "ece65900-9e7b-57f9-a300-8f754f676f59"],
   "transformation/units": "{}"
 }

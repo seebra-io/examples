@@ -1,0 +1,13 @@
+{
+  "data/description": "Curated by Seebra: missions to Mars en route, planned, proposed or cancelled as of 18 November 2026, and the launch windows, from Wikipedia, agencies and news reports (each row's source; secondary-only rows are marked uncertain). Checked 2026-11-18.",
+  "data/file": {
+    "$file": "data/mars-road-ahead.json"
+  },
+  "data/id": "5f96749b-4e4f-53f0-b13d-498541dfdd76",
+  "data/name": "Missions to Mars: on the way, planned, proposed and cancelled (curated, with sources)",
+  "data/node": {
+    "node/x": 80,
+    "node/y": 80
+  },
+  "data/type": "application/json"
+}

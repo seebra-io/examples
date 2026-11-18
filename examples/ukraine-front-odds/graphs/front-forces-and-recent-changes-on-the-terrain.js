@@ -29,16 +29,10 @@ const rewind = g => {
 // --- frame, tooltip
 const wrap = d3.create("div").style("position", "relative").style("width", W + "px").style("height", H + "px").style("overflow", "hidden");
 const svg = wrap.append("svg").attr("width", W).attr("height", H).style("font", "11px sans-serif").style("background", "#0b1220");
-const tip = wrap.append("div").style("position", "absolute").style("pointer-events", "none").style("opacity", 0).style("max-width", "320px")
-  .style("background", "rgba(9,9,11,.94)").style("color", "#f4f4f5").style("border", "1px solid #3f3f46")
-  .style("border-radius", "6px").style("padding", "5px 8px").style("font", "12px sans-serif").style("z-index", 2);
-const showTip = (event, html) => {
-  const [x, y] = d3.pointer(event, wrap.node());
-  tip.html(html).style("opacity", 1);
-  const tw = tip.node().offsetWidth, th = tip.node().offsetHeight;
-  tip.style("left", Math.min(x + 14, W - tw - 4) + "px").style("top", (y - th - 12 < 0 ? y + 16 : y - th - 12) + "px");
-};
-const hideTip = () => tip.style("opacity", 0);
+// the hover box is Seebra's one box (seebra.tooltip): beside the pointer, never
+// over it, and the only one on screen (another graph's closes when it opens)
+const showTip = (event, html) => seebra.tooltip.show(html, event);
+const hideTip = () => seebra.tooltip.hide();
 const world = svg.append("g");
 
 // --- terrain: each pixel looks up the grid through the projection, shaded

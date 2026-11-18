@@ -1,0 +1,10 @@
+{
+  "data/id": "bf7578f3-389b-5319-8ed9-cb96076e719c",
+  "data/name": "2MRS galaxies, one row each, distance = cz / H0 data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "0829b634-ebd0-564f-bcde-fce40ee5e5e6"],
+  "data/type": "json"
+}

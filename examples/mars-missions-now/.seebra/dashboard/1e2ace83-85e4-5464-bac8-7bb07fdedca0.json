@@ -1,0 +1,32 @@
+{
+  "dashboard/id": "1e2ace83-85e4-5464-bac8-7bb07fdedca0",
+  "datas": [
+    ["data/id", "8ef4cc4d-a622-5f61-b594-591d04b34803"],
+    ["data/id", "1c11b0ca-951c-5f44-ab63-079da4b8366b"],
+    ["data/id", "34c15b1b-4fbf-5f1c-adab-0a7b623ea589"],
+    ["data/id", "4e5f3d19-be4b-5ba2-b634-261305395a25"]
+  ],
+  "datasources": [
+    ["datasource/id", "30c5b994-4ad0-5c43-8ef6-107931b71cd5"]
+  ],
+  "description": "Every spacecraft working at Mars in November 2026, and the ones that stopped: two rovers on the ground and a fleet of orbiters from six space agencies. When each arrived and how long it has been there, where the surface missions are on NASA's map, how high each orbiter flies, and what each one carries. Status and dates are sourced per mission.",
+  "graphs": [
+    ["graph/id", "4e04ee79-c0eb-5bb3-84b3-ce2258a234ee"],
+    ["graph/id", "2341e3f8-3122-53a0-9484-0ae9d5884841"],
+    ["graph/id", "e84cbe33-e765-527d-9ee0-452c02fbd506"],
+    ["graph/id", "f6b0dc2f-f38d-5b92-a5a0-e9c6e963578c"]
+  ],
+  "grids": [],
+  "name": "Missions at Mars now",
+  "queries": [
+    ["query/id", "1c95922c-f1d8-5c82-8c2e-cafd80900932"]
+  ],
+  "studies": [],
+  "tables": [],
+  "texts": [],
+  "timers": [],
+  "transformations": [
+    ["transformation/id", "d613031e-8231-5fa1-830b-079a330cce58"],
+    ["transformation/id", "80a75f8b-c2dc-5474-a06c-6bae6784d183"]
+  ]
+}

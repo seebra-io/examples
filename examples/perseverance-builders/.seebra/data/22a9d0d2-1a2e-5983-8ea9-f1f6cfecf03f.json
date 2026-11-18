@@ -1,0 +1,13 @@
+{
+  "data/description": "NASA's 3D model of Perseverance (NASA/JPL-Caltech, NASA 3D Resources, free and without copyright: https://github.com/nasa/NASA-3D-Resources), re-encoded with meshopt for the browser.",
+  "data/file": {
+    "$file": "data/perseverance.glb"
+  },
+  "data/id": "22a9d0d2-1a2e-5983-8ea9-f1f6cfecf03f",
+  "data/name": "Perseverance, NASA's 3D model",
+  "data/node": {
+    "node/x": 80,
+    "node/y": 80
+  },
+  "data/type": "model/glb"
+}

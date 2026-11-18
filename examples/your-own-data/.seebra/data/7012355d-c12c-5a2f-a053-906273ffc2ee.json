@@ -1,0 +1,13 @@
+{
+  "data/description": "Curated by Seebra: where to download your own data from 22 platforms (GDPR access and portability), the file that matters and what to look at. Each row links the platform's page (where). Links checked 2026-11-15; menus change often.",
+  "data/file": {
+    "$file": "data/personal-exports.json"
+  },
+  "data/id": "7012355d-c12c-5a2f-a053-906273ffc2ee",
+  "data/name": "Export guide: 22 platforms",
+  "data/node": {
+    "node/x": 80,
+    "node/y": 80
+  },
+  "data/type": "application/json"
+}

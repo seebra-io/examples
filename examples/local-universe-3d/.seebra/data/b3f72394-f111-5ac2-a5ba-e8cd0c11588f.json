@@ -1,0 +1,11 @@
+{
+  "data/id": "b3f72394-f111-5ac2-a5ba-e8cd0c11588f",
+  "data/name": "Every UNGC galaxy (ned: its NED page)",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "37fc1be3-6286-58b7-9937-832c852274cb"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

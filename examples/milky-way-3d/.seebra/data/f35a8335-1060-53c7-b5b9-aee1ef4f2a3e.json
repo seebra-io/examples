@@ -1,0 +1,13 @@
+{
+  "data/description": "Curated by Seebra from the sources each row cites: Reid et al. 2019 spiral-arm fits, GRAVITY 2019/2021 for the Sun's distance, published distances of the named objects, Voyager positions and heliosphere crossings, NASA's Oort-cloud ranges, and JPL SBDB comet elements. Checked 2026-11-18.",
+  "data/file": {
+    "$file": "data/milky-way.json"
+  },
+  "data/id": "f35a8335-1060-53c7-b5b9-aee1ef4f2a3e",
+  "data/name": "The Milky Way: Reid 2019 arms, bar and disc scales, objects, the outer solar system (sourced)",
+  "data/node": {
+    "node/x": 80,
+    "node/y": 560
+  },
+  "data/type": "application/json"
+}

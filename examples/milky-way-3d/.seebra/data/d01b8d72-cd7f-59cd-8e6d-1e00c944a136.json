@@ -1,0 +1,10 @@
+{
+  "data/id": "d01b8d72-cd7f-59cd-8e6d-1e00c944a136",
+  "data/name": "Stars with known planets within 100 light years (pscomppars) data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 320
+  },
+  "data/parent": ["query/id", "0fc29766-1a74-5ee0-bcb3-f0dc4570102a"],
+  "data/type": "json"
+}

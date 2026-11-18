@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/objects-in-the-galaxy-view-with-distance-and.js"
+  },
+  "transformation/data-child": ["data/id", "a675688d-1c46-5f46-8f1d-c16fd8db1345"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "js-web-worker",
+  "transformation/id": "11642cf0-d15a-53ca-8b9d-5daaa9f9c4e1",
+  "transformation/inputs": [],
+  "transformation/language": "javascript",
+  "transformation/name": "Objects in the galaxy view, with distance and source",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 540,
+    "node/y": 1520
+  },
+  "transformation/parent": ["data/id", "f35a8335-1060-53c7-b5b9-aee1ef4f2a3e"],
+  "transformation/units": "{\"l\":\"deg\",\"b\":\"deg\",\"dist_pc\":\"pc\",\"dist_err_pc\":\"pc\",\"dist_ly\":\"[ly]\"}"
+}

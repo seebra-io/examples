@@ -3,6 +3,6 @@
     "file/example": "mars-landings"
   },
   "format": 2,
-  "root": ["dashboard/id", "f2d011ed-9c71-5d78-8a49-e3eb21ba58a1"],
+  "root": ["dashboard/id", "606ff8dc-40e6-5216-81d2-c046257dc304"],
   "seebra": "board"
 }

@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/table-the-columns-to-read-first.js"
+  },
+  "transformation/data-child": ["data/id", "4e5f3d19-be4b-5ba2-b634-261305395a25"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "js-web-worker",
+  "transformation/id": "80a75f8b-c2dc-5474-a06c-6bae6784d183",
+  "transformation/inputs": [],
+  "transformation/language": "javascript",
+  "transformation/name": "Table: the columns to read first",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 1040
+  },
+  "transformation/parent": ["data/id", "34c15b1b-4fbf-5f1c-adab-0a7b623ea589"],
+  "transformation/units": "{}"
+}

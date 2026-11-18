@@ -1,0 +1,16 @@
+{
+  "graph/content": {
+    "$file": "graphs/what-s-next-and-how-sure-hover-a-mission.js"
+  },
+  "graph/id": "86a38efe-b23a-5732-9f1b-0edafda53bac",
+  "graph/inputs": [
+    ["data/id", "9d7a692e-1d05-58d9-9818-91055c38d58e"]
+  ],
+  "graph/language": "javascript",
+  "graph/name": "What's next, and how sure (hover a mission)",
+  "graph/node": {
+    "node/x": 1000,
+    "node/y": 320
+  },
+  "graph/parent": ["data/id", "13236204-9bb7-58c9-9b26-c5007fcfca4a"]
+}
