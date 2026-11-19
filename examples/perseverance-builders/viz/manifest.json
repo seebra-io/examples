@@ -2,18 +2,21 @@
  "visuals": [
   {
    "n": 1,
-   "file": "1.4adf3e2df994cee409221a4b9f3e7c46.glb",
+   "file": "1.8f91d2a4d23f005c9c90ac3d369f93da.glb",
    "kind": "glb",
    "static": true,
-   "at": "2026-11-18T14:44:40.612Z",
-   "title": "Perseverance and Ingenuity (hover a part, click for the source)"
+   "at": "2026-11-19T17:07:38.022Z",
+   "title": "Perseverance and Ingenuity (hover a part, click for the source)",
+   "width": 1000,
+   "height": 500,
+   "poster": "1.7336dad3d03a1148e4ff3af6296b5803.webp"
   },
   {
    "n": 4,
    "file": "4.d8b87832ede0aeb16d886b3e5f1bc05f.svg",
    "kind": "svg",
    "static": true,
-   "at": "2026-11-18T14:44:40.612Z",
+   "at": "2026-11-19T17:07:38.022Z",
    "title": "Every organization against the rover's systems",
    "width": 1000,
    "height": 500
@@ -23,7 +26,7 @@
    "file": "5.21d87fef2d1aa6f38e03700f214b7ecd.svg",
    "kind": "svg",
    "static": true,
-   "at": "2026-11-18T14:44:40.612Z",
+   "at": "2026-11-19T17:07:38.022Z",
    "title": "Organizations per country",
    "width": 1000,
    "height": 500
