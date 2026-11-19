@@ -2,7 +2,7 @@
   "query/data-child": ["data/id", "7872d118-1f2b-51dd-9bcf-a766b215f230"],
   "query/datasource": ["datasource/id", "4cdbcf20-8660-555a-8ab4-7415f9a0f5fc"],
   "query/dynamic?": true,
-  "query/format": "",
+  "query/format": "csv",
   "query/headers": "{}",
   "query/id": "92992c32-a644-5574-88d7-f35c9dc9689a",
   "query/key": "",

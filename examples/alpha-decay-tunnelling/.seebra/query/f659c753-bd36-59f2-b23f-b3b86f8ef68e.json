@@ -2,7 +2,7 @@
   "query/data-child": ["data/id", "8678bee2-487a-5d07-bccd-4f5e73735b81"],
   "query/datasource": ["datasource/id", "31e3570c-edbb-5891-a39c-f502e2679762"],
   "query/dynamic?": true,
-  "query/format": "",
+  "query/format": "text",
   "query/headers": "{}",
   "query/id": "f659c753-bd36-59f2-b23f-b3b86f8ef68e",
   "query/key": "",

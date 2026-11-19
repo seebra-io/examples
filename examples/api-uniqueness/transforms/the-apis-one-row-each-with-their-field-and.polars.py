@@ -5,8 +5,8 @@ data.rows("items")
     .select("pos", "id", "title", "summary",
             categories = col("categories").list.join(" · "),
             root = col("categories").list.first().str.split("/").list.first(),
-            docs = col("api").struct.field("docs"),
-            base_url = col("api").struct.field("url"),
+            docs = col("api_docs"),
+            base_url = col("api_url"),
             description_chars = col("description").str.len_chars(),
             tags_n = col("tags").list.len(),
             link = concat_str([lit("https://seebra.io/explore/"), col("id")]))
