@@ -1598,7 +1598,7 @@
       "fetched": [],
       "catalog": {
         "title": "The local universe in 3D",
-        "summary": "The Local Group to scale, the Local Volume's 869 galaxies with measured distances and 12,700 2MASS galaxies out to 80 Mpc, glowing by luminosity, with Virgo, the Great Attractor and the Zone of Avoidance.",
+        "summary": "The Local Group to scale, the Local Volume's 869 galaxies with measured distances and 12,700 2MASS galaxies out to 80 Mpc, glowing by luminosity: Virgo, the Great Attractor, the Zone of Avoidance.",
         "description": "McConnachie's Local Group with distance errors drawn along the line of sight; Karachentsev's Updated Nearby Galaxy Catalog and the 2MASS Redshift Survey live from HEASARC; log or linear radius, Galactic or supergalactic frame; which method measured each distance, and how good it is.",
         "categories": [
           "science/physical/astronomy"
