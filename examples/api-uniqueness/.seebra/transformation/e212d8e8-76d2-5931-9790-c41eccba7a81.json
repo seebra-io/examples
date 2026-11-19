@@ -1,19 +1,19 @@
 {
   "transformation/content": {
-    "$file": "transforms/tf-idf-over-the-descriptions-and-each-api-s-10.js"
+    "$file": "transforms/rarity-how-crowded-each-api-s-least-crowded.polars.py"
   },
-  "transformation/data-child": ["data/id", "52643f1d-d9e6-5a6b-8a78-b76a0b0a97f8"],
+  "transformation/data-child": ["data/id", "58436b7c-a62e-5afd-9806-7c0b3efb05b1"],
   "transformation/dynamic?": true,
-  "transformation/environment": "js-web-worker",
+  "transformation/environment": "runtime",
   "transformation/id": "e212d8e8-76d2-5931-9790-c41eccba7a81",
   "transformation/inputs": [],
-  "transformation/language": "javascript",
-  "transformation/name": "TF-IDF over the descriptions, and each API's 10 nearest (places removed, and kept)",
+  "transformation/language": "polars",
+  "transformation/name": "Rarity: how crowded each API's least crowded category is",
   "transformation/name?": true,
   "transformation/node": {
-    "node/x": 1000,
-    "node/y": 560
+    "node/x": 1460,
+    "node/y": 320
   },
-  "transformation/parent": ["data/id", "1bdaac2c-8be9-5204-8d39-7e13b18e7240"],
+  "transformation/parent": ["data/id", "30c4b510-b5db-5d5e-bd44-465c6d6bc1b3"],
   "transformation/units": "{}"
 }

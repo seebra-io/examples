@@ -18,6 +18,7 @@ Queries:
 
 Transformations:
 
+- [The catalog's items, with only the fields used here](transforms/the-catalog-s-items-with-only-the-fields-used.js) (javascript)
 - [The APIs: one row each, with their field and Explore page](transforms/the-apis-one-row-each-with-their-field-and.polars.py) (polars)
 - [Rarity: how crowded each API's least crowded category is](transforms/rarity-how-crowded-each-api-s-least-crowded.polars.py) (polars)
 - [TF-IDF over the descriptions, and each API's 10 nearest (places removed, and kept)](transforms/tf-idf-over-the-descriptions-and-each-api-s-10.js) (javascript)
@@ -48,7 +49,7 @@ Tables:
 
 Studies:
 
-- [Which APIs are unique, and which fields are crowded with copies?](.seebra/study/da386970-18be-519b-8ab6-9652d9704fca.json)
+- [Which APIs are unique, and which fields are crowded with copies?](.seebra/study/1bdaac2c-8be9-5204-8d39-7e13b18e7240.json)
 
 ## This folder
 

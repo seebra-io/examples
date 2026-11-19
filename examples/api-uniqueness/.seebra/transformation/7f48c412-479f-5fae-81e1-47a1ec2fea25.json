@@ -1,18 +1,18 @@
 {
   "transformation/content": {
-    "$file": "transforms/uniqueness-by-field-every-category-with-its-most.polars.py"
+    "$file": "transforms/similarity-network-each-api-s-3-nearest-places.polars.py"
   },
-  "transformation/data-child": ["data/id", "03cb2a02-4787-52ee-bb47-f6f2ecd59377"],
+  "transformation/data-child": ["data/id", "955c335b-1b33-52eb-8e31-1128d45975df"],
   "transformation/dynamic?": true,
   "transformation/environment": "runtime",
   "transformation/id": "7f48c412-479f-5fae-81e1-47a1ec2fea25",
   "transformation/inputs": [],
   "transformation/language": "polars",
-  "transformation/name": "Uniqueness by field: every category, with its most and least unique API",
+  "transformation/name": "Similarity network: each API's 3 nearest (places removed)",
   "transformation/name?": true,
   "transformation/node": {
-    "node/x": 2380,
-    "node/y": 80
+    "node/x": 1920,
+    "node/y": 320
   },
   "transformation/parent": ["data/id", "f2999a8c-0252-5608-9a77-fc5e649c121e"],
   "transformation/units": "{}"

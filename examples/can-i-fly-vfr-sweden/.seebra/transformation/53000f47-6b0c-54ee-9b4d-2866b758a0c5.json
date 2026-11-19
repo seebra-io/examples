@@ -1,22 +1,24 @@
 {
   "transformation/content": {
-    "$file": "transforms/verdict-per-airport-in-its-window-taf-1-h-metar.polars.py"
+    "$file": "transforms/between-the-airports-smhi-s-model-along-the.polars.py"
   },
-  "transformation/data-child": ["data/id", "da2dec66-21b8-5935-9bed-2f38eb5fd953"],
+  "transformation/data-child": ["data/id", "4279161b-91da-5f44-9794-587259bb377b"],
   "transformation/dynamic?": true,
   "transformation/environment": "runtime",
   "transformation/id": "53000f47-6b0c-54ee-9b4d-2866b758a0c5",
   "transformation/inputs": [
-    ["data/id", "945f4dd4-e6c2-5362-b744-6cbf09f41052"],
-    ["data/id", "919d382b-e996-566a-832b-09a02c9cdc26"]
+    ["data/id", "f815dae1-fe64-58aa-8b29-d54cc7616ffa"],
+    ["data/id", "90476b7c-9479-53d3-9580-4e3219f16efd"],
+    ["data/id", "00cbc63b-b05a-544c-9a6c-1e6fa96724ab"],
+    ["data/id", "ae7d4001-5de8-5a40-930c-0a4ddece8a3c"]
   ],
   "transformation/language": "polars",
-  "transformation/name": "Verdict per airport in its window (TAF ± 1 h, METAR now)",
+  "transformation/name": "Between the airports: SMHI's model along the route, hour by hour",
   "transformation/name?": true,
   "transformation/node": {
-    "node/x": 1920,
-    "node/y": 80
+    "node/x": 1000,
+    "node/y": 1040
   },
-  "transformation/parent": ["data/id", "7cef94af-4deb-5afd-818e-752ef8355b4c"],
+  "transformation/parent": ["data/id", "f419e1ab-bfd0-5d52-bee8-a9e2f511bad9"],
   "transformation/units": "{}"
 }

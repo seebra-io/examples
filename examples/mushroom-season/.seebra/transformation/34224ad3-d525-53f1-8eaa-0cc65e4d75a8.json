@@ -2,7 +2,7 @@
   "transformation/content": {
     "$file": "transforms/all-fungi-per-month.polars.py"
   },
-  "transformation/data-child": ["data/id", "790a3b40-d963-5b17-aba6-d30639b413c2"],
+  "transformation/data-child": ["data/id", "443620d9-aff8-5c53-9c53-6c56e87e6324"],
   "transformation/dynamic?": true,
   "transformation/environment": "runtime",
   "transformation/id": "34224ad3-d525-53f1-8eaa-0cc65e4d75a8",
@@ -14,6 +14,6 @@
     "node/x": 1000,
     "node/y": 80
   },
-  "transformation/parent": ["data/id", "19f5b6e5-6e01-539d-8c92-b51b9062f20a"],
+  "transformation/parent": ["data/id", "790a3b40-d963-5b17-aba6-d30639b413c2"],
   "transformation/units": "{}"
 }

@@ -1,19 +1,19 @@
 {
   "transformation/content": {
-    "$file": "transforms/the-apis-one-row-each-with-their-field-and.polars.py"
+    "$file": "transforms/the-catalog-s-items-with-only-the-fields-used.js"
   },
-  "transformation/data-child": ["data/id", "050559e5-e9d3-5e51-8ef9-1602366bb30b"],
+  "transformation/data-child": ["data/id", "30c4b510-b5db-5d5e-bd44-465c6d6bc1b3"],
   "transformation/dynamic?": true,
-  "transformation/environment": "runtime",
+  "transformation/environment": "js-web-worker",
   "transformation/id": "7e136250-a55f-5845-8d3d-227dd3c368c5",
   "transformation/inputs": [],
-  "transformation/language": "polars",
-  "transformation/name": "The APIs: one row each, with their field and Explore page",
+  "transformation/language": "javascript",
+  "transformation/name": "The catalog's items, with only the fields used here",
   "transformation/name?": true,
   "transformation/node": {
     "node/x": 1000,
     "node/y": 80
   },
-  "transformation/parent": ["data/id", "1bdaac2c-8be9-5204-8d39-7e13b18e7240"],
+  "transformation/parent": ["data/id", "050559e5-e9d3-5e51-8ef9-1602366bb30b"],
   "transformation/units": "{}"
 }

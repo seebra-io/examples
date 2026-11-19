@@ -1,5 +1,6 @@
 // The tide as measured every hour, and what a gauge read once a day (or every 25 hours) shows.
-const [samples] = data;
+// one input: data is its rows (a list of inputs only with two or more)
+const samples = data;
 const rows = (samples || []).map(d => ({...d, time: new Date(d.t.replace(" ", "T") + ":00Z")}));
 const truth = rows.filter(d => d.scheme === "every 1 h");
 const show = ["every 24 h", "every 25 h", "daily mean (filtered)"];

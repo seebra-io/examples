@@ -1,10 +1,10 @@
 {
   "data/id": "eb087818-b815-504b-9c1e-5dba04db8329",
-  "data/name": "Chanterelle names and how sure the community is data",
+  "data/name": "Mushroom Observer's observations, flat data",
   "data/node": {
-    "node/x": 1610,
-    "node/y": 320
+    "node/x": 1150,
+    "node/y": 1520
   },
-  "data/parent": ["transformation/id", "dfee98aa-d7cc-54de-8d77-50a386a62afe"],
+  "data/parent": ["transformation/id", "da1509b5-d3c5-55a4-91ad-85ec8041b015"],
   "data/type": "json"
 }

@@ -1,21 +1,21 @@
 {
   "transformation/content": {
-    "$file": "transforms/what-each-taf-allows-hour-by-hour-prevailing-and.polars.py"
+    "$file": "transforms/prevailing-forecast-per-airport-and-hour.polars.py"
   },
-  "transformation/data-child": ["data/id", "945f4dd4-e6c2-5362-b744-6cbf09f41052"],
+  "transformation/data-child": ["data/id", "d07c50cd-cae4-57dc-9ac3-4c96357508cd"],
   "transformation/dynamic?": true,
   "transformation/environment": "runtime",
   "transformation/id": "f0445188-6047-59a7-8cf0-389cf967142c",
   "transformation/inputs": [
-    ["data/id", "c0d817df-a7aa-50ca-876a-8616a1efb364"]
+    ["data/id", "945f4dd4-e6c2-5362-b744-6cbf09f41052"]
   ],
   "transformation/language": "polars",
-  "transformation/name": "What each TAF allows, hour by hour (prevailing and TEMPO/PROB)",
+  "transformation/name": "Prevailing forecast per airport and hour",
   "transformation/name?": true,
   "transformation/node": {
     "node/x": 1460,
     "node/y": 560
   },
-  "transformation/parent": ["data/id", "9316d7ac-2e42-5fc7-8d88-a0f7be3068f0"],
+  "transformation/parent": ["data/id", "c0d817df-a7aa-50ca-876a-8616a1efb364"],
   "transformation/units": "{}"
 }

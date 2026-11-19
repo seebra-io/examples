@@ -1,19 +1,19 @@
 {
   "transformation/content": {
-    "$file": "transforms/the-hour-grid-utc-next-30-h.polars.py"
+    "$file": "transforms/taf-change-groups-base-fm-becmg-tempo-prob.polars.py"
   },
-  "transformation/data-child": ["data/id", "51ffa07a-7327-5651-8012-9d4c84ba6aa0"],
+  "transformation/data-child": ["data/id", "c0d817df-a7aa-50ca-876a-8616a1efb364"],
   "transformation/dynamic?": true,
   "transformation/environment": "runtime",
   "transformation/id": "9372368c-ff50-5fa7-887e-739620209f29",
   "transformation/inputs": [],
   "transformation/language": "polars",
-  "transformation/name": "The hour grid (UTC, next 30 h)",
+  "transformation/name": "TAF change groups (BASE, FM, BECMG, TEMPO, PROB) decoded",
   "transformation/name?": true,
   "transformation/node": {
     "node/x": 1000,
-    "node/y": 800
+    "node/y": 560
   },
-  "transformation/parent": ["data/id", "1c16f81d-e237-5ee0-8ea2-a9af6e328d8c"],
+  "transformation/parent": ["data/id", "e244c488-2592-5034-b110-4ab1962c232f"],
   "transformation/units": "{}"
 }

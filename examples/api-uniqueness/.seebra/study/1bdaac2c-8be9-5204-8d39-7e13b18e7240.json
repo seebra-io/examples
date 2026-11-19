@@ -1,18 +1,18 @@
 {
   "study/hypothesis": "Energy and markets are crowded by per-country copies: their APIs are less distinct than the rest, and less so once place names are removed.",
-  "study/id": "da386970-18be-519b-8ab6-9652d9704fca",
+  "study/id": "1bdaac2c-8be9-5204-8d39-7e13b18e7240",
   "study/name": "Which APIs are unique, and which fields are crowded with copies?",
   "study/node": {
     "node/x": 540,
     "node/y": 320
   },
   "study/plan": {
-    "$file": ".seebra/study/da386970-18be-519b-8ab6-9652d9704fca.plan.json",
+    "$file": ".seebra/study/1bdaac2c-8be9-5204-8d39-7e13b18e7240.plan.json",
     "$json": true
   },
   "study/question": "Which APIs bring something no other API does, and which fields are crowded with near-copies?",
   "study/state": {
-    "$file": ".seebra/study/da386970-18be-519b-8ab6-9652d9704fca.state.json",
+    "$file": ".seebra/study/1bdaac2c-8be9-5204-8d39-7e13b18e7240.state.json",
     "$json": true
   }
 }

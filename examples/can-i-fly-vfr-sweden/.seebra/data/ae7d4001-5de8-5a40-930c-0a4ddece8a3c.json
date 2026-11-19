@@ -1,10 +1,10 @@
 {
   "data/id": "ae7d4001-5de8-5a40-930c-0a4ddece8a3c",
-  "data/name": "The route (edit here): ESSA → ESGG, alternates ESOE, ESGJ, ETD now + 2 h data",
+  "data/name": "SMHI forecast at ESGG (57.66°N 12.28°E) data",
   "data/node": {
-    "node/x": 1150,
-    "node/y": 80
+    "node/x": 820,
+    "node/y": 1760
   },
-  "data/parent": ["transformation/id", "1fc696a1-5c68-559e-9f36-685787129b85"],
+  "data/parent": ["query/id", "ced0fa77-083c-5954-abf7-03eb5eda5580"],
   "data/type": "json"
 }

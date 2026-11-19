@@ -1,11 +1,10 @@
 {
   "data/id": "955c335b-1b33-52eb-8e31-1128d45975df",
-  "data/name": "Rank correlations and top-50 overlap",
+  "data/name": "Similarity network: each API's 3 nearest (places removed) data",
   "data/node": {
-    "node/x": 2530,
+    "node/x": 2070,
     "node/y": 320
   },
-  "data/parent": ["transformation/id", "3c4bdf7e-774f-5181-a5c2-ac142b45b069"],
-  "data/presentation?": true,
+  "data/parent": ["transformation/id", "7f48c412-479f-5fae-81e1-47a1ec2fea25"],
   "data/type": "json"
 }

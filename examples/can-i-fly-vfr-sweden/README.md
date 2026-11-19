@@ -28,6 +28,7 @@ Transformations:
 
 - [The route (edit here): ESSA → ESGG, alternates ESOE, ESGJ, ETD now + 2 h](transforms/the-route-edit-here-essa-esgg-alternates-esoe.polars.py) (polars)
 - [Along the route: distance, when each airport is used, its ±1 h window](transforms/along-the-route-distance-when-each-airport-is.polars.py) (polars)
+- [METARs with every field (AWC leaves out the ones no station reports)](transforms/metars-with-every-field-awc-leaves-out-the-ones.js) (javascript)
 - [METARs decoded: flight category and SERA VMC minima](transforms/metars-decoded-flight-category-and-sera-vmc.polars.py) (polars)
 - [TAF change groups (BASE, FM, BECMG, TEMPO, PROB) decoded](transforms/taf-change-groups-base-fm-becmg-tempo-prob.polars.py) (polars)
 - [The hour grid (UTC, next 30 h)](transforms/the-hour-grid-utc-next-30-h.polars.py) (polars)
@@ -56,7 +57,7 @@ Tables:
 
 Studies:
 
-- [Do TEMPO/PROB groups, not the prevailing forecast, decide VFR a few hours out?](.seebra/study/ea28e1de-7351-5a7d-be40-2e95692540e9.json)
+- [Do TEMPO/PROB groups, not the prevailing forecast, decide VFR a few hours out?](.seebra/study/9ca10029-f19b-5ec3-9f67-ca7403a2f2a0.json)
 
 ## This folder
 

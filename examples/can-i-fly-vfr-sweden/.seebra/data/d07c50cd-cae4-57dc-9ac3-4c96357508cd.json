@@ -1,10 +1,10 @@
 {
   "data/id": "d07c50cd-cae4-57dc-9ac3-4c96357508cd",
-  "data/name": "Between the airports: SMHI's model along the route, hour by hour data",
+  "data/name": "Prevailing forecast per airport and hour data",
   "data/node": {
-    "node/x": 1150,
-    "node/y": 1040
+    "node/x": 1610,
+    "node/y": 560
   },
-  "data/parent": ["transformation/id", "9814fb4b-1877-5405-a1d9-074560a7c879"],
+  "data/parent": ["transformation/id", "f0445188-6047-59a7-8cf0-389cf967142c"],
   "data/type": "json"
 }

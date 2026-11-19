@@ -1,16 +1,18 @@
 {
   "graph/content": {
-    "$file": "graphs/why-read-past-the-taf-s-first-line-airports.js"
+    "$file": "graphs/taf-timeline-across-the-departure-window.js"
   },
   "graph/id": "ad8bae48-b7e8-5fe1-b499-314063dcf093",
   "graph/inputs": [
-    ["data/id", "1050e086-fa5a-533a-a8f0-8b7ec2ed74bb"]
+    ["data/id", "919d382b-e996-566a-832b-09a02c9cdc26"],
+    ["data/id", "4279161b-91da-5f44-9794-587259bb377b"],
+    ["data/id", "51ffa07a-7327-5651-8012-9d4c84ba6aa0"]
   ],
   "graph/language": "javascript",
-  "graph/name": "Why read past the TAF's first line: airports below VMC minima, prevailing vs everything the TAF allows",
+  "graph/name": "TAF timeline across the departure window: prevailing vs TEMPO/PROB, and the model between",
   "graph/node": {
-    "node/x": 2380,
-    "node/y": 320
+    "node/x": 1920,
+    "node/y": 1280
   },
-  "graph/parent": ["data/id", "fccca149-68e0-5781-9bdf-901690c59bbc"]
+  "graph/parent": ["data/id", "da2dec66-21b8-5935-9bed-2f38eb5fd953"]
 }

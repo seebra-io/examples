@@ -1,0 +1,10 @@
+{
+  "data/id": "6cd2e808-f4fe-52dd-86f8-925962cf82c5",
+  "data/name": "Every TAF in the box: share below VMC minima per hour ahead, prevailing vs all groups data",
+  "data/node": {
+    "node/x": 2070,
+    "node/y": 560
+  },
+  "data/parent": ["transformation/id", "b5e16724-5f3c-58d2-8f40-f9a72b7f515c"],
+  "data/type": "json"
+}

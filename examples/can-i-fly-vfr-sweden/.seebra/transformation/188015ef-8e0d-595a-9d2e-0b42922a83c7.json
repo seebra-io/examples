@@ -1,21 +1,22 @@
 {
   "transformation/content": {
-    "$file": "transforms/verdict-between-the-airports-model-at-the-time.polars.py"
+    "$file": "transforms/verdict-per-airport-in-its-window-taf-1-h-metar.polars.py"
   },
-  "transformation/data-child": ["data/id", "4279161b-91da-5f44-9794-587259bb377b"],
+  "transformation/data-child": ["data/id", "53fb0caf-bddb-53cb-99a2-28ab6121a389"],
   "transformation/dynamic?": true,
   "transformation/environment": "runtime",
   "transformation/id": "188015ef-8e0d-595a-9d2e-0b42922a83c7",
   "transformation/inputs": [
-    ["data/id", "7cef94af-4deb-5afd-818e-752ef8355b4c"]
+    ["data/id", "da2dec66-21b8-5935-9bed-2f38eb5fd953"],
+    ["data/id", "51ffa07a-7327-5651-8012-9d4c84ba6aa0"]
   ],
   "transformation/language": "polars",
-  "transformation/name": "Verdict between the airports (model, at the time the aircraft passes)",
+  "transformation/name": "Verdict per airport in its window (TAF ± 1 h, METAR now)",
   "transformation/name?": true,
   "transformation/node": {
-    "node/x": 1460,
-    "node/y": 800
+    "node/x": 1920,
+    "node/y": 80
   },
-  "transformation/parent": ["data/id", "d07c50cd-cae4-57dc-9ac3-4c96357508cd"],
+  "transformation/parent": ["data/id", "919d382b-e996-566a-832b-09a02c9cdc26"],
   "transformation/units": "{}"
 }

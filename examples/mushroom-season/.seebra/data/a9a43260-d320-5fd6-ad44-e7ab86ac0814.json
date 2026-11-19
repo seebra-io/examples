@@ -1,10 +1,10 @@
 {
   "data/id": "a9a43260-d320-5fd6-ad44-e7ab86ac0814",
-  "data/name": "Records per species and month data",
+  "data/name": "False morel per month data",
   "data/node": {
-    "node/x": 1610,
-    "node/y": 80
+    "node/x": 1150,
+    "node/y": 1280
   },
-  "data/parent": ["transformation/id", "6a9c4580-1b52-540c-8883-fe005c068d64"],
+  "data/parent": ["transformation/id", "a58855a6-41a3-5ff8-9961-d7d15992b03e"],
   "data/type": "json"
 }

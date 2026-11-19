@@ -1,18 +1,22 @@
 {
   "graph/content": {
-    "$file": "graphs/the-route-over-sweden-metar-flight-categories.js"
+    "$file": "graphs/verdict-can-essa-esgg-be-flown-vfr-at-the.js"
   },
   "graph/id": "d05de3f4-3aee-5357-b034-972a6ba2fa9f",
   "graph/inputs": [
-    ["data/id", "7cef94af-4deb-5afd-818e-752ef8355b4c"],
     ["data/id", "2f4d6f7b-e805-54ff-a826-8c4c6da04a75"],
-    ["data/id", "4279161b-91da-5f44-9794-587259bb377b"]
+    ["data/id", "fccca149-68e0-5781-9bdf-901690c59bbc"],
+    ["data/id", "919d382b-e996-566a-832b-09a02c9cdc26"],
+    ["data/id", "1050e086-fa5a-533a-a8f0-8b7ec2ed74bb"],
+    ["data/id", "51ffa07a-7327-5651-8012-9d4c84ba6aa0"],
+    ["data/id", "c0d817df-a7aa-50ca-876a-8616a1efb364"],
+    ["data/id", "57908ce7-dea0-5ad5-8e74-e538e65166a0"]
   ],
   "graph/language": "javascript",
-  "graph/name": "The route over Sweden: METAR flight categories now, SMHI model points, SIGMETs",
+  "graph/name": "Verdict: can ESSA → ESGG be flown VFR at the planned time, and what decides it",
   "graph/node": {
-    "node/x": 1460,
-    "node/y": 1280
+    "node/x": 2380,
+    "node/y": 80
   },
-  "graph/parent": ["data/id", "919d382b-e996-566a-832b-09a02c9cdc26"]
+  "graph/parent": ["data/id", "53fb0caf-bddb-53cb-99a2-28ab6121a389"]
 }

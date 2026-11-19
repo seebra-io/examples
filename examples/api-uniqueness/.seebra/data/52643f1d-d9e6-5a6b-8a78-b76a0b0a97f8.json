@@ -1,10 +1,10 @@
 {
   "data/id": "52643f1d-d9e6-5a6b-8a78-b76a0b0a97f8",
-  "data/name": "TF-IDF over the descriptions, and each API's 10 nearest (places removed, and kept) data",
+  "data/name": "The APIs: one row each, with their field and Explore page data",
   "data/node": {
-    "node/x": 1150,
-    "node/y": 560
+    "node/x": 1610,
+    "node/y": 80
   },
-  "data/parent": ["transformation/id", "e212d8e8-76d2-5931-9790-c41eccba7a81"],
+  "data/parent": ["transformation/id", "93cbc32a-6fcf-54b2-8ae6-7c4f43f17fb2"],
   "data/type": "json"
 }

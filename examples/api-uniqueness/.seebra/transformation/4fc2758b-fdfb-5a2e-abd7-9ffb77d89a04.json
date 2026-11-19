@@ -1,19 +1,19 @@
 {
   "transformation/content": {
-    "$file": "transforms/what-drives-the-score-rank-correlations-with.polars.py"
+    "$file": "transforms/sensitivity-rank-correlation-of-the-v1-score.polars.py"
   },
-  "transformation/data-child": ["data/id", "6d4ce9fe-9e1c-521c-a713-7705c7151ba2"],
+  "transformation/data-child": ["data/id", "2ba3c796-f877-58dd-a905-462be7b2264e"],
   "transformation/dynamic?": true,
   "transformation/environment": "runtime",
   "transformation/id": "4fc2758b-fdfb-5a2e-abd7-9ffb77d89a04",
   "transformation/inputs": [],
   "transformation/language": "polars",
-  "transformation/name": "What drives the score: rank correlations with distinct, rarity, crowd and description length",
+  "transformation/name": "Sensitivity: rank correlation of the v1 score with k = 3, k = 10 and place names kept",
   "transformation/name?": true,
   "transformation/node": {
-    "node/x": 2380,
-    "node/y": 560
+    "node/x": 2840,
+    "node/y": 320
   },
-  "transformation/parent": ["data/id", "f2999a8c-0252-5608-9a77-fc5e649c121e"],
+  "transformation/parent": ["data/id", "03cb2a02-4787-52ee-bb47-f6f2ecd59377"],
   "transformation/units": "{}"
 }

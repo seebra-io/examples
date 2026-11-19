@@ -2,13 +2,13 @@
   "graph/content": {
     "$file": "graphs/which-chanterelle-names-and-confidence-on.js"
   },
-  "graph/id": "e9851ba9-9a7e-5ca8-bd7d-14ed5b702d5a",
+  "graph/id": "850da0f7-d1d6-5ec6-a7fc-7adc704fc1aa",
   "graph/inputs": [],
   "graph/language": "javascript",
   "graph/name": "Which chanterelle? Names and confidence on Mushroom Observer",
   "graph/node": {
-    "node/x": 1920,
-    "node/y": 320
+    "node/x": 2380,
+    "node/y": 560
   },
-  "graph/parent": ["data/id", "eb087818-b815-504b-9c1e-5dba04db8329"]
+  "graph/parent": ["data/id", "156d5d3e-acf2-5703-b532-5b710cd343d9"]
 }

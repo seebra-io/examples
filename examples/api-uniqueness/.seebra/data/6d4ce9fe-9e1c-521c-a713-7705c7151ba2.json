@@ -1,11 +1,10 @@
 {
   "data/id": "6d4ce9fe-9e1c-521c-a713-7705c7151ba2",
-  "data/name": "What drives the score (Spearman)",
+  "data/name": "Uniqueness by field: every category, with its most and least unique API data",
   "data/node": {
-    "node/x": 2530,
-    "node/y": 560
+    "node/x": 2990,
+    "node/y": 80
   },
-  "data/parent": ["transformation/id", "4fc2758b-fdfb-5a2e-abd7-9ffb77d89a04"],
-  "data/presentation?": true,
+  "data/parent": ["transformation/id", "3c4bdf7e-774f-5181-a5c2-ac142b45b069"],
   "data/type": "json"
 }

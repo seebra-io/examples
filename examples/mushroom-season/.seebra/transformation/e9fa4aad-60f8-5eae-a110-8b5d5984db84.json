@@ -2,7 +2,7 @@
   "transformation/content": {
     "$file": "transforms/chanterelle-per-month.polars.py"
   },
-  "transformation/data-child": ["data/id", "262f7c78-85c5-5439-9348-c394a6195706"],
+  "transformation/data-child": ["data/id", "5a1f9a0c-c76f-55ef-9853-4b7dfabd21c1"],
   "transformation/dynamic?": true,
   "transformation/environment": "runtime",
   "transformation/id": "e9fa4aad-60f8-5eae-a110-8b5d5984db84",
@@ -14,6 +14,6 @@
     "node/x": 1000,
     "node/y": 320
   },
-  "transformation/parent": ["data/id", "443620d9-aff8-5c53-9c53-6c56e87e6324"],
+  "transformation/parent": ["data/id", "262f7c78-85c5-5439-9348-c394a6195706"],
   "transformation/units": "{}"
 }

@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/chanterelle-names-and-how-sure-the-community-is.sql"
+  },
+  "transformation/data-child": ["data/id", "156d5d3e-acf2-5703-b532-5b710cd343d9"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "e9851ba9-9a7e-5ca8-bd7d-14ed5b702d5a",
+  "transformation/inputs": [],
+  "transformation/language": "sql",
+  "transformation/name": "Chanterelle names and how sure the community is",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1920,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "e5a24450-666a-5015-9248-c87fbb39b51d"],
+  "transformation/units": "{}"
+}

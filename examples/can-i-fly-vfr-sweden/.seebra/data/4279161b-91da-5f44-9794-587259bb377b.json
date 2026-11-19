@@ -1,10 +1,10 @@
 {
   "data/id": "4279161b-91da-5f44-9794-587259bb377b",
-  "data/name": "Verdict between the airports (model, at the time the aircraft passes) data",
+  "data/name": "Between the airports: SMHI's model along the route, hour by hour data",
   "data/node": {
-    "node/x": 1610,
-    "node/y": 800
+    "node/x": 1150,
+    "node/y": 1040
   },
-  "data/parent": ["transformation/id", "188015ef-8e0d-595a-9d2e-0b42922a83c7"],
+  "data/parent": ["transformation/id", "53000f47-6b0c-54ee-9b4d-2866b758a0c5"],
   "data/type": "json"
 }

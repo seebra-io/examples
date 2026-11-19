@@ -1,7 +1,6 @@
 {
-  "dashboard/id": "e5a24450-666a-5015-9248-c87fbb39b51d",
+  "dashboard/id": "7e77922c-0d34-5840-a8db-322bac2a51cc",
   "datas": [
-    ["data/id", "19f5b6e5-6e01-539d-8c92-b51b9062f20a"],
     ["data/id", "790a3b40-d963-5b17-aba6-d30639b413c2"],
     ["data/id", "443620d9-aff8-5c53-9c53-6c56e87e6324"],
     ["data/id", "262f7c78-85c5-5439-9348-c394a6195706"],
@@ -19,7 +18,9 @@
     ["data/id", "0ab5d00a-cb50-5ad1-9f40-c64a4525e3d9"],
     ["data/id", "a19a3eb0-0555-5e2a-9178-aeb07bd4a186"],
     ["data/id", "6ea9c1d8-8d06-5c45-90fd-d6e6a1a1ee3a"],
-    ["data/id", "eb087818-b815-504b-9c1e-5dba04db8329"]
+    ["data/id", "eb087818-b815-504b-9c1e-5dba04db8329"],
+    ["data/id", "e5a24450-666a-5015-9248-c87fbb39b51d"],
+    ["data/id", "156d5d3e-acf2-5703-b532-5b710cd343d9"]
   ],
   "datasources": [
     ["datasource/id", "0ad2947c-0e41-5bf4-bf2c-3dedb20e3b4e"],
@@ -29,10 +30,10 @@
   "graphs": [
     ["graph/id", "b2fb6807-d4a1-5d2f-9406-d64ddeb37b51"],
     ["graph/id", "f45a67fb-dd9a-5242-bdd2-66b146716cac"],
-    ["graph/id", "e9851ba9-9a7e-5ca8-bd7d-14ed5b702d5a"]
+    ["graph/id", "850da0f7-d1d6-5ec6-a7fc-7adc704fc1aa"]
   ],
   "grids": [
-    ["grid/id", "850da0f7-d1d6-5ec6-a7fc-7adc704fc1aa"]
+    ["grid/id", "2314b0f6-e8c8-5cd7-944c-e55aae9e123e"]
   ],
   "name": "Mushroom season in Sweden",
   "queries": [
@@ -60,6 +61,7 @@
     ["transformation/id", "2a60b879-0070-5ab5-850d-6a38c989c725"],
     ["transformation/id", "15e64df2-3d8b-5043-bdd2-5b20fdd57c2b"],
     ["transformation/id", "da1509b5-d3c5-55a4-91ad-85ec8041b015"],
-    ["transformation/id", "dfee98aa-d7cc-54de-8d77-50a386a62afe"]
+    ["transformation/id", "dfee98aa-d7cc-54de-8d77-50a386a62afe"],
+    ["transformation/id", "e9851ba9-9a7e-5ca8-bd7d-14ed5b702d5a"]
   ]
 }

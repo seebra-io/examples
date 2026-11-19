@@ -5,8 +5,8 @@ const records = [...new Set(rows.map(d => d.record))];
 const lab = Object.fromEntries(rows.map(d => [d.record, d.label]));
 return plot({
   height: Math.max(420, (fit?.height ?? 480) - 40),
-  marginTop: 24,
-  fy: {label: null, domain: records, tickFormat: r => `${r}: ${lab[r]}`, axis: "top"},
+  marginTop: 24, marginRight: 170,
+  fy: {label: null, domain: records, tickFormat: r => `${r}: ${lab[r]}`, axis: "right"} /* a facet row's axis is left or right: "top" threw "invalid anchor" and the slide was empty */,
   x: {label: "time from the start of the record (s) →", grid: true},
   y: {label: "↑ RR interval (ms)", grid: true},
   marks: [

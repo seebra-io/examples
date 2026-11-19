@@ -1,16 +1,14 @@
 {
   "graph/content": {
-    "$file": "graphs/the-similarity-network-each-api-tied-to-its-3.js"
+    "$file": "graphs/uniqueness-by-field-crowded-categories-against.js"
   },
   "graph/id": "c98f2074-ae3f-574d-9db6-827140fbd9ab",
-  "graph/inputs": [
-    ["data/id", "8e650332-26de-5c8e-bdb6-51f93e4d3477"]
-  ],
+  "graph/inputs": [],
   "graph/language": "javascript",
-  "graph/name": "The similarity network: each API tied to its 3 nearest descriptions",
+  "graph/name": "Uniqueness by field: crowded categories against lonely ones",
   "graph/node": {
-    "node/x": 2380,
-    "node/y": 1520
+    "node/x": 3300,
+    "node/y": 320
   },
-  "graph/parent": ["data/id", "f2999a8c-0252-5608-9a77-fc5e649c121e"]
+  "graph/parent": ["data/id", "6d4ce9fe-9e1c-521c-a713-7705c7151ba2"]
 }

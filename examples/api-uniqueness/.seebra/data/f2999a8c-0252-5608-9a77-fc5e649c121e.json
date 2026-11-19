@@ -1,10 +1,10 @@
 {
   "data/id": "f2999a8c-0252-5608-9a77-fc5e649c121e",
-  "data/name": "Percentile: the share of APIs that score lower data",
+  "data/name": "TF-IDF over the descriptions, and each API's 10 nearest (places removed, and kept) data",
   "data/node": {
-    "node/x": 2070,
-    "node/y": 80
+    "node/x": 1610,
+    "node/y": 560
   },
-  "data/parent": ["transformation/id", "2e95deca-7825-5960-b263-50d2f62fc771"],
+  "data/parent": ["transformation/id", "002a0d66-d048-56b6-80ee-55d7f3d8f7eb"],
   "data/type": "json"
 }

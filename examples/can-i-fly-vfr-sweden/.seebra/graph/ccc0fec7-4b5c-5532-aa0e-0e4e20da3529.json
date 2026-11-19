@@ -1,18 +1,18 @@
 {
   "graph/content": {
-    "$file": "graphs/taf-timeline-across-the-departure-window.js"
+    "$file": "graphs/the-route-over-sweden-metar-flight-categories.js"
   },
   "graph/id": "ccc0fec7-4b5c-5532-aa0e-0e4e20da3529",
   "graph/inputs": [
-    ["data/id", "7cef94af-4deb-5afd-818e-752ef8355b4c"],
-    ["data/id", "d07c50cd-cae4-57dc-9ac3-4c96357508cd"],
-    ["data/id", "919d382b-e996-566a-832b-09a02c9cdc26"]
+    ["data/id", "919d382b-e996-566a-832b-09a02c9cdc26"],
+    ["data/id", "1050e086-fa5a-533a-a8f0-8b7ec2ed74bb"],
+    ["data/id", "2f4d6f7b-e805-54ff-a826-8c4c6da04a75"]
   ],
   "graph/language": "javascript",
-  "graph/name": "TAF timeline across the departure window: prevailing vs TEMPO/PROB, and the model between",
+  "graph/name": "The route over Sweden: METAR flight categories now, SMHI model points, SIGMETs",
   "graph/node": {
     "node/x": 1920,
-    "node/y": 800
+    "node/y": 1040
   },
-  "graph/parent": ["data/id", "945f4dd4-e6c2-5362-b744-6cbf09f41052"]
+  "graph/parent": ["data/id", "51ffa07a-7327-5651-8012-9d4c84ba6aa0"]
 }

@@ -1,10 +1,10 @@
 {
   "data/id": "262f7c78-85c5-5439-9348-c394a6195706",
-  "data/name": "Chanterelle per month data",
+  "data/name": "Chanterelle (Cantharellus cibarius): Swedish records per month, 2000–2025 data",
   "data/node": {
-    "node/x": 1150,
+    "node/x": 820,
     "node/y": 320
   },
-  "data/parent": ["transformation/id", "e9fa4aad-60f8-5eae-a110-8b5d5984db84"],
+  "data/parent": ["query/id", "34bd0b90-f537-5512-bec6-8e904619cfde"],
   "data/type": "json"
 }

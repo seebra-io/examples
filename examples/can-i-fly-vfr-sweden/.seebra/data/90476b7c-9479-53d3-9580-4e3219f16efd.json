@@ -1,10 +1,10 @@
 {
   "data/id": "90476b7c-9479-53d3-9580-4e3219f16efd",
-  "data/name": "SMHI forecast at 75% of the route (58.18°N 13.63°E) data",
+  "data/name": "SMHI forecast at 50% of the route (58.69°N 15.02°E) data",
   "data/node": {
     "node/x": 820,
-    "node/y": 1520
+    "node/y": 1280
   },
-  "data/parent": ["query/id", "9d2bed50-cd77-543a-a8be-a7a4c95a4bdc"],
+  "data/parent": ["query/id", "62158f7d-08bc-5d63-a045-c3110a86aa5d"],
   "data/type": "json"
 }

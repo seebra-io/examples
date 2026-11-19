@@ -1,0 +1,14 @@
+{
+  "graph/content": {
+    "$file": "graphs/per-country-copies-what-removing-place-names.js"
+  },
+  "graph/id": "e7bfb973-37ba-5a22-b745-bac360904d2e",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Per-country copies: what removing place names does to each field",
+  "graph/node": {
+    "node/x": 3300,
+    "node/y": 560
+  },
+  "graph/parent": ["data/id", "ec9876a0-44b4-5f52-a589-31f4faefb4ed"]
+}

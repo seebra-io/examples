@@ -1,7 +1,6 @@
 {
-  "dashboard/id": "ec9876a0-44b4-5f52-a589-31f4faefb4ed",
+  "dashboard/id": "408f3646-8d3e-51d2-a040-64928c3c620b",
   "datas": [
-    ["data/id", "1bdaac2c-8be9-5204-8d39-7e13b18e7240"],
     ["data/id", "050559e5-e9d3-5e51-8ef9-1602366bb30b"],
     ["data/id", "30c4b510-b5db-5d5e-bd44-465c6d6bc1b3"],
     ["data/id", "52643f1d-d9e6-5a6b-8a78-b76a0b0a97f8"],
@@ -12,31 +11,33 @@
     ["data/id", "955c335b-1b33-52eb-8e31-1128d45975df"],
     ["data/id", "6d4ce9fe-9e1c-521c-a713-7705c7151ba2"],
     ["data/id", "2ba3c796-f877-58dd-a905-462be7b2264e"],
-    ["data/id", "986a1b62-1671-51a5-af3b-7ead4a2d7158"]
+    ["data/id", "986a1b62-1671-51a5-af3b-7ead4a2d7158"],
+    ["data/id", "ec9876a0-44b4-5f52-a589-31f4faefb4ed"],
+    ["data/id", "4a5c9e18-b1ff-56a4-b000-2912b99cc73d"]
   ],
   "datasources": [
     ["datasource/id", "b12b0b98-ae12-546f-9bd7-2d5166ebb162"]
   ],
   "description": "Question: which APIs bring something no other API does, and which fields are crowded with near-copies? Idea: Explore gives every API a uniqueness score (formula v1, frontend/scripts/uniqueness.py): distinct = 1 − the mean TF-IDF cosine similarity of its description to its 5 nearest APIs (title and tags counted twice, summary and description, stop words and place names removed), rarity = 1 − n/(2(n + 20)) for its least crowded category (n other APIs in it), score = 100 · distinct · rarity. This dashboard recomputes it from the public catalog on the CDN (the raw items, so it works before and after the catalog carries a uniqueness field): one JavaScript step builds the TF-IDF vectors and finds each API's 10 nearest, with place names removed and kept; everything after it (the formula for k = 3, 5 and 10, rarity, percentiles, fields, the test) is Polars. Why not Polars for TF-IDF: the tokens would be easy, but the all-pairs cosine is a self-join on shared words (one row per pair and word, millions of rows here) followed by a top-k per API, and the runtime's dialect has no rank; an inverted index in JavaScript does it in under a second. Findings on the catalog of 13 November 2026 (508 APIs): the median score is 69 (range 47–94). Rarity drives the ranking more than the text (Spearman ρ 0.76 against 0.63), and the two are almost independent (ρ 0.05): big science and engineering categories (20–30 APIs each) score low although their descriptions are distinct (≈ 0.85), while the true near-copies are vendor product lines described from one template: SportsData.io's v3 feeds, the EPA ECHO acts, OnSched, WMATA (23 APIs have a twin with cosine above 0.5). The hypothesis that energy and markets are crowded by per-country copies holds only for energy, and only a little: those 28 APIs are less distinct (0.809 against 0.832, Welch t = −2.0), and they are the group where removing place names makes neighbours look more alike (t = 2.5; Fingrid, Statnett, Elering), but the effect is a few thousandths of similarity; markets has 2 APIs, both unique. The ranking is robust: Spearman 0.985 with k = 3, 0.970 with k = 10, 0.998 with place names kept. Aha: 'unique' has two halves that measure different things, a crowded field of different APIs and a small field of copies; read the score with its nearest neighbours. Caveats: it measures the catalog's descriptions, not the data the APIs return (two APIs with the same data and different prose look unique); description length barely matters (ρ −0.09 with distinct); categories are the catalog's at fetch time, and the catalog changes as APIs are added. Next: click any API for its Explore page; drill into a crowded category in the field chart; expand by following a knot of mixed colours in the network (the same thing filed under different fields).",
   "graphs": [
-    ["graph/id", "0b567261-19a2-5a81-85ab-263ca414a3b7"],
     ["graph/id", "f9012e2b-6b39-5ca7-b846-65d4403e911e"],
     ["graph/id", "1588e564-c90f-52bb-8ef5-da9788350412"],
     ["graph/id", "c98f2074-ae3f-574d-9db6-827140fbd9ab"],
     ["graph/id", "e69b5425-a46c-5737-9656-162c3b81e428"],
-    ["graph/id", "8496df85-8728-5c0f-b133-b8a557175d00"]
+    ["graph/id", "8496df85-8728-5c0f-b133-b8a557175d00"],
+    ["graph/id", "e7bfb973-37ba-5a22-b745-bac360904d2e"]
   ],
   "grids": [],
   "name": "How unique is an API? A study of the Explore catalog",
   "ontology": {
-    "$file": ".seebra/dashboard/ec9876a0-44b4-5f52-a589-31f4faefb4ed.ontology.json",
+    "$file": ".seebra/dashboard/408f3646-8d3e-51d2-a040-64928c3c620b.ontology.json",
     "$json": true
   },
   "queries": [
     ["query/id", "046889d0-c24a-5568-aae8-c6ac553bf30e"]
   ],
   "studies": [
-    ["study/id", "da386970-18be-519b-8ab6-9652d9704fca"]
+    ["study/id", "1bdaac2c-8be9-5204-8d39-7e13b18e7240"]
   ],
   "tables": [],
   "texts": [],
@@ -52,6 +53,7 @@
     ["transformation/id", "3c4bdf7e-774f-5181-a5c2-ac142b45b069"],
     ["transformation/id", "4fc2758b-fdfb-5a2e-abd7-9ffb77d89a04"],
     ["transformation/id", "6144d44c-31a4-52a3-ab39-b88f5415ff78"],
-    ["transformation/id", "d9cb63a7-136e-582a-8822-323f2cf7bce4"]
+    ["transformation/id", "d9cb63a7-136e-582a-8822-323f2cf7bce4"],
+    ["transformation/id", "0b567261-19a2-5a81-85ab-263ca414a3b7"]
   ]
 }

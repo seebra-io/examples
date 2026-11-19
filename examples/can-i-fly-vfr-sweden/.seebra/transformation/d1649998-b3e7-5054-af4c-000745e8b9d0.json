@@ -1,21 +1,19 @@
 {
   "transformation/content": {
-    "$file": "transforms/metars-decoded-flight-category-and-sera-vmc.polars.py"
+    "$file": "transforms/metars-with-every-field-awc-leaves-out-the-ones.js"
   },
-  "transformation/data-child": ["data/id", "919d382b-e996-566a-832b-09a02c9cdc26"],
+  "transformation/data-child": ["data/id", "9316d7ac-2e42-5fc7-8d88-a0f7be3068f0"],
   "transformation/dynamic?": true,
-  "transformation/environment": "runtime",
+  "transformation/environment": "js-web-worker",
   "transformation/id": "d1649998-b3e7-5054-af4c-000745e8b9d0",
-  "transformation/inputs": [
-    ["data/id", "7cef94af-4deb-5afd-818e-752ef8355b4c"]
-  ],
-  "transformation/language": "polars",
-  "transformation/name": "METARs decoded: flight category and SERA VMC minima",
+  "transformation/inputs": [],
+  "transformation/language": "javascript",
+  "transformation/name": "METARs with every field (AWC leaves out the ones no station reports)",
   "transformation/name?": true,
   "transformation/node": {
     "node/x": 1000,
     "node/y": 320
   },
-  "transformation/parent": ["data/id", "9ca10029-f19b-5ec3-9f67-ca7403a2f2a0"],
+  "transformation/parent": ["data/id", "2ce18cd3-c362-5631-a369-58d4703a046d"],
   "transformation/units": "{}"
 }

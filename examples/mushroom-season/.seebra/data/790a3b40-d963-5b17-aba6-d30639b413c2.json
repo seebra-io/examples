@@ -1,10 +1,10 @@
 {
   "data/id": "790a3b40-d963-5b17-aba6-d30639b413c2",
-  "data/name": "All fungi per month data",
+  "data/name": "All fungi (Fungi): Swedish records per month, 2000–2025 data",
   "data/node": {
-    "node/x": 1150,
+    "node/x": 820,
     "node/y": 80
   },
-  "data/parent": ["transformation/id", "34224ad3-d525-53f1-8eaa-0cc65e4d75a8"],
+  "data/parent": ["query/id", "1c964ed5-ffcd-5b18-a397-7478b79a5de2"],
   "data/type": "json"
 }

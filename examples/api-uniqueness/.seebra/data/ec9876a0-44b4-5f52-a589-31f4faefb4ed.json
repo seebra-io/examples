@@ -1,0 +1,11 @@
+{
+  "data/id": "ec9876a0-44b4-5f52-a589-31f4faefb4ed",
+  "data/name": "Energy and markets against the rest",
+  "data/node": {
+    "node/x": 2990,
+    "node/y": 800
+  },
+  "data/parent": ["transformation/id", "d9cb63a7-136e-582a-8822-323f2cf7bce4"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

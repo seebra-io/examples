@@ -1,0 +1,11 @@
+{
+  "data/id": "57908ce7-dea0-5ad5-8e74-e538e65166a0",
+  "data/name": "Does each METAR fall inside its TAF?",
+  "data/node": {
+    "node/x": 2070,
+    "node/y": 800
+  },
+  "data/parent": ["transformation/id", "0f28805f-7eff-58e1-8d76-b30ae0ce7b19"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

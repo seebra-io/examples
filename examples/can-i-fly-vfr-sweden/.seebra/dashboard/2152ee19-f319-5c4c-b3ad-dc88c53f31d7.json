@@ -1,7 +1,6 @@
 {
-  "dashboard/id": "6cd2e808-f4fe-52dd-86f8-925962cf82c5",
+  "dashboard/id": "2152ee19-f319-5c4c-b3ad-dc88c53f31d7",
   "datas": [
-    ["data/id", "9ca10029-f19b-5ec3-9f67-ca7403a2f2a0"],
     ["data/id", "2ce18cd3-c362-5631-a369-58d4703a046d"],
     ["data/id", "e244c488-2592-5034-b110-4ab1962c232f"],
     ["data/id", "1c16f81d-e237-5ee0-8ea2-a9af6e328d8c"],
@@ -22,7 +21,9 @@
     ["data/id", "53fb0caf-bddb-53cb-99a2-28ab6121a389"],
     ["data/id", "2f4d6f7b-e805-54ff-a826-8c4c6da04a75"],
     ["data/id", "fccca149-68e0-5781-9bdf-901690c59bbc"],
-    ["data/id", "1050e086-fa5a-533a-a8f0-8b7ec2ed74bb"]
+    ["data/id", "1050e086-fa5a-533a-a8f0-8b7ec2ed74bb"],
+    ["data/id", "6cd2e808-f4fe-52dd-86f8-925962cf82c5"],
+    ["data/id", "57908ce7-dea0-5ad5-8e74-e538e65166a0"]
   ],
   "datasources": [
     ["datasource/id", "c3e0d3e8-c262-58cf-89ed-13d370e41fee"],
@@ -30,15 +31,15 @@
   ],
   "description": "Question: can I fly Stockholm Arlanda (ESSA) to Göteborg Landvetter (ESGG) VFR now, or in two hours? Idea: a VFR go/no-go is not the METAR you see at the window, and not the TAF's first line. It is every group of every TAF on the route, in the window when you use that airport (± 1 h), against the minima that apply: in Europe SERA's VMC minima (ceiling 1500 ft and visibility 5 km to take off or land in a control zone; special VFR 600 ft and 1500 m), not the US flight categories (VFR/MVFR/IFR/LIFR) the charts colour by: OVC025 is MVFR and still VMC. Data: NOAA Aviation Weather Center's JSON for every METAR and TAF in the box 55–69°N 10–24°E and the world's SIGMETs; SMHI's point forecast (snow1g) at five points along the great circle. Polars decodes the METARs (ceiling = lowest BKN/OVC or vertical visibility), splits each TAF into its BASE, FM, BECMG, TEMPO and PROB groups, fills a TEMPO's missing elements from the prevailing group of that hour, and grades every airport-hour twice: prevailing only, and everything the TAF allows. The aha (13 Nov 2026, 07:50Z): every prevailing forecast on the route was VMC at ETD 09:50Z, yet three of the four METARs (ESSA OVC005, ESOE 3000 m SN, ESGJ BKN006) were below the minima, and the TEMPO groups explained it: ESSA's TEMPO 08–13Z 1400 m SNRA BKN004 (LIFR) and ESOE's TEMPO 2000 m SN BKN008 decided the flight, and SMHI's model had 280 ft at ESSA at ETD. Over the whole box, two hours out, 8 of 52 airports were below the minima by their prevailing forecast and 30 by everything their TAF allows; of 49 METARs with a TAF, 36 sat inside the prevailing forecast, 12 inside a TEMPO/PROB and 1 was worse than its TAF allowed (an amendment due). Explore: hover a station on the map for its decoded METAR and age, an hour on the timeline for the TAF group behind it, a chip in the verdict for its reports; click through to NOAA's METAR/TAF page or SMHI's point forecast. Edit the route step (ICAO codes, ETD, cruise speed) and everything follows; move the SMHI points (queries fc0–fc4) with it. Caveats: NOT an official pre-flight briefing (use AROWeb, https://www.aro.lfv.se, or your briefing service). No NOTAMs, winds and temperatures aloft, icing, airspace or terrain; NOAA's international SIGMETs only (no European AIRMETs); the FIR boundary is not drawn; 'now' is the newest METAR; no wind on the leg; small airports' TAFs last 9 h; the model is not a forecaster. METAR/TAF/SIGMET: NOAA Aviation Weather Center (public domain). Forecast: SMHI (CC BY 4.0).",
   "graphs": [
-    ["graph/id", "0f28805f-7eff-58e1-8d76-b30ae0ce7b19"],
     ["graph/id", "d05de3f4-3aee-5357-b034-972a6ba2fa9f"],
     ["graph/id", "ccc0fec7-4b5c-5532-aa0e-0e4e20da3529"],
-    ["graph/id", "ad8bae48-b7e8-5fe1-b499-314063dcf093"]
+    ["graph/id", "ad8bae48-b7e8-5fe1-b499-314063dcf093"],
+    ["graph/id", "55a4be61-a74f-542b-8588-b10335a78e3c"]
   ],
   "grids": [],
   "name": "Can I fly ESSA → ESGG VFR now? (Sweden)",
   "ontology": {
-    "$file": ".seebra/dashboard/6cd2e808-f4fe-52dd-86f8-925962cf82c5.ontology.json",
+    "$file": ".seebra/dashboard/2152ee19-f319-5c4c-b3ad-dc88c53f31d7.ontology.json",
     "$json": true
   },
   "queries": [
@@ -52,7 +53,7 @@
     ["query/id", "ced0fa77-083c-5954-abf7-03eb5eda5580"]
   ],
   "studies": [
-    ["study/id", "ea28e1de-7351-5a7d-be40-2e95692540e9"]
+    ["study/id", "9ca10029-f19b-5ec3-9f67-ca7403a2f2a0"]
   ],
   "tables": [],
   "texts": [],
@@ -71,6 +72,7 @@
     ["transformation/id", "5df3641e-ec62-50e0-89c5-900ead29df09"],
     ["transformation/id", "2b81ccfe-410d-5071-a14a-d10af8a5ee96"],
     ["transformation/id", "f80933f3-7bae-5ec5-8a92-8101e9ff98a2"],
-    ["transformation/id", "b5e16724-5f3c-58d2-8f40-f9a72b7f515c"]
+    ["transformation/id", "b5e16724-5f3c-58d2-8f40-f9a72b7f515c"],
+    ["transformation/id", "0f28805f-7eff-58e1-8d76-b30ae0ce7b19"]
   ]
 }

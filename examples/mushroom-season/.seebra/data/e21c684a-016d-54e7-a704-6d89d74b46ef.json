@@ -1,10 +1,10 @@
 {
   "data/id": "e21c684a-016d-54e7-a704-6d89d74b46ef",
-  "data/name": "Porcini per month data",
+  "data/name": "Porcini (Boletus edulis): Swedish records per month, 2000–2025 data",
   "data/node": {
-    "node/x": 1150,
+    "node/x": 820,
     "node/y": 800
   },
-  "data/parent": ["transformation/id", "7ae1e7dc-6ce0-5d5b-8cdb-c59cbc341e1f"],
+  "data/parent": ["query/id", "3d66c81f-c02b-5480-8da6-96d8b046b435"],
   "data/type": "json"
 }

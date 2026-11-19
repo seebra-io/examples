@@ -1,10 +1,10 @@
 {
   "data/id": "58436b7c-a62e-5afd-9806-7c0b3efb05b1",
-  "data/name": "Uniqueness v1: distinct × rarity, with k = 3, 5, 10 and with place names kept data",
+  "data/name": "Rarity: how crowded each API's least crowded category is data",
   "data/node": {
     "node/x": 1610,
-    "node/y": 80
+    "node/y": 320
   },
-  "data/parent": ["transformation/id", "002a0d66-d048-56b6-80ee-55d7f3d8f7eb"],
+  "data/parent": ["transformation/id", "e212d8e8-76d2-5931-9790-c41eccba7a81"],
   "data/type": "json"
 }

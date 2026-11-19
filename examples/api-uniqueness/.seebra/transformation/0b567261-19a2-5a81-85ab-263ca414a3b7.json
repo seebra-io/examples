@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/the-15-most-and-15-least-unique-apis.sql"
+  },
+  "transformation/data-child": ["data/id", "4a5c9e18-b1ff-56a4-b000-2912b99cc73d"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "0b567261-19a2-5a81-85ab-263ca414a3b7",
+  "transformation/inputs": [],
+  "transformation/language": "sql",
+  "transformation/name": "The 15 most and 15 least unique APIs",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 2840,
+    "node/y": 1040
+  },
+  "transformation/parent": ["data/id", "03cb2a02-4787-52ee-bb47-f6f2ecd59377"],
+  "transformation/units": "{}"
+}

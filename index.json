@@ -109,7 +109,7 @@
       "path": "examples/api-uniqueness",
       "board": "git:https://github.com/seebra-io/examples#examples/api-uniqueness",
       "listed": true,
-      "files": 55,
+      "files": 58,
       "data": [],
       "fetched": [],
       "catalog": {
@@ -349,7 +349,7 @@
       "path": "examples/can-i-fly-vfr-sweden",
       "board": "git:https://github.com/seebra-io/examples#examples/can-i-fly-vfr-sweden",
       "listed": true,
-      "files": 75,
+      "files": 78,
       "data": [],
       "fetched": [],
       "catalog": {
@@ -1926,7 +1926,7 @@
       "path": "examples/mushroom-season",
       "board": "git:https://github.com/seebra-io/examples#examples/mushroom-season",
       "listed": true,
-      "files": 62,
+      "files": 65,
       "data": [],
       "fetched": [],
       "catalog": {

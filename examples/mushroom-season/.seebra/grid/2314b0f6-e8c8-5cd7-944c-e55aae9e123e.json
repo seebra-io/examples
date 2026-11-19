@@ -1,0 +1,10 @@
+{
+  "grid/cols": 5,
+  "grid/id": "2314b0f6-e8c8-5cd7-944c-e55aae9e123e",
+  "grid/node": {
+    "node/x": 1920,
+    "node/y": 560
+  },
+  "grid/parent": ["data/id", "e5a24450-666a-5015-9248-c87fbb39b51d"],
+  "grid/title": "The photos (most certain first)"
+}

@@ -1,22 +1,19 @@
 {
   "transformation/content": {
-    "$file": "transforms/uniqueness-v1-distinct-rarity-with-k-3-5-10-and.polars.py"
+    "$file": "transforms/tf-idf-over-the-descriptions-and-each-api-s-10.js"
   },
-  "transformation/data-child": ["data/id", "58436b7c-a62e-5afd-9806-7c0b3efb05b1"],
+  "transformation/data-child": ["data/id", "f2999a8c-0252-5608-9a77-fc5e649c121e"],
   "transformation/dynamic?": true,
-  "transformation/environment": "runtime",
+  "transformation/environment": "js-web-worker",
   "transformation/id": "002a0d66-d048-56b6-80ee-55d7f3d8f7eb",
-  "transformation/inputs": [
-    ["data/id", "30c4b510-b5db-5d5e-bd44-465c6d6bc1b3"],
-    ["data/id", "050559e5-e9d3-5e51-8ef9-1602366bb30b"]
-  ],
-  "transformation/language": "polars",
-  "transformation/name": "Uniqueness v1: distinct × rarity, with k = 3, 5, 10 and with place names kept",
+  "transformation/inputs": [],
+  "transformation/language": "javascript",
+  "transformation/name": "TF-IDF over the descriptions, and each API's 10 nearest (places removed, and kept)",
   "transformation/name?": true,
   "transformation/node": {
     "node/x": 1460,
-    "node/y": 80
+    "node/y": 560
   },
-  "transformation/parent": ["data/id", "52643f1d-d9e6-5a6b-8a78-b76a0b0a97f8"],
+  "transformation/parent": ["data/id", "30c4b510-b5db-5d5e-bd44-465c6d6bc1b3"],
   "transformation/units": "{}"
 }

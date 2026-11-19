@@ -1,19 +1,19 @@
 {
   "transformation/content": {
-    "$file": "transforms/chanterelle-names-and-how-sure-the-community-is.sql"
+    "$file": "transforms/observations-consensus-name-confidence-photo.polars.py"
   },
-  "transformation/data-child": ["data/id", "eb087818-b815-504b-9c1e-5dba04db8329"],
+  "transformation/data-child": ["data/id", "e5a24450-666a-5015-9248-c87fbb39b51d"],
   "transformation/dynamic?": true,
   "transformation/environment": "runtime",
   "transformation/id": "dfee98aa-d7cc-54de-8d77-50a386a62afe",
   "transformation/inputs": [],
-  "transformation/language": "sql",
-  "transformation/name": "Chanterelle names and how sure the community is",
+  "transformation/language": "polars",
+  "transformation/name": "Observations: consensus name, confidence, photo",
   "transformation/name?": true,
   "transformation/node": {
     "node/x": 1460,
     "node/y": 320
   },
-  "transformation/parent": ["data/id", "6ea9c1d8-8d06-5c45-90fd-d6e6a1a1ee3a"],
+  "transformation/parent": ["data/id", "eb087818-b815-504b-9c1e-5dba04db8329"],
   "transformation/units": "{}"
 }

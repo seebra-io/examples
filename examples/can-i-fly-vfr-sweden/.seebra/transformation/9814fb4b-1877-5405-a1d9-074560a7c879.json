@@ -1,24 +1,21 @@
 {
   "transformation/content": {
-    "$file": "transforms/between-the-airports-smhi-s-model-along-the.polars.py"
+    "$file": "transforms/what-each-taf-allows-hour-by-hour-prevailing-and.polars.py"
   },
-  "transformation/data-child": ["data/id", "d07c50cd-cae4-57dc-9ac3-4c96357508cd"],
+  "transformation/data-child": ["data/id", "da2dec66-21b8-5935-9bed-2f38eb5fd953"],
   "transformation/dynamic?": true,
   "transformation/environment": "runtime",
   "transformation/id": "9814fb4b-1877-5405-a1d9-074560a7c879",
   "transformation/inputs": [
-    ["data/id", "f419e1ab-bfd0-5d52-bee8-a9e2f511bad9"],
-    ["data/id", "f815dae1-fe64-58aa-8b29-d54cc7616ffa"],
-    ["data/id", "90476b7c-9479-53d3-9580-4e3219f16efd"],
-    ["data/id", "00cbc63b-b05a-544c-9a6c-1e6fa96724ab"]
+    ["data/id", "d07c50cd-cae4-57dc-9ac3-4c96357508cd"]
   ],
   "transformation/language": "polars",
-  "transformation/name": "Between the airports: SMHI's model along the route, hour by hour",
+  "transformation/name": "What each TAF allows, hour by hour (prevailing and TEMPO/PROB)",
   "transformation/name?": true,
   "transformation/node": {
-    "node/x": 1000,
-    "node/y": 1040
+    "node/x": 1460,
+    "node/y": 800
   },
-  "transformation/parent": ["data/id", "1c16f81d-e237-5ee0-8ea2-a9af6e328d8c"],
+  "transformation/parent": ["data/id", "c0d817df-a7aa-50ca-876a-8616a1efb364"],
   "transformation/units": "{}"
 }

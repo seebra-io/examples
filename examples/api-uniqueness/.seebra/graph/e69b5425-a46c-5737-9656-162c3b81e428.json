@@ -1,14 +1,16 @@
 {
   "graph/content": {
-    "$file": "graphs/sensitivity-the-v1-score-against-k-3-k-10-and.js"
+    "$file": "graphs/the-similarity-network-each-api-tied-to-its-3.js"
   },
   "graph/id": "e69b5425-a46c-5737-9656-162c3b81e428",
-  "graph/inputs": [],
+  "graph/inputs": [
+    ["data/id", "955c335b-1b33-52eb-8e31-1128d45975df"]
+  ],
   "graph/language": "javascript",
-  "graph/name": "Sensitivity: the v1 score against k = 3, k = 10 and place names kept",
+  "graph/name": "The similarity network: each API tied to its 3 nearest descriptions",
   "graph/node": {
-    "node/x": 2380,
-    "node/y": 1760
+    "node/x": 2840,
+    "node/y": 1520
   },
-  "graph/parent": ["data/id", "f2999a8c-0252-5608-9a77-fc5e649c121e"]
+  "graph/parent": ["data/id", "03cb2a02-4787-52ee-bb47-f6f2ecd59377"]
 }

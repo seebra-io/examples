@@ -1,10 +1,10 @@
 {
   "data/id": "2f227567-943f-5ea8-a070-5291f7a296a2",
-  "data/name": "False morel (Gyromitra esculenta): Swedish records per month, 2000–2025 data",
+  "data/name": "Fly agaric per month data",
   "data/node": {
-    "node/x": 820,
-    "node/y": 1280
+    "node/x": 1150,
+    "node/y": 1040
   },
-  "data/parent": ["query/id", "4930465b-771d-5ba2-882e-3ae61ae4e8a6"],
+  "data/parent": ["transformation/id", "0719952a-3f9d-58cb-bb8e-fdef20411f8f"],
   "data/type": "json"
 }

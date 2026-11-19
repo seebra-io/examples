@@ -1,14 +1,14 @@
 {
   "graph/content": {
-    "$file": "graphs/uniqueness-by-field-crowded-categories-against.js"
+    "$file": "graphs/most-and-least-unique-apis-and-what-they-are.js"
   },
   "graph/id": "1588e564-c90f-52bb-8ef5-da9788350412",
   "graph/inputs": [],
   "graph/language": "javascript",
-  "graph/name": "Uniqueness by field: crowded categories against lonely ones",
+  "graph/name": "Most and least unique APIs, and what they are closest to",
   "graph/node": {
-    "node/x": 2840,
-    "node/y": 320
+    "node/x": 3300,
+    "node/y": 80
   },
-  "graph/parent": ["data/id", "03cb2a02-4787-52ee-bb47-f6f2ecd59377"]
+  "graph/parent": ["data/id", "4a5c9e18-b1ff-56a4-b000-2912b99cc73d"]
 }

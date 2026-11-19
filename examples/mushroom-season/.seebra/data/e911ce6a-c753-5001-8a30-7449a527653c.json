@@ -1,10 +1,10 @@
 {
   "data/id": "e911ce6a-c753-5001-8a30-7449a527653c",
-  "data/name": "False morel per month data",
+  "data/name": "False morel (Gyromitra esculenta): Swedish records per month, 2000–2025 data",
   "data/node": {
-    "node/x": 1150,
+    "node/x": 820,
     "node/y": 1280
   },
-  "data/parent": ["transformation/id", "a58855a6-41a3-5ff8-9961-d7d15992b03e"],
+  "data/parent": ["query/id", "4930465b-771d-5ba2-882e-3ae61ae4e8a6"],
   "data/type": "json"
 }

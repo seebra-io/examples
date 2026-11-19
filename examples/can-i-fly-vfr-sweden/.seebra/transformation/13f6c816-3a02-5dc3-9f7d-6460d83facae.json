@@ -1,21 +1,19 @@
 {
   "transformation/content": {
-    "$file": "transforms/prevailing-forecast-per-airport-and-hour.polars.py"
+    "$file": "transforms/the-hour-grid-utc-next-30-h.polars.py"
   },
-  "transformation/data-child": ["data/id", "c0d817df-a7aa-50ca-876a-8616a1efb364"],
+  "transformation/data-child": ["data/id", "945f4dd4-e6c2-5362-b744-6cbf09f41052"],
   "transformation/dynamic?": true,
   "transformation/environment": "runtime",
   "transformation/id": "13f6c816-3a02-5dc3-9f7d-6460d83facae",
-  "transformation/inputs": [
-    ["data/id", "51ffa07a-7327-5651-8012-9d4c84ba6aa0"]
-  ],
+  "transformation/inputs": [],
   "transformation/language": "polars",
-  "transformation/name": "Prevailing forecast per airport and hour",
+  "transformation/name": "The hour grid (UTC, next 30 h)",
   "transformation/name?": true,
   "transformation/node": {
-    "node/x": 1460,
-    "node/y": 320
+    "node/x": 1000,
+    "node/y": 800
   },
-  "transformation/parent": ["data/id", "9316d7ac-2e42-5fc7-8d88-a0f7be3068f0"],
+  "transformation/parent": ["data/id", "f419e1ab-bfd0-5d52-bee8-a9e2f511bad9"],
   "transformation/units": "{}"
 }

@@ -1,10 +1,10 @@
 {
   "data/id": "050559e5-e9d3-5e51-8ef9-1602366bb30b",
-  "data/name": "The APIs: one row each, with their field and Explore page data",
+  "data/name": "The public Explore catalog: every API and example, with its description and categories data",
   "data/node": {
-    "node/x": 1150,
+    "node/x": 820,
     "node/y": 80
   },
-  "data/parent": ["transformation/id", "7e136250-a55f-5845-8d3d-227dd3c368c5"],
+  "data/parent": ["query/id", "046889d0-c24a-5568-aae8-c6ac553bf30e"],
   "data/type": "json"
 }

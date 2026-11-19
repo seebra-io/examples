@@ -1,21 +1,19 @@
 {
   "transformation/content": {
-    "$file": "transforms/does-each-metar-fall-inside-its-own-taf.polars.py"
+    "$file": "transforms/every-taf-in-the-box-share-below-vmc-minima-per.polars.py"
   },
-  "transformation/data-child": ["data/id", "1050e086-fa5a-533a-a8f0-8b7ec2ed74bb"],
+  "transformation/data-child": ["data/id", "6cd2e808-f4fe-52dd-86f8-925962cf82c5"],
   "transformation/dynamic?": true,
   "transformation/environment": "runtime",
   "transformation/id": "b5e16724-5f3c-58d2-8f40-f9a72b7f515c",
-  "transformation/inputs": [
-    ["data/id", "945f4dd4-e6c2-5362-b744-6cbf09f41052"]
-  ],
+  "transformation/inputs": [],
   "transformation/language": "polars",
-  "transformation/name": "Does each METAR fall inside its own TAF? (forensics)",
+  "transformation/name": "Every TAF in the box: share below VMC minima per hour ahead, prevailing vs all groups",
   "transformation/name?": true,
   "transformation/node": {
-    "node/x": 1460,
-    "node/y": 1040
+    "node/x": 1920,
+    "node/y": 560
   },
-  "transformation/parent": ["data/id", "919d382b-e996-566a-832b-09a02c9cdc26"],
+  "transformation/parent": ["data/id", "da2dec66-21b8-5935-9bed-2f38eb5fd953"],
   "transformation/units": "{}"
 }

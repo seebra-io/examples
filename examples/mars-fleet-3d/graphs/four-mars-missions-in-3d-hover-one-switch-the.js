@@ -25,7 +25,8 @@ legend.style.cssText = "position:absolute;left:8px;top:6px;font:11px sans-serif;
 v.el.appendChild(legend);
 const models = (Array.isArray(data) ? data : [data]).slice(0, 4);
 Promise.all(models.map(m => loadModel(m).catch(e => ({error: e.message || String(e)})))).then(objs => {
-  const items = objs.map((o, i) => ({o, ...info[i], file: models[i] && models[i].name}));
+  // a model that didn't load is {error}: left out, and named in the note
+  const items = objs.map((o, i) => ({o, ...info[i], file: models[i] && models[i].name, error: o && o.error}));
   const ok = items.filter(it => it.o && !it.error);
   for (const it of ok) {
     const b = new T.Box3().setFromObject(it.o), s = b.getSize(new T.Vector3());

@@ -1,10 +1,10 @@
 {
   "data/id": "2f4d6f7b-e805-54ff-a826-8c4c6da04a75",
-  "data/name": "SIGMETs as polygons, those near Sweden first data",
+  "data/name": "Verdict between the airports (model, at the time the aircraft passes) data",
   "data/node": {
-    "node/x": 1150,
-    "node/y": 1280
+    "node/x": 1610,
+    "node/y": 1040
   },
-  "data/parent": ["transformation/id", "2b81ccfe-410d-5071-a14a-d10af8a5ee96"],
+  "data/parent": ["transformation/id", "5df3641e-ec62-50e0-89c5-900ead29df09"],
   "data/type": "json"
 }

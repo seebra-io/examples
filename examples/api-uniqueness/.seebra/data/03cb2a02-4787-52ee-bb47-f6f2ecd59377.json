@@ -1,10 +1,10 @@
 {
   "data/id": "03cb2a02-4787-52ee-bb47-f6f2ecd59377",
-  "data/name": "Uniqueness by field: every category, with its most and least unique API data",
+  "data/name": "Percentile: the share of APIs that score lower data",
   "data/node": {
     "node/x": 2530,
     "node/y": 80
   },
-  "data/parent": ["transformation/id", "7f48c412-479f-5fae-81e1-47a1ec2fea25"],
+  "data/parent": ["transformation/id", "0d1b6541-7a52-57c8-bc42-e35e5fc522b3"],
   "data/type": "json"
 }

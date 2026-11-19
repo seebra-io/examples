@@ -1,10 +1,10 @@
 {
   "data/id": "f419e1ab-bfd0-5d52-bee8-a9e2f511bad9",
-  "data/name": "SMHI forecast at 25% of the route (59.18°N 16.45°E) data",
+  "data/name": "SMHI forecast at ESSA (59.65°N 17.92°E) data",
   "data/node": {
     "node/x": 820,
-    "node/y": 1040
+    "node/y": 800
   },
-  "data/parent": ["query/id", "e1ebaa97-892d-5cf3-9f36-3ef487946f80"],
+  "data/parent": ["query/id", "e5756c17-e8ad-5734-baf8-16eb913b2b08"],
   "data/type": "json"
 }
