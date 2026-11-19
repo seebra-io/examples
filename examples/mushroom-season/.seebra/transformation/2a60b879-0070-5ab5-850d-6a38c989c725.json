@@ -1,13 +1,13 @@
 {
   "transformation/content": {
-    "$file": "transforms/circular-statistics-mean-fruiting-date-and.sql"
+    "$file": "transforms/circular-statistics-mean-fruiting-date-and.js"
   },
   "transformation/data-child": ["data/id", "0ab5d00a-cb50-5ad1-9f40-c64a4525e3d9"],
   "transformation/dynamic?": true,
-  "transformation/environment": "runtime",
+  "transformation/environment": "js-web-worker",
   "transformation/id": "2a60b879-0070-5ab5-850d-6a38c989c725",
   "transformation/inputs": [],
-  "transformation/language": "sql",
+  "transformation/language": "javascript",
   "transformation/name": "Circular statistics: mean fruiting date and season length",
   "transformation/name?": true,
   "transformation/node": {

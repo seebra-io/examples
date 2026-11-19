@@ -33,7 +33,7 @@ Transformations:
 - [False morel per month](transforms/false-morel-per-month.polars.py) (polars)
 - [Records per species and month](transforms/records-per-species-and-month.sql) (sql)
 - [Share of each species' records per month, against all fungi](transforms/share-of-each-species-records-per-month-against.polars.py) (polars)
-- [Circular statistics: mean fruiting date and season length](transforms/circular-statistics-mean-fruiting-date-and.sql) (sql)
+- [Circular statistics: mean fruiting date and season length](transforms/circular-statistics-mean-fruiting-date-and.js) (javascript)
 - [The season per species, readable](transforms/the-season-per-species-readable.polars.py) (polars)
 - [Mushroom Observer's observations, flat](transforms/mushroom-observer-s-observations-flat.js) (javascript)
 - [Observations: consensus name, confidence, photo](transforms/observations-consensus-name-confidence-photo.polars.py) (polars)
