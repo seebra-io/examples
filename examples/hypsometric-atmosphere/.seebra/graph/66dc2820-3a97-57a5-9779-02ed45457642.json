@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/warm-columns-stand-tall-500-hpa-height-and.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "66dc2820-3a97-57a5-9779-02ed45457642",
   "graph/inputs": [
     ["data/id", "323d8d15-7501-57e1-83da-b37fb06909ef"]

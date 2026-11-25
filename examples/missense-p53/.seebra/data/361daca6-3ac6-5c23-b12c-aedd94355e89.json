@@ -1,0 +1,10 @@
+{
+  "data/id": "361daca6-3ac6-5c23-b12c-aedd94355e89",
+  "data/name": "The AlphaFold entry for {{uniprot}}: sequence, mean confidence, file links data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 80
+  },
+  "data/parent": ["query/id", "19e51b44-d2ce-53c3-904b-564d97488b99"],
+  "data/type": "json"
+}

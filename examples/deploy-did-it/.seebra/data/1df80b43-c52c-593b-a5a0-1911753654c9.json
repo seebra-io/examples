@@ -1,0 +1,10 @@
+{
+  "data/id": "1df80b43-c52c-593b-a5a0-1911753654c9",
+  "data/name": "Drill down: events and pods of each rollout data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 800
+  },
+  "data/parent": ["transformation/id", "7c254430-09f2-5859-9a87-40ee9c9bb478"],
+  "data/type": "json"
+}

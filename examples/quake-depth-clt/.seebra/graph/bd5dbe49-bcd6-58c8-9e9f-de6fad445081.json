@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/central-limit-theorem-sample-means-approach-the.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "bd5dbe49-bcd6-58c8-9e9f-de6fad445081",
   "graph/inputs": [
     ["data/id", "e8c83fb7-9bd9-5206-8094-b07ada9ca9e2"]

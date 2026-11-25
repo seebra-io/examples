@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/probability-by-deadline-polymarket.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "3536f070-9a16-5aa4-a6ef-d3c260c60ce4",
   "graph/inputs": [],
   "graph/language": "javascript",

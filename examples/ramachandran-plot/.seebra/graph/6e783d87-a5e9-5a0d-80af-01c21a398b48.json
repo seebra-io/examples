@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/a-few-percent-of-the-plane-holds-most-residues.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "6e783d87-a5e9-5a0d-80af-01c21a398b48",
   "graph/inputs": [],
   "graph/language": "javascript",

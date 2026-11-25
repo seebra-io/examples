@@ -1,0 +1,21 @@
+{
+  "transformation/content": {
+    "$file": "transforms/bins-genera-species-and-occurrences.js"
+  },
+  "transformation/data-child": ["data/id", "029e7b46-758b-5013-8897-dbacf360fb64"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "js-web-worker",
+  "transformation/id": "e03a41ee-489f-5830-aa2f-cbed245e49b6",
+  "transformation/inputs": [
+    ["data/id", "7413db89-81b3-595b-9cdd-724f70624bb3"]
+  ],
+  "transformation/language": "javascript",
+  "transformation/name": "Bins: genera, species and occurrences",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "87d1a0d0-756c-53ff-8707-6d2ebabd5654"],
+  "transformation/units": "{}"
+}

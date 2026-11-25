@@ -19,6 +19,7 @@
     ["grid/id", "be6d7b63-0a76-5eb6-9ca3-86b37035d951"]
   ],
   "name": "Dragon-type Pokémon",
+  "parameters": [],
   "queries": [
     ["query/id", "cf909354-c0e8-5e16-b204-1c876aad6adb"]
   ],

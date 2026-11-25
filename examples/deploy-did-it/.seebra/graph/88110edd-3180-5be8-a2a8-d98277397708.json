@@ -1,0 +1,18 @@
+{
+  "graph/content": {
+    "$file": "graphs/expand-did-the-other-services-move-too.js"
+  },
+  "graph/dynamic?": false,
+  "graph/id": "88110edd-3180-5be8-a2a8-d98277397708",
+  "graph/inputs": [
+    ["data/id", "dcc62f26-c2dd-5c2b-a60d-775052c3ac51"]
+  ],
+  "graph/language": "javascript",
+  "graph/name": "Expand: did the other services move too?",
+  "graph/node": {
+    "node/created": 4,
+    "node/x": 1920,
+    "node/y": 560
+  },
+  "graph/parent": ["data/id", "d2cd815e-cdcf-5ed0-b276-349fda8d8cd3"]
+}

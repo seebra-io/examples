@@ -1,0 +1,11 @@
+{
+  "grid/cols": 6,
+  "grid/id": "93090ec6-2ea0-529f-b234-c42e92e1af1e",
+  "grid/node": {
+    "node/created": 5,
+    "node/x": 1920,
+    "node/y": 320
+  },
+  "grid/parent": ["data/id", "eeed2571-8e18-50c8-b236-3cbb1eeec34c"],
+  "grid/title": "Pictures: licence and record"
+}

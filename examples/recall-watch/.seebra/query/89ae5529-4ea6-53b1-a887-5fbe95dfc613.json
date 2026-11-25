@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "9301c0f3-6cf8-500d-885a-707f61373696"],
+  "query/datasource": ["datasource/id", "a29fd06b-576b-5563-870a-ebed21377388"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "89ae5529-4ea6-53b1-a887-5fbe95dfc613",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Device recalls (newest 25)",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 560
+  },
+  "query/params": "{\"sort\":\"event_date_posted:desc\",\"limit\":\"25\"}",
+  "query/path": "/device/recall.json",
+  "query/request-body": "",
+  "query/units": "{}"
+}

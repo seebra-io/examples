@@ -1,0 +1,21 @@
+{
+  "transformation/content": {
+    "$file": "transforms/the-points-each-verdict-compared.js"
+  },
+  "transformation/data-child": ["data/id", "e292e1cf-ba4a-54f1-94f0-75759d7a24f6"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "js-web-worker",
+  "transformation/id": "4219630a-5002-5c1c-873e-bc93a146f640",
+  "transformation/inputs": [
+    ["data/id", "dcc62f26-c2dd-5c2b-a60d-775052c3ac51"]
+  ],
+  "transformation/language": "javascript",
+  "transformation/name": "The points each verdict compared",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "af2a9bb6-67cd-507f-a65f-92ef3381e00c"],
+  "transformation/units": "{}"
+}

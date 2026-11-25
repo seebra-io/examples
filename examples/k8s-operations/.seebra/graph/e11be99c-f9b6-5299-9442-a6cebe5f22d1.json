@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/pods-that-need-a-hand-hover-for-the-parameters.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "e11be99c-f9b6-5299-9442-a6cebe5f22d1",
   "graph/inputs": [
     ["data/id", "2afeb017-7123-57ff-a6a5-1125aa72264a"]

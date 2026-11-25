@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "6b54e263-9d82-5020-8b8c-de84e30ec4db"],
+  "query/datasource": ["datasource/id", "0670d5c0-2bc8-5c66-9883-9925538e8fe6"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "f9916d9a-3214-5a41-aeeb-fbd4f39909ed",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "… without dating",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 560
+  },
+  "query/params": "{\"method\":\"facet\",\"index\":\"itemType\",\"query\":\"serviceOrganization={{org}} AND timeInfoExists=n\"}",
+  "query/path": "/api",
+  "query/request-body": "",
+  "query/units": "{}"
+}

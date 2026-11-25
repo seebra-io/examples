@@ -1,0 +1,1 @@
+SELECT feed, key, reported, class, firm, product, reason, status, record_url, feed_updated, read_at FROM data WHERE in_latest_report = 1 ORDER BY CASE class WHEN 'Class I' THEN 1 WHEN 'Class II' THEN 2 WHEN 'Class III' THEN 3 ELSE 4 END, feed, firm

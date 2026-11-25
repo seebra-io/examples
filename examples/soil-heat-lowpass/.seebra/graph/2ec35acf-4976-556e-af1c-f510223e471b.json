@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/three-years-the-yearly-wave-reaches-deep-late.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "2ec35acf-4976-556e-af1c-f510223e471b",
   "graph/inputs": [],
   "graph/language": "javascript",

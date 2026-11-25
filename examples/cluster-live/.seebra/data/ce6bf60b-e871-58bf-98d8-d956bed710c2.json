@@ -1,0 +1,10 @@
+{
+  "data/id": "ce6bf60b-e871-58bf-98d8-d956bed710c2",
+  "data/name": "ReplicaSets of the namespace (rollouts) data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 1760
+  },
+  "data/parent": ["query/id", "fb059b70-c7e1-5653-901c-34d9b223558e"],
+  "data/type": "json"
+}

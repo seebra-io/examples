@@ -1,0 +1,21 @@
+{
+  "transformation/content": {
+    "$file": "transforms/before-after-per-rollout-medians-bootstrap-ci.js"
+  },
+  "transformation/data-child": ["data/id", "dcc62f26-c2dd-5c2b-a60d-775052c3ac51"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "js-web-worker",
+  "transformation/id": "457f1db8-78d5-54eb-9863-e2f91a7602fe",
+  "transformation/inputs": [
+    ["data/id", "efa9c805-88b0-5b68-938a-62b5c4f98c87"]
+  ],
+  "transformation/language": "javascript",
+  "transformation/name": "Before/after per rollout: medians, bootstrap CI, Mann-Whitney, caveats",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "af2a9bb6-67cd-507f-a65f-92ef3381e00c"],
+  "transformation/units": "{}"
+}

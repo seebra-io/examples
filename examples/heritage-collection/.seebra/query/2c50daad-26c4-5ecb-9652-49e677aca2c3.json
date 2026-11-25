@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "d6c41fcf-10f4-5030-92c7-8d3ce77c9c0b"],
+  "query/datasource": ["datasource/id", "0670d5c0-2bc8-5c66-9883-9925538e8fe6"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "2c50daad-26c4-5ecb-9652-49e677aca2c3",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Records by material",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 2720
+  },
+  "query/params": "{\"method\":\"facet\",\"index\":\"itemMaterial\",\"query\":\"serviceOrganization={{org}}\"}",
+  "query/path": "/api",
+  "query/request-body": "",
+  "query/units": "{}"
+}

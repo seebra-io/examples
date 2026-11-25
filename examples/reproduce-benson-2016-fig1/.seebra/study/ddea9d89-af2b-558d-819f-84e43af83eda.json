@@ -1,0 +1,18 @@
+{
+  "study/hypothesis": "After subsampling, genus diversity grows by less than 0.0058 ln(genera) per Myr (the top of the paper's ±2 SE); at face value, genus counts show no trend over all Mesozoic bins.",
+  "study/id": "ddea9d89-af2b-558d-819f-84e43af83eda",
+  "study/name": "Does today's PBDB still show near-stasis?",
+  "study/node": {
+    "node/x": 540,
+    "node/y": 1280
+  },
+  "study/plan": {
+    "$file": ".seebra/study/ddea9d89-af2b-558d-819f-84e43af83eda.plan.json",
+    "$json": true
+  },
+  "study/question": "Across the Mesozoic, does non-marine tetrapod diversity still show near-stasis in today's Paleobiology Database, as Benson et al. 2016 found?",
+  "study/state": {
+    "$file": ".seebra/study/ddea9d89-af2b-558d-819f-84e43af83eda.state.json",
+    "$json": true
+  }
+}

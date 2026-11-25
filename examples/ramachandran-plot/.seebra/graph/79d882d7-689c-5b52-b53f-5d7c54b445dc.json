@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/ramachandran-plot-and-of-every-residue.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "79d882d7-689c-5b52-b53f-5d7c54b445dc",
   "graph/inputs": [],
   "graph/language": "javascript",

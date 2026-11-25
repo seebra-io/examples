@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/the-verdict-per-combination-of-rulers.js"
+  },
+  "transformation/data-child": ["data/id", "affaa5b8-348f-526f-a670-b82659db53a4"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "js-web-worker",
+  "transformation/id": "24eb7ef7-81c6-5592-9df3-71b28ea0a241",
+  "transformation/inputs": [],
+  "transformation/language": "javascript",
+  "transformation/name": "The verdict per combination of rulers",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "ca4cb37b-55b2-573e-ad7d-b4aeb65ef8a6"],
+  "transformation/units": "{}"
+}

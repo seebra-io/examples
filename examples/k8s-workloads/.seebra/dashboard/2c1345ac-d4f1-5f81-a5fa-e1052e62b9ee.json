@@ -21,6 +21,7 @@
   ],
   "grids": [],
   "name": "Kubernetes workload health",
+  "parameters": [],
   "queries": [
     ["query/id", "4061a99e-003c-5495-92a7-2683023b7ecc"]
   ],

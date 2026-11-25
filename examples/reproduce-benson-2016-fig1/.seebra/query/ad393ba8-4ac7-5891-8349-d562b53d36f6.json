@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "0e9f19c2-0836-5565-bcb4-f5279498ae0f"],
+  "query/datasource": ["datasource/id", "b07ef870-9028-5d40-8ed8-f7362c695d23"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "ad393ba8-4ac7-5891-8349-d562b53d36f6",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Every non-marine tetrapod occurrence at genus level (for subsampling)",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 560
+  },
+  "query/params": "{\"base_name\":\"Tetrapoda\",\"envtype\":\"terrestrial\",\"pres\":\"regular\",\"interval\":\"Triassic,Ypresian\",\"idreso\":\"genus\",\"show\":\"genus\",\"vocab\":\"com\",\"limit\":\"all\"}",
+  "query/path": "/occs/list.json",
+  "query/request-body": "",
+  "query/units": "{}"
+}

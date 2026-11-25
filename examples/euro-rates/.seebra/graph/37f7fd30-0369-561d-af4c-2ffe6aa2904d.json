@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/units-per-euro-indexed-above-100-the-euro-bought.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "37f7fd30-0369-561d-af4c-2ffe6aa2904d",
   "graph/inputs": [
     ["data/id", "92844abc-ebd6-5a22-ae99-44e75cc71efd"]

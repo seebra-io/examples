@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/per-film-characters-swapi-can-and-can-t-weigh.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "c09e0fb9-97a4-5f37-8a81-ae4199c6263d",
   "graph/inputs": [],
   "graph/language": "javascript",

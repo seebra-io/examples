@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "cb293f96-a36c-50dd-ad3a-cc373c56f1b8"],
+  "query/datasource": ["datasource/id", "0670d5c0-2bc8-5c66-9883-9925538e8fe6"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "fa5e229a-0bf6-50e4-9339-2794552aa589",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Object names without coordinates",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 1760
+  },
+  "query/params": "{\"method\":\"facet\",\"index\":\"itemName\",\"query\":\"serviceOrganization={{org}} AND geoDataExists=n\"}",
+  "query/path": "/api",
+  "query/request-body": "",
+  "query/units": "{}"
+}

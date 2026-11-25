@@ -1,0 +1,89 @@
+{
+  "title": "Atmospheric methane",
+  "summary": "Methane's concentration, growth, budget and warming effect, and what drives them.",
+  "concepts": [
+    {
+      "cid": "c1",
+      "label": "Methane",
+      "kind": "entity",
+      "description": "CH₄, a greenhouse gas with an atmospheric lifetime of about 9 years.",
+      "fields": [
+        "t_years.ch4_ppb"
+      ],
+      "in_data": true,
+      "wikidata": "Q37129",
+      "children": [
+        {
+          "cid": "c2",
+          "label": "Mole fraction",
+          "kind": "measure",
+          "as": "property",
+          "description": "Parts per billion of dry air, global marine surface average (NOAA).",
+          "fields": [
+            "t_years.ch4_ppb"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c3",
+          "label": "Growth rate",
+          "kind": "measure",
+          "as": "property",
+          "description": "The increase over a year, ppb/yr.",
+          "fields": [
+            "t_years.growth_ppb"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c4",
+          "label": "Methane emissions",
+          "kind": "measure",
+          "as": "property",
+          "description": "Tg CH₄ per year from wetlands, agriculture, waste, fossil fuels and fires; here inferred in one box.",
+          "fields": [
+            "t_years.emitted_tg"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c5",
+          "label": "Hydroxyl radical",
+          "kind": "entity",
+          "as": "related",
+          "description": "OH, the atmosphere's detergent: it destroys about 90% of methane.",
+          "fields": [
+            "t_years.destroyed_tg"
+          ],
+          "in_data": true,
+          "wikidata": "Q2531946"
+        },
+        {
+          "cid": "c6",
+          "label": "Radiative forcing",
+          "kind": "measure",
+          "as": "property",
+          "description": "The change in the Earth's energy balance (W/m²) since 1750.",
+          "fields": [
+            "t_years.forcing_ch4",
+            "t_years.forcing_co2",
+            "t_years.forcing_n2o"
+          ],
+          "in_data": true,
+          "wikidata": "Q1427633"
+        }
+      ]
+    },
+    {
+      "cid": "c7",
+      "label": "El Niño–Southern Oscillation",
+      "kind": "entity",
+      "description": "The Pacific's warm (El Niño) and cool (La Niña) swings, measured by the Oceanic Niño Index.",
+      "fields": [
+        "t_years.oni_lagged"
+      ],
+      "in_data": true,
+      "wikidata": "Q1131093"
+    }
+  ]
+}

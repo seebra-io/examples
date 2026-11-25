@@ -1,0 +1,22 @@
+{
+  "transformation/content": {
+    "$file": "transforms/every-recall-with-its-provenance.js"
+  },
+  "transformation/data-child": ["data/id", "aa860d19-649f-548b-a182-c41c366a60c3"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "js-web-worker",
+  "transformation/id": "2e74653a-08b3-57dc-a814-6de7162699d7",
+  "transformation/inputs": [
+    ["data/id", "f9c0d719-34a5-5e13-9077-104ac849b9f4"],
+    ["data/id", "9301c0f3-6cf8-500d-885a-707f61373696"]
+  ],
+  "transformation/language": "javascript",
+  "transformation/name": "Every recall, with its provenance",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "15e81a4f-198b-561b-9cae-c05234ebb174"],
+  "transformation/units": "{}"
+}

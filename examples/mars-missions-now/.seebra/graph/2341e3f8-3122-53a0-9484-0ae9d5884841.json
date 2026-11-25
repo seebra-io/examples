@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/who-is-there-and-since-when-hover-a-bar.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "2341e3f8-3122-53a0-9484-0ae9d5884841",
   "graph/inputs": [],
   "graph/language": "javascript",

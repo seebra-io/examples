@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "b9a67743-313f-5011-97ae-93511d2eadf4"],
+  "query/datasource": ["datasource/id", "fbcd0eec-b4e9-5931-ad9b-a07ccf9d69dc"],
+  "query/dynamic?": true,
+  "query/format": "text",
+  "query/headers": "{}",
+  "query/id": "94ae4e38-b6fc-5af5-90b2-701c7db6b9c8",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Pantheon+SH0ES: 1,701 type Ia supernova light curves' distances (text table)",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 80
+  },
+  "query/params": "{}",
+  "query/path": "/Pantheon+_Data/4_DISTANCES_AND_COVAR/Pantheon+SH0ES.dat",
+  "query/request-body": "",
+  "query/units": "{}"
+}

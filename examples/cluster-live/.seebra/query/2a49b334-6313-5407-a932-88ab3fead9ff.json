@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "54d79827-5300-5824-9baf-2131043e3e1c"],
+  "query/datasource": ["datasource/id", "4a21b992-762e-546e-a625-31076bcc4301"],
+  "query/dynamic?": true,
+  "query/format": "json",
+  "query/headers": "{}",
+  "query/id": "2a49b334-6313-5407-a932-88ab3fead9ff",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Services: requests/s, errors, p50 and p99 (RED)",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 80
+  },
+  "query/params": "{\"query\":\"(label_replace({{rate_promql}}, \\\"signal\\\", \\\"rate\\\", \\\"\\\", \\\"\\\") or label_replace({{error_ratio_promql}}, \\\"signal\\\", \\\"error_ratio\\\", \\\"\\\", \\\"\\\") or label_replace({{p50_promql}}, \\\"signal\\\", \\\"p50\\\", \\\"\\\", \\\"\\\") or label_replace({{p99_promql}}, \\\"signal\\\", \\\"p99\\\", \\\"\\\", \\\"\\\"))[{{window}}:{{step}}]\"}",
+  "query/path": "/query",
+  "query/request-body": "",
+  "query/units": "{}"
+}

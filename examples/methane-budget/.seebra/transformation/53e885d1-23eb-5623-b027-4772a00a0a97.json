@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/the-three-futures-every-five-years.js"
+  },
+  "transformation/data-child": ["data/id", "ec3e02ae-bce8-578f-b476-082dceab971f"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "js-web-worker",
+  "transformation/id": "53e885d1-23eb-5623-b027-4772a00a0a97",
+  "transformation/inputs": [],
+  "transformation/language": "javascript",
+  "transformation/name": "The three futures, every five years",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "535f51e8-5782-5817-ba9e-95d9da24e140"],
+  "transformation/units": "{}"
+}

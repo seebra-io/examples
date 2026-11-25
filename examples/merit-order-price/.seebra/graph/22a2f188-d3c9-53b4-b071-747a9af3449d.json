@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/price-against-residual-load-the-merit-order.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "22a2f188-d3c9-53b4-b071-747a9af3449d",
   "graph/inputs": [
     ["data/id", "512f8087-b8da-50f3-b783-06c6c05799ce"]

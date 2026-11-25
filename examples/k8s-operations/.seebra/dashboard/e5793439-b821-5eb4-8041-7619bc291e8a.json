@@ -19,6 +19,7 @@
   ],
   "grids": [],
   "name": "Kubernetes operations: evict a pod",
+  "parameters": [],
   "queries": [
     ["query/id", "ae26725e-3fd3-522a-b874-6704c33d69b1"],
     ["query/id", "93cba030-5395-5ecb-85d2-81c2d20a08d0"],

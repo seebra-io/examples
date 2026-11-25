@@ -1,0 +1,10 @@
+{
+  "data/id": "c939fa37-8342-59d4-9ae3-c3cf44b0d143",
+  "data/name": "The same services yesterday (offset 1d) data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 320
+  },
+  "data/parent": ["query/id", "5f6b2c6e-ebec-5d4b-a786-f945e42d1c00"],
+  "data/type": "json"
+}

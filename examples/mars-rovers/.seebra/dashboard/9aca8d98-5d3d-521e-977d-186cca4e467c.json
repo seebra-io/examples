@@ -24,6 +24,7 @@
     ["grid/id", "a1d0076a-ed3d-5677-9a49-746a93bb7b05"]
   ],
   "name": "Mars rovers: the latest raw images",
+  "parameters": [],
   "queries": [
     ["query/id", "fed2ad4c-4d72-5689-8443-620617b206b7"],
     ["query/id", "3a09f65a-5f65-5155-b1a4-d169a5c57d1d"]

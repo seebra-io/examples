@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/h0-three-ways.js"
+  },
+  "transformation/data-child": ["data/id", "fc8bb67a-4344-57f9-98d1-6581343152dc"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "js-web-worker",
+  "transformation/id": "f643b1d2-3b7b-5988-86db-8ad12b5c68f5",
+  "transformation/inputs": [],
+  "transformation/language": "javascript",
+  "transformation/name": "H0 three ways",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 560
+  },
+  "transformation/parent": ["data/id", "ca4cb37b-55b2-573e-ad7d-b4aeb65ef8a6"],
+  "transformation/units": "{}"
+}

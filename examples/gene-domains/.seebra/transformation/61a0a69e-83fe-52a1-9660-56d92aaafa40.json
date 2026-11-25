@@ -1,0 +1,22 @@
+{
+  "transformation/content": {
+    "$file": "transforms/the-chromosome-s-genes-in-curated-complexes.js"
+  },
+  "transformation/data-child": ["data/id", "5aabde6f-761a-54b5-946f-4c8d7ba535be"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "js-web-worker",
+  "transformation/id": "61a0a69e-83fe-52a1-9660-56d92aaafa40",
+  "transformation/inputs": [
+    ["data/id", "60d78271-4dc9-5fe9-b708-942ad9b18ae4"],
+    ["data/id", "85b07fe1-5e71-5d96-b22e-5f67dece9d9b"]
+  ],
+  "transformation/language": "javascript",
+  "transformation/name": "The chromosome's genes in curated complexes: function, family, subunits, structures",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "17e435e4-1076-508b-b8aa-0982b8b951e8"],
+  "transformation/units": "{}"
+}

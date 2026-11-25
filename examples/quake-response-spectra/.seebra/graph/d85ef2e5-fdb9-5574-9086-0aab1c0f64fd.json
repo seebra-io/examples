@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/tall-vs-low-buildings-station-by-station.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "d85ef2e5-fdb9-5574-9086-0aab1c0f64fd",
   "graph/inputs": [
     ["data/id", "9758eeee-9d05-5142-ab09-085024a76001"]

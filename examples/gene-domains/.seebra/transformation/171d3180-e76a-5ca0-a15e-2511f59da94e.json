@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/do-domains-hold-one-function-purity-against-1.js"
+  },
+  "transformation/data-child": ["data/id", "1dd1367b-bccf-583c-9652-39b270d80453"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "js-web-worker",
+  "transformation/id": "171d3180-e76a-5ca0-a15e-2511f59da94e",
+  "transformation/inputs": [],
+  "transformation/language": "javascript",
+  "transformation/name": "Do domains hold one function? Purity against 1,000 shuffles",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1920,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "a2dbd774-5daf-51aa-a4ce-5b9e74600297"],
+  "transformation/units": "{}"
+}

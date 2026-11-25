@@ -1,0 +1,10 @@
+{
+  "data/id": "1c2b1cbd-6876-5075-887f-f2053a314ccf",
+  "data/name": "Which protein each chain of {{pdb}} is (PDBe SIFTS mapping to UniProt) data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 1280
+  },
+  "data/parent": ["query/id", "db6531ff-8174-5364-b2fb-aa88c82d225e"],
+  "data/type": "json"
+}

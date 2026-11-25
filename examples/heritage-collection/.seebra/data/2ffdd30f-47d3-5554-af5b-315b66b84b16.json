@@ -1,0 +1,10 @@
+{
+  "data/id": "2ffdd30f-47d3-5554-af5b-315b66b84b16",
+  "data/name": "Records by century of dating data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 2960
+  },
+  "data/parent": ["query/id", "0342c9cd-4ff7-5318-ae46-6e4094e014a3"],
+  "data/type": "json"
+}

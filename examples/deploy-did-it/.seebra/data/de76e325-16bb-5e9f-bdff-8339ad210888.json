@@ -1,0 +1,10 @@
+{
+  "data/id": "de76e325-16bb-5e9f-bdff-8339ad210888",
+  "data/name": "Error-ish log lines over the window (LogQL) data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 1040
+  },
+  "data/parent": ["query/id", "ddff9f94-98a2-5c94-988c-91b4868c7e09"],
+  "data/type": "json"
+}

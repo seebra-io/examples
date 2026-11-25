@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/heavy-tail-the-mean-sits-above-most-stories.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "28c6794f-70c5-5de3-b2cb-8bb4209c8dc3",
   "graph/inputs": [
     ["data/id", "cec9570a-fb23-5714-b070-c3a2f455600b"]

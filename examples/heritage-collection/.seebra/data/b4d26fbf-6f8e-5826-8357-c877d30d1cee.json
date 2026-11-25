@@ -1,0 +1,10 @@
+{
+  "data/id": "b4d26fbf-6f8e-5826-8357-c877d30d1cee",
+  "data/name": "Institutions with records from the parish data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 1520
+  },
+  "data/parent": ["transformation/id", "0125b2f7-1fff-5e32-9923-821043f5610b"],
+  "data/type": "json"
+}

@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/the-parish-s-monuments.js"
+  },
+  "transformation/data-child": ["data/id", "17b17eb4-f346-54c7-bf55-767e08543c1a"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "js-web-worker",
+  "transformation/id": "988c28a7-fb66-5993-ad77-ae3bb3744331",
+  "transformation/inputs": [],
+  "transformation/language": "javascript",
+  "transformation/name": "The parish's monuments",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 560
+  },
+  "transformation/parent": ["data/id", "d6fc9242-33cc-573f-84c2-0199fb0ceed6"],
+  "transformation/units": "{}"
+}

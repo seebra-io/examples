@@ -1,0 +1,22 @@
+{
+  "transformation/content": {
+    "$file": "transforms/the-paper-s-numbers-and-today-s.js"
+  },
+  "transformation/data-child": ["data/id", "9eac3fa2-901b-5b08-a859-81e927c840a3"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "js-web-worker",
+  "transformation/id": "301d512f-bf65-5727-b241-1a2f892d49c1",
+  "transformation/inputs": [
+    ["data/id", "539c354d-a94e-5752-ac98-429efc63425c"],
+    ["data/id", "029e7b46-758b-5013-8897-dbacf360fb64"]
+  ],
+  "transformation/language": "javascript",
+  "transformation/name": "The paper's numbers and today's",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1920,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "161ed111-b6c9-531f-95ec-512fe2aaaa9a"],
+  "transformation/units": "{}"
+}

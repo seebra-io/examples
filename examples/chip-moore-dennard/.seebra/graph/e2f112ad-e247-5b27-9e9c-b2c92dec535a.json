@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/which-break-year-fits-the-clock-best.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "e2f112ad-e247-5b27-9e9c-b2c92dec535a",
   "graph/inputs": [],
   "graph/language": "javascript",

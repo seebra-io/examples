@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "65568055-c62b-5144-ac92-3c95bee7b0c7"],
+  "query/datasource": ["datasource/id", "0670d5c0-2bc8-5c66-9883-9925538e8fe6"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "53b3baab-b414-5249-8d6e-ac593103c379",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "The parish's ancient monuments (Fornsök, one page)",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 3920
+  },
+  "query/params": "{\"method\":\"search\",\"query\":\"serviceOrganization=raä AND itemType=kulturlämning AND parishName=\\\"{{parish}}\\\"\",\"hitsPerPage\":\"60\"}",
+  "query/path": "/api",
+  "query/request-body": "",
+  "query/units": "{}"
+}

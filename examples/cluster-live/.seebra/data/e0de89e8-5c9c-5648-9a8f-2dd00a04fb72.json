@@ -1,0 +1,10 @@
+{
+  "data/id": "e0de89e8-5c9c-5648-9a8f-2dd00a04fb72",
+  "data/name": "Events of the namespace data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 1520
+  },
+  "data/parent": ["query/id", "34484625-9669-5a08-9263-683e0df3acd1"],
+  "data/type": "json"
+}

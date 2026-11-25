@@ -21,6 +21,7 @@
   ],
   "grids": [],
   "name": "Life expectancy around the world",
+  "parameters": [],
   "queries": [
     ["query/id", "b909c484-4b39-5e98-bf2a-88ffc2d6423f"],
     ["query/id", "afcd2242-ddbc-5ea5-81ac-369aae14bd3c"],

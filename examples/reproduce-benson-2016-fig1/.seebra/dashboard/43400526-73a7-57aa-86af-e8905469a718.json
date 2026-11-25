@@ -1,0 +1,50 @@
+{
+  "dashboard/id": "43400526-73a7-57aa-86af-e8905469a718",
+  "datas": [
+    ["data/id", "87d1a0d0-756c-53ff-8707-6d2ebabd5654"],
+    ["data/id", "7413db89-81b3-595b-9cdd-724f70624bb3"],
+    ["data/id", "0e9f19c2-0836-5565-bcb4-f5279498ae0f"],
+    ["data/id", "557b6682-3a40-521c-b35a-d7c662795946"],
+    ["data/id", "0e1c709f-ac11-5b62-b8de-9d7ccdc4ac01"],
+    ["data/id", "029e7b46-758b-5013-8897-dbacf360fb64"],
+    ["data/id", "539c354d-a94e-5752-ac98-429efc63425c"],
+    ["data/id", "8aff4b35-a5c3-5486-9ad5-1bf6c829f3dc"],
+    ["data/id", "161ed111-b6c9-531f-95ec-512fe2aaaa9a"],
+    ["data/id", "9eac3fa2-901b-5b08-a859-81e927c840a3"],
+    ["data/id", "dc59abde-9dbd-5925-9ebf-428bdd90e9dc"]
+  ],
+  "datasources": [
+    ["datasource/id", "b07ef870-9028-5d40-8ed8-f7362c695d23"],
+    ["datasource/id", "039806a1-9df1-57d0-a73e-0787cda8f6dc"],
+    ["datasource/id", "78011275-8349-57b5-97c4-e5810f24db90"]
+  ],
+  "description": "Benson et al. 2016 (PLOS Biology, doi:10.1371/journal.pbio.1002359) counted non-marine tetrapod genera and species through the Mesozoic (their Figure 1) and found no long-term trend unless the first Triassic bin is left out, and near-zero net diversification after sampling correction. This board rebuilds Figure 1B–C live from today's Paleobiology Database, fits the paper's Poisson trend lines, adds shareholder quorum subsampling, sets the paper's numbers beside today's and checks the claim in a study. Click a bin for the records behind it. Next: Is the diversity curve just sampling? (Dinosaurs through time.)",
+  "graphs": [
+    ["graph/id", "d0419f8e-f116-5b94-9f41-87f70e8d30ee"],
+    ["graph/id", "3171f1ca-cde8-5df1-9570-1d85e6ea63c0"]
+  ],
+  "grids": [],
+  "name": "Reproduce Figure 1: near-stasis in Mesozoic tetrapods",
+  "parameters": [],
+  "queries": [
+    ["query/id", "547b0571-cf97-5c29-a9e9-9369bad7c2ef"],
+    ["query/id", "e44c050d-c894-55d8-a4da-869f5970f433"],
+    ["query/id", "ad393ba8-4ac7-5891-8349-d562b53d36f6"],
+    ["query/id", "56daf381-98d7-5219-83eb-af1b8f75dead"],
+    ["query/id", "0ffc1f65-e27b-5458-ac1b-6688d354c0cb"]
+  ],
+  "studies": [
+    ["study/id", "ddea9d89-af2b-558d-819f-84e43af83eda"]
+  ],
+  "tables": [],
+  "texts": [],
+  "timers": [],
+  "transformations": [
+    ["transformation/id", "e03a41ee-489f-5830-aa2f-cbed245e49b6"],
+    ["transformation/id", "1b86055e-031c-542e-8d55-28e1ae910594"],
+    ["transformation/id", "da4e3f73-d31c-525e-bffd-48ec518f0ac4"],
+    ["transformation/id", "5369f770-b144-5232-9f79-ba42d9837c07"],
+    ["transformation/id", "301d512f-bf65-5727-b241-1a2f892d49c1"],
+    ["transformation/id", "c18913bf-5279-5921-95e4-246057c26f33"]
+  ]
+}

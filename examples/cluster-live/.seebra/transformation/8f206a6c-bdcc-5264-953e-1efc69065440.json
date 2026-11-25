@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/notes-outside-the-usual-band-in-plain-words.js"
+  },
+  "transformation/data-child": ["data/id", "23d634df-dc2e-593c-80dc-963d91ccb292"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "js-web-worker",
+  "transformation/id": "8f206a6c-bdcc-5264-953e-1efc69065440",
+  "transformation/inputs": [],
+  "transformation/language": "javascript",
+  "transformation/name": "Notes: outside the usual band, in plain words",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1920,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "38f3d53c-64fb-5218-85c0-d7fb0a93cfc5"],
+  "transformation/units": "{}"
+}

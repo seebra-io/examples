@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/stations-by-temperature-c.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "92b45de8-3ed7-566a-8ccc-5727408f120d",
   "graph/inputs": [],
   "graph/language": "javascript",

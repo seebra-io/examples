@@ -1,0 +1,12 @@
+{
+  "data/id": "d9b0715d-0380-5fb6-a5aa-fec9551ba93a",
+  "data/name": "Years",
+  "data/node": {
+    "node/created": 6,
+    "node/x": 1610,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "038782ac-825a-5104-92fe-1f351b4f4ba3"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

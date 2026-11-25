@@ -1,0 +1,19 @@
+{
+  "graph/content": {
+    "$file": "graphs/wider-the-same-parish-in-fornsok-and-other.js"
+  },
+  "graph/dynamic?": false,
+  "graph/id": "45204d71-447d-599c-a767-68a83b1abd94",
+  "graph/inputs": [
+    ["data/id", "b4d26fbf-6f8e-5826-8357-c877d30d1cee"],
+    ["data/id", "44d4da7d-9f06-50b5-8664-3fdd73687d75"]
+  ],
+  "graph/language": "javascript",
+  "graph/name": "Wider: the same parish in Fornsök and other collections",
+  "graph/node": {
+    "node/created": 8,
+    "node/x": 1920,
+    "node/y": 560
+  },
+  "graph/parent": ["data/id", "17b17eb4-f346-54c7-bf55-767e08543c1a"]
+}

@@ -1,0 +1,10 @@
+{
+  "data/id": "b0f22e93-9c50-5e70-988c-7ca1a7b5906c",
+  "data/name": "… with a licensed record data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 1280
+  },
+  "data/parent": ["query/id", "33161480-946e-5f9d-8e18-71264e923c2b"],
+  "data/type": "json"
+}

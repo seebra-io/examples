@@ -1,0 +1,10 @@
+{
+  "data/id": "612f8cc9-200c-5331-af18-28c75020d49c",
+  "data/name": "Workloads: CPU and memory against requests and limits, restarts, pod phases data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 560
+  },
+  "data/parent": ["query/id", "487bc0e7-07b8-514e-9eae-a27e5fcf9ab7"],
+  "data/type": "json"
+}

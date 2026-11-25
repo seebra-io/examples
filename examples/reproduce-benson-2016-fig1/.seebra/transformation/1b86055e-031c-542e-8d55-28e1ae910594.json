@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/trend-lines-poisson-glms-of-count-on-age-the.js"
+  },
+  "transformation/data-child": ["data/id", "539c354d-a94e-5752-ac98-429efc63425c"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "js-web-worker",
+  "transformation/id": "1b86055e-031c-542e-8d55-28e1ae910594",
+  "transformation/inputs": [],
+  "transformation/language": "javascript",
+  "transformation/name": "Trend lines: Poisson GLMs of count on age (the paper's dashed lines)",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "029e7b46-758b-5013-8897-dbacf360fb64"],
+  "transformation/units": "{}"
+}

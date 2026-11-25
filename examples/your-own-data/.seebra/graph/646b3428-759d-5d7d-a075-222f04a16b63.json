@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/netflix-every-day-you-watched.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "646b3428-759d-5d7d-a075-222f04a16b63",
   "graph/inputs": [],
   "graph/language": "javascript",

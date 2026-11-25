@@ -1,0 +1,10 @@
+{
+  "data/id": "65568055-c62b-5144-ac92-3c95bee7b0c7",
+  "data/name": "The parish's ancient monuments (Fornsök, one page) data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 3920
+  },
+  "data/parent": ["query/id", "53b3baab-b414-5249-8d6e-ac593103c379"],
+  "data/type": "json"
+}

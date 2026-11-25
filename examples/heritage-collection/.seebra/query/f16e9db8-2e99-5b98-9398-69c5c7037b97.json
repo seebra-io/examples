@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "08329590-7081-56b6-bcfd-779e0828e129"],
+  "query/datasource": ["datasource/id", "0670d5c0-2bc8-5c66-9883-9925538e8fe6"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "f16e9db8-2e99-5b98-9398-69c5c7037b97",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "… with a licensed image",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 1040
+  },
+  "query/params": "{\"method\":\"facet\",\"index\":\"itemType\",\"query\":\"serviceOrganization={{org}} AND mediaLicense=*\"}",
+  "query/path": "/api",
+  "query/request-body": "",
+  "query/units": "{}"
+}

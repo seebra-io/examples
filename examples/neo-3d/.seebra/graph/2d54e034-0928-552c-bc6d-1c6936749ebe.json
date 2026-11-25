@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/distance-through-each-flyby.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "2d54e034-0928-552c-bc6d-1c6936749ebe",
   "graph/inputs": [
     ["data/id", "69321c51-8d44-56f6-aed9-53e8bf48aa73"]

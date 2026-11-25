@@ -1,0 +1,10 @@
+{
+  "data/id": "efd6f9b3-8279-52f3-94bc-bddd62474ae9",
+  "data/name": "Dating by century data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 560
+  },
+  "data/parent": ["transformation/id", "73e2cb00-e54f-5c59-aed0-fbe46cd36d47"],
+  "data/type": "json"
+}

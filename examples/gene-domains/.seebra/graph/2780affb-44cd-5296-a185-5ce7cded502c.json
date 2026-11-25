@@ -1,0 +1,16 @@
+{
+  "graph/content": {
+    "$file": "graphs/do-genes-in-one-domain-share-a-function.js"
+  },
+  "graph/dynamic?": false,
+  "graph/id": "2780affb-44cd-5296-a185-5ce7cded502c",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Do genes in one domain share a function?",
+  "graph/node": {
+    "node/created": 4,
+    "node/x": 2380,
+    "node/y": 320
+  },
+  "graph/parent": ["data/id", "1dd1367b-bccf-583c-9652-39b270d80453"]
+}

@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "93161b5a-7c8c-556d-aa15-25f5fda663b8"],
+  "query/datasource": ["datasource/id", "a9411299-70e8-5409-af19-505399cd1efa"],
+  "query/dynamic?": true,
+  "query/format": "text",
+  "query/headers": "{}",
+  "query/id": "b555b539-46fa-56f9-b77f-10df9c46f64d",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "DESI DR2 BAO: distances over the sound horizon at seven redshifts",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 320
+  },
+  "query/params": "{}",
+  "query/path": "/desi_bao_dr2/desi_gaussian_bao_ALL_GCcomb_mean.txt",
+  "query/request-body": "",
+  "query/units": "{}"
+}

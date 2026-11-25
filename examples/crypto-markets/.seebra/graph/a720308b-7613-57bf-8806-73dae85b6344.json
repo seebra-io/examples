@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/correlation-of-hourly-log-returns-one-market.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "a720308b-7613-57bf-8806-73dae85b6344",
   "graph/inputs": [],
   "graph/language": "javascript",

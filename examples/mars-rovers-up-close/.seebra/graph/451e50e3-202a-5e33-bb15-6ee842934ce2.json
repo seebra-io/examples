@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/mars-rovers-up-close-3d-hover-the-dots.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "451e50e3-202a-5e33-bb15-6ee842934ce2",
   "graph/inputs": [
     ["data/id", "5533be3a-66fa-5b62-9447-90ae124c7772"]

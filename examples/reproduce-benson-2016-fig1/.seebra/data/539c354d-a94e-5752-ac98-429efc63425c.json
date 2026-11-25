@@ -1,0 +1,10 @@
+{
+  "data/id": "539c354d-a94e-5752-ac98-429efc63425c",
+  "data/name": "Trend lines: Poisson GLMs of count on age (the paper's dashed lines) data",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "1b86055e-031c-542e-8d55-28e1ae910594"],
+  "data/type": "json"
+}

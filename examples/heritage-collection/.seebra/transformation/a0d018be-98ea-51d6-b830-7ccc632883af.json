@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/pictures-with-licence-and-record.js"
+  },
+  "transformation/data-child": ["data/id", "eeed2571-8e18-50c8-b236-3cbb1eeec34c"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "js-web-worker",
+  "transformation/id": "a0d018be-98ea-51d6-b830-7ccc632883af",
+  "transformation/inputs": [],
+  "transformation/language": "javascript",
+  "transformation/name": "Pictures, with licence and record",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "d6fc9242-33cc-573f-84c2-0199fb0ceed6"],
+  "transformation/units": "{}"
+}

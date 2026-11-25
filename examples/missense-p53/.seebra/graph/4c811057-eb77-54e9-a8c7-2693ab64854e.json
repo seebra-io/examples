@@ -1,0 +1,16 @@
+{
+  "graph/content": {
+    "$file": "graphs/fold-or-no-fold-alphafold-s-confidence-against.js"
+  },
+  "graph/dynamic?": false,
+  "graph/id": "4c811057-eb77-54e9-a8c7-2693ab64854e",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Fold or no fold: AlphaFold's confidence against harm",
+  "graph/node": {
+    "node/created": 4,
+    "node/x": 1460,
+    "node/y": 1280
+  },
+  "graph/parent": ["data/id", "b1ff01d6-2927-5f1a-bf96-3ad0908bc677"]
+}

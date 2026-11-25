@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/reported-advances-per-week.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "bb750155-11ea-574d-9c71-246d3b45d1a2",
   "graph/inputs": [],
   "graph/language": "javascript",

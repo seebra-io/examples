@@ -1,0 +1,16 @@
+{
+  "datasource/api-key-key": "api_key",
+  "datasource/auth-type": "none",
+  "datasource/headers": "{}",
+  "datasource/id": "fbcd0eec-b4e9-5931-ad9b-a07ccf9d69dc",
+  "datasource/name": "Pantheon+ data release (GitHub)",
+  "datasource/node": {
+    "inputs": 1,
+    "node/x": 80,
+    "node/y": 80,
+    "outputs": 1
+  },
+  "datasource/params": "{}",
+  "datasource/type": "openapi",
+  "datasource/url": "https://raw.githubusercontent.com/PantheonPlusSH0ES/DataRelease/main"
+}

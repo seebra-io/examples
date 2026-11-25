@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/l-t-against-w.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "c38b3d9d-6bcd-5976-86c1-9d50e7f33b9a",
   "graph/inputs": [
     ["data/id", "ac9fea92-c7ef-5517-aee4-53011d3a445c"],

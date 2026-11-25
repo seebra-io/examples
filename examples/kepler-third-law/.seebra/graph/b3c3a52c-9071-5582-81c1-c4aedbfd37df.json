@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/multi-planet-systems-every-orbit-weighs-the-same.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "b3c3a52c-9071-5582-81c1-c4aedbfd37df",
   "graph/inputs": [],
   "graph/language": "javascript",

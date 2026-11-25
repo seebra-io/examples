@@ -1,0 +1,10 @@
+{
+  "data/id": "ed62d69d-bf37-544e-8af2-be5b9d5cf6e5",
+  "data/name": "Log rate and lines data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 560
+  },
+  "data/parent": ["transformation/id", "179a96a5-3872-50bb-b2bd-1d0bf6cfe7fe"],
+  "data/type": "json"
+}

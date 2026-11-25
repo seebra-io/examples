@@ -23,6 +23,7 @@
   ],
   "grids": [],
   "name": "Molecules in 3D",
+  "parameters": [],
   "queries": [
     ["query/id", "6fb19715-dd83-5cf9-beb2-6a75267233d8"],
     ["query/id", "7542ba83-00ef-5ee9-bad3-50580a277c91"],

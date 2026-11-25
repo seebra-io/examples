@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/measured-cop-against-the-carnot-limit.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "da6f6d82-c051-5e96-acb7-ec39700b795a",
   "graph/inputs": [
     ["data/id", "e103d2fa-1a2e-5f74-bf8c-b78f9f428793"]

@@ -1,0 +1,12 @@
+{
+  "data/id": "7a4589b8-ee5f-54b3-9b2c-e0814b8bbf4e",
+  "data/name": "Gaps by object name (table, for reporting)",
+  "data/node": {
+    "node/created": 7,
+    "node/x": 1150,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "f84640a0-27b6-5990-aa2a-f44feb7cc173"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

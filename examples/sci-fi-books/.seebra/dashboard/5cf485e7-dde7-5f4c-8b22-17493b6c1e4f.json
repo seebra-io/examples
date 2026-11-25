@@ -20,6 +20,7 @@
     ["grid/id", "2cc67e0d-8ebc-5b55-9ddd-a759103b6c95"]
   ],
   "name": "The most-edited science fiction",
+  "parameters": [],
   "queries": [
     ["query/id", "bb5b1a5f-9f92-5f30-86be-93ddd6d1f501"]
   ],

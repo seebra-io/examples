@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "de76e325-16bb-5e9f-bdff-8339ad210888"],
+  "query/datasource": ["datasource/id", "dba94ada-c7a1-5086-8040-35d4b9f622d9"],
+  "query/dynamic?": true,
+  "query/format": "json",
+  "query/headers": "{}",
+  "query/id": "ddff9f94-98a2-5c94-988c-91b4868c7e09",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Error-ish log lines over the window (LogQL)",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 1040
+  },
+  "query/params": "{\"query\":\"{{logql}}\",\"since\":\"{{window}}\",\"limit\":\"5000\",\"direction\":\"backward\"}",
+  "query/path": "/query_range",
+  "query/request-body": "",
+  "query/units": "{}"
+}

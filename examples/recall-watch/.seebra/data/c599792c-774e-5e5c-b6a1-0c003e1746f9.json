@@ -1,0 +1,11 @@
+{
+  "data/id": "c599792c-774e-5e5c-b6a1-0c003e1746f9",
+  "data/name": "What's new, with provenance (record_url: the record at openFDA)",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "6ad77d7d-16e4-530c-bcc0-7b3cedb195ee"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

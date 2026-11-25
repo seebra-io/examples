@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/heights-from-temperatures-the-hypsometric.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "a85db96c-3081-52e1-8a3b-53c438055179",
   "graph/inputs": [
     ["data/id", "54f0eb1a-d332-5dd8-90c5-85f1ab67919e"]

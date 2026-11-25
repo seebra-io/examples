@@ -1,0 +1,10 @@
+{
+  "data/id": "127658ed-d5c4-5796-914a-4f0fa502065c",
+  "data/name": "Protein-coding genes on the chromosome (HPA: position, keywords, RNA in 19 tissues) data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 80
+  },
+  "data/parent": ["query/id", "c508b211-39a8-545d-b92a-a3edeb98a488"],
+  "data/type": "json"
+}

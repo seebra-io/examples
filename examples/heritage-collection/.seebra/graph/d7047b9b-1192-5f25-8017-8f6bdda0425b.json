@@ -1,0 +1,19 @@
+{
+  "graph/content": {
+    "$file": "graphs/the-collection-in-k-samsok.js"
+  },
+  "graph/dynamic?": false,
+  "graph/id": "d7047b9b-1192-5f25-8017-8f6bdda0425b",
+  "graph/inputs": [
+    ["data/id", "24246c15-4036-5e57-bc87-90286f07a9a7"],
+    ["data/id", "d6fc9242-33cc-573f-84c2-0199fb0ceed6"]
+  ],
+  "graph/language": "javascript",
+  "graph/name": "The collection in K-samsök",
+  "graph/node": {
+    "node/created": 1,
+    "node/x": 1460,
+    "node/y": 800
+  },
+  "graph/parent": ["data/id", "f6966ef8-e8f5-5d43-8141-34050df40663"]
+}

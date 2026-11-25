@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/synonymous-codons-ribosomal-proteins-against.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "3c672236-5dcd-5ea0-bf31-a77e624380fd",
   "graph/inputs": [],
   "graph/language": "javascript",

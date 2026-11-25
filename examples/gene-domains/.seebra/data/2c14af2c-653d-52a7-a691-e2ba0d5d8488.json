@@ -1,0 +1,10 @@
+{
+  "data/id": "2c14af2c-653d-52a7-a691-e2ba0d5d8488",
+  "data/name": "The selected structure, {{pdb}} (PDB format) data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 1040
+  },
+  "data/parent": ["query/id", "f387bde6-770c-54b9-b370-c7a31a086165"],
+  "data/type": "json"
+}

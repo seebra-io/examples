@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/kepler-s-third-law-dividing-by-the-star-s-mass.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "0edf55ba-ca1f-51f3-a973-f637c3a7b3b1",
   "graph/inputs": [],
   "graph/language": "javascript",

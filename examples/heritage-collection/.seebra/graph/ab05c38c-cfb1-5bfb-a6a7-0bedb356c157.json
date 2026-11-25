@@ -1,0 +1,19 @@
+{
+  "graph/content": {
+    "$file": "graphs/where-find-places.js"
+  },
+  "graph/dynamic?": false,
+  "graph/id": "ab05c38c-cfb1-5bfb-a6a7-0bedb356c157",
+  "graph/inputs": [
+    ["data/id", "24246c15-4036-5e57-bc87-90286f07a9a7"],
+    ["data/id", "f6966ef8-e8f5-5d43-8141-34050df40663"]
+  ],
+  "graph/language": "javascript",
+  "graph/name": "Where: find places",
+  "graph/node": {
+    "node/created": 2,
+    "node/x": 1920,
+    "node/y": 80
+  },
+  "graph/parent": ["data/id", "44d4da7d-9f06-50b5-8664-3fdd73687d75"]
+}

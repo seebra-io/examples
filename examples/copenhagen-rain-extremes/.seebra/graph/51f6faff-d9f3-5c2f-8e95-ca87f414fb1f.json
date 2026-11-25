@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/the-wettest-day-of-each-year.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "51f6faff-d9f3-5c2f-8e95-ca87f414fb1f",
   "graph/inputs": [
     ["data/id", "4ff3acbb-8d1b-5919-9664-dcc8abc718a4"]

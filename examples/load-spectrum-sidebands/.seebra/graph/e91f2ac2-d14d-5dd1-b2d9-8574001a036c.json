@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/zoom-on-1-per-day-the-sidebands.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "e91f2ac2-d14d-5dd1-b2d9-8574001a036c",
   "graph/inputs": [
     ["data/id", "1c446e43-ed1c-525d-97ac-dbe9f4a2429c"]

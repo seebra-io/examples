@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/one-row-per-complex.js"
+  },
+  "transformation/data-child": ["data/id", "7548c2dd-dca5-52a2-bc8a-ac6c7fa50847"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "js-web-worker",
+  "transformation/id": "47026ebc-98a5-52e3-b4b1-316a7cc19fb6",
+  "transformation/inputs": [],
+  "transformation/language": "javascript",
+  "transformation/name": "One row per complex",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1920,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "5aabde6f-761a-54b5-946f-4c8d7ba535be"],
+  "transformation/units": "{}"
+}

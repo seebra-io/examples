@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/views-against-age-click-a-dot-to-open-the.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "65e827af-eda9-5626-b097-0458bad38cf4",
   "graph/inputs": [],
   "graph/language": "javascript",

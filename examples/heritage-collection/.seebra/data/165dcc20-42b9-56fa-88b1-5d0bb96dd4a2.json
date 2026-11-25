@@ -1,0 +1,10 @@
+{
+  "data/id": "165dcc20-42b9-56fa-88b1-5d0bb96dd4a2",
+  "data/name": "Object names without an image data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 2240
+  },
+  "data/parent": ["query/id", "09ec97e3-8fb0-5f38-851b-6619ea76f02c"],
+  "data/type": "json"
+}

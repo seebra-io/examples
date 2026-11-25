@@ -1,0 +1,10 @@
+{
+  "data/id": "54d79827-5300-5824-9baf-2131043e3e1c",
+  "data/name": "Services: requests/s, errors, p50 and p99 (RED) data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 80
+  },
+  "data/parent": ["query/id", "2a49b334-6313-5407-a932-88ab3fead9ff"],
+  "data/type": "json"
+}

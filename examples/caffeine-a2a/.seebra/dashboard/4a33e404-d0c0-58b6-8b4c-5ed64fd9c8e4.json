@@ -32,6 +32,7 @@
   ],
   "grids": [],
   "name": "Caffeine in its receptor",
+  "parameters": [],
   "queries": [
     ["query/id", "f48e173c-1607-57b2-82b9-fb64ad3a2981"],
     ["query/id", "fd916d84-133b-5290-bfb2-aca31d23fc5d"],

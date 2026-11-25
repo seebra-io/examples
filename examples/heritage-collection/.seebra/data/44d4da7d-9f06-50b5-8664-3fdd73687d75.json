@@ -1,0 +1,10 @@
+{
+  "data/id": "44d4da7d-9f06-50b5-8664-3fdd73687d75",
+  "data/name": "Records with coordinates data",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "f8424c92-0cee-5e3b-a490-539abe01918d"],
+  "data/type": "json"
+}

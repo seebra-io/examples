@@ -18,6 +18,7 @@
   ],
   "grids": [],
   "name": "The euro against seven currencies",
+  "parameters": [],
   "queries": [
     ["query/id", "254b772d-0f26-52e2-8020-e38740c7052c"]
   ],

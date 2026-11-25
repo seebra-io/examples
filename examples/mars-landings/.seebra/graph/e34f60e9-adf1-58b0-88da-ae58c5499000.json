@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/fifty-years-of-trying.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "e34f60e9-adf1-58b0-88da-ae58c5499000",
   "graph/inputs": [],
   "graph/language": "javascript",

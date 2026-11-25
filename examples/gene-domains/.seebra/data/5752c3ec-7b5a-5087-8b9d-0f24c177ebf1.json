@@ -1,0 +1,12 @@
+{
+  "data/id": "5752c3ec-7b5a-5087-8b9d-0f24c177ebf1",
+  "data/name": "Domains",
+  "data/node": {
+    "node/created": 10,
+    "node/x": 2070,
+    "node/y": 800
+  },
+  "data/parent": ["transformation/id", "761283fb-c497-5e76-ae80-8e446dd44416"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

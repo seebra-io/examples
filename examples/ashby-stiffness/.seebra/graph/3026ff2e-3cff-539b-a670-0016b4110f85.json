@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/ashby-chart-young-s-modulus-against-density-with.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "3026ff2e-3cff-539b-a670-0016b4110f85",
   "graph/inputs": [],
   "graph/language": "javascript",

@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "d49ec158-563d-5e2e-bdc1-dc4b9bd70b6d"],
+  "query/datasource": ["datasource/id", "cfd23ce1-643f-5b06-84cc-d48919964027"],
+  "query/dynamic?": true,
+  "query/format": "text",
+  "query/headers": "{}",
+  "query/id": "d3ac8fe5-e6c3-5112-8a62-7156312950d2",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Global CO₂, monthly means (ppm)",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 560
+  },
+  "query/params": "{}",
+  "query/path": "/co2/co2_mm_gl.txt",
+  "query/request-body": "",
+  "query/units": "{}"
+}

@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "065d8b9c-19c2-557f-857f-6741389b34f7"],
+  "query/datasource": ["datasource/id", "b549e935-a3cf-5683-82a3-b350f43cca2d"],
+  "query/dynamic?": true,
+  "query/format": "json",
+  "query/headers": "{}",
+  "query/id": "83e65735-09f9-5109-973b-d7bf00ef9309",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "AlphaFold's confidence per residue (pLDDT), model v6",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 800
+  },
+  "query/params": "{}",
+  "query/path": "/files/AF-{{uniprot}}-F1-confidence_v6.json",
+  "query/request-body": "",
+  "query/units": "{}"
+}

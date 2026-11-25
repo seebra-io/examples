@@ -1,0 +1,10 @@
+{
+  "data/id": "0e1c709f-ac11-5b62-b8de-9d7ccdc4ac01",
+  "data/name": "The paper's archived data at Dryad (DataCite) data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 1040
+  },
+  "data/parent": ["query/id", "0ffc1f65-e27b-5458-ac1b-6688d354c0cb"],
+  "data/type": "json"
+}

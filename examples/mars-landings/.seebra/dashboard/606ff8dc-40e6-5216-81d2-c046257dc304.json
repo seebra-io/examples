@@ -16,6 +16,7 @@
   ],
   "grids": [],
   "name": "Landing on Mars",
+  "parameters": [],
   "queries": [
     ["query/id", "0f1ba67f-1437-52b3-a4ac-0a100a898173"]
   ],

@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/m-3000-f2-measured-vs-mirror-model.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "d44ec849-a695-56a8-95e6-d481928046cd",
   "graph/inputs": [],
   "graph/language": "javascript",

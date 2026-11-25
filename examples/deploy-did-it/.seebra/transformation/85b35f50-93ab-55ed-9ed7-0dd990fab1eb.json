@@ -1,0 +1,21 @@
+{
+  "transformation/content": {
+    "$file": "transforms/drill-down-messages-before-vs-after-each-rollout.js"
+  },
+  "transformation/data-child": ["data/id", "e2ba53d4-9054-5bd8-a2a6-fe3a544eb6db"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "js-web-worker",
+  "transformation/id": "85b35f50-93ab-55ed-9ed7-0dd990fab1eb",
+  "transformation/inputs": [
+    ["data/id", "dcc62f26-c2dd-5c2b-a60d-775052c3ac51"]
+  ],
+  "transformation/language": "javascript",
+  "transformation/name": "Drill down: messages before vs after each rollout",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 560
+  },
+  "transformation/parent": ["data/id", "178d87a1-ae44-52e0-a721-6eece25cc695"],
+  "transformation/units": "{}"
+}

@@ -1,0 +1,69 @@
+{
+  "dashboard/id": "06dbf37f-bed8-5aab-852f-4020010e6b3e",
+  "datas": [
+    ["data/id", "5c05961d-8c92-51ca-8f5a-a4329551bbd5"],
+    ["data/id", "127658ed-d5c4-5796-914a-4f0fa502065c"],
+    ["data/id", "c76aa9b0-8cc9-5cd7-b0aa-367b35ed4c12"],
+    ["data/id", "85b07fe1-5e71-5d96-b22e-5f67dece9d9b"],
+    ["data/id", "60d78271-4dc9-5fe9-b708-942ad9b18ae4"],
+    ["data/id", "2c14af2c-653d-52a7-a691-e2ba0d5d8488"],
+    ["data/id", "1c2b1cbd-6876-5075-887f-f2053a314ccf"],
+    ["data/id", "17e435e4-1076-508b-b8aa-0982b8b951e8"],
+    ["data/id", "a2dbd774-5daf-51aa-a4ce-5b9e74600297"],
+    ["data/id", "1dd1367b-bccf-583c-9652-39b270d80453"],
+    ["data/id", "5aabde6f-761a-54b5-946f-4c8d7ba535be"],
+    ["data/id", "4ec28fa0-87c1-5381-b6b4-04112794b597"],
+    ["data/id", "7548c2dd-dca5-52a2-bc8a-ac6c7fa50847"],
+    ["data/id", "6f5987ac-6877-53ff-8544-c28f590da2ee"],
+    ["data/id", "5752c3ec-7b5a-5087-8b9d-0f24c177ebf1"],
+    ["data/id", "fd42323e-9196-5ccb-b792-287aba3fef25"]
+  ],
+  "datasources": [
+    ["datasource/id", "271ffab2-e43c-5ded-8102-4ec0b6e24df2"],
+    ["datasource/id", "dca5ba5b-4c47-5c43-aa48-1c684fcee8d5"],
+    ["datasource/id", "e6c642bc-ea4a-51e5-a6ca-0f97034640d3"],
+    ["datasource/id", "4d301a20-5682-56b8-a68a-680aa07ab2d5"],
+    ["datasource/id", "02505011-85b4-5524-a28a-115681afbd17"]
+  ],
+  "description": "A chromosome's protein-coding genes (Human Protein Atlas) in the 3D domains Hi-C finds (ENCODE, GM12878), by what they do, where their RNA is, and the protein complexes they build. Zoom the track, climb the function hierarchy, test whether genes that share a domain share a function, and open a complex in 3D.",
+  "graphs": [
+    ["graph/id", "661263d6-e436-514e-a584-ebfe4e817b44"],
+    ["graph/id", "0782b782-b3fb-51c8-9643-9529f9457864"],
+    ["graph/id", "0b95849e-6e43-533e-b614-00b245128d02"],
+    ["graph/id", "2780affb-44cd-5296-a185-5ce7cded502c"],
+    ["graph/id", "580295c8-0814-503a-a384-3ab0ed7cd8cc"],
+    ["graph/id", "2dce781b-c5e6-5fae-b912-d72a82746816"]
+  ],
+  "grids": [],
+  "name": "Genes in their domains: a chromosome's TADs, functions and organs",
+  "ontology": {
+    "$file": ".seebra/dashboard/06dbf37f-bed8-5aab-852f-4020010e6b3e.ontology.json",
+    "$json": true
+  },
+  "parameters": [
+    ["data/id", "5c05961d-8c92-51ca-8f5a-a4329551bbd5"]
+  ],
+  "queries": [
+    ["query/id", "c508b211-39a8-545d-b92a-a3edeb98a488"],
+    ["query/id", "3602d48c-9019-518c-a2f2-f5968b227239"],
+    ["query/id", "802a5711-733b-5f7d-9ca7-76211dd1d3c4"],
+    ["query/id", "bf5af5ef-72b7-50e3-820c-fbefaf2551db"],
+    ["query/id", "f387bde6-770c-54b9-b370-c7a31a086165"],
+    ["query/id", "db6531ff-8174-5364-b2fb-aa88c82d225e"]
+  ],
+  "studies": [],
+  "tables": [],
+  "texts": [],
+  "timers": [],
+  "transformations": [
+    ["transformation/id", "3233e469-99f0-5cd1-926f-b5c213c9b6ef"],
+    ["transformation/id", "c86ad3cb-cf01-5cd6-b6b9-9ea3e2cec7af"],
+    ["transformation/id", "171d3180-e76a-5ca0-a15e-2511f59da94e"],
+    ["transformation/id", "61a0a69e-83fe-52a1-9660-56d92aaafa40"],
+    ["transformation/id", "de4fc4a4-2e8c-5e96-9f21-e87f9ed191f5"],
+    ["transformation/id", "47026ebc-98a5-52e3-b4b1-316a7cc19fb6"],
+    ["transformation/id", "6accd642-8de3-524d-95d4-c63f4fef3157"],
+    ["transformation/id", "761283fb-c497-5e76-ae80-8e446dd44416"],
+    ["transformation/id", "61fdd704-3468-5b4f-8a03-9e85e4518335"]
+  ]
+}

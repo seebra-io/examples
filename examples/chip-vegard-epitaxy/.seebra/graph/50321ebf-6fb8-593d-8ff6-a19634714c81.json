@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/the-band-gap-bows-the-lattice-constant-doesn-t.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "50321ebf-6fb8-593d-8ff6-a19634714c81",
   "graph/inputs": [],
   "graph/language": "javascript",

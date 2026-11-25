@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/yield-against-fertiliser-a-curve-that-flattens.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "76ad1861-7010-567b-855e-3f09be8accce",
   "graph/inputs": [
     ["data/id", "286483a4-3024-5d58-8c0c-9f1b90c05b3a"],

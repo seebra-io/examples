@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "1c2b1cbd-6876-5075-887f-f2053a314ccf"],
+  "query/datasource": ["datasource/id", "02505011-85b4-5524-a28a-115681afbd17"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "db6531ff-8174-5364-b2fb-aa88c82d225e",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Which protein each chain of {{pdb}} is (PDBe SIFTS mapping to UniProt)",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 1280
+  },
+  "query/params": "{}",
+  "query/path": "/mappings/uniprot/{{pdb}}",
+  "query/request-body": "",
+  "query/units": "{}"
+}

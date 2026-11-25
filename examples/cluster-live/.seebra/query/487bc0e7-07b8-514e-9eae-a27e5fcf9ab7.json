@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "612f8cc9-200c-5331-af18-28c75020d49c"],
+  "query/datasource": ["datasource/id", "4a21b992-762e-546e-a625-31076bcc4301"],
+  "query/dynamic?": true,
+  "query/format": "json",
+  "query/headers": "{}",
+  "query/id": "487bc0e7-07b8-514e-9eae-a27e5fcf9ab7",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Workloads: CPU and memory against requests and limits, restarts, pod phases",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 560
+  },
+  "query/params": "{\"query\":\"(sum by (workload, signal) ((label_replace({{cpu_promql}}, \\\"signal\\\", \\\"cpu\\\", \\\"\\\", \\\"\\\") or label_replace({{cpu_requests_promql}}, \\\"signal\\\", \\\"cpu_requests\\\", \\\"\\\", \\\"\\\") or label_replace({{cpu_limits_promql}}, \\\"signal\\\", \\\"cpu_limits\\\", \\\"\\\", \\\"\\\") or label_replace({{memory_promql}}, \\\"signal\\\", \\\"memory\\\", \\\"\\\", \\\"\\\") or label_replace({{memory_requests_promql}}, \\\"signal\\\", \\\"memory_requests\\\", \\\"\\\", \\\"\\\") or label_replace({{memory_limits_promql}}, \\\"signal\\\", \\\"memory_limits\\\", \\\"\\\", \\\"\\\") or label_replace({{restarts_promql}}, \\\"signal\\\", \\\"restarts_total\\\", \\\"\\\", \\\"\\\")) * on (namespace, pod) group_left (workload) {{workload_owner}}) or max by (workload, pod, signal) ((label_replace({{memory_promql}}, \\\"signal\\\", \\\"pod_memory\\\", \\\"\\\", \\\"\\\") or label_replace({{memory_limits_promql}}, \\\"signal\\\", \\\"pod_memory_limits\\\", \\\"\\\", \\\"\\\")) * on (namespace, pod) group_left (workload) {{workload_owner}}) or label_replace({{phase_promql}}, \\\"signal\\\", \\\"pods\\\", \\\"\\\", \\\"\\\"))[{{window}}:{{step}}]\"}",
+  "query/path": "/query",
+  "query/request-body": "",
+  "query/units": "{}"
+}

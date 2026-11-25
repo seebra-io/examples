@@ -18,6 +18,7 @@
   ],
   "grids": [],
   "name": "Central limit theorem: earthquake depths",
+  "parameters": [],
   "queries": [
     ["query/id", "0bbf3463-6997-5212-8c3e-c88785a9aaf4"]
   ],

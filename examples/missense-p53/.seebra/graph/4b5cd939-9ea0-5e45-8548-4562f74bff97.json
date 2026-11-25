@@ -1,0 +1,16 @@
+{
+  "graph/content": {
+    "$file": "graphs/every-single-change-predicted-carried-diagnosed.js"
+  },
+  "graph/dynamic?": false,
+  "graph/id": "4b5cd939-9ea0-5e45-8548-4562f74bff97",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Every single change: predicted, carried, diagnosed",
+  "graph/node": {
+    "node/created": 1,
+    "node/x": 1460,
+    "node/y": 560
+  },
+  "graph/parent": ["data/id", "b1ff01d6-2927-5f1a-bf96-3ad0908bc677"]
+}

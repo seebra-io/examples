@@ -25,6 +25,7 @@
   ],
   "grids": [],
   "name": "The solar system to scale: the Sun to Jupiter",
+  "parameters": [],
   "queries": [
     ["query/id", "a05fe6a9-471f-570f-b6fc-ff917ddc3f4b"],
     ["query/id", "4fb91dd5-1eed-5899-9d5e-11a3a0a1b336"],

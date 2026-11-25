@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/images-per-sol-the-same-100-images-different.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "0bd7b304-7bab-55da-a9d0-ea425fa5c5d5",
   "graph/inputs": [
     ["data/id", "1e4a3fc0-ba19-5a1b-b481-4d86e9b73725"]

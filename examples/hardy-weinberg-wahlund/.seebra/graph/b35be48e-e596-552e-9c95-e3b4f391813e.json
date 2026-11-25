@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/allele-frequencies-at-the-sampling-sites.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "b35be48e-e596-552e-9c95-e3b4f391813e",
   "graph/inputs": [],
   "graph/language": "javascript",

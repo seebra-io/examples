@@ -1,0 +1,10 @@
+{
+  "data/id": "60d78271-4dc9-5fe9-b708-942ad9b18ae4",
+  "data/name": "Every curated human protein complex (Complex Portal, ComplexTAB) data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 800
+  },
+  "data/parent": ["query/id", "bf5af5ef-72b7-50e3-820c-fbefaf2551db"],
+  "data/type": "json"
+}

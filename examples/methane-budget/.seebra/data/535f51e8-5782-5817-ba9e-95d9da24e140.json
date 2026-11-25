@@ -1,0 +1,10 @@
+{
+  "data/id": "535f51e8-5782-5817-ba9e-95d9da24e140",
+  "data/name": "Growth, ENSO, the budget, three futures and the forcing data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "0e860c8c-cc7e-5dc5-8b15-0cbd968f856f"],
+  "data/type": "json"
+}

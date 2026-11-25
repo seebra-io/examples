@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/when-they-were-added-to-science-nasa-gov.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "477a0a1b-5ca5-5b01-8352-f9d0f9d11ec5",
   "graph/inputs": [],
   "graph/language": "javascript",

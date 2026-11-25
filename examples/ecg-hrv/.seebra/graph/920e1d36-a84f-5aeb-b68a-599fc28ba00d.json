@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/rr-tachograms-three-hearts-15-minutes-each.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "920e1d36-a84f-5aeb-b68a-599fc28ba00d",
   "graph/inputs": [],
   "graph/language": "javascript",

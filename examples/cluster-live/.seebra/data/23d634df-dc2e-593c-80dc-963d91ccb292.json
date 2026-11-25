@@ -1,0 +1,12 @@
+{
+  "data/id": "23d634df-dc2e-593c-80dc-963d91ccb292",
+  "data/name": "Notes: what is outside its usual band",
+  "data/node": {
+    "node/created": 2,
+    "node/x": 2070,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "8f206a6c-bdcc-5264-953e-1efc69065440"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

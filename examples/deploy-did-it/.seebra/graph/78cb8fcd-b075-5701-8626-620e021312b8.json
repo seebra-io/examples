@@ -1,0 +1,18 @@
+{
+  "graph/content": {
+    "$file": "graphs/verdict-per-rollout.js"
+  },
+  "graph/dynamic?": false,
+  "graph/id": "78cb8fcd-b075-5701-8626-620e021312b8",
+  "graph/inputs": [
+    ["data/id", "e292e1cf-ba4a-54f1-94f0-75759d7a24f6"]
+  ],
+  "graph/language": "javascript",
+  "graph/name": "Verdict per rollout",
+  "graph/node": {
+    "node/created": 2,
+    "node/x": 1920,
+    "node/y": 80
+  },
+  "graph/parent": ["data/id", "dcc62f26-c2dd-5c2b-a60d-775052c3ac51"]
+}

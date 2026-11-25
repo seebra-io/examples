@@ -1,0 +1,8 @@
+{
+  "file": {
+    "file/example": "missense-p53"
+  },
+  "format": 2,
+  "root": ["dashboard/id", "d6a6a2b0-1ff8-54d4-8b08-ad603a1ab7ec"],
+  "seebra": "board"
+}

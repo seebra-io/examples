@@ -1,0 +1,36 @@
+{
+  "dashboard/id": "fcd92dd7-61aa-5e18-9ea0-9c23ee6f5c58",
+  "datas": [
+    ["data/id", "15e81a4f-198b-561b-9cae-c05234ebb174"],
+    ["data/id", "f9c0d719-34a5-5e13-9077-104ac849b9f4"],
+    ["data/id", "9301c0f3-6cf8-500d-885a-707f61373696"],
+    ["data/id", "aa860d19-649f-548b-a182-c41c366a60c3"],
+    ["data/id", "c599792c-774e-5e5c-b6a1-0c003e1746f9"],
+    ["data/id", "fc62a0f7-fb6c-5508-acdc-954cfcdadece"]
+  ],
+  "datasources": [
+    ["datasource/id", "a29fd06b-576b-5563-870a-ebed21377388"]
+  ],
+  "description": "What is new in US recalls, with where each record came from: openFDA's drug and food enforcement reports and device recalls, newest first, one row per recall with its key (recall number), class, firm, reason, and its provenance: the record's own query at openFDA, the feed, when openFDA last updated it and when this board read it. openFDA publishes weekly, so new means in a feed's latest report; device recalls post daily. Next step: watch a feed (Source watch → Discover) to be told what is new since the last check, with a SHA-256 of each answer and a Wayback Machine copy, and verify a record against the source before you publish. A recall is the firm's or FDA's action, not proof of harm; openFDA data are not for medical decisions.",
+  "graphs": [
+    ["graph/id", "2102baeb-b41f-5d13-a2ee-a72eabb39b86"],
+    ["graph/id", "415c6371-73d1-5997-bfc9-0423aac3478e"]
+  ],
+  "grids": [],
+  "name": "What's new in recalls",
+  "parameters": [],
+  "queries": [
+    ["query/id", "25a1c38f-50e5-523e-9240-54f285a5add8"],
+    ["query/id", "9e5856f3-8120-5f7b-8b81-533980862987"],
+    ["query/id", "89ae5529-4ea6-53b1-a887-5fbe95dfc613"]
+  ],
+  "studies": [],
+  "tables": [],
+  "texts": [],
+  "timers": [],
+  "transformations": [
+    ["transformation/id", "2e74653a-08b3-57dc-a814-6de7162699d7"],
+    ["transformation/id", "6ad77d7d-16e4-530c-bcc0-7b3cedb195ee"],
+    ["transformation/id", "3664aa57-7463-5079-9005-97e4292df31d"]
+  ]
+}

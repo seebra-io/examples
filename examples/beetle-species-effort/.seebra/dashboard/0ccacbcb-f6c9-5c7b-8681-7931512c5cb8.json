@@ -22,6 +22,7 @@
   ],
   "grids": [],
   "name": "Beetle species and effort",
+  "parameters": [],
   "queries": [
     ["query/id", "58fb2c78-5262-5473-829d-0372fb86f79c"],
     ["query/id", "1a48d2e8-aaf6-5465-8a84-07e7da7f530c"],

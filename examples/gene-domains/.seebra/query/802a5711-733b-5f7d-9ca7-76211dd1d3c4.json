@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "85b07fe1-5e71-5d96-b22e-5f67dece9d9b"],
+  "query/datasource": ["datasource/id", "271ffab2-e43c-5ded-8102-4ec0b6e24df2"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "802a5711-733b-5f7d-9ca7-76211dd1d3c4",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Every human gene: name, UniProt ids, chromosome (HPA), to name the subunits encoded elsewhere",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 560
+  },
+  "query/params": "{\"format\":\"json\",\"columns\":\"g,up,chr\",\"compress\":\"no\"}",
+  "query/path": "/search_download.php",
+  "query/request-body": "",
+  "query/units": "{}"
+}

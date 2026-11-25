@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/recalls-per-report-day-and-feed.sql"
+  },
+  "transformation/data-child": ["data/id", "fc62a0f7-fb6c-5508-acdc-954cfcdadece"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "3664aa57-7463-5079-9005-97e4292df31d",
+  "transformation/inputs": [],
+  "transformation/language": "sql",
+  "transformation/name": "Recalls per report day and feed",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "aa860d19-649f-548b-a182-c41c366a60c3"],
+  "transformation/units": "{}"
+}

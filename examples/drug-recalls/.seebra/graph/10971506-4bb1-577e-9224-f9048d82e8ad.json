@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/recalls-per-1-000-listed-products-by-route-a.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "10971506-4bb1-577e-9224-f9048d82e8ad",
   "graph/inputs": [],
   "graph/language": "javascript",

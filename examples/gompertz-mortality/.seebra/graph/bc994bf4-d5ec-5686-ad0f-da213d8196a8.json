@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/level-against-doubling-time-2003-2023.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "bc994bf4-d5ec-5686-ad0f-da213d8196a8",
   "graph/inputs": [],
   "graph/language": "javascript",

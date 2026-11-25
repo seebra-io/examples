@@ -1,0 +1,16 @@
+{
+  "graph/content": {
+    "$file": "graphs/the-selected-complex-in-3d-chains-by-protein.js"
+  },
+  "graph/dynamic?": false,
+  "graph/id": "2dce781b-c5e6-5fae-b912-d72a82746816",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "The selected complex in 3D: chains by protein, this chromosome's bright",
+  "graph/node": {
+    "node/created": 6,
+    "node/x": 1460,
+    "node/y": 560
+  },
+  "graph/parent": ["data/id", "4ec28fa0-87c1-5381-b6b4-04112794b597"]
+}

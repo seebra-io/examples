@@ -1,0 +1,10 @@
+{
+  "data/id": "38f3d53c-64fb-5218-85c0-d7fb0a93cfc5",
+  "data/name": "Usual band per service signal: rolling median ± k·MAD data",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "e984464b-23a6-5535-b74e-975d3d0562f7"],
+  "data/type": "json"
+}

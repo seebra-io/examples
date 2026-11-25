@@ -1,0 +1,8 @@
+{
+  "file": {
+    "file/example": "gene-domains"
+  },
+  "format": 2,
+  "root": ["dashboard/id", "06dbf37f-bed8-5aab-852f-4020010e6b3e"],
+  "seebra": "board"
+}

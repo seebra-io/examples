@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/eight-countries-paths-along-the-curve.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "7b1330f5-ea68-5fa2-9bf8-ee80e6d8db84",
   "graph/inputs": [
     ["data/id", "286483a4-3024-5d58-8c0c-9f1b90c05b3a"]

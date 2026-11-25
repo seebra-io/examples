@@ -1,0 +1,19 @@
+{
+  "graph/content": {
+    "$file": "graphs/drill-down-a-rollout-s-logs-events-and-pods.js"
+  },
+  "graph/dynamic?": false,
+  "graph/id": "6f68003d-1bf9-56a1-a5a9-66f6b5380357",
+  "graph/inputs": [
+    ["data/id", "e2ba53d4-9054-5bd8-a2a6-fe3a544eb6db"],
+    ["data/id", "1df80b43-c52c-593b-a5a0-1911753654c9"]
+  ],
+  "graph/language": "javascript",
+  "graph/name": "Drill down: a rollout's logs, events and pods",
+  "graph/node": {
+    "node/created": 3,
+    "node/x": 1920,
+    "node/y": 320
+  },
+  "graph/parent": ["data/id", "dcc62f26-c2dd-5c2b-a60d-775052c3ac51"]
+}

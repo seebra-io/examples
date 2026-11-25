@@ -1,0 +1,10 @@
+{
+  "data/id": "93161b5a-7c8c-556d-aa15-25f5fda663b8",
+  "data/name": "DESI DR2 BAO: distances over the sound horizon at seven redshifts data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 320
+  },
+  "data/parent": ["query/id", "b555b539-46fa-56f9-b77f-10df9c46f64d"],
+  "data/type": "json"
+}

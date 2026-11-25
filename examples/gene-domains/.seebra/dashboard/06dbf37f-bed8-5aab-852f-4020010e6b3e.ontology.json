@@ -1,0 +1,110 @@
+{
+  "title": "Genes in their domains",
+  "summary": "A chromosome's protein-coding genes, the 3D domains (TADs) they sit in, what they do and where in the body they are active.",
+  "concepts": [
+    {
+      "cid": "c1",
+      "label": "Chromosome",
+      "kind": "entity",
+      "description": "One of the 24 human chromosomes (GRCh38), chosen with the chrom parameter.",
+      "fields": [
+        "t_gene_table.chromosome"
+      ],
+      "in_data": true,
+      "wikidata": "Q37748",
+      "children": [
+        {
+          "cid": "c2",
+          "label": "Topologically associating domain",
+          "kind": "entity",
+          "as": "part",
+          "description": "A stretch of DNA that contacts itself more than its surroundings in Hi-C; domains nest. Called by Arrowhead in one cell line, GM12878.",
+          "fields": [
+            "t_domain_table.id",
+            "t_gene_table.domain"
+          ],
+          "in_data": true,
+          "wikidata": "Q17157082"
+        },
+        {
+          "cid": "c3",
+          "label": "Gene",
+          "kind": "entity",
+          "as": "part",
+          "description": "A protein-coding gene, with its position (start, end in bp).",
+          "fields": [
+            "t_gene_table.gene",
+            "t_gene_table.ensembl"
+          ],
+          "in_data": true,
+          "wikidata": "Q7187",
+          "children": [
+            {
+              "cid": "c4",
+              "label": "Biological process",
+              "kind": "category",
+              "as": "property",
+              "description": "UniProt's process keyword, grouped into a system here (the grouping is this board's, not UniProt's).",
+              "fields": [
+                "t_gene_table.system",
+                "t_gene_table.process"
+              ],
+              "in_data": true
+            },
+            {
+              "cid": "c5",
+              "label": "Tissue specificity",
+              "kind": "category",
+              "as": "property",
+              "description": "HPA's class from RNA in tissues: enriched, group enriched, enhanced, low specificity, not detected.",
+              "fields": [
+                "t_gene_table.specificity",
+                "t_gene_table.enriched_in"
+              ],
+              "in_data": true
+            },
+            {
+              "cid": "c6",
+              "label": "RNA expression (nTPM)",
+              "kind": "measure",
+              "as": "property",
+              "description": "Normalized transcripts per million in a tissue (HPA consensus). RNA, not protein.",
+              "fields": [
+                "t_gene_table.top_ntpm"
+              ],
+              "in_data": true
+            },
+            {
+              "cid": "c7",
+              "label": "Protein complex",
+              "kind": "entity",
+              "as": "related",
+              "description": "Proteins that work bound together (curated by Complex Portal, EBI); the gene encodes one subunit. Complexes that differ in one subunit are variants of one family.",
+              "fields": [
+                "t_complex_table.id",
+                "t_complex_table.name",
+                "t_complex_table.family"
+              ],
+              "in_data": true,
+              "wikidata": "Q420927",
+              "children": [
+                {
+                  "cid": "c8",
+                  "label": "Protein structure",
+                  "kind": "entity",
+                  "as": "part",
+                  "description": "An experimental 3D structure in the PDB; an entry can hold the whole complex or only some of its subunits.",
+                  "fields": [
+                    "t_complex_table.structures"
+                  ],
+                  "in_data": true,
+                  "wikidata": "Q735188"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

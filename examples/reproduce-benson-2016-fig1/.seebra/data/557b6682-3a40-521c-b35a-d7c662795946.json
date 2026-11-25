@@ -1,0 +1,10 @@
+{
+  "data/id": "557b6682-3a40-521c-b35a-d7c662795946",
+  "data/name": "The paper (Crossref) data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 800
+  },
+  "data/parent": ["query/id", "56daf381-98d7-5219-83eb-af1b8f75dead"],
+  "data/type": "json"
+}

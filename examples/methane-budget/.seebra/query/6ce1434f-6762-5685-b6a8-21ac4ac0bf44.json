@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "dcd96ad8-616d-5fbf-97e9-175a3e79d056"],
+  "query/datasource": ["datasource/id", "cfd23ce1-643f-5b06-84cc-d48919964027"],
+  "query/dynamic?": true,
+  "query/format": "text",
+  "query/headers": "{}",
+  "query/id": "6ce1434f-6762-5685-b6a8-21ac4ac0bf44",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Global N₂O, monthly means (ppb)",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 800
+  },
+  "query/params": "{}",
+  "query/path": "/n2o/n2o_mm_gl.txt",
+  "query/request-body": "",
+  "query/units": "{}"
+}

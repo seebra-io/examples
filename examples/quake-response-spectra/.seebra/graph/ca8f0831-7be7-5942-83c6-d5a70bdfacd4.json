@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/resonance-and-damping-theory.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "ca8f0831-7be7-5942-83c6-d5a70bdfacd4",
   "graph/inputs": [],
   "graph/language": "javascript",

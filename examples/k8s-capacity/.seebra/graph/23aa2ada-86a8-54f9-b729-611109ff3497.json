@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/bin-packing-cpu-against-memory-per-node.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "23aa2ada-86a8-54f9-b729-611109ff3497",
   "graph/inputs": [
     ["data/id", "7e118221-b1e1-54da-88bc-9af3e888163d"]

@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "127658ed-d5c4-5796-914a-4f0fa502065c"],
+  "query/datasource": ["datasource/id", "271ffab2-e43c-5ded-8102-4ec0b6e24df2"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "c508b211-39a8-545d-b92a-a3edeb98a488",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Protein-coding genes on the chromosome (HPA: position, keywords, RNA in 19 tissues)",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 80
+  },
+  "query/params": "{\"search\":\"chromosome:{{chrom}}\",\"format\":\"json\",\"columns\":\"g,eg,up,gd,chr,chrp,pc,upbp,up_mf,rnats,rnatd,rnatsm,t_RNA_cerebral_cortex,t_RNA_retina,t_RNA_thyroid_gland,t_RNA_adrenal_gland,t_RNA_heart_muscle,t_RNA_skeletal_muscle,t_RNA_lung,t_RNA_liver,t_RNA_pancreas,t_RNA_small_intestine,t_RNA_colon,t_RNA_kidney,t_RNA_spleen,t_RNA_lymph_node,t_RNA_bone_marrow,t_RNA_adipose_tissue,t_RNA_testis,t_RNA_ovary,t_RNA_placenta\",\"compress\":\"no\"}",
+  "query/path": "/search_download.php",
+  "query/request-body": "",
+  "query/units": "{}"
+}

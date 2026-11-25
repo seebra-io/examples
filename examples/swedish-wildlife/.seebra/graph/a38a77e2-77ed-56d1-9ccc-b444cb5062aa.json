@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/birds-per-100-photographed-records-per-province.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "a38a77e2-77ed-56d1-9ccc-b444cb5062aa",
   "graph/inputs": [],
   "graph/language": "javascript",

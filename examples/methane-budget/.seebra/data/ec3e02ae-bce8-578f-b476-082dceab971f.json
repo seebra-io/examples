@@ -1,0 +1,12 @@
+{
+  "data/id": "ec3e02ae-bce8-578f-b476-082dceab971f",
+  "data/name": "Futures",
+  "data/node": {
+    "node/created": 7,
+    "node/x": 1610,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "53e885d1-23eb-5623-b027-4772a00a0a97"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

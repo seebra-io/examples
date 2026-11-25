@@ -1,0 +1,12 @@
+{
+  "data/id": "8aff4b35-a5c3-5486-9ad5-1bf6c829f3dc",
+  "data/name": "Per bin: occurrences, coverage, subsampled genera and the records behind each",
+  "data/node": {
+    "node/created": 4,
+    "node/x": 1150,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "da4e3f73-d31c-525e-bffd-48ec518f0ac4"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

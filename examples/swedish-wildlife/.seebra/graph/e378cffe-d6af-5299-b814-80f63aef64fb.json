@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/a-few-observers-make-most-of-the-sample.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "e378cffe-d6af-5299-b814-80f63aef64fb",
   "graph/inputs": [],
   "graph/language": "javascript",

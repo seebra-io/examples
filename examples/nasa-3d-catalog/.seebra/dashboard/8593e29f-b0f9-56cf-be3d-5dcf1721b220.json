@@ -22,6 +22,7 @@
   ],
   "grids": [],
   "name": "NASA in 3D: the model catalog",
+  "parameters": [],
   "queries": [
     ["query/id", "32d1a5c7-6945-56f8-87c6-d22045802853"],
     ["query/id", "02f64e63-4aed-5ed8-8194-bf9e4c963916"],

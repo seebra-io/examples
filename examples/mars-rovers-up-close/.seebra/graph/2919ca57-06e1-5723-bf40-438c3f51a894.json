@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/mass-and-power-across-four-generations.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "2919ca57-06e1-5723-bf40-438c3f51a894",
   "graph/inputs": [],
   "graph/language": "javascript",

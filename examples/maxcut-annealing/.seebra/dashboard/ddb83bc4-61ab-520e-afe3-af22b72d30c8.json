@@ -18,6 +18,7 @@
   ],
   "grids": [],
   "name": "Max-cut three ways",
+  "parameters": [],
   "queries": [],
   "studies": [
     ["study/id", "55a5a6a8-ecb2-57c6-9382-54e489afd096"]

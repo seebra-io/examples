@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/cost-of-a-good-mm2-against-die-area.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "ccacf6f7-87b7-5b1e-9aca-b0be3dfb87e4",
   "graph/inputs": [],
   "graph/language": "javascript",

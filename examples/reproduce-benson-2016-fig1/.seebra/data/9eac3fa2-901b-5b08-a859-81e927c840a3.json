@@ -1,0 +1,12 @@
+{
+  "data/id": "9eac3fa2-901b-5b08-a859-81e927c840a3",
+  "data/name": "The paper's numbers next to today's PBDB",
+  "data/node": {
+    "node/created": 3,
+    "node/x": 2070,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "301d512f-bf65-5727-b241-1a2f892d49c1"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

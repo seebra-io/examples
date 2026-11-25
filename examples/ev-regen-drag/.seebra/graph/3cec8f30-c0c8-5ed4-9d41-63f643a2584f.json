@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/highway-against-city-energy.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "3cec8f30-c0c8-5ed4-9d41-63f643a2584f",
   "graph/inputs": [],
   "graph/language": "javascript",

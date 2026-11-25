@@ -1,0 +1,21 @@
+{
+  "transformation/content": {
+    "$file": "transforms/rollouts-revision-time-image-before-after.js"
+  },
+  "transformation/data-child": ["data/id", "efa9c805-88b0-5b68-938a-62b5c4f98c87"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "js-web-worker",
+  "transformation/id": "796a4ea2-5e15-5147-ae35-55fdc0d9dce6",
+  "transformation/inputs": [
+    ["data/id", "20754757-c285-5bfc-b964-cc2f22021d1b"]
+  ],
+  "transformation/language": "javascript",
+  "transformation/name": "Rollouts: revision, time, image before → after",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "584a7318-923e-5473-afa9-1e81180f4e86"],
+  "transformation/units": "{}"
+}

@@ -1,0 +1,10 @@
+{
+  "data/id": "b9a67743-313f-5011-97ae-93511d2eadf4",
+  "data/name": "Pantheon+SH0ES: 1,701 type Ia supernova light curves' distances (text table) data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 80
+  },
+  "data/parent": ["query/id", "94ae4e38-b6fc-5af5-90b2-701c7db6b9c8"],
+  "data/type": "json"
+}

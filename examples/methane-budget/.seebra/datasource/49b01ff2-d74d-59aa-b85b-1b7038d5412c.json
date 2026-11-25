@@ -1,0 +1,16 @@
+{
+  "datasource/api-key-key": "api_key",
+  "datasource/auth-type": "none",
+  "datasource/headers": "{}",
+  "datasource/id": "49b01ff2-d74d-59aa-b85b-1b7038d5412c",
+  "datasource/name": "NOAA Climate Prediction Center (indices)",
+  "datasource/node": {
+    "inputs": 1,
+    "node/x": 80,
+    "node/y": 320,
+    "outputs": 1
+  },
+  "datasource/params": "{}",
+  "datasource/type": "openapi",
+  "datasource/url": "https://www.cpc.ncep.noaa.gov/data/indices"
+}

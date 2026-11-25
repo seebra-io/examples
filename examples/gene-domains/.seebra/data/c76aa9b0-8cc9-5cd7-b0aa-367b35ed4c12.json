@@ -1,0 +1,10 @@
+{
+  "data/id": "c76aa9b0-8cc9-5cd7-b0aa-367b35ed4c12",
+  "data/name": "Contact domains (TADs), GM12878 in situ Hi-C: ENCODE ENCFF203AKP, all chromosomes (gzipped BEDPE) data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 320
+  },
+  "data/parent": ["query/id", "3602d48c-9019-518c-a2f2-f5968b227239"],
+  "data/type": "json"
+}

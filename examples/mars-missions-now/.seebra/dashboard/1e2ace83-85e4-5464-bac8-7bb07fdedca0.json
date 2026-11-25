@@ -18,6 +18,7 @@
   ],
   "grids": [],
   "name": "Missions at Mars now",
+  "parameters": [],
   "queries": [
     ["query/id", "1c95922c-f1d8-5c82-8c2e-cafd80900932"]
   ],

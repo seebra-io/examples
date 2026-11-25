@@ -1,0 +1,1 @@
+SELECT feed, reported, COUNT(*) AS recalls, SUM(CASE WHEN class = 'Class I' THEN 1 ELSE 0 END) AS class_i, MAX(in_latest_report) AS latest FROM data GROUP BY feed, reported ORDER BY reported, feed

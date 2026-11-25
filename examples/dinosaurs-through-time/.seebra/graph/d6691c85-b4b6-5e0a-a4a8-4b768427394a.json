@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/genera-per-stage-turnover-and-how-many-fossils.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "d6691c85-b4b6-5e0a-a4a8-4b768427394a",
   "graph/inputs": [],
   "graph/language": "javascript",

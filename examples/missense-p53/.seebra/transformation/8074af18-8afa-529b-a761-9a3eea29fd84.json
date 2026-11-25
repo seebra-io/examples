@@ -1,0 +1,24 @@
+{
+  "transformation/content": {
+    "$file": "transforms/every-change-predicted-alphamissense-carried.js"
+  },
+  "transformation/data-child": ["data/id", "b1ff01d6-2927-5f1a-bf96-3ad0908bc677"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "js-web-worker",
+  "transformation/id": "8074af18-8afa-529b-a761-9a3eea29fd84",
+  "transformation/inputs": [
+    ["data/id", "d8711895-e658-5451-bf0b-9ef41ddf0c2b"],
+    ["data/id", "065d8b9c-19c2-557f-857f-6741389b34f7"],
+    ["data/id", "1e8943e2-5762-50db-8972-e659f8a7d184"],
+    ["data/id", "361daca6-3ac6-5c23-b12c-aedd94355e89"]
+  ],
+  "transformation/language": "javascript",
+  "transformation/name": "Every change: predicted (AlphaMissense), carried (gnomAD), diagnosed (ClinVar)",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "c14cb995-2ccf-5fe8-964b-7be94cb9f9ae"],
+  "transformation/units": "{}"
+}

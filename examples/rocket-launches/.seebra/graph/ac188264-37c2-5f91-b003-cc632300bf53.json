@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/launch-timeline-by-provider.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "ac188264-37c2-5f91-b003-cc632300bf53",
   "graph/inputs": [
     ["data/id", "5131ee02-a38c-5087-b993-35270c404a12"]

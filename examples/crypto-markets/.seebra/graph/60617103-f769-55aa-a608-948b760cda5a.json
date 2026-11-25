@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/24h-change.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "60617103-f769-55aa-a608-948b760cda5a",
   "graph/inputs": [],
   "graph/language": "javascript",

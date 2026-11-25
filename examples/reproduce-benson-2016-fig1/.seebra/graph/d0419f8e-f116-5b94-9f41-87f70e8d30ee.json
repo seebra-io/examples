@@ -1,0 +1,19 @@
+{
+  "graph/content": {
+    "$file": "graphs/figure-1b-c-live-genera-and-species-per-bin-and.js"
+  },
+  "graph/dynamic?": false,
+  "graph/id": "d0419f8e-f116-5b94-9f41-87f70e8d30ee",
+  "graph/inputs": [
+    ["data/id", "539c354d-a94e-5752-ac98-429efc63425c"],
+    ["data/id", "8aff4b35-a5c3-5486-9ad5-1bf6c829f3dc"]
+  ],
+  "graph/language": "javascript",
+  "graph/name": "Figure 1B–C, live: genera and species per bin, and after subsampling (click a bin)",
+  "graph/node": {
+    "node/created": 1,
+    "node/x": 1460,
+    "node/y": 560
+  },
+  "graph/parent": ["data/id", "029e7b46-758b-5013-8897-dbacf360fb64"]
+}

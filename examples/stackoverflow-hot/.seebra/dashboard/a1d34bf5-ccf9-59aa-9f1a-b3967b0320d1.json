@@ -17,6 +17,7 @@
   ],
   "grids": [],
   "name": "Hot Python questions on Stack Overflow",
+  "parameters": [],
   "queries": [
     ["query/id", "a3952737-a13e-5d05-a8cb-a4d4b898f990"]
   ],

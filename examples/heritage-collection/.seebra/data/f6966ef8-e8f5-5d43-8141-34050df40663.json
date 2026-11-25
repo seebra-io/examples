@@ -1,0 +1,10 @@
+{
+  "data/id": "f6966ef8-e8f5-5d43-8141-34050df40663",
+  "data/name": "Collection gaps by record type data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "70a9627b-ebbf-5dbf-a6b2-a13f2343da3d"],
+  "data/type": "json"
+}

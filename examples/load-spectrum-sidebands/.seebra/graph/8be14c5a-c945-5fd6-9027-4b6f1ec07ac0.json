@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/the-signal-8-weeks-of-load.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "8be14c5a-c945-5fd6-9027-4b6f1ec07ac0",
   "graph/inputs": [],
   "graph/language": "javascript",

@@ -1,0 +1,10 @@
+{
+  "data/id": "24246c15-4036-5e57-bc87-90286f07a9a7",
+  "data/name": "What the pages cover data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 1280
+  },
+  "data/parent": ["transformation/id", "e09d7a79-c53a-5555-b862-f39339fc6012"],
+  "data/type": "json"
+}

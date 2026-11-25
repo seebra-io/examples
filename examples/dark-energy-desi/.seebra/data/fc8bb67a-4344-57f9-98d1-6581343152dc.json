@@ -1,0 +1,12 @@
+{
+  "data/id": "fc8bb67a-4344-57f9-98d1-6581343152dc",
+  "data/name": "H0",
+  "data/node": {
+    "node/created": 7,
+    "node/x": 1610,
+    "node/y": 560
+  },
+  "data/parent": ["transformation/id", "f643b1d2-3b7b-5988-86db-8ad12b5c68f5"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

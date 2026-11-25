@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "f9c0d719-34a5-5e13-9077-104ac849b9f4"],
+  "query/datasource": ["datasource/id", "a29fd06b-576b-5563-870a-ebed21377388"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "9e5856f3-8120-5f7b-8b81-533980862987",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Food enforcement reports (newest 100)",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 320
+  },
+  "query/params": "{\"sort\":\"report_date:desc\",\"limit\":\"100\"}",
+  "query/path": "/food/enforcement.json",
+  "query/request-body": "",
+  "query/units": "{}"
+}

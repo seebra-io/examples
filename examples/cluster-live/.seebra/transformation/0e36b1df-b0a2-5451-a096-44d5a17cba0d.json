@@ -1,0 +1,24 @@
+{
+  "transformation/content": {
+    "$file": "transforms/metrics-as-rows-ms-cores-mib.js"
+  },
+  "transformation/data-child": ["data/id", "234d2eef-36b5-51b4-b160-b553c4932bff"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "js-web-worker",
+  "transformation/id": "0e36b1df-b0a2-5451-a096-44d5a17cba0d",
+  "transformation/inputs": [
+    ["data/id", "c939fa37-8342-59d4-9ae3-c3cf44b0d143"],
+    ["data/id", "612f8cc9-200c-5331-af18-28c75020d49c"],
+    ["data/id", "34b4df81-c1f9-5c26-aeb7-ed85a1af3ef9"],
+    ["data/id", "bfcfd551-03a3-5184-9e8c-629c50bc31a6"]
+  ],
+  "transformation/language": "javascript",
+  "transformation/name": "Metrics as rows (ms, %, cores, MiB)",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "54d79827-5300-5824-9baf-2131043e3e1c"],
+  "transformation/units": "{}"
+}

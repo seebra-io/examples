@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/lag-against-depth-past-90.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "5cb1d6cd-fad8-5012-9bbd-ec45e7da0ec3",
   "graph/inputs": [
     ["data/id", "2e0fed90-144a-59e4-a846-cb63e553ed6c"]

@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/on-the-ground-hover-a-site.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "e84cbe33-e765-527d-9ee0-452c02fbd506",
   "graph/inputs": [
     ["data/id", "1c11b0ca-951c-5f44-ab63-079da4b8366b"]

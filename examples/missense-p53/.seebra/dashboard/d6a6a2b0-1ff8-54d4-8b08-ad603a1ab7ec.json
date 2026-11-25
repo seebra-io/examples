@@ -1,0 +1,55 @@
+{
+  "dashboard/id": "d6a6a2b0-1ff8-54d4-8b08-ad603a1ab7ec",
+  "datas": [
+    ["data/id", "c5f94dc6-537e-53b4-ba5e-6093c17b1bc5"],
+    ["data/id", "361daca6-3ac6-5c23-b12c-aedd94355e89"],
+    ["data/id", "c14cb995-2ccf-5fe8-964b-7be94cb9f9ae"],
+    ["data/id", "d8711895-e658-5451-bf0b-9ef41ddf0c2b"],
+    ["data/id", "065d8b9c-19c2-557f-857f-6741389b34f7"],
+    ["data/id", "5912804b-7ce3-573d-a531-c8ebebb6176e"],
+    ["data/id", "1e8943e2-5762-50db-8972-e659f8a7d184"],
+    ["data/id", "b1ff01d6-2927-5f1a-bf96-3ad0908bc677"],
+    ["data/id", "202e261a-3756-5e0a-9895-263e28852a70"],
+    ["data/id", "c80d77a9-02fa-5ef6-84b1-9e3248bfcdb0"],
+    ["data/id", "df7ca673-bbbe-5029-883c-a2e62ecd3449"]
+  ],
+  "datasources": [
+    ["datasource/id", "b549e935-a3cf-5683-82a3-b350f43cca2d"],
+    ["datasource/id", "6baf2c77-e49a-50a9-96f5-8368fac26f4a"]
+  ],
+  "description": "Question: p53, \"the guardian of the genome\", is the most often mutated gene in human cancer, and most of its cancer mutations swap a single amino acid. Of the 7,467 possible single swaps in its 393 residues, which ones break it? Can a model tell before any patient carries them, and do evolution and the clinic agree? Data: AlphaMissense's prediction for every swap (Google DeepMind, Cheng et al., Science 2023; 0 benign … 1 pathogenic), on the protein and on GRCh38; AlphaFold's model and per-residue confidence (pLDDT); gnomAD v4's allele counts in about 807,000 people; and ClinVar's classifications through gnomAD's API. Steps: the swaps one DNA letter can make (2,314) joined to gnomAD and ClinVar by genomic variant, not by protein name (the two name changes on different transcripts); then AlphaMissense by how common a change is, against ClinVar's reviewed classifications, and per residue against AlphaFold's confidence. Aha: harm is a property of the fold. The DNA-binding core (pLDDT ≥ 90, 207 residues) holds 74% likely-pathogenic swaps and 229 of the 231 ClinVar pathogenic ones; the disordered ends (pLDDT < 50, 117 residues) tolerate almost anything (7%). AlphaMissense ranks reviewed pathogenic above benign with AUC 0.989 (97% of 224 pathogenic called likely pathogenic, 83% of 144 benign called likely benign), and would call 37% of the 555 variants of uncertain significance pathogenic and 52% benign. The commoner a change in people, the more benign: median score 0.41 for changes seen in one person, 0.14 for rare ones, 0.07 for those above 1 in 10,000. Caveats: the \"one person\" band scores higher than never-seen changes because gnomAD's blood samples carry clonal haematopoiesis (TP53 mutations acquired with age), not only inherited variants; AlphaMissense learnt from human and primate population frequencies, so agreement with gnomAD is partly by construction, while ClinVar is the independent test (though recent classifications may cite it, and TP53's lean on functional assays); the model and the scores are for one chain alone, without DNA, zinc or partners; the files are AlphaFold's model v6. Next: hover any cell of the map; click a residue to see it in 3D; set gene and uniprot together to another protein (BRCA1 P38398, KRAS P01116, CFTR P13569, PTEN P60484); filter the changes table to ClinVar uncertain.",
+  "graphs": [
+    ["graph/id", "4b5cd939-9ea0-5e45-8548-4562f74bff97"],
+    ["graph/id", "0fe49d7e-2f1c-5d38-a92c-0007c879e3fa"],
+    ["graph/id", "a9adddf3-9a49-59a4-932c-4853ea1fd199"],
+    ["graph/id", "4c811057-eb77-54e9-a8c7-2693ab64854e"],
+    ["graph/id", "c5fd4c99-e14c-5605-afba-e222e334f4f7"]
+  ],
+  "grids": [],
+  "name": "Which single changes break p53? AlphaMissense, gnomAD and ClinVar",
+  "ontology": {
+    "$file": ".seebra/dashboard/d6a6a2b0-1ff8-54d4-8b08-ad603a1ab7ec.ontology.json",
+    "$json": true
+  },
+  "parameters": [
+    ["data/id", "c5f94dc6-537e-53b4-ba5e-6093c17b1bc5"]
+  ],
+  "queries": [
+    ["query/id", "19e51b44-d2ce-53c3-904b-564d97488b99"],
+    ["query/id", "22c1d61c-46da-5ecf-948c-c1d63e989091"],
+    ["query/id", "70f10d86-1aef-5d72-8cdc-a9ce16b2590d"],
+    ["query/id", "83e65735-09f9-5109-973b-d7bf00ef9309"],
+    ["query/id", "63c5e984-fef9-531a-bae7-47bb8fcbe704"],
+    ["query/id", "47d67a05-9d27-5e20-af29-5b081a3815a7"]
+  ],
+  "studies": [],
+  "tables": [],
+  "texts": [],
+  "timers": [],
+  "transformations": [
+    ["transformation/id", "8074af18-8afa-529b-a761-9a3eea29fd84"],
+    ["transformation/id", "7328c036-b566-5aef-8f37-ea95ffb43d2d"],
+    ["transformation/id", "a6a2559d-d40e-5105-b135-cefb1050ccff"],
+    ["transformation/id", "00cc179e-7a19-5181-8bdc-96246f4788e3"]
+  ]
+}

@@ -16,6 +16,7 @@
   ],
   "grids": [],
   "name": "Temperature across Sweden now",
+  "parameters": [],
   "queries": [
     ["query/id", "00643dd1-2965-5f91-aa65-421a8fbfda6d"]
   ],

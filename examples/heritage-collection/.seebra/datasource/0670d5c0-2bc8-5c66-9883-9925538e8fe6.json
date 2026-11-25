@@ -1,0 +1,16 @@
+{
+  "datasource/api-key-key": "api_key",
+  "datasource/auth-type": "none",
+  "datasource/headers": "{\"Accept\":\"application/json\"}",
+  "datasource/id": "0670d5c0-2bc8-5c66-9883-9925538e8fe6",
+  "datasource/name": "K-samsök (Riksantikvarieämbetet)",
+  "datasource/node": {
+    "inputs": 1,
+    "node/x": 80,
+    "node/y": 320,
+    "outputs": 1
+  },
+  "datasource/params": "{}",
+  "datasource/type": "openapi",
+  "datasource/url": "https://kulturarvsdata.se/ksamsok"
+}

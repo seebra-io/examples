@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "34b4df81-c1f9-5c26-aeb7-ed85a1af3ef9"],
+  "query/datasource": ["datasource/id", "4a21b992-762e-546e-a625-31076bcc4301"],
+  "query/dynamic?": true,
+  "query/format": "json",
+  "query/headers": "{}",
+  "query/id": "122a220d-5d03-539a-952b-40f512b4eaad",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Nodes: CPU and memory against allocatable",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 800
+  },
+  "query/params": "{\"query\":\"(label_replace({{node_cpu_promql}}, \\\"signal\\\", \\\"node_cpu\\\", \\\"\\\", \\\"\\\") or label_replace({{node_cpu_allocatable_promql}}, \\\"signal\\\", \\\"node_cpu_allocatable\\\", \\\"\\\", \\\"\\\") or label_replace({{node_memory_promql}}, \\\"signal\\\", \\\"node_memory\\\", \\\"\\\", \\\"\\\") or label_replace({{node_memory_allocatable_promql}}, \\\"signal\\\", \\\"node_memory_allocatable\\\", \\\"\\\", \\\"\\\"))[{{window}}:{{step}}]\"}",
+  "query/path": "/query",
+  "query/request-body": "",
+  "query/units": "{}"
+}

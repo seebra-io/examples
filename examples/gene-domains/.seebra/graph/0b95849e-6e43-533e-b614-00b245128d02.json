@@ -1,0 +1,16 @@
+{
+  "graph/content": {
+    "$file": "graphs/where-they-are-active-organ-specific-genes-by.js"
+  },
+  "graph/dynamic?": false,
+  "graph/id": "0b95849e-6e43-533e-b614-00b245128d02",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Where they are active: organ-specific genes by system",
+  "graph/node": {
+    "node/created": 3,
+    "node/x": 1920,
+    "node/y": 1520
+  },
+  "graph/parent": ["data/id", "a2dbd774-5daf-51aa-a4ce-5b9e74600297"]
+}

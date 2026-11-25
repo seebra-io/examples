@@ -1,0 +1,22 @@
+{
+  "transformation/content": {
+    "$file": "transforms/cdm-against-evolving-dark-energy-grid-fit-of-bao.js"
+  },
+  "transformation/data-child": ["data/id", "ca4cb37b-55b2-573e-ad7d-b4aeb65ef8a6"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "js-web-worker",
+  "transformation/id": "5aa5c376-66b7-5c11-bf6d-108c3d17ec79",
+  "transformation/inputs": [
+    ["data/id", "93161b5a-7c8c-556d-aa15-25f5fda663b8"],
+    ["data/id", "b6ffdd01-0686-5627-870a-57ac86926ad0"]
+  ],
+  "transformation/language": "javascript",
+  "transformation/name": "ΛCDM against evolving dark energy: grid fit of BAO, supernovae and the CMB",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "b9a67743-313f-5011-97ae-93511d2eadf4"],
+  "transformation/units": "{}"
+}

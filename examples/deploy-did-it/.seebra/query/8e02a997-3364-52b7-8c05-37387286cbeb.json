@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "55a6b10a-04ea-5f2c-bc67-0cf41158f5a7"],
+  "query/datasource": ["datasource/id", "0b187699-8b50-53d3-8f05-45114c8e1b05"],
+  "query/dynamic?": true,
+  "query/format": "json",
+  "query/headers": "{}",
+  "query/id": "8e02a997-3364-52b7-8c05-37387286cbeb",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Pods of the namespace",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 560
+  },
+  "query/params": "{\"limit\":\"500\"}",
+  "query/path": "/api/v1/namespaces/{{namespace}}/pods",
+  "query/request-body": "",
+  "query/units": "{}"
+}

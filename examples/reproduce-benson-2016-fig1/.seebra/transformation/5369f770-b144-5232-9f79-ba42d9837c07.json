@@ -1,0 +1,21 @@
+{
+  "transformation/content": {
+    "$file": "transforms/the-claim-s-data-ln-genera-against-time-mesozoic.sql"
+  },
+  "transformation/data-child": ["data/id", "161ed111-b6c9-531f-95ec-512fe2aaaa9a"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "5369f770-b144-5232-9f79-ba42d9837c07",
+  "transformation/inputs": [
+    ["data/id", "029e7b46-758b-5013-8897-dbacf360fb64"]
+  ],
+  "transformation/language": "sql",
+  "transformation/name": "The claim's data: ln(genera) against time, Mesozoic bins",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "8aff4b35-a5c3-5486-9ad5-1bf6c829f3dc"],
+  "transformation/units": "{}"
+}

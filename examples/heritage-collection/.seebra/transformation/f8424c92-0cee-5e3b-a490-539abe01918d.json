@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/records-with-coordinates.js"
+  },
+  "transformation/data-child": ["data/id", "44d4da7d-9f06-50b5-8664-3fdd73687d75"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "js-web-worker",
+  "transformation/id": "f8424c92-0cee-5e3b-a490-539abe01918d",
+  "transformation/inputs": [],
+  "transformation/language": "javascript",
+  "transformation/name": "Records with coordinates",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "d6fc9242-33cc-573f-84c2-0199fb0ceed6"],
+  "transformation/units": "{}"
+}

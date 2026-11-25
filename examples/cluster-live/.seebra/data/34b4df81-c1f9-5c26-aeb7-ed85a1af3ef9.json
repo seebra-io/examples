@@ -1,0 +1,10 @@
+{
+  "data/id": "34b4df81-c1f9-5c26-aeb7-ed85a1af3ef9",
+  "data/name": "Nodes: CPU and memory against allocatable data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 800
+  },
+  "data/parent": ["query/id", "122a220d-5d03-539a-952b-40f512b4eaad"],
+  "data/type": "json"
+}

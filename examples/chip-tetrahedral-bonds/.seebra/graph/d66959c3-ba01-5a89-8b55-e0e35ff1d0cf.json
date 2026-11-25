@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/mooser-pearson-map-covalent-and-light-means.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "d66959c3-ba01-5a89-8b55-e0e35ff1d0cf",
   "graph/inputs": [
     ["data/id", "dbb4c896-fd0e-54f6-9e5a-b263bd5599d7"]

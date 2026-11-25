@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "27b1f629-be8d-57ce-8abc-af26d4daee37"],
+  "query/datasource": ["datasource/id", "0670d5c0-2bc8-5c66-9883-9925538e8fe6"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "7ea17378-c59e-59ab-a582-bd5ed44b09ed",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "… without an image",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 800
+  },
+  "query/params": "{\"method\":\"facet\",\"index\":\"itemType\",\"query\":\"serviceOrganization={{org}} AND thumbnailExists=n\"}",
+  "query/path": "/api",
+  "query/request-body": "",
+  "query/units": "{}"
+}

@@ -1,0 +1,18 @@
+{
+  "graph/content": {
+    "$file": "graphs/p99-errors-and-traffic-with-the-rollouts.js"
+  },
+  "graph/dynamic?": false,
+  "graph/id": "92f28c49-707e-58b2-b7fd-fbc4af592a7c",
+  "graph/inputs": [
+    ["data/id", "dcc62f26-c2dd-5c2b-a60d-775052c3ac51"]
+  ],
+  "graph/language": "javascript",
+  "graph/name": "p99, errors and traffic with the rollouts",
+  "graph/node": {
+    "node/created": 1,
+    "node/x": 1460,
+    "node/y": 1040
+  },
+  "graph/parent": ["data/id", "af2a9bb6-67cd-507f-a65f-92ef3381e00c"]
+}

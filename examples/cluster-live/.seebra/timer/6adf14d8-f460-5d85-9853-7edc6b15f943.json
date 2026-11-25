@@ -1,0 +1,24 @@
+{
+  "timer/children": [
+    ["query/id", "2a49b334-6313-5407-a932-88ab3fead9ff"],
+    ["query/id", "5f6b2c6e-ebec-5d4b-a786-f945e42d1c00"],
+    ["query/id", "487bc0e7-07b8-514e-9eae-a27e5fcf9ab7"],
+    ["query/id", "122a220d-5d03-539a-952b-40f512b4eaad"],
+    ["query/id", "223d71ac-41a1-5e36-9ccd-e98e086e85cf"],
+    ["query/id", "bd0e09dd-87b2-5d8e-8eb3-6532921310a4"],
+    ["query/id", "34484625-9669-5a08-9263-683e0df3acd1"],
+    ["query/id", "fb059b70-c7e1-5653-901c-34d9b223558e"],
+    ["query/id", "f97a72eb-30e0-5067-bef9-1cae465b8dc6"],
+    ["query/id", "a34f715e-3ea2-59f0-b0dd-b212147b4dad"],
+    ["transformation/id", "0e36b1df-b0a2-5451-a096-44d5a17cba0d"],
+    ["transformation/id", "00afdef6-ba2f-5d0c-8eed-307391a8f740"],
+    ["transformation/id", "179a96a5-3872-50bb-b2bd-1d0bf6cfe7fe"]
+  ],
+  "timer/enabled?": true,
+  "timer/id": "6adf14d8-f460-5d85-9853-7edc6b15f943",
+  "timer/interval": 15,
+  "timer/node": {
+    "node/x": 540,
+    "node/y": 2480
+  }
+}

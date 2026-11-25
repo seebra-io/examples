@@ -1,0 +1,10 @@
+{
+  "data/id": "b1ff01d6-2927-5f1a-bf96-3ad0908bc677",
+  "data/name": "Every change: predicted (AlphaMissense), carried (gnomAD), diagnosed (ClinVar) data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "8074af18-8afa-529b-a761-9a3eea29fd84"],
+  "data/type": "json"
+}

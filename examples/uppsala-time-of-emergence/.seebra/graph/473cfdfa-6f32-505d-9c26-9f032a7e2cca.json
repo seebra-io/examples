@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/same-warming-different-noise-summer-has-emerged.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "473cfdfa-6f32-505d-9c26-9f032a7e2cca",
   "graph/inputs": [
     ["data/id", "f62047c7-9c9c-5cd6-bfdc-e429ba0ed7ea"]

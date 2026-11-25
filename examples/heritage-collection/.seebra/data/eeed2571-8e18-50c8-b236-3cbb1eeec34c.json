@@ -1,0 +1,10 @@
+{
+  "data/id": "eeed2571-8e18-50c8-b236-3cbb1eeec34c",
+  "data/name": "Pictures, with licence and record data",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "a0d018be-98ea-51d6-b830-7ccc632883af"],
+  "data/type": "json"
+}

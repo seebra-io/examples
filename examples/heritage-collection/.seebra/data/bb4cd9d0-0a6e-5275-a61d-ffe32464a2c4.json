@@ -1,0 +1,10 @@
+{
+  "data/id": "bb4cd9d0-0a6e-5275-a61d-ffe32464a2c4",
+  "data/name": "Records with coordinates (one page) data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 3200
+  },
+  "data/parent": ["query/id", "46fc5671-c5c7-5386-a5db-4214c184b9ab"],
+  "data/type": "json"
+}

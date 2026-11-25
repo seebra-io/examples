@@ -1,0 +1,10 @@
+{
+  "data/id": "dc59abde-9dbd-5925-9ebf-428bdd90e9dc",
+  "data/name": "The paper and its data: citation details data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 560
+  },
+  "data/parent": ["transformation/id", "c18913bf-5279-5921-95e4-246057c26f33"],
+  "data/type": "json"
+}

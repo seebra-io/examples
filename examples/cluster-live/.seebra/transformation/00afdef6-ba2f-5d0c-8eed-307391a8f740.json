@@ -1,0 +1,22 @@
+{
+  "transformation/content": {
+    "$file": "transforms/pods-events-and-rollouts.js"
+  },
+  "transformation/data-child": ["data/id", "18247c66-a128-5d49-a07b-61cc2112da60"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "js-web-worker",
+  "transformation/id": "00afdef6-ba2f-5d0c-8eed-307391a8f740",
+  "transformation/inputs": [
+    ["data/id", "e0de89e8-5c9c-5648-9a8f-2dd00a04fb72"],
+    ["data/id", "ce6bf60b-e871-58bf-98d8-d956bed710c2"]
+  ],
+  "transformation/language": "javascript",
+  "transformation/name": "Pods, events and rollouts",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "cc18ed23-b9e7-5220-b6d3-034901090bf9"],
+  "transformation/units": "{}"
+}

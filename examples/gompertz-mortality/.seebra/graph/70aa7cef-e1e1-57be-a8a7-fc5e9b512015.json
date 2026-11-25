@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/death-rate-by-age-log-scale-gompertz-s-straight.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "70aa7cef-e1e1-57be-a8a7-fc5e9b512015",
   "graph/inputs": [
     ["data/id", "e0a17910-7baf-5320-8812-0e4b94aac343"]

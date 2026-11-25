@@ -1,0 +1,10 @@
+{
+  "data/id": "fd5ca2c4-a697-53d1-9215-1d5bf3c81fac",
+  "data/name": "Log rate per app: all lines and errors (LogQL) data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 2000
+  },
+  "data/parent": ["query/id", "f97a72eb-30e0-5067-bef9-1cae465b8dc6"],
+  "data/type": "json"
+}

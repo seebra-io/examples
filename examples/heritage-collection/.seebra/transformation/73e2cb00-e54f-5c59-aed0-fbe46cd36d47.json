@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/dating-by-century.js"
+  },
+  "transformation/data-child": ["data/id", "efd6f9b3-8279-52f3-94bc-bddd62474ae9"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "js-web-worker",
+  "transformation/id": "73e2cb00-e54f-5c59-aed0-fbe46cd36d47",
+  "transformation/inputs": [],
+  "transformation/language": "javascript",
+  "transformation/name": "Dating by century",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 560
+  },
+  "transformation/parent": ["data/id", "2ffdd30f-47d3-5554-af5b-315b66b84b16"],
+  "transformation/units": "{}"
+}

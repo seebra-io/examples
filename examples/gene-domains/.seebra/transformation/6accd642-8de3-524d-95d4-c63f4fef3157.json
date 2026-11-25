@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/one-row-per-gene.js"
+  },
+  "transformation/data-child": ["data/id", "6f5987ac-6877-53ff-8544-c28f590da2ee"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "js-web-worker",
+  "transformation/id": "6accd642-8de3-524d-95d4-c63f4fef3157",
+  "transformation/inputs": [],
+  "transformation/language": "javascript",
+  "transformation/name": "One row per gene",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1920,
+    "node/y": 560
+  },
+  "transformation/parent": ["data/id", "a2dbd774-5daf-51aa-a4ce-5b9e74600297"],
+  "transformation/units": "{}"
+}

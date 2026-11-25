@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/the-best-split-hover-a-node.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "1413d9ff-287c-55eb-875e-8ceac846d6a8",
   "graph/inputs": [
     ["data/id", "b330a6f0-f2f6-5861-af8e-0f1f5998e05b"]

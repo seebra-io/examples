@@ -1,0 +1,185 @@
+{
+  "title": "Releases and service health",
+  "summary": "A deployment's rollouts as events in time, the service signals they may change (latency, errors, restarts), what else changes at the same time (traffic, other services), and the evidence a rollout leaves (pods, events, logs).",
+  "concepts": [
+    {
+      "cid": "c1",
+      "label": "Rollout",
+      "kind": "event",
+      "description": "A new revision of a Kubernetes Deployment: a ReplicaSet with a new pod template, or an old one made current again (a rollback).",
+      "fields": [
+        "rollout",
+        "at",
+        "from_image",
+        "to_image",
+        "rollback"
+      ],
+      "in_data": true,
+      "facts": [
+        {
+          "text": "A Deployment keeps old ReplicaSets (revisionHistoryLimit, 10 by default); each carries the annotation deployment.kubernetes.io/revision, and a rollback renumbers the reused one (revision-history keeps its old numbers).",
+          "source": "https://kubernetes.io/docs/concepts/workloads/controllers/deployment/#rolling-back-a-deployment"
+        }
+      ],
+      "children": [
+        {
+          "cid": "c2",
+          "label": "Image",
+          "kind": "entity",
+          "as": "property",
+          "description": "The container image (repository and tag) of the pod template.",
+          "fields": [
+            "from_image",
+            "to_image"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c3",
+          "label": "ReplicaSet",
+          "kind": "entity",
+          "as": "part",
+          "description": "The pods of one pod template; its pod-template-hash names its pods.",
+          "fields": [
+            "replicaset",
+            "pod_template_hash"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c4",
+          "label": "Pod",
+          "kind": "entity",
+          "as": "part",
+          "description": "A running instance; replaced revisions' pods are gone, their logs remain.",
+          "in_data": true
+        },
+        {
+          "cid": "c5",
+          "label": "Kubernetes event",
+          "kind": "event",
+          "as": "part",
+          "description": "Scaling, scheduling, probe failures, back-offs; kept an hour by default (--event-ttl).",
+          "in_data": true
+        }
+      ]
+    },
+    {
+      "cid": "c6",
+      "label": "Service level indicator",
+      "kind": "measure",
+      "description": "A measure of how the service behaves for its users.",
+      "in_data": true,
+      "facts": [
+        {
+          "text": "histogram_quantile computes a quantile from a histogram's buckets by linear interpolation within the bucket that holds it.",
+          "source": "https://prometheus.io/docs/prometheus/latest/querying/functions/#histogram_quantile"
+        }
+      ],
+      "children": [
+        {
+          "cid": "c7",
+          "label": "p99 latency",
+          "kind": "measure",
+          "as": "subtype",
+          "description": "The 99th percentile of request duration, ms.",
+          "fields": [
+            "p99_ms",
+            "p99_before_ms",
+            "p99_after_ms"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c8",
+          "label": "Error ratio",
+          "kind": "measure",
+          "as": "subtype",
+          "description": "5xx responses per request, %.",
+          "fields": [
+            "error_pct",
+            "err_before_pct",
+            "err_after_pct"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c9",
+          "label": "Container restarts",
+          "kind": "measure",
+          "as": "subtype",
+          "description": "Restarts per step (kube-state-metrics), e.g. OOM kills.",
+          "fields": [
+            "restarts"
+          ],
+          "in_data": true
+        }
+      ]
+    },
+    {
+      "cid": "c10",
+      "label": "Confounder",
+      "kind": "category",
+      "description": "What changes at the same time as a rollout and moves the same signals.",
+      "in_data": true,
+      "children": [
+        {
+          "cid": "c11",
+          "label": "Traffic",
+          "kind": "measure",
+          "as": "subtype",
+          "description": "Requests per second; latency grows with load.",
+          "fields": [
+            "traffic_rps",
+            "traffic_ratio"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c12",
+          "label": "Neighbour service",
+          "kind": "entity",
+          "as": "subtype",
+          "description": "Other services of the namespace: if they moved too, the cause is likely shared.",
+          "fields": [
+            "service",
+            "change_pct"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c13",
+          "label": "Dependency incident",
+          "kind": "event",
+          "as": "subtype",
+          "description": "A database, cache or upstream service degrading on its own.",
+          "in_data": false
+        }
+      ]
+    },
+    {
+      "cid": "c14",
+      "label": "Before/after comparison",
+      "kind": "measure",
+      "description": "The difference of medians of two windows, its block-bootstrap interval, and the Mann-Whitney U test.",
+      "fields": [
+        "p99_change_ms",
+        "p99_ci_lo_ms",
+        "p99_ci_hi_ms",
+        "p99_p",
+        "p99_r"
+      ],
+      "in_data": true,
+      "children": [
+        {
+          "cid": "c15",
+          "label": "Canary comparison",
+          "kind": "measure",
+          "as": "subtype",
+          "description": "Both versions at the same time under the same load: the stronger design.",
+          "in_data": false
+        }
+      ]
+    }
+  ]
+}

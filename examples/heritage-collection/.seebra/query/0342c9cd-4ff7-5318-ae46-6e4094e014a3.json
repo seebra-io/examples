@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "2ffdd30f-47d3-5554-af5b-315b66b84b16"],
+  "query/datasource": ["datasource/id", "0670d5c0-2bc8-5c66-9883-9925538e8fe6"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "0342c9cd-4ff7-5318-ae46-6e4094e014a3",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Records by century of dating",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 2960
+  },
+  "query/params": "{\"method\":\"facet\",\"index\":\"century\",\"query\":\"serviceOrganization={{org}}\"}",
+  "query/path": "/api",
+  "query/request-body": "",
+  "query/units": "{}"
+}

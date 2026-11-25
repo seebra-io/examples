@@ -1,0 +1,10 @@
+{
+  "data/id": "b6ffdd01-0686-5627-870a-57ac86926ad0",
+  "data/name": "DESI DR2 BAO: their covariance (13 × 13) data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 560
+  },
+  "data/parent": ["query/id", "f38405dc-5003-5692-a4de-a6c5b9d2ac93"],
+  "data/type": "json"
+}

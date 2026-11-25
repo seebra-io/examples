@@ -1,0 +1,18 @@
+{
+  "graph/content": {
+    "$file": "graphs/when-dating-by-century.js"
+  },
+  "graph/dynamic?": false,
+  "graph/id": "b73f5636-13f8-5efb-8e59-b2d36695c99a",
+  "graph/inputs": [
+    ["data/id", "f6966ef8-e8f5-5d43-8141-34050df40663"]
+  ],
+  "graph/language": "javascript",
+  "graph/name": "When: dating by century",
+  "graph/node": {
+    "node/created": 3,
+    "node/x": 1460,
+    "node/y": 1040
+  },
+  "graph/parent": ["data/id", "efd6f9b3-8279-52f3-94bc-bddd62474ae9"]
+}

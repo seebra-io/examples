@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/taf-timeline-across-the-departure-window.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "ad8bae48-b7e8-5fe1-b499-314063dcf093",
   "graph/inputs": [
     ["data/id", "919d382b-e996-566a-832b-09a02c9cdc26"],

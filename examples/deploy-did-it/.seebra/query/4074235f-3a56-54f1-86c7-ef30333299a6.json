@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "584a7318-923e-5473-afa9-1e81180f4e86"],
+  "query/datasource": ["datasource/id", "0b187699-8b50-53d3-8f05-45114c8e1b05"],
+  "query/dynamic?": true,
+  "query/format": "json",
+  "query/headers": "{}",
+  "query/id": "4074235f-3a56-54f1-86c7-ef30333299a6",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "ReplicaSets of the namespace (one per rollout)",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 80
+  },
+  "query/params": "{\"limit\":\"500\"}",
+  "query/path": "/apis/apps/v1/namespaces/{{namespace}}/replicasets",
+  "query/request-body": "",
+  "query/units": "{}"
+}

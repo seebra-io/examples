@@ -21,6 +21,7 @@
   ],
   "grids": [],
   "name": "Benford's law in country statistics",
+  "parameters": [],
   "queries": [
     ["query/id", "e18d5075-3c52-5df7-831b-4e2cfcc0aed8"],
     ["query/id", "45ee7cd2-9dba-5d0a-9b18-99b8ba6baed3"],

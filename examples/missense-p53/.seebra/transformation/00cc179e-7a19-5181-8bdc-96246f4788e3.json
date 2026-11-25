@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/one-row-per-residue.js"
+  },
+  "transformation/data-child": ["data/id", "df7ca673-bbbe-5029-883c-a2e62ecd3449"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "js-web-worker",
+  "transformation/id": "00cc179e-7a19-5181-8bdc-96246f4788e3",
+  "transformation/inputs": [],
+  "transformation/language": "javascript",
+  "transformation/name": "One row per residue",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "b1ff01d6-2927-5f1a-bf96-3ad0908bc677"],
+  "transformation/units": "{}"
+}

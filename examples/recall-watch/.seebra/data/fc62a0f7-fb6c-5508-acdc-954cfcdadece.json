@@ -1,0 +1,10 @@
+{
+  "data/id": "fc62a0f7-fb6c-5508-acdc-954cfcdadece",
+  "data/name": "Recalls per report day and feed data",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "3664aa57-7463-5079-9005-97e4292df31d"],
+  "data/type": "json"
+}

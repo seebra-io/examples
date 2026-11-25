@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/the-periodogram-11-years-and-22-when-the.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "573c51e7-428b-50d1-9176-6e43a60b2cd1",
   "graph/inputs": [
     ["data/id", "b3a5af03-8008-55ee-80d5-a3936af74084"],

@@ -1,0 +1,10 @@
+{
+  "data/id": "52e47f12-64a2-5bfe-9324-36c460a384b6",
+  "data/name": "Object names without dating data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 2000
+  },
+  "data/parent": ["query/id", "884f8227-d0ef-501c-b526-d4661f378a28"],
+  "data/type": "json"
+}

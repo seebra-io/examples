@@ -1,0 +1,13 @@
+{
+  "data/content": "{\"gene\":\"TP53\",\"uniprot\":\"P04637\",\"residue\":\"248\"}",
+  "data/id": "c5f94dc6-537e-53b4-ba5e-6093c17b1bc5",
+  "data/name": "Parameters",
+  "data/node": {
+    "node/width": 420,
+    "node/x": 80,
+    "node/y": 80
+  },
+  "data/parameter?": true,
+  "data/render?": true,
+  "data/type": "parameters"
+}

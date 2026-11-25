@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "bb4cd9d0-0a6e-5275-a61d-ffe32464a2c4"],
+  "query/datasource": ["datasource/id", "0670d5c0-2bc8-5c66-9883-9925538e8fe6"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "46fc5671-c5c7-5386-a5db-4214c184b9ab",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Records with coordinates (one page)",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 3200
+  },
+  "query/params": "{\"method\":\"search\",\"query\":\"serviceOrganization={{org}} AND geoDataExists=j\",\"hitsPerPage\":\"150\"}",
+  "query/path": "/api",
+  "query/request-body": "",
+  "query/units": "{}"
+}

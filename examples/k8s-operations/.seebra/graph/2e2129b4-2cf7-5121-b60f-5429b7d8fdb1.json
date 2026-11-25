@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/disruption-budgets-evictions-allowed-now.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "2e2129b4-2cf7-5121-b60f-5429b7d8fdb1",
   "graph/inputs": [],
   "graph/language": "javascript",

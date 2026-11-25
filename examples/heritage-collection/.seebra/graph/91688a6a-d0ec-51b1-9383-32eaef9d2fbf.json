@@ -1,0 +1,16 @@
+{
+  "graph/content": {
+    "$file": "graphs/what-object-names-and-materials.js"
+  },
+  "graph/dynamic?": false,
+  "graph/id": "91688a6a-d0ec-51b1-9383-32eaef9d2fbf",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "What: object names and materials",
+  "graph/node": {
+    "node/created": 4,
+    "node/x": 1460,
+    "node/y": 1280
+  },
+  "graph/parent": ["data/id", "5ec8a84d-4c01-5661-bccd-3f152e267421"]
+}

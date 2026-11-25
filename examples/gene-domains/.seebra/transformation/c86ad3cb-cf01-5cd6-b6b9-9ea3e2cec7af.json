@@ -1,0 +1,21 @@
+{
+  "transformation/content": {
+    "$file": "transforms/domains-nested-and-each-gene-in-its-domain.js"
+  },
+  "transformation/data-child": ["data/id", "a2dbd774-5daf-51aa-a4ce-5b9e74600297"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "js-web-worker",
+  "transformation/id": "c86ad3cb-cf01-5cd6-b6b9-9ea3e2cec7af",
+  "transformation/inputs": [
+    ["data/id", "c76aa9b0-8cc9-5cd7-b0aa-367b35ed4c12"]
+  ],
+  "transformation/language": "javascript",
+  "transformation/name": "Domains nested, and each gene in its domain",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "17e435e4-1076-508b-b8aa-0982b8b951e8"],
+  "transformation/units": "{}"
+}

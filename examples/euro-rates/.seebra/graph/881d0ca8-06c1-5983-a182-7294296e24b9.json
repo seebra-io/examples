@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/log-returns-and-volatility-annualised-sd-of.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "881d0ca8-06c1-5983-a182-7294296e24b9",
   "graph/inputs": [
     ["data/id", "8905005d-f6f8-5c6a-a160-da9496b79583"]

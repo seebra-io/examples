@@ -1,0 +1,21 @@
+{
+  "transformation/content": {
+    "$file": "transforms/the-paper-and-its-data-citation-details.js"
+  },
+  "transformation/data-child": ["data/id", "dc59abde-9dbd-5925-9ebf-428bdd90e9dc"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "js-web-worker",
+  "transformation/id": "c18913bf-5279-5921-95e4-246057c26f33",
+  "transformation/inputs": [
+    ["data/id", "0e1c709f-ac11-5b62-b8de-9d7ccdc4ac01"]
+  ],
+  "transformation/language": "javascript",
+  "transformation/name": "The paper and its data: citation details",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 560
+  },
+  "transformation/parent": ["data/id", "557b6682-3a40-521c-b35a-d7c662795946"],
+  "transformation/units": "{}"
+}

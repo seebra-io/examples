@@ -633,6 +633,37 @@
       }
     },
     {
+      "id": "cluster-live",
+      "title": "Cluster live",
+      "category": "Tech",
+      "description": "The observability basics of a Kubernetes namespace, live every 15 s: request rate, error ratio and p50/p99 latency per service (Prometheus), each with its usual band and the same time yesterday, points outside it in red and a note in plain words (\"p99 for checkout is 3.1× its usual level since 14:02\"); CPU and memory per workload against requests and limits, restarts, and a forecast to the limit (\"memory limit reached in ~40 min\", \"disk full in ~14 h\"); pod phases, the log rate (Loki) and deploy markers from the rollouts. Hover for the baseline and the pods behind a point; click to drill down to a workload's pods, events and logs; expand to the other services and the nodes. The PromQL and LogQL are in Parameters. Runs signed out on clearly labelled sample data: connect your cluster to run on yours.",
+      "path": "examples/cluster-live",
+      "board": "git:https://github.com/seebra-io/examples#examples/cluster-live",
+      "listed": true,
+      "hero": false,
+      "files": 49,
+      "data": [],
+      "fetched": [],
+      "catalog": {
+        "title": "Cluster live",
+        "summary": "Services' traffic, errors and latency with a usual band, workloads against their limits with a forecast, pods, logs and rollouts, refreshed every 15 s.",
+        "description": "The observability basics of a Kubernetes namespace, live every 15 s: request rate, error ratio and p50/p99 latency per service (Prometheus), each with its usual band and the same time yesterday, points outside it in red and a note in plain words (\"p99 for checkout is 3.1× its usual level since 14:02\"); CPU and memory per workload against requests and limits, restarts, and a forecast to the limit (\"memory limit reached in ~40 min\", \"disk full in ~14 h\"); pod phases, the log rate (Loki) and deploy markers from the rollouts. Hover for the baseline and the pods behind a point; click to drill down to a workload's pods, events and logs; expand to the other services and the nodes. The PromQL and LogQL are in Parameters. Runs signed out on clearly labelled sample data: connect your cluster to run on yours.",
+        "categories": [
+          "developer/observability"
+        ],
+        "tags": [
+          "example",
+          "kubernetes",
+          "prometheus",
+          "loki",
+          "live",
+          "statistics",
+          "sample data"
+        ],
+        "apis": []
+      }
+    },
+    {
       "id": "co2-income-elasticity",
       "title": "CO₂ and income: elasticity",
       "category": "Economy",
@@ -768,6 +799,68 @@
         ],
         "tags": [
           "example"
+        ],
+        "apis": []
+      }
+    },
+    {
+      "id": "dark-energy-desi",
+      "title": "Is dark energy weakening? DESI, supernovae and the Hubble tension",
+      "category": "Space",
+      "description": "Is dark energy weakening? DESI DR2's 2025 BAO distances, Pantheon+'s 1,701 supernovae and Planck's acoustic angle, fitted live on a grid of ΛCDM and evolving dark energy (w0, wa). Each ruler alone fits ΛCDM; together they disfavour it by 2.7σ (best w0 ≈ −0.87, wa ≈ −0.3), close to DESI's 2.8σ. The Hubble tension is separate: the distance ladder gives 73.2, the sound-wave ruler 68.8, Planck 67.4. Caveats: diagonal supernova errors, θ* alone for the CMB.",
+      "path": "examples/dark-energy-desi",
+      "board": "git:https://github.com/seebra-io/examples#examples/dark-energy-desi",
+      "listed": true,
+      "files": 32,
+      "data": [],
+      "fetched": [],
+      "catalog": {
+        "title": "Is dark energy weakening? DESI, supernovae and the Hubble tension",
+        "summary": "DESI DR2, Pantheon+ and the CMB fitted live: each ruler fits ΛCDM alone, together they disfavour it by 2.7σ. And the Hubble tension: 73 against 67–69.",
+        "description": "Question: in March 2025 the Dark Energy Spectroscopic Instrument (DESI) reported that dark energy may be weakening: the cosmological constant of the standard model, ΛCDM, fits its map of 14 million galaxies and quasars less well than a dark energy that changes with time. How strong is that, and which data carry it? And is the \"Hubble tension\" the same problem? Data: DESI DR2's BAO distances (seven redshift bins, 13 numbers with their covariance; DESI collaboration via the Cobaya likelihood repository), the 1,701 type Ia supernovae of Pantheon+ with their SH0ES Cepheid calibration (Scolnic et al. 2022, Brout et al. 2022), and Planck's acoustic angle θ* and sound horizon. Steps: a flat universe of matter, radiation and dark energy with w(z) = w0 + wa·z/(1+z), integrated for 21 × 41 × 53 values of Ωm, w0 and wa (w0 + wa < 0); for each, the χ² of the BAO (scale c/(H0·r_d) fitted analytically), of the supernovae (their absolute brightness left free, Hubble-flow sample binned in 36 log-redshift bins), and of the CMB as one more distance, to z = 1090; then ΛCDM against the best (w0, wa) per combination, and H0 from the supernovae with Cepheid distances against H0 from the sound-horizon ruler. Aha: each ruler alone is consistent with ΛCDM (BAO 1.7σ, supernovae 0.3σ), but their allowed bands cross away from it: together ΛCDM is off by 2.7σ (Δχ² 10.2), best w0 ≈ −0.87, wa ≈ −0.3, close to DESI's own 2.8σ for DESI + CMB + Pantheon+ (w0 = −0.84, wa = −0.62 in their full analysis). The signal sits at z ≈ 0.5–0.7, where DESI's expansion rate runs 3% above ΛCDM. The Hubble tension is a separate fault line: the distance ladder gives H0 = 73.2 km/s/Mpc (statistical error only), the sound-wave ruler with Planck's r_d gives 68.8, Planck's ΛCDM 67.4 ± 0.5; changing late dark energy doesn't close it. Caveats: supernova errors are diagonal (the published 1,701 × 1,701 covariance with systematics isn't used), which makes them look stronger than they are; the CMB here is θ* alone, a weak stand-in for the full Planck likelihood (so BAO+CMB gives 1.5σ against DESI's 3.1σ); radiation and r*/r_d are fixed approximations; the grid is coarse (steps 0.01, 0.03, 0.08); the significance depends on which supernova sample is used (DESI: 2.8σ with Pantheon+, 4.2σ with DES-Y5). Next: hover any point; read a combination's Δχ² in the verdict table; drill into one BAO bin's tracer; expand to the DES-Y5 or Union3 supernovae, or the full CMB distance priors.",
+        "categories": [
+          "science/physical/astronomy",
+          "science/mathematics/statistics"
+        ],
+        "tags": [
+          "example",
+          "cosmology",
+          "dark energy",
+          "DESI",
+          "BAO",
+          "supernovae",
+          "Hubble tension",
+          "ΛCDM"
+        ],
+        "apis": []
+      }
+    },
+    {
+      "id": "deploy-did-it",
+      "title": "Did the deploy do it?",
+      "category": "Tech",
+      "description": "Every rollout of a deployment (Kubernetes ReplicaSets and events: image before → after) on its p99 latency, error ratio, traffic and restarts from Prometheus, with a verdict per rollout in plain words: the change of median with a 95% block-bootstrap interval, a Mann-Whitney test and its effect size. Caveats per rollout: traffic changes, other services moving too, rollouts close together, short windows, missing metrics. Drill down to a rollout's log messages (Loki), events and pods; expand to the other services at the same time. The PromQL is in Parameters. Runs signed out on clearly labelled sample data: connect your cluster to run on yours.",
+      "path": "examples/deploy-did-it",
+      "board": "git:https://github.com/seebra-io/examples#examples/deploy-did-it",
+      "listed": true,
+      "hero": false,
+      "files": 50,
+      "data": [],
+      "fetched": [],
+      "catalog": {
+        "title": "Did the deploy do it?",
+        "summary": "A verdict per Kubernetes rollout on p99 latency, errors and restarts from Prometheus: the change with a 95% interval and a Mann-Whitney test, with caveats.",
+        "description": "Every rollout of a deployment (Kubernetes ReplicaSets and events: image before → after) on its p99 latency, error ratio, traffic and restarts from Prometheus, with a verdict per rollout in plain words: the change of median with a 95% block-bootstrap interval, a Mann-Whitney test and its effect size. Caveats per rollout: traffic changes, other services moving too, rollouts close together, short windows, missing metrics. Drill down to a rollout's log messages (Loki), events and pods; expand to the other services at the same time. The PromQL is in Parameters. Runs signed out on clearly labelled sample data: connect your cluster to run on yours.",
+        "categories": [
+          "developer/observability"
+        ],
+        "tags": [
+          "example",
+          "kubernetes",
+          "prometheus",
+          "loki",
+          "statistics",
+          "sample data"
         ],
         "apis": []
       }
@@ -1003,6 +1096,39 @@
       }
     },
     {
+      "id": "gene-domains",
+      "title": "Genes in their domains: a chromosome's TADs, functions and organs",
+      "category": "Science",
+      "description": "Chromosome 7's protein-coding genes (Human Protein Atlas) in the 3D domains Hi-C finds (ENCODE, GM12878): a zoomable track of nested domains and genes, the function hierarchy (system › process › gene), organ-specific genes by system, and a test: genes that share a domain share a system (purity 0.68 against 0.44 shuffled, 0.57 within 5 Mb). Also the protein complexes they build (Complex Portal), each opening in 3D from its PDB structure. The chrom parameter picks the chromosome.",
+      "path": "examples/gene-domains",
+      "board": "git:https://github.com/seebra-io/examples#examples/gene-domains",
+      "listed": true,
+      "files": 61,
+      "data": [],
+      "fetched": [],
+      "catalog": {
+        "title": "Genes in their domains: a chromosome's TADs, functions and organs",
+        "summary": "Chromosome 7's genes in the 3D domains Hi-C finds: a zoomable track, system › process › gene, organs, and domains holding one function (purity 0.68 against 0.44 shuffled).",
+        "description": "Question: a chromosome folds into domains (TADs) that contact themselves more than their surroundings. Do the genes that share a domain also share a function, and where in the body are they used? Data: chromosome 7's protein-coding genes from the Human Protein Atlas (position on GRCh38, UniProt's biological-process and molecular-function keywords, RNA tissue specificity and nTPM in 19 tissues), and the contact domains Juicer's Arrowhead calls in GM12878 in situ Hi-C (ENCODE ENCFF203AKP; Rao et al. 2014), a gzipped BEDPE for all chromosomes. Steps: each gene's keywords grouped into a dozen systems; the domains nested (a domain inside a larger one gets it as parent) and each gene placed in the smallest domain that holds its middle; then, for the 31 domains with 3 or more annotated genes, the share of their genes in their most common system, against 1,000 shuffles of the systems anywhere on the chromosome and within 5 Mb. Aha: domains hold one function far more often than chance (mean purity 0.68 against 0.44 shuffled anywhere, p < 0.001), and still more than their neighbourhood alone gives (0.57 within 5 Mb, p < 0.001). The purest are tandem gene families: the T-cell receptor β and γ loci, a zinc-finger cluster at 64 Mb, HOXA2–6. HOXA9 sits between two domains, at the boundary that splits the HOXA cluster. Caveats: domains are from one cell line (a B-lymphoblastoid line), and boundaries differ between cell types; 438 of 1,002 genes have no UniProt process keyword; the grouping into systems is this board's; nTPM is RNA, not protein; only protein-coding genes are in HPA's list. Complexes: 164 of chromosome 7's genes are subunits of 445 curated complexes (Complex Portal, EBI), shown by family and function; a complex's PDB entry opens in 3D, its chains coloured by protein and this chromosome's subunits bright (RCSB, with PDBe's chain mapping). Curated complexes are a fraction of what binds: a gene missing there may still have partners. Next: set chrom to another chromosome; pin a gene for its card and links to HPA, Ensembl, GeneCards and Reactome; colour the track by organ; drill into a domain; expand to another cell line's domains (ENCODE has Hi-C for dozens).",
+        "categories": [
+          "science/biology/genetics",
+          "science/biology/bioinformatics"
+        ],
+        "tags": [
+          "example",
+          "genome",
+          "TAD",
+          "Hi-C",
+          "gene expression",
+          "chromatin",
+          "protein complex",
+          "PDB",
+          "3D"
+        ],
+        "apis": []
+      }
+    },
+    {
       "id": "gompertz-mortality",
       "title": "Gompertz's law: the risk of dying doubles about every seven years",
       "category": "Health",
@@ -1178,6 +1304,37 @@
           "study"
         ],
         "apis": []
+      }
+    },
+    {
+      "id": "heritage-collection",
+      "title": "Your collection on your website",
+      "category": "Culture",
+      "description": "A museum's own records in K-samsök, live, for its website and a gallery kiosk: a map of find places, a time line of dating, object names and materials, pictures with their licence and record, and the collection gaps (the share of records without coordinates, dating, a picture or a licence, by record type and object name) that public-access reporting asks about. Statens historiska museer by default; set org to another institution's K-samsök code, and parish to see that parish's ancient monuments in Fornsök and who else holds records from it. Statistics: the gaps, dating, names and materials are counted by K-samsök over the whole set; the map and the pictures are one page each (150 and 36 records, not a random sample). Caveat: a record dated over a range counts in every century it spans.",
+      "path": "examples/heritage-collection",
+      "board": "git:https://github.com/seebra-io/examples#examples/heritage-collection",
+      "listed": true,
+      "files": 83,
+      "data": [],
+      "fetched": [],
+      "catalog": {
+        "title": "Your collection on your website (K-samsök)",
+        "summary": "A museum's records in K-samsök, live: map, dating, object names, pictures with licences, and the collection gaps public-access reporting asks about.",
+        "description": "A museum's own records in K-samsök, for its website and a gallery kiosk: a map of find places, a time line of dating, object names and materials, pictures with their licence and record, and the share of records without coordinates, dating, a picture or a licence, by record type and object name. Statens historiska museer by default; set org to another institution's code, and parish to look wider (Fornsök, other collections).",
+        "categories": [
+          "culture/heritage"
+        ],
+        "tags": [
+          "example",
+          "museums",
+          "sweden",
+          "k-samsök",
+          "fornsök",
+          "collection gaps"
+        ],
+        "apis": [
+          "ksamsok"
+        ]
       }
     },
     {
@@ -1851,6 +2008,38 @@
       }
     },
     {
+      "id": "methane-budget",
+      "title": "Why did methane surge? Its budget, its short memory and its push on the climate",
+      "category": "Earth",
+      "description": "Forty years of global methane (NOAA): the 2000–2006 pause, the record 2020–2022 surge, and the budget behind it. About 600 Tg are emitted and almost as much destroyed each year, so the record 2021 was an 8.5% imbalance. Its 9-year lifetime gives it a short memory: cut 30% by 2030 and it falls back to its 1980s level by 2050. ENSO explains about 1% of the wobble. Methane is 18% of the long-lived gases' forcing.",
+      "path": "examples/methane-budget",
+      "board": "git:https://github.com/seebra-io/examples#examples/methane-budget",
+      "listed": true,
+      "files": 35,
+      "data": [],
+      "fetched": [],
+      "catalog": {
+        "title": "Why did methane surge? Its budget, its short memory and its push on the climate",
+        "summary": "Global methane since 1983 (NOAA): the pause, the 2020–22 surge, a 600 Tg/yr budget where growth is a thin gap, and why cutting it works within a decade.",
+        "description": "Question: methane is the second greenhouse gas after CO₂, and from 2020 to 2022 it rose faster than ever measured. Why does its growth swing so much, how big is the budget behind it, and what would cutting emissions do? Data: NOAA's globally averaged monthly methane at marine surface sites since 1983 with its de-seasonalised trend, NOAA's annual growth, NOAA's global CO₂ and N₂O, and NOAA CPC's Oceanic Niño Index. Steps: the monthly growth rate (the trend's 12-month change); ENSO against growth minus its 7-year mean at lags of −6 to 24 months; the budget in one box (emissions = 2.75 Tg/ppb × growth + stock ÷ a 9.1-year lifetime); three futures from today's emissions stepped monthly to 2060; and each gas's radiative forcing with Myhre et al.'s simplified formulas. Aha: growth is the thin difference between two huge flows. About 600 million tonnes are emitted a year and almost as much destroyed by OH; the record 2021 (17.7 ppb) was an 8.5% imbalance, and the 2000–2006 pause (0.5 ppb/yr) a balance. Because the air clears about a ninth of it every year, methane answers within a decade: held at 2025's emissions it levels off near 1,975 ppb, cut 30% by 2030 it falls back to about 1,430 ppb by 2050 (its 1980s level, 0.35 instead of 0.55 W/m²), while rising 1% a year takes it to 2,330 ppb. Nothing similar is possible with CO₂. ENSO, often blamed (La Niña wets tropical wetlands), explains only about 1% of the year-to-year wobble here (r = 0.10 with ENSO 10 months earlier). Methane is 18% of the three gases' 3.04 W/m² in 2025. Caveats: the one-box lifetime is uncertain (8.5–9.5 years) and fixed, whereas OH falls as methane rises (the perturbation lasts about 12 years) and fell in 2020's cleaner air; the 30% cut is applied to 2025's inferred emissions, not the pledge's 2020 baseline; the forcing is the direct one only (ozone and stratospheric water add about half again); a marine-site average misses regional sources; growth for the latest year is preliminary. Next: hover any month or year; drill down to a single station or latitude band (NOAA publishes both); expand to δ¹³C, the isotope that separates microbial from fossil sources, and to satellite (TROPOMI) maps of emitters.",
+        "categories": [
+          "science/earth/atmosphere",
+          "science/earth/climate"
+        ],
+        "tags": [
+          "example",
+          "methane",
+          "greenhouse gases",
+          "climate",
+          "NOAA",
+          "ENSO",
+          "radiative forcing",
+          "Global Methane Pledge"
+        ],
+        "apis": []
+      }
+    },
+    {
       "id": "milky-way-3d",
       "title": "Our neighbourhood in the Milky Way, in 3D",
       "category": "Space",
@@ -1888,6 +2077,41 @@
           "esa-gaia-tap",
           "nasa-exoplanet-archive"
         ]
+      }
+    },
+    {
+      "id": "missense-p53",
+      "title": "Which single changes break p53? AlphaMissense, gnomAD and ClinVar",
+      "category": "Science",
+      "description": "Every single amino-acid change in p53, three ways: AlphaMissense's prediction, how many of gnomAD's 807,000 people carry it, and ClinVar's verdict, with AlphaFold's fold in 3D. Harm sits in the folded core (74% likely pathogenic, 229 of 231 ClinVar pathogenic changes); the disordered ends tolerate almost anything. AlphaMissense separates reviewed pathogenic from benign with AUC 0.99. Caveat: clonal blood mutations in gnomAD. Set gene and uniprot for another protein.",
+      "path": "examples/missense-p53",
+      "board": "git:https://github.com/seebra-io/examples#examples/missense-p53",
+      "listed": true,
+      "files": 42,
+      "data": [],
+      "fetched": [],
+      "catalog": {
+        "title": "Which single changes break p53? AlphaMissense, gnomAD and ClinVar",
+        "summary": "AlphaMissense, gnomAD and ClinVar on every possible p53 change, with AlphaFold in 3D: harm sits in the fold; prediction separates ClinVar's verdicts with AUC 0.99.",
+        "description": "Question: p53, \"the guardian of the genome\", is the most often mutated gene in human cancer, and most of its cancer mutations swap a single amino acid. Of the 7,467 possible single swaps in its 393 residues, which ones break it? Can a model tell before any patient carries them, and do evolution and the clinic agree? Data: AlphaMissense's prediction for every swap (Google DeepMind, Cheng et al., Science 2023; 0 benign … 1 pathogenic), on the protein and on GRCh38; AlphaFold's model and per-residue confidence (pLDDT); gnomAD v4's allele counts in about 807,000 people; and ClinVar's classifications through gnomAD's API. Steps: the swaps one DNA letter can make (2,314) joined to gnomAD and ClinVar by genomic variant, not by protein name (the two name changes on different transcripts); then AlphaMissense by how common a change is, against ClinVar's reviewed classifications, and per residue against AlphaFold's confidence. Aha: harm is a property of the fold. The DNA-binding core (pLDDT ≥ 90, 207 residues) holds 74% likely-pathogenic swaps and 229 of the 231 ClinVar pathogenic ones; the disordered ends (pLDDT < 50, 117 residues) tolerate almost anything (7%). AlphaMissense ranks reviewed pathogenic above benign with AUC 0.989 (97% of 224 pathogenic called likely pathogenic, 83% of 144 benign called likely benign), and would call 37% of the 555 variants of uncertain significance pathogenic and 52% benign. The commoner a change in people, the more benign: median score 0.41 for changes seen in one person, 0.14 for rare ones, 0.07 for those above 1 in 10,000. Caveats: the \"one person\" band scores higher than never-seen changes because gnomAD's blood samples carry clonal haematopoiesis (TP53 mutations acquired with age), not only inherited variants; AlphaMissense learnt from human and primate population frequencies, so agreement with gnomAD is partly by construction, while ClinVar is the independent test (though recent classifications may cite it, and TP53's lean on functional assays); the model and the scores are for one chain alone, without DNA, zinc or partners; the files are AlphaFold's model v6. Next: hover any cell of the map; click a residue to see it in 3D; set gene and uniprot together to another protein (BRCA1 P38398, KRAS P01116, CFTR P13569, PTEN P60484); filter the changes table to ClinVar uncertain.",
+        "categories": [
+          "science/biology/genetics",
+          "science/biology/molecular",
+          "science/biology/bioinformatics"
+        ],
+        "tags": [
+          "example",
+          "AlphaMissense",
+          "AlphaFold",
+          "gnomAD",
+          "ClinVar",
+          "missense variant",
+          "TP53",
+          "cancer",
+          "protein structure",
+          "3D"
+        ],
+        "apis": []
       }
     },
     {
@@ -2273,6 +2497,77 @@
           "Ramachandran"
         ],
         "apis": []
+      }
+    },
+    {
+      "id": "recall-watch",
+      "title": "What's new in recalls",
+      "category": "Health",
+      "description": "What is new in US recalls, with where each record came from: openFDA's drug and food enforcement reports and device recalls, newest first, one row per recall with its key (recall number), class, firm, reason, and its provenance: the record's own query at openFDA, the feed, when openFDA last updated it and when this board read it. openFDA publishes weekly, so new means in a feed's latest report; device recalls post daily. Next step: watch a feed (Source watch → Discover) to be told what is new since the last check, with a SHA-256 of each answer and a Wayback Machine copy, and verify a record against the source before you publish. A recall is the firm's or FDA's action, not proof of harm; openFDA data are not for medical decisions.",
+      "path": "examples/recall-watch",
+      "board": "git:https://github.com/seebra-io/examples#examples/recall-watch",
+      "listed": true,
+      "hero": false,
+      "files": 23,
+      "data": [],
+      "fetched": [],
+      "catalog": {
+        "title": "What's new in recalls",
+        "summary": "New US drug, food and device recalls from openFDA, each with its record's query, the feed's update and when it was read.",
+        "description": "What is new in US recalls, with where each record came from: openFDA's drug and food enforcement reports and device recalls, newest first, one row per recall with its key (recall number), class, firm, reason, and its provenance: the record's own query at openFDA, the feed, when openFDA last updated it and when this board read it. openFDA publishes weekly, so new means in a feed's latest report; device recalls post daily. Next step: watch a feed (Source watch → Discover) to be told what is new since the last check, with a SHA-256 of each answer and a Wayback Machine copy, and verify a record against the source before you publish. A recall is the firm's or FDA's action, not proof of harm; openFDA data are not for medical decisions.",
+        "categories": [
+          "health/drugs"
+        ],
+        "tags": [
+          "example",
+          "recalls",
+          "fda",
+          "provenance",
+          "journalism",
+          "osint"
+        ],
+        "image": "/explore/logos/openfda.png",
+        "apis": [
+          "openfda"
+        ]
+      }
+    },
+    {
+      "id": "reproduce-benson-2016-fig1",
+      "title": "Reproduce Figure 1: near-stasis in Mesozoic tetrapods",
+      "category": "Science",
+      "description": "Question: does a published diversity curve still stand when it is rebuilt from today's data? Benson et al. 2016 (PLOS Biology, doi:10.1371/journal.pbio.1002359) counted the non-marine tetrapods of the Mesozoic in the Paleobiology Database and found near-stasis: no long-term trend in genus or species counts unless the first Triassic bin is left out (their Figure 1), and a net diversification rate near zero after subsampling (Figure 5). This board rebuilds Figure 1B–C live from the PBDB, next to a link to the original figure, with the paper's Poisson trend lines, shareholder quorum subsampling (quorum 0.4), the paper's numbers beside today's and a study of the claim. Click a bin for the PBDB records behind it. Caveats: PBDB's 10-Myr bins and terrestrial filter approximate the paper's bins and taxon list; the PBDB has grown since 2015; this SQS is global and at genus level, the paper's regional and at species level. Cite the board, the paper and the PBDB from the Cite panel; Copy as Python reruns the pipeline.",
+      "path": "examples/reproduce-benson-2016-fig1",
+      "board": "git:https://github.com/seebra-io/examples#examples/reproduce-benson-2016-fig1",
+      "listed": true,
+      "hero": false,
+      "files": 41,
+      "data": [],
+      "fetched": [],
+      "catalog": {
+        "title": "Reproduce Figure 1: near-stasis in Mesozoic tetrapods",
+        "summary": "A published figure rebuilt live: Benson et al. 2016's Mesozoic tetrapod diversity from today's PBDB, with the paper's trend lines, subsampling and a study of its claim.",
+        "description": "Two PBDB diversity queries count non-marine tetrapod genera and species per 10-Myr bin and an occurrence list feeds shareholder quorum subsampling; Poisson GLMs draw the paper's dashed trend lines, with and without the first Triassic bin. Crossref and DataCite give the paper's and its Dryad data's citations, a table sets the paper's numbers beside today's, and a study asks whether near-stasis still holds. Click a bin for the records behind it.",
+        "categories": [
+          "science/past/palaeontology",
+          "science/biology/ecology"
+        ],
+        "tags": [
+          "example",
+          "reproducibility",
+          "palaeontology",
+          "mesozoic",
+          "diversity",
+          "subsampling",
+          "tetrapods",
+          "citation"
+        ],
+        "image": "/explore/logos/paleobiodb.png",
+        "apis": [
+          "paleobiodb",
+          "crossref",
+          "datacite"
+        ]
       }
     },
     {

@@ -1,0 +1,22 @@
+{
+  "transformation/content": {
+    "$file": "transforms/drill-down-events-and-pods-of-each-rollout.js"
+  },
+  "transformation/data-child": ["data/id", "1df80b43-c52c-593b-a5a0-1911753654c9"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "js-web-worker",
+  "transformation/id": "7c254430-09f2-5859-9a87-40ee9c9bb478",
+  "transformation/inputs": [
+    ["data/id", "55a6b10a-04ea-5f2c-bc67-0cf41158f5a7"],
+    ["data/id", "dcc62f26-c2dd-5c2b-a60d-775052c3ac51"]
+  ],
+  "transformation/language": "javascript",
+  "transformation/name": "Drill down: events and pods of each rollout",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 800
+  },
+  "transformation/parent": ["data/id", "20754757-c285-5bfc-b964-cc2f22021d1b"],
+  "transformation/units": "{}"
+}

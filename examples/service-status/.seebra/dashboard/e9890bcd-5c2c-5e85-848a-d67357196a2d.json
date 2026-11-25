@@ -18,6 +18,7 @@
   ],
   "grids": [],
   "name": "Service status",
+  "parameters": [],
   "queries": [
     ["query/id", "16674b7e-419f-52da-b45d-9f7745054d2f"],
     ["query/id", "f4a9ffcb-9737-5bb3-b2f6-090d07bebdf4"]

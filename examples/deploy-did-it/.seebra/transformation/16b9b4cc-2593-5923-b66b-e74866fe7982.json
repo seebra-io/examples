@@ -1,0 +1,21 @@
+{
+  "transformation/content": {
+    "$file": "transforms/expand-the-other-services-at-the-same-time.js"
+  },
+  "transformation/data-child": ["data/id", "d2cd815e-cdcf-5ed0-b276-349fda8d8cd3"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "js-web-worker",
+  "transformation/id": "16b9b4cc-2593-5923-b66b-e74866fe7982",
+  "transformation/inputs": [
+    ["data/id", "dcc62f26-c2dd-5c2b-a60d-775052c3ac51"]
+  ],
+  "transformation/language": "javascript",
+  "transformation/name": "Expand: the other services at the same time",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 800
+  },
+  "transformation/parent": ["data/id", "af2a9bb6-67cd-507f-a65f-92ef3381e00c"],
+  "transformation/units": "{}"
+}

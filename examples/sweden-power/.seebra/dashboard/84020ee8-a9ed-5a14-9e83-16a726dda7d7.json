@@ -17,6 +17,7 @@
   ],
   "grids": [],
   "name": "Sweden's electricity today",
+  "parameters": [],
   "queries": [
     ["query/id", "0e30b9f3-1f4b-5e65-98ba-c8ad63de1917"]
   ],

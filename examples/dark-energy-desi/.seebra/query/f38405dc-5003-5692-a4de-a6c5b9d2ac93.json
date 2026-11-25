@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "b6ffdd01-0686-5627-870a-57ac86926ad0"],
+  "query/datasource": ["datasource/id", "a9411299-70e8-5409-af19-505399cd1efa"],
+  "query/dynamic?": true,
+  "query/format": "text",
+  "query/headers": "{}",
+  "query/id": "f38405dc-5003-5692-a4de-a6c5b9d2ac93",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "DESI DR2 BAO: their covariance (13 × 13)",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 560
+  },
+  "query/params": "{}",
+  "query/path": "/desi_bao_dr2/desi_gaussian_bao_ALL_GCcomb_cov.txt",
+  "query/request-body": "",
+  "query/units": "{}"
+}

@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/body-length-a-distribution-and-its-quantiles.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "2d7f250d-a05a-51c1-a611-1ad0d8b722ef",
   "graph/inputs": [],
   "graph/language": "javascript",

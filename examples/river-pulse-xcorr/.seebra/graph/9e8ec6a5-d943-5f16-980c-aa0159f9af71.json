@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/lined-up-by-the-travel-time.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "9e8ec6a5-d943-5f16-980c-aa0159f9af71",
   "graph/inputs": [
     ["data/id", "b2b366a1-56c4-559e-969f-2865ddbc2747"]

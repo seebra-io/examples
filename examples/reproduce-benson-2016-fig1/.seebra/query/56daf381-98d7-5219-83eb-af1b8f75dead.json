@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "557b6682-3a40-521c-b35a-d7c662795946"],
+  "query/datasource": ["datasource/id", "039806a1-9df1-57d0-a73e-0787cda8f6dc"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "56daf381-98d7-5219-83eb-af1b8f75dead",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "The paper (Crossref)",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 800
+  },
+  "query/params": "{}",
+  "query/path": "/works/10.1371/journal.pbio.1002359",
+  "query/request-body": "",
+  "query/units": "{}"
+}

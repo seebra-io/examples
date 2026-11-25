@@ -1,0 +1,10 @@
+{
+  "data/id": "dcd96ad8-616d-5fbf-97e9-175a3e79d056",
+  "data/name": "Global N₂O, monthly means (ppb) data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 800
+  },
+  "data/parent": ["query/id", "6ce1434f-6762-5685-b6a8-21ac4ac0bf44"],
+  "data/type": "json"
+}

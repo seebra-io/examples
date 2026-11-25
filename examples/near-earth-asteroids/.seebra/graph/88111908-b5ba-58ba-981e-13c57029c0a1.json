@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/when-and-how-close-log-scale-dashed-the-moon.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "88111908-b5ba-58ba-981e-13c57029c0a1",
   "graph/inputs": [
     ["data/id", "b21865cf-6465-5b2d-88e5-1d712a0dbe65"]

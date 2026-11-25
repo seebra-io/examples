@@ -1,0 +1,16 @@
+{
+  "datasource/api-key-key": "api_key",
+  "datasource/auth-type": "none",
+  "datasource/headers": "{}",
+  "datasource/id": "4d301a20-5682-56b8-a68a-680aa07ab2d5",
+  "datasource/name": "RCSB PDB (structure files)",
+  "datasource/node": {
+    "inputs": 1,
+    "node/x": 80,
+    "node/y": 1040,
+    "outputs": 1
+  },
+  "datasource/params": "{}",
+  "datasource/type": "openapi",
+  "datasource/url": "https://files.rcsb.org/download"
+}

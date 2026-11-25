@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "d8711895-e658-5451-bf0b-9ef41ddf0c2b"],
+  "query/datasource": ["datasource/id", "b549e935-a3cf-5683-82a3-b350f43cca2d"],
+  "query/dynamic?": true,
+  "query/format": "text",
+  "query/headers": "{}",
+  "query/id": "70f10d86-1aef-5d72-8cdc-a9ce16b2590d",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "AlphaMissense on GRCh38: the substitutions one DNA letter makes, with their genomic variant (CSV)",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 560
+  },
+  "query/params": "{}",
+  "query/path": "/files/AF-{{uniprot}}-F1-hg38.csv",
+  "query/request-body": "",
+  "query/units": "{}"
+}

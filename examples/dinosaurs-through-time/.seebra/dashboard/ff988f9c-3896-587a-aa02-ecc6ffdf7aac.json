@@ -23,6 +23,7 @@
   ],
   "grids": [],
   "name": "Dinosaurs through time",
+  "parameters": [],
   "queries": [
     ["query/id", "2a16ab62-4709-5de1-a507-c4eab5a294fd"],
     ["query/id", "075a7c7c-33c1-5a80-b486-f34afc8be206"],

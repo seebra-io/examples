@@ -1,0 +1,10 @@
+{
+  "data/id": "0574fa98-c2ba-5599-b112-bf24591ac3b8",
+  "data/name": "Global methane, monthly means and trend (ppb) data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 80
+  },
+  "data/parent": ["query/id", "b9a436ab-e807-5594-97f2-f888a9b5a90c"],
+  "data/type": "json"
+}

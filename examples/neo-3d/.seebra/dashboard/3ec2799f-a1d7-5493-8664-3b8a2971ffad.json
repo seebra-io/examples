@@ -25,6 +25,7 @@
   ],
   "grids": [],
   "name": "Near-Earth objects in 3D",
+  "parameters": [],
   "queries": [
     ["query/id", "85f9e3b4-7bf6-549e-8281-237c7b5e1c49"],
     ["query/id", "a460b25a-3046-516e-893b-db1412d2913d"],

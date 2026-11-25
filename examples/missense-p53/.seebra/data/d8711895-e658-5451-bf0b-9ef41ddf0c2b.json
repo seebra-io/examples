@@ -1,0 +1,10 @@
+{
+  "data/id": "d8711895-e658-5451-bf0b-9ef41ddf0c2b",
+  "data/name": "AlphaMissense on GRCh38: the substitutions one DNA letter makes, with their genomic variant (CSV) data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 560
+  },
+  "data/parent": ["query/id", "70f10d86-1aef-5d72-8cdc-a9ce16b2590d"],
+  "data/type": "json"
+}

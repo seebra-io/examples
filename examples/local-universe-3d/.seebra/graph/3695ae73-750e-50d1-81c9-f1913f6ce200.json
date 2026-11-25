@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/the-local-group-to-scale-glowing-by-luminosity.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "3695ae73-750e-50d1-81c9-f1913f6ce200",
   "graph/inputs": [],
   "graph/language": "javascript",

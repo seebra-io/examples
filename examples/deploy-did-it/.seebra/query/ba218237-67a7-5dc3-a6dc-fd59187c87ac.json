@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "20754757-c285-5bfc-b964-cc2f22021d1b"],
+  "query/datasource": ["datasource/id", "0b187699-8b50-53d3-8f05-45114c8e1b05"],
+  "query/dynamic?": true,
+  "query/format": "json",
+  "query/headers": "{}",
+  "query/id": "ba218237-67a7-5dc3-a6dc-fd59187c87ac",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Events of the namespace",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 320
+  },
+  "query/params": "{\"limit\":\"1000\"}",
+  "query/path": "/api/v1/namespaces/{{namespace}}/events",
+  "query/request-body": "",
+  "query/units": "{}"
+}

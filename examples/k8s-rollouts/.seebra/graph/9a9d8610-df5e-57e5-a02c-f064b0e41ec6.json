@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/image-versions-per-repository-drift.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "9a9d8610-df5e-57e5-a02c-f064b0e41ec6",
   "graph/inputs": [
     ["data/id", "c4a11228-501f-51e9-9191-f312325bcd16"]

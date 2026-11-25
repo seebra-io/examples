@@ -16,6 +16,7 @@
   ],
   "grids": [],
   "name": "Earthquakes this week",
+  "parameters": [],
   "queries": [
     ["query/id", "9d02ce80-cc3c-5266-8fab-29033f68b119"]
   ],

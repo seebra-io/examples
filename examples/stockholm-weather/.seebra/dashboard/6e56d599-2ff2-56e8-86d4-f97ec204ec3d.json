@@ -19,6 +19,7 @@
   ],
   "grids": [],
   "name": "Stockholm: the week's weather",
+  "parameters": [],
   "queries": [
     ["query/id", "6be62166-8e04-549b-b8bb-a2fa22cbfd82"],
     ["query/id", "362c97b2-65c0-5977-9327-15b69af417a8"]

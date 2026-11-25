@@ -1,0 +1,66 @@
+{
+  "dashboard/id": "019094bd-0381-5ab4-a761-3dd1de712009",
+  "datas": [
+    ["data/id", "51985577-bbcf-54f9-a7ea-14d1d4e0007c"],
+    ["data/id", "54d79827-5300-5824-9baf-2131043e3e1c"],
+    ["data/id", "c939fa37-8342-59d4-9ae3-c3cf44b0d143"],
+    ["data/id", "612f8cc9-200c-5331-af18-28c75020d49c"],
+    ["data/id", "34b4df81-c1f9-5c26-aeb7-ed85a1af3ef9"],
+    ["data/id", "bfcfd551-03a3-5184-9e8c-629c50bc31a6"],
+    ["data/id", "cc18ed23-b9e7-5220-b6d3-034901090bf9"],
+    ["data/id", "e0de89e8-5c9c-5648-9a8f-2dd00a04fb72"],
+    ["data/id", "ce6bf60b-e871-58bf-98d8-d956bed710c2"],
+    ["data/id", "fd5ca2c4-a697-53d1-9215-1d5bf3c81fac"],
+    ["data/id", "1a67ee84-9101-5dc0-ac12-8983952225aa"],
+    ["data/id", "234d2eef-36b5-51b4-b160-b553c4932bff"],
+    ["data/id", "38f3d53c-64fb-5218-85c0-d7fb0a93cfc5"],
+    ["data/id", "23d634df-dc2e-593c-80dc-963d91ccb292"],
+    ["data/id", "a0e350f5-2a5a-5a58-9cbb-b079c485990a"],
+    ["data/id", "18247c66-a128-5d49-a07b-61cc2112da60"],
+    ["data/id", "ed62d69d-bf37-544e-8af2-be5b9d5cf6e5"]
+  ],
+  "datasources": [
+    ["datasource/id", "4a21b992-762e-546e-a625-31076bcc4301"],
+    ["datasource/id", "bb7d9aab-248a-5459-bb2b-516142fc384e"],
+    ["datasource/id", "2fe9e70b-db49-5321-948a-dd385f248dba"]
+  ],
+  "description": "Cluster live: the observability basics of one Kubernetes namespace (shop by default: set yours in Parameters), refreshing every 15 s, with nothing to run or set up. Services: requests/s, the 5xx error ratio, p50 and p99 latency per service from Prometheus (RED), each with its usual band (the median of the 30 minutes before ± 3 × MAD) and the same time yesterday; points outside the band are red, with a note in plain words (\"p99 for checkout is 3.1× its usual level since 14:02\"). Workloads: CPU and memory against their requests and limits, restarts, and a short forecast (Holt's linear smoothing) of every pod's memory against its limit, every volume against its capacity and every node against what it can allocate (\"memory limit reached in ~40 min\"). Pod phases, and the log rate per app from Loki. Deploy markers come from the rollouts (Kubernetes ReplicaSets, found as in \"Did the deploy do it?\"). Hover a point for its value, usual band, yesterday and the pods behind it; click a service or workload to drill down to its pods, events and log lines in the same view; expand to the same metric on the other services, and to the nodes it runs on. SAMPLE DATA: signed out, or before you connect, the three datasources read a made-up cluster that moves with the clock (generated from a model by scripts/cluster-live-sample.mjs, labelled as sample everywhere). Connect your cluster to run on yours, one of three ways: (1) the Seebra desktop app reads localhost directly: kubectl port-forward -n monitoring svc/prometheus-operated 9090, kubectl port-forward -n monitoring svc/loki 3100 and kubectl proxy --port=8001, then set the datasources to http://localhost:9090/api/v1, http://localhost:8001 and http://localhost:3100/loki/api/v1; (2) your organisation's own Seebra gateway, in the cluster: https://kubernetes.default.svc with a read-only token, and your in-cluster Prometheus or Thanos querier and Loki (on OpenShift https://thanos-querier.openshift-monitoring.svc:9091/api/v1 with a bearer token); (3) in a browser, the same localhost URLs behind a proxy that adds CORS headers (kubectl proxy and Loki send none; Prometheus has --web.cors.origin). Then set namespace and, if your metric names differ, the PromQL in Parameters: the defaults follow kube-prometheus-stack (cAdvisor, kube-state-metrics, its namespace_workload_pod:kube_pod_owner:relabel and node_namespace_pod_container recording rules) and OpenTelemetry's http_server_request_duration_seconds histogram for requests, which your apps export (kube-prometheus-stack doesn't measure requests itself). Read only: nothing here writes to the cluster. Caveats: points are 1-minute rates every 15 s, so neighbouring points are not independent and short spikes are smoothed; histogram_quantile interpolates within buckets; the band learns from the last 30 minutes only (a slow drift becomes usual; yesterday is the check); a forecast says what happens if the recent trend holds, nothing more; memory is per pod against the sum of its containers' limits (an OOM kill is per container); events expire (an hour by default); Loki returns at most 1000 lines.",
+  "graphs": [
+    ["graph/id", "0c72f30d-05a3-5a7b-8aad-7d4db5df3a4c"]
+  ],
+  "grids": [],
+  "name": "Cluster live",
+  "ontology": {
+    "$file": ".seebra/dashboard/019094bd-0381-5ab4-a761-3dd1de712009.ontology.json",
+    "$json": true
+  },
+  "parameters": [
+    ["data/id", "51985577-bbcf-54f9-a7ea-14d1d4e0007c"]
+  ],
+  "queries": [
+    ["query/id", "2a49b334-6313-5407-a932-88ab3fead9ff"],
+    ["query/id", "5f6b2c6e-ebec-5d4b-a786-f945e42d1c00"],
+    ["query/id", "487bc0e7-07b8-514e-9eae-a27e5fcf9ab7"],
+    ["query/id", "122a220d-5d03-539a-952b-40f512b4eaad"],
+    ["query/id", "223d71ac-41a1-5e36-9ccd-e98e086e85cf"],
+    ["query/id", "bd0e09dd-87b2-5d8e-8eb3-6532921310a4"],
+    ["query/id", "34484625-9669-5a08-9263-683e0df3acd1"],
+    ["query/id", "fb059b70-c7e1-5653-901c-34d9b223558e"],
+    ["query/id", "f97a72eb-30e0-5067-bef9-1cae465b8dc6"],
+    ["query/id", "a34f715e-3ea2-59f0-b0dd-b212147b4dad"]
+  ],
+  "studies": [],
+  "tables": [],
+  "texts": [],
+  "timers": [
+    ["timer/id", "6adf14d8-f460-5d85-9853-7edc6b15f943"]
+  ],
+  "transformations": [
+    ["transformation/id", "0e36b1df-b0a2-5451-a096-44d5a17cba0d"],
+    ["transformation/id", "e984464b-23a6-5535-b74e-975d3d0562f7"],
+    ["transformation/id", "8f206a6c-bdcc-5264-953e-1efc69065440"],
+    ["transformation/id", "63073ac3-56e9-5ff4-b6c8-d02794eb933f"],
+    ["transformation/id", "00afdef6-ba2f-5d0c-8eed-307391a8f740"],
+    ["transformation/id", "179a96a5-3872-50bb-b2bd-1d0bf6cfe7fe"]
+  ]
+}

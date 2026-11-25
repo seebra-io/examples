@@ -1,0 +1,22 @@
+{
+  "transformation/content": {
+    "$file": "transforms/the-records-fetched.js"
+  },
+  "transformation/data-child": ["data/id", "d6fc9242-33cc-573f-84c2-0199fb0ceed6"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "js-web-worker",
+  "transformation/id": "33c75bab-d036-55f2-b105-0f136a78793e",
+  "transformation/inputs": [
+    ["data/id", "184f9e66-084f-5cca-aed0-74c2bbd9a1d1"],
+    ["data/id", "65568055-c62b-5144-ac92-3c95bee7b0c7"]
+  ],
+  "transformation/language": "javascript",
+  "transformation/name": "The records fetched",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 1040
+  },
+  "transformation/parent": ["data/id", "bb4cd9d0-0a6e-5275-a61d-ffe32464a2c4"],
+  "transformation/units": "{}"
+}

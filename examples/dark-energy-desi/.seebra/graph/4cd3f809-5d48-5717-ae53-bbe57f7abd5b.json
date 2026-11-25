@@ -1,0 +1,16 @@
+{
+  "graph/content": {
+    "$file": "graphs/desi-s-sound-wave-ruler-against-cdm.js"
+  },
+  "graph/dynamic?": false,
+  "graph/id": "4cd3f809-5d48-5717-ae53-bbe57f7abd5b",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "DESI's sound-wave ruler against ΛCDM",
+  "graph/node": {
+    "node/created": 2,
+    "node/x": 1460,
+    "node/y": 1040
+  },
+  "graph/parent": ["data/id", "ca4cb37b-55b2-573e-ad7d-b4aeb65ef8a6"]
+}

@@ -1,0 +1,16 @@
+{
+  "graph/content": {
+    "$file": "graphs/what-the-genes-do-system-process-gene.js"
+  },
+  "graph/dynamic?": false,
+  "graph/id": "0782b782-b3fb-51c8-9643-9529f9457864",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "What the genes do: system › process › gene",
+  "graph/node": {
+    "node/created": 2,
+    "node/x": 1920,
+    "node/y": 1280
+  },
+  "graph/parent": ["data/id", "a2dbd774-5daf-51aa-a4ce-5b9e74600297"]
+}

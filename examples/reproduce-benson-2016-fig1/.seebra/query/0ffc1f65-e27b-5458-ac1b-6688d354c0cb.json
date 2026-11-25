@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "0e1c709f-ac11-5b62-b8de-9d7ccdc4ac01"],
+  "query/datasource": ["datasource/id", "78011275-8349-57b5-97c4-e5810f24db90"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "0ffc1f65-e27b-5458-ac1b-6688d354c0cb",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "The paper's archived data at Dryad (DataCite)",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 1040
+  },
+  "query/params": "{}",
+  "query/path": "/dois/10.5061/dryad.9fr76",
+  "query/request-body": "",
+  "query/units": "{}"
+}

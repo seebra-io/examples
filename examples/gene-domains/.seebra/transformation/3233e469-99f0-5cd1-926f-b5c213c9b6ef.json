@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/genes-position-system-process-organs.js"
+  },
+  "transformation/data-child": ["data/id", "17e435e4-1076-508b-b8aa-0982b8b951e8"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "js-web-worker",
+  "transformation/id": "3233e469-99f0-5cd1-926f-b5c213c9b6ef",
+  "transformation/inputs": [],
+  "transformation/language": "javascript",
+  "transformation/name": "Genes: position, system › process, organs",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "127658ed-d5c4-5796-914a-4f0fa502065c"],
+  "transformation/units": "{}"
+}

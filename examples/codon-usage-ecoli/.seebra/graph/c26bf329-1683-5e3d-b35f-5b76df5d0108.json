@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/nc-against-gc3s-ribosomal-proteins-fall-below.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "c26bf329-1683-5e3d-b35f-5b76df5d0108",
   "graph/inputs": [],
   "graph/language": "javascript",

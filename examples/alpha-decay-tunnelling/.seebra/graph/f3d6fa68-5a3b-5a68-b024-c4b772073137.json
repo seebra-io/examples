@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/the-chart-of-nuclides-the-valley-of-stability.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "f3d6fa68-5a3b-5a68-b024-c4b772073137",
   "graph/inputs": [],
   "graph/language": "javascript",

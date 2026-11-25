@@ -1,0 +1,16 @@
+{
+  "datasource/api-key-key": "api_key",
+  "datasource/auth-type": "none",
+  "datasource/headers": "{}",
+  "datasource/id": "b07ef870-9028-5d40-8ed8-f7362c695d23",
+  "datasource/name": "Paleobiology Database (PBDB) data service 1.2",
+  "datasource/node": {
+    "inputs": 1,
+    "node/x": 80,
+    "node/y": 80,
+    "outputs": 1
+  },
+  "datasource/params": "{}",
+  "datasource/type": "openapi",
+  "datasource/url": "https://paleobiodb.org/data1.2"
+}

@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/when-they-were-made-date-ranges-median-and.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "662fa299-0e05-5e97-8d97-a6d2c4683302",
   "graph/inputs": [
     ["data/id", "b7a0c028-e036-5510-81ca-867ba9ea6e4e"]

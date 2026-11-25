@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/the-main-sequence-is-a-mass-sequence.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "dd8f4bba-b956-5ba1-b363-ba71dca7719c",
   "graph/inputs": [
     ["data/id", "07d9320f-3f8a-5820-938c-c0049bb8f20a"]

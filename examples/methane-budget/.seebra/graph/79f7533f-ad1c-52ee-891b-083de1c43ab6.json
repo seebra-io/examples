@@ -1,0 +1,16 @@
+{
+  "graph/content": {
+    "$file": "graphs/how-fast-it-rises-and-enso.js"
+  },
+  "graph/dynamic?": false,
+  "graph/id": "79f7533f-ad1c-52ee-891b-083de1c43ab6",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "How fast it rises, and ENSO",
+  "graph/node": {
+    "node/created": 2,
+    "node/x": 1460,
+    "node/y": 800
+  },
+  "graph/parent": ["data/id", "535f51e8-5782-5817-ba9e-95d9da24e140"]
+}

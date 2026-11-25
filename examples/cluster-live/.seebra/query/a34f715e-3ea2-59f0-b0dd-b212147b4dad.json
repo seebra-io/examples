@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "1a67ee84-9101-5dc0-ac12-8983952225aa"],
+  "query/datasource": ["datasource/id", "2fe9e70b-db49-5321-948a-dd385f248dba"],
+  "query/dynamic?": true,
+  "query/format": "json",
+  "query/headers": "{}",
+  "query/id": "a34f715e-3ea2-59f0-b0dd-b212147b4dad",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "The newest error-ish log lines (LogQL)",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 2240
+  },
+  "query/params": "{\"query\":\"{{logs_logql}}\",\"since\":\"{{window}}\",\"limit\":\"1000\",\"direction\":\"backward\"}",
+  "query/path": "/query_range",
+  "query/request-body": "",
+  "query/units": "{}"
+}

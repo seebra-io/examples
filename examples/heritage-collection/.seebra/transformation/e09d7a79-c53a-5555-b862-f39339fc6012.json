@@ -1,0 +1,22 @@
+{
+  "transformation/content": {
+    "$file": "transforms/what-the-pages-cover.js"
+  },
+  "transformation/data-child": ["data/id", "24246c15-4036-5e57-bc87-90286f07a9a7"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "js-web-worker",
+  "transformation/id": "e09d7a79-c53a-5555-b862-f39339fc6012",
+  "transformation/inputs": [
+    ["data/id", "184f9e66-084f-5cca-aed0-74c2bbd9a1d1"],
+    ["data/id", "65568055-c62b-5144-ac92-3c95bee7b0c7"]
+  ],
+  "transformation/language": "javascript",
+  "transformation/name": "What the pages cover",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 1280
+  },
+  "transformation/parent": ["data/id", "bb4cd9d0-0a6e-5275-a61d-ffe32464a2c4"],
+  "transformation/units": "{}"
+}

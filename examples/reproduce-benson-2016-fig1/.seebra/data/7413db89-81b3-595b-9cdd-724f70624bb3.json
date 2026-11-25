@@ -1,0 +1,10 @@
+{
+  "data/id": "7413db89-81b3-595b-9cdd-724f70624bb3",
+  "data/name": "Species per 10-Myr bin, non-marine tetrapods (PBDB diversity) data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 320
+  },
+  "data/parent": ["query/id", "e44c050d-c894-55d8-a4da-869f5970f433"],
+  "data/type": "json"
+}

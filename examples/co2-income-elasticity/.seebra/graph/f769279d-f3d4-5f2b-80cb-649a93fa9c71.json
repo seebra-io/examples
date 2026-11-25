@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/within-countries-over-time-not-the-cross-country.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "f769279d-f3d4-5f2b-80cb-649a93fa9c71",
   "graph/inputs": [
     ["data/id", "4ea62897-918f-5442-8a24-22c454ce130c"],

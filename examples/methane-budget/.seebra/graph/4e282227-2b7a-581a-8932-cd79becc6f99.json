@@ -1,0 +1,16 @@
+{
+  "graph/content": {
+    "$file": "graphs/the-budget-two-big-flows-and-a-thin-gap.js"
+  },
+  "graph/dynamic?": false,
+  "graph/id": "4e282227-2b7a-581a-8932-cd79becc6f99",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "The budget: two big flows and a thin gap",
+  "graph/node": {
+    "node/created": 3,
+    "node/x": 1460,
+    "node/y": 1040
+  },
+  "graph/parent": ["data/id", "535f51e8-5782-5817-ba9e-95d9da24e140"]
+}

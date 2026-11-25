@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/why-read-past-the-taf-s-first-line-airports.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "55a4be61-a74f-542b-8588-b10335a78e3c",
   "graph/inputs": [
     ["data/id", "57908ce7-dea0-5ad5-8e74-e538e65166a0"]

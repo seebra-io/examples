@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/institutions-with-records-from-the-parish.js"
+  },
+  "transformation/data-child": ["data/id", "b4d26fbf-6f8e-5826-8357-c877d30d1cee"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "js-web-worker",
+  "transformation/id": "0125b2f7-1fff-5e32-9923-821043f5610b",
+  "transformation/inputs": [],
+  "transformation/language": "javascript",
+  "transformation/name": "Institutions with records from the parish",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 1520
+  },
+  "transformation/parent": ["data/id", "ff4db7be-3bb9-5ef3-bc53-c3d856d204c8"],
+  "transformation/units": "{}"
+}

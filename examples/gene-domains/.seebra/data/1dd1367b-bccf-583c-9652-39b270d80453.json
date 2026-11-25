@@ -1,0 +1,10 @@
+{
+  "data/id": "1dd1367b-bccf-583c-9652-39b270d80453",
+  "data/name": "Do domains hold one function? Purity against 1,000 shuffles data",
+  "data/node": {
+    "node/x": 2070,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "171d3180-e76a-5ca0-a15e-2511f59da94e"],
+  "data/type": "json"
+}

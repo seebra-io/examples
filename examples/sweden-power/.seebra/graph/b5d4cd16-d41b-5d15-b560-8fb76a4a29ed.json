@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/generation-by-source-against-load-mw.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "b5d4cd16-d41b-5d15-b560-8fb76a4a29ed",
   "graph/inputs": [
     ["data/id", "f0e649fe-d71f-5a1d-b082-8bcbd08f21fc"]

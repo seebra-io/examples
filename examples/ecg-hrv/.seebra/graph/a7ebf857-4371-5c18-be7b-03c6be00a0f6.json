@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/where-an-rr-interval-comes-from-12-s-of-ecg.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "a7ebf857-4371-5c18-be7b-03c6be00a0f6",
   "graph/inputs": [
     ["data/id", "009377de-f1d8-5086-8684-49d05cdcce01"],

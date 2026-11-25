@@ -1,0 +1,16 @@
+{
+  "datasource/api-key-key": "api_key",
+  "datasource/auth-type": "none",
+  "datasource/headers": "{}",
+  "datasource/id": "e6c642bc-ea4a-51e5-a6ca-0f97034640d3",
+  "datasource/name": "Complex Portal (EBI), complex tables",
+  "datasource/node": {
+    "inputs": 1,
+    "node/x": 80,
+    "node/y": 800,
+    "outputs": 1
+  },
+  "datasource/params": "{}",
+  "datasource/type": "openapi",
+  "datasource/url": "https://ftp.ebi.ac.uk/pub/databases/intact/complex/current/complextab"
+}

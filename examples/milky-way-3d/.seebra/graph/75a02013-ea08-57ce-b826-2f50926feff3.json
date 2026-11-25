@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/the-milky-way-arms-where-the-masers-are-the-bar.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "75a02013-ea08-57ce-b826-2f50926feff3",
   "graph/inputs": [],
   "graph/language": "javascript",

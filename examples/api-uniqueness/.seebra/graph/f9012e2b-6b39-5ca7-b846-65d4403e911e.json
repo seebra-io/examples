@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/how-unique-are-the-apis-the-score-s-distribution.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "f9012e2b-6b39-5ca7-b846-65d4403e911e",
   "graph/inputs": [],
   "graph/language": "javascript",

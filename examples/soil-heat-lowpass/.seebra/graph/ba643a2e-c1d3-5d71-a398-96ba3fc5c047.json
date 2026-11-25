@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/damping-against-depth-daily-and-annual-log-scale.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "ba643a2e-c1d3-5d71-a398-96ba3fc5c047",
   "graph/inputs": [
     ["data/id", "2e0fed90-144a-59e4-a846-cb63e553ed6c"]

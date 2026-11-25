@@ -1,0 +1,10 @@
+{
+  "data/id": "27b1f629-be8d-57ce-8abc-af26d4daee37",
+  "data/name": "… without an image data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 800
+  },
+  "data/parent": ["query/id", "7ea17378-c59e-59ab-a582-bd5ed44b09ed"],
+  "data/type": "json"
+}

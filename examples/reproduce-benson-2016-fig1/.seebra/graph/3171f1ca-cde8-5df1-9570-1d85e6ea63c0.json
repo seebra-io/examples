@@ -1,0 +1,16 @@
+{
+  "graph/content": {
+    "$file": "graphs/the-paper-its-original-figure-and-its-data.js"
+  },
+  "graph/dynamic?": false,
+  "graph/id": "3171f1ca-cde8-5df1-9570-1d85e6ea63c0",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "The paper, its original figure and its data",
+  "graph/node": {
+    "node/created": 2,
+    "node/x": 1460,
+    "node/y": 800
+  },
+  "graph/parent": ["data/id", "dc59abde-9dbd-5925-9ebf-428bdd90e9dc"]
+}

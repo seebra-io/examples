@@ -1,0 +1,16 @@
+{
+  "graph/content": {
+    "$file": "graphs/forty-years-of-methane-era-by-era.js"
+  },
+  "graph/dynamic?": false,
+  "graph/id": "87b0123c-5165-5256-ba7a-f307f17cef2f",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Forty years of methane, era by era",
+  "graph/node": {
+    "node/created": 1,
+    "node/x": 1460,
+    "node/y": 560
+  },
+  "graph/parent": ["data/id", "535f51e8-5782-5817-ba9e-95d9da24e140"]
+}

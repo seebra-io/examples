@@ -1,0 +1,16 @@
+{
+  "graph/content": {
+    "$file": "graphs/the-chromosome-domains-tads-and-genes-zoomable.js"
+  },
+  "graph/dynamic?": false,
+  "graph/id": "661263d6-e436-514e-a584-ebfe4e817b44",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "The chromosome: domains (TADs) and genes, zoomable",
+  "graph/node": {
+    "node/created": 1,
+    "node/x": 1920,
+    "node/y": 1040
+  },
+  "graph/parent": ["data/id", "a2dbd774-5daf-51aa-a4ce-5b9e74600297"]
+}

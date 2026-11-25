@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "5912804b-7ce3-573d-a531-c8ebebb6176e"],
+  "query/datasource": ["datasource/id", "b549e935-a3cf-5683-82a3-b350f43cca2d"],
+  "query/dynamic?": true,
+  "query/format": "text",
+  "query/headers": "{}",
+  "query/id": "63c5e984-fef9-531a-bae7-47bb8fcbe704",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "The AlphaFold model (PDB format), v6",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 1040
+  },
+  "query/params": "{}",
+  "query/path": "/files/AF-{{uniprot}}-F1-model_v6.pdb",
+  "query/request-body": "",
+  "query/units": "{}"
+}

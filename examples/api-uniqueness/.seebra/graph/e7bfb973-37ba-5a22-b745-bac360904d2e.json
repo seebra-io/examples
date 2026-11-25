@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/per-country-copies-what-removing-place-names.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "e7bfb973-37ba-5a22-b745-bac360904d2e",
   "graph/inputs": [],
   "graph/language": "javascript",

@@ -1,0 +1,10 @@
+{
+  "data/id": "af2a9bb6-67cd-507f-a65f-92ef3381e00c",
+  "data/name": "Signals as rows (ms, %, req/s) data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "625d8ede-fe39-59eb-a48e-65deb0b64d69"],
+  "data/type": "json"
+}

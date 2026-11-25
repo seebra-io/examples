@@ -1,0 +1,21 @@
+{
+  "transformation/content": {
+    "$file": "transforms/subsampled-genera-per-bin-sqs-quorum-0-4.js"
+  },
+  "transformation/data-child": ["data/id", "8aff4b35-a5c3-5486-9ad5-1bf6c829f3dc"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "js-web-worker",
+  "transformation/id": "da4e3f73-d31c-525e-bffd-48ec518f0ac4",
+  "transformation/inputs": [
+    ["data/id", "029e7b46-758b-5013-8897-dbacf360fb64"]
+  ],
+  "transformation/language": "javascript",
+  "transformation/name": "Subsampled genera per bin (SQS, quorum 0.4)",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "0e9f19c2-0836-5565-bcb4-f5279498ae0f"],
+  "transformation/units": "{}"
+}

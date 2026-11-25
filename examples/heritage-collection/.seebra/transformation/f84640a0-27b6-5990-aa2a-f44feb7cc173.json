@@ -1,0 +1,24 @@
+{
+  "transformation/content": {
+    "$file": "transforms/collection-gaps-by-object-name.js"
+  },
+  "transformation/data-child": ["data/id", "7a4589b8-ee5f-54b3-9b2c-e0814b8bbf4e"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "js-web-worker",
+  "transformation/id": "f84640a0-27b6-5990-aa2a-f44feb7cc173",
+  "transformation/inputs": [
+    ["data/id", "cb293f96-a36c-50dd-ad3a-cc373c56f1b8"],
+    ["data/id", "52e47f12-64a2-5bfe-9324-36c460a384b6"],
+    ["data/id", "165dcc20-42b9-56fa-88b1-5d0bb96dd4a2"],
+    ["data/id", "a937f2f6-79b7-53ca-a368-eedbad066125"]
+  ],
+  "transformation/language": "javascript",
+  "transformation/name": "Collection gaps by object name",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "a0f5ecdc-717e-551f-8ed0-c721f2d408d7"],
+  "transformation/units": "{}"
+}

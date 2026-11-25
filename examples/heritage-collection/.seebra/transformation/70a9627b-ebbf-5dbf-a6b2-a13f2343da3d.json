@@ -1,0 +1,25 @@
+{
+  "transformation/content": {
+    "$file": "transforms/collection-gaps-by-record-type.js"
+  },
+  "transformation/data-child": ["data/id", "f6966ef8-e8f5-5d43-8141-34050df40663"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "js-web-worker",
+  "transformation/id": "70a9627b-ebbf-5dbf-a6b2-a13f2343da3d",
+  "transformation/inputs": [
+    ["data/id", "05417d1a-7514-511e-9545-995f26f77474"],
+    ["data/id", "6b54e263-9d82-5020-8b8c-de84e30ec4db"],
+    ["data/id", "27b1f629-be8d-57ce-8abc-af26d4daee37"],
+    ["data/id", "08329590-7081-56b6-bcfd-779e0828e129"],
+    ["data/id", "b0f22e93-9c50-5e70-988c-7ca1a7b5906c"]
+  ],
+  "transformation/language": "javascript",
+  "transformation/name": "Collection gaps by record type",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "668d8630-d98b-54a5-b741-34b26927bfb1"],
+  "transformation/units": "{}"
+}

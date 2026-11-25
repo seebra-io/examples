@@ -1,0 +1,16 @@
+{
+  "graph/content": {
+    "$file": "graphs/the-supernova-ruler-against-cdm.js"
+  },
+  "graph/dynamic?": false,
+  "graph/id": "c5a50455-ee78-5ace-b4fa-9e0526499c42",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "The supernova ruler against ΛCDM",
+  "graph/node": {
+    "node/created": 3,
+    "node/x": 1460,
+    "node/y": 1280
+  },
+  "graph/parent": ["data/id", "ca4cb37b-55b2-573e-ad7d-b4aeb65ef8a6"]
+}

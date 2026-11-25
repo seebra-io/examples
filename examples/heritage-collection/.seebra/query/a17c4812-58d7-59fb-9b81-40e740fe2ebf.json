@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "a937f2f6-79b7-53ca-a368-eedbad066125"],
+  "query/datasource": ["datasource/id", "0670d5c0-2bc8-5c66-9883-9925538e8fe6"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "a17c4812-58d7-59fb-9b81-40e740fe2ebf",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Object names with a licensed image",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 2480
+  },
+  "query/params": "{\"method\":\"facet\",\"index\":\"itemName\",\"query\":\"serviceOrganization={{org}} AND mediaLicense=*\"}",
+  "query/path": "/api",
+  "query/request-body": "",
+  "query/units": "{}"
+}

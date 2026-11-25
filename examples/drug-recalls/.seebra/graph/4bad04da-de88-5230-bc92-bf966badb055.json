@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/recalls-per-firm-by-class.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "4bad04da-de88-5230-bc92-bf966badb055",
   "graph/inputs": [
     ["data/id", "537b8fc8-d58f-5406-99c1-ce0a81dfbabf"]

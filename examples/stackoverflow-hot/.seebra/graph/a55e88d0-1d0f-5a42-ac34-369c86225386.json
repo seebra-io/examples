@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/tags-with-python.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "a55e88d0-1d0f-5a42-ac34-369c86225386",
   "graph/inputs": [],
   "graph/language": "javascript",

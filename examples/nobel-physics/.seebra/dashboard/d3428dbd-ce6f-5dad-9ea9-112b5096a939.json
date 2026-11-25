@@ -16,6 +16,7 @@
   ],
   "grids": [],
   "name": "Nobel Prize in Physics",
+  "parameters": [],
   "queries": [
     ["query/id", "a95130d8-8894-51d4-bef7-a151c4897fa5"]
   ],

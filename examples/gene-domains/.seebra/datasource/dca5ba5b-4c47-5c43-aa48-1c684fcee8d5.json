@@ -1,0 +1,16 @@
+{
+  "datasource/api-key-key": "api_key",
+  "datasource/auth-type": "none",
+  "datasource/headers": "{}",
+  "datasource/id": "dca5ba5b-4c47-5c43-aa48-1c684fcee8d5",
+  "datasource/name": "ENCODE portal (files)",
+  "datasource/node": {
+    "inputs": 1,
+    "node/x": 80,
+    "node/y": 560,
+    "outputs": 1
+  },
+  "datasource/params": "{}",
+  "datasource/type": "openapi",
+  "datasource/url": "https://www.encodeproject.org/files"
+}

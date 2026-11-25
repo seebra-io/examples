@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/start-here.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "8ca66c81-81ad-5cac-9eda-6855bfa931b3",
   "graph/inputs": [],
   "graph/language": "javascript",

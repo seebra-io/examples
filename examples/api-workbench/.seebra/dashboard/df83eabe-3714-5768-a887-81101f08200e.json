@@ -19,6 +19,7 @@
   ],
   "grids": [],
   "name": "REST API workbench",
+  "parameters": [],
   "queries": [
     ["query/id", "2a68d868-bb31-557a-aae1-91b4045c55ca"],
     ["query/id", "4daf4cfd-5cff-5fa7-8546-1ca865779a96"]

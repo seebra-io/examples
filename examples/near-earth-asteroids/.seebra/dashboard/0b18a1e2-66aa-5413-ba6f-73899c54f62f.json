@@ -17,6 +17,7 @@
   ],
   "grids": [],
   "name": "Asteroids passing Earth this week",
+  "parameters": [],
   "queries": [
     ["query/id", "1a27ee48-8622-5e71-a38a-f07d81e37dab"]
   ],

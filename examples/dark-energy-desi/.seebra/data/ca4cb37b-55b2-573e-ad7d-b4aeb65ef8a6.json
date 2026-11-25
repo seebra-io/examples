@@ -1,0 +1,10 @@
+{
+  "data/id": "ca4cb37b-55b2-573e-ad7d-b4aeb65ef8a6",
+  "data/name": "ΛCDM against evolving dark energy: grid fit of BAO, supernovae and the CMB data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "5aa5c376-66b7-5c11-bf6d-108c3d17ec79"],
+  "data/type": "json"
+}

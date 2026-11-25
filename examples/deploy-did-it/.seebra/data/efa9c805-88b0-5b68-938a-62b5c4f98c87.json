@@ -1,0 +1,12 @@
+{
+  "data/id": "efa9c805-88b0-5b68-938a-62b5c4f98c87",
+  "data/name": "Rollouts",
+  "data/node": {
+    "node/created": 6,
+    "node/x": 1150,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "796a4ea2-5e15-5147-ae35-55fdc0d9dce6"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

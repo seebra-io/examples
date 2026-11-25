@@ -16,6 +16,7 @@
   ],
   "grids": [],
   "name": "Hacker News front page",
+  "parameters": [],
   "queries": [
     ["query/id", "25908f8b-f630-567e-af4d-0691f67e3955"]
   ],

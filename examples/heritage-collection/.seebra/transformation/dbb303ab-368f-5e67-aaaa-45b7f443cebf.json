@@ -1,0 +1,22 @@
+{
+  "transformation/content": {
+    "$file": "transforms/object-names-and-materials.js"
+  },
+  "transformation/data-child": ["data/id", "5ec8a84d-4c01-5661-bccd-3f152e267421"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "js-web-worker",
+  "transformation/id": "dbb303ab-368f-5e67-aaaa-45b7f443cebf",
+  "transformation/inputs": [
+    ["data/id", "d6c41fcf-10f4-5030-92c7-8d3ce77c9c0b"],
+    ["data/id", "668d8630-d98b-54a5-b741-34b26927bfb1"]
+  ],
+  "transformation/language": "javascript",
+  "transformation/name": "Object names and materials",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 800
+  },
+  "transformation/parent": ["data/id", "a0f5ecdc-717e-551f-8ed0-c721f2d408d7"],
+  "transformation/units": "{}"
+}

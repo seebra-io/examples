@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/the-epitaxy-map-band-gap-against-lattice.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "3bc5fa77-1c7f-53b0-871a-7cc36a0d5cbc",
   "graph/inputs": [
     ["data/id", "a33a18e6-c802-5a31-b25e-ddf171067680"],

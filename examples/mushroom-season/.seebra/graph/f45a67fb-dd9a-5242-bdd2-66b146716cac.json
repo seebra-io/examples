@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/the-season-clock-mean-fruiting-date-and-how.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "f45a67fb-dd9a-5242-bdd2-66b146716cac",
   "graph/inputs": [],
   "graph/language": "javascript",

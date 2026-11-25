@@ -1,0 +1,16 @@
+{
+  "graph/content": {
+    "$file": "graphs/the-complexes-they-build-genes-complex-families.js"
+  },
+  "graph/dynamic?": false,
+  "graph/id": "580295c8-0814-503a-a384-3ab0ed7cd8cc",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "The complexes they build: genes, complex families and what they do",
+  "graph/node": {
+    "node/created": 5,
+    "node/x": 1920,
+    "node/y": 1760
+  },
+  "graph/parent": ["data/id", "5aabde6f-761a-54b5-946f-4c8d7ba535be"]
+}

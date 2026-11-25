@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/survival-with-censoring-share-of-issues-still.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "8afdc64f-b80c-5784-adc3-aa0bb69b3193",
   "graph/inputs": [
     ["data/id", "0437c273-a247-565c-b4e2-5cef9315b449"]

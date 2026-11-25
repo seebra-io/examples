@@ -1,0 +1,8 @@
+{
+  "file": {
+    "file/example": "dark-energy-desi"
+  },
+  "format": 2,
+  "root": ["dashboard/id", "4f3565f3-f4a8-5c9a-983c-fbe4b07698a4"],
+  "seebra": "board"
+}

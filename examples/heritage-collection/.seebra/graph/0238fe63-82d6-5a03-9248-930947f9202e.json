@@ -1,0 +1,18 @@
+{
+  "graph/content": {
+    "$file": "graphs/collection-gaps-what-is-missing-by-type-and.js"
+  },
+  "graph/dynamic?": false,
+  "graph/id": "0238fe63-82d6-5a03-9248-930947f9202e",
+  "graph/inputs": [
+    ["data/id", "7a4589b8-ee5f-54b3-9b2c-e0814b8bbf4e"]
+  ],
+  "graph/language": "javascript",
+  "graph/name": "Collection gaps: what is missing, by type and object name",
+  "graph/node": {
+    "node/created": 6,
+    "node/x": 1460,
+    "node/y": 1520
+  },
+  "graph/parent": ["data/id", "f6966ef8-e8f5-5d43-8141-34050df40663"]
+}

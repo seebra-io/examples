@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/one-row-per-year.js"
+  },
+  "transformation/data-child": ["data/id", "d9b0715d-0380-5fb6-a5aa-fec9551ba93a"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "js-web-worker",
+  "transformation/id": "038782ac-825a-5104-92fe-1f351b4f4ba3",
+  "transformation/inputs": [],
+  "transformation/language": "javascript",
+  "transformation/name": "One row per year",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "535f51e8-5782-5817-ba9e-95d9da24e140"],
+  "transformation/units": "{}"
+}

@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/signals-as-rows-ms-req-s.js"
+  },
+  "transformation/data-child": ["data/id", "af2a9bb6-67cd-507f-a65f-92ef3381e00c"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "js-web-worker",
+  "transformation/id": "625d8ede-fe39-59eb-a48e-65deb0b64d69",
+  "transformation/inputs": [],
+  "transformation/language": "javascript",
+  "transformation/name": "Signals as rows (ms, %, req/s)",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "5891f00e-0982-5547-8a5d-f3d5efeda3cf"],
+  "transformation/units": "{}"
+}

@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/how-rare-the-best-cut-is.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "ed3a681b-18f0-5d95-961a-6010b751cde6",
   "graph/inputs": [
     ["data/id", "c1e91f57-ef13-5d03-be51-3356991dcecf"]

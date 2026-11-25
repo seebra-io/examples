@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/film-on-substrate-peak-splitting-grows-with-tan.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "467e1e26-2edb-5bac-a1b7-70481f525a34",
   "graph/inputs": [],
   "graph/language": "javascript",

@@ -20,6 +20,7 @@
     ["grid/id", "2d353e02-2764-59c4-bd4e-d82cc49f6cbf"]
   ],
   "name": "Upcoming rocket launches",
+  "parameters": [],
   "queries": [
     ["query/id", "595da8c9-311b-55e0-a721-306bb922a4ec"],
     ["query/id", "c6288389-87c5-5ec4-b23e-a0ba896c1296"]

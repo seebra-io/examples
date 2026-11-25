@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/condition-ratings-by-age-the-whole-inventory-as.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "d34bdb6b-ac8e-577b-9446-80d99c8754e7",
   "graph/inputs": [],
   "graph/language": "javascript",

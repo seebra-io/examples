@@ -1,0 +1,10 @@
+{
+  "data/id": "e292e1cf-ba4a-54f1-94f0-75759d7a24f6",
+  "data/name": "The points each verdict compared data",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "4219630a-5002-5c1c-873e-bc93a146f640"],
+  "data/type": "json"
+}

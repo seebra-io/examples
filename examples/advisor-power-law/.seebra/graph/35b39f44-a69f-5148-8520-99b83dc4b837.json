@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/the-30-most-prolific-doctoral-advisors.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "35b39f44-a69f-5148-8520-99b83dc4b837",
   "graph/inputs": [],
   "graph/language": "javascript",

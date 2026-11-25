@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "184f9e66-084f-5cca-aed0-74c2bbd9a1d1"],
+  "query/datasource": ["datasource/id", "0670d5c0-2bc8-5c66-9883-9925538e8fe6"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "bdd0b1e3-df21-554a-8518-85fd1b45f89a",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Records with a picture (one page)",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 3440
+  },
+  "query/params": "{\"method\":\"search\",\"query\":\"serviceOrganization={{org}} AND thumbnailExists=j\",\"hitsPerPage\":\"36\"}",
+  "query/path": "/api",
+  "query/request-body": "",
+  "query/units": "{}"
+}

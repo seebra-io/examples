@@ -1,0 +1,22 @@
+{
+  "transformation/content": {
+    "$file": "transforms/the-selected-structure-each-chain-s-backbone.js"
+  },
+  "transformation/data-child": ["data/id", "4ec28fa0-87c1-5381-b6b4-04112794b597"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "js-web-worker",
+  "transformation/id": "de4fc4a4-2e8c-5e96-9f21-e87f9ed191f5",
+  "transformation/inputs": [
+    ["data/id", "1c2b1cbd-6876-5075-887f-f2053a314ccf"],
+    ["data/id", "5aabde6f-761a-54b5-946f-4c8d7ba535be"]
+  ],
+  "transformation/language": "javascript",
+  "transformation/name": "The selected structure: each chain's backbone, protein, gene and chromosome",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "2c14af2c-653d-52a7-a691-e2ba0d5d8488"],
+  "transformation/units": "{}"
+}

@@ -18,6 +18,7 @@
   ],
   "grids": [],
   "name": "Kubernetes rollouts and image drift",
+  "parameters": [],
   "queries": [
     ["query/id", "b4f26ecb-9db0-56d4-82d0-54742ce9e791"],
     ["query/id", "2c05b48e-6bd8-59fe-9081-ce385263e7f5"]

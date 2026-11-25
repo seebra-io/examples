@@ -1,0 +1,10 @@
+{
+  "data/id": "c2b2f21f-1b8b-5eb1-86b2-e8c1fbe48428",
+  "data/name": "Oceanic Niño Index (ENSO), three-month seasons since 1950 data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 1040
+  },
+  "data/parent": ["query/id", "0553f3fc-fb3c-5d58-93ea-9f00a2ceb208"],
+  "data/type": "json"
+}

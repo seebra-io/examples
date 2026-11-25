@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/one-row-per-domain.js"
+  },
+  "transformation/data-child": ["data/id", "5752c3ec-7b5a-5087-8b9d-0f24c177ebf1"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "js-web-worker",
+  "transformation/id": "761283fb-c497-5e76-ae80-8e446dd44416",
+  "transformation/inputs": [],
+  "transformation/language": "javascript",
+  "transformation/name": "One row per domain",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1920,
+    "node/y": 800
+  },
+  "transformation/parent": ["data/id", "a2dbd774-5daf-51aa-a4ce-5b9e74600297"],
+  "transformation/units": "{}"
+}

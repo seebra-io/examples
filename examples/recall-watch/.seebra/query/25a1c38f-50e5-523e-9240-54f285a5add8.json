@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "15e81a4f-198b-561b-9cae-c05234ebb174"],
+  "query/datasource": ["datasource/id", "a29fd06b-576b-5563-870a-ebed21377388"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "25a1c38f-50e5-523e-9240-54f285a5add8",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Drug enforcement reports (newest 100)",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 80
+  },
+  "query/params": "{\"sort\":\"report_date:desc\",\"limit\":\"100\"}",
+  "query/path": "/drug/enforcement.json",
+  "query/request-body": "",
+  "query/units": "{}"
+}

@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "165dcc20-42b9-56fa-88b1-5d0bb96dd4a2"],
+  "query/datasource": ["datasource/id", "0670d5c0-2bc8-5c66-9883-9925538e8fe6"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "09ec97e3-8fb0-5f38-851b-6619ea76f02c",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Object names without an image",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 2240
+  },
+  "query/params": "{\"method\":\"facet\",\"index\":\"itemName\",\"query\":\"serviceOrganization={{org}} AND thumbnailExists=n\"}",
+  "query/path": "/api",
+  "query/request-body": "",
+  "query/units": "{}"
+}

@@ -1,0 +1,2 @@
+// Per combination of rulers: ΛCDM's χ², the best (w0, wa)'s, the difference and its Gaussian σ.
+data.verdict.map((v) => ({rulers: v.combination, lcdm_chi2: +v.lcdm_chi2.toFixed(2), best_chi2: +v.best_chi2.toFixed(2), delta_chi2: +v.delta_chi2.toFixed(2), sigma: +v.sigma.toFixed(2), w0: v.w0, wa: v.wa, omega_m: v.om, omega_m_lcdm: v.om_lcdm, h0_lcdm: v.h0_lcdm == null ? null : +v.h0_lcdm.toFixed(2)}))

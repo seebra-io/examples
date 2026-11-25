@@ -1,0 +1,16 @@
+{
+  "graph/content": {
+    "$file": "graphs/the-alphafold-model-in-3d-by-predicted-harm.js"
+  },
+  "graph/dynamic?": false,
+  "graph/id": "c5fd4c99-e14c-5605-afba-e222e334f4f7",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "The AlphaFold model in 3D, by predicted harm",
+  "graph/node": {
+    "node/created": 5,
+    "node/x": 1460,
+    "node/y": 1520
+  },
+  "graph/parent": ["data/id", "202e261a-3756-5e0a-9895-263e28852a70"]
+}

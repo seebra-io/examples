@@ -22,6 +22,7 @@
     ["grid/id", "5c40d568-d844-5de6-9378-d829ad114ace"]
   ],
   "name": "Wildlife seen in Sweden",
+  "parameters": [],
   "queries": [
     ["query/id", "fca9fa50-d9ed-57fa-beed-263895df6b23"],
     ["query/id", "fee71895-d7c2-5fed-9690-7e907a9bd608"],

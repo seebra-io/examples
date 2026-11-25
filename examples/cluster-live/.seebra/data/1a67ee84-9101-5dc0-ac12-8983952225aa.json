@@ -1,0 +1,10 @@
+{
+  "data/id": "1a67ee84-9101-5dc0-ac12-8983952225aa",
+  "data/name": "The newest error-ish log lines (LogQL) data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 2240
+  },
+  "data/parent": ["query/id", "a34f715e-3ea2-59f0-b0dd-b212147b4dad"],
+  "data/type": "json"
+}

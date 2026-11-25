@@ -1,0 +1,10 @@
+{
+  "data/id": "178d87a1-ae44-52e0-a721-6eece25cc695",
+  "data/name": "Log lines with their template data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 560
+  },
+  "data/parent": ["transformation/id", "4c286268-a786-5000-b8d9-2ea556e0feac"],
+  "data/type": "json"
+}

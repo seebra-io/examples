@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "fd5ca2c4-a697-53d1-9215-1d5bf3c81fac"],
+  "query/datasource": ["datasource/id", "2fe9e70b-db49-5321-948a-dd385f248dba"],
+  "query/dynamic?": true,
+  "query/format": "json",
+  "query/headers": "{}",
+  "query/id": "f97a72eb-30e0-5067-bef9-1cae465b8dc6",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Log rate per app: all lines and errors (LogQL)",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 2000
+  },
+  "query/params": "{\"query\":\"{{log_rate_logql}}\",\"since\":\"{{window}}\",\"step\":\"{{step}}\"}",
+  "query/path": "/query_range",
+  "query/request-body": "",
+  "query/units": "{}"
+}

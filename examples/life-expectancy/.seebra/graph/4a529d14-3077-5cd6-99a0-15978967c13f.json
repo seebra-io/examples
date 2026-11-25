@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/every-country-by-region-tick-region-mean.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "4a529d14-3077-5cd6-99a0-15978967c13f",
   "graph/inputs": [
     ["data/id", "730d492e-b785-5c8e-97c2-fae89d762c7b"]

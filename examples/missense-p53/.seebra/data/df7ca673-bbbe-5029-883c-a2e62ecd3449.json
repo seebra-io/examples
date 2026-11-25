@@ -1,0 +1,12 @@
+{
+  "data/id": "df7ca673-bbbe-5029-883c-a2e62ecd3449",
+  "data/name": "Residues",
+  "data/node": {
+    "node/created": 7,
+    "node/x": 1610,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "00cc179e-7a19-5181-8bdc-96246f4788e3"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

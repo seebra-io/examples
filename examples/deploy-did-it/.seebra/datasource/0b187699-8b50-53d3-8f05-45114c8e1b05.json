@@ -1,0 +1,16 @@
+{
+  "datasource/api-key-key": "api_key",
+  "datasource/auth-type": "none",
+  "datasource/headers": "{}",
+  "datasource/id": "0b187699-8b50-53d3-8f05-45114c8e1b05",
+  "datasource/name": "Kubernetes API (sample cluster; yours: kubectl proxy on http://localhost:8001)",
+  "datasource/node": {
+    "inputs": 1,
+    "node/x": 80,
+    "node/y": 320,
+    "outputs": 1
+  },
+  "datasource/params": "{}",
+  "datasource/type": "openapi",
+  "datasource/url": "https://www.seebra.io/explore/examples/deploy-did-it/sample/kubernetes"
+}

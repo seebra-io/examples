@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/measured-e-against-e-from-k-and-g.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "e3e8a39a-b3c3-5ef0-a175-f3c157aa02e6",
   "graph/inputs": [],
   "graph/language": "javascript",

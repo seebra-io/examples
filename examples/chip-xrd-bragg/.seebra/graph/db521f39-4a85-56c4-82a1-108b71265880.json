@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/powder-patterns-200-is-missing-in-si-faint-in.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "db521f39-4a85-56c4-82a1-108b71265880",
   "graph/inputs": [
     ["data/id", "6c626d44-2db1-5859-b2d8-033cfc58c2ce"]

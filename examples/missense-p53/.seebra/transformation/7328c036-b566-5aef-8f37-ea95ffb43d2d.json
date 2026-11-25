@@ -1,0 +1,21 @@
+{
+  "transformation/content": {
+    "$file": "transforms/the-model-s-backbone-with-each-residue-s-scores.js"
+  },
+  "transformation/data-child": ["data/id", "202e261a-3756-5e0a-9895-263e28852a70"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "js-web-worker",
+  "transformation/id": "7328c036-b566-5aef-8f37-ea95ffb43d2d",
+  "transformation/inputs": [
+    ["data/id", "b1ff01d6-2927-5f1a-bf96-3ad0908bc677"]
+  ],
+  "transformation/language": "javascript",
+  "transformation/name": "The model's backbone with each residue's scores",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "5912804b-7ce3-573d-a531-c8ebebb6176e"],
+  "transformation/units": "{}"
+}

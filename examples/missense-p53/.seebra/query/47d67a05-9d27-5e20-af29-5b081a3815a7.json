@@ -1,0 +1,21 @@
+{
+  "query/data-child": ["data/id", "1e8943e2-5762-50db-8972-e659f8a7d184"],
+  "query/datasource": ["datasource/id", "6baf2c77-e49a-50a9-96f5-8368fac26f4a"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "47d67a05-9d27-5e20-af29-5b081a3815a7",
+  "query/key": "",
+  "query/method": "POST",
+  "query/name": "{{gene}} in gnomAD v4: every variant with allele counts, and ClinVar's classifications",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 1280
+  },
+  "query/params": "{}",
+  "query/path": "/api",
+  "query/request-body": {
+    "$file": "queries/gene-in-gnomad-v4-every-variant-with-allele.json"
+  },
+  "query/units": "{}"
+}

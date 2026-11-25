@@ -1,0 +1,10 @@
+{
+  "data/id": "85b07fe1-5e71-5d96-b22e-5f67dece9d9b",
+  "data/name": "Every human gene: name, UniProt ids, chromosome (HPA), to name the subunits encoded elsewhere data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 560
+  },
+  "data/parent": ["query/id", "802a5711-733b-5f7d-9ca7-76211dd1d3c4"],
+  "data/type": "json"
+}

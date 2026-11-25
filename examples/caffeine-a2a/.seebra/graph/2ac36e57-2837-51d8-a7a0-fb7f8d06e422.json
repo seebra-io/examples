@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/contact-fingerprint-caffeine-fits-where.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "2ac36e57-2837-51d8-a7a0-fb7f8d06e422",
   "graph/inputs": [
     ["data/id", "44350a8b-318a-54f7-b603-a5f63dc4a595"]

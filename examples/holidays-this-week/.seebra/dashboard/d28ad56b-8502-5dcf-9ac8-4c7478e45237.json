@@ -18,6 +18,7 @@
   ],
   "grids": [],
   "name": "Public holidays this week",
+  "parameters": [],
   "queries": [
     ["query/id", "9ffbbfad-6ae6-5d4b-8328-84419992de29"],
     ["query/id", "9349bb13-679a-54e5-b88a-33b9afdf1c64"]

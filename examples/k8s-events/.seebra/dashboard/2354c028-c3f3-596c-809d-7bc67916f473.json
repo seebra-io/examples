@@ -18,6 +18,7 @@
   ],
   "grids": [],
   "name": "Kubernetes warning events",
+  "parameters": [],
   "queries": [
     ["query/id", "bd35aec2-0c43-5207-af38-998433b2157e"]
   ],

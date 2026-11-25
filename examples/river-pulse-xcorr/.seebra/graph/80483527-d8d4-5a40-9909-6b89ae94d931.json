@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/the-pulse-flattens-on-the-way.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "80483527-d8d4-5a40-9909-6b89ae94d931",
   "graph/inputs": [],
   "graph/language": "javascript",

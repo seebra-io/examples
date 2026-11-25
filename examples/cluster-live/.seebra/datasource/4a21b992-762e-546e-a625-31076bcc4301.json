@@ -1,0 +1,16 @@
+{
+  "datasource/api-key-key": "api_key",
+  "datasource/auth-type": "none",
+  "datasource/headers": "{}",
+  "datasource/id": "4a21b992-762e-546e-a625-31076bcc4301",
+  "datasource/name": "Prometheus (sample; yours: http://localhost:9090/api/v1)",
+  "datasource/node": {
+    "inputs": 1,
+    "node/x": 80,
+    "node/y": 320,
+    "outputs": 1
+  },
+  "datasource/params": "{}",
+  "datasource/type": "openapi",
+  "datasource/url": "https://www.seebra.io/explore/examples/cluster-live/sample/prometheus/api/v1"
+}

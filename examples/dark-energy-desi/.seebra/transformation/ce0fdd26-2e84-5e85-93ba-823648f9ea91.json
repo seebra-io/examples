@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/desi-s-distances-against-cdm.js"
+  },
+  "transformation/data-child": ["data/id", "505384ce-4afd-5813-83ff-27e163c8c804"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "js-web-worker",
+  "transformation/id": "ce0fdd26-2e84-5e85-93ba-823648f9ea91",
+  "transformation/inputs": [],
+  "transformation/language": "javascript",
+  "transformation/name": "DESI's distances against ΛCDM",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "ca4cb37b-55b2-573e-ad7d-b4aeb65ef8a6"],
+  "transformation/units": "{}"
+}

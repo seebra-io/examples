@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "bfcfd551-03a3-5184-9e8c-629c50bc31a6"],
+  "query/datasource": ["datasource/id", "4a21b992-762e-546e-a625-31076bcc4301"],
+  "query/dynamic?": true,
+  "query/format": "json",
+  "query/headers": "{}",
+  "query/id": "223d71ac-41a1-5e36-9ccd-e98e086e85cf",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Volumes: used and capacity per PVC",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 1040
+  },
+  "query/params": "{\"query\":\"(label_replace({{pvc_used_promql}}, \\\"signal\\\", \\\"pvc_used\\\", \\\"\\\", \\\"\\\") or label_replace({{pvc_capacity_promql}}, \\\"signal\\\", \\\"pvc_capacity\\\", \\\"\\\", \\\"\\\"))[{{volume_window}}:{{volume_step}}]\"}",
+  "query/path": "/query",
+  "query/request-body": "",
+  "query/units": "{}"
+}

@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/one-row-per-change-one-dna-letter-can-make.js"
+  },
+  "transformation/data-child": ["data/id", "c80d77a9-02fa-5ef6-84b1-9e3248bfcdb0"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "js-web-worker",
+  "transformation/id": "a6a2559d-d40e-5105-b135-cefb1050ccff",
+  "transformation/inputs": [],
+  "transformation/language": "javascript",
+  "transformation/name": "One row per change one DNA letter can make",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "b1ff01d6-2927-5f1a-bf96-3ad0908bc677"],
+  "transformation/units": "{}"
+}

@@ -18,6 +18,7 @@
   ],
   "grids": [],
   "name": "US drug recalls",
+  "parameters": [],
   "queries": [
     ["query/id", "6e2ed921-c8dd-51e0-ac92-88722d7c6b90"],
     ["query/id", "ef0c09f5-897e-5c66-a67c-a8e45ac1b96a"],

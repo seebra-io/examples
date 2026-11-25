@@ -1,0 +1,2 @@
+// One row per complex with a subunit on the chromosome: its members (gene and chromosome) as text.
+data.complexes.map(({members, go, here, pdb, ...c}) => ({...c, from_this_chromosome: here.join(", "), members: members.map((m) => `${m.gene} (${m.chromosome})`).join(", "), functions: go.join("; "), structures: pdb.join(" ")}))

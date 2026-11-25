@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "7413db89-81b3-595b-9cdd-724f70624bb3"],
+  "query/datasource": ["datasource/id", "b07ef870-9028-5d40-8ed8-f7362c695d23"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "e44c050d-c894-55d8-a4da-869f5970f433",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Species per 10-Myr bin, non-marine tetrapods (PBDB diversity)",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 320
+  },
+  "query/params": "{\"base_name\":\"Tetrapoda\",\"envtype\":\"terrestrial\",\"pres\":\"regular\",\"interval\":\"Triassic,Ypresian\",\"count\":\"species\",\"time_reso\":\"bin\",\"vocab\":\"pbdb\"}",
+  "query/path": "/occs/diversity.json",
+  "query/request-body": "",
+  "query/units": "{}"
+}

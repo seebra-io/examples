@@ -1,0 +1,91 @@
+{
+  "title": "Dark energy and the expansion of the universe",
+  "summary": "Distances to galaxies and supernovae measure how fast the universe expanded at each epoch, and so what dark energy does.",
+  "concepts": [
+    {
+      "cid": "c1",
+      "label": "Cosmological model",
+      "kind": "entity",
+      "description": "A flat universe of matter (Ωm), radiation and dark energy with equation of state w(z) = w0 + wa·z/(1+z); ΛCDM is w0 = −1, wa = 0.",
+      "fields": [
+        "t_verdict.w0",
+        "t_verdict.wa",
+        "t_verdict.omega_m"
+      ],
+      "in_data": true,
+      "wikidata": "Q1060390",
+      "children": [
+        {
+          "cid": "c2",
+          "label": "Dark energy",
+          "kind": "entity",
+          "as": "part",
+          "description": "Whatever accelerates the expansion: a cosmological constant (w = −1) or something that evolves.",
+          "fields": [
+            "t_verdict.w0",
+            "t_verdict.wa"
+          ],
+          "in_data": true,
+          "wikidata": "Q18343"
+        },
+        {
+          "cid": "c3",
+          "label": "Hubble constant",
+          "kind": "measure",
+          "as": "property",
+          "description": "Today's expansion rate H0, km/s per megaparsec.",
+          "fields": [
+            "t_h0.h0"
+          ],
+          "in_data": true,
+          "wikidata": "Q11376"
+        }
+      ]
+    },
+    {
+      "cid": "c4",
+      "label": "Baryon acoustic oscillations",
+      "kind": "entity",
+      "description": "Sound waves in the early plasma left a preferred separation, the sound horizon r_d ≈ 147 Mpc, between galaxies: a standard ruler.",
+      "fields": [
+        "t_points.z",
+        "t_points.quantity",
+        "t_points.value"
+      ],
+      "in_data": true,
+      "wikidata": "Q4078683",
+      "children": [
+        {
+          "cid": "c5",
+          "label": "Comoving distance DM and Hubble distance DH",
+          "kind": "measure",
+          "as": "property",
+          "description": "DM: distance across the line of sight; DH = c/H(z): along it; DV: their average. Divided by r_d.",
+          "fields": [
+            "t_points.value",
+            "t_points.ratio"
+          ],
+          "in_data": true
+        }
+      ]
+    },
+    {
+      "cid": "c6",
+      "label": "Type Ia supernova",
+      "kind": "entity",
+      "description": "An exploding white dwarf of nearly standard peak brightness: a standard candle. Pantheon+ compiles 1,701 light curves.",
+      "fields": [],
+      "in_data": true,
+      "wikidata": "Q1194434"
+    },
+    {
+      "cid": "c7",
+      "label": "Cosmic microwave background",
+      "kind": "entity",
+      "description": "Light from z ≈ 1090; its acoustic angle θ* is the sound horizon seen at that distance.",
+      "fields": [],
+      "in_data": false,
+      "wikidata": "Q19771"
+    }
+  ]
+}

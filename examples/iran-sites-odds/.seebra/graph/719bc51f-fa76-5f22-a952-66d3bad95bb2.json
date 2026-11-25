@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/airspace-now-who-is-flying-over-iran.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "719bc51f-fa76-5f22-a952-66d3bad95bb2",
   "graph/inputs": [],
   "graph/language": "javascript",

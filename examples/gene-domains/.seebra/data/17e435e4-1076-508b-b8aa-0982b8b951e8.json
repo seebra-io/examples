@@ -1,0 +1,10 @@
+{
+  "data/id": "17e435e4-1076-508b-b8aa-0982b8b951e8",
+  "data/name": "Genes: position, system › process, organs data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "3233e469-99f0-5cd1-926f-b5c213c9b6ef"],
+  "data/type": "json"
+}

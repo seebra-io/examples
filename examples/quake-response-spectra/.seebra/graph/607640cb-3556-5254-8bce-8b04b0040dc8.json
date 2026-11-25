@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/the-response-spectrum-shifts-with-distance.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "607640cb-3556-5254-8bce-8b04b0040dc8",
   "graph/inputs": [],
   "graph/language": "javascript",

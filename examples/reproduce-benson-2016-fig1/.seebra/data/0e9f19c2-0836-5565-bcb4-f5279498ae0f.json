@@ -1,0 +1,10 @@
+{
+  "data/id": "0e9f19c2-0836-5565-bcb4-f5279498ae0f",
+  "data/name": "Every non-marine tetrapod occurrence at genus level (for subsampling) data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 560
+  },
+  "data/parent": ["query/id", "ad393ba8-4ac7-5891-8349-d562b53d36f6"],
+  "data/type": "json"
+}

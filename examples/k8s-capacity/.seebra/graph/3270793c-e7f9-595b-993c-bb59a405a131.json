@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/requested-share-of-each-node-cpu-and-memory.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "3270793c-e7f9-595b-993c-bb59a405a131",
   "graph/inputs": [],
   "graph/language": "javascript",

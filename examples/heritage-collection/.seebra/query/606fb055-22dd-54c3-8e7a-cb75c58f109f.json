@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "a0f5ecdc-717e-551f-8ed0-c721f2d408d7"],
+  "query/datasource": ["datasource/id", "0670d5c0-2bc8-5c66-9883-9925538e8fe6"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "606fb055-22dd-54c3-8e7a-cb75c58f109f",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Records by object name",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 1520
+  },
+  "query/params": "{\"method\":\"facet\",\"index\":\"itemName\",\"query\":\"serviceOrganization={{org}}\"}",
+  "query/path": "/api",
+  "query/request-body": "",
+  "query/units": "{}"
+}

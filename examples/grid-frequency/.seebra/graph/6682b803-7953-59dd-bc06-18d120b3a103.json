@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/how-far-from-50-hz-second-by-second.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "6682b803-7953-59dd-bc06-18d120b3a103",
   "graph/inputs": [],
   "graph/language": "javascript",

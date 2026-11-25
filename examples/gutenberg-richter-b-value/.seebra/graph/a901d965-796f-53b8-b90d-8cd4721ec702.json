@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/gutenberg-richter-ten-times-rarer-per-magnitude.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "a901d965-796f-53b8-b90d-8cd4721ec702",
   "graph/inputs": [
     ["data/id", "6ce23e72-a4ba-5820-aba7-17eeb714fe60"]

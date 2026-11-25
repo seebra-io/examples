@@ -1,0 +1,15 @@
+{
+  "graph/content": {
+    "$file": "graphs/recalls-per-report-day-the-newest-on-the-right.js"
+  },
+  "graph/dynamic?": false,
+  "graph/id": "2102baeb-b41f-5d13-a2ee-a72eabb39b86",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Recalls per report day: the newest on the right",
+  "graph/node": {
+    "node/x": 1920,
+    "node/y": 80
+  },
+  "graph/parent": ["data/id", "fc62a0f7-fb6c-5508-acdc-954cfcdadece"]
+}

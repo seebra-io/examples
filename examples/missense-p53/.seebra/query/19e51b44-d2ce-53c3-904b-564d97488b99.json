@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "361daca6-3ac6-5c23-b12c-aedd94355e89"],
+  "query/datasource": ["datasource/id", "b549e935-a3cf-5683-82a3-b350f43cca2d"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "19e51b44-d2ce-53c3-904b-564d97488b99",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "The AlphaFold entry for {{uniprot}}: sequence, mean confidence, file links",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 80
+  },
+  "query/params": "{}",
+  "query/path": "/api/prediction/{{uniprot}}",
+  "query/request-body": "",
+  "query/units": "{}"
+}

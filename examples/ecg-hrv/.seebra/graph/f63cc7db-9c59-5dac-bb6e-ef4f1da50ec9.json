@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/poincare-plots-sd1-beat-to-beat-and-sd2-slow.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "f63cc7db-9c59-5dac-bb6e-ef4f1da50ec9",
   "graph/inputs": [
     ["data/id", "5d8dbce1-1030-5a2a-ba30-8b52427a1af4"]

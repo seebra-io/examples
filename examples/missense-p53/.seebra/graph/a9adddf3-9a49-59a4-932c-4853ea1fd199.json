@@ -1,0 +1,16 @@
+{
+  "graph/content": {
+    "$file": "graphs/would-it-have-told-the-clinic-clinvar-against.js"
+  },
+  "graph/dynamic?": false,
+  "graph/id": "a9adddf3-9a49-59a4-932c-4853ea1fd199",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Would it have told the clinic? ClinVar against AlphaMissense",
+  "graph/node": {
+    "node/created": 3,
+    "node/x": 1460,
+    "node/y": 1040
+  },
+  "graph/parent": ["data/id", "b1ff01d6-2927-5f1a-bf96-3ad0908bc677"]
+}

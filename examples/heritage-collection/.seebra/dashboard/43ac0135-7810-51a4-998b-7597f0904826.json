@@ -1,0 +1,91 @@
+{
+  "dashboard/id": "43ac0135-7810-51a4-998b-7597f0904826",
+  "datas": [
+    ["data/id", "e250e305-ce0d-52bb-bfa3-fda080eef573"],
+    ["data/id", "668d8630-d98b-54a5-b741-34b26927bfb1"],
+    ["data/id", "05417d1a-7514-511e-9545-995f26f77474"],
+    ["data/id", "6b54e263-9d82-5020-8b8c-de84e30ec4db"],
+    ["data/id", "27b1f629-be8d-57ce-8abc-af26d4daee37"],
+    ["data/id", "08329590-7081-56b6-bcfd-779e0828e129"],
+    ["data/id", "b0f22e93-9c50-5e70-988c-7ca1a7b5906c"],
+    ["data/id", "a0f5ecdc-717e-551f-8ed0-c721f2d408d7"],
+    ["data/id", "cb293f96-a36c-50dd-ad3a-cc373c56f1b8"],
+    ["data/id", "52e47f12-64a2-5bfe-9324-36c460a384b6"],
+    ["data/id", "165dcc20-42b9-56fa-88b1-5d0bb96dd4a2"],
+    ["data/id", "a937f2f6-79b7-53ca-a368-eedbad066125"],
+    ["data/id", "d6c41fcf-10f4-5030-92c7-8d3ce77c9c0b"],
+    ["data/id", "2ffdd30f-47d3-5554-af5b-315b66b84b16"],
+    ["data/id", "bb4cd9d0-0a6e-5275-a61d-ffe32464a2c4"],
+    ["data/id", "184f9e66-084f-5cca-aed0-74c2bbd9a1d1"],
+    ["data/id", "ff4db7be-3bb9-5ef3-bc53-c3d856d204c8"],
+    ["data/id", "65568055-c62b-5144-ac92-3c95bee7b0c7"],
+    ["data/id", "f6966ef8-e8f5-5d43-8141-34050df40663"],
+    ["data/id", "7a4589b8-ee5f-54b3-9b2c-e0814b8bbf4e"],
+    ["data/id", "efd6f9b3-8279-52f3-94bc-bddd62474ae9"],
+    ["data/id", "5ec8a84d-4c01-5661-bccd-3f152e267421"],
+    ["data/id", "d6fc9242-33cc-573f-84c2-0199fb0ceed6"],
+    ["data/id", "24246c15-4036-5e57-bc87-90286f07a9a7"],
+    ["data/id", "b4d26fbf-6f8e-5826-8357-c877d30d1cee"],
+    ["data/id", "44d4da7d-9f06-50b5-8664-3fdd73687d75"],
+    ["data/id", "eeed2571-8e18-50c8-b236-3cbb1eeec34c"],
+    ["data/id", "17b17eb4-f346-54c7-bf55-767e08543c1a"]
+  ],
+  "datasources": [
+    ["datasource/id", "0670d5c0-2bc8-5c66-9883-9925538e8fe6"]
+  ],
+  "description": "A museum's own collection as K-samsök (Riksantikvarieämbetet) publishes it, live: a map of find places and places, a time line of dating, object names and materials, pictures with their licence and a link to each record, and the collection gaps (the share of records without coordinates, dating, a picture or a licence, by record type and object name) that public-access reporting asks about. Set the org parameter to another institution's K-samsök code (shm, nomu, jlm, upmu, ...) and the parish parameter to look wider: that parish's ancient monuments in Fornsök and every institution with records from it. Statistics: the gaps, dating, names and materials are counted by K-samsök over the whole set (facets), so they are exact, not sampled; a record dated over a range counts in every century it spans. The map and the pictures are one page each (150 and 36 records, in K-samsök's order: not a random sample), and the board says how many there are in all. Caveats: K-samsök shows what the museum last delivered to it, which can lag its own system; a museum that keeps photographs as separate media records (SHM does) shows its objects without a picture here; a facet lists only its 100 largest terms, so small object names' gaps are upper bounds. Built to embed on the museum's own site and to run as a kiosk in the gallery.",
+  "graphs": [
+    ["graph/id", "d7047b9b-1192-5f25-8017-8f6bdda0425b"],
+    ["graph/id", "ab05c38c-cfb1-5bfb-a6a7-0bedb356c157"],
+    ["graph/id", "b73f5636-13f8-5efb-8e59-b2d36695c99a"],
+    ["graph/id", "91688a6a-d0ec-51b1-9383-32eaef9d2fbf"],
+    ["graph/id", "0238fe63-82d6-5a03-9248-930947f9202e"],
+    ["graph/id", "45204d71-447d-599c-a767-68a83b1abd94"]
+  ],
+  "grids": [
+    ["grid/id", "93090ec6-2ea0-529f-b234-c42e92e1af1e"]
+  ],
+  "name": "Your collection on your website: Statens historiska museer in K-samsök",
+  "ontology": {
+    "$file": ".seebra/dashboard/43ac0135-7810-51a4-998b-7597f0904826.ontology.json",
+    "$json": true
+  },
+  "parameters": [
+    ["data/id", "e250e305-ce0d-52bb-bfa3-fda080eef573"]
+  ],
+  "queries": [
+    ["query/id", "b308a56d-fb70-5047-b187-6b8e04644399"],
+    ["query/id", "2be888a9-5e68-5722-b795-f5f9f6825392"],
+    ["query/id", "f9916d9a-3214-5a41-aeeb-fbd4f39909ed"],
+    ["query/id", "7ea17378-c59e-59ab-a582-bd5ed44b09ed"],
+    ["query/id", "f16e9db8-2e99-5b98-9398-69c5c7037b97"],
+    ["query/id", "33161480-946e-5f9d-8e18-71264e923c2b"],
+    ["query/id", "606fb055-22dd-54c3-8e7a-cb75c58f109f"],
+    ["query/id", "fa5e229a-0bf6-50e4-9339-2794552aa589"],
+    ["query/id", "884f8227-d0ef-501c-b526-d4661f378a28"],
+    ["query/id", "09ec97e3-8fb0-5f38-851b-6619ea76f02c"],
+    ["query/id", "a17c4812-58d7-59fb-9b81-40e740fe2ebf"],
+    ["query/id", "2c50daad-26c4-5ecb-9652-49e677aca2c3"],
+    ["query/id", "0342c9cd-4ff7-5318-ae46-6e4094e014a3"],
+    ["query/id", "46fc5671-c5c7-5386-a5db-4214c184b9ab"],
+    ["query/id", "bdd0b1e3-df21-554a-8518-85fd1b45f89a"],
+    ["query/id", "1f19c422-150a-5ab5-bf70-348a806752a9"],
+    ["query/id", "53b3baab-b414-5249-8d6e-ac593103c379"]
+  ],
+  "studies": [],
+  "tables": [],
+  "texts": [],
+  "timers": [],
+  "transformations": [
+    ["transformation/id", "70a9627b-ebbf-5dbf-a6b2-a13f2343da3d"],
+    ["transformation/id", "f84640a0-27b6-5990-aa2a-f44feb7cc173"],
+    ["transformation/id", "73e2cb00-e54f-5c59-aed0-fbe46cd36d47"],
+    ["transformation/id", "dbb303ab-368f-5e67-aaaa-45b7f443cebf"],
+    ["transformation/id", "33c75bab-d036-55f2-b105-0f136a78793e"],
+    ["transformation/id", "e09d7a79-c53a-5555-b862-f39339fc6012"],
+    ["transformation/id", "0125b2f7-1fff-5e32-9923-821043f5610b"],
+    ["transformation/id", "f8424c92-0cee-5e3b-a490-539abe01918d"],
+    ["transformation/id", "a0d018be-98ea-51d6-b830-7ccc632883af"],
+    ["transformation/id", "988c28a7-fb66-5993-ad77-ae3bb3744331"]
+  ]
+}

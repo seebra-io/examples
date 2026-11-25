@@ -1,0 +1,24 @@
+{
+  "transformation/content": {
+    "$file": "transforms/growth-enso-the-budget-three-futures-and-the.js"
+  },
+  "transformation/data-child": ["data/id", "535f51e8-5782-5817-ba9e-95d9da24e140"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "js-web-worker",
+  "transformation/id": "0e860c8c-cc7e-5dc5-8b15-0cbd968f856f",
+  "transformation/inputs": [
+    ["data/id", "1c95c79b-cea9-5c7c-8cb0-aa0b4e9882c3"],
+    ["data/id", "d49ec158-563d-5e2e-bdc1-dc4b9bd70b6d"],
+    ["data/id", "dcd96ad8-616d-5fbf-97e9-175a3e79d056"],
+    ["data/id", "c2b2f21f-1b8b-5eb1-86b2-e8c1fbe48428"]
+  ],
+  "transformation/language": "javascript",
+  "transformation/name": "Growth, ENSO, the budget, three futures and the forcing",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "0574fa98-c2ba-5599-b112-bf24591ac3b8"],
+  "transformation/units": "{}"
+}

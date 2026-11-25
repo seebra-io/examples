@@ -1,0 +1,10 @@
+{
+  "data/id": "e2ba53d4-9054-5bd8-a2a6-fe3a544eb6db",
+  "data/name": "Drill down: messages before vs after each rollout data",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 560
+  },
+  "data/parent": ["transformation/id", "85b35f50-93ab-55ed-9ed7-0dd990fab1eb"],
+  "data/type": "json"
+}

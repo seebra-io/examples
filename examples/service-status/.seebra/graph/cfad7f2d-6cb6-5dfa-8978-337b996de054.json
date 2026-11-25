@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/components-by-status-per-service.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "cfad7f2d-6cb6-5dfa-8978-337b996de054",
   "graph/inputs": [],
   "graph/language": "javascript",

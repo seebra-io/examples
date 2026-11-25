@@ -16,6 +16,7 @@
   ],
   "grids": [],
   "name": "Most-read on Wikipedia",
+  "parameters": [],
   "queries": [
     ["query/id", "9a3f697f-62f0-5aba-87aa-9a352f77b6cb"]
   ],

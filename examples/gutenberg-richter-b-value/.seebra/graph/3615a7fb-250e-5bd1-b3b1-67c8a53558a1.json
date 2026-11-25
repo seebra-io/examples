@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/counts-against-energy-the-rare-giants-release.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "3615a7fb-250e-5bd1-b3b1-67c8a53558a1",
   "graph/inputs": [],
   "graph/language": "javascript",

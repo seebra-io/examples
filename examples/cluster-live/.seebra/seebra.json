@@ -1,0 +1,8 @@
+{
+  "file": {
+    "file/example": "cluster-live"
+  },
+  "format": 2,
+  "root": ["dashboard/id", "019094bd-0381-5ab4-a761-3dd1de712009"],
+  "seebra": "board"
+}

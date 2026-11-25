@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/starships-cost-against-length-coloured-by.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "2867c45d-0f62-52f0-93f0-45742fad0087",
   "graph/inputs": [],
   "graph/language": "javascript",

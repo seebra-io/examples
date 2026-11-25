@@ -1,0 +1,10 @@
+{
+  "data/id": "184f9e66-084f-5cca-aed0-74c2bbd9a1d1",
+  "data/name": "Records with a picture (one page) data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 3440
+  },
+  "data/parent": ["query/id", "bdd0b1e3-df21-554a-8518-85fd1b45f89a"],
+  "data/type": "json"
+}

@@ -1,0 +1,2 @@
+// One row per residue: confidence, mean AlphaMissense, and what gnomAD and ClinVar hold there.
+data.residues.map(({subs, ...r}) => ({...r, am_mean: r.am_mean == null ? null : +r.am_mean.toFixed(3), am_lp: r.am_lp == null ? null : +r.am_lp.toFixed(2)}))

@@ -1,0 +1,10 @@
+{
+  "data/id": "d6c41fcf-10f4-5030-92c7-8d3ce77c9c0b",
+  "data/name": "Records by material data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 2720
+  },
+  "data/parent": ["query/id", "2c50daad-26c4-5ecb-9652-49e677aca2c3"],
+  "data/type": "json"
+}

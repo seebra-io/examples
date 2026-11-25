@@ -1,0 +1,22 @@
+{
+  "graph/content": {
+    "$file": "graphs/cluster-live-services-workloads-pods-and-logs.js"
+  },
+  "graph/dynamic?": true,
+  "graph/id": "0c72f30d-05a3-5a7b-8aad-7d4db5df3a4c",
+  "graph/inputs": [
+    ["data/id", "23d634df-dc2e-593c-80dc-963d91ccb292"],
+    ["data/id", "a0e350f5-2a5a-5a58-9cbb-b079c485990a"],
+    ["data/id", "234d2eef-36b5-51b4-b160-b553c4932bff"],
+    ["data/id", "18247c66-a128-5d49-a07b-61cc2112da60"],
+    ["data/id", "ed62d69d-bf37-544e-8af2-be5b9d5cf6e5"]
+  ],
+  "graph/language": "javascript",
+  "graph/name": "Cluster live: services, workloads, pods and logs",
+  "graph/node": {
+    "node/created": 1,
+    "node/x": 1920,
+    "node/y": 320
+  },
+  "graph/parent": ["data/id", "38f3d53c-64fb-5218-85c0-d7fb0a93cfc5"]
+}

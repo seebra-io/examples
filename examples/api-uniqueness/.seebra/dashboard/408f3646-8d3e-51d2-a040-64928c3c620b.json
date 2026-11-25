@@ -33,6 +33,7 @@
     "$file": ".seebra/dashboard/408f3646-8d3e-51d2-a040-64928c3c620b.ontology.json",
     "$json": true
   },
+  "parameters": [],
   "queries": [
     ["query/id", "046889d0-c24a-5568-aae8-c6ac553bf30e"]
   ],

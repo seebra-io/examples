@@ -19,6 +19,7 @@
   ],
   "grids": [],
   "name": "Kubernetes capacity and bin-packing",
+  "parameters": [],
   "queries": [
     ["query/id", "aa34bbfd-44b1-5697-924d-328bd9921abc"],
     ["query/id", "7e7aaaaf-9d3d-553c-8e18-b483ae7d9feb"]

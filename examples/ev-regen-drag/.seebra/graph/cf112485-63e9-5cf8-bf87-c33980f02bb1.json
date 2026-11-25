@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/highway-city-ratio-per-powertrain.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "cf112485-63e9-5cf8-bf87-c33980f02bb1",
   "graph/inputs": [
     ["data/id", "7467e914-5990-5d69-96f6-982849b248e1"]

@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/the-vapour-pressure-from-the-boiling-point-alone.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "83b95786-9c76-5f11-9f33-d6f8e0acbf1c",
   "graph/inputs": [
     ["data/id", "f2c95e97-61e9-590e-a2fe-3a824b443f01"]

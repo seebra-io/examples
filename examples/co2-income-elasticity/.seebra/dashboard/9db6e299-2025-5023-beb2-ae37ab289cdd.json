@@ -22,6 +22,7 @@
   ],
   "grids": [],
   "name": "CO₂ and income: elasticity on log–log axes",
+  "parameters": [],
   "queries": [
     ["query/id", "08e11300-f369-51f7-8c76-a54213355354"],
     ["query/id", "7daaf3a6-cdef-5d09-82b6-8e02352a0519"],

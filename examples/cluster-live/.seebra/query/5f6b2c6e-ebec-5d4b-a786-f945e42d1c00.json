@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "c939fa37-8342-59d4-9ae3-c3cf44b0d143"],
+  "query/datasource": ["datasource/id", "4a21b992-762e-546e-a625-31076bcc4301"],
+  "query/dynamic?": true,
+  "query/format": "json",
+  "query/headers": "{}",
+  "query/id": "5f6b2c6e-ebec-5d4b-a786-f945e42d1c00",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "The same services yesterday (offset 1d)",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 320
+  },
+  "query/params": "{\"query\":\"(label_replace({{rate_promql}}, \\\"signal\\\", \\\"rate_yesterday\\\", \\\"\\\", \\\"\\\") or label_replace({{p99_promql}}, \\\"signal\\\", \\\"p99_yesterday\\\", \\\"\\\", \\\"\\\"))[{{window}}:{{step}}] offset 1d\"}",
+  "query/path": "/query",
+  "query/request-body": "",
+  "query/units": "{}"
+}

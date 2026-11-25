@@ -1,0 +1,61 @@
+{
+  "dashboard/id": "1227d73c-e2f3-511f-9bc9-0ae017a21fc0",
+  "datas": [
+    ["data/id", "698b4b1d-7abe-560f-a5ea-c43c5b30eacc"],
+    ["data/id", "584a7318-923e-5473-afa9-1e81180f4e86"],
+    ["data/id", "20754757-c285-5bfc-b964-cc2f22021d1b"],
+    ["data/id", "55a6b10a-04ea-5f2c-bc67-0cf41158f5a7"],
+    ["data/id", "5891f00e-0982-5547-8a5d-f3d5efeda3cf"],
+    ["data/id", "de76e325-16bb-5e9f-bdff-8339ad210888"],
+    ["data/id", "efa9c805-88b0-5b68-938a-62b5c4f98c87"],
+    ["data/id", "af2a9bb6-67cd-507f-a65f-92ef3381e00c"],
+    ["data/id", "dcc62f26-c2dd-5c2b-a60d-775052c3ac51"],
+    ["data/id", "e292e1cf-ba4a-54f1-94f0-75759d7a24f6"],
+    ["data/id", "178d87a1-ae44-52e0-a721-6eece25cc695"],
+    ["data/id", "e2ba53d4-9054-5bd8-a2a6-fe3a544eb6db"],
+    ["data/id", "1df80b43-c52c-593b-a5a0-1911753654c9"],
+    ["data/id", "d2cd815e-cdcf-5ed0-b276-349fda8d8cd3"]
+  ],
+  "datasources": [
+    ["datasource/id", "0b187699-8b50-53d3-8f05-45114c8e1b05"],
+    ["datasource/id", "b608506f-d311-5c14-bd56-d542c33ecd0e"],
+    ["datasource/id", "dba94ada-c7a1-5086-8040-35d4b9f622d9"]
+  ],
+  "description": "Did the deploy do it? For one deployment (api in namespace shop by default: set yours in Parameters) the board finds every rollout from the Kubernetes API (its ReplicaSets' revisions, images and creation times, and the deployment controller's ScalingReplicaSet events for rollbacks), pulls p99 latency (histogram_quantile), the 5xx error ratio, traffic and container restarts from Prometheus over the last 7 days, and marks the rollouts on them. Each rollout gets a verdict in plain words, e.g. \"Rollout 14 (api:1.8.2 → 1.8.3) raised p99 by 39 ms (95% CI 28–50), p < 0.001\": the medians of the hour before and the hour after (after a 5-minute settle), a 95% interval for their difference from a moving-block bootstrap, and a Mann-Whitney U test with the rank-biserial r as its effect size; Holm's adjustment over the rollouts is in the hover. Caveats are shown per rollout: traffic that changed at the same time, other services that moved as well (a shared cause), rollouts close together (windows are cut at the neighbour), windows too short to test, missing points and missing metrics. Next steps: drill down into a rollout (its log messages from Loki before vs after, its events and pods) or expand (the other services in the namespace at the same time, the rollouts before it). SAMPLE DATA: signed out, or before you connect, the three datasources read a made-up cluster (namespace shop, deployment api: generated from a model by scripts/deploy-did-it-sample.mjs, labelled as sample everywhere). Connect your cluster to run on yours: run kubectl proxy --port=8001 and set the Kubernetes datasource's URL to http://localhost:8001 (kubectl proxy sends no CORS headers: put a CORS-adding proxy such as nginx or Caddy in front), Prometheus's to http://localhost:9090/api/v1 (start it with --web.cors.origin) and Loki's to http://localhost:3100/loki/api/v1; or, through your organisation's own Seebra gateway, https://kubernetes.default.svc with a read-only token (as the other Kubernetes examples) and your in-cluster Prometheus or Thanos querier (on OpenShift: https://thanos-querier.openshift-monitoring.svc:9091/api/v1 with a bearer token). Then set namespace, deployment and the PromQL in Parameters to your metric names (the defaults follow OpenTelemetry's http_server_request_duration_seconds histogram and kube-state-metrics). Read only: nothing here writes to the cluster. Caveats: points 5 minutes apart are not independent, so p-values are optimistic (the interval's block bootstrap is more honest); histogram_quantile interpolates within buckets; events expire (an hour by default), so old rollbacks can have no time; Loki returns at most 5000 lines.",
+  "graphs": [
+    ["graph/id", "92f28c49-707e-58b2-b7fd-fbc4af592a7c"],
+    ["graph/id", "78cb8fcd-b075-5701-8626-620e021312b8"],
+    ["graph/id", "6f68003d-1bf9-56a1-a5a9-66f6b5380357"],
+    ["graph/id", "88110edd-3180-5be8-a2a8-d98277397708"]
+  ],
+  "grids": [],
+  "name": "Did the deploy do it?",
+  "ontology": {
+    "$file": ".seebra/dashboard/1227d73c-e2f3-511f-9bc9-0ae017a21fc0.ontology.json",
+    "$json": true
+  },
+  "parameters": [
+    ["data/id", "698b4b1d-7abe-560f-a5ea-c43c5b30eacc"]
+  ],
+  "queries": [
+    ["query/id", "4074235f-3a56-54f1-86c7-ef30333299a6"],
+    ["query/id", "ba218237-67a7-5dc3-a6dc-fd59187c87ac"],
+    ["query/id", "8e02a997-3364-52b7-8c05-37387286cbeb"],
+    ["query/id", "e668ed2b-3575-5025-be55-fd5a455e27d3"],
+    ["query/id", "ddff9f94-98a2-5c94-988c-91b4868c7e09"]
+  ],
+  "studies": [],
+  "tables": [],
+  "texts": [],
+  "timers": [],
+  "transformations": [
+    ["transformation/id", "796a4ea2-5e15-5147-ae35-55fdc0d9dce6"],
+    ["transformation/id", "625d8ede-fe39-59eb-a48e-65deb0b64d69"],
+    ["transformation/id", "457f1db8-78d5-54eb-9863-e2f91a7602fe"],
+    ["transformation/id", "4219630a-5002-5c1c-873e-bc93a146f640"],
+    ["transformation/id", "4c286268-a786-5000-b8d9-2ea556e0feac"],
+    ["transformation/id", "85b35f50-93ab-55ed-9ed7-0dd990fab1eb"],
+    ["transformation/id", "7c254430-09f2-5859-9a87-40ee9c9bb478"],
+    ["transformation/id", "16b9b4cc-2593-5923-b66b-e74866fe7982"]
+  ]
+}

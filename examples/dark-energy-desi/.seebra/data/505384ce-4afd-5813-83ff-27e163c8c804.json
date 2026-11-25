@@ -1,0 +1,12 @@
+{
+  "data/id": "505384ce-4afd-5813-83ff-27e163c8c804",
+  "data/name": "DESI distances",
+  "data/node": {
+    "node/created": 6,
+    "node/x": 1610,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "ce0fdd26-2e84-5e85-93ba-823648f9ea91"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

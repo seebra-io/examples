@@ -17,6 +17,7 @@
   ],
   "grids": [],
   "name": "How long issues stay open",
+  "parameters": [],
   "queries": [
     ["query/id", "1937b329-be0e-588f-9c56-ce8345966a44"]
   ],

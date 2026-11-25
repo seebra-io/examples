@@ -1,0 +1,10 @@
+{
+  "data/id": "bfcfd551-03a3-5184-9e8c-629c50bc31a6",
+  "data/name": "Volumes: used and capacity per PVC data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 1040
+  },
+  "data/parent": ["query/id", "223d71ac-41a1-5e36-9ccd-e98e086e85cf"],
+  "data/type": "json"
+}

@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/pooled-f-against-f-st-the-wahlund-effect.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "cbf627ca-b21e-5fb8-a921-1ec0d35c09a5",
   "graph/inputs": [],
   "graph/language": "javascript",

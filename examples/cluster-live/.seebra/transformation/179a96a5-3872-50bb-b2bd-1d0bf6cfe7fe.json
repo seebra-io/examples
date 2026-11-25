@@ -1,0 +1,21 @@
+{
+  "transformation/content": {
+    "$file": "transforms/log-rate-and-lines.js"
+  },
+  "transformation/data-child": ["data/id", "ed62d69d-bf37-544e-8af2-be5b9d5cf6e5"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "js-web-worker",
+  "transformation/id": "179a96a5-3872-50bb-b2bd-1d0bf6cfe7fe",
+  "transformation/inputs": [
+    ["data/id", "1a67ee84-9101-5dc0-ac12-8983952225aa"]
+  ],
+  "transformation/language": "javascript",
+  "transformation/name": "Log rate and lines",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 560
+  },
+  "transformation/parent": ["data/id", "fd5ca2c4-a697-53d1-9215-1d5bf3c81fac"],
+  "transformation/units": "{}"
+}

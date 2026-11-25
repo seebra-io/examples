@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/log-lines-with-their-template.js"
+  },
+  "transformation/data-child": ["data/id", "178d87a1-ae44-52e0-a721-6eece25cc695"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "js-web-worker",
+  "transformation/id": "4c286268-a786-5000-b8d9-2ea556e0feac",
+  "transformation/inputs": [],
+  "transformation/language": "javascript",
+  "transformation/name": "Log lines with their template",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1000,
+    "node/y": 560
+  },
+  "transformation/parent": ["data/id", "de76e325-16bb-5e9f-bdff-8339ad210888"],
+  "transformation/units": "{}"
+}

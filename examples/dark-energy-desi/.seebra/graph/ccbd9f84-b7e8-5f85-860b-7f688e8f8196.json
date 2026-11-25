@@ -1,0 +1,16 @@
+{
+  "graph/content": {
+    "$file": "graphs/is-dark-energy-constant-the-rulers-in-the-w0-wa.js"
+  },
+  "graph/dynamic?": false,
+  "graph/id": "ccbd9f84-b7e8-5f85-860b-7f688e8f8196",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Is dark energy constant? The rulers in the w0–wa plane",
+  "graph/node": {
+    "node/created": 1,
+    "node/x": 1460,
+    "node/y": 800
+  },
+  "graph/parent": ["data/id", "ca4cb37b-55b2-573e-ad7d-b4aeb65ef8a6"]
+}

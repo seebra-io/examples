@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/temperature-profiles-from-pole-to-pole-and-the.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "9e15bc94-3521-5b42-8d0d-2b04d0c71655",
   "graph/inputs": [
     ["data/id", "323d8d15-7501-57e1-83da-b37fb06909ef"]

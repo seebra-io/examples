@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/gene-density-falls-as-eukaryote-genomes-grow.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "0ed1142d-ae4d-53d3-ae42-2f829a613628",
   "graph/inputs": [],
   "graph/language": "javascript",

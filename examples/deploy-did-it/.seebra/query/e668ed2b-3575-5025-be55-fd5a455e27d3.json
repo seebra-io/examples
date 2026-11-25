@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "5891f00e-0982-5547-8a5d-f3d5efeda3cf"],
+  "query/datasource": ["datasource/id", "b608506f-d311-5c14-bd56-d542c33ecd0e"],
+  "query/dynamic?": true,
+  "query/format": "json",
+  "query/headers": "{}",
+  "query/id": "e668ed2b-3575-5025-be55-fd5a455e27d3",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "p99, errors, traffic, restarts and the neighbours' p99 over the window (one PromQL subquery)",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 800
+  },
+  "query/params": "{\"query\":\"(label_replace({{p99_promql}}, \\\"signal\\\", \\\"p99\\\", \\\"\\\", \\\"\\\") or label_replace({{error_ratio_promql}}, \\\"signal\\\", \\\"error_ratio\\\", \\\"\\\", \\\"\\\") or label_replace({{traffic_promql}}, \\\"signal\\\", \\\"traffic\\\", \\\"\\\", \\\"\\\") or label_replace({{restarts_promql}}, \\\"signal\\\", \\\"restarts\\\", \\\"\\\", \\\"\\\") or label_replace({{neighbours_p99_promql}}, \\\"signal\\\", \\\"neighbour_p99\\\", \\\"\\\", \\\"\\\"))[{{window}}:{{step}}]\"}",
+  "query/path": "/query",
+  "query/request-body": "",
+  "query/units": "{}"
+}

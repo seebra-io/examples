@@ -21,6 +21,7 @@
   ],
   "grids": [],
   "name": "Nordic GDP per capita",
+  "parameters": [],
   "queries": [
     ["query/id", "6fdb66db-f691-5594-94b0-e1f9406baaf8"]
   ],

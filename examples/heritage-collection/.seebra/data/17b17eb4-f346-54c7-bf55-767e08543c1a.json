@@ -1,0 +1,10 @@
+{
+  "data/id": "17b17eb4-f346-54c7-bf55-767e08543c1a",
+  "data/name": "The parish's monuments data",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 560
+  },
+  "data/parent": ["transformation/id", "988c28a7-fb66-5993-ad77-ae3bb3744331"],
+  "data/type": "json"
+}

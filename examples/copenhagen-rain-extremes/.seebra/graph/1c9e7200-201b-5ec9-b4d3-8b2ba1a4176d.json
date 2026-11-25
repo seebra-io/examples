@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/extreme-values-gumbel-plot-and-return-levels.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "1c9e7200-201b-5ec9-b4d3-8b2ba1a4176d",
   "graph/inputs": [
     ["data/id", "4ff3acbb-8d1b-5919-9664-dcc8abc718a4"]

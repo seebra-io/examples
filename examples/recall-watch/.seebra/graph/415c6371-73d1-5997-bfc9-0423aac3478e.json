@@ -1,0 +1,15 @@
+{
+  "graph/content": {
+    "$file": "graphs/in-the-latest-reports-by-class-and-feed.js"
+  },
+  "graph/dynamic?": false,
+  "graph/id": "415c6371-73d1-5997-bfc9-0423aac3478e",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "In the latest reports: by class and feed",
+  "graph/node": {
+    "node/x": 1920,
+    "node/y": 320
+  },
+  "graph/parent": ["data/id", "c599792c-774e-5e5c-b6a1-0c003e1746f9"]
+}

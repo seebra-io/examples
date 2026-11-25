@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/spotify-your-artists-month-by-month.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "4c6dd083-bcd7-5b22-8cdb-ac4b6359f0e5",
   "graph/inputs": [],
   "graph/language": "javascript",

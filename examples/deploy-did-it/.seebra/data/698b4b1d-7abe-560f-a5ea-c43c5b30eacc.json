@@ -1,0 +1,13 @@
+{
+  "data/content": "{\"p99_promql\":\"histogram_quantile(0.99, sum by (le) (rate(http_server_request_duration_seconds_bucket{namespace=\\\"{{namespace}}\\\", service=\\\"{{deployment}}\\\"}[5m])))\",\"error_ratio_promql\":\"(sum(rate(http_server_request_duration_seconds_count{namespace=\\\"{{namespace}}\\\", service=\\\"{{deployment}}\\\", http_response_status_code=~\\\"5..\\\"}[5m])) or vector(0)) / sum(rate(http_server_request_duration_seconds_count{namespace=\\\"{{namespace}}\\\", service=\\\"{{deployment}}\\\"}[5m]))\",\"traffic_promql\":\"sum(rate(http_server_request_duration_seconds_count{namespace=\\\"{{namespace}}\\\", service=\\\"{{deployment}}\\\"}[5m]))\",\"restarts_promql\":\"sum(increase(kube_pod_container_status_restarts_total{namespace=\\\"{{namespace}}\\\", pod=~\\\"{{deployment}}-.*\\\"}[5m]))\",\"neighbours_p99_promql\":\"histogram_quantile(0.99, sum by (le, service) (rate(http_server_request_duration_seconds_bucket{namespace=\\\"{{namespace}}\\\", service!=\\\"{{deployment}}\\\"}[5m])))\",\"logql\":\"{namespace=\\\"{{namespace}}\\\", app=\\\"{{deployment}}\\\"} |~ \\\"(?i)(error|panic|exception|timeout|slow)\\\"\",\"namespace\":\"shop\",\"deployment\":\"api\",\"window\":\"7d\",\"step\":\"5m\",\"before_minutes\":\"60\",\"after_minutes\":\"60\",\"settle_minutes\":\"5\"}",
+  "data/id": "698b4b1d-7abe-560f-a5ea-c43c5b30eacc",
+  "data/name": "Parameters: your namespace, deployment and metric names",
+  "data/node": {
+    "node/width": 420,
+    "node/x": 80,
+    "node/y": 80
+  },
+  "data/parameter?": true,
+  "data/render?": true,
+  "data/type": "parameters"
+}

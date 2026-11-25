@@ -1,0 +1,45 @@
+{
+  "dashboard/id": "4f3565f3-f4a8-5c9a-983c-fbe4b07698a4",
+  "datas": [
+    ["data/id", "b9a67743-313f-5011-97ae-93511d2eadf4"],
+    ["data/id", "93161b5a-7c8c-556d-aa15-25f5fda663b8"],
+    ["data/id", "b6ffdd01-0686-5627-870a-57ac86926ad0"],
+    ["data/id", "ca4cb37b-55b2-573e-ad7d-b4aeb65ef8a6"],
+    ["data/id", "affaa5b8-348f-526f-a670-b82659db53a4"],
+    ["data/id", "505384ce-4afd-5813-83ff-27e163c8c804"],
+    ["data/id", "fc8bb67a-4344-57f9-98d1-6581343152dc"]
+  ],
+  "datasources": [
+    ["datasource/id", "fbcd0eec-b4e9-5931-ad9b-a07ccf9d69dc"],
+    ["datasource/id", "a9411299-70e8-5409-af19-505399cd1efa"]
+  ],
+  "description": "Question: in March 2025 the Dark Energy Spectroscopic Instrument (DESI) reported that dark energy may be weakening: the cosmological constant of the standard model, ΛCDM, fits its map of 14 million galaxies and quasars less well than a dark energy that changes with time. How strong is that, and which data carry it? And is the \"Hubble tension\" the same problem? Data: DESI DR2's BAO distances (seven redshift bins, 13 numbers with their covariance; DESI collaboration via the Cobaya likelihood repository), the 1,701 type Ia supernovae of Pantheon+ with their SH0ES Cepheid calibration (Scolnic et al. 2022, Brout et al. 2022), and Planck's acoustic angle θ* and sound horizon. Steps: a flat universe of matter, radiation and dark energy with w(z) = w0 + wa·z/(1+z), integrated for 21 × 41 × 53 values of Ωm, w0 and wa (w0 + wa < 0); for each, the χ² of the BAO (scale c/(H0·r_d) fitted analytically), of the supernovae (their absolute brightness left free, Hubble-flow sample binned in 36 log-redshift bins), and of the CMB as one more distance, to z = 1090; then ΛCDM against the best (w0, wa) per combination, and H0 from the supernovae with Cepheid distances against H0 from the sound-horizon ruler. Aha: each ruler alone is consistent with ΛCDM (BAO 1.7σ, supernovae 0.3σ), but their allowed bands cross away from it: together ΛCDM is off by 2.7σ (Δχ² 10.2), best w0 ≈ −0.87, wa ≈ −0.3, close to DESI's own 2.8σ for DESI + CMB + Pantheon+ (w0 = −0.84, wa = −0.62 in their full analysis). The signal sits at z ≈ 0.5–0.7, where DESI's expansion rate runs 3% above ΛCDM. The Hubble tension is a separate fault line: the distance ladder gives H0 = 73.2 km/s/Mpc (statistical error only), the sound-wave ruler with Planck's r_d gives 68.8, Planck's ΛCDM 67.4 ± 0.5; changing late dark energy doesn't close it. Caveats: supernova errors are diagonal (the published 1,701 × 1,701 covariance with systematics isn't used), which makes them look stronger than they are; the CMB here is θ* alone, a weak stand-in for the full Planck likelihood (so BAO+CMB gives 1.5σ against DESI's 3.1σ); radiation and r*/r_d are fixed approximations; the grid is coarse (steps 0.01, 0.03, 0.08); the significance depends on which supernova sample is used (DESI: 2.8σ with Pantheon+, 4.2σ with DES-Y5). Next: hover any point; read a combination's Δχ² in the verdict table; drill into one BAO bin's tracer; expand to the DES-Y5 or Union3 supernovae, or the full CMB distance priors.",
+  "graphs": [
+    ["graph/id", "ccbd9f84-b7e8-5f85-860b-7f688e8f8196"],
+    ["graph/id", "4cd3f809-5d48-5717-ae53-bbe57f7abd5b"],
+    ["graph/id", "c5a50455-ee78-5ace-b4fa-9e0526499c42"],
+    ["graph/id", "58dbd20a-69ce-53c7-a0e0-46dc717fcfba"]
+  ],
+  "grids": [],
+  "name": "Is dark energy weakening? DESI, supernovae and the Hubble tension",
+  "ontology": {
+    "$file": ".seebra/dashboard/4f3565f3-f4a8-5c9a-983c-fbe4b07698a4.ontology.json",
+    "$json": true
+  },
+  "parameters": [],
+  "queries": [
+    ["query/id", "94ae4e38-b6fc-5af5-90b2-701c7db6b9c8"],
+    ["query/id", "b555b539-46fa-56f9-b77f-10df9c46f64d"],
+    ["query/id", "f38405dc-5003-5692-a4de-a6c5b9d2ac93"]
+  ],
+  "studies": [],
+  "tables": [],
+  "texts": [],
+  "timers": [],
+  "transformations": [
+    ["transformation/id", "5aa5c376-66b7-5c11-bf6d-108c3d17ec79"],
+    ["transformation/id", "24eb7ef7-81c6-5592-9df3-71b28ea0a241"],
+    ["transformation/id", "ce0fdd26-2e84-5e85-93ba-823648f9ea91"],
+    ["transformation/id", "f643b1d2-3b7b-5988-86db-8ad12b5c68f5"]
+  ]
+}

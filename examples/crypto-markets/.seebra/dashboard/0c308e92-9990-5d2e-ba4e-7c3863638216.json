@@ -18,6 +18,7 @@
   ],
   "grids": [],
   "name": "Crypto: the top 20 today",
+  "parameters": [],
   "queries": [
     ["query/id", "b5888776-e628-5730-9063-5075f0d6d5db"]
   ],

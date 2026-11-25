@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "60d78271-4dc9-5fe9-b708-942ad9b18ae4"],
+  "query/datasource": ["datasource/id", "e6c642bc-ea4a-51e5-a6ca-0f97034640d3"],
+  "query/dynamic?": true,
+  "query/format": "tsv",
+  "query/headers": "{}",
+  "query/id": "bf5af5ef-72b7-50e3-820c-fbefaf2551db",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Every curated human protein complex (Complex Portal, ComplexTAB)",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 800
+  },
+  "query/params": "{}",
+  "query/path": "/9606.tsv",
+  "query/request-body": "",
+  "query/units": "{}"
+}

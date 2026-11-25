@@ -1,0 +1,10 @@
+{
+  "data/id": "5ec8a84d-4c01-5661-bccd-3f152e267421",
+  "data/name": "Object names and materials data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 800
+  },
+  "data/parent": ["transformation/id", "dbb303ab-368f-5e67-aaaa-45b7f443cebf"],
+  "data/type": "json"
+}

@@ -1,0 +1,175 @@
+{
+  "title": "A namespace's services and workloads, live",
+  "summary": "The services of a namespace and the signals that say how they serve (traffic, errors, latency), the workloads and pods that run them and what they use against what they may (CPU, memory, volumes, nodes), what changes them (rollouts) and what they say (events, logs).",
+  "concepts": [
+    {
+      "cid": "c1",
+      "label": "Service",
+      "kind": "entity",
+      "description": "What clients call; its signals are measured per request (RED: rate, errors, duration).",
+      "fields": [
+        "service"
+      ],
+      "in_data": true,
+      "children": [
+        {
+          "cid": "c2",
+          "label": "Request rate",
+          "kind": "measure",
+          "as": "property",
+          "description": "Requests per second, a 1-minute rate.",
+          "fields": [
+            "value"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c3",
+          "label": "Error ratio",
+          "kind": "measure",
+          "as": "property",
+          "description": "5xx responses per request, %.",
+          "in_data": true
+        },
+        {
+          "cid": "c4",
+          "label": "Latency quantile",
+          "kind": "measure",
+          "as": "property",
+          "description": "p50 and p99 of request duration, ms, from a histogram.",
+          "in_data": true,
+          "facts": [
+            {
+              "text": "histogram_quantile computes a quantile from a histogram's buckets by linear interpolation within the bucket that holds it.",
+              "source": "https://prometheus.io/docs/prometheus/latest/querying/functions/#histogram_quantile"
+            }
+          ]
+        },
+        {
+          "cid": "c5",
+          "label": "Usual band",
+          "kind": "measure",
+          "as": "property",
+          "description": "The rolling median of the 30 minutes before ± k × 1.4826 × MAD; points outside it are noted.",
+          "fields": [
+            "usual",
+            "band_lo",
+            "band_hi",
+            "outside",
+            "ratio"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c6",
+          "label": "Same time yesterday",
+          "kind": "measure",
+          "as": "property",
+          "description": "The seasonal baseline: the series 24 h earlier (PromQL offset 1d).",
+          "fields": [
+            "yesterday"
+          ],
+          "in_data": true
+        }
+      ]
+    },
+    {
+      "cid": "c7",
+      "label": "Workload",
+      "kind": "entity",
+      "description": "A Deployment, StatefulSet, DaemonSet or Job and its pods.",
+      "fields": [
+        "workload"
+      ],
+      "in_data": true,
+      "children": [
+        {
+          "cid": "c8",
+          "label": "Pod",
+          "kind": "entity",
+          "as": "part",
+          "description": "A running instance: its node, phase, restarts, why it last stopped.",
+          "fields": [
+            "name",
+            "node",
+            "phase",
+            "restarts",
+            "reason"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c9",
+          "label": "Resource requests and limits",
+          "kind": "measure",
+          "as": "property",
+          "description": "What the scheduler reserves (request) and what the kernel enforces (limit): CPU is throttled at its limit, memory is OOM-killed.",
+          "in_data": true,
+          "facts": [
+            {
+              "text": "A container that exceeds its memory limit is terminated (OOMKilled); one that reaches its CPU limit is throttled.",
+              "source": "https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/#how-pods-with-resource-limits-are-run"
+            }
+          ]
+        },
+        {
+          "cid": "c10",
+          "label": "Forecast to the limit",
+          "kind": "measure",
+          "as": "property",
+          "description": "Holt's linear exponential smoothing of usage since the last drop; when it reaches the limit, with a rough 90% range.",
+          "fields": [
+            "eta_ms",
+            "eta_lo_ms",
+            "eta_hi_ms",
+            "trend_per_h"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c11",
+          "label": "Rollout",
+          "kind": "event",
+          "as": "part",
+          "description": "A new revision of a Deployment (a ReplicaSet); a rollback reuses an old one.",
+          "fields": [
+            "rollout",
+            "from_image",
+            "to_image",
+            "rollback"
+          ],
+          "in_data": true
+        }
+      ]
+    },
+    {
+      "cid": "c12",
+      "label": "Node",
+      "kind": "entity",
+      "description": "The machine pods run on; its CPU and memory against what it can allocate.",
+      "fields": [
+        "node"
+      ],
+      "in_data": true
+    },
+    {
+      "cid": "c13",
+      "label": "Volume",
+      "kind": "entity",
+      "description": "A PersistentVolumeClaim: used bytes against capacity (kubelet volume stats).",
+      "in_data": true
+    },
+    {
+      "cid": "c14",
+      "label": "Signals from the cluster",
+      "kind": "event",
+      "description": "Kubernetes events (scheduling, probes, back-offs; kept an hour by default) and log lines from Loki.",
+      "fields": [
+        "reason",
+        "message",
+        "line"
+      ],
+      "in_data": true
+    }
+  ]
+}

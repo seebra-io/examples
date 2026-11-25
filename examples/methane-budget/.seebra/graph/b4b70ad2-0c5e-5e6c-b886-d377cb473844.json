@@ -1,0 +1,16 @@
+{
+  "graph/content": {
+    "$file": "graphs/the-push-on-the-climate-co2-ch4-and-n2o.js"
+  },
+  "graph/dynamic?": false,
+  "graph/id": "b4b70ad2-0c5e-5e6c-b886-d377cb473844",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "The push on the climate: CO₂, CH₄ and N₂O",
+  "graph/node": {
+    "node/created": 5,
+    "node/x": 1460,
+    "node/y": 1520
+  },
+  "graph/parent": ["data/id", "535f51e8-5782-5817-ba9e-95d9da24e140"]
+}

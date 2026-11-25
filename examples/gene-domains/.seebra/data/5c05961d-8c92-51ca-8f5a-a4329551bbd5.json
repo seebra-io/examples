@@ -1,0 +1,13 @@
+{
+  "data/content": "{\"chrom\":\"7\",\"complex\":\"CPX-2209\",\"pdb\":\"5ls6\"}",
+  "data/id": "5c05961d-8c92-51ca-8f5a-a4329551bbd5",
+  "data/name": "Parameters",
+  "data/node": {
+    "node/width": 420,
+    "node/x": 80,
+    "node/y": 80
+  },
+  "data/parameter?": true,
+  "data/render?": true,
+  "data/type": "parameters"
+}

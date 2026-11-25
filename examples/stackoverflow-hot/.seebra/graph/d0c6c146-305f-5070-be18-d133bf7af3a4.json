@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/correlation-causation-what-rises-together.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "d0c6c146-305f-5070-be18-d133bf7af3a4",
   "graph/inputs": [],
   "graph/language": "javascript",

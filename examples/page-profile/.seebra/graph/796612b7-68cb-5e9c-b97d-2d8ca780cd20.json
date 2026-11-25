@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/who-spent-the-long-frames.js"
   },
+  "graph/dynamic?": true,
   "graph/id": "796612b7-68cb-5e9c-b97d-2d8ca780cd20",
   "graph/inputs": [],
   "graph/language": "javascript",

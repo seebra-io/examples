@@ -1,0 +1,10 @@
+{
+  "data/id": "668d8630-d98b-54a5-b741-34b26927bfb1",
+  "data/name": "Records by type data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 80
+  },
+  "data/parent": ["query/id", "b308a56d-fb70-5047-b187-6b8e04644399"],
+  "data/type": "json"
+}

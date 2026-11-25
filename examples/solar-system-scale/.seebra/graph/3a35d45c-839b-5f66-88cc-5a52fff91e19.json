@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/the-sun-to-jupiter-distances-to-scale-runs-time.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "3a35d45c-839b-5f66-88cc-5a52fff91e19",
   "graph/inputs": [
     ["data/id", "66960e22-3bdd-583c-9e28-add38a6ae356"],

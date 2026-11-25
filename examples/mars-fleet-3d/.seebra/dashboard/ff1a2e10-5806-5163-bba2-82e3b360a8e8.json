@@ -18,6 +18,7 @@
   ],
   "grids": [],
   "name": "Mars in 3D: the spacecraft",
+  "parameters": [],
   "queries": [
     ["query/id", "87775acc-ca05-50c3-be37-492af0c83d51"],
     ["query/id", "0861cba4-8036-5c8c-93ac-947ba297244f"],

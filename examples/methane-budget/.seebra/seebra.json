@@ -1,0 +1,8 @@
+{
+  "file": {
+    "file/example": "methane-budget"
+  },
+  "format": 2,
+  "root": ["dashboard/id", "a9b279be-adf3-504e-a926-d38a7b6b9c6d"],
+  "seebra": "board"
+}

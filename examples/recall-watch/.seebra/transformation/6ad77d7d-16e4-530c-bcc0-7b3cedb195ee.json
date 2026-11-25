@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/new-in-each-feed-s-latest-report.sql"
+  },
+  "transformation/data-child": ["data/id", "c599792c-774e-5e5c-b6a1-0c003e1746f9"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "runtime",
+  "transformation/id": "6ad77d7d-16e4-530c-bcc0-7b3cedb195ee",
+  "transformation/inputs": [],
+  "transformation/language": "sql",
+  "transformation/name": "New in each feed's latest report",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "aa860d19-649f-548b-a182-c41c366a60c3"],
+  "transformation/units": "{}"
+}

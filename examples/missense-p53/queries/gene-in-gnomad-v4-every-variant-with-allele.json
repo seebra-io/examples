@@ -1,0 +1,1 @@
+{"query": "{ gene(gene_symbol: \"{{gene}}\", reference_genome: GRCh38) { symbol canonical_transcript_id gnomad_constraint { oe_lof_upper oe_mis mis_z } variants(dataset: gnomad_r4) { variant_id pos consequence exome { ac an } genome { ac an } } clinvar_variants { variant_id clinical_significance major_consequence review_status gold_stars } } }"}

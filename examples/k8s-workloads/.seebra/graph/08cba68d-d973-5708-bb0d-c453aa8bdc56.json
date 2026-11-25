@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/restarts-are-a-heavy-tail-log-log.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "08cba68d-d973-5708-bb0d-c453aa8bdc56",
   "graph/inputs": [],
   "graph/language": "javascript",

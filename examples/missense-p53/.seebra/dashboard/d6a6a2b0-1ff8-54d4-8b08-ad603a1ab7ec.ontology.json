@@ -1,0 +1,95 @@
+{
+  "title": "Missense variants",
+  "summary": "Single amino-acid changes in a human protein: predicted effect, frequency in people, clinical classification, and the protein's predicted fold.",
+  "concepts": [
+    {
+      "cid": "c1",
+      "label": "Protein",
+      "kind": "entity",
+      "description": "A human protein (UniProt accession, set with the uniprot parameter) and its gene (gene parameter); the two must name the same protein.",
+      "fields": [
+        "t_residue_table.pos"
+      ],
+      "in_data": true,
+      "wikidata": "Q8054",
+      "children": [
+        {
+          "cid": "c2",
+          "label": "Residue",
+          "kind": "entity",
+          "as": "part",
+          "description": "One amino acid of the chain, numbered from the N-terminus.",
+          "fields": [
+            "t_residue_table.pos",
+            "t_residue_table.aa"
+          ],
+          "in_data": true,
+          "children": [
+            {
+              "cid": "c3",
+              "label": "pLDDT",
+              "kind": "measure",
+              "as": "property",
+              "description": "AlphaFold's per-residue confidence, 0–100. Below 50 usually means intrinsically disordered: no fixed position to predict.",
+              "fields": [
+                "t_residue_table.plddt"
+              ],
+              "in_data": true
+            }
+          ]
+        },
+        {
+          "cid": "c4",
+          "label": "Missense variant",
+          "kind": "entity",
+          "as": "part",
+          "description": "A DNA change that swaps one amino acid for another (e.g. R175H). Only some of the 19 alternatives at a residue are one DNA letter away.",
+          "fields": [
+            "t_variant_table.change",
+            "t_variant_table.variant"
+          ],
+          "in_data": true,
+          "wikidata": "Q1500418",
+          "children": [
+            {
+              "cid": "c5",
+              "label": "AlphaMissense pathogenicity",
+              "kind": "measure",
+              "as": "property",
+              "description": "Google DeepMind's predicted probability that the change is pathogenic (Cheng et al. 2023); ≥ 0.564 likely pathogenic, ≤ 0.34 likely benign. Trained on population frequencies and structure context, not on ClinVar labels.",
+              "fields": [
+                "t_variant_table.am",
+                "t_variant_table.am_class"
+              ],
+              "in_data": true
+            },
+            {
+              "cid": "c6",
+              "label": "Allele frequency",
+              "kind": "measure",
+              "as": "property",
+              "description": "The share of chromosomes carrying the change in gnomAD v4 (exomes and genomes, about 807,000 people).",
+              "fields": [
+                "t_variant_table.af",
+                "t_variant_table.ac"
+              ],
+              "in_data": true
+            },
+            {
+              "cid": "c7",
+              "label": "Clinical significance",
+              "kind": "category",
+              "as": "property",
+              "description": "ClinVar's classification (pathogenic, benign, uncertain, conflicting), with its review stars.",
+              "fields": [
+                "t_variant_table.clinvar",
+                "t_variant_table.stars"
+              ],
+              "in_data": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

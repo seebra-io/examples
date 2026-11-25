@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/where-they-came-down-hover-a-site.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "8edde33d-d6aa-5fa2-b762-e78bf0c7604c",
   "graph/inputs": [
     ["data/id", "966da2fe-19e0-53fb-907f-2e021e8d0d05"]

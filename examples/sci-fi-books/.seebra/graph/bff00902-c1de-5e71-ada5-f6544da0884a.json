@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/distribution-of-first-publication-decades.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "bff00902-c1de-5e71-ada5-f6544da0884a",
   "graph/inputs": [],
   "graph/language": "javascript",

@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/how-each-distance-was-measured-precise-methods.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "ec458e89-da2d-5c4f-9a69-8beb6b8faf5f",
   "graph/inputs": [],
   "graph/language": "javascript",

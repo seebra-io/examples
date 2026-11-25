@@ -36,6 +36,7 @@
     ["grid/id", "2314b0f6-e8c8-5cd7-944c-e55aae9e123e"]
   ],
   "name": "Mushroom season in Sweden",
+  "parameters": [],
   "queries": [
     ["query/id", "1c964ed5-ffcd-5b18-a397-7478b79a5de2"],
     ["query/id", "34bd0b90-f537-5512-bec6-8e904619cfde"],

@@ -1,0 +1,12 @@
+{
+  "data/id": "6f5987ac-6877-53ff-8544-c28f590da2ee",
+  "data/name": "Genes",
+  "data/node": {
+    "node/created": 9,
+    "node/x": 2070,
+    "node/y": 560
+  },
+  "data/parent": ["transformation/id", "6accd642-8de3-524d-95d4-c63f4fef3157"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

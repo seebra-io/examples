@@ -1,0 +1,16 @@
+{
+  "datasource/api-key-key": "api_key",
+  "datasource/auth-type": "none",
+  "datasource/headers": "{}",
+  "datasource/id": "02505011-85b4-5524-a28a-115681afbd17",
+  "datasource/name": "PDBe API",
+  "datasource/node": {
+    "inputs": 1,
+    "node/x": 80,
+    "node/y": 1280,
+    "outputs": 1
+  },
+  "datasource/params": "{}",
+  "datasource/type": "openapi",
+  "datasource/url": "https://www.ebi.ac.uk/pdbe/api"
+}

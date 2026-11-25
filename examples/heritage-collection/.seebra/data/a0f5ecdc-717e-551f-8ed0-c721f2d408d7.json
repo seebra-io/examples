@@ -1,0 +1,10 @@
+{
+  "data/id": "a0f5ecdc-717e-551f-8ed0-c721f2d408d7",
+  "data/name": "Records by object name data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 1520
+  },
+  "data/parent": ["query/id", "606fb055-22dd-54c3-8e7a-cb75c58f109f"],
+  "data/type": "json"
+}

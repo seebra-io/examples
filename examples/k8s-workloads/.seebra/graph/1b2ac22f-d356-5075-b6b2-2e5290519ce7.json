@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/most-restarted-containers-by-last-exit-reason.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "1b2ac22f-d356-5075-b6b2-2e5290519ce7",
   "graph/inputs": [
     ["data/id", "69a09935-8836-5e3f-8250-1c46bb59a70c"]

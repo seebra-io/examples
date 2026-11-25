@@ -1,0 +1,10 @@
+{
+  "data/id": "a2dbd774-5daf-51aa-a4ce-5b9e74600297",
+  "data/name": "Domains nested, and each gene in its domain data",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "c86ad3cb-cf01-5cd6-b6b9-9ea3e2cec7af"],
+  "data/type": "json"
+}

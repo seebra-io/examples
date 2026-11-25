@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/species-seen-once-twice-frequency-of-frequencies.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "857af2ee-7326-55ae-b2ae-4bf15fd8c1f2",
   "graph/inputs": [],
   "graph/language": "javascript",

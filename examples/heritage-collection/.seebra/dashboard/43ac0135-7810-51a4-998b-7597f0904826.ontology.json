@@ -1,0 +1,178 @@
+{
+  "title": "A museum's collection as K-samsök publishes it",
+  "summary": "An institution's records in K-samsök (Riksantikvarieämbetet's aggregator): what they are, where and when they are from, their pictures and licences, and what is missing for a visitor to find and reuse them. Places link the collection to Fornsök and to other institutions' records.",
+  "concepts": [
+    {
+      "cid": "c1",
+      "label": "Institution",
+      "kind": "entity",
+      "description": "The museum or archive that publishes the records (K-samsök's serviceOrganization code, the org parameter: shm is Statens historiska museer).",
+      "fields": [
+        "org",
+        "institution"
+      ],
+      "in_data": true,
+      "wikidata": "Q33506",
+      "children": [
+        {
+          "cid": "c2",
+          "label": "Record",
+          "kind": "entity",
+          "as": "part",
+          "description": "One entry in K-samsök: an object, photograph, artwork, site, collection or event. Its uri is K-samsök's identifier; record is the museum's own page.",
+          "fields": [
+            "label",
+            "uri",
+            "record"
+          ],
+          "in_data": true,
+          "children": [
+            {
+              "cid": "c3",
+              "label": "Record type",
+              "kind": "category",
+              "as": "property",
+              "description": "K-samsök's itemType: objekt/föremål, foto, konstverk, kulturlämning, samling, historisk händelse.",
+              "fields": [
+                "type"
+              ],
+              "in_data": true
+            },
+            {
+              "cid": "c4",
+              "label": "Object name",
+              "kind": "category",
+              "as": "property",
+              "description": "The museum's own word for the thing (itemName, Swedish): kniv, mynt, dopfunt.",
+              "fields": [
+                "name",
+                "class"
+              ],
+              "in_data": true
+            },
+            {
+              "cid": "c5",
+              "label": "Material",
+              "kind": "category",
+              "as": "property",
+              "description": "itemMaterial, as the museum wrote it; a record can have several.",
+              "fields": [
+                "material"
+              ],
+              "in_data": true
+            },
+            {
+              "cid": "c6",
+              "label": "Dating",
+              "kind": "time",
+              "as": "property",
+              "description": "When it was made or used: fromTime and toTime (years, negative BC) and period names. Facets count a record in every century its range spans.",
+              "fields": [
+                "from",
+                "to",
+                "dated"
+              ],
+              "in_data": true
+            },
+            {
+              "cid": "c7",
+              "label": "Place",
+              "kind": "place",
+              "as": "property",
+              "description": "Find place, place of use or place depicted: place, parish, municipality, county, province, and coordinates (WGS84) when the record has them.",
+              "fields": [
+                "place",
+                "parish",
+                "municipality",
+                "county",
+                "province",
+                "lon",
+                "lat"
+              ],
+              "in_data": true
+            },
+            {
+              "cid": "c8",
+              "label": "Picture",
+              "kind": "entity",
+              "as": "part",
+              "description": "The thumbnail K-samsök carries, with its licence (mediaLicense) and credit. Museums that keep photographs as separate media records show their objects without one.",
+              "fields": [
+                "thumbnail",
+                "image_licence",
+                "image_credit"
+              ],
+              "in_data": true
+            },
+            {
+              "cid": "c9",
+              "label": "Licence",
+              "kind": "category",
+              "as": "property",
+              "description": "The record's metadata licence (itemLicense, usually CC0) and the picture's (often CC BY or CC BY-NC-ND).",
+              "fields": [
+                "licence",
+                "image_licence"
+              ],
+              "in_data": true
+            }
+          ]
+        },
+        {
+          "cid": "c10",
+          "label": "Collection gap",
+          "kind": "measure",
+          "as": "property",
+          "description": "The share of an institution's records without coordinates, dating, a picture or a licence, by record type and object name: what keeps records off a map, a time line or a reuse. Counted over the whole set.",
+          "fields": [
+            "pct_no_coordinates",
+            "pct_no_dating",
+            "pct_no_image",
+            "pct_image_no_licence",
+            "pct_no_licence"
+          ],
+          "in_data": true
+        }
+      ]
+    },
+    {
+      "cid": "c11",
+      "label": "Parish",
+      "kind": "place",
+      "description": "Sweden's historical parishes (socknar), the unit archaeology and museums file places under. The parish parameter picks one to look wider from.",
+      "fields": [
+        "parish"
+      ],
+      "in_data": true,
+      "children": [
+        {
+          "cid": "c12",
+          "label": "Ancient monument",
+          "kind": "entity",
+          "as": "part",
+          "description": "A site in RAÄ's register of ancient monuments and sites (Fornsök), as K-samsök holds it, with its Fornsök page.",
+          "fields": [
+            "label",
+            "record",
+            "lon",
+            "lat"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c13",
+          "label": "Other institutions",
+          "kind": "entity",
+          "as": "part",
+          "description": "Every institution with records from the parish in K-samsök, and how many.",
+          "fields": [
+            "org",
+            "institution",
+            "records"
+          ],
+          "in_data": true
+        }
+      ]
+    }
+  ]
+}

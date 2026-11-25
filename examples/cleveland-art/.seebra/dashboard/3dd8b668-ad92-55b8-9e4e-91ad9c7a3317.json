@@ -17,6 +17,7 @@
     ["grid/id", "af72d6b1-cb51-5974-8577-2bf0a7c2b8fa"]
   ],
   "name": "Paintings at the Cleveland Museum of Art",
+  "parameters": [],
   "queries": [
     ["query/id", "a5b97cf4-3797-5b57-9745-139640e1bf7f"]
   ],

@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/who-runs-at-each-residual-load.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "e136a6a2-3194-531c-adb4-876745207eb1",
   "graph/inputs": [],
   "graph/language": "javascript",

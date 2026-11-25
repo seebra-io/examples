@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "c76aa9b0-8cc9-5cd7-b0aa-367b35ed4c12"],
+  "query/datasource": ["datasource/id", "dca5ba5b-4c47-5c43-aa48-1c684fcee8d5"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "3602d48c-9019-518c-a2f2-f5968b227239",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Contact domains (TADs), GM12878 in situ Hi-C: ENCODE ENCFF203AKP, all chromosomes (gzipped BEDPE)",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 320
+  },
+  "query/params": "{}",
+  "query/path": "/ENCFF203AKP/@@download/ENCFF203AKP.bedpe.gz",
+  "query/request-body": "",
+  "query/units": "{}"
+}

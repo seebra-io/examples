@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "2c14af2c-653d-52a7-a691-e2ba0d5d8488"],
+  "query/datasource": ["datasource/id", "4d301a20-5682-56b8-a68a-680aa07ab2d5"],
+  "query/dynamic?": true,
+  "query/format": "text",
+  "query/headers": "{}",
+  "query/id": "f387bde6-770c-54b9-b370-c7a31a086165",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "The selected structure, {{pdb}} (PDB format)",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 1040
+  },
+  "query/params": "{}",
+  "query/path": "/{{pdb}}.pdb",
+  "query/request-body": "",
+  "query/units": "{}"
+}

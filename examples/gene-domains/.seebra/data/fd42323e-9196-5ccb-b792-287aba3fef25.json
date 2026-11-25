@@ -1,0 +1,12 @@
+{
+  "data/id": "fd42323e-9196-5ccb-b792-287aba3fef25",
+  "data/name": "Domains by purity",
+  "data/node": {
+    "node/created": 8,
+    "node/x": 2530,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "61fdd704-3468-5b4f-8a03-9e85e4518335"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

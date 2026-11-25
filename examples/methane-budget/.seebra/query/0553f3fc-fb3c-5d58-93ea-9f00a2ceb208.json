@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "c2b2f21f-1b8b-5eb1-86b2-e8c1fbe48428"],
+  "query/datasource": ["datasource/id", "49b01ff2-d74d-59aa-b85b-1b7038d5412c"],
+  "query/dynamic?": true,
+  "query/format": "text",
+  "query/headers": "{}",
+  "query/id": "0553f3fc-fb3c-5d58-93ea-9f00a2ceb208",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Oceanic Niño Index (ENSO), three-month seasons since 1950",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 1040
+  },
+  "query/params": "{}",
+  "query/path": "/oni.ascii.txt",
+  "query/request-body": "",
+  "query/units": "{}"
+}

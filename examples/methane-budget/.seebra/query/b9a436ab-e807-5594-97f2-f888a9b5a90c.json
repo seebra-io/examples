@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "0574fa98-c2ba-5599-b112-bf24591ac3b8"],
+  "query/datasource": ["datasource/id", "cfd23ce1-643f-5b06-84cc-d48919964027"],
+  "query/dynamic?": true,
+  "query/format": "text",
+  "query/headers": "{}",
+  "query/id": "b9a436ab-e807-5594-97f2-f888a9b5a90c",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Global methane, monthly means and trend (ppb)",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 80
+  },
+  "query/params": "{}",
+  "query/path": "/ch4/ch4_mm_gl.txt",
+  "query/request-body": "",
+  "query/units": "{}"
+}

@@ -19,6 +19,7 @@
   ],
   "grids": [],
   "name": "Kubernetes requests vs usage",
+  "parameters": [],
   "queries": [
     ["query/id", "6440582e-2a80-516a-ab0c-15a7edb00be9"],
     ["query/id", "bdbf8960-8313-5abe-9efc-c5408488b0c9"]

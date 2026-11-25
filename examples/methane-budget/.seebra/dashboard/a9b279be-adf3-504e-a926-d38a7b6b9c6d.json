@@ -1,0 +1,48 @@
+{
+  "dashboard/id": "a9b279be-adf3-504e-a926-d38a7b6b9c6d",
+  "datas": [
+    ["data/id", "0574fa98-c2ba-5599-b112-bf24591ac3b8"],
+    ["data/id", "1c95c79b-cea9-5c7c-8cb0-aa0b4e9882c3"],
+    ["data/id", "d49ec158-563d-5e2e-bdc1-dc4b9bd70b6d"],
+    ["data/id", "dcd96ad8-616d-5fbf-97e9-175a3e79d056"],
+    ["data/id", "c2b2f21f-1b8b-5eb1-86b2-e8c1fbe48428"],
+    ["data/id", "535f51e8-5782-5817-ba9e-95d9da24e140"],
+    ["data/id", "d9b0715d-0380-5fb6-a5aa-fec9551ba93a"],
+    ["data/id", "ec3e02ae-bce8-578f-b476-082dceab971f"]
+  ],
+  "datasources": [
+    ["datasource/id", "cfd23ce1-643f-5b06-84cc-d48919964027"],
+    ["datasource/id", "49b01ff2-d74d-59aa-b85b-1b7038d5412c"]
+  ],
+  "description": "Question: methane is the second greenhouse gas after CO₂, and from 2020 to 2022 it rose faster than ever measured. Why does its growth swing so much, how big is the budget behind it, and what would cutting emissions do? Data: NOAA's globally averaged monthly methane at marine surface sites since 1983 with its de-seasonalised trend, NOAA's annual growth, NOAA's global CO₂ and N₂O, and NOAA CPC's Oceanic Niño Index. Steps: the monthly growth rate (the trend's 12-month change); ENSO against growth minus its 7-year mean at lags of −6 to 24 months; the budget in one box (emissions = 2.75 Tg/ppb × growth + stock ÷ a 9.1-year lifetime); three futures from today's emissions stepped monthly to 2060; and each gas's radiative forcing with Myhre et al.'s simplified formulas. Aha: growth is the thin difference between two huge flows. About 600 million tonnes are emitted a year and almost as much destroyed by OH; the record 2021 (17.7 ppb) was an 8.5% imbalance, and the 2000–2006 pause (0.5 ppb/yr) a balance. Because the air clears about a ninth of it every year, methane answers within a decade: held at 2025's emissions it levels off near 1,975 ppb, cut 30% by 2030 it falls back to about 1,430 ppb by 2050 (its 1980s level, 0.35 instead of 0.55 W/m²), while rising 1% a year takes it to 2,330 ppb. Nothing similar is possible with CO₂. ENSO, often blamed (La Niña wets tropical wetlands), explains only about 1% of the year-to-year wobble here (r = 0.10 with ENSO 10 months earlier). Methane is 18% of the three gases' 3.04 W/m² in 2025. Caveats: the one-box lifetime is uncertain (8.5–9.5 years) and fixed, whereas OH falls as methane rises (the perturbation lasts about 12 years) and fell in 2020's cleaner air; the 30% cut is applied to 2025's inferred emissions, not the pledge's 2020 baseline; the forcing is the direct one only (ozone and stratospheric water add about half again); a marine-site average misses regional sources; growth for the latest year is preliminary. Next: hover any month or year; drill down to a single station or latitude band (NOAA publishes both); expand to δ¹³C, the isotope that separates microbial from fossil sources, and to satellite (TROPOMI) maps of emitters.",
+  "graphs": [
+    ["graph/id", "87b0123c-5165-5256-ba7a-f307f17cef2f"],
+    ["graph/id", "79f7533f-ad1c-52ee-891b-083de1c43ab6"],
+    ["graph/id", "4e282227-2b7a-581a-8932-cd79becc6f99"],
+    ["graph/id", "10cb6fc9-f1a4-5369-9065-bfa3737313a4"],
+    ["graph/id", "b4b70ad2-0c5e-5e6c-b886-d377cb473844"]
+  ],
+  "grids": [],
+  "name": "Why did methane surge? Its budget, its short memory and its push on the climate",
+  "ontology": {
+    "$file": ".seebra/dashboard/a9b279be-adf3-504e-a926-d38a7b6b9c6d.ontology.json",
+    "$json": true
+  },
+  "parameters": [],
+  "queries": [
+    ["query/id", "b9a436ab-e807-5594-97f2-f888a9b5a90c"],
+    ["query/id", "ba2f99d0-13f1-5dd2-b189-39bb703636b8"],
+    ["query/id", "d3ac8fe5-e6c3-5112-8a62-7156312950d2"],
+    ["query/id", "6ce1434f-6762-5685-b6a8-21ac4ac0bf44"],
+    ["query/id", "0553f3fc-fb3c-5d58-93ea-9f00a2ceb208"]
+  ],
+  "studies": [],
+  "tables": [],
+  "texts": [],
+  "timers": [],
+  "transformations": [
+    ["transformation/id", "0e860c8c-cc7e-5dc5-8b15-0cbd968f856f"],
+    ["transformation/id", "038782ac-825a-5104-92fe-1f351b4f4ba3"],
+    ["transformation/id", "53e885d1-23eb-5623-b027-4772a00a0a97"]
+  ]
+}

@@ -1,0 +1,2 @@
+// DESI DR2's 13 distances, their errors and ΛCDM's prediction (BAO+CMB fit).
+data.points.map((p) => ({z: p.z, quantity: p.quantity, value: p.value, error: +p.error.toFixed(4), lcdm: +p.lcdm.toFixed(4), ratio: +p.ratio.toFixed(4), pull: +((p.ratio - 1) / p.ratio_err).toFixed(2)}))

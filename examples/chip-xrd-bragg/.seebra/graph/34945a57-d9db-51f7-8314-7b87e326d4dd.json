@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/bragg-s-law-sin2-against-h2-k2-l2.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "34945a57-d9db-51f7-8314-7b87e326d4dd",
   "graph/inputs": [],
   "graph/language": "javascript",

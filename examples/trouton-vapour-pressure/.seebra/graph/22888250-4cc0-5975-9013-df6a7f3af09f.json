@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/one-line-for-every-liquid-the-reduced-clausius.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "22888250-4cc0-5975-9013-df6a7f3af09f",
   "graph/inputs": [
     ["data/id", "f2c95e97-61e9-590e-a2fe-3a824b443f01"]

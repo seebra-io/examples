@@ -1,0 +1,10 @@
+{
+  "data/id": "d49ec158-563d-5e2e-bdc1-dc4b9bd70b6d",
+  "data/name": "Global CO₂, monthly means (ppm) data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 560
+  },
+  "data/parent": ["query/id", "d3ac8fe5-e6c3-5112-8a62-7156312950d2"],
+  "data/type": "json"
+}

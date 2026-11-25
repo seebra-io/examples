@@ -1,0 +1,16 @@
+{
+  "datasource/api-key-key": "api_key",
+  "datasource/auth-type": "none",
+  "datasource/headers": "{}",
+  "datasource/id": "2fe9e70b-db49-5321-948a-dd385f248dba",
+  "datasource/name": "Loki (sample; yours: http://localhost:3100/loki/api/v1)",
+  "datasource/node": {
+    "inputs": 1,
+    "node/x": 80,
+    "node/y": 800,
+    "outputs": 1
+  },
+  "datasource/params": "{}",
+  "datasource/type": "openapi",
+  "datasource/url": "https://www.seebra.io/explore/examples/cluster-live/sample/loki/loki/api/v1"
+}

@@ -16,6 +16,7 @@
   ],
   "grids": [],
   "name": "Air quality in eight cities",
+  "parameters": [],
   "queries": [
     ["query/id", "eb9d1313-854f-53b2-ad28-d8d6934e97e0"]
   ],

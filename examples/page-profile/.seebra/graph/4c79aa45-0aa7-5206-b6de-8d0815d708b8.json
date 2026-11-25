@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/load-time-by-origin.js"
   },
+  "graph/dynamic?": true,
   "graph/id": "4c79aa45-0aa7-5206-b6de-8d0815d708b8",
   "graph/inputs": [],
   "graph/language": "javascript",

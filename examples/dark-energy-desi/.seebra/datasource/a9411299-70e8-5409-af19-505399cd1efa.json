@@ -1,0 +1,16 @@
+{
+  "datasource/api-key-key": "api_key",
+  "datasource/auth-type": "none",
+  "datasource/headers": "{}",
+  "datasource/id": "a9411299-70e8-5409-af19-505399cd1efa",
+  "datasource/name": "BAO likelihood data (Cobaya, GitHub)",
+  "datasource/node": {
+    "inputs": 1,
+    "node/x": 80,
+    "node/y": 320,
+    "outputs": 1
+  },
+  "datasource/params": "{}",
+  "datasource/type": "openapi",
+  "datasource/url": "https://raw.githubusercontent.com/CobayaSampler/bao_data/master"
+}

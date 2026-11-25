@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/the-sun-s-neighbourhood-every-star-within-100.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "9c657776-a3b0-5e50-ac47-b6a94db89dd1",
   "graph/inputs": [
     ["data/id", "d01b8d72-cd7f-59cd-8e6d-1e00c944a136"]

@@ -1,0 +1,10 @@
+{
+  "data/id": "d6fc9242-33cc-573f-84c2-0199fb0ceed6",
+  "data/name": "The records fetched data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 1040
+  },
+  "data/parent": ["transformation/id", "33c75bab-d036-55f2-b105-0f136a78793e"],
+  "data/type": "json"
+}

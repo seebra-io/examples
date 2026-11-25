@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/zipf-s-law-rank-against-views-log-log.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "cf4da2dc-af54-5ad9-982b-7ef75f047f49",
   "graph/inputs": [],
   "graph/language": "javascript",

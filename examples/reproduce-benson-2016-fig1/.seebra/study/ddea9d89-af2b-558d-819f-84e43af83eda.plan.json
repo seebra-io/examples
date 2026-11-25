@@ -1,0 +1,136 @@
+{
+  "title": "Near-stasis, checked against today's data",
+  "question": "Does Mesozoic non-marine tetrapod diversity still show near-stasis in today's PBDB?",
+  "review": {
+    "well_formed": true,
+    "issues": [
+      {
+        "kind": "scope",
+        "text": "13 to 18 bins is a small sample, and neighbouring bins share long-ranging genera.",
+        "fix": "Read the slope with its interval, not only the verdict."
+      },
+      {
+        "kind": "concept",
+        "text": "The paper subsampled species within continental regions; this board subsamples genera worldwide, by occurrence.",
+        "fix": "Compare the size of the slopes, not the digits; a regional SQS is the closer check."
+      },
+      {
+        "kind": "unmeasured",
+        "text": "The PBDB has grown since 2015, unevenly: the latest Cretaceous of North America most of all.",
+        "fix": "Look at the per-bin table: occurrences and coverage."
+      }
+    ],
+    "alternatives": [
+      {
+        "question": "Does the trend survive subsampling within one continent (North America) instead of worldwide?",
+        "why": "Drills down: the paper's regional design (Fig 5), with PBDB's cc=NOA.",
+        "ready": false
+      },
+      {
+        "question": "Do dinosaurs alone show the same near-stasis (the paper's Fig 5D)?",
+        "why": "Drills down into one clade: base_name=Dinosauria^Aves.",
+        "ready": false
+      },
+      {
+        "question": "Is the 4-fold jump after the K/Pg boundary still there in today's data?",
+        "why": "Expands past the Mesozoic: the Paleocene bin is on the board already.",
+        "ready": true
+      }
+    ]
+  },
+  "hypotheses": [
+    {
+      "id": "h1",
+      "statement": "After subsampling, ln(genera) rises by less than 0.00581 per Myr across the Mesozoic.",
+      "direction": "decrease",
+      "null": "The subsampled slope is 0.00581 per Myr or more.",
+      "outcome": {
+        "concept": "Subsampled genera (ln)",
+        "field": "ln_sqs_genera"
+      },
+      "predictor": {
+        "concept": "Time",
+        "field": "myr"
+      },
+      "test": {
+        "method": "regression",
+        "outcome_field": "ln_sqs_genera",
+        "outcome_mode": "mean",
+        "predictor_field": "myr",
+        "key_field": "bin",
+        "against": 0.00581
+      }
+    },
+    {
+      "id": "h2",
+      "statement": "At face value, ln(genera found) doesn't change with time across all Mesozoic bins.",
+      "direction": "equal",
+      "null": "Face-value genus counts rise or fall with time.",
+      "outcome": {
+        "concept": "Genera found (ln)",
+        "field": "ln_genera"
+      },
+      "predictor": {
+        "concept": "Time",
+        "field": "myr"
+      },
+      "test": {
+        "method": "regression",
+        "outcome_field": "ln_genera",
+        "outcome_mode": "mean",
+        "predictor_field": "myr",
+        "key_field": "bin",
+        "against": 0
+      }
+    }
+  ],
+  "concepts": [
+    {
+      "label": "Subsampled genera (ln)",
+      "kind": "measure",
+      "field": "ln_sqs_genera",
+      "have": true
+    },
+    {
+      "label": "Genera found (ln)",
+      "kind": "measure",
+      "field": "ln_genera",
+      "have": true
+    },
+    {
+      "label": "Time",
+      "kind": "time",
+      "field": "myr",
+      "have": true
+    },
+    {
+      "label": "Bin",
+      "kind": "time",
+      "field": "bin",
+      "have": true
+    }
+  ],
+  "method": {
+    "id": "regression",
+    "summary": "Bayesian linear regression of ln(genera) per bin on time (Myr), against the paper's upper bound (h1) and against zero (h2)."
+  },
+  "steps": [
+    {
+      "kind": "data",
+      "title": "Genera per bin (PBDB diversity) and subsampled genera (SQS) on the claim table"
+    },
+    {
+      "kind": "method",
+      "title": "The slope of ln(genera) on time, per hypothesis"
+    },
+    {
+      "kind": "decide",
+      "title": "Near-stasis holds if the subsampled slope stays under the paper's bound"
+    }
+  ],
+  "caveats": [
+    "Only bins with coverage u ≥ 0.6 and 100 or more occurrences go in (13 of 18 today): the others' subsampled counts are close to their raw counts.",
+    "PBDB's bins and its terrestrial filter approximate the paper's bins and its list of excluded taxa.",
+    "A slope on ln(count) is the net diversification rate only if the bins' counts are comparable: subsampling is what tries to make them so."
+  ]
+}

@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/power-coefficient-against-the-betz-limit.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "07d053d4-4186-5747-b6cc-c8573eb64b99",
   "graph/inputs": [],
   "graph/language": "javascript",

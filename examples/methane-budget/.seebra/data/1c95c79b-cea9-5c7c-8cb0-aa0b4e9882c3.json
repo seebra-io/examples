@@ -1,0 +1,10 @@
+{
+  "data/id": "1c95c79b-cea9-5c7c-8cb0-aa0b4e9882c3",
+  "data/name": "Global methane, annual increase (ppb/yr) data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 320
+  },
+  "data/parent": ["query/id", "ba2f99d0-13f1-5dd2-b189-39bb703636b8"],
+  "data/type": "json"
+}

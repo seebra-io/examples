@@ -1,0 +1,10 @@
+{
+  "data/id": "5aabde6f-761a-54b5-946f-4c8d7ba535be",
+  "data/name": "The chromosome's genes in curated complexes: function, family, subunits, structures data",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "61a0a69e-83fe-52a1-9660-56d92aaafa40"],
+  "data/type": "json"
+}

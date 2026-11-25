@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/forecast-memory-volumes-and-nodes-against-their.js"
+  },
+  "transformation/data-child": ["data/id", "a0e350f5-2a5a-5a58-9cbb-b079c485990a"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "js-web-worker",
+  "transformation/id": "63073ac3-56e9-5ff4-b6c8-d02794eb933f",
+  "transformation/inputs": [],
+  "transformation/language": "javascript",
+  "transformation/name": "Forecast: memory, volumes and nodes against their limits (Holt)",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "234d2eef-36b5-51b4-b160-b553c4932bff"],
+  "transformation/units": "{}"
+}

@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/caffeine-3d.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "f86b81c4-4f43-544a-bb5e-8050d0dc40ed",
   "graph/inputs": [
     ["data/id", "a8a4e4d5-7c9d-5b43-ae2a-087b4fe91ade"]

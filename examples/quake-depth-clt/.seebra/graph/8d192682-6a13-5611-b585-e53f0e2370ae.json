@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/the-population-depths-of-a-month-s-quakes.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "8d192682-6a13-5611-b585-e53f0e2370ae",
   "graph/inputs": [
     ["data/id", "27ef336b-56e4-5d1d-8c79-9756056c959f"]

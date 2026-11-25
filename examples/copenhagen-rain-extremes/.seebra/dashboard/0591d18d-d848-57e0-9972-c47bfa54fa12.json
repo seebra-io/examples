@@ -18,6 +18,7 @@
   ],
   "grids": [],
   "name": "Copenhagen's wettest days",
+  "parameters": [],
   "queries": [
     ["query/id", "84f92ab7-cfd4-5961-8718-863b06f0c73a"]
   ],

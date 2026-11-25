@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "05417d1a-7514-511e-9545-995f26f77474"],
+  "query/datasource": ["datasource/id", "0670d5c0-2bc8-5c66-9883-9925538e8fe6"],
+  "query/dynamic?": true,
+  "query/format": "",
+  "query/headers": "{}",
+  "query/id": "2be888a9-5e68-5722-b795-f5f9f6825392",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "… without coordinates",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 320
+  },
+  "query/params": "{\"method\":\"facet\",\"index\":\"itemType\",\"query\":\"serviceOrganization={{org}} AND geoDataExists=n\"}",
+  "query/path": "/api",
+  "query/request-body": "",
+  "query/units": "{}"
+}

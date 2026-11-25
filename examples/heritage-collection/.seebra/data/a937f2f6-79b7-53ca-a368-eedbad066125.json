@@ -1,0 +1,10 @@
+{
+  "data/id": "a937f2f6-79b7-53ca-a368-eedbad066125",
+  "data/name": "Object names with a licensed image data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 2480
+  },
+  "data/parent": ["query/id", "a17c4812-58d7-59fb-9b81-40e740fe2ebf"],
+  "data/type": "json"
+}

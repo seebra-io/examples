@@ -1,0 +1,2 @@
+// The three emission futures every five years: concentration and methane's forcing.
+data.scenarios.filter((r) => r.year % 5 === 0).map((r) => ({scenario: r.scenario, year: r.year, ch4_ppb: +r.ppb.toFixed(0), forcing_w_m2: +r.forcing.toFixed(3)}))

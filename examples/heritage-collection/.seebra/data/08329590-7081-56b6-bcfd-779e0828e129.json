@@ -1,0 +1,10 @@
+{
+  "data/id": "08329590-7081-56b6-bcfd-779e0828e129",
+  "data/name": "… with a licensed image data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 1040
+  },
+  "data/parent": ["query/id", "f16e9db8-2e99-5b98-9398-69c5c7037b97"],
+  "data/type": "json"
+}

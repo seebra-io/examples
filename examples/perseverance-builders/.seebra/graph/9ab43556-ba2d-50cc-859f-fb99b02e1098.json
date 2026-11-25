@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/perseverance-and-ingenuity-hover-a-part-click.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "9ab43556-ba2d-50cc-859f-fb99b02e1098",
   "graph/inputs": [
     ["data/id", "6738931b-6c59-56dd-9eb3-269e3073a51a"],

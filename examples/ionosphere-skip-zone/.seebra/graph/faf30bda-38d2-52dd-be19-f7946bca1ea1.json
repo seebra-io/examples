@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/the-ionosondes-now.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "faf30bda-38d2-52dd-be19-f7946bca1ea1",
   "graph/inputs": [],
   "graph/language": "javascript",

@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/what-one-more-kilogram-buys.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "9b8ef0a6-fcd9-5ad7-b1dc-344a0a476aa9",
   "graph/inputs": [
     ["data/id", "ad380aa8-fd61-5118-a758-6c7353ede9c7"],

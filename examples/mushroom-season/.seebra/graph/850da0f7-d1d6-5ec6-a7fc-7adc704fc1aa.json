@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/which-chanterelle-names-and-confidence-on.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "850da0f7-d1d6-5ec6-a7fc-7adc704fc1aa",
   "graph/inputs": [],
   "graph/language": "javascript",

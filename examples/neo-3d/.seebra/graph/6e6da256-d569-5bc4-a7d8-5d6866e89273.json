@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/flyby-trajectories-past-earth-3d-estimated.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "6e6da256-d569-5bc4-a7d8-5d6866e89273",
   "graph/inputs": [
     ["data/id", "a29cf280-5f5d-5304-9de0-8328f094acff"],

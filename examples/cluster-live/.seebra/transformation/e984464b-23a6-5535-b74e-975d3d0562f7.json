@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/usual-band-per-service-signal-rolling-median-k.js"
+  },
+  "transformation/data-child": ["data/id", "38f3d53c-64fb-5218-85c0-d7fb0a93cfc5"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "js-web-worker",
+  "transformation/id": "e984464b-23a6-5535-b74e-975d3d0562f7",
+  "transformation/inputs": [],
+  "transformation/language": "javascript",
+  "transformation/name": "Usual band per service signal: rolling median ± k·MAD",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "234d2eef-36b5-51b4-b160-b553c4932bff"],
+  "transformation/units": "{}"
+}

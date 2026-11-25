@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/when-each-species-is-recorded-share-of-its.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "b2fb6807-d4a1-5d2f-9406-d64ddeb37b51",
   "graph/inputs": [],
   "graph/language": "javascript",

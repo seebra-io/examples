@@ -2,6 +2,7 @@
   "graph/content": {
     "$file": "graphs/who-holds-the-load-runs-against-l-per-workflow.js"
   },
+  "graph/dynamic?": false,
   "graph/id": "3f868679-5f90-5796-80c3-65bba91264fe",
   "graph/inputs": [],
   "graph/language": "javascript",

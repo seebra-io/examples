@@ -1,0 +1,10 @@
+{
+  "data/id": "5891f00e-0982-5547-8a5d-f3d5efeda3cf",
+  "data/name": "p99, errors, traffic, restarts and the neighbours' p99 over the window (one PromQL subquery) data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 800
+  },
+  "data/parent": ["query/id", "e668ed2b-3575-5025-be55-fd5a455e27d3"],
+  "data/type": "json"
+}

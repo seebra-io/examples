@@ -1,0 +1,12 @@
+{
+  "data/id": "affaa5b8-348f-526f-a670-b82659db53a4",
+  "data/name": "Verdict",
+  "data/node": {
+    "node/created": 5,
+    "node/x": 1610,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "24eb7ef7-81c6-5592-9df3-71b28ea0a241"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

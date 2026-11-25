@@ -1,0 +1,10 @@
+{
+  "data/id": "161ed111-b6c9-531f-95ec-512fe2aaaa9a",
+  "data/name": "The claim's data: ln(genera) against time, Mesozoic bins data",
+  "data/node": {
+    "node/x": 1610,
+    "node/y": 320
+  },
+  "data/parent": ["transformation/id", "5369f770-b144-5232-9f79-ba42d9837c07"],
+  "data/type": "json"
+}
