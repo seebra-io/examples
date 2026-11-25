@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/the-tide-and-what-a-once-a-day-reading-makes-of.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "bcfc516d-dfc6-559a-b992-6fc4ba3928bf",
   "graph/inputs": [],

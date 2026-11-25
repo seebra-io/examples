@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/cluster-live-services-workloads-pods-and-logs.js"
   },
+  "graph/description": "",
   "graph/dynamic?": true,
   "graph/id": "0c72f30d-05a3-5a7b-8aad-7d4db5df3a4c",
   "graph/inputs": [

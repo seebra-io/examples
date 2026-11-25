@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/heights-from-temperatures-the-hypsometric.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "a85db96c-3081-52e1-8a3b-53c438055179",
   "graph/inputs": [

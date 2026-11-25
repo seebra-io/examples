@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/the-collection-in-k-samsok.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "d7047b9b-1192-5f25-8017-8f6bdda0425b",
   "graph/inputs": [

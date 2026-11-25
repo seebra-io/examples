@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/hr-diagram-with-lines-of-equal-radius.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "9646af98-1d0b-516a-8453-e58eb9a82145",
   "graph/inputs": [

@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/four-mars-missions-in-3d-hover-one-switch-the.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "58bb6856-d037-5684-8527-f35c48cee9d1",
   "graph/inputs": [

@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/how-fast-it-rises-and-enso.js"
   },
+  "graph/description": "**How fast is it rising?** Bars: NOAA's annual growth (ppb per year); line: the monthly growth rate, the trend's 12-month change. Beneath, ENSO (the Oceanic Niño Index): red El Niño, blue La Niña.\n\nThe 2020–2022 surge coincided with a triple-dip La Niña (wetter tropical wetlands emit more) and with COVID lockdowns (less NOx, so less OH to destroy methane).\n\n*Be aware:* across 40 years ENSO alone tracks growth poorly; the strongest correlation, at its best lag, is shown under the chart.",
   "graph/dynamic?": false,
   "graph/id": "79f7533f-ad1c-52ee-891b-083de1c43ab6",
   "graph/inputs": [],

@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/yearly-growth-per-country.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "e4680d1f-4679-55e9-9d9a-208f738ea13b",
   "graph/inputs": [],

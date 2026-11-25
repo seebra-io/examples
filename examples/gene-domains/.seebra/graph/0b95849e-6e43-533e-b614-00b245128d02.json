@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/where-they-are-active-organ-specific-genes-by.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "0b95849e-6e43-533e-b614-00b245128d02",
   "graph/inputs": [],

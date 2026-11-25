@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/pm2-5-by-the-hour-g-m3-dashed-who-24-hour.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "0f7afc1f-3cb7-5988-addb-77be1961c794",
   "graph/inputs": [],

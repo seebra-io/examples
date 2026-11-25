@@ -1,0 +1,8 @@
+{
+  "file": {
+    "file/example": "gravitational-waves"
+  },
+  "format": 2,
+  "root": ["dashboard/id", "17d4933b-f962-50f8-94ca-d5a0f4fbf7ec"],
+  "seebra": "board"
+}

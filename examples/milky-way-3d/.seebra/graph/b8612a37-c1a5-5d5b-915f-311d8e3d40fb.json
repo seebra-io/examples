@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/from-the-sun-to-the-nearest-stars-log-scale.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "b8612a37-c1a5-5d5b-915f-311d8e3d40fb",
   "graph/inputs": [],

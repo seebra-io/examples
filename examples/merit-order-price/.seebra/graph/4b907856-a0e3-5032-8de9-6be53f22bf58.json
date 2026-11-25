@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/the-duck-residual-load-and-price-over-the-day.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "4b907856-a0e3-5032-8de9-6be53f22bf58",
   "graph/inputs": [],

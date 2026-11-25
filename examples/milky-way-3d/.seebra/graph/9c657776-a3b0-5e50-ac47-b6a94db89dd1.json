@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/the-sun-s-neighbourhood-every-star-within-100.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "9c657776-a3b0-5e50-ac47-b6a94db89dd1",
   "graph/inputs": [

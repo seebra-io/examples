@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/measurements-against-one-all-years-curve-low.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "eceeab43-e7ce-54a0-a73f-9261c78e2a8a",
   "graph/inputs": [

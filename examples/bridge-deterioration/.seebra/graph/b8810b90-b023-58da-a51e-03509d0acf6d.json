@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/the-interstate-cohorts-age-poor-bridges-in-2035.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "b8810b90-b023-58da-a51e-03509d0acf6d",
   "graph/inputs": [],

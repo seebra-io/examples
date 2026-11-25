@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/does-evolution-agree-prediction-by-how-common-a.js"
   },
+  "graph/description": "**Does evolution agree with AlphaMissense?** Every change one DNA letter can make, by how many of gnomAD's 807,162 people carry it, against its predicted pathogenicity. A change that breaks the protein is removed by selection before it can spread, so the commoner a change, the bluer it should be.\n\nWatch the *one person* column: in TP53 it is redder than *never seen*. gnomAD's blood samples include **clonal haematopoiesis**, blood cells that gained a TP53 mutation with age, which are not inherited variants.\n\n**Hover** a band for its counts.",
   "graph/dynamic?": false,
   "graph/id": "0fe49d7e-2f1c-5d38-a92c-0007c879e3fa",
   "graph/inputs": [],

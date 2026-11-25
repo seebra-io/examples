@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/how-large-each-model-is-hover-for-the-model.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "ef848df5-6353-52d3-bf14-c03a5cbb1ecb",
   "graph/inputs": [],

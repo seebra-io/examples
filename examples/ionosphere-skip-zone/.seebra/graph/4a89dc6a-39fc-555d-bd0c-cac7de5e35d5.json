@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/fof2-against-local-solar-time.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "4a89dc6a-39fc-555d-bd0c-cac7de5e35d5",
   "graph/inputs": [],

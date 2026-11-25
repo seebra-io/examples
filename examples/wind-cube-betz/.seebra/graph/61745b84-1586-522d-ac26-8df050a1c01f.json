@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/power-curve-power-in-the-wind-and-betz.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "61745b84-1586-522d-ac26-8df050a1c01f",
   "graph/inputs": [

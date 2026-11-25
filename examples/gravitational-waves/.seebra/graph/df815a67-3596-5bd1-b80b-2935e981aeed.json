@@ -1,0 +1,18 @@
+{
+  "graph/caption": "below",
+  "graph/content": {
+    "$file": "graphs/the-chosen-merger-s-chirp-see-it-and-hear-it.js"
+  },
+  "graph/description": "**The chosen merger's chirp,** from its chirp mass alone. As the two masses spiral in, the wave's frequency rises with the time $\\tau$ left before they touch:\n\n$$f(\\tau) = \\frac{1}{\\pi}\\left(\\frac{5}{256\\,\\tau}\\right)^{3/8}\\left(\\frac{G\\mathcal{M}}{c^3}\\right)^{-5/8}, \\qquad \\mathcal{M} = \\frac{(m_1 m_2)^{3/5}}{(m_1+m_2)^{1/5}}$$\n\nand the strain grows as $h \\propto f^{2/3}$, stopping at the innermost stable orbit, $f \\approx c^3/(6^{3/2}\\pi G M)$. Heavier pairs chirp lower and shorter: a neutron-star pair stays in the detectors' band for over a minute, GW231123 for a fraction of a second. The chirp mass is taken in the detector frame, $\\mathcal{M}(1+z)$, since the expanding universe stretches the signal. Press **Hear it**: the waves are already at audio frequencies. *Be aware:* this is the leading-order (Newtonian) inspiral, not the measured strain or the merger and ringdown; [GWOSC](https://gwosc.org) has each event's real data.",
+  "graph/dynamic?": false,
+  "graph/id": "df815a67-3596-5bd1-b80b-2935e981aeed",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "The chosen merger's chirp: see it and hear it",
+  "graph/node": {
+    "node/created": 6,
+    "node/x": 1460,
+    "node/y": 1760
+  },
+  "graph/parent": ["data/id", "7d1d7170-ce99-5a77-a46e-34d9b1c84a3f"]
+}

@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/front-forces-and-recent-changes-on-the-terrain.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "97879f27-9a66-58dd-85f0-1f96347a4288",
   "graph/inputs": [

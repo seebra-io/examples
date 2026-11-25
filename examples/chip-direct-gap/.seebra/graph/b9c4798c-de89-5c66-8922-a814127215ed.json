@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/band-gaps-by-family-who-is-direct.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "b9c4798c-de89-5c66-8922-a814127215ed",
   "graph/inputs": [],

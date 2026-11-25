@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/seasons-on-a-log-scale-exponential-growth-is-a.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "f199a82f-9db0-56c2-a56c-9853898fe7ba",
   "graph/inputs": [

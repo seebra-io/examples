@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/per-observing-run.js"
+  },
+  "transformation/data-child": ["data/id", "b87a9672-3642-55fa-8523-fe920368018b"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "js-web-worker",
+  "transformation/id": "c59fdd92-c1a3-5731-8fb8-fd32bd8555fd",
+  "transformation/inputs": [],
+  "transformation/language": "javascript",
+  "transformation/name": "Per observing run",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 320
+  },
+  "transformation/parent": ["data/id", "7d1d7170-ce99-5a77-a46e-34d9b1c84a3f"],
+  "transformation/units": "{}"
+}

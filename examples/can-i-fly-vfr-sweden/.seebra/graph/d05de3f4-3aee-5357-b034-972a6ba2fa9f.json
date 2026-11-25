@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/verdict-can-essa-esgg-be-flown-vfr-at-the.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "d05de3f4-3aee-5357-b034-972a6ba2fa9f",
   "graph/inputs": [

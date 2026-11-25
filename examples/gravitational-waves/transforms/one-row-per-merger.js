@@ -1,0 +1,2 @@
+// One row per merger, newest first; radiated energy in solar masses and joules.
+data.events.map(({t, m1_lo, m1_hi, m2_lo, m2_hi, chi_lo, chi_hi, ...e}) => ({...e, q: e.q == null ? null : +e.q.toFixed(3), radiated_share: e.radiated_share == null ? null : +e.radiated_share.toFixed(4), radiated_j: e.radiated_j == null ? null : +e.radiated_j.toPrecision(3)})).reverse()

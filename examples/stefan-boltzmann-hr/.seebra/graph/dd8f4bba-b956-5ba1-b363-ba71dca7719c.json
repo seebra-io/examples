@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/the-main-sequence-is-a-mass-sequence.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "dd8f4bba-b956-5ba1-b363-ba71dca7719c",
   "graph/inputs": [

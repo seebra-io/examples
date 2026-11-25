@@ -1,7 +1,9 @@
 {
+  "graph/caption": "below",
   "graph/content": {
     "$file": "graphs/the-supernova-ruler-against-cdm.js"
   },
+  "graph/description": "**The supernova ruler.** Type Ia supernovae explode with nearly the same peak brightness, so how faint one looks says how far its light travelled: the distance modulus $\\mu = m - M = 5\\log_{10}\\left(d_L / 10\\,\\mathrm{pc}\\right)$. Each dot is one of Pantheon+'s 1,580 Hubble-flow supernovae, its $\\mu$ minus what ΛCDM predicts (above 0: fainter, further away); white points are averages in redshift bins, the dashed curve the evolving dark energy fitted to all three rulers. *Be aware:* their absolute brightness $M$ is left free, so only the curve's shape counts, not its level. **Hover** a point.",
   "graph/dynamic?": false,
   "graph/id": "c5a50455-ee78-5ace-b4fa-9e0526499c42",
   "graph/inputs": [],

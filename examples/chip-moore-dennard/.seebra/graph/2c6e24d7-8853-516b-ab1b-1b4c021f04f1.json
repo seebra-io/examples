@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/doublings-per-year-before-and-after-the-break.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "2c6e24d7-8853-516b-ab1b-1b4c021f04f1",
   "graph/inputs": [],

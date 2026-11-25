@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/pca-loadings-who-moves-each-component.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "14363793-775d-5483-9e2d-1b3fe655d7cd",
   "graph/inputs": [],

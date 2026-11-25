@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/recurring-warnings-per-hour.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "dcd36434-4293-5881-9dff-29c5e1f3626c",
   "graph/inputs": [],

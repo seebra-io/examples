@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/the-paper-its-original-figure-and-its-data.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "3171f1ca-cde8-5df1-9570-1d85e6ea63c0",
   "graph/inputs": [],

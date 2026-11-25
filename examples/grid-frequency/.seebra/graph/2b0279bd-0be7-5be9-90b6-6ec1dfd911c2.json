@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/the-day-frequency-minus-50-hz-minute-by-minute.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "2b0279bd-0be7-5be9-90b6-6ec1dfd911c2",
   "graph/inputs": [],

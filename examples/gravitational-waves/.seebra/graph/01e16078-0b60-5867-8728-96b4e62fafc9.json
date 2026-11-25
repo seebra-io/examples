@@ -1,0 +1,18 @@
+{
+  "graph/caption": "side",
+  "graph/content": {
+    "$file": "graphs/ten-years-of-detections-run-by-run-and-how-far.js"
+  },
+  "graph/description": "**Ten years of detections.** Top: each step is a merger, the grey bands the observing runs, with mergers per week. Upgrades between runs pushed the detectors' reach out, and since the volume searched grows as the cube of the reach, the rate jumped: about 0.2 a week in 2015–17, 1.7 in 2019–20, about 4 in 2023–25.\n\nBottom: how far away each was (luminosity distance, in megaparsecs; $1\\,\\mathrm{Mpc} \\approx 3.26$ million light years), coloured by chirp mass. Heavier pairs are heard from further away.\n\n*Be aware:* O4c (2025) has no catalogue yet, and 109 recent candidates in GWTC-5.0 have no published distance or masses.",
+  "graph/dynamic?": false,
+  "graph/id": "01e16078-0b60-5867-8728-96b4e62fafc9",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Ten years of detections, run by run, and how far",
+  "graph/node": {
+    "node/created": 5,
+    "node/x": 1460,
+    "node/y": 1520
+  },
+  "graph/parent": ["data/id", "7d1d7170-ce99-5a77-a46e-34d9b1c84a3f"]
+}

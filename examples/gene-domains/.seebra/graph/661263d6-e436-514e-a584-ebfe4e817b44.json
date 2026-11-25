@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/the-chromosome-domains-tads-and-genes-zoomable.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "661263d6-e436-514e-a584-ebfe4e817b44",
   "graph/inputs": [],

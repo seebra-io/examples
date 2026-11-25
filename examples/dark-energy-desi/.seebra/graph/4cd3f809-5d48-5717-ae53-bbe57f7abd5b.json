@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/desi-s-sound-wave-ruler-against-cdm.js"
   },
+  "graph/description": "**DESI's standard ruler.** Sound waves frozen into matter 380,000 years after the Big Bang left a preferred galaxy separation, $r_d \\approx 147$ Mpc. DESI measures it across the line of sight, $D_M/r_d$, and along it, $D_H/r_d$ with $D_H = c/H(z)$, at seven redshifts.\n\nEach is shown divided by what ΛCDM (fitted to DESI and the CMB) predicts: on the line at 1 is ΛCDM. The dashed curves are the evolving dark energy fitted to all three rulers.\n\nWatch $z \\approx 0.5$–$0.7$: $D_H$ below 1 means the expansion was a little faster there than ΛCDM allows.\n\n**Hover** a point.",
   "graph/dynamic?": false,
   "graph/id": "4cd3f809-5d48-5717-ae53-bbe57f7abd5b",
   "graph/inputs": [],

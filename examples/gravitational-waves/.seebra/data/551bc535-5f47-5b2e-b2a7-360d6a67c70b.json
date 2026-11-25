@@ -1,0 +1,13 @@
+{
+  "data/content": "{\"event\":\"GW150914\"}",
+  "data/id": "551bc535-5f47-5b2e-b2a7-360d6a67c70b",
+  "data/name": "Parameters",
+  "data/node": {
+    "node/width": 420,
+    "node/x": 80,
+    "node/y": 80
+  },
+  "data/parameter?": true,
+  "data/render?": true,
+  "data/type": "parameters"
+}

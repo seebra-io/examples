@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/recalls-per-firm-by-class.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "4bad04da-de88-5230-bc92-bf966badb055",
   "graph/inputs": [

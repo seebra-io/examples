@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/every-dinosaur-genus-from-its-oldest-to-its.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "7a6c57c5-8877-5f00-933d-b0e28a751d6e",
   "graph/inputs": [],

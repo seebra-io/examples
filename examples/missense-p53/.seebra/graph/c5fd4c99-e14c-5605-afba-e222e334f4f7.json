@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/the-alphafold-model-in-3d-by-predicted-harm.js"
   },
+  "graph/description": "**The AlphaFold model in 3D:** one bead per residue on the backbone, coloured by how damaging AlphaMissense predicts its changes to be (or, with the button, by AlphaFold's confidence).\n\nThe red beads pack into the folded core; the low-confidence ends float as loose strings, which is what *disordered* looks like in a prediction: don't read their shape as real. The residue chosen on the map is white; rings mark the residues with the most ClinVar pathogenic changes.\n\n**Drag** to orbit, **wheel** to zoom, **hover** a bead.",
   "graph/dynamic?": false,
   "graph/id": "c5fd4c99-e14c-5605-afba-e222e334f4f7",
   "graph/inputs": [],

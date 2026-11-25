@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/expand-did-the-other-services-move-too.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "88110edd-3180-5be8-a2a8-d98277397708",
   "graph/inputs": [

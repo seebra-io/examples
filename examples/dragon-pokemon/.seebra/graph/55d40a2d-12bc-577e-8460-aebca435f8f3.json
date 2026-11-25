@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/dragon-share-of-new-species-with-95-interval.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "55d40a2d-12bc-577e-8460-aebca435f8f3",
   "graph/inputs": [],

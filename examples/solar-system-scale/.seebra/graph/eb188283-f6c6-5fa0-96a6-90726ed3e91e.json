@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/the-kirkwood-gaps-asteroids-by-orbit-size.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "eb188283-f6c6-5fa0-96a6-90726ed3e91e",
   "graph/inputs": [

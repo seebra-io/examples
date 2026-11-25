@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/pods-per-namespace-by-phase.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "23e56ae3-15fd-57b0-a9e6-095e303de5c9",
   "graph/inputs": [],

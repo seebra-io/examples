@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/geiger-nuttall-becomes-one-line-quantum.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "17278057-434b-5434-bead-1a072f1b4727",
   "graph/inputs": [

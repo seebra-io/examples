@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/how-rare-the-best-cut-is.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "ed3a681b-18f0-5d95-961a-6010b751cde6",
   "graph/inputs": [

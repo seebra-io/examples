@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/heavier-or-lighter-than-a-star-wars-body-of-the.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "b975a077-0314-5956-9d94-cf8266d207e7",
   "graph/inputs": [],

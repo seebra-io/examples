@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/warnings-per-reason.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "a19fc9d5-0636-51c8-9709-9ff0fe863d8a",
   "graph/inputs": [],

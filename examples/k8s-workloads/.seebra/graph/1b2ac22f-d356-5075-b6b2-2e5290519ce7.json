@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/most-restarted-containers-by-last-exit-reason.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "1b2ac22f-d356-5075-b6b2-2e5290519ce7",
   "graph/inputs": [

@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/is-b-stable-b-against-mc-for-mb-and-mw.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "6a7d47ee-f922-5c08-b429-31522a9c49ec",
   "graph/inputs": [],

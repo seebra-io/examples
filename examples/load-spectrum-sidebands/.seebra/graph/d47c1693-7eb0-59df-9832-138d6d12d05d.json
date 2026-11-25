@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/the-weekly-envelope.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "d47c1693-7eb0-59df-9832-138d6d12d05d",
   "graph/inputs": [],

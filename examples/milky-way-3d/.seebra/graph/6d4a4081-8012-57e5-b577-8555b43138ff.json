@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/gaia-dr3-s-census-of-the-same-100-light-years.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "6d4a4081-8012-57e5-b577-8555b43138ff",
   "graph/inputs": [],

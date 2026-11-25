@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/how-far-the-dates-have-slipped.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "e1baf949-90c7-55cd-bd75-47163d131e7b",
   "graph/inputs": [],

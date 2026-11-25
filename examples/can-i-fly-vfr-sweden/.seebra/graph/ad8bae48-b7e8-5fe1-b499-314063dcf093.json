@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/taf-timeline-across-the-departure-window.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "ad8bae48-b7e8-5fe1-b499-314063dcf093",
   "graph/inputs": [

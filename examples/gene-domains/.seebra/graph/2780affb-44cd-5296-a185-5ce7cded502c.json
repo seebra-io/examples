@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/do-genes-in-one-domain-share-a-function.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "2780affb-44cd-5296-a185-5ce7cded502c",
   "graph/inputs": [],

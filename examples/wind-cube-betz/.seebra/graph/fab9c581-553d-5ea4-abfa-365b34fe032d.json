@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/hours-and-energy-by-wind-speed.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "fab9c581-553d-5ea4-abfa-365b34fe032d",
   "graph/inputs": [],

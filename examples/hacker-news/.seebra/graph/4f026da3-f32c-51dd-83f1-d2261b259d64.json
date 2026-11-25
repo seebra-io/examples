@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/points-against-comments-log-scales.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "4f026da3-f32c-51dd-83f1-d2261b259d64",
   "graph/inputs": [],

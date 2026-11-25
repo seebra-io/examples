@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/spectrum-harmonics-and-sidebands.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "67527db6-9239-5ccf-bfa7-0b968cd9355d",
   "graph/inputs": [

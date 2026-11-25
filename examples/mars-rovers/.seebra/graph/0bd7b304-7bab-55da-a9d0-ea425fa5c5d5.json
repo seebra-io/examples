@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/images-per-sol-the-same-100-images-different.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "0bd7b304-7bab-55da-a9d0-ea425fa5c5d5",
   "graph/inputs": [

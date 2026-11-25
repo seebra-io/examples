@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/out-to-80-mpc-the-local-volume-the-2mass.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "825f8e3e-53c1-5ff9-a7b2-b2db9a487a46",
   "graph/inputs": [

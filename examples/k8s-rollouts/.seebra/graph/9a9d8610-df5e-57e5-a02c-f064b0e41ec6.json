@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/image-versions-per-repository-drift.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "9a9d8610-df5e-57e5-a02c-f064b0e41ec6",
   "graph/inputs": [

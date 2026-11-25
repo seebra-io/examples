@@ -1,0 +1,10 @@
+{
+  "data/id": "7d1d7170-ce99-5a77-a46e-34d9b1c84a3f",
+  "data/name": "Mergers: masses, kind, energy radiated, gaps, runs data",
+  "data/node": {
+    "node/x": 1150,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "6a6ffa68-c771-50c1-ab97-e11af77104bf"],
+  "data/type": "json"
+}

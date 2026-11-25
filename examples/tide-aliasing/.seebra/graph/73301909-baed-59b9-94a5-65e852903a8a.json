@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/spectra-per-sampling-rate-with-alias-theory.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "73301909-baed-59b9-94a5-65e852903a8a",
   "graph/inputs": [

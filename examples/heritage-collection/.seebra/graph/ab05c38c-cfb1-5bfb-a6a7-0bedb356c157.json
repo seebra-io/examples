@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/where-find-places.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "ab05c38c-cfb1-5bfb-a6a7-0bedb356c157",
   "graph/inputs": [

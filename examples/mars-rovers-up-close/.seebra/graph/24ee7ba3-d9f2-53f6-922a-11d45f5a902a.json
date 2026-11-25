@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/where-the-watts-go.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "24ee7ba3-d9f2-53f6-922a-11d45f5a902a",
   "graph/inputs": [],

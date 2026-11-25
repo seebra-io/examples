@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/sizes-on-a-log-scale-median-and-geometric-mean.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "72dff261-ed1c-5da3-b298-bb6e732c2caf",
   "graph/inputs": [],

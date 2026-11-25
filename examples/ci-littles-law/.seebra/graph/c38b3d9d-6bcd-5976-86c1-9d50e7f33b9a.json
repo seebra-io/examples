@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/l-t-against-w.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "c38b3d9d-6bcd-5976-86c1-9d50e7f33b9a",
   "graph/inputs": [

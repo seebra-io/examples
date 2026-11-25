@@ -1,0 +1,18 @@
+{
+  "graph/caption": "below",
+  "graph/content": {
+    "$file": "graphs/the-black-hole-mass-spectrum-two-peaks-and-a.js"
+  },
+  "graph/description": "**The black-hole mass spectrum:** how many detected mergers have their heavier mass in each log-spaced bin. It is not one smooth slope: a pile near $10\\,M_\\odot$, a second bump near $35\\,M_\\odot$, then a tail running straight through the pair-instability gap (purple), where no black hole born from a single star should be. The heavy ones may be *second-generation*: remnants of earlier mergers, paired again in dense star clusters. Caveat: these are detected counts. A merger is heard out to a distance that grows with its chirp mass, roughly $d \\propto \\mathcal{M}^{5/6}$, so the volume searched grows as $\\mathcal{M}^{5/2}$ and heavy mergers are strongly over-represented; the true population has relatively far more light ones (the GWTC population papers correct for this).",
+  "graph/dynamic?": false,
+  "graph/id": "1ebbb361-e2bb-5dc6-a6e5-fbae269e5284",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "The black-hole mass spectrum: two peaks and a tenanted gap",
+  "graph/node": {
+    "node/created": 2,
+    "node/x": 1460,
+    "node/y": 800
+  },
+  "graph/parent": ["data/id", "7d1d7170-ce99-5a77-a46e-34d9b1c84a3f"]
+}

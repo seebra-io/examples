@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/holidays-per-day-poisson-or-clustered.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "7759d57b-cf66-5e8d-bd92-48501fe93c42",
   "graph/inputs": [],

@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/extreme-values-gumbel-plot-and-return-levels.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "1c9e7200-201b-5ec9-b4d3-8b2ba1a4176d",
   "graph/inputs": [

@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/which-data-and-how-long-the-export-takes-hover-a.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "0e470197-ab47-594d-ba77-fb166a558cdb",
   "graph/inputs": [],

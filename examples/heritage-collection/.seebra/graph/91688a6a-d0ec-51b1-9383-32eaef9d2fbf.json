@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/what-object-names-and-materials.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "91688a6a-d0ec-51b1-9383-32eaef9d2fbf",
   "graph/inputs": [],

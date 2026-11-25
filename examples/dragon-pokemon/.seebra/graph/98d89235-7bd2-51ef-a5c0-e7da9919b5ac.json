@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/type-chart.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "98d89235-7bd2-51ef-a5c0-e7da9919b5ac",
   "graph/inputs": [],

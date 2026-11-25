@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/collection-gaps-what-is-missing-by-type-and.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "0238fe63-82d6-5a03-9248-930947f9202e",
   "graph/inputs": [

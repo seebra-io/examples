@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/fold-or-no-fold-alphafold-s-confidence-against.js"
   },
+  "graph/description": "**Why is half the protein tolerant?** Each residue's AlphaFold confidence (pLDDT) against the mean AlphaMissense score of its 19 possible changes.\n\nResidues AlphaFold can't place (pLDDT $< 50$) are **disordered**: there is no fold to break, so almost any change is predicted benign, and ClinVar's pathogenic changes (red rings) sit in the folded core.\n\n*Be aware:* disorder is not junk. p53's disordered ends carry its activation and binding sites, whose damage neither AlphaMissense nor a fold sees well.\n\n**Click** a residue to show it in 3D.",
   "graph/dynamic?": false,
   "graph/id": "4c811057-eb77-54e9-a8c7-2693ab64854e",
   "graph/inputs": [],

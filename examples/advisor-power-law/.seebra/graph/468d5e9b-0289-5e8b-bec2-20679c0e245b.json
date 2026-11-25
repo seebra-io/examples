@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/choosing-x-min-and-the-ks-distance.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "468d5e9b-0289-5e8b-bec2-20679c0e245b",
   "graph/inputs": [],

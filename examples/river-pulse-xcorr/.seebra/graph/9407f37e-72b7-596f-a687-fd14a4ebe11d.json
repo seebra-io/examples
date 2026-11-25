@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/cross-correlation-against-lag.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "9407f37e-72b7-596f-a687-fd14a4ebe11d",
   "graph/inputs": [

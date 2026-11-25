@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/trend-with-an-uncertainty-band-c-against.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "797aca8f-18c2-58c6-98d4-de645723bffb",
   "graph/inputs": [],

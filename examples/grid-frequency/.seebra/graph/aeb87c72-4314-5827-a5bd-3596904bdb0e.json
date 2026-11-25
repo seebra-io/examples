@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/folded-at-the-quarter-hour-the-schedule-sawtooth.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "aeb87c72-4314-5827-a5bd-3596904bdb0e",
   "graph/inputs": [],

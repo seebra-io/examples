@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/is-dark-energy-constant-the-rulers-in-the-w0-wa.js"
   },
+  "graph/description": "**Is dark energy constant?** Its equation of state $w = p/\\rho c^2$, allowed to change as the universe expands:\n\n$$w(a) = w_0 + w_a\\,(1 - a), \\qquad a = \\frac{1}{1+z}$$\n\nA cosmological constant, ΛCDM, is the cross at $w_0 = -1,\\ w_a = 0$. Each ruler alone allows a long band; where the bands cross is what the data say together. The regions are where $\\chi^2$ is within $2.3$ (inner, ≈ 68%) and $6.2$ (outer, ≈ 95%) of its best, with $\\Omega_m$ free. If the cross falls outside a combination's outer region, that combination disfavours ΛCDM.\n\nBelow the diagonal $w_0 + w_a = -1$, dark energy was *phantom* ($w < -1$) in the past.\n\n*Be aware:* a simplified fit: the CMB enters as one distance (Planck's acoustic angle) and the supernovae with their diagonal errors only, so the regions are close to the published ones, not identical.",
   "graph/dynamic?": false,
   "graph/id": "ccbd9f84-b7e8-5f85-860b-7f688e8f8196",
   "graph/inputs": [],

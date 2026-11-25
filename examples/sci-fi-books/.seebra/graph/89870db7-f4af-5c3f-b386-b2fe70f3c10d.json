@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/rank-by-editions-vs-editions-per-year-in-print.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "89870db7-f4af-5c3f-b386-b2fe70f3c10d",
   "graph/inputs": [],

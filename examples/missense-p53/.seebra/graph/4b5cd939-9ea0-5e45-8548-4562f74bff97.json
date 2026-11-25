@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/every-single-change-predicted-carried-diagnosed.js"
   },
+  "graph/description": "**TP53, residue by residue** (N- to C-terminus, left to right), in four tracks:\n\n- **AlphaFold's confidence** (pLDDT, 0–100): low means no fixed fold;\n- **AlphaMissense:** one row per amino acid the residue could become, red = predicted pathogenic;\n- **gnomAD:** the changes people carry, higher = more common;\n- **ClinVar:** what clinics concluded.\n\nNotice how the red rows line up with the high-confidence fold (the DNA-binding domain, about residues 94–292), and how the common changes sit in the blue.\n\n**Hover** a cell; **click** a residue to show it in 3D (it sets the residue parameter); drag on the axis to zoom.",
   "graph/dynamic?": false,
   "graph/id": "4b5cd939-9ea0-5e45-8548-4562f74bff97",
   "graph/inputs": [],

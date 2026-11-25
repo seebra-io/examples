@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/the-budget-two-big-flows-and-a-thin-gap.js"
   },
+  "graph/description": "**Methane's budget in one box.** About 600 million tonnes are emitted every year (wetlands, livestock, rice, landfills, fossil-fuel leaks, fires) and almost as much destroyed, mostly by the hydroxyl radical OH:\n\n$$\\frac{dM}{dt} = \\frac{E}{2.75} - \\frac{M}{\\tau}$$\n\nwith $M$ the stock in ppb, $E$ the emissions in Tg a year (2.75 Tg per ppb) and the lifetime $\\tau \\approx 9.1$ years. So the sink is $2.75\\,M/\\tau$ and the emissions are the sink plus the growth.\n\nThe growth everyone tracks is the **thin gap between two big flows**: the record 2021 was an imbalance of 8%. A 7% drop in OH alone, as models give for 2020's cleaner air, would do the same.\n\n*Be aware:* $\\tau$ is held fixed; in reality OH, and so the sink, varies.\n\n**Hover** a year.",
   "graph/dynamic?": false,
   "graph/id": "4e282227-2b7a-581a-8932-cd79becc6f99",
   "graph/inputs": [],

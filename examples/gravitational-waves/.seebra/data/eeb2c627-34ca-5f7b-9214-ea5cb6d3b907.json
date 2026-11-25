@@ -1,0 +1,10 @@
+{
+  "data/id": "eeb2c627-34ca-5f7b-9214-ea5cb6d3b907",
+  "data/name": "Every confident merger in the cumulative GWTC catalogue (latest version of each) data",
+  "data/node": {
+    "node/x": 820,
+    "node/y": 80
+  },
+  "data/parent": ["query/id", "8c47caec-7b19-56ee-a9ed-9c43782426f5"],
+  "data/type": "json"
+}

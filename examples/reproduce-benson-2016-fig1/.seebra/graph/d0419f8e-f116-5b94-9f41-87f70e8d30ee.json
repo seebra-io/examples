@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/figure-1b-c-live-genera-and-species-per-bin-and.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "d0419f8e-f116-5b94-9f41-87f70e8d30ee",
   "graph/inputs": [

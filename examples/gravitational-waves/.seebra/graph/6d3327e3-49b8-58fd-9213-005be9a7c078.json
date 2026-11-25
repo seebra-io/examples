@@ -1,0 +1,18 @@
+{
+  "graph/caption": "side",
+  "graph/content": {
+    "$file": "graphs/every-merger-s-two-masses-and-the-two-gaps.js"
+  },
+  "graph/description": "Every merger with published parameters, its **heavier mass $m_1$ against the lighter $m_2$** (source frame, in solar masses; lines: 90% credible intervals), on log scales. Dot size is the signal-to-noise ratio.\n\nThe shaded bands are the two gaps stellar physics predicts:\n\n- the **lower mass gap**, about 2.5–5 $M_\\odot$, between the heaviest neutron star and the lightest black hole seen in X-ray binaries;\n- the **pair-instability gap**, about 60–130 $M_\\odot$, where a very massive star's core makes electron–positron pairs, loses pressure and either blows itself apart or sheds mass, leaving no black hole.\n\nBoth have tenants: GW230529 and GW190814 put an object in the lower gap, and 32 mergers have a mass in the upper one, up to GW231123 at $137 + 101\\,M_\\odot$.\n\n**Hover** a merger for its numbers; **click** it to choose it for the chirp slide.\n\n*Be aware:* objects below $3\\,M_\\odot$ are counted as neutron stars here, a rule of thumb; the catalogue doesn't say what each object is.",
+  "graph/dynamic?": false,
+  "graph/id": "6d3327e3-49b8-58fd-9213-005be9a7c078",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "Every merger's two masses, and the two gaps",
+  "graph/node": {
+    "node/created": 1,
+    "node/x": 1460,
+    "node/y": 560
+  },
+  "graph/parent": ["data/id", "7d1d7170-ce99-5a77-a46e-34d9b1c84a3f"]
+}

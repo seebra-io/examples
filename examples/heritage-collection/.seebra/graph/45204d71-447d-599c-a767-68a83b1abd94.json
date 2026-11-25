@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/wider-the-same-parish-in-fornsok-and-other.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "45204d71-447d-599c-a767-68a83b1abd94",
   "graph/inputs": [

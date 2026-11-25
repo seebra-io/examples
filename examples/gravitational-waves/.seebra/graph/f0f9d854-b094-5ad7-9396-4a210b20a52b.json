@@ -1,0 +1,18 @@
+{
+  "graph/caption": "side",
+  "graph/content": {
+    "$file": "graphs/how-they-spin-born-together-or-met-in-a-cluster.js"
+  },
+  "graph/description": "**How were they spinning?** The effective spin is the mass-weighted spin along the orbit's axis:\n\n$$\\chi_\\mathrm{eff} = \\frac{m_1\\chi_1\\cos\\theta_1 + m_2\\chi_2\\cos\\theta_2}{m_1 + m_2}$$\n\n$+1$: both spinning as fast as possible with the orbit; $-1$: against it; $0$: no spin, or spins in the orbital plane.\n\nPairs that grew up together as one binary star should have roughly aligned spins ($\\chi_\\mathrm{eff} \\ge 0$); pairs that met in a crowded cluster point any way, so as often negative as positive. Most black holes here spin slowly, the mean leans positive (0.06), and a third of the medians are below zero. Unequal pairs (small $q = m_2/m_1$) tend to spin more (dashed line), a trend no simple formation story predicts.\n\n*Be aware:* most intervals include 0, so a single event says little; the pattern is in the population.",
+  "graph/dynamic?": false,
+  "graph/id": "f0f9d854-b094-5ad7-9396-4a210b20a52b",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "How they spin: born together or met in a cluster?",
+  "graph/node": {
+    "node/created": 4,
+    "node/x": 1460,
+    "node/y": 1280
+  },
+  "graph/parent": ["data/id", "7d1d7170-ce99-5a77-a46e-34d9b1c84a3f"]
+}

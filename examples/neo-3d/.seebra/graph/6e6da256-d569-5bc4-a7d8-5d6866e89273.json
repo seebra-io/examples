@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/flyby-trajectories-past-earth-3d-estimated.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "6e6da256-d569-5bc4-a7d8-5d6866e89273",
   "graph/inputs": [

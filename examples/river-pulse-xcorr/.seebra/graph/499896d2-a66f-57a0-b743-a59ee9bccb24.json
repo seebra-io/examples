@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/the-dam-s-daily-pulse-at-both-gauges.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "499896d2-a66f-57a0-b743-a59ee9bccb24",
   "graph/inputs": [],

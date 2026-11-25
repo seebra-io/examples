@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/organizations-per-country.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "42545ad8-cc94-5eeb-9aeb-17db3ed17fdf",
   "graph/inputs": [],

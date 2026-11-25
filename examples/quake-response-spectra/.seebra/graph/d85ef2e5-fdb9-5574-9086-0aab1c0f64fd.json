@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/tall-vs-low-buildings-station-by-station.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "d85ef2e5-fdb9-5574-9086-0aab1c0f64fd",
   "graph/inputs": [

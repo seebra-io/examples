@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/how-well-one-threshold-separates-them.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "ac126319-e20c-5d8e-9797-57dee16f3c1f",
   "graph/inputs": [

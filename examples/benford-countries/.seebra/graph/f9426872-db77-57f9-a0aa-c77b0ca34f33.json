@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/benford-s-law-first-digits-against-log10-1-1-d.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "f9426872-db77-57f9-a0aa-c77b0ca34f33",
   "graph/inputs": [

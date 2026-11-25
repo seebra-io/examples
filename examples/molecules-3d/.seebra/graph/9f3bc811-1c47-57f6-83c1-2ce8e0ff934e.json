@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/bond-lengths-cluster-by-kind-a-distribution-per.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "9f3bc811-1c47-57f6-83c1-2ce8e0ff934e",
   "graph/inputs": [

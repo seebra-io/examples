@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/the-genetic-code-from-the-data-coloured-by-codon.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "7299b49f-a0f2-5788-8226-6c6cb81c5743",
   "graph/inputs": [

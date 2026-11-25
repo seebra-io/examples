@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/direct-against-fundamental-gap-the-phonon-a.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "5d4f3303-8cd3-5f34-a72a-00a722d0a762",
   "graph/inputs": [],

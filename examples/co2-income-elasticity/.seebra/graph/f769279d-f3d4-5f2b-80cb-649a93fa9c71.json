@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/within-countries-over-time-not-the-cross-country.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "f769279d-f3d4-5f2b-80cb-649a93fa9c71",
   "graph/inputs": [

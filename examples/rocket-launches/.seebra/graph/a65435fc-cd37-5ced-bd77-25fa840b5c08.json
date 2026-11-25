@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/poisson-waiting-times-share-of-gaps-at-least.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "a65435fc-cd37-5ced-bd77-25fa840b5c08",
   "graph/inputs": [],

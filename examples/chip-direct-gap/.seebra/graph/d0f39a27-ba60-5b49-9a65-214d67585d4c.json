@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/direct-gap-share-per-family.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "d0f39a27-ba60-5b49-9a65-214d67585d4c",
   "graph/inputs": [],

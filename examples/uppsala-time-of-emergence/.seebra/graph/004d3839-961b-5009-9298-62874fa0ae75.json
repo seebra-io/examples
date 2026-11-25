@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/every-season-warmed-about-3-c.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "004d3839-961b-5009-9298-62874fa0ae75",
   "graph/inputs": [],

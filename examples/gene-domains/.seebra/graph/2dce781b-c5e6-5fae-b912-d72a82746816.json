@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/the-selected-complex-in-3d-chains-by-protein.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "2dce781b-c5e6-5fae-b912-d72a82746816",
   "graph/inputs": [],

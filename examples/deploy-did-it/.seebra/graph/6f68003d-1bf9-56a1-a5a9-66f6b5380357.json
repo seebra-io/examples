@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/drill-down-a-rollout-s-logs-events-and-pods.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "6f68003d-1bf9-56a1-a5a9-66f6b5380357",
   "graph/inputs": [

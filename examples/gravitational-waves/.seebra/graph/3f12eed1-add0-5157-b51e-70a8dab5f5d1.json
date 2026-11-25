@@ -1,0 +1,18 @@
+{
+  "graph/caption": "side",
+  "graph/content": {
+    "$file": "graphs/e-mc2-the-mass-radiated-as-gravitational-waves.js"
+  },
+  "graph/description": "**$E = mc^2$, measured.** The black hole left after a merger weighs less than the two before it; the difference left as gravitational waves within a fraction of a second:\n\n$$E_\\mathrm{rad} = \\left(m_1 + m_2 - M_\\mathrm{final}\\right)c^2$$\n\nGW150914 turned about $3\\,M_\\odot$ into ripples of spacetime, $\\approx 5\\times10^{47}$ J, at its peak more power than all the stars in the observable universe shine. Across the catalogue it is a median **4.5%** of the total mass (dashed lines: 3, 5 and 7%), more for equal, fast-spinning pairs; 734 $M_\\odot$ in all.\n\n**Hover** for the energy in joules; **click** to choose a merger for the chirp slide.\n\n*Be aware:* both masses are medians of wide posteriors, so the difference is uncertain, most for light and quiet events (the scattered dots at the bottom).",
+  "graph/dynamic?": false,
+  "graph/id": "3f12eed1-add0-5157-b51e-70a8dab5f5d1",
+  "graph/inputs": [],
+  "graph/language": "javascript",
+  "graph/name": "E = mc²: the mass radiated as gravitational waves",
+  "graph/node": {
+    "node/created": 3,
+    "node/x": 1460,
+    "node/y": 1040
+  },
+  "graph/parent": ["data/id", "7d1d7170-ce99-5a77-a46e-34d9b1c84a3f"]
+}

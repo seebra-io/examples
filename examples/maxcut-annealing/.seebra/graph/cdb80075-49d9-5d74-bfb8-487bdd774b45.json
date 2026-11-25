@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/start-here.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "cdb80075-49d9-5d74-bfb8-487bdd774b45",
   "graph/inputs": [],

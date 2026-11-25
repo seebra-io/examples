@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/when-dating-by-century.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "b73f5636-13f8-5efb-8e59-b2d36695c99a",
   "graph/inputs": [

@@ -1,7 +1,9 @@
 {
+  "graph/caption": "below",
   "graph/content": {
     "$file": "graphs/would-it-have-told-the-clinic-clinvar-against.js"
   },
+  "graph/description": "**Would AlphaMissense have told the clinic?** The reviewed ClinVar classifications (at least one star) of the changes one DNA letter can make, against AlphaMissense's score $s$, which was trained without ClinVar's labels; its classes are *likely benign* for $s < 0.34$ and *likely pathogenic* for $s > 0.564$. The pathogenic pile at the right and the benign at the left barely overlap. Below them, the variants of uncertain significance (VUS): where a prediction is most useful and least proven. *Be aware:* some classifications made since 2023 may cite AlphaMissense, and TP53's are also informed by functional assays.",
   "graph/dynamic?": false,
   "graph/id": "a9adddf3-9a49-59a4-932c-4853ea1fd199",
   "graph/inputs": [],

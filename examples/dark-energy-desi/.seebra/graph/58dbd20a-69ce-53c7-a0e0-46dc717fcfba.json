@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/the-hubble-tension-h0-three-ways.js"
   },
+  "graph/description": "**The Hubble tension:** how fast is the universe expanding today, $H_0$ in $v = H_0\\,d$?\n\n- The **distance ladder** (Cepheid variables calibrate 77 nearby supernovae, which calibrate the rest) says about **73** km/s/Mpc;\n- the **sound-wave ruler**, whose length $r_d$ comes from early-universe physics, says **67–69**.\n\nThe gap is several times either error, and evolving dark energy, which changes late distances, doesn't close it.\n\nFaint dots: the value each Hubble-flow supernova gives on its own.",
   "graph/dynamic?": false,
   "graph/id": "58dbd20a-69ce-53c7-a0e0-46dc717fcfba",
   "graph/inputs": [],

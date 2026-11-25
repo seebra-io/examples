@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/what-the-genes-do-system-process-gene.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "0782b782-b3fb-51c8-9643-9529f9457864",
   "graph/inputs": [],

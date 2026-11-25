@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/which-semi-major-axes-were-measured-and-which.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "968759e4-f505-5bdd-883e-a6aa6fb2713e",
   "graph/inputs": [

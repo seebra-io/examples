@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/materials-at-the-same-age.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "018823bf-dede-573c-b165-7a5c7e94882b",
   "graph/inputs": [],

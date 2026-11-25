@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/stefan-boltzmann-radius-against-gaia-s-spectral.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "dbd73110-8030-5169-9332-19e738a9e572",
   "graph/inputs": [

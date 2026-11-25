@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/where-they-came-down-hover-a-site.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "8edde33d-d6aa-5fa2-b762-e78bf0c7604c",
   "graph/inputs": [

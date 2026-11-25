@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/perseverance-and-ingenuity-hover-a-part-click.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "9ab43556-ba2d-50cc-859f-fb99b02e1098",
   "graph/inputs": [

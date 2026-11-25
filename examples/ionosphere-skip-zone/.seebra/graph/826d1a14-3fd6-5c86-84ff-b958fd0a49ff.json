@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/muf-against-distance-the-skip-zone.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "826d1a14-3fd6-5c86-84ff-b958fd0a49ff",
   "graph/inputs": [],

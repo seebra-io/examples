@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/where-they-struck.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "64acd2c5-66fe-535a-8586-3980fcdbc3d5",
   "graph/inputs": [

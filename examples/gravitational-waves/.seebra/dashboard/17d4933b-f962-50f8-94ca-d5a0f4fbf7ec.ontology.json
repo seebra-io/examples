@@ -1,0 +1,102 @@
+{
+  "title": "Gravitational-wave mergers",
+  "summary": "Pairs of black holes and neutron stars that spiralled together and merged, heard by LIGO, Virgo and KAGRA.",
+  "concepts": [
+    {
+      "cid": "c1",
+      "label": "Compact binary coalescence",
+      "kind": "event",
+      "description": "The merger of two black holes or neutron stars, detected by its gravitational waves.",
+      "fields": [
+        "t_table.name",
+        "t_table.date",
+        "t_table.kind"
+      ],
+      "in_data": true,
+      "wikidata": "Q1758346",
+      "children": [
+        {
+          "cid": "c2",
+          "label": "Source-frame mass",
+          "kind": "measure",
+          "as": "property",
+          "description": "Each object's mass in solar masses, corrected for redshift; median of the posterior.",
+          "fields": [
+            "t_table.m1",
+            "t_table.m2",
+            "t_table.total",
+            "t_table.final",
+            "t_table.chirp"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c3",
+          "label": "Effective spin",
+          "kind": "measure",
+          "as": "property",
+          "description": "χ_eff: the mass-weighted spin along the orbital axis, −1 to 1.",
+          "fields": [
+            "t_table.chi_eff"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c4",
+          "label": "Luminosity distance",
+          "kind": "measure",
+          "as": "property",
+          "description": "Distance in megaparsecs inferred from the signal's amplitude.",
+          "fields": [
+            "t_table.distance_mpc",
+            "t_table.redshift"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c5",
+          "label": "Radiated energy",
+          "kind": "measure",
+          "as": "property",
+          "description": "Total minus final mass: what left as gravitational waves.",
+          "fields": [
+            "t_table.radiated_msun",
+            "t_table.radiated_j"
+          ],
+          "in_data": true
+        },
+        {
+          "cid": "c6",
+          "label": "Black hole",
+          "kind": "entity",
+          "as": "part",
+          "description": "A compact object above about 3 solar masses here.",
+          "fields": [],
+          "in_data": true,
+          "wikidata": "Q589"
+        },
+        {
+          "cid": "c7",
+          "label": "Neutron star",
+          "kind": "entity",
+          "as": "part",
+          "description": "A compact object below about 3 solar masses here.",
+          "fields": [],
+          "in_data": true,
+          "wikidata": "Q4202"
+        }
+      ]
+    },
+    {
+      "cid": "c8",
+      "label": "Observing run",
+      "kind": "time",
+      "description": "A period the detectors took science data (O1–O4).",
+      "fields": [
+        "t_runs.run",
+        "t_table.run"
+      ],
+      "in_data": true
+    }
+  ]
+}

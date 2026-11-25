@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/day-by-day-country-by-country.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "ef7b87a7-b12a-562a-b964-344b84abafd4",
   "graph/inputs": [],

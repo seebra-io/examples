@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/anomaly-as-a-z-score-each-day-against-its-1991.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "4a0159bb-a692-5e71-8741-ecd94e29e760",
   "graph/inputs": [],

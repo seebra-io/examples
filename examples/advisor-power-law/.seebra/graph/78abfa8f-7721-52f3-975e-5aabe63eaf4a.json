@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/concentration-who-supervises-the-supervisions.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "78abfa8f-7721-52f3-975e-5aabe63eaf4a",
   "graph/inputs": [],

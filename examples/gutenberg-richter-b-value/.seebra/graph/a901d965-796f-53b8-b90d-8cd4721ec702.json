@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/gutenberg-richter-ten-times-rarer-per-magnitude.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "a901d965-796f-53b8-b90d-8cd4721ec702",
   "graph/inputs": [

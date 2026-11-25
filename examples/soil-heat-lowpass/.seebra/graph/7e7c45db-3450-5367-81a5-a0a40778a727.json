@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/a-summer-week-the-daily-swing-dies-with-depth.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "7e7c45db-3450-5367-81a5-a0a40778a727",
   "graph/inputs": [],

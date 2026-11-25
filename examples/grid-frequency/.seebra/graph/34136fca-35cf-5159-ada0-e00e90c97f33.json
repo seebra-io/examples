@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/each-quarter-hour-first-2-minutes-against-the.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "34136fca-35cf-5159-ada0-e00e90c97f33",
   "graph/inputs": [],

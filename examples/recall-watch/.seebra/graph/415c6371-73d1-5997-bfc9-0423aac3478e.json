@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/in-the-latest-reports-by-class-and-feed.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "415c6371-73d1-5997-bfc9-0423aac3478e",
   "graph/inputs": [],

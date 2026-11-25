@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/poor-share-against-age-exponential-wear-in-then.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "bd5c078f-fbd4-5f74-a7a6-4a4a955a1e0b",
   "graph/inputs": [

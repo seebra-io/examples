@@ -1,7 +1,9 @@
 {
+  "graph/caption": "below",
   "graph/content": {
     "$file": "graphs/a-short-memory-three-futures-from-today-s.js"
   },
+  "graph/description": "**A short memory.** The air clears about a ninth of its methane every year, so methane answers a change in emissions within a decade, unlike CO₂, which lingers for centuries. With emissions held at today's $E$, it levels off at the steady state $M^{*} = E\\tau / 2.75$, approached as $M(t) = M^{*} + (M_0 - M^{*})\\,e^{-t/\\tau}$. Three futures from today's emissions: held, cut 30% by 2030 (the size of the Global Methane Pledge), and rising 1% a year. The right axis is the warming push (radiative forcing) methane exerts. **Hover** a year.",
   "graph/dynamic?": false,
   "graph/id": "10cb6fc9-f1a4-5369-9065-bfa3737313a4",
   "graph/inputs": [],

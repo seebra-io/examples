@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/gdp-per-capita-current-us.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "438a3da3-7cf0-560d-8c6f-f50eb7d69cde",
   "graph/inputs": [],

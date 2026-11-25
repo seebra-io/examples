@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/cop-against-outdoor-temperature-four-houses.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "a5c4bf09-3744-5745-8917-0aaff9355ac0",
   "graph/inputs": [

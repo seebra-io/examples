@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/r-herd-immunity-threshold-and-final-size-per.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "b958f7a9-2980-57e0-b489-ccf7de4aa1b2",
   "graph/inputs": [],

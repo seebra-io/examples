@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/distribution-and-exceedance-quantiles-of-hourly.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "635f63d4-d5a8-528a-aeb5-ad36ead6f654",
   "graph/inputs": [],

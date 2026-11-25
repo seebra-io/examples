@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/50-years-of-microprocessors-moore-keeps-going.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "310dcf27-dd43-57bf-a91c-c900b07d1ede",
   "graph/inputs": [

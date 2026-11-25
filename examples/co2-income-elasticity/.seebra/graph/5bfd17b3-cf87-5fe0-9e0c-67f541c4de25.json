@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/elasticity-across-countries-log-log.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "5bfd17b3-cf87-5fe0-9e0c-67f541c4de25",
   "graph/inputs": [],

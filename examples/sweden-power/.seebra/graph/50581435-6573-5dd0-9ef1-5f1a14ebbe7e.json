@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/correlation-causation-pearson-r-between-sources.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "50581435-6573-5dd0-9ef1-5f1a14ebbe7e",
   "graph/inputs": [

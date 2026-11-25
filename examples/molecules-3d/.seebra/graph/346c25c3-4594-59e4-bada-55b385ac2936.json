@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/haemoglobin-3d.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "346c25c3-4594-59e4-bada-55b385ac2936",
   "graph/inputs": [],

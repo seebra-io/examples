@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/the-rating-shift-the-stage-that-carries-the-same.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "06229433-a0ad-5d7a-8854-762e9754755d",
   "graph/inputs": [],

@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/the-epitaxy-map-band-gap-against-lattice.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "3bc5fa77-1c7f-53b0-871a-7cc36a0d5cbc",
   "graph/inputs": [

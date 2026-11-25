@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/why-chiplets-silicon-saved-by-splitting-a-big.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "db160e3f-cc5f-5933-b945-715e67a8f76a",
   "graph/inputs": [],

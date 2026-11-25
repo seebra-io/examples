@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/launch-timeline-by-provider.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "ac188264-37c2-5f91-b003-cc632300bf53",
   "graph/inputs": [

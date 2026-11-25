@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/around-earth-3d.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "07820cd8-c44f-58a8-86d4-66f200fb9609",
   "graph/inputs": [],

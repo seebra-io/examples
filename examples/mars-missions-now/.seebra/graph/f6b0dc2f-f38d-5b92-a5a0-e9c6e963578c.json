@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/how-high-the-orbiters-fly.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "f6b0dc2f-f38d-5b92-a5a0-e9c6e963578c",
   "graph/inputs": [],

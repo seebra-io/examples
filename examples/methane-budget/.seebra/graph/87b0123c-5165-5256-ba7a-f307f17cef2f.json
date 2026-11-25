@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/forty-years-of-methane-era-by-era.js"
   },
+  "graph/description": "**Forty years of methane** in the global air: monthly means from NOAA's marine surface sites (thin, with the seasonal swing, since the OH that destroys methane peaks in each hemisphere's summer) and the de-seasonalised trend (thick).\n\nRead the trend's slope, era by era: a steady rise, a puzzling **pause** from 2000 to 2006, a renewed rise from 2007 and the record **surge** of 2020–2022.\n\n**Hover** for the month.",
   "graph/dynamic?": false,
   "graph/id": "87b0123c-5165-5256-ba7a-f307f17cef2f",
   "graph/inputs": [],

@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/distribution-of-first-publication-decades.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "bff00902-c1de-5e71-ada5-f6544da0884a",
   "graph/inputs": [],

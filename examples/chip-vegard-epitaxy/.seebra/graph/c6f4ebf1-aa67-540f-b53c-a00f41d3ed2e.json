@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/vegard-s-law-lattice-constant-is-linear-in.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "c6f4ebf1-aa67-540f-b53c-a00f41d3ed2e",
   "graph/inputs": [

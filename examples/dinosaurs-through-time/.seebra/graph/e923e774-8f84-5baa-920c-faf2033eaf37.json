@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/where-dinosaurs-are-found-today-and-where-they.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "e923e774-8f84-5baa-920c-faf2033eaf37",
   "graph/inputs": [],

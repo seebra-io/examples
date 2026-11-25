@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/the-route-over-sweden-metar-flight-categories.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "ccc0fec7-4b5c-5532-aa0e-0e4e20da3529",
   "graph/inputs": [

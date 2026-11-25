@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/spotify-played-a-lot-skipped-a-lot.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "a892e0e1-a4fd-50a5-a89d-27d274212e71",
   "graph/inputs": [],

@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/trouton-s-rule-the-entropy-of-vaporisation-per.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "4eb09681-1feb-5cbb-ab43-eaae1323071e",
   "graph/inputs": [

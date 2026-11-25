@@ -1,0 +1,16 @@
+{
+  "datasource/api-key-key": "api_key",
+  "datasource/auth-type": "none",
+  "datasource/headers": "{}",
+  "datasource/id": "af480a42-79f2-5865-977f-11b9d585b032",
+  "datasource/name": "Gravitational Wave Open Science Center (GWOSC)",
+  "datasource/node": {
+    "inputs": 1,
+    "node/x": 80,
+    "node/y": 320,
+    "outputs": 1
+  },
+  "datasource/params": "{}",
+  "datasource/type": "openapi",
+  "datasource/url": "https://gwosc.org"
+}

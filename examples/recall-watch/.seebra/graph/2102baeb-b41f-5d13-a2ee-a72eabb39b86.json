@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/recalls-per-report-day-the-newest-on-the-right.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "2102baeb-b41f-5d13-a2ee-a72eabb39b86",
   "graph/inputs": [],

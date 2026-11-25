@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/warnings-per-minute-and-the-bursts.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "74045e53-202d-5e30-b472-14b3b9ab2bfe",
   "graph/inputs": [

@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/price-against-residual-load-the-merit-order.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "22a2f188-d3c9-53b4-b071-747a9af3449d",
   "graph/inputs": [

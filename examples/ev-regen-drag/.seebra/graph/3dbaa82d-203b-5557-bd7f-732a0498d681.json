@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/evs-highway-penalty-by-body-type.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "3dbaa82d-203b-5557-bd7f-732a0498d681",
   "graph/inputs": [],

@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/the-push-on-the-climate-co2-ch4-and-n2o.js"
   },
+  "graph/description": "**The push on the climate** since pre-industrial times (radiative forcing, W/m²) from the three long-lived greenhouse gases, with the simplified formulas IPCC uses (Myhre et al. 1998):\n\n$$\\Delta F_{\\mathrm{CO_2}} = 5.35\\,\\ln\\frac{C}{C_0}, \\qquad \\Delta F_{\\mathrm{CH_4}} \\approx 0.036\\left(\\sqrt{M} - \\sqrt{M_0}\\right)$$\n\n(with a small correction for the overlap with N₂O), from $C_0 = 278$ ppm and $M_0 = 722$ ppb in 1750.\n\nCO₂ dominates, but methane is second, and each tonne of it pushes about 80 times harder than a tonne of CO₂ over 20 years.\n\n*Be aware:* methane's direct forcing alone; its ozone and water vapour add about half again.\n\n**Hover** a year.",
   "graph/dynamic?": false,
   "graph/id": "b4b70ad2-0c5e-5e6c-b886-d377cb473844",
   "graph/inputs": [],

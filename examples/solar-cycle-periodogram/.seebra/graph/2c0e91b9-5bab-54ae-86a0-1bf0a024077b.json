@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/275-years-of-sunspots-cycle-by-cycle.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "2c0e91b9-5bab-54ae-86a0-1bf0a024077b",
   "graph/inputs": [

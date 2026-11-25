@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/verdict-per-rollout.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "78cb8fcd-b075-5701-8626-620e021312b8",
   "graph/inputs": [

@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/rarefaction-curves-and-chao1-species-depend-on.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "9a438088-31e2-5d52-a0f5-28d5e6a15b21",
   "graph/inputs": [

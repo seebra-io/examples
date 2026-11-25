@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/gutenberg-richter-a-power-law-is-a-straight-line.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "229730a4-99da-5d75-9cfd-5c40e3bfd038",
   "graph/inputs": [],

@@ -1,0 +1,12 @@
+{
+  "data/id": "9553dbeb-f609-5c93-afcf-e651a49cc927",
+  "data/name": "Mergers",
+  "data/node": {
+    "node/created": 7,
+    "node/x": 1610,
+    "node/y": 80
+  },
+  "data/parent": ["transformation/id", "287e5a04-77f2-59c6-a8e6-a54adae835e0"],
+  "data/presentation?": true,
+  "data/type": "json"
+}

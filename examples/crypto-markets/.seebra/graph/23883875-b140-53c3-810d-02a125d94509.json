@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/log-returns-and-volatility-the-week-against-its.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "23883875-b140-53c3-810d-02a125d94509",
   "graph/inputs": [],

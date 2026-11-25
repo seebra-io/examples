@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/the-rating-curve-4-000-measurements-one-power.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "e6849b6d-a3ac-5a9f-a2be-23cdbd0b851b",
   "graph/inputs": [

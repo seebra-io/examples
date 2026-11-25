@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/mass-against-height-on-log-axes-star-wars-bodies.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "3b635060-56bc-5752-8cc3-1cebcf4cb767",
   "graph/inputs": [

@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/every-organization-against-the-rover-s-systems.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "d5a80edb-99c4-5222-a1d0-8d5a3c1bdf74",
   "graph/inputs": [],

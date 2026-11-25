@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/temperature-profiles-from-pole-to-pole-and-the.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "9e15bc94-3521-5b42-8d0d-2b04d0c71655",
   "graph/inputs": [

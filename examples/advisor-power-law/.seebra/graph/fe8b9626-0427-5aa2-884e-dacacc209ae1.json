@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/why-a-line-through-the-log-log-histogram.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "fe8b9626-0427-5aa2-884e-dacacc209ae1",
   "graph/inputs": [

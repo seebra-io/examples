@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/age-at-the-award-a-trend-with-its-uncertainty.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "00424d79-c70f-5541-a559-fa10a1ff81f1",
   "graph/inputs": [

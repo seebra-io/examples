@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/field-coverage-check-the-response-shape.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "55dc3660-a765-57ec-b2bf-4091630e2677",
   "graph/inputs": [],

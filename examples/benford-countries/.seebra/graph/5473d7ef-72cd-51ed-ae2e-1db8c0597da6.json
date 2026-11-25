@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/population-against-area-coloured-by-first-digit.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "5473d7ef-72cd-51ed-ae2e-1db8c0597da6",
   "graph/inputs": [],

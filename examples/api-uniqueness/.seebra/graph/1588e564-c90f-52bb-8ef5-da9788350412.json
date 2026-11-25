@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/most-and-least-unique-apis-and-what-they-are.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "1588e564-c90f-52bb-8ef5-da9788350412",
   "graph/inputs": [],

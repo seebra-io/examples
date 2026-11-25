@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/the-frost-free-season-1840-2025.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "db4e1ea1-cb62-54de-9b2c-c32ad7955eca",
   "graph/inputs": [],

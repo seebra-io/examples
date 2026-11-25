@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/on-the-ground-hover-a-site.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "e84cbe33-e765-527d-9ee0-452c02fbd506",
   "graph/inputs": [

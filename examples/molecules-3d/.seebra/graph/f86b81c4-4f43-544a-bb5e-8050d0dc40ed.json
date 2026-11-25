@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/caffeine-3d.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "f86b81c4-4f43-544a-bb5e-8050d0dc40ed",
   "graph/inputs": [

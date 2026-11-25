@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/uniqueness-by-field-crowded-categories-against.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "c98f2074-ae3f-574d-9db6-827140fbd9ab",
   "graph/inputs": [],

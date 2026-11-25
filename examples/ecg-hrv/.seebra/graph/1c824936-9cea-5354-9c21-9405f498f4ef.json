@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/ectopic-beats-fake-hrv-unless-intervals-are.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "1c824936-9cea-5354-9c21-9405f498f4ef",
   "graph/inputs": [],

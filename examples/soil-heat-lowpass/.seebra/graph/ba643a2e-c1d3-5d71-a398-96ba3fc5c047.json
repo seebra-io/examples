@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/damping-against-depth-daily-and-annual-log-scale.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "ba643a2e-c1d3-5d71-a398-96ba3fc5c047",
   "graph/inputs": [

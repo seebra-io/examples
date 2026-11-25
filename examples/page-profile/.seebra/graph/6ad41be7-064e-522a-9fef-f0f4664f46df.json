@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/the-session-frames-scripts-fetches-and-moves.js"
   },
+  "graph/description": "",
   "graph/dynamic?": true,
   "graph/id": "6ad41be7-064e-522a-9fef-f0f4664f46df",
   "graph/inputs": [],

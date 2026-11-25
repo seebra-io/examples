@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/views-top-20.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "f4248f09-f584-5421-a548-27ca34f0291d",
   "graph/inputs": [],

@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/the-complexes-they-build-genes-complex-families.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "580295c8-0814-503a-a384-3ab0ed7cd8cc",
   "graph/inputs": [],

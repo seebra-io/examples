@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/the-similarity-network-each-api-tied-to-its-3.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "e69b5425-a46c-5737-9656-162c3b81e428",
   "graph/inputs": [

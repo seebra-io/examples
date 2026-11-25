@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/the-folding-rule-true-against-apparent-frequency.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "b26eae4f-397e-5d7f-8031-6f570821f089",
   "graph/inputs": [

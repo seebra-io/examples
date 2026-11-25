@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/dragon-pokemon-per-generation.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "15fcba2e-3d1d-5760-b6a4-184a9bbea7e5",
   "graph/inputs": [],

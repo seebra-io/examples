@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/yield-falls-exponentially-with-die-area.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "e6c694cc-1c0d-5a4e-8d94-3920cbf6c436",
   "graph/inputs": [

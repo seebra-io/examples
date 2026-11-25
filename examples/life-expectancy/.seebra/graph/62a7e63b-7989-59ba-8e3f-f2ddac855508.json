@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/life-expectancy-on-log-gdp-per-capita-a.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "62a7e63b-7989-59ba-8e3f-f2ddac855508",
   "graph/inputs": [],

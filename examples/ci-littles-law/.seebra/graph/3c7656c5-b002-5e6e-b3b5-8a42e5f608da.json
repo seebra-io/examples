@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/every-run-of-the-day-start-to-last-update.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "3c7656c5-b002-5e6e-b3b5-8a42e5f608da",
   "graph/inputs": [],

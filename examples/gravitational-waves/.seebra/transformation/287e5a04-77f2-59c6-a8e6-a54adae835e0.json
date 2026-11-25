@@ -1,0 +1,19 @@
+{
+  "transformation/content": {
+    "$file": "transforms/one-row-per-merger.js"
+  },
+  "transformation/data-child": ["data/id", "9553dbeb-f609-5c93-afcf-e651a49cc927"],
+  "transformation/dynamic?": true,
+  "transformation/environment": "js-web-worker",
+  "transformation/id": "287e5a04-77f2-59c6-a8e6-a54adae835e0",
+  "transformation/inputs": [],
+  "transformation/language": "javascript",
+  "transformation/name": "One row per merger",
+  "transformation/name?": true,
+  "transformation/node": {
+    "node/x": 1460,
+    "node/y": 80
+  },
+  "transformation/parent": ["data/id", "7d1d7170-ce99-5a77-a46e-34d9b1c84a3f"],
+  "transformation/units": "{}"
+}

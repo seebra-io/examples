@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/does-reconstruction-reset-the-clock.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "c5d0628e-c5f6-55c4-81dd-c5bde05cb057",
   "graph/inputs": [],

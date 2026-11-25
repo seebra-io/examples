@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/usage-over-request-per-namespace-the-spread.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "dda466c5-6a8c-525f-8db1-a62b6b44cd32",
   "graph/inputs": [

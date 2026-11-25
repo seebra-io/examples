@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/heterozygotes-against-allele-frequency.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "4d9aa16d-e40c-5250-8af0-995176e983dd",
   "graph/inputs": [],

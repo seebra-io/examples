@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/the-carnot-limit-and-flow-temperature.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "fac971ad-b301-550c-901b-c999756180c8",
   "graph/inputs": [],

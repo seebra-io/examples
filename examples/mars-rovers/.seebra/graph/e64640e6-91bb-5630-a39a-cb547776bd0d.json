@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/which-cameras-took-the-newest-100-images.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "e64640e6-91bb-5630-a39a-cb547776bd0d",
   "graph/inputs": [

@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/characters-against-their-species-average-height.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "eb14be70-da9b-5b2d-a3da-999101af446c",
   "graph/inputs": [],

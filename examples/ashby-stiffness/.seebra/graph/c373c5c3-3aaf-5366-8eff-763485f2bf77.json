@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/mass-of-the-same-stiff-part-against-steel-tie.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "c373c5c3-3aaf-5366-8eff-763485f2bf77",
   "graph/inputs": [],

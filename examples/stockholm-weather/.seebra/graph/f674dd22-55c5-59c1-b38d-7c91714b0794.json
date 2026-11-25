@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/temperature-c-and-rain-mm-h-by-the-hour.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "f674dd22-55c5-59c1-b38d-7c91714b0794",
   "graph/inputs": [

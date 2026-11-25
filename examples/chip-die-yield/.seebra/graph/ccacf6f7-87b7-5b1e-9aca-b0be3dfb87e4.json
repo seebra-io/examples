@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/cost-of-a-good-mm2-against-die-area.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "ccacf6f7-87b7-5b1e-9aca-b0be3dfb87e4",
   "graph/inputs": [],

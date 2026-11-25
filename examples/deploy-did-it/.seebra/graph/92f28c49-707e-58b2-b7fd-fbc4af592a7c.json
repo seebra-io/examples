@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/p99-errors-and-traffic-with-the-rollouts.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "92f28c49-707e-58b2-b7fd-fbc4af592a7c",
   "graph/inputs": [

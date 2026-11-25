@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/spotify-when-you-listen.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "c3ab43a1-26dd-5803-9b14-cb057dfcdce4",
   "graph/inputs": [],

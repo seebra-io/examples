@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/the-17-columns-along-20-e.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "7c60ea62-0001-595c-b82b-9b75df22b9c6",
   "graph/inputs": [],

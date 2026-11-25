@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/caffeine-in-the-a2a-pocket-3d.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "01c99a5d-4d37-52cc-9e59-096343668141",
   "graph/inputs": [

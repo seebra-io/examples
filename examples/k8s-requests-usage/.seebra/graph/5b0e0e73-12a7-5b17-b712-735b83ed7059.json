@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/request-against-usage-per-container-log-log.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "5b0e0e73-12a7-5b17-b712-735b83ed7059",
   "graph/inputs": [],

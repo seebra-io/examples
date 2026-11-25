@@ -1,0 +1,43 @@
+{
+  "dashboard/id": "17d4933b-f962-50f8-94ca-d5a0f4fbf7ec",
+  "datas": [
+    ["data/id", "551bc535-5f47-5b2e-b2a7-360d6a67c70b"],
+    ["data/id", "eeb2c627-34ca-5f7b-9214-ea5cb6d3b907"],
+    ["data/id", "7d1d7170-ce99-5a77-a46e-34d9b1c84a3f"],
+    ["data/id", "9553dbeb-f609-5c93-afcf-e651a49cc927"],
+    ["data/id", "b87a9672-3642-55fa-8523-fe920368018b"]
+  ],
+  "datasources": [
+    ["datasource/id", "af480a42-79f2-5865-977f-11b9d585b032"]
+  ],
+  "description": "Question: ten years after the first detection, LIGO, Virgo and KAGRA have published 391 confident collisions of black holes and neutron stars. What has the population taught us that one event couldn't: how heavy black holes get, whether the \"forbidden\" masses stellar physics predicts are really empty, how much energy a merger turns into ripples of spacetime, and how the black holes spin? Data: GWOSC's cumulative catalogue (GWTC-1 through GWTC-5.0, each event's latest version): source-frame masses with 90% intervals, final mass, effective spin, distance, redshift and signal-to-noise. Steps: each event placed in its observing run and classed by its masses (below 3 solar masses counted as a neutron star); energy radiated = total minus final mass; masses checked against the lower mass gap (about 2.5–5) and the pair-instability gap (about 60–130); the detection rate per run. Aha: the black-hole mass spectrum has two peaks, near 10 and near 35 solar masses, not one smooth slope, and the gap where no star's core should leave a black hole is not empty: 32 mergers have a mass in it, up to GW231123's 137 + 101, likely second-generation black holes built by earlier mergers in dense clusters. GW230529 and GW190814 put objects inside the lower gap. A merger radiates a median 4.5% of its mass in a fraction of a second (GW150914: 3 solar masses, 5 × 10⁴⁷ J; all of them together 734). Spins are small and lean positive (mean χ_eff 0.06), the signature of pairs born together, with a third below zero pointing to some formed in clusters. Upgrades took detections from 0.2 to about 4 a week. Caveats: these are detected events, so loud heavy mergers are over-represented; medians hide wide intervals, and gap edges are theory's estimates; 109 recent candidates have no published parameters yet and O4c's are not yet in a catalogue; the chirp slide draws the leading-order inspiral from the chirp mass, not the measured strain. Next: click any merger to see and hear its chirp; hover for its GWOSC page; drill down to one event's posterior samples and strain data at GWOSC; expand to the population models of the GWTC papers.",
+  "graphs": [
+    ["graph/id", "6d3327e3-49b8-58fd-9213-005be9a7c078"],
+    ["graph/id", "1ebbb361-e2bb-5dc6-a6e5-fbae269e5284"],
+    ["graph/id", "3f12eed1-add0-5157-b51e-70a8dab5f5d1"],
+    ["graph/id", "f0f9d854-b094-5ad7-9396-4a210b20a52b"],
+    ["graph/id", "01e16078-0b60-5867-8728-96b4e62fafc9"],
+    ["graph/id", "df815a67-3596-5bd1-b80b-2935e981aeed"]
+  ],
+  "grids": [],
+  "name": "Ten years of gravitational waves: what 391 black-hole and neutron-star mergers teach",
+  "ontology": {
+    "$file": ".seebra/dashboard/17d4933b-f962-50f8-94ca-d5a0f4fbf7ec.ontology.json",
+    "$json": true
+  },
+  "parameters": [
+    ["data/id", "551bc535-5f47-5b2e-b2a7-360d6a67c70b"]
+  ],
+  "queries": [
+    ["query/id", "8c47caec-7b19-56ee-a9ed-9c43782426f5"]
+  ],
+  "studies": [],
+  "tables": [],
+  "texts": [],
+  "timers": [],
+  "transformations": [
+    ["transformation/id", "6a6ffa68-c771-50c1-ab97-e11af77104bf"],
+    ["transformation/id", "287e5a04-77f2-59c6-a8e6-a54adae835e0"],
+    ["transformation/id", "c59fdd92-c1a3-5731-8fb8-fd32bd8555fd"]
+  ]
+}

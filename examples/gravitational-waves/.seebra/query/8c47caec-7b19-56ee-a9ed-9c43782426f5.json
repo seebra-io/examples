@@ -1,0 +1,19 @@
+{
+  "query/data-child": ["data/id", "eeb2c627-34ca-5f7b-9214-ea5cb6d3b907"],
+  "query/datasource": ["datasource/id", "af480a42-79f2-5865-977f-11b9d585b032"],
+  "query/dynamic?": true,
+  "query/format": "json",
+  "query/headers": "{}",
+  "query/id": "8c47caec-7b19-56ee-a9ed-9c43782426f5",
+  "query/key": "",
+  "query/method": "GET",
+  "query/name": "Every confident merger in the cumulative GWTC catalogue (latest version of each)",
+  "query/node": {
+    "node/x": 540,
+    "node/y": 80
+  },
+  "query/params": "{}",
+  "query/path": "/eventapi/json/GWTC/",
+  "query/request-body": "",
+  "query/units": "{}"
+}

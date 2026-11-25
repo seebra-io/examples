@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/tags-with-python.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "a55e88d0-1d0f-5a42-ac34-369c86225386",
   "graph/inputs": [],

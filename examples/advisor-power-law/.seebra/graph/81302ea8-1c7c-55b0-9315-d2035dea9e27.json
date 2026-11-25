@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/heavy-tail-vs-thin-tail-ccdfs-of-both-directions.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "81302ea8-1c7c-55b0-9315-d2035dea9e27",
   "graph/inputs": [],

@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/premature-ventricular-beats-and-the-compensatory.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "2ee142a5-bc37-5f11-adf6-8bf70fcfe1ba",
   "graph/inputs": [

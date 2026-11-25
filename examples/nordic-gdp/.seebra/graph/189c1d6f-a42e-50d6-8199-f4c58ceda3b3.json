@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/pca-of-the-panel-one-shared-nordic-year-pc1.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "189c1d6f-a42e-50d6-8199-f4c58ceda3b3",
   "graph/inputs": [

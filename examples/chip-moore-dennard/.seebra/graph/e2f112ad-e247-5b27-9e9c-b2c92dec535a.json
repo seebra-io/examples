@@ -1,7 +1,9 @@
 {
+  "graph/caption": "side",
   "graph/content": {
     "$file": "graphs/which-break-year-fits-the-clock-best.js"
   },
+  "graph/description": "",
   "graph/dynamic?": false,
   "graph/id": "e2f112ad-e247-5b27-9e9c-b2c92dec535a",
   "graph/inputs": [],
