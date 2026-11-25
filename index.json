@@ -1160,7 +1160,7 @@
     },
     {
       "id": "gravitational-waves",
-      "title": "Ten years of gravitational waves: what 391 black-hole and neutron-star mergers teach",
+      "title": "Ten years of gravitational waves: 391 black-hole and neutron-star mergers",
       "category": "Space",
       "description": "Every confident gravitational-wave merger GWOSC lists (391, GWTC-1 to GWTC-5.0): the two masses with both theoretical gaps, the black-hole mass spectrum (peaks near 10 and 35 solar masses; 32 mergers inside the pair-instability gap, up to GW231123), the energy radiated (median 4.5% of the mass), effective spins, detections run by run, and any merger's chirp drawn and played as sound. Caveats: detected, not true, populations; 109 recent candidates lack parameters.",
       "path": "examples/gravitational-waves",
@@ -1170,7 +1170,7 @@
       "data": [],
       "fetched": [],
       "catalog": {
-        "title": "Ten years of gravitational waves: what 391 black-hole and neutron-star mergers teach",
+        "title": "Ten years of gravitational waves: 391 black-hole and neutron-star mergers",
         "summary": "391 black-hole and neutron-star mergers (GWOSC, to GWTC-5.0): two mass peaks, a tenanted pair-instability gap, 4.5% of mass radiated, spins. Click one to hear its chirp.",
         "description": "Question: ten years after the first detection, LIGO, Virgo and KAGRA have published 391 confident collisions of black holes and neutron stars. What has the population taught us that one event couldn't: how heavy black holes get, whether the \"forbidden\" masses stellar physics predicts are really empty, how much energy a merger turns into ripples of spacetime, and how the black holes spin? Data: GWOSC's cumulative catalogue (GWTC-1 through GWTC-5.0, each event's latest version): source-frame masses with 90% intervals, final mass, effective spin, distance, redshift and signal-to-noise. Steps: each event placed in its observing run and classed by its masses (below 3 solar masses counted as a neutron star); energy radiated = total minus final mass; masses checked against the lower mass gap (about 2.5–5) and the pair-instability gap (about 60–130); the detection rate per run. Aha: the black-hole mass spectrum has two peaks, near 10 and near 35 solar masses, not one smooth slope, and the gap where no star's core should leave a black hole is not empty: 32 mergers have a mass in it, up to GW231123's 137 + 101, likely second-generation black holes built by earlier mergers in dense clusters. GW230529 and GW190814 put objects inside the lower gap. A merger radiates a median 4.5% of its mass in a fraction of a second (GW150914: 3 solar masses, 5 × 10⁴⁷ J; all of them together 734). Spins are small and lean positive (mean χ_eff 0.06), the signature of pairs born together, with a third below zero pointing to some formed in clusters. Upgrades took detections from 0.2 to about 4 a week. Caveats: these are detected events, so loud heavy mergers are over-represented; medians hide wide intervals, and gap edges are theory's estimates; 109 recent candidates have no published parameters yet and O4c's are not yet in a catalogue; the chirp slide draws the leading-order inspiral from the chirp mass, not the measured strain. Next: click any merger to see and hear its chirp; hover for its GWOSC page; drill down to one event's posterior samples and strain data at GWOSC; expand to the population models of the GWTC papers.",
         "categories": [

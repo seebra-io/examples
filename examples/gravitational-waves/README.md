@@ -1,4 +1,4 @@
-# Ten years of gravitational waves: what 391 black-hole and neutron-star mergers teach
+# Ten years of gravitational waves: 391 black-hole and neutron-star mergers
 
 Every confident gravitational-wave merger GWOSC lists (391, GWTC-1 to GWTC-5.0): the two masses with both theoretical gaps, the black-hole mass spectrum (peaks near 10 and 35 solar masses; 32 mergers inside the pair-instability gap, up to GW231123), the energy radiated (median 4.5% of the mass), effective spins, detections run by run, and any merger's chirp drawn and played as sound. Caveats: detected, not true, populations; 109 recent candidates lack parameters.
 
